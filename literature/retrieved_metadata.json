@@ -1,0 +1,376 @@
+[
+  {
+    "title": "Model-Independent Constraints on Redshift Residual Scaling from JWST JADES",
+    "doi": "10.21203/rs.3.rs-8467576/v1",
+    "publication_status": "posted-content",
+    "year": 2026,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "JWST CEERS and JADES Active Galaxies at z = 4\u20137 Violate the Local M\n                    <sub>\u2022</sub>\n                    \u2013M\n                    <sub>\u22c6</sub>\n                    Relation at &gt;3\u03c3: Implications for Low-mass Black Holes and Seeding Models",
+    "doi": "10.3847/2041-8213/ad0158",
+    "publication_status": "journal-article",
+    "year": 2023,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Spectroscopy with the JWST Advanced Deep Extragalactic Survey (JADES) - the NIRSpec/NIRCAM GTO galaxy evolution project",
+    "doi": "10.1017/s1743921319009463",
+    "publication_status": "journal-article",
+    "year": 2019,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Adding value to JWST spectra and photometry: stellar population and star formation properties of spectroscopically confirmed JADES and CEERS galaxies at\n                    <i>z</i>\n                    &amp;gt; 7",
+    "doi": "10.1093/mnras/stae872",
+    "publication_status": "journal-article",
+    "year": 2024,
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "",
+    "doi": "10.3030/101106626",
+    "publication_status": "grant",
+    "year": null,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Radio Emission from High-redshift Active Galactic Nuclei in the JADES and CEERS Surveys",
+    "doi": "10.3847/1538-3881/ad3b97",
+    "publication_status": "journal-article",
+    "year": 2024,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Constraints on the population of Galactic objects in the JWST UNCOVER survey catalogue",
+    "doi": "10.26119/vak2024.031",
+    "publication_status": "proceedings-article",
+    "year": 2024,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Selecting z\u2009\u223c\u20098 Galaxies with JWST Photometry in CEERS",
+    "doi": "10.3847/2515-5172/acd940",
+    "publication_status": "journal-article",
+    "year": 2023,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Redshifting galaxies from DESI to JWST CEERS: Correction of biases and uncertainties in quantifying morphology",
+    "doi": "10.1051/0004-6361/202346140",
+    "publication_status": "journal-article",
+    "year": 2023,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Hot Jupiter's transmission spectroscopy at the eve of JWST observations",
+    "doi": "10.70675/44b12df9z583ez4c35zac08z0091885c1bd9",
+    "publication_status": "dissertation",
+    "year": null,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "JWST sees little red dots",
+    "doi": "10.1038/s42254-024-00789-y",
+    "publication_status": "journal-article",
+    "year": 2024,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Multiphase Gas Structure in JWST Little Red Dots",
+    "doi": "10.21203/rs.3.rs-11486004/v1",
+    "publication_status": "posted-content",
+    "year": 2026,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "JWST Insights into Narrow-line Little Red Dots",
+    "doi": "10.3847/1538-4357/ae33c4",
+    "publication_status": "journal-article",
+    "year": 2026,
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Limitations on Morphological Fitting for JWST \u201cLittle Red Dots\u201d",
+    "doi": "10.3847/1538-4357/ae31e5",
+    "publication_status": "journal-article",
+    "year": 2026,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Little red dots: the assembly of early supermassive black holes in the JWST Era",
+    "doi": "10.3389/fspas.2026.1779045",
+    "publication_status": "journal-article",
+    "year": 2026,
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Detection of Little Red Dots in JWST Images Using Multi-band RGB Fusion and YOLO",
+    "doi": "10.1145/3813822.3813902",
+    "publication_status": "proceedings-article",
+    "year": 2026,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Lack of Rest-frame Ultraviolet Variability in Little Red Dots Based on HST and JWST Observations",
+    "doi": "10.3847/2041-8213/adc5e3",
+    "publication_status": "journal-article",
+    "year": 2025,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "A Comprehensive JWST/NIRSpec Census of Broad-line Active Galactic Nuclei: Faint, Low-mass Accretors and a Population of Little Red Dots",
+    "doi": "10.3847/1538-4357/ae7de7",
+    "publication_status": "journal-article",
+    "year": 2026,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Analysis of Multi-epoch JWST Images of \u223c300 Little Red Dots: Tentative Detection of Variability in a Minority of Sources",
+    "doi": "10.3847/1538-4357/adcb3e",
+    "publication_status": "journal-article",
+    "year": 2025,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Little red dots as obscured little blue dots: A super-Eddington unification model",
+    "doi": "10.1051/0004-6361/202659606",
+    "publication_status": "journal-article",
+    "year": 2026,
+    "metadata_sources": [
+      "crossref"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Brown Dwarf Candidates in the JADES and CEERS Extragalactic Surveys",
+    "doi": "10.3847/1538-4357/ad20d1",
+    "year": 2024,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "CEERS Key Paper. I. An Early Look into the First 500 Myr of Galaxy Formation with JWST",
+    "doi": "10.3847/2041-8213/acade4",
+    "year": 2023,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "The Cosmic Evolution Early Release Science Survey (CEERS)",
+    "doi": "10.3847/2041-8213/adbbd3",
+    "year": 2025,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "JADES",
+    "doi": "10.1051/0004-6361/202347640",
+    "year": 2024,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "The JWST UNCOVER Treasury Survey: Ultradeep NIRSpec and NIRCam Observations before the Epoch of Reionization",
+    "doi": "10.3847/1538-4357/ad66cf",
+    "year": 2024,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "The collective voice of Ly \u03b1 emitters: Insights from stacked JWST spectroscopy",
+    "doi": "10.1051/0004-6361/202659740",
+    "year": 2026,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "No Tension: JWST Galaxies at z>10 Consistent with Cosmological Simulations",
+    "doi": "10.21105/astro.2304.13755",
+    "year": 2023,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: NIRCam Imaging in GOODS-S and GOODS-N",
+    "doi": "10.48550/arxiv.2601.15954",
+    "year": 2026,
+    "publication_status": "preprint",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Efficient Survey Design for Finding High-redshift Galaxies with JWST",
+    "doi": "10.3847/1538-4357/ad639d",
+    "year": 2024,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Supermassive Stars Match the Spectral Signatures of JWST\u2019s Little Red Dots",
+    "doi": "10.3847/1538-4357/ae32f3",
+    "year": 2026,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "RUBIES: JWST/NIRSpec Confirmation of an Infrared-luminous, Broad-line Little Red Dot with an Ionized Outflow",
+    "doi": "10.3847/1538-4357/adc1ca",
+    "year": 2025,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "From \u201cThe Cliff\u201d to \u201cVirgil\u201d: Mapping the Spectral Diversity of Little Red Dots with JWST/NIRSpec",
+    "doi": "10.3847/1538-4357/ae5d2c",
+    "year": 2026,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "A critical evaluation of the physical nature of the little red dots",
+    "doi": "10.1038/s41550-026-02934-2",
+    "year": 2026,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Unsupervised selection and characterisation of little red dots in JWST surveys with manifold learning",
+    "doi": "10.1051/0004-6361/202662204",
+    "year": 2026,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "How I Wonder What You Are -- JWST's Little Red Dots do not TWINKLE",
+    "doi": "10.48550/arxiv.2604.13000",
+    "year": 2026,
+    "publication_status": "preprint",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "MEGA: Spectrophotometric Spectral Energy Distribution Fitting of Little Red Dots Detected in JWST MIRI",
+    "doi": "10.3847/1538-4357/ae5e6b",
+    "year": 2026,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  },
+  {
+    "title": "Little red dots host black hole stars: a unified family of gas-reddened AGN revealed by JWST /NIRSpec spectroscopy",
+    "doi": "10.1093/mnras/stag1567",
+    "year": 2026,
+    "publication_status": "article",
+    "metadata_sources": [
+      "openalex"
+    ],
+    "arxiv": null
+  }
+]

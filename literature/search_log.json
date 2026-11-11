@@ -1,0 +1,38 @@
+[
+  {
+    "provider": "crossref",
+    "query": "JWST JADES CEERS UNCOVER spectroscopy",
+    "limit": 10,
+    "retrieved": 10,
+    "accessed_utc": "2026-11-10T23:18:47.762268+00:00",
+    "request_url": "https://api.crossref.org/works?query.bibliographic=JWST+JADES+CEERS+UNCOVER+spectroscopy&rows=10",
+    "scope": "Title/metadata retrieval only; returned papers not all relevance-reviewed"
+  },
+  {
+    "provider": "crossref",
+    "query": "JWST little red dots alternative physical interpretations",
+    "limit": 10,
+    "retrieved": 10,
+    "accessed_utc": "2026-11-10T23:18:48.702374+00:00",
+    "request_url": "https://api.crossref.org/works?query.bibliographic=JWST+little+red+dots+alternative+physical+interpretations&rows=10",
+    "scope": "Title/metadata retrieval only; returned papers not all relevance-reviewed"
+  },
+  {
+    "provider": "openalex",
+    "query": "JWST JADES CEERS UNCOVER spectroscopy",
+    "limit": 10,
+    "retrieved": 10,
+    "accessed_utc": "2026-11-10T23:18:50.012013+00:00",
+    "request_url": "https://api.openalex.org/works?search=JWST+JADES+CEERS+UNCOVER+spectroscopy&per-page=10",
+    "scope": "Title/metadata retrieval only; returned papers not all relevance-reviewed"
+  },
+  {
+    "provider": "openalex",
+    "query": "JWST little red dots alternative physical interpretations",
+    "limit": 10,
+    "retrieved": 10,
+    "accessed_utc": "2026-11-10T23:18:51.514846+00:00",
+    "request_url": "https://api.openalex.org/works?search=JWST+little+red+dots+alternative+physical+interpretations&per-page=10",
+    "scope": "Title/metadata retrieval only; returned papers not all relevance-reviewed"
+  }
+]

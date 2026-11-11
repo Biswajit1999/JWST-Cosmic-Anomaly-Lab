@@ -1,0 +1,132 @@
+[
+  {
+    "key": "dja44",
+    "title": "The DAWN JWST Archive: Compilation of Public NIRSpec Spectra",
+    "doi": "10.5281/zenodo.15472354",
+    "arxiv": null,
+    "publication_status": "dataset",
+    "url": "https://zenodo.org/records/15472354",
+    "relevance": "Catalogues and uniform msaexp reductions; inspect calibration and counterpart caveats.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "jades_dr4_I",
+    "title": "JADES Data Release 4: Sample selection, observing strategy and redshifts",
+    "doi": "10.1093/mnras/stag836",
+    "arxiv": null,
+    "publication_status": "published",
+    "url": "https://doi.org/10.1093/mnras/stag836",
+    "relevance": "Selection and redshift reference; targeting is not a random galaxy sample.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "jades_dr4_II",
+    "title": "JADES Data Release 4: Data reduction, analysis and emission-line fluxes",
+    "doi": "10.1093/mnras/stag939",
+    "arxiv": "2510.01034",
+    "publication_status": "published",
+    "url": "https://doi.org/10.1093/mnras/stag939",
+    "relevance": "Independent JADES reduction reference; catalogue comparison does not replace full spectral reanalysis.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "jades_dr1",
+    "title": "JADES NIRSpec Initial Data Release for the Hubble Ultra Deep Field",
+    "doi": null,
+    "arxiv": "2306.02467",
+    "publication_status": "arxiv_metadata_reviewed",
+    "url": "https://arxiv.org/abs/2306.02467",
+    "relevance": "Original deep spectroscopic observations and reduction context.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "uncover_dr4",
+    "title": "The UNCOVER Survey: First Release of Ultradeep JWST/NIRSpec PRISM Spectra",
+    "doi": "10.3847/1538-4357/adaec1",
+    "arxiv": null,
+    "publication_status": "published",
+    "url": "https://doi.org/10.3847/1538-4357/adaec1",
+    "relevance": "Independent release, including quality and background advisories; cluster-field lensing needs source-specific models.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "rubies",
+    "title": "RUBIES: A complete census of the bright and red distant Universe with JWST/NIRSpec",
+    "doi": "10.1051/0004-6361/202452186",
+    "arxiv": "2409.05948",
+    "publication_status": "published",
+    "url": "https://doi.org/10.1051/0004-6361/202452186",
+    "relevance": "Bright/red targeting affects population comparisons; public reductions supplied through DJA.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "ceers_release",
+    "title": "CEERS Data Release 1.0",
+    "doi": null,
+    "arxiv": null,
+    "publication_status": "official_release_documentation",
+    "url": "https://ceers.github.io/dr1.html",
+    "relevance": "Photometric and image availability verified; this pilot uses DJA CEERS spectra and cutouts, not the full CEERS DR1 catalogue.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "uncover_45924",
+    "title": "An unambiguous AGN and a Balmer break in an Ultraluminous Little Red Dot at z=4.47",
+    "doi": null,
+    "arxiv": "2412.04557",
+    "publication_status": "arxiv_metadata_reviewed",
+    "url": "https://arxiv.org/abs/2412.04557",
+    "relevance": "Published-candidate benchmark identity; our single PRISM profile fit is not a reproduction of all its physical evidence.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "variability_alternatives",
+    "title": "Challenging the AGN scenario for JWST/NIRSpec LRD and non-LRD broad Halpha emitters",
+    "doi": "10.3847/1538-4357/ae119e",
+    "arxiv": "2407.04777",
+    "publication_status": "published",
+    "url": "https://arxiv.org/abs/2407.04777",
+    "relevance": "Non-detections in variability and X-rays motivate alternative or modified interpretations; no such observations are analysed in this pilot.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "dense_cocoons",
+    "title": "Little red dots as young supermassive black holes in dense ionized cocoons",
+    "doi": "10.1038/s41586-025-09900-4",
+    "arxiv": null,
+    "publication_status": "published",
+    "url": "https://www.nature.com/articles/s41586-025-09900-4",
+    "relevance": "Dense-gas interpretation to test with transfer models and resolved line structure; not assumed for every source.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "quasistars",
+    "title": "Little Red Dots As Late-stage Quasi-stars",
+    "doi": null,
+    "arxiv": "2507.09085",
+    "publication_status": "preprint_publication_not_verified",
+    "url": "https://arxiv.org/abs/2507.09085",
+    "relevance": "Theoretical alternative; not implemented or validated here.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "hogg",
+    "title": "Distance measures in cosmology",
+    "doi": null,
+    "arxiv": "astro-ph/9905116",
+    "publication_status": "pedagogical_preprint",
+    "url": "https://arxiv.org/abs/astro-ph/9905116",
+    "relevance": "Luminosity-distance and spectral-density transformations.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  },
+  {
+    "key": "nirspec",
+    "title": "The Near-Infrared Spectrograph on JWST: Overview of the instrument and its capabilities",
+    "doi": "10.1051/0004-6361/202142663",
+    "arxiv": "2202.03305",
+    "publication_status": "published",
+    "url": "https://arxiv.org/abs/2202.03305",
+    "relevance": "Instrument resolving-power context; position-dependent LSF remains a systematic.",
+    "review_scope": "metadata and abstract/release documentation; not exhaustive full-text replication"
+  }
+]

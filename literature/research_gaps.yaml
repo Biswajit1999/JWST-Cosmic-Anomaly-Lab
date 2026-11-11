@@ -1,0 +1,37 @@
+- id: GAP-001
+  question: Are redshift discrepancies caused by extraction, identification, or association?
+  next_test: Review 2D spectra and repeat independent fits for the 24 discrepant robust
+    positional pairs.
+  experiment: EXP-002
+  status: OPEN
+- id: GAP-002
+  question: Are statistical outliers stable under independent reductions and line
+    covariance?
+  next_test: Re-extract shortlist spectra and compare alternate calibration/error
+    assumptions.
+  experiment: EXP-013
+  status: OPEN
+- id: GAP-003
+  question: Can published unusual candidates be distinguished from normal controls
+    physically?
+  next_test: Add independently characterised AGN, star-forming and stellar control
+    labels with references.
+  experiment: EXP-004
+  status: OPEN
+- id: GAP-004
+  question: Is the continuum structure stellar, nebular, or gas reprocessing?
+  next_test: Fit validated stellar population and radiative-transfer grids plus instrument
+    response.
+  experiment: EXP-005
+  status: OPEN
+- id: GAP-005
+  question: Are apparent compactness and colours dominated by blending or PSFs?
+  next_test: Build empirical PSFs, segmentation and matched photometry with correlated
+    errors.
+  experiment: EXP-010
+  status: OPEN
+- id: GAP-006
+  question: Can extra observations distinguish the physical alternatives?
+  next_test: Generate model predictive distributions before sensitivity/exposure forecasts.
+  experiment: EXP-016
+  status: OPEN

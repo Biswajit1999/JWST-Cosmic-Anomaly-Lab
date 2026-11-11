@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-11-11T07:44:19.363747+00:00",
+  "python": "3.12.10",
+  "pytest": {
+    "tests": 25,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "ruff": "passed",
+  "cli_help": "passed",
+  "data_integrity": {
+    "products": 28,
+    "failed": 0
+  },
+  "run_input_code_hashes": "all canonical text hashes match",
+  "build": {
+    "sdist": "passed",
+    "wheel": "passed",
+    "artifacts": {
+      "cosmic_anomaly_lab-0.1.0-py3-none-any.whl": "7def95a3d6ffd48f041ca5399233e351ad7e5375653a95335350ebdbe864b763",
+      "cosmic_anomaly_lab-0.1.0.tar.gz": "a0b74aff8fd453819df6c02740142b699ff177c15e71d0841ca9086f4b5079a8"
+    }
+  }
+}

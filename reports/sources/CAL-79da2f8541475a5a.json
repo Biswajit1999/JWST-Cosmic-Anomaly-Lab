@@ -1,0 +1,57 @@
+{
+  "data_kind": "OBSERVED",
+  "measurement": {
+    "source_id": "CAL-79da2f8541475a5a",
+    "file": "jades-gdn11-v4_prism-clear_1181_5591.spec.fits",
+    "survey": "JADES",
+    "field": "GOODS-N",
+    "sample": "C",
+    "z_spec": 10.603692357142856,
+    "good_pixels": 390,
+    "median_pixel_sn": 7.724859893485506,
+    "break_ratio": 0.8874844200187818,
+    "break_ratio_error": 0.05528255328350682,
+    "break_status": "MEASURED_CONDITIONAL_ON_REDSHIFT",
+    "blend_fit_status": "INSUFFICIENT_COVERAGE",
+    "preferred_empirical_profile": null
+  },
+  "continuum_break": {
+    "blue_uJy": 0.1300132794111381,
+    "blue_error_uJy": 0.0037663970338431708,
+    "red_uJy": 0.11538475987293373,
+    "red_error_uJy": 0.006362905663574202,
+    "ratio": 0.8874844200187818,
+    "ratio_error": 0.05528255328350682,
+    "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+  },
+  "empirical_blend": {
+    "status": "INSUFFICIENT_COVERAGE",
+    "fits": []
+  },
+  "lsf_sensitivity": {
+    "1.0": {
+      "status": "INSUFFICIENT_COVERAGE",
+      "fits": []
+    },
+    "1.6": {
+      "status": "INSUFFICIENT_COVERAGE",
+      "fits": []
+    }
+  },
+  "error_inflation_1p5": {
+    "status": "INSUFFICIENT_COVERAGE",
+    "fits": []
+  },
+  "literature": null,
+  "status": "INSUFFICIENT_EVIDENCE",
+  "interpretation": "No physical family comparison performed",
+  "systematics": {
+    "foreground": "NOT_TESTED",
+    "alternate_redshift": "NOT_TESTED",
+    "blending": "NOT_TESTED",
+    "lensing": "NOT_TESTED",
+    "independent_reduction": "NOT_TESTED",
+    "calibration": "NOT_TESTED",
+    "model_library_completeness": "NOT_TESTED"
+  }
+}

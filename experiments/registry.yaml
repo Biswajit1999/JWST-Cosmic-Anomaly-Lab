@@ -1,0 +1,279 @@
+- id: EXP-001
+  version: 1
+  title: Multi-survey public data discovery and catalogue construction
+  question: Can reproducible public source records be recovered in at least three
+    surveys?
+  status: EXECUTED_PILOT
+  run_id: pilot-v0.1-6cb8c15b5c
+  dataset: See product manifest and linked measurement table
+  method: Documented in reports/multi_survey_investigation.md
+  assumptions: See report, source evidence and data dictionary
+  executed_code: scripts/prepare_pilot.py
+  figures: []
+  measurements: results/catalogue_summary.json
+  uncertainties: Conditional statistics and explicit systematics in linked artifacts
+  validation: tests/ and results/simulation_validation.json
+  limitations: Three direct catalogue products; four survey subsets and five fields;
+    complete survey selection functions remain unavailable.
+  conclusion: See report; no new astrophysical class established
+- id: EXP-002
+  version: 1
+  title: Comparison of independent reductions for common sources
+  question: Do independently reduced observations agree within measured uncertainties?
+  status: PARTIAL
+  run_id: pilot-v0.1-6cb8c15b5c
+  dataset: See product manifest and linked measurement table
+  method: Documented in reports/multi_survey_investigation.md
+  assumptions: See report, source evidence and data dictionary
+  executed_code: src/cosmic_anomaly_lab/pipeline.py
+  figures:
+  - figures/catalogue_redshift_comparison.pdf
+  measurements: results/redshift_comparison.json
+  uncertainties: Conditional statistics and explicit systematics in linked artifacts
+  validation: tests/ and results/simulation_validation.json
+  limitations: Catalogue-level redshift comparison only; no independent spectral pixel-level
+    reanalysis.
+  conclusion: See report; no new astrophysical class established
+- id: EXP-003
+  version: 1
+  title: Spectral diagnostics of diverse LRD candidates
+  question: Do multiple published LRD candidates share spectral diagnostics under
+    uniform analysis?
+  status: PLANNED
+  run_id: null
+  dataset: null
+  method: null
+  assumptions: null
+  executed_code: null
+  figures: []
+  measurements: null
+  uncertainties: null
+  validation: null
+  limitations: Not executed in this pilot
+  conclusion: null
+- id: EXP-004
+  version: 1
+  title: Compact galaxies versus obscured AGN
+  question: Can validated galaxy and AGN predictions be distinguished by the available
+    data?
+  status: PLANNED
+  run_id: null
+  dataset: null
+  method: null
+  assumptions: null
+  executed_code: null
+  figures: []
+  measurements: null
+  uncertainties: null
+  validation: null
+  limitations: Not executed in this pilot
+  conclusion: null
+- id: EXP-005
+  version: 1
+  title: Dense gas envelopes versus stellar atmospheres
+  question: Do gas-envelope or stellar-atmosphere models reproduce the line and continuum
+    features?
+  status: PLANNED
+  run_id: null
+  dataset: null
+  method: null
+  assumptions: null
+  executed_code: null
+  figures: []
+  measurements: null
+  uncertainties: null
+  validation: null
+  limitations: Not executed in this pilot
+  conclusion: null
+- id: EXP-006
+  version: 1
+  title: Balmer-break formation and interpretation
+  question: Can measured continuum discontinuities distinguish competing physical
+    origins?
+  status: PARTIAL
+  run_id: pilot-v0.1-6cb8c15b5c
+  dataset: See product manifest and linked measurement table
+  method: Documented in reports/multi_survey_investigation.md
+  assumptions: See report, source evidence and data dictionary
+  executed_code: src/cosmic_anomaly_lab/pipeline.py
+  figures:
+  - figures/observed_spectra.pdf
+  measurements: results/spectral_measurements.csv
+  uncertainties: Conditional statistics and explicit systematics in linked artifacts
+  validation: tests/ and results/simulation_validation.json
+  limitations: Continuum proxy measurements only; no physical break-formation model
+    comparison.
+  conclusion: See report; no new astrophysical class established
+- id: EXP-007
+  version: 1
+  title: Emission-line broadening mechanisms
+  question: Can instrumental, kinematic and scattering broadening be distinguished?
+  status: PARTIAL
+  run_id: pilot-v0.1-6cb8c15b5c
+  dataset: See product manifest and linked measurement table
+  method: Documented in reports/multi_survey_investigation.md
+  assumptions: See report, source evidence and data dictionary
+  executed_code: src/cosmic_anomaly_lab/pipeline.py
+  figures:
+  - figures/observed_spectra.pdf
+  measurements: results/empirical_blend_fits.csv
+  uncertainties: Conditional statistics and explicit systematics in linked artifacts
+  validation: tests/ and results/simulation_validation.json
+  limitations: Empirical narrow/broad profiles and LSF sensitivity; no separation
+    of physical broadening mechanisms.
+  conclusion: See report; no new astrophysical class established
+- id: EXP-008
+  version: 1
+  title: Gravitational lensing and luminosity uncertainty
+  question: Does lens-model uncertainty materially change the inferred intrinsic luminosity?
+  status: PLANNED
+  run_id: null
+  dataset: null
+  method: null
+  assumptions: null
+  executed_code: null
+  figures: []
+  measurements: null
+  uncertainties: null
+  validation: null
+  limitations: Not executed in this pilot
+  conclusion: null
+- id: EXP-009
+  version: 1
+  title: Photometric versus spectroscopic redshift disagreement
+  question: Are photometric and spectroscopic redshift disagreements reproducible
+    across reductions?
+  status: PLANNED
+  run_id: null
+  dataset: null
+  method: null
+  assumptions: null
+  executed_code: null
+  figures: []
+  measurements: null
+  uncertainties: null
+  validation: null
+  limitations: Not executed in this pilot
+  conclusion: null
+- id: EXP-010
+  version: 1
+  title: Multi-band infrared morphology
+  question: Do wavelength-dependent sizes persist after PSF matching and deblending?
+  status: PARTIAL
+  run_id: pilot-v0.1-6cb8c15b5c
+  dataset: See product manifest and linked measurement table
+  method: Documented in reports/multi_survey_investigation.md
+  assumptions: See report, source evidence and data dictionary
+  executed_code: src/cosmic_anomaly_lab/pipeline.py
+  figures:
+  - figures/observed_cutouts.pdf
+  measurements: results/aperture_diagnostics.csv
+  uncertainties: Conditional statistics and explicit systematics in linked artifacts
+  validation: tests/ and results/simulation_validation.json
+  limitations: Registered cutouts and diagnostic apertures only; PSF matching and
+    intrinsic morphology remain undone.
+  conclusion: See report; no new astrophysical class established
+- id: EXP-011
+  version: 1
+  title: Multi-epoch variability
+  question: Is intrinsic variability detectable after calibration and cadence effects?
+  status: PLANNED
+  run_id: null
+  dataset: null
+  method: null
+  assumptions: null
+  executed_code: null
+  figures: []
+  measurements: null
+  uncertainties: null
+  validation: null
+  limitations: Not executed in this pilot
+  conclusion: null
+- id: EXP-012
+  version: 1
+  title: Cross-survey source-population comparisons
+  question: Do source properties remain consistent after controlling field and selection
+    differences?
+  status: PARTIAL
+  run_id: pilot-v0.1-6cb8c15b5c
+  dataset: See product manifest and linked measurement table
+  method: Documented in reports/multi_survey_investigation.md
+  assumptions: See report, source evidence and data dictionary
+  executed_code: src/cosmic_anomaly_lab/pipeline.py
+  figures:
+  - figures/archive_line_ratio_population.pdf
+  measurements: results/anomaly_feature_sample.csv.gz
+  uncertainties: Conditional statistics and explicit systematics in linked artifacts
+  validation: tests/ and results/simulation_validation.json
+  limitations: Descriptive ratios and field holdouts; no completeness-corrected population
+    inference.
+  conclusion: See report; no new astrophysical class established
+- id: EXP-013
+  version: 1
+  title: Unsupervised anomaly discovery
+  question: Do outliers persist when their field is excluded from model training?
+  status: EXECUTED_PILOT
+  run_id: pilot-v0.1-6cb8c15b5c
+  dataset: See product manifest and linked measurement table
+  method: Documented in reports/multi_survey_investigation.md
+  assumptions: See report, source evidence and data dictionary
+  executed_code: src/cosmic_anomaly_lab/pipeline.py
+  figures:
+  - figures/archive_line_ratio_population.pdf
+  measurements: results/archive_ranking.csv
+  uncertainties: Conditional statistics and explicit systematics in linked artifacts
+  validation: tests/ and results/simulation_validation.json
+  limitations: Statistical triage with field holdout; candidate vetting and broad
+    physical feature coverage remain undone.
+  conclusion: See report; no new astrophysical class established
+- id: EXP-014
+  version: 1
+  title: Synthetic injection-recovery and false-positive testing
+  question: Are known injected signals recovered and null false positives calibrated?
+  status: EXECUTED_BOUNDED_SIMULATION
+  run_id: pilot-v0.1-6cb8c15b5c
+  dataset: See product manifest and linked measurement table
+  method: Documented in reports/multi_survey_investigation.md
+  assumptions: See report, source evidence and data dictionary
+  executed_code: src/cosmic_anomaly_lab/pipeline.py
+  figures:
+  - figures/simulation_validation.pdf
+  measurements: results/simulation_validation.json
+  uncertainties: Conditional statistics and explicit systematics in linked artifacts
+  validation: tests/ and results/simulation_validation.json
+  limitations: Known-truth Gaussian population and idealized line recovery; performance
+    does not transfer automatically to real galaxies.
+  conclusion: See report; no new astrophysical class established
+- id: EXP-015
+  version: 1
+  title: Sources unexplained by all implemented physical families
+  question: Do all scientifically applicable validated physical models fail on the
+    same sources?
+  status: PLANNED
+  run_id: null
+  dataset: null
+  method: null
+  assumptions: null
+  executed_code: null
+  figures: []
+  measurements: null
+  uncertainties: null
+  validation: null
+  limitations: Not executed in this pilot
+  conclusion: null
+- id: EXP-016
+  version: 1
+  title: Forecasts for observations distinguishing physical interpretations
+  question: Which feasible measurement maximally separates competing predictive distributions?
+  status: PLANNED
+  run_id: null
+  dataset: null
+  method: null
+  assumptions: null
+  executed_code: null
+  figures: []
+  measurements: null
+  uncertainties: null
+  validation: null
+  limitations: Not executed in this pilot
+  conclusion: null

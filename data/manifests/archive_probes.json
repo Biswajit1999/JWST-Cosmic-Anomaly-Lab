@@ -1,0 +1,30 @@
+[
+  {
+    "survey": "DJA",
+    "url": "https://zenodo.org/records/15472354/files/dja_msaexp_emission_lines_v4.4.columns.csv",
+    "bytes": 24746,
+    "status": "downloaded",
+    "accessed_utc": "2026-11-10T23:06:41.425467+00:00"
+  },
+  {
+    "survey": "JADES",
+    "url": "https://jades.herts.ac.uk/DR4/Combined_DR4_external_v1.2.1.fits",
+    "bytes": 94124160,
+    "status": "downloaded",
+    "accessed_utc": "2026-11-10T23:06:50.708816+00:00"
+  },
+  {
+    "survey": "UNCOVER",
+    "url": "https://drive.google.com/uc?export=download&id=10BQOEvwzcazLkJFmH4EzNWlwY70xejYi",
+    "bytes": 113750,
+    "status": "downloaded",
+    "accessed_utc": "2026-11-10T23:06:53.129892+00:00"
+  },
+  {
+    "survey": "DJA",
+    "url": "https://zenodo.org/records/15472354/files/dja_msaexp_emission_lines_v4.4.csv.gz",
+    "bytes": 133004545,
+    "status": "downloaded",
+    "accessed_utc": "2026-11-10T23:07:45.589995+00:00"
+  }
+]

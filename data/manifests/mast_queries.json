@@ -1,0 +1,26 @@
+[
+  {
+    "survey": "JADES",
+    "pid": 1210,
+    "status": "queried",
+    "observations": 1244,
+    "products_first_observation": 460,
+    "accessed_utc": "2026-11-10T23:11:03.184158+00:00"
+  },
+  {
+    "survey": "CEERS",
+    "pid": 1345,
+    "status": "queried",
+    "observations": 5253,
+    "products_first_observation": 160,
+    "accessed_utc": "2026-11-10T23:11:18.360346+00:00"
+  },
+  {
+    "survey": "UNCOVER",
+    "pid": 2561,
+    "status": "queried",
+    "observations": 1187,
+    "products_first_observation": 1250,
+    "accessed_utc": "2026-11-10T23:11:29.243944+00:00"
+  }
+]

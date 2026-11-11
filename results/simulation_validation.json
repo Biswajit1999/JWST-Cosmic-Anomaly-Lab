@@ -1,0 +1,43 @@
+{
+  "data_kind": "SIMULATED",
+  "seed": 20261110,
+  "line_recovery": {
+    "trials": 500,
+    "truth_integrated_flux_arbitrary_units": 0.15,
+    "mean_pull": 0.023894818543001968,
+    "std_pull": 0.9750794095763129,
+    "coverage_95": 0.948,
+    "coverage_interval": [
+      0.9247336289693778,
+      0.9657543019172321
+    ]
+  },
+  "anomaly": {
+    "training": 1500,
+    "calibration": 1000,
+    "controls": 1000,
+    "injections": 500,
+    "threshold_p": 0.01,
+    "false_positives": 10,
+    "false_positive_rate": 0.01,
+    "false_positive_interval": [
+      0.004805510691049309,
+      0.01831324305511245
+    ],
+    "recovered": 484,
+    "recovery_rate": 0.968,
+    "recovery_interval": [
+      0.9485532317083544,
+      0.9816008146763601
+    ],
+    "limitation": "Gaussian 2D population and artificial 1.5 dex shift; not astrophysical discovery performance"
+  },
+  "physics": {
+    "eddington_luminosity_1e7_Msun_erg_s": 1.2570651866472896e+45,
+    "blackbody_temperature_K": 5000,
+    "blackbody_radius_Rsun": 1000,
+    "redshift": 4,
+    "flux_min_uJy": 7.515363665331712e-14,
+    "flux_max_uJy": 1.4081261235870678e-05
+  }
+}

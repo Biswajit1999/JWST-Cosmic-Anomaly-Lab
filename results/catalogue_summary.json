@@ -1,0 +1,38 @@
+{
+  "dja_snapshot_rows": 80367,
+  "ingested_observations": 44619,
+  "ingested_source_records": 20144,
+  "independent_physical_source_count": null,
+  "jades_reference_rows": 5190,
+  "uncover_reference_rows": 668,
+  "by_survey": [
+    {
+      "survey": "CEERS",
+      "observations": 2077,
+      "source_records": 1336
+    },
+    {
+      "survey": "JADES",
+      "observations": 33402,
+      "source_records": 12978
+    },
+    {
+      "survey": "RUBIES",
+      "observations": 8239,
+      "source_records": 5019
+    },
+    {
+      "survey": "UNCOVER",
+      "observations": 901,
+      "source_records": 864
+    }
+  ],
+  "fields": [
+    "Abell2744",
+    "EGS",
+    "GOODS-N",
+    "GOODS-S",
+    "UDS"
+  ],
+  "note": "Reference catalogue rows overlap DJA; never add these counts together."
+}

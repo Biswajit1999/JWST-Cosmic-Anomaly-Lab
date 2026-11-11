@@ -1,0 +1,53 @@
+{
+  "data_kind": "OBSERVED",
+  "measurement": {
+    "source_id": "CAL-0edbea8571805d5e",
+    "file": "uncover-62-v4_prism-clear_2561_42923.spec.fits",
+    "survey": "UNCOVER",
+    "field": "Abell2744",
+    "sample": "B",
+    "z_spec": 0.6063462,
+    "good_pixels": 390,
+    "median_pixel_sn": 159.89100917690112,
+    "break_ratio": null,
+    "break_ratio_error": null,
+    "break_status": "INSUFFICIENT_COVERAGE",
+    "blend_fit_status": "INSUFFICIENT_COVERAGE",
+    "preferred_empirical_profile": null
+  },
+  "continuum_break": {
+    "status": "INSUFFICIENT_COVERAGE",
+    "ratio": null,
+    "ratio_error": null
+  },
+  "empirical_blend": {
+    "status": "INSUFFICIENT_COVERAGE",
+    "fits": []
+  },
+  "lsf_sensitivity": {
+    "1.0": {
+      "status": "INSUFFICIENT_COVERAGE",
+      "fits": []
+    },
+    "1.6": {
+      "status": "INSUFFICIENT_COVERAGE",
+      "fits": []
+    }
+  },
+  "error_inflation_1p5": {
+    "status": "INSUFFICIENT_COVERAGE",
+    "fits": []
+  },
+  "literature": null,
+  "status": "INSUFFICIENT_EVIDENCE",
+  "interpretation": "No physical family comparison performed",
+  "systematics": {
+    "foreground": "NOT_TESTED",
+    "alternate_redshift": "NOT_TESTED",
+    "blending": "NOT_TESTED",
+    "lensing": "NOT_TESTED",
+    "independent_reduction": "NOT_TESTED",
+    "calibration": "NOT_TESTED",
+    "model_library_completeness": "NOT_TESTED"
+  }
+}

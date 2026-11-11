@@ -1,0 +1,102 @@
+[
+  {
+    "file": "ceers-ddt-v4_prism-clear_2750_5336.spec.fits",
+    "status": "downloaded",
+    "bytes": 676800
+  },
+  {
+    "file": "ceers-v4_prism-clear_1345_24524.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "ceers-ddt-v4_prism-clear_2750_12431.spec.fits",
+    "status": "downloaded",
+    "bytes": 691200
+  },
+  {
+    "file": "ceers-v4_prism-clear_1345_1672.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "jades-gds05-v4_prism-clear_1286_201011.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "goodsn-wide6-v4_prism-clear_1211_3038.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "jades-gdn2-v4_prism-clear_1181_34958.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "jades-gds-wide3-v4_prism-clear_1180_208300.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "jades-gdn11-v4_prism-clear_1181_5591.spec.fits",
+    "status": "downloaded",
+    "bytes": 676800
+  },
+  {
+    "file": "rubies-uds23-v4_prism-clear_4233_163311.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "rubies-egs62-v4_prism-clear_4233_43066.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "rubies-uds32-v4_prism-clear_4233_170857.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "rubies-uds22-v4_prism-clear_4233_142043.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "rubies-egs52-v4_prism-clear_4233_8488.spec.fits",
+    "status": "downloaded",
+    "bytes": 673920
+  },
+  {
+    "file": "uncover-62-v4_prism-clear_2561_50714.spec.fits",
+    "status": "downloaded",
+    "bytes": 691200
+  },
+  {
+    "file": "uncover-62-v4_prism-clear_2561_42923.spec.fits",
+    "status": "downloaded",
+    "bytes": 691200
+  },
+  {
+    "file": "uncover-v4_prism-clear_2561_30354.spec.fits",
+    "status": "downloaded",
+    "bytes": 720000
+  },
+  {
+    "file": "uncover-v4_prism-clear_2561_47584.spec.fits",
+    "status": "downloaded",
+    "bytes": 699840
+  },
+  {
+    "file": "uncover-v4_prism-clear_2561_60157.spec.fits",
+    "status": "downloaded",
+    "bytes": 720000
+  },
+  {
+    "file": "uncover-v4_prism-clear_2561_45924.spec.fits",
+    "status": "downloaded",
+    "bytes": 731520
+  }
+]

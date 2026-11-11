@@ -1,0 +1,124 @@
+version: 1
+mutually_exclusive: false
+unknown_means: unresolved assessment, never evidence for a new class
+populations:
+  LITTLE_RED_DOT:
+    label_kind: uncertain_assessment
+  GAS_ENSHROUDED_ACCRETOR:
+    label_kind: uncertain_assessment
+  SUPERMASSIVE_STAR_CANDIDATE:
+    label_kind: uncertain_assessment
+  DIRECT_COLLAPSE_BH_CANDIDATE:
+    label_kind: uncertain_assessment
+  AGN:
+    label_kind: uncertain_assessment
+  OBSCURED_AGN:
+    label_kind: uncertain_assessment
+  HIGH_Z_QUASAR:
+    label_kind: uncertain_assessment
+  COMPACT_STAR_FORMING_GALAXY:
+    label_kind: uncertain_assessment
+  EXTREME_EMISSION_LINE_GALAXY:
+    label_kind: uncertain_assessment
+  METAL_POOR_OR_POPIII_CANDIDATE:
+    label_kind: uncertain_assessment
+  STRONGLY_LENSED_CANDIDATE:
+    label_kind: uncertain_assessment
+  ANOMALOUS_BALMER_BREAK:
+    label_kind: uncertain_assessment
+  EXTREME_RED_IR_SOURCE:
+    label_kind: uncertain_assessment
+  DUST_OBSCURED_GALAXY:
+    label_kind: uncertain_assessment
+  VARIABLE_OR_TRANSIENT:
+    label_kind: uncertain_assessment
+  UNRESOLVED_COMPOSITE:
+    label_kind: uncertain_assessment
+  FOREGROUND_STAR_OR_BROWN_DWARF:
+    label_kind: uncertain_assessment
+  UNCERTAIN_REDSHIFT:
+    label_kind: uncertain_assessment
+  REJECTED_PHOTOMETRIC_SELECTION:
+    label_kind: uncertain_assessment
+  POOR_TEMPLATE_FIT:
+    label_kind: uncertain_assessment
+  UNKNOWN_OR_UNRESOLVED:
+    label_kind: uncertain_assessment
+hypotheses:
+  accreting_black_hole:
+    requires:
+    - continuum_sed
+    - resolved_line_profiles
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  obscured_AGN:
+    requires:
+    - infrared_sed
+    - xray_constraints
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  nonstandard_accretion_disc:
+    requires:
+    - uv_optical_continuum
+    - variability
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  dense_reprocessing_envelope:
+    requires:
+    - balmer_absorption
+    - hydrogen_line_ratios
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  supermassive_star:
+    requires:
+    - stellar_absorption
+    - temperature_luminosity_constraints
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  compact_galaxy:
+    requires:
+    - stellar_sed
+    - resolved_morphology
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  extreme_starburst:
+    requires:
+    - nebular_lines
+    - stellar_sed
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  composite_source:
+    requires:
+    - resolved_morphology
+    - multi_component_spectroscopy
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  gravitational_magnification:
+    requires:
+    - lens_mass_model
+    - source_redshift
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  foreground_or_wrong_redshift:
+    requires:
+    - alternate_line_identifications
+    - proper_motion_or_stellar_templates
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.
+  processing_artifact:
+    requires:
+    - independent_reduction
+    - detector_diagnostics
+    implemented_forward_model: false
+    reason: Analytic toy baselines and empirical line profiles do not constitute this
+      physical solver.

@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "CAL-3539b1d648b05582",
+    "resolving_power_scale": "1.6",
+    "nominal": "narrow_blend",
+    "alternative": "broad_blend"
+  },
+  {
+    "source_id": "CAL-3c82037c6ff15eda",
+    "resolving_power_scale": "1.6",
+    "nominal": "narrow_blend",
+    "alternative": "broad_blend"
+  },
+  {
+    "source_id": "CAL-68e3cacef0205418",
+    "resolving_power_scale": "1.6",
+    "nominal": "narrow_blend",
+    "alternative": "broad_blend"
+  },
+  {
+    "source_id": "CAL-74b071cddb775f70",
+    "resolving_power_scale": "1.6",
+    "nominal": "narrow_blend",
+    "alternative": "broad_blend"
+  }
+]

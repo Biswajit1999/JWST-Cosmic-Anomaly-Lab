@@ -1,0 +1,102 @@
+[
+  {
+    "z_bin": "2-4",
+    "held_out_field": "Abell2744",
+    "training": 341,
+    "calibration": 168,
+    "test": 44,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.022727272727272728,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "2-4",
+    "held_out_field": "EGS",
+    "training": 318,
+    "calibration": 153,
+    "test": 82,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.012195121951219513,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "2-4",
+    "held_out_field": "GOODS-N",
+    "training": 267,
+    "calibration": 124,
+    "test": 162,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.006172839506172839,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "2-4",
+    "held_out_field": "GOODS-S",
+    "training": 223,
+    "calibration": 126,
+    "test": 204,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.0196078431372549,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "2-4",
+    "held_out_field": "UDS",
+    "training": 335,
+    "calibration": 157,
+    "test": 61,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.01639344262295082,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "4-6",
+    "held_out_field": "Abell2744",
+    "training": 193,
+    "calibration": 91,
+    "test": 20,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.0,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "4-6",
+    "held_out_field": "EGS",
+    "training": 154,
+    "calibration": 79,
+    "test": 71,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.0,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "4-6",
+    "held_out_field": "GOODS-N",
+    "training": 148,
+    "calibration": 76,
+    "test": 80,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.0,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "4-6",
+    "held_out_field": "GOODS-S",
+    "training": 158,
+    "calibration": 64,
+    "test": 82,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.0,
+    "null_FPR_measured": false
+  },
+  {
+    "z_bin": "4-6",
+    "held_out_field": "UDS",
+    "training": 167,
+    "calibration": 86,
+    "test": 51,
+    "status": "EXECUTED",
+    "fraction_p_le_0p01": 0.0,
+    "null_FPR_measured": false
+  }
+]

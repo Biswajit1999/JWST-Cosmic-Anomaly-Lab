@@ -1,0 +1,47 @@
+version: 1
+raw_storage_budget_MiB: 512
+selection_seed: 17775
+spectroscopy:
+  grating: PRISM
+  quality_grade: 3
+  min_archive_median_pixel_sn: 5
+  observed_wavelength_um: [0.7, 5.2]
+  redshift_bins: [[0.5, 2], [2, 4], [4, 7], [7, 12]]
+  per_survey_per_bin: [2, 1, 1, 1]
+  choice: sha256_of_seed_and_product_filename
+  physical_classification: not_inferred_from_selection
+samples:
+  A: published_uncertain_LRD_AGN_benchmark_UNCOVER_45924
+  B: low_redshift_comparison_candidates_not_certified_normal_galaxies
+  C: archive_stratified_selection_without_LRD_colour_or_class_filters
+selection_function:
+  parent: targeted_spectroscopy_in_DJA_v4.4
+  completeness: unknown_not_estimated
+  depth: heterogeneous_exposure_times_in_observation_table_not_a_single_flux_limit
+  biases: [upstream_targeting, successful_redshift, continuum_signal_to_noise, public_release_date, detector_coverage]
+  exclusions: [non_PRISM, grade_below_3, median_pixel_SN_below_5, z_outside_bins, duplicate_DJA_objid]
+  absent_bin: do_not_substitute_or_invent_sources
+continuum_proxy:
+  rest_blue_um: [0.34, 0.36]
+  rest_red_um: [0.40, 0.42]
+  units: fnu_ratio_dimensionless
+  minimum_pixels_per_band: 3
+  minimum_mean_SN: 3
+  interpretation: not_unique_to_Balmer_absorption_or_any_physical_class
+anomaly:
+  features: [log10_OIII_doublet_over_Hbeta, log10_OIII_doublet_over_OII]
+  line_SN_minimum: 5
+  redshift_bins: [[2, 4], [4, 6]]
+  max_abs_linefit_redshift_difference_over_1pz: 0.005
+  missing_features: exclude_from_this_analysis_preserve_in_catalogue
+  holdout: field
+  calibration_split: sha256_source_id_modulo_3_equals_0
+  limitations: [unknown_selection_function, shared_fit_covariance_unavailable, field_distribution_shift, incomplete_feature_space]
+  status: statistical_triage_only
+imaging:
+  filters: [F150W, F277W, F444W]
+  aperture_radius_arcsec: 0.3
+  background_annulus_arcsec: [0.8, 1.2]
+  PSF_matched: false
+  absolute_aperture_correction_applied: false
+

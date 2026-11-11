@@ -1,0 +1,110 @@
+[
+  {
+    "survey": "MAST",
+    "url": "https://archive.stsci.edu/missions-and-data/jwst",
+    "http_status": 200,
+    "bytes": 111420,
+    "accessed_utc": "2026-11-10T23:17:06.232654+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://archive.stsci.edu/missions-and-data/jwst"
+  },
+  {
+    "survey": "JADES",
+    "url": "https://jades-survey.github.io/scientists/data.html",
+    "http_status": 200,
+    "bytes": 16243,
+    "accessed_utc": "2026-11-10T23:17:03.637689+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://jades-survey.github.io/scientists/data.html"
+  },
+  {
+    "survey": "CEERS",
+    "url": "https://ceers.github.io/releases.html",
+    "http_status": 200,
+    "bytes": 13528,
+    "accessed_utc": "2026-11-10T23:17:03.653125+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://ceers.github.io/releases.html"
+  },
+  {
+    "survey": "UNCOVER",
+    "url": "https://jwst-uncover.github.io/DR4.html",
+    "http_status": 200,
+    "bytes": 20926,
+    "accessed_utc": "2026-11-10T23:17:03.708711+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://jwst-uncover.github.io/DR4.html"
+  },
+  {
+    "survey": "GLASS-JWST",
+    "url": "https://archive.stsci.edu/hlsp/glass-jwst",
+    "http_status": 200,
+    "bytes": 98413,
+    "accessed_utc": "2026-11-10T23:17:05.986964+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://archive.stsci.edu/hlsp/glass-jwst"
+  },
+  {
+    "survey": "COSMOS-Web",
+    "url": "https://cosmos.astro.caltech.edu/page/cosmosweb-dr",
+    "http_status": 200,
+    "bytes": 29415,
+    "accessed_utc": "2026-11-10T23:17:05.012462+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://cosmos.astro.caltech.edu/page/cosmosweb-dr"
+  },
+  {
+    "survey": "DJA",
+    "url": "https://dawn-cph.github.io/dja/",
+    "http_status": 200,
+    "bytes": 38308,
+    "accessed_utc": "2026-11-10T23:17:04.608776+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://dawn-cph.github.io/dja/"
+  },
+  {
+    "survey": "NEXUS",
+    "url": "https://nexus-jwst.github.io/",
+    "http_status": 200,
+    "bytes": 5420,
+    "accessed_utc": "2026-11-10T23:17:05.191886+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://nexus-jwst.github.io/"
+  },
+  {
+    "survey": "RUBIES",
+    "url": "https://rubies-survey.github.io/",
+    "http_status": 404,
+    "bytes": 9115,
+    "accessed_utc": "2026-11-10T23:17:05.798575+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://rubies-survey.github.io/"
+  },
+  {
+    "survey": "PRIMER",
+    "url": "https://primer-jwst.github.io/",
+    "http_status": 200,
+    "bytes": 5152,
+    "accessed_utc": "2026-11-10T23:17:06.072762+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://primer-jwst.github.io/"
+  },
+  {
+    "survey": "FRESCO",
+    "url": "https://archive.stsci.edu/hlsp/fresco",
+    "http_status": 200,
+    "bytes": 112755,
+    "accessed_utc": "2026-11-10T23:17:08.339579+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://archive.stsci.edu/hlsp/fresco"
+  },
+  {
+    "survey": "NGDEEP",
+    "url": "https://archive.stsci.edu/hlsp/ngdeep",
+    "http_status": 404,
+    "bytes": 411,
+    "accessed_utc": "2026-11-10T23:17:07.133969+00:00",
+    "scope": "landing_page_only; product availability is not inferred",
+    "final_url": "https://archive.stsci.edu/hlsp/ngdeep"
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "run_id": "pilot-v0.1-6cb8c15b5c",
+  "input_text_sha256": {
+    "configs/hypotheses.yaml": "4f6f4317cf7fc288128ed768815acdceb6e2497f0f5b3d4d50c3821ec531304c",
+    "configs/pilot.yaml": "65104b8c791289525ed302f318585d132058568c8b39c3f37f2e6c01caf70484",
+    "data/catalogues/pilot_selection.csv": "25142400bd8946da9f0a5feef294b5825f8f12fb1d26263e7cd7031fee7697d0",
+    "data/manifests/downloads.json": "f105d9b1fe89fcb82d152be33d80b4513168a5f2a3d0ee4eef7b0530853bc13f",
+    "src/cosmic_anomaly_lab/__init__.py": "8f143dad9a1b878bb07449d53a850d0bc59fa30b8dad07ecd32ca479519c5951",
+    "src/cosmic_anomaly_lab/anomaly_detection.py": "2470e3943d731d8f7f0a7ed19b1e7488c6787195eab5098bfd7a8bf3dc5584d3",
+    "src/cosmic_anomaly_lab/archives.py": "d267057f97600a1f7b98427f3ca2edc9415faacbf960d059aedeb31112bf1395",
+    "src/cosmic_anomaly_lab/catalogues.py": "11a0bd5563bb5c4fa26863bdb689dda87b0e17885892547dc47cc8d2390ebceb",
+    "src/cosmic_anomaly_lab/classification.py": "fb3340193e13f483f09301392e6c630037211439548f743b9fcab039e5d265f6",
+    "src/cosmic_anomaly_lab/cli.py": "971a5c9670667fcd8d3b51f74c5da857ab0621cbe94a6f5327d99ed67bd73782",
+    "src/cosmic_anomaly_lab/crossmatching.py": "99e066e538f867106e45e9d3f2a27eb1300fc864e9f8382ea6107a286def0a3a",
+    "src/cosmic_anomaly_lab/imaging.py": "d12d5d517323fe9302884868121cbf81621de0072a1662adcff9d5744ba4aac5",
+    "src/cosmic_anomaly_lab/inference.py": "5c4052e0a6c54d262843b93ce102113c16832d2670c724076ca136fb59777a84",
+    "src/cosmic_anomaly_lab/literature.py": "8fd41f336d58697b6b071b6d00b56f6aa38bfe2cf390e4d40a7851b87a37528e",
+    "src/cosmic_anomaly_lab/physics.py": "659ebc213d46b013d02f619ef85626bfe0392663ca23574de90ef803bee30342",
+    "src/cosmic_anomaly_lab/pipeline.py": "55c0962f533b1afd4988253c99d432121e52cd382d52655a843184f2ca1cd790",
+    "src/cosmic_anomaly_lab/provenance.py": "29689ef6c579253bef3b99f8ecfc67fe0cd9633f64fa54ba839c667444658edb",
+    "src/cosmic_anomaly_lab/registry.py": "a619eb570e872556e93d7a2fa6b77537a360df2972165b08232bc98b3de05a76",
+    "src/cosmic_anomaly_lab/spectroscopy.py": "b2f225ffb67a9a536aeb9237049de1fec2231096d2e7d506ff13b13cc64e9db6",
+    "src/cosmic_anomaly_lab/validation.py": "d51f438915db2f8e967714513c6c4fb15ede4fd0c3b525dc6ed684936d9e4d29"
+  },
+  "input_hash_convention": "UTF-8 with universal-newline normalization; download checksums remain raw bytes",
+  "dependency_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "astropy": "8.0.2",
+    "astroquery": "0.4.11",
+    "specutils": "2.4.0",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "executed_utc": "2026-11-11T07:43:08.486862+00:00",
+  "spectra_analysed": 20,
+  "break_measurements": 16,
+  "blend_fit_sources": 14,
+  "aperture_measurements": 9,
+  "redshift_comparison": {
+    "candidate_pairs": 5437,
+    "unambiguous_robust_pairs": 2885,
+    "abs_normalized_difference_over_0p02": 24,
+    "median_abs_normalized_difference": 0.00014159282729607066,
+    "caveat": "Positional candidates only; quality definitions differ. No automatic source merge or redshift adjudication."
+  },
+  "anomaly": {
+    "feature_sources": 857,
+    "ranked_sources": 857,
+    "executed_folds": 10,
+    "nominal_p_le_0p01_unvetted": 8,
+    "bh_adjusted_p_le_0p05": 0,
+    "interpretation": "Calibration assumes exchangeability; field shift and shared fits limit p-value interpretation"
+  },
+  "simulations": {
+    "data_kind": "SIMULATED",
+    "seed": 20261110,
+    "line_recovery": {
+      "trials": 500,
+      "truth_integrated_flux_arbitrary_units": 0.15,
+      "mean_pull": 0.023894818543001968,
+      "std_pull": 0.9750794095763129,
+      "coverage_95": 0.948,
+      "coverage_interval": [
+        0.9247336289693778,
+        0.9657543019172321
+      ]
+    },
+    "anomaly": {
+      "training": 1500,
+      "calibration": 1000,
+      "controls": 1000,
+      "injections": 500,
+      "threshold_p": 0.01,
+      "false_positives": 10,
+      "false_positive_rate": 0.01,
+      "false_positive_interval": [
+        0.004805510691049309,
+        0.01831324305511245
+      ],
+      "recovered": 484,
+      "recovery_rate": 0.968,
+      "recovery_interval": [
+        0.9485532317083544,
+        0.9816008146763601
+      ],
+      "limitation": "Gaussian 2D population and artificial 1.5 dex shift; not astrophysical discovery performance"
+    },
+    "physics": {
+      "eddington_luminosity_1e7_Msun_erg_s": 1.2570651866472896e+45,
+      "blackbody_temperature_K": 5000,
+      "blackbody_radius_Rsun": 1000,
+      "redshift": 4,
+      "flux_min_uJy": 7.515363665331712e-14,
+      "flux_max_uJy": 1.4081261235870678e-05
+    }
+  },
+  "figures": [
+    "analytic_blackbody_baseline.pdf",
+    "analytic_blackbody_baseline.png",
+    "archive_line_ratio_population.pdf",
+    "archive_line_ratio_population.png",
+    "catalogue_redshift_comparison.pdf",
+    "catalogue_redshift_comparison.png",
+    "observed_cutouts.pdf",
+    "observed_cutouts.png",
+    "observed_spectra.pdf",
+    "observed_spectra.png",
+    "simulation_validation.pdf",
+    "simulation_validation.png"
+  ]
+}

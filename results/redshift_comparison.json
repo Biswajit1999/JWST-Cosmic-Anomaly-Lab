@@ -1,0 +1,7 @@
+{
+  "candidate_pairs": 5437,
+  "unambiguous_robust_pairs": 2885,
+  "abs_normalized_difference_over_0p02": 24,
+  "median_abs_normalized_difference": 0.00014159282729607066,
+  "caveat": "Positional candidates only; quality definitions differ. No automatic source merge or redshift adjudication."
+}
