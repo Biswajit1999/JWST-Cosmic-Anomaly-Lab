@@ -11,3 +11,6 @@ Observed JADES / GOODS-S; DJA v4.4 reduction.
 - Assessment: **INSUFFICIENT_EVIDENCE** for deciding among AGN, stars, galaxy composites and reprocessing models.
 
 Review the paired JSON for measured fluxes (erg/s/cm2), equivalent widths (angstrom), uncertainties, and LSF sensitivity. Remaining checks: 2D extraction, calibration, foreground, alternate redshifts, blends, lensing, independent reduction, and full physical model library. Follow-up: higher-resolution hydrogen/metal-line profiles and PSF-matched imaging. This is a qualitative proposal, not an exposure forecast.
+
+<!-- observed-atlas -->
+[Observed image + spectrum sheet](../../figures/sources/CAL-ecfb38f30a635f5c.png) · [PDF](../../figures/sources/CAL-ecfb38f30a635f5c.pdf) · [Gallery](../visual_gallery.md)

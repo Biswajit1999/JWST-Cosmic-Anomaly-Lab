@@ -14,7 +14,22 @@ measured in NIRCam cutouts of three sources. The code produces error-aware
 archive rankings, field-held-out calibration, synthetic injection/recovery tests,
 source evidence reports, and figures labelled OBSERVED or SIMULATED.
 
-**Start with the [research report](reports/multi_survey_investigation.md),
+**See the actual sources in the [image and spectrum gallery](reports/visual_gallery.md):
+20 individual evidence sheets, 18 usable three-band colour composites, and
+the observed 2D spectral images. Two sources have partial image-band coverage.**
+
+![Observed NIRCam comparison](figures/observed_image_comparison.png)
+
+**Have we identified a black-hole star? No.** The observational pilot is complete
+within its stated scope; competing physical models have not been tested enough
+to establish that interpretation. Read the [physical-test status](reports/black_hole_star_status.md).
+
+The imaging extension is recorded separately in
+[visual execution metrics](results/visual_atlas_run.json) and
+[rendering methods](docs/visual_evidence.md). The original pilot's nine apertures
+and run summary remain a historical record.
+
+**For the original pilot, start with the [research report](reports/multi_survey_investigation.md),
 [execution metrics](results/run_summary.json), and
 [experiment registry](experiments/registry.yaml).**
 
@@ -41,6 +56,8 @@ python scripts/probe_archives.py       # ~227 MB of three catalogue products
 python scripts/prepare_pilot.py        # ingest, select, download 20 spectra
 python scripts/download_instrument.py  # resolving power reference
 python scripts/download_cutouts.py     # three sources, three NIRCam filters
+python scripts/download_cutouts.py --all  # request images for all 20 pilot sources
+python scripts/build_visual_atlas.py   # images, 2D spectra, evidence sheets, gallery
 cosmic-lab verify                     # SHA256 verification
 cosmic-lab analyse                    # numerical analysis, figures, reports
 python scripts/build_report.py        # human-readable synthesis of outputs
