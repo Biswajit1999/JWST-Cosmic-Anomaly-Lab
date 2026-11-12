@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-11T22:18:25.712425+00:00",
+  "config_sha256": "a0cfeb46b3f12f63eaa7ea01b507d4f646c5425d8d21b7a49dddb40303092d0d",
+  "parent_source_records": 20144,
+  "parent_observation_records": 44619,
+  "eligible_sources": 2647,
+  "selected_by_survey": {
+    "CEERS": 326,
+    "JADES": 1569,
+    "RUBIES": 574,
+    "UNCOVER": 178
+  },
+  "scope": "One high-SN PRISM observation per upstream source, not all JWST sources"
+}

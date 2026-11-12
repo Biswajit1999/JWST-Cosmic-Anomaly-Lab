@@ -14,6 +14,7 @@ dependencies = ["numpy>=2", "scipy>=1.14", "pandas>=2.2", "astropy>=7", "astroqu
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.11", "build>=1"]
+posters = ["reportlab>=4", "pypdf>=5"]
 
 [project.scripts]
 cosmic-lab = "cosmic_anomaly_lab.cli:main"

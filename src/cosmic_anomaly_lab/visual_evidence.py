@@ -198,7 +198,7 @@ def save_figure(fig, base):
     fig.clear()
 
 
-def evidence_sheet(root, row, images, rgb):
+def evidence_sheet(root, row, images, rgb, output_directory="figures/sources"):
     path = root / "data/raw/spectra" / row.file
     spec = read_spectrum(path)
     wave, flux, error = spec.wavelength.value, spec.flux.value, spec.error.value
@@ -294,7 +294,7 @@ def evidence_sheet(root, row, images, rgb):
         "PSFs unmatched; mono panels stretched independently. No physical classification established.",
         fontsize=11,
     )
-    base = root / "figures/sources" / row.source_id
+    base = root / output_directory / row.source_id
     save_figure(fig, base)
     return dict(
         continuum=continuum,

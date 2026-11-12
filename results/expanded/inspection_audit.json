@@ -1,0 +1,2512 @@
+{
+  "executed_utc": "2026-11-12T07:24:30.751544+00:00",
+  "sources": [
+    {
+      "source_id": "CAL-11f0c5ef758e5d00",
+      "survey": "CEERS",
+      "source_number": 2779,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 3.2395756,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "da8f0827ce4675765cb04551023f9295ccbd1c1d92040daf8bb0c32de9c976e8",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -4.096778575330972e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.785134147756571e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 1.165139547083527e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.785134147756571e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 4.583006666507572e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.785134147756571e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.2022795196975824,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 2.016058324521873,
+            "diagonal_error_uJy": 0.0029726968759417652,
+            "sn": 678.1916921425686,
+            "upper_limit_3sigma_uJy": 2.0249764151496983,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 7.486870745196939e-05,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 6.109482991257682,
+            "diagonal_error_uJy": 0.001780788583333962,
+            "sn": 3430.773898954143,
+            "upper_limit_3sigma_uJy": 6.114825357007684,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00022786677815020084,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 7.2238890587911015,
+            "diagonal_error_uJy": 0.0023773210099049813,
+            "sn": 3038.6679075703923,
+            "upper_limit_3sigma_uJy": 7.231021021820816,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0002720266208052635,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 1.4548675712122714,
+        "blue_error_uJy": 0.007834564800726251,
+        "red_uJy": 3.973843453091666,
+        "red_error_uJy": 0.015373232680935121,
+        "ratio": 2.731412488478558,
+        "ratio_error": 0.018110952914829337,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "28b8c38c015cb827691d77de0373523a2fd3ca3a654e283e23cdfaf59049ed8a",
+      "evidence_png": "figures/expanded_sources/CAL-11f0c5ef758e5d00.png",
+      "medium_resolution_status": "NO_ELIGIBLE_MEDIUM_RESOLUTION_COUNTERPART"
+    },
+    {
+      "source_id": "CAL-b153aa637a685751",
+      "survey": "JADES",
+      "source_number": 3417,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 3.1270221,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "dd736cb8f2d74ebef72634b12c73df54e869cfddf0bd67c621f0a347f566cf4b",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 5.7743629440665245e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 3.0346587881977055e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 6.539816735312342e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 3.0346587881977055e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 8.224938530474901e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 3.0346587881977055e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.16629690674649858,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.3908572225924583,
+            "diagonal_error_uJy": 0.003908912783153491,
+            "sn": 355.81689839352026,
+            "upper_limit_3sigma_uJy": 1.4025839609419188,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00012329691089689733,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 4.921561179365963,
+            "diagonal_error_uJy": 0.002390925423920551,
+            "sn": 2058.4335797875992,
+            "upper_limit_3sigma_uJy": 4.928733955637724,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00026312896981835367,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 6.7970401655882595,
+            "diagonal_error_uJy": 0.0026564890289353838,
+            "sn": 2558.6554627376895,
+            "upper_limit_3sigma_uJy": 6.805009632675065,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0003444934636354447,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.7306647388614772,
+        "blue_error_uJy": 0.00815580044534874,
+        "red_uJy": 1.929276971605447,
+        "red_error_uJy": 0.013405298464440439,
+        "ratio": 2.640440778094272,
+        "ratio_error": 0.03471688109807748,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "3f0e24231e06c77b04615c050a5f5e05645aa7754163435cb2c2a24bff745e0e",
+      "evidence_png": "figures/expanded_sources/CAL-b153aa637a685751.png",
+      "medium_resolution_status": "NO_ELIGIBLE_MEDIUM_RESOLUTION_COUNTERPART"
+    },
+    {
+      "source_id": "CAL-d256290324db5226",
+      "survey": "JADES",
+      "source_number": 3901,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 1.87703385,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "5a1c7587d1ef209a9bdef0da5a3e628543099c685f5f4f4479bb31e5c64d95d5",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 9.439670480787754e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.766739688256545e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 9.216868318617343e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.766739688256545e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.00010412959847599269,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.766739688256545e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.29643794244571103,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 4.686824497058987,
+            "diagonal_error_uJy": 0.004203622397654622,
+            "sn": 1114.9489782131632,
+            "upper_limit_3sigma_uJy": 4.6994353642519515,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0002416856959462166,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 6.273105896413326,
+            "diagonal_error_uJy": 0.002264517873781631,
+            "sn": 2770.1728341572125,
+            "upper_limit_3sigma_uJy": 6.279899450034671,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00027947738766670227,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 7.407654425390065,
+            "diagonal_error_uJy": 0.002266712438125946,
+            "sn": 3268.0168427162757,
+            "upper_limit_3sigma_uJy": 7.414454562704443,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0003711085580289364,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 1.3311209647190998,
+        "blue_error_uJy": 0.01233395701854095,
+        "red_uJy": 3.7622417615432884,
+        "red_error_uJy": 0.015258365527928693,
+        "ratio": 2.826371052113372,
+        "ratio_error": 0.028587481652547004,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "845730fa0d4466d4b55c3214c4d5c374898584012e39ac970c35b415a850f065",
+      "evidence_png": "figures/expanded_sources/CAL-d256290324db5226.png",
+      "medium_resolution_status": "NO_ELIGIBLE_MEDIUM_RESOLUTION_COUNTERPART"
+    },
+    {
+      "source_id": "CAL-e4bba52cb24e58eb",
+      "survey": "JADES",
+      "source_number": 203438,
+      "role": "COMPARISON",
+      "redshift": 1.9054789,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "fffd409bae16657ce9667bcb777aa34bf19dae59a557d3cca2491f5f49f04298",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 3.080534952459857e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3102740873944286e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.6991845086522517e-08,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3102740873944286e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 2.0842366211581974e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3102740873944286e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.06697858030374015,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.4908574258862064,
+            "diagonal_error_uJy": 0.0008109009274143744,
+            "sn": 1838.519818493648,
+            "upper_limit_3sigma_uJy": 1.4932901286684495,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 6.581613328307867e-05,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 2.442441729633138,
+            "diagonal_error_uJy": 0.0004811059051441707,
+            "sn": 5076.723655888662,
+            "upper_limit_3sigma_uJy": 2.4438850473485707,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 8.089049719274044e-05,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 3.4243459663074463,
+            "diagonal_error_uJy": 0.0007251214878792508,
+            "sn": 4722.444477990256,
+            "upper_limit_3sigma_uJy": 3.426521330771084,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00010511918924748897,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.5171764126127474,
+        "blue_error_uJy": 0.005372134216043443,
+        "red_uJy": 0.8981609955264998,
+        "red_error_uJy": 0.007424151653204391,
+        "ratio": 1.736662720151986,
+        "ratio_error": 0.02305413107191342,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "c1f3222ff93db23f143f1c55397b07c897c989f83373e562bbe26ff52580de68",
+      "evidence_png": "figures/expanded_sources/CAL-e4bba52cb24e58eb.png",
+      "medium_resolution_status": "CONDITIONAL_PROFILE_FITS",
+      "medium_file": "jades-gds05-v4_g235m-f170lp_1286_203438.spec.fits",
+      "medium_sha256": "bd062f1aa3c79db78b3138f94794651228b27fa9c32e2f82ae60f8bec20fc822",
+      "medium_grating": "G235M",
+      "medium_fits": {
+        "narrow_only": {
+          "family": "narrow_only",
+          "chi2": 240.9248146771254,
+          "n": 109,
+          "k": 9,
+          "bic": 283.14694561718767,
+          "reduced_chi2": 2.409248146771254,
+          "parameter_values": [
+            0.9589118535843455,
+            -0.03436778681200077,
+            120.7886289439593,
+            -31.622128644394497,
+            7.0589077274147245,
+            1.7239173197765525,
+            0.06657153616548708,
+            0.7620356195205977,
+            0.6855028883421987
+          ],
+          "parameter_indices_near_bound": [],
+          "broad_sigma_kms": null,
+          "exponential_scale_kms": null,
+          "resolution": 1053.8496403693553
+        },
+        "gaussian": {
+          "family": "gaussian",
+          "chi2": 212.78822543212166,
+          "n": 109,
+          "k": 12,
+          "bic": 269.0844000188714,
+          "reduced_chi2": 2.193693045691976,
+          "parameter_values": [
+            0.9595189353413096,
+            -0.0260296180291767,
+            109.4491338009023,
+            -41.45314388078287,
+            6.733704039570903,
+            1.6835384038168026,
+            0.06208292711625441,
+            0.74087355993692,
+            0.6743168228331186,
+            0.4112556874878218,
+            100.00000000470173,
+            261.9428008368776
+          ],
+          "parameter_indices_near_bound": [
+            10
+          ],
+          "broad_sigma_kms": 100.00000000470173,
+          "exponential_scale_kms": null,
+          "resolution": 1053.8496403693553
+        },
+        "exponential": {
+          "family": "exponential",
+          "chi2": 214.9782815095051,
+          "n": 109,
+          "k": 13,
+          "bic": 275.96580397848396,
+          "reduced_chi2": 2.239357099057345,
+          "parameter_values": [
+            0.9571249494739653,
+            -0.038247708973049264,
+            118.08396902753466,
+            -33.34664875976743,
+            7.013404026461354,
+            1.3988358210987069,
+            0.06778722096892942,
+            0.7600475068141218,
+            0.6855706279710413,
+            0.5487165726902602,
+            100.00000000000004,
+            893.015193639797,
+            252.6657157992748
+          ],
+          "parameter_indices_near_bound": [
+            10
+          ],
+          "broad_sigma_kms": 100.00000000000004,
+          "exponential_scale_kms": 252.6657157992748,
+          "resolution": 1053.8496403693553
+        }
+      },
+      "medium_delta_bic_narrow_minus_gaussian": 14.062545598316262,
+      "medium_delta_bic_gaussian_minus_exponential": -6.881403959612555
+    },
+    {
+      "source_id": "CAL-ee21ea17c6f8511b",
+      "survey": "JADES",
+      "source_number": 10072503,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 2.04655935,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "476ced15185bbf4c9e0b93164527b1e4147566ad4aec368e3ea08376fc942362",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 7.159490836784243e-05,
+            "valid_fraction": 0.4207638888888889,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3243923193087596e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -6.601177155971527e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3243923193087596e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.5030542854219676e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3243923193087596e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.0002738947087976461,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "UNAVAILABLE",
+            "reason": "Insufficient valid aperture/sky pixels"
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.9769492734130472,
+            "diagonal_error_uJy": 0.001450658352177559,
+            "sn": 673.4523479953532,
+            "upper_limit_3sigma_uJy": 0.9813012484695799,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 7.956124842166901e-05,
+            "n_aperture_pixels": 112,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.1194874780997635,
+            "diagonal_error_uJy": 0.0018072122914893072,
+            "sn": 619.4554360723189,
+            "upper_limit_3sigma_uJy": 1.1249091149742314,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 9.350466076284647e-05,
+            "n_aperture_pixels": 112,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.17209199346404996,
+        "blue_error_uJy": 0.005712433727968935,
+        "red_uJy": 0.35138847250438715,
+        "red_error_uJy": 0.006018890450589252,
+        "ratio": 2.041864153184978,
+        "ratio_error": 0.07626970175612406,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "a383a5fd206fe3086e7ffc6c2576fa4d8aae7a14a47a3d7ed38c758a67584294",
+      "evidence_png": "figures/expanded_sources/CAL-ee21ea17c6f8511b.png",
+      "medium_resolution_status": "CONDITIONAL_PROFILE_FITS",
+      "medium_file": "jades-gds06-v4_g235m-f170lp_1286_10072503.spec.fits",
+      "medium_sha256": "b2d105141f5e632a398ff7217288d6b8222d7b36640cb36fbf476b06b20ad677",
+      "medium_grating": "G235M",
+      "medium_fits": {
+        "narrow_only": {
+          "family": "narrow_only",
+          "chi2": 106.57780436826744,
+          "n": 115,
+          "k": 9,
+          "bic": 149.2821935235367,
+          "reduced_chi2": 1.0054509846062967,
+          "parameter_values": [
+            0.923047432722175,
+            -0.07105056341489241,
+            103.7091796876053,
+            18.476723641126558,
+            3.408137266682113,
+            0.726654571459833,
+            2.3302483769417794e-15,
+            0.4653767220908961,
+            0.4446885933938885
+          ],
+          "parameter_indices_near_bound": [
+            6
+          ],
+          "broad_sigma_kms": null,
+          "exponential_scale_kms": null,
+          "resolution": 1105.3280392620002
+        },
+        "gaussian": {
+          "family": "gaussian",
+          "chi2": 103.92224515040519,
+          "n": 115,
+          "k": 12,
+          "bic": 160.8614306907642,
+          "reduced_chi2": 1.0089538364117008,
+          "parameter_values": [
+            0.9216228624648555,
+            -0.06345059192352442,
+            90.55813660451135,
+            9.80522954541438,
+            3.1907474118514867,
+            0.7113361337765576,
+            6.304467541493153e-25,
+            0.4522607890848998,
+            0.4370962663026974,
+            0.29206382434379513,
+            165.09456958276203,
+            293.5803190216075
+          ],
+          "parameter_indices_near_bound": [
+            6
+          ],
+          "broad_sigma_kms": 165.09456958276203,
+          "exponential_scale_kms": null,
+          "resolution": 1105.3280392620002
+        },
+        "exponential": {
+          "family": "exponential",
+          "chi2": 106.577804368856,
+          "n": 115,
+          "k": 13,
+          "bic": 168.26192203757824,
+          "reduced_chi2": 1.0448804349887844,
+          "parameter_values": [
+            0.9230474409092135,
+            -0.07105056165597465,
+            103.70917043679506,
+            18.47687770363733,
+            3.408136800716348,
+            0.7266544441474928,
+            1.0400945914587938e-18,
+            0.46537681392305613,
+            0.44468838931330107,
+            5.658891420859033e-11,
+            2999.9999999970323,
+            899.9999999999395,
+            3999.999999989043
+          ],
+          "parameter_indices_near_bound": [
+            6,
+            9,
+            10,
+            11,
+            12
+          ],
+          "broad_sigma_kms": 2999.9999999970323,
+          "exponential_scale_kms": 3999.999999989043,
+          "resolution": 1105.3280392620002
+        }
+      },
+      "medium_delta_bic_narrow_minus_gaussian": -11.57923716722749,
+      "medium_delta_bic_gaussian_minus_exponential": -7.40049134681405
+    },
+    {
+      "source_id": "CAL-efc95b2a0f8a519d",
+      "survey": "JADES",
+      "source_number": 68797,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 5.039798983333333,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "8aa1469df8656dba6098cd5dcee5828361e577620958e01c20bc09560f819092",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 9.234925266355277e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.6445278461391046e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.00011178840417414905,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.6445278461391046e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.0001374824158847332,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.6445278461391046e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.05661282553027073,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.16491591826546936,
+            "diagonal_error_uJy": 0.0040117183681754685,
+            "sn": 41.10854829036097,
+            "upper_limit_3sigma_uJy": 0.17695107336999577,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00014327556360512972,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.9508177345991136,
+            "diagonal_error_uJy": 0.003519608429065418,
+            "sn": 270.14872641715704,
+            "upper_limit_3sigma_uJy": 0.9613765598863098,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00032787680625915525,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 3.2518531999737026,
+            "diagonal_error_uJy": 0.0034882960252311922,
+            "sn": 932.2182453704402,
+            "upper_limit_3sigma_uJy": 3.2623180880493963,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0003771860152482986,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.10291142013489396,
+        "blue_error_uJy": 0.003955822670071008,
+        "red_uJy": 0.21715583826658874,
+        "red_error_uJy": 0.004344651241696575,
+        "ratio": 2.110123813100099,
+        "ratio_error": 0.09144039205167077,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "55726a0a961da93c601beb80df22993d1dd15ccdadfc6d1c6a64b1cefe56ac6a",
+      "evidence_png": "figures/expanded_sources/CAL-efc95b2a0f8a519d.png",
+      "medium_resolution_status": "CONDITIONAL_PROFILE_FITS",
+      "medium_file": "jades-gdn198-v4_g395m-f290lp_1181_68797.spec.fits",
+      "medium_sha256": "fce9a9a982e791a0597ff8c47d9ceacf0a23b4d5f1ad04f3d9da9cf55dd3dbb1",
+      "medium_grating": "G395M",
+      "medium_fits": {
+        "narrow_only": {
+          "family": "narrow_only",
+          "chi2": 11134.629108873542,
+          "n": 135,
+          "k": 9,
+          "bic": 11178.776581879487,
+          "reduced_chi2": 88.37007229264715,
+          "parameter_values": [
+            1.0288173651859962,
+            -0.2518237034043071,
+            499.99999999999994,
+            -598.4324282782067,
+            2.023133984204351,
+            18.24212936206027,
+            0.011524365289924907,
+            2.637133487121499e-69,
+            7.665779663253185e-77
+          ],
+          "parameter_indices_near_bound": [
+            2,
+            7,
+            8
+          ],
+          "broad_sigma_kms": null,
+          "exponential_scale_kms": null,
+          "resolution": 1304.9547452504808
+        },
+        "gaussian": {
+          "family": "gaussian",
+          "chi2": 2127.5828929625395,
+          "n": 135,
+          "k": 12,
+          "bic": 2186.446190303801,
+          "reduced_chi2": 17.297421894004387,
+          "parameter_values": [
+            0.774273613773321,
+            -0.08102037806414449,
+            148.4739359785148,
+            118.62267114133374,
+            6.808963487482572,
+            0.31752284733945346,
+            0.062351419691411225,
+            0.10457482488415461,
+            0.029395087158418456,
+            26.058695994216038,
+            1383.6488889804455,
+            60.01723672745472
+          ],
+          "parameter_indices_near_bound": [],
+          "broad_sigma_kms": 1383.6488889804455,
+          "exponential_scale_kms": null,
+          "resolution": 1304.9547452504808
+        },
+        "exponential": {
+          "family": "exponential",
+          "chi2": 1817.5842872723092,
+          "n": 135,
+          "k": 13,
+          "bic": 1881.352859392009,
+          "reduced_chi2": 14.89823186288778,
+          "parameter_values": [
+            0.6588766661858362,
+            0.018788085247374832,
+            115.7479659127201,
+            101.32780552056994,
+            5.59032270456881,
+            0.060516596875559464,
+            0.04760519329726851,
+            0.1349280263106156,
+            0.06923009639878701,
+            29.406549449776595,
+            707.400622867688,
+            98.1079670226062,
+            1024.8788323494337
+          ],
+          "parameter_indices_near_bound": [],
+          "broad_sigma_kms": 707.400622867688,
+          "exponential_scale_kms": 1024.8788323494337,
+          "resolution": 1304.9547452504808
+        }
+      },
+      "medium_delta_bic_narrow_minus_gaussian": 8992.330391575686,
+      "medium_delta_bic_gaussian_minus_exponential": 305.093330911792
+    },
+    {
+      "source_id": "CAL-2729bede58b35cb4",
+      "survey": "RUBIES",
+      "source_number": 55604,
+      "role": "COMPARISON",
+      "redshift": 6.9843473,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "bde275ad4d4df3259979055c6248fd81df2ea823c8815c045abd3794d2ec889a",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 1.2518622679635883e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5889778425134745e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 7.101119263097644e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5889778425134745e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 3.6998648429289464e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5889778425134745e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.017174943360391343,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.07619731349390349,
+            "diagonal_error_uJy": 0.002152119140090313,
+            "sn": 35.405713407997425,
+            "upper_limit_3sigma_uJy": 0.08265367091417443,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 2.7076442493125796e-05,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.1419027533476765,
+            "diagonal_error_uJy": 0.0030139090150140763,
+            "sn": 47.082626794894715,
+            "upper_limit_3sigma_uJy": 0.1509444803927187,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00011739006265997886,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.7340847363695502,
+            "diagonal_error_uJy": 0.002707031244957017,
+            "sn": 271.17704597502944,
+            "upper_limit_3sigma_uJy": 0.7422058301044212,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00019078796729445456,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.119273620945197,
+        "blue_error_uJy": 0.005973584386397413,
+        "red_uJy": 0.30174601308252924,
+        "red_error_uJy": 0.008136201593674609,
+        "ratio": 2.529863776175399,
+        "ratio_error": 0.14389907211001873,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "40de975af280e003dc6ffcbacb54e4c157562af9ec24c4a452dc378cf0adf448",
+      "evidence_png": "figures/expanded_sources/CAL-2729bede58b35cb4.png",
+      "medium_resolution_status": "NO_ELIGIBLE_MEDIUM_RESOLUTION_COUNTERPART"
+    },
+    {
+      "source_id": "CAL-6f95e2608a9752cc",
+      "survey": "RUBIES",
+      "source_number": 49140,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 6.68846762,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "75dab3f4bd569a4133a4fd6223d2786ee6797479c633d0185c28a8867229ac2c",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 1.066358934622258e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7232903432114885e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.2105965288355946e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7232903432114885e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -2.190439263358712e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7232903432114885e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.015776019565967515,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.056043030821747386,
+            "diagonal_error_uJy": 0.0026054354035346247,
+            "sn": 21.51004425046096,
+            "upper_limit_3sigma_uJy": 0.06385933703235126,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 5.646855104714632e-05,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.12593138080672361,
+            "diagonal_error_uJy": 0.0016638649718328066,
+            "sn": 75.68605802669533,
+            "upper_limit_3sigma_uJy": 0.13092297572222203,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 3.5438202321529385e-05,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.7167968725040554,
+            "diagonal_error_uJy": 0.0020212185529764207,
+            "sn": 354.63600482417377,
+            "upper_limit_3sigma_uJy": 0.7228605281629847,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 4.9541834741830825e-05,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.10573919269493572,
+        "blue_error_uJy": 0.004525567705829473,
+        "red_uJy": 0.35518555017178444,
+        "red_error_uJy": 0.00782678093159206,
+        "ratio": 3.359071893016219,
+        "ratio_error": 0.1617021740208991,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "c75f4dc268c415476234ff2fa6338e581eb49d853d9623a14a77151d29c3b041",
+      "evidence_png": "figures/expanded_sources/CAL-6f95e2608a9752cc.png",
+      "medium_resolution_status": "CONDITIONAL_PROFILE_FITS",
+      "medium_file": "rubies-egs63-v4_g395m-f290lp_4233_49140.spec.fits",
+      "medium_sha256": "907f7977a7a8bedd9019adbf05139d6c137dd61ad995a6f620788ff3ae09e2ff",
+      "medium_grating": "G395M",
+      "medium_fits": {
+        "narrow_only": {
+          "family": "narrow_only",
+          "chi2": 1007.246984817639,
+          "n": 155,
+          "k": 9,
+          "bic": 1052.6378108699123,
+          "reduced_chi2": 6.898951950805746,
+          "parameter_values": [
+            1.0548408814587054,
+            -0.5604658417441711,
+            499.99999999999994,
+            -509.89775865943227,
+            5.995777187488024,
+            10.609444778052413,
+            4.310600961033055e-25,
+            2.1953354764412215e-26,
+            6.808733967762094e-28
+          ],
+          "parameter_indices_near_bound": [
+            2,
+            6,
+            7,
+            8
+          ],
+          "broad_sigma_kms": null,
+          "exponential_scale_kms": null,
+          "resolution": 1666.488030234289
+        },
+        "gaussian": {
+          "family": "gaussian",
+          "chi2": 298.24541743767924,
+          "n": 155,
+          "k": 12,
+          "bic": 358.7665188407102,
+          "reduced_chi2": 2.0856322897739807,
+          "parameter_values": [
+            0.7079848274180857,
+            -0.22213815965317002,
+            152.7052670868845,
+            356.50368818925375,
+            1.1572668439778515,
+            3.3945141336484686e-16,
+            8.001176684963805e-19,
+            8.6709997950315e-24,
+            6.970630805148046e-27,
+            24.634500435486242,
+            1238.635177807052,
+            -147.89385510280846
+          ],
+          "parameter_indices_near_bound": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "broad_sigma_kms": 1238.635177807052,
+          "exponential_scale_kms": null,
+          "resolution": 1666.488030234289
+        },
+        "exponential": {
+          "family": "exponential",
+          "chi2": 279.8033685482758,
+          "n": 155,
+          "k": 13,
+          "bic": 345.367895068226,
+          "reduced_chi2": 1.970446257382224,
+          "parameter_values": [
+            0.6127625494021198,
+            -0.11939104021741268,
+            155.60828744555258,
+            368.36966089228997,
+            1.1480426905382923,
+            1.7658885317662103e-17,
+            0.018341252288956746,
+            5.69987144443895e-21,
+            8.564744949781544e-25,
+            25.98261002979828,
+            863.6844168622422,
+            -154.42856316634686,
+            793.5080890053133
+          ],
+          "parameter_indices_near_bound": [
+            5,
+            7,
+            8
+          ],
+          "broad_sigma_kms": 863.6844168622422,
+          "exponential_scale_kms": 793.5080890053133,
+          "resolution": 1666.488030234289
+        }
+      },
+      "medium_delta_bic_narrow_minus_gaussian": 693.8712920292021,
+      "medium_delta_bic_gaussian_minus_exponential": 13.3986237724842
+    },
+    {
+      "source_id": "CAL-822484b865235523",
+      "survey": "RUBIES",
+      "source_number": 26634,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 1.8755645,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "954dc230fe4d74e181f9a707b22fd09d1f5d2458a9d2798867c613d84b30734c",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 4.8599131405353545e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.626470161696089e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.00010654344223439694,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.626470161696089e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.00017665011808276176,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.626470161696089e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.16278379294919457,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.9229335702955723,
+            "diagonal_error_uJy": 0.004806223337074039,
+            "sn": 400.09242921828667,
+            "upper_limit_3sigma_uJy": 1.9373522403067944,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0005232976377010346,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 6.861024639829993,
+            "diagonal_error_uJy": 0.004842016797626164,
+            "sn": 1416.9766290760624,
+            "upper_limit_3sigma_uJy": 6.875550690222871,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0008620774000883103,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 13.222197781056165,
+            "diagonal_error_uJy": 0.005587296912490027,
+            "sn": 2366.4748783081186,
+            "upper_limit_3sigma_uJy": 13.238959671793635,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0013656233251094817,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.17203089877514946,
+        "blue_error_uJy": 0.011088024390112876,
+        "red_uJy": 0.6670551875359195,
+        "red_error_uJy": 0.01222906129510538,
+        "ratio": 3.87753125912447,
+        "ratio_error": 0.25983430113112077,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "fa2e6505ba345f9845820a6cee0ea525d5e87f2c06e5a356ea12d07453d5af54",
+      "evidence_png": "figures/expanded_sources/CAL-822484b865235523.png",
+      "medium_resolution_status": "NO_ELIGIBLE_MEDIUM_RESOLUTION_COUNTERPART"
+    },
+    {
+      "source_id": "CAL-94bb0488729b5fd2",
+      "survey": "RUBIES",
+      "source_number": 26833,
+      "role": "COMPARISON",
+      "redshift": 1.809657,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "ebf595e4eb0b1ff80b7239e3840aba90683af9a97cf7f323455e3621be97a058",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.00011164114810526371,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 1.3951046927913632e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.0002383921854197979,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 1.3951046927913632e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.0003204822540283203,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 1.3951046927913632e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.19837381491574166,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.569164092242718,
+            "diagonal_error_uJy": 0.007465527612068137,
+            "sn": 210.18796979682196,
+            "upper_limit_3sigma_uJy": 1.5915606750789224,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0007349184155464172,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 5.913573343902826,
+            "diagonal_error_uJy": 0.006563356337203039,
+            "sn": 900.9983673113934,
+            "upper_limit_3sigma_uJy": 5.933263412914435,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0013713216036558152,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 11.363052031695842,
+            "diagonal_error_uJy": 0.010005899686936817,
+            "sn": 1135.6352139459136,
+            "upper_limit_3sigma_uJy": 11.393069730756652,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.001926776319742203,
+            "n_aperture_pixels": 114,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.10863712889258674,
+        "blue_error_uJy": 0.008500392120478399,
+        "red_uJy": 0.38521223696481155,
+        "red_error_uJy": 0.010282720786823142,
+        "ratio": 3.545861722336975,
+        "ratio_error": 0.2931496266903048,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "427002ee36eecc66aa9eee7b56d1c01be93c7fafd735309af1459d0d3a8f7d14",
+      "evidence_png": "figures/expanded_sources/CAL-94bb0488729b5fd2.png",
+      "medium_resolution_status": "NO_ELIGIBLE_MEDIUM_RESOLUTION_COUNTERPART"
+    },
+    {
+      "source_id": "CAL-b1c696ad792151c2",
+      "survey": "RUBIES",
+      "source_number": 42046,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 5.2771907,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "712cdf9928f55682ef3ff69466cb5deff2147921d788a4213de6be6aa5a89cb4",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -3.641397808678448e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.807841559548662e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -3.9633517153561116e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.807841559548662e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -5.353644955903292e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.807841559548662e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.03678240153232131,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.09266846378683113,
+            "diagonal_error_uJy": 0.004300408513741738,
+            "sn": 21.54875833091525,
+            "upper_limit_3sigma_uJy": 0.10556968932805635,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -8.618539199233055e-05,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.4013884696137393,
+            "diagonal_error_uJy": 0.0027144088932285217,
+            "sn": 147.8732517473914,
+            "upper_limit_3sigma_uJy": 0.4095316962934249,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.6854623099789022e-05,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.5073939748061822,
+            "diagonal_error_uJy": 0.004323721352015639,
+            "sn": 348.6334691997353,
+            "upper_limit_3sigma_uJy": 1.520365138862229,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 2.638406585901976e-05,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.11081190414149245,
+        "blue_error_uJy": 0.006557565550500046,
+        "red_uJy": 0.26489604493151664,
+        "red_error_uJy": 0.007317738832786582,
+        "ratio": 2.390501697302112,
+        "ratio_error": 0.15611838984156776,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "2ab01c39b861c2a5605c9a641a4eeb7ee60d3982ead0b9f8a935edcb79cf0662",
+      "evidence_png": "figures/expanded_sources/CAL-b1c696ad792151c2.png",
+      "medium_resolution_status": "CONDITIONAL_PROFILE_FITS",
+      "medium_file": "rubies-egs53-v4_g395m-f290lp_4233_42046.spec.fits",
+      "medium_sha256": "bab951f291bc8e48ccf3340b198f51f3516169f0a3264db8c78e568735a5e8ce",
+      "medium_grating": "G395M",
+      "medium_fits": {
+        "narrow_only": {
+          "family": "narrow_only",
+          "chi2": 4609.984719561918,
+          "n": 140,
+          "k": 9,
+          "bic": 4654.459501365402,
+          "reduced_chi2": 35.19072305009097,
+          "parameter_values": [
+            1.2522369754991385,
+            -0.9543063292293132,
+            282.08331039237817,
+            164.58805042830963,
+            16.244506591281223,
+            5.05967273046964,
+            1.6838700364545464e-27,
+            2.1169899799344363e-28,
+            2.141197512209871e-28
+          ],
+          "parameter_indices_near_bound": [
+            6,
+            7,
+            8
+          ],
+          "broad_sigma_kms": null,
+          "exponential_scale_kms": null,
+          "resolution": 1356.7783593264564
+        },
+        "gaussian": {
+          "family": "gaussian",
+          "chi2": 1207.3267836880193,
+          "n": 140,
+          "k": 12,
+          "bic": 1266.6264927593309,
+          "reduced_chi2": 9.43224049756265,
+          "parameter_values": [
+            0.6493601534348172,
+            -0.24674884411800846,
+            155.78608936706866,
+            128.50533784609533,
+            9.478540649200577,
+            0.20554497158470125,
+            0.13190965170321478,
+            0.030142631185129325,
+            1.521957193533028e-39,
+            25.396723870914848,
+            1483.0101695011942,
+            42.166538857968824
+          ],
+          "parameter_indices_near_bound": [
+            8
+          ],
+          "broad_sigma_kms": 1483.0101695011942,
+          "exponential_scale_kms": null,
+          "resolution": 1356.7783593264564
+        },
+        "exponential": {
+          "family": "exponential",
+          "chi2": 1194.905952246726,
+          "n": 140,
+          "k": 13,
+          "bic": 1259.147303740647,
+          "reduced_chi2": 9.408708285407291,
+          "parameter_values": [
+            0.5861208210222659,
+            -0.19761490828235972,
+            145.9619717962694,
+            123.35805661733482,
+            9.026480520348493,
+            0.04835669340774034,
+            0.12324665174555655,
+            0.0484176080616843,
+            3.168117910714213e-39,
+            27.022640266706038,
+            1044.5964130049042,
+            72.99137059452826,
+            868.9219356321458
+          ],
+          "parameter_indices_near_bound": [
+            8
+          ],
+          "broad_sigma_kms": 1044.5964130049042,
+          "exponential_scale_kms": 868.9219356321458,
+          "resolution": 1356.7783593264564
+        }
+      },
+      "medium_delta_bic_narrow_minus_gaussian": 3387.8330086060705,
+      "medium_delta_bic_gaussian_minus_exponential": 7.479189018683883
+    },
+    {
+      "source_id": "CAL-c692e9afcfd85c9a",
+      "survey": "RUBIES",
+      "source_number": 9809,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 5.681228,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "4d17cad5b89b02ae5a1e3e34cb02655fa551771a6b9f0e62e95c101fb53c2be4",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.0523325181566179e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5611532288401953e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 1.4542199205607177e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5611532288401953e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 5.621743330266327e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5611532288401953e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.023107511456353376,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.020363656578410883,
+            "diagonal_error_uJy": 0.0024264893834640405,
+            "sn": 8.392229826837264,
+            "upper_limit_3sigma_uJy": 0.027643124728803002,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -3.581168421078473e-06,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.17300552304135636,
+            "diagonal_error_uJy": 0.0014670626107490547,
+            "sn": 117.92647551219574,
+            "upper_limit_3sigma_uJy": 0.17740671087360352,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 3.177697071805596e-05,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.3987939080921934,
+            "diagonal_error_uJy": 0.0020576037772894367,
+            "sn": 679.8169421786736,
+            "upper_limit_3sigma_uJy": 1.4049667194240616,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 6.686539854854346e-05,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.037437033385327154,
+        "blue_error_uJy": 0.006373388394231915,
+        "red_uJy": 0.12763734585617145,
+        "red_error_uJy": 0.007238022217981831,
+        "ratio": 3.4093872915207237,
+        "ratio_error": 0.6117775070283656,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "229b141133d39b43aecc50da5087be28d42eaa088553d285f85891b7e92b0b93",
+      "evidence_png": "figures/expanded_sources/CAL-c692e9afcfd85c9a.png",
+      "medium_resolution_status": "UNAVAILABLE_OR_FAILED",
+      "medium_reason": "Insufficient medium-resolution Halpha coverage"
+    },
+    {
+      "source_id": "CAL-e9dc16edfa5553bb",
+      "survey": "RUBIES",
+      "source_number": 75646,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 4.9000187,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "95d2332c49b0b17d8f652ed9e440c558773be120ace4691cc58adbdda9e63fcc",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 1.8697659834288063e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5792814449736034e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 4.80825619888492e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5792814449736034e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 6.921510910615325e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.5792814449736034e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.053817596533566346,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.2696211592108011,
+            "diagonal_error_uJy": 0.0019148950053345015,
+            "sn": 140.8020588385746,
+            "upper_limit_3sigma_uJy": 0.2753658442268046,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 6.0567215550690894e-05,
+            "n_aperture_pixels": 112,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.7170867985486984,
+            "diagonal_error_uJy": 0.002530276430971159,
+            "sn": 678.61628774278,
+            "upper_limit_3sigma_uJy": 1.7246776278416118,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00019531356170773506,
+            "n_aperture_pixels": 112,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 2.1752062302827837,
+            "diagonal_error_uJy": 0.0019183833665505352,
+            "sn": 1133.8746301757424,
+            "upper_limit_3sigma_uJy": 2.1809613803824353,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00028656940907239914,
+            "n_aperture_pixels": 112,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.580860823881325,
+        "blue_error_uJy": 0.008767757976969284,
+        "red_uJy": 1.5898615172986652,
+        "red_error_uJy": 0.012674522308005864,
+        "ratio": 2.737078232742871,
+        "ratio_error": 0.0467227996774458,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "63582d96ea1bae00f5c5b3d2e04a9329bc021781bed57de12a9fb1054825f41e",
+      "evidence_png": "figures/expanded_sources/CAL-e9dc16edfa5553bb.png",
+      "medium_resolution_status": "CONDITIONAL_PROFILE_FITS",
+      "medium_file": "rubies-egs61-v4_g395m-f290lp_4233_75646.spec.fits",
+      "medium_sha256": "de54da1521aa964d0519a08e1c7a24266d9196a3cf7977125e5757a7c6262474",
+      "medium_grating": "G395M",
+      "medium_fits": {
+        "narrow_only": {
+          "family": "narrow_only",
+          "chi2": 136.29766150541363,
+          "n": 132,
+          "k": 9,
+          "bic": 180.24287880869096,
+          "reduced_chi2": 1.1081110691497043,
+          "parameter_values": [
+            0.9548979164609918,
+            -0.16257744236209967,
+            343.50905432574837,
+            -134.8872319354123,
+            0.16793638495101063,
+            0.9134974949836976,
+            0.04738890776519011,
+            0.1708912363737906,
+            0.13985824709706815
+          ],
+          "parameter_indices_near_bound": [],
+          "broad_sigma_kms": null,
+          "exponential_scale_kms": null,
+          "resolution": 1274.472378773141
+        },
+        "gaussian": {
+          "family": "gaussian",
+          "chi2": 131.61148649941964,
+          "n": 132,
+          "k": 12,
+          "bic": 190.2051095704561,
+          "reduced_chi2": 1.0967623874951637,
+          "parameter_values": [
+            0.9545137177000861,
+            -0.15864387077465877,
+            235.87163936622795,
+            -103.24031261388377,
+            1.3270324992155116e-32,
+            0.5317328627460145,
+            0.04162374671271041,
+            0.1500990935783486,
+            0.13526542085925608,
+            0.7065879517029767,
+            832.9050530915953,
+            310.4128851237821
+          ],
+          "parameter_indices_near_bound": [
+            4
+          ],
+          "broad_sigma_kms": 832.9050530915953,
+          "exponential_scale_kms": null,
+          "resolution": 1274.472378773141
+        },
+        "exponential": {
+          "family": "exponential",
+          "chi2": 131.36015835392823,
+          "n": 132,
+          "k": 13,
+          "bic": 194.83658334755103,
+          "reduced_chi2": 1.1038668769237667,
+          "parameter_values": [
+            0.9570458344284309,
+            -0.15967735302100766,
+            229.86451633000414,
+            -76.80924784034593,
+            3.285100126223004e-31,
+            0.5787150579985999,
+            0.03752860713485247,
+            0.1494443228767026,
+            0.12977003397596076,
+            0.6241059510673657,
+            100.00000000000001,
+            277.954719433506,
+            622.159111431632
+          ],
+          "parameter_indices_near_bound": [
+            4,
+            10
+          ],
+          "broad_sigma_kms": 100.00000000000001,
+          "exponential_scale_kms": 622.159111431632,
+          "resolution": 1274.472378773141
+        }
+      },
+      "medium_delta_bic_narrow_minus_gaussian": -9.962230761765142,
+      "medium_delta_bic_gaussian_minus_exponential": -4.631473777094925
+    },
+    {
+      "source_id": "CAL-ebc2a6a997b3535d",
+      "survey": "RUBIES",
+      "source_number": 154183,
+      "role": "PUBLISHED_BENCHMARK",
+      "redshift": 3.546018,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "5bbe77c6f330bed5317491ba91d8d85248c5a12ea37d042e4236e7b3ae49590c",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 2.128488849848509e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 1.3963036662222376e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.0828605154529213e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 1.3963036662222376e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.2155683944001794e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 1.3963036662222376e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.04432339483779485,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.08544067203300074,
+            "diagonal_error_uJy": 0.004252180628163152,
+            "sn": 20.093377846441395,
+            "upper_limit_3sigma_uJy": 0.0981972139174902,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00010678815189749002,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.0757864735415206,
+            "diagonal_error_uJy": 0.0025605382775618457,
+            "sn": 420.1407504698147,
+            "upper_limit_3sigma_uJy": 1.083468088374206,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 7.343832869082689e-05,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 1.5450905881309882,
+            "diagonal_error_uJy": 0.0033868770481788354,
+            "sn": 456.1991965317436,
+            "upper_limit_3sigma_uJy": 1.5552512192755248,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 9.049671236425639e-05,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.024632767130564392,
+        "blue_error_uJy": 0.006092623472115222,
+        "red_uJy": 0.20841405246536288,
+        "red_error_uJy": 0.00761721537271968,
+        "ratio": 8.460846130711895,
+        "ratio_error": 2.115413902594803,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "abd903a4b7b93bb56a9fdba9e36cec1cfa9685ef740f819308a1ce52c597bee9",
+      "evidence_png": "figures/expanded_sources/CAL-ebc2a6a997b3535d.png",
+      "medium_resolution_status": "CONDITIONAL_PROFILE_FITS",
+      "medium_file": "rubies-uds31-v4_g395m-f290lp_4233_154183.spec.fits",
+      "medium_sha256": "c7c14ad4146600740a54016c6f99441a0407fe2eb092ea4ea6d20059bea0f38b",
+      "medium_grating": "G395M",
+      "medium_fits": {
+        "narrow_only": {
+          "family": "narrow_only",
+          "chi2": 400.52251022683356,
+          "n": 102,
+          "k": 9,
+          "bic": 442.147265546392,
+          "reduced_chi2": 4.306693658353049,
+          "parameter_values": [
+            1.014940310711746,
+            -0.1686835802300042,
+            499.9999999998291,
+            -13.268216110548083,
+            8.508781542331974,
+            3.2846124000802095,
+            7.137936161336324e-14,
+            3.664964898841289e-11,
+            1.4961071822203422e-12
+          ],
+          "parameter_indices_near_bound": [
+            2,
+            6,
+            7,
+            8
+          ],
+          "broad_sigma_kms": null,
+          "exponential_scale_kms": null,
+          "resolution": 980.2917111412598
+        },
+        "gaussian": {
+          "family": "gaussian",
+          "chi2": 191.58471605113854,
+          "n": 102,
+          "k": 12,
+          "bic": 247.0843898105498,
+          "reduced_chi2": 2.1287190672348726,
+          "parameter_values": [
+            0.8396588669721474,
+            0.03084836929576914,
+            472.0585607155666,
+            63.36759900340058,
+            7.218684266691609,
+            0.824201383349519,
+            0.032445373181863836,
+            0.08978184230412621,
+            1.6265434116180064e-31,
+            7.21474341696137,
+            1566.635998870659,
+            187.81024259120426
+          ],
+          "parameter_indices_near_bound": [
+            8
+          ],
+          "broad_sigma_kms": 1566.635998870659,
+          "exponential_scale_kms": null,
+          "resolution": 980.2917111412598
+        },
+        "exponential": {
+          "family": "exponential",
+          "chi2": 119.36529479329829,
+          "n": 102,
+          "k": 13,
+          "bic": 179.48994136599381,
+          "reduced_chi2": 1.3411830875651494,
+          "parameter_values": [
+            0.8600021655209796,
+            0.034178945857955105,
+            30.000000000000004,
+            -85.79125557979965,
+            1.0618950236996672,
+            7.95020146411943e-33,
+            0.01742642510464427,
+            1.1161571138876978e-31,
+            1.859988612791194e-40,
+            14.340896805761561,
+            313.2402788255598,
+            162.80990632537038,
+            781.0881903907306
+          ],
+          "parameter_indices_near_bound": [
+            2,
+            5,
+            7,
+            8
+          ],
+          "broad_sigma_kms": 313.2402788255598,
+          "exponential_scale_kms": 781.0881903907306,
+          "resolution": 980.2917111412598
+        }
+      },
+      "medium_delta_bic_narrow_minus_gaussian": 195.06287573584223,
+      "medium_delta_bic_gaussian_minus_exponential": 67.59444844455598
+    },
+    {
+      "source_id": "CAL-cf2762adfeb35e39",
+      "survey": "UNCOVER",
+      "source_number": 45924,
+      "role": "JOINT_SCREEN_PRIORITY",
+      "redshift": 4.467302631942959,
+      "image_status": "RGB_AVAILABLE",
+      "image_sha256": "c0d46d253fc3ae8bdcc7bd753b87d4be0be6e34428045d21f509762970af7449",
+      "image_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 3.173724515363574e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3567027760635516e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.9975982140749693e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3567027760635516e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 1.2910819714306855e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3567027760635516e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.12594033883152198,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.3437727271352196,
+            "diagonal_error_uJy": 0.0020019611461652483,
+            "sn": 171.71798153711197,
+            "upper_limit_3sigma_uJy": 0.34977861057371534,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 3.564904443919658e-05,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 2.4870012088032674,
+            "diagonal_error_uJy": 0.0013793395125106544,
+            "sn": 1803.0377483180066,
+            "upper_limit_3sigma_uJy": 2.4911392273407995,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 4.708313499577344e-06,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 4.015684304975439,
+            "diagonal_error_uJy": 0.0018297118252177031,
+            "sn": 2194.7086145642875,
+            "upper_limit_3sigma_uJy": 4.021173440451092,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 6.093856180086733e-05,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "continuum": {
+        "blue_uJy": 0.32573014966313035,
+        "blue_error_uJy": 0.0015119724845321402,
+        "red_uJy": 1.219878449880352,
+        "red_error_uJy": 0.002578921881969791,
+        "ratio": 3.745058451426583,
+        "ratio_error": 0.019101852881013355,
+        "status": "MEASURED_CONDITIONAL_ON_REDSHIFT"
+      },
+      "spectrum_sha256": "6cdfa6fa66018d2ca210d71156eb72759cb192df7fbf9bb8e2cdc299d51c351c",
+      "evidence_png": "figures/expanded_sources/CAL-cf2762adfeb35e39.png",
+      "medium_resolution_status": "NO_ELIGIBLE_MEDIUM_RESOLUTION_COUNTERPART"
+    }
+  ],
+  "comparison_pairs": [
+    {
+      "priority_source_id": "CAL-822484b865235523",
+      "comparison_source_id": "CAL-94bb0488729b5fd2",
+      "normalized_redshift_difference": 0.022919847563843552,
+      "archive_SN_ratio": 0.9929737753587334
+    },
+    {
+      "priority_source_id": "CAL-6f95e2608a9752cc",
+      "comparison_source_id": "CAL-2729bede58b35cb4",
+      "normalized_redshift_difference": 0.03848356975976959,
+      "archive_SN_ratio": 0.7546649639922174
+    },
+    {
+      "priority_source_id": "CAL-d256290324db5226",
+      "comparison_source_id": "CAL-e4bba52cb24e58eb",
+      "normalized_redshift_difference": 0.009886936158224275,
+      "archive_SN_ratio": 0.9765602096919209
+    }
+  ],
+  "limitation": "All eleven joint priorities, three approximate comparison sources and The Cliff as an explicitly added published benchmark; not a physical classification"
+}

@@ -1,0 +1,52 @@
+{
+  "executed_utc": "2026-11-12T07:21:04.849734+00:00",
+  "eligible_denominator": 2647,
+  "attempted": 2647,
+  "analysed": 2647,
+  "fraction_of_eligible_analysed": 1.0,
+  "failed": 0,
+  "continuum_measured": 2164,
+  "line_blends_measured": 1892,
+  "continuum_screen_pass": 474,
+  "broad_blend_screen_pass": 37,
+  "joint_followup_priorities": 11,
+  "lsf_preference_changes": 559,
+  "joint_retained_with_doubled_line_errors": 8,
+  "by_survey": [
+    {
+      "survey": "CEERS",
+      "analysed": 326,
+      "joint_priorities": 1
+    },
+    {
+      "survey": "JADES",
+      "analysed": 1569,
+      "joint_priorities": 4
+    },
+    {
+      "survey": "RUBIES",
+      "analysed": 574,
+      "joint_priorities": 5
+    },
+    {
+      "survey": "UNCOVER",
+      "analysed": 178,
+      "joint_priorities": 1
+    }
+  ],
+  "input_sha256": {
+    "selection": "1ea1d8eebcb50f3fcab5db679d7f2d9d4173a6924a58231966d9e4cd1bf2ea9d",
+    "config": "a0cfeb46b3f12f63eaa7ea01b507d4f646c5425d8d21b7a49dddb40303092d0d",
+    "analysis": "d386f76aad48f04fdc3accd85176a2c5b73d547b900ee233b248597697da1d04",
+    "spectroscopy": "b2f225ffb67a9a536aeb9237049de1fec2231096d2e7d506ff13b13cc64e9db6"
+  },
+  "physical_classification": "NOT_ESTABLISHED",
+  "interpretation": "Threshold-selected follow-up queue, not detections or discovery probabilities",
+  "limitations": [
+    "Targeted high-SN successful-redshift subset",
+    "Common DJA reduction",
+    "Unresolved blends, fixed archive z, conditional diagonal errors",
+    "No physical stellar/AGN/envelope evidence comparison",
+    "No calibrated multiple-testing significance"
+  ]
+}

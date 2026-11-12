@@ -1,5 +1,12 @@
 # Have we tested the black-hole-star interpretation?
 
+**Update, 12 November 2026:** the [expanded search](expanded_search.md) now covers
+2,647 eligible PRISM source records, 15 detailed source inspections, seven
+conditional medium-resolution fits, GLIMPSE-17775 and The Cliff benchmark tests.
+The table below documents the earlier pilot. The expanded work still does not
+establish a new black-hole-star identification; it exposes both candidate signals
+and important quality/selection limitations.
+
 **Not yet to a standard that identifies a black-hole star.** We have executed an
 observational pilot and visual evidence extension. We have not completed the
 competing physical-model analysis requested in the research specification.
@@ -23,8 +30,9 @@ to avoid selecting only sources that already resemble the desired explanation.
 
 Here **BH-adjusted** means the Benjamini–Hochberg multiple-testing adjustment,
 not a black-hole classification. The pilot's published LRD/AGN benchmark is
-UNCOVER 45924 at archive z=4.4673. It is not GLIMPSE-17775, and GLIMPSE-17775's
-data have not been analysed by this project.
+UNCOVER 45924 at archive z=4.4673. It is not GLIMPSE-17775. GLIMPSE-17775 was
+absent from that original pilot; its released spectrum has now been analysed in
+the expanded work, with an unresolved Hα quality-mask discrepancy explicitly retained.
 
 ## What a defensible physical test still needs
 

@@ -1,0 +1,47 @@
+{
+  "id": 17575391,
+  "doi": "10.5281/zenodo.17575391",
+  "metadata": {
+    "title": "A Spectrum Featured in Kokorev et al. 2025: The Deepest GLIMPSE of a Dense Gas Cocoon Enshrouding a Little Red Dot",
+    "doi": "10.5281/zenodo.17575391",
+    "publication_date": "2025-11-10",
+    "description": "<p>Stacked and slit-loss corrected JWST NIRSpec/G395M spectrum of GLIMPSE 17775 from JWST DDT # 9223 \"Let there be Light: Directly Witnessing the Birth of Metal-Free, Pop III Stars in an Ultra-Faint Galaxy at z=6.5\" (PIs: S. Fujimoto and R. Naidu). For more detailed please see the arXiv submission by V. Kokorev et al. 2025 - \"The Deepest GLIMPSE of a Dense Gas Cocoon Enshrouding a Little Red Dot\". https://ui.adsabs.harvard.edu/abs/2025arXiv251107515K/abstract</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Kokorev, Vasily",
+        "affiliation": "The University of Texas at Austin"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "17575390"
+          }
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "id": "88d4904a-45ab-42f9-ac6a-3e79ba918bd4",
+      "key": "stacked_1_2_17775_CORR.spec.fits",
+      "size": 155520,
+      "checksum": "md5:400a7dbcc9687752fcd582ff410705e6",
+      "links": {
+        "self": "https://zenodo.org/api/records/17575391/files/stacked_1_2_17775_CORR.spec.fits/content"
+      }
+    }
+  ]
+}

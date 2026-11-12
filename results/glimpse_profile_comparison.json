@@ -1,0 +1,518 @@
+{
+  "executed_utc": "2026-11-12T07:17:45.108156+00:00",
+  "data_sha256": "4e55b7bb868080caad26f95c34b39e7f4d66b94dd222b508bbbb43a1ace65b75",
+  "redshift": 3.50102,
+  "code_sha256": {
+    "script": "a4bc8c9cb80a7ade2b694a3a0cc594d3986fa7709c597a84f7b19be794c81170",
+    "profiles": "a2993ab46a835ea4d523ee6ab7d4b8858d18ef8411147c48277e82adfc29705b"
+  },
+  "benchmark_reference": "https://arxiv.org/abs/2511.07515",
+  "data_release": "https://doi.org/10.5281/zenodo.17575391",
+  "method": "Pixel-integrated Gaussian versus Gaussian convolved with symmetric exponential (normal-Laplace) broad profile; Gaussian LSF; tied narrow nuisance lines; diagonal errors; multi-start bounded least squares",
+  "settings": {
+    "Halpha": {
+      "bounds": [
+        6420,
+        6800
+      ],
+      "main_line": 6564.61,
+      "components": [
+        [
+          [
+            6564.61,
+            1
+          ]
+        ],
+        [
+          [
+            6549.86,
+            0.3333333333333333
+          ],
+          [
+            6585.27,
+            1
+          ]
+        ],
+        [
+          [
+            6679.995,
+            1
+          ]
+        ],
+        [
+          [
+            6718.29,
+            1
+          ]
+        ],
+        [
+          [
+            6732.67,
+            1
+          ]
+        ]
+      ]
+    },
+    "Paschen_delta": {
+      "bounds": [
+        9850,
+        10250
+      ],
+      "main_line": 10052.1,
+      "components": [
+        [
+          [
+            10052.1,
+            1
+          ]
+        ],
+        [
+          [
+            9997,
+            1
+          ]
+        ],
+        [
+          [
+            10131,
+            1
+          ]
+        ],
+        [
+          [
+            10173,
+            1
+          ]
+        ]
+      ]
+    }
+  },
+  "quality_audit": {
+    "Halpha": {
+      "strict_valid_pixels": 0,
+      "finite_flux_error_pixels": 101,
+      "provisional_mask_override": true,
+      "policy": "PROVISIONAL finite flux/error only; zero NPIX unresolved"
+    },
+    "Paschen_delta": {
+      "strict_valid_pixels": 106,
+      "finite_flux_error_pixels": 106,
+      "provisional_mask_override": false,
+      "policy": "Strict released spectral quality mask"
+    }
+  },
+  "fits": [
+    {
+      "window": "Halpha",
+      "lsf_scale": 1,
+      "provisional": true,
+      "family": "gaussian",
+      "chi2": 2654.553844118303,
+      "n": 101,
+      "k": 12,
+      "bic": 2709.935290320398,
+      "reduced_chi2": 29.826447686722506,
+      "parameter_values": [
+        0.972977661235012,
+        -0.2745699862977552,
+        30.000000002040654,
+        127.4251098235549,
+        10.171930989067658,
+        1.2382125212355171e-18,
+        0.09517296055387435,
+        0.022961845341106603,
+        3.499731067662327e-19,
+        28.12163706017497,
+        1045.2394280372487,
+        -31.691401307765403
+      ],
+      "parameter_indices_near_bound": [
+        2,
+        5,
+        8
+      ],
+      "broad_sigma_kms": 1045.2394280372487,
+      "exponential_scale_kms": null,
+      "resolution": 746.5732568192968
+    },
+    {
+      "window": "Halpha",
+      "lsf_scale": 1,
+      "provisional": true,
+      "family": "exponential",
+      "chi2": 1616.1206111071708,
+      "n": 101,
+      "k": 13,
+      "bic": 1676.1171778261073,
+      "reduced_chi2": 18.365006944399667,
+      "parameter_values": [
+        0.853228220799402,
+        -0.12814418059725777,
+        30.000000000000004,
+        129.9039633252791,
+        9.532944729119851,
+        0.04771034262011371,
+        0.12772962996520326,
+        0.05770126143754812,
+        0.029618981302614103,
+        30.430381225013768,
+        560.3097107157394,
+        -20.0594447075016,
+        775.8136789271498
+      ],
+      "parameter_indices_near_bound": [
+        2
+      ],
+      "broad_sigma_kms": 560.3097107157394,
+      "exponential_scale_kms": 775.8136789271498,
+      "resolution": 746.5732568192968
+    },
+    {
+      "window": "Halpha",
+      "lsf_scale": 1.3,
+      "provisional": true,
+      "family": "gaussian",
+      "chi2": 2565.2936126370255,
+      "n": 101,
+      "k": 12,
+      "bic": 2620.6750588391205,
+      "reduced_chi2": 28.823523737494668,
+      "parameter_values": [
+        0.981703938455388,
+        -0.28782907420793175,
+        90.60794538842892,
+        125.23965145964338,
+        9.681274859847905,
+        1.1767044349275388e-31,
+        0.0876061949300275,
+        0.022045055682607735,
+        5.618573050276301e-35,
+        28.518366489555,
+        1032.2933612547486,
+        -27.011885386947085
+      ],
+      "parameter_indices_near_bound": [
+        5,
+        8
+      ],
+      "broad_sigma_kms": 1032.2933612547486,
+      "exponential_scale_kms": null,
+      "resolution": 970.545233865086
+    },
+    {
+      "window": "Halpha",
+      "lsf_scale": 1.3,
+      "provisional": true,
+      "family": "exponential",
+      "chi2": 1114.8769482005073,
+      "n": 101,
+      "k": 13,
+      "bic": 1174.8735149194436,
+      "reduced_chi2": 12.669056229551218,
+      "parameter_values": [
+        0.8558437800612057,
+        -0.13659196262190676,
+        42.46243646980146,
+        124.3942432247116,
+        8.044599110580906,
+        6.141011321213421e-26,
+        0.10669966412470677,
+        0.05431407756406759,
+        0.030585775395372224,
+        32.02638829713421,
+        462.1769103642633,
+        2.8340392160300167,
+        793.6134881975881
+      ],
+      "parameter_indices_near_bound": [
+        5
+      ],
+      "broad_sigma_kms": 462.1769103642633,
+      "exponential_scale_kms": 793.6134881975881,
+      "resolution": 970.545233865086
+    },
+    {
+      "window": "Halpha",
+      "lsf_scale": 1.7,
+      "provisional": true,
+      "family": "gaussian",
+      "chi2": 2565.2936127359458,
+      "n": 101,
+      "k": 12,
+      "bic": 2620.675058938041,
+      "reduced_chi2": 28.82352373860613,
+      "parameter_values": [
+        0.9817037915874474,
+        -0.28782898255330724,
+        123.91308888622599,
+        125.23969367668948,
+        9.68128172288966,
+        5.7028043544124415e-27,
+        0.08760631409825416,
+        0.022045060524938355,
+        1.0166620793290087e-31,
+        28.51836130255611,
+        1035.748470765125,
+        -27.011595261600092
+      ],
+      "parameter_indices_near_bound": [
+        5,
+        8
+      ],
+      "broad_sigma_kms": 1035.748470765125,
+      "exponential_scale_kms": null,
+      "resolution": 1269.1745365928045
+    },
+    {
+      "window": "Halpha",
+      "lsf_scale": 1.7,
+      "provisional": true,
+      "family": "exponential",
+      "chi2": 1114.876945811356,
+      "n": 101,
+      "k": 13,
+      "bic": 1174.8735125302924,
+      "reduced_chi2": 12.669056202401775,
+      "parameter_values": [
+        0.8558407628121869,
+        -0.13658871370002762,
+        94.58976069708402,
+        124.39459617211466,
+        8.044476107547245,
+        7.799473123899654e-25,
+        0.10669884458381049,
+        0.05431446628122003,
+        0.030586314742476924,
+        32.02655376823918,
+        469.8214101476374,
+        2.8360599994705087,
+        793.6228282108327
+      ],
+      "parameter_indices_near_bound": [
+        5
+      ],
+      "broad_sigma_kms": 469.8214101476374,
+      "exponential_scale_kms": 793.6228282108327,
+      "resolution": 1269.1745365928045
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1,
+      "provisional": false,
+      "family": "gaussian",
+      "chi2": 299.65399461652373,
+      "n": 106,
+      "k": 11,
+      "bic": 350.95182465175645,
+      "reduced_chi2": 3.154252574910776,
+      "parameter_values": [
+        0.9491123486270829,
+        -0.09717512725198443,
+        103.72294345961762,
+        -33.37424428417215,
+        0.45976270793132956,
+        0.06648395714520071,
+        0.02869045188046835,
+        0.02282824139568774,
+        1.0754173340158866,
+        1087.2182340042752,
+        -149.85965412245778
+      ],
+      "parameter_indices_near_bound": [],
+      "broad_sigma_kms": 1087.2182340042752,
+      "exponential_scale_kms": null,
+      "resolution": 1147.2195911884378
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1,
+      "provisional": false,
+      "family": "exponential",
+      "chi2": 297.67052484075305,
+      "n": 106,
+      "k": 12,
+      "bic": 353.6317939700979,
+      "reduced_chi2": 3.166707711071841,
+      "parameter_values": [
+        0.9445523868464583,
+        -0.09658245343328024,
+        100.42920913629835,
+        -32.818912675861945,
+        0.44828736166823746,
+        0.07015106983541233,
+        0.02354561056621603,
+        0.02138455268904729,
+        1.1453718152421912,
+        723.5733936700541,
+        -131.06159675015166,
+        717.7556267869842
+      ],
+      "parameter_indices_near_bound": [],
+      "broad_sigma_kms": 723.5733936700541,
+      "exponential_scale_kms": 717.7556267869842,
+      "resolution": 1147.2195911884378
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1.3,
+      "provisional": false,
+      "family": "gaussian",
+      "chi2": 299.6539946146269,
+      "n": 106,
+      "k": 11,
+      "bic": 350.95182464985965,
+      "reduced_chi2": 3.1542525748908097,
+      "parameter_values": [
+        0.9491125876182764,
+        -0.0971753617957995,
+        125.64412800935273,
+        -33.37383465453971,
+        0.45976209015306274,
+        0.06648485077572121,
+        0.028690611877612356,
+        0.02282820513321648,
+        1.0754141041855225,
+        1089.5224737696324,
+        -149.8560582217499
+      ],
+      "parameter_indices_near_bound": [],
+      "broad_sigma_kms": 1089.5224737696324,
+      "exponential_scale_kms": null,
+      "resolution": 1491.3854685449692
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1.3,
+      "provisional": false,
+      "family": "exponential",
+      "chi2": 297.6705247822176,
+      "n": 106,
+      "k": 12,
+      "bic": 353.63179391156245,
+      "reduced_chi2": 3.1667077104491237,
+      "parameter_values": [
+        0.9445528244114784,
+        -0.09658301614656457,
+        122.93977675374344,
+        -32.818635236978736,
+        0.44829020647464357,
+        0.07015051752801592,
+        0.023545836657424414,
+        0.021384746371325546,
+        1.145363803119281,
+        727.0776851740864,
+        -131.05808401881208,
+        717.7198070554017
+      ],
+      "parameter_indices_near_bound": [],
+      "broad_sigma_kms": 727.0776851740864,
+      "exponential_scale_kms": 717.7198070554017,
+      "resolution": 1491.3854685449692
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1.7,
+      "provisional": false,
+      "family": "gaussian",
+      "chi2": 299.6539946133511,
+      "n": 106,
+      "k": 11,
+      "bic": 350.9518246485838,
+      "reduced_chi2": 3.1542525748773795,
+      "parameter_values": [
+        0.9491123643420945,
+        -0.09717518375614939,
+        137.1574876771102,
+        -33.37416268773657,
+        0.4597626517433929,
+        0.0664840972759075,
+        0.028690455805482473,
+        0.022828254617991286,
+        1.0754170570363504,
+        1090.9152730982025,
+        -149.85889383682078
+      ],
+      "parameter_indices_near_bound": [],
+      "broad_sigma_kms": 1090.9152730982025,
+      "exponential_scale_kms": null,
+      "resolution": 1950.2733050203442
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1.7,
+      "provisional": false,
+      "family": "exponential",
+      "chi2": 297.67052481663444,
+      "n": 106,
+      "k": 12,
+      "bic": 353.6317939459792,
+      "reduced_chi2": 3.16670771081526,
+      "parameter_values": [
+        0.9445523699007771,
+        -0.09658264933607456,
+        134.68387646470057,
+        -32.81862991392106,
+        0.44828728188616473,
+        0.0701514376137093,
+        0.02354564342875623,
+        0.021384739838634568,
+        1.1453715550749943,
+        729.1187820690309,
+        -131.05981863508848,
+        717.7538405712422
+      ],
+      "parameter_indices_near_bound": [],
+      "broad_sigma_kms": 729.1187820690309,
+      "exponential_scale_kms": 717.7538405712422,
+      "resolution": 1950.2733050203442
+    }
+  ],
+  "comparisons": [
+    {
+      "window": "Halpha",
+      "lsf_scale": 1,
+      "delta_bic_gaussian_minus_exponential": 1033.8181124942907,
+      "delta_bic_with_doubled_errors": 254.99318773594177
+    },
+    {
+      "window": "Halpha",
+      "lsf_scale": 1.3,
+      "delta_bic_gaussian_minus_exponential": 1445.801543919677,
+      "delta_bic_with_doubled_errors": 357.9890455922883
+    },
+    {
+      "window": "Halpha",
+      "lsf_scale": 1.7,
+      "delta_bic_gaussian_minus_exponential": 1445.8015464077484,
+      "delta_bic_with_doubled_errors": 357.98904621430614
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1,
+      "delta_bic_gaussian_minus_exponential": -2.6799693183414206,
+      "delta_bic_with_doubled_errors": -4.167571650169395
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1.3,
+      "delta_bic_gaussian_minus_exponential": -2.6799692617028086,
+      "delta_bic_with_doubled_errors": -4.167571636009742
+    },
+    {
+      "window": "Paschen_delta",
+      "lsf_scale": 1.7,
+      "delta_bic_gaussian_minus_exponential": -2.6799692973954166,
+      "delta_bic_with_doubled_errors": -4.1675716449329085
+    }
+  ],
+  "limitations": [
+    "Published selected benchmark, not a blind discovery",
+    "Same published reduction, not independent re-reduction",
+    "Empirical shape comparison, not complete scattering or radiative-transfer calculation",
+    "Halpha NPIX is zero: finite-flux/error fit is explicitly provisional pending metadata resolution",
+    "No absorption component; nuisance lines and continuum can affect wings",
+    "No lens-corrected luminosity, mass or accretion rate inferred",
+    "No stellar/AGN/composite model evidence computed"
+  ],
+  "physical_classification": "NOT_ESTABLISHED_BY_THIS_REANALYSIS"
+}

@@ -1,0 +1,15 @@
+stage: expanded-search-v1
+executed_utc: '2026-11-12T07:21:04.849734+00:00'
+scope: Full fixed high-SN eligible subset, not a complete JWST census
+selection: configs/expanded_search.yaml
+results: results/expanded/summary.json
+benchmark: results/glimpse_profile_comparison.json
+validation: results/profile_simulation_validation.json
+inspection: results/expanded/inspection_audit.json
+conclusion: Follow-up priorities; no new physical class established
+remaining:
+- Resolve GLIMPSE Halpha NPIX discrepancy
+- Independent extraction and calibration
+- Full competing physical forward models
+- Realistic selection and false-positive validation
+- Expand to fainter and uncertain-redshift sources without assuming the same completeness

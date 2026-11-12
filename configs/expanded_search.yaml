@@ -1,0 +1,33 @@
+version: 1
+scope: Entire eligible high-SN PRISM subset of the pinned four-survey catalogue
+raw_storage_budget_MiB: 4096
+download_workers: 6
+maximum_product_MiB: 8
+selection:
+  grating: PRISM
+  quality_grade: 3
+  minimum_archive_median_pixel_SN: 5
+  redshift_range: [0.5, 12]
+  duplicate_rule: Highest archive median pixel SN per upstream source_id, filename tie-break
+  colour_or_class_filter: none
+triage:
+  continuum_ratio_minimum: 2
+  continuum_ratio_lower_3sigma_minimum: 1.5
+  alternate_continuum_blue_um: [0.335, 0.355]
+  alternate_continuum_red_um: [0.405, 0.425]
+  lsf_scales: [1, 1.3, 1.6]
+  broad_over_narrow_delta_BIC_minimum: 10
+  broad_blend_SN_minimum: 5
+  interpretation: Follow-up priority only; thresholds are not discovery probabilities
+  multiple_testing: No calibrated discovery p-value from empirical BIC or continuum cuts
+stopping_rule: Finish the fixed eligible sample even if appealing candidates appear
+posters:
+  audience: research_conference
+  stage: After measured results and validation
+  contents: [purpose_and_methods, current_evidence_and_limits]
+limitations:
+  - Targeted spectroscopy, not a complete or representative cosmic census
+  - High-SN and reliable-redshift selection excludes faint or ambiguous candidates
+  - Common reduction is not independent validation
+  - Broad PRISM blends are not an electron-scattering diagnosis
+  - A null outcome is valid; no obligation to identify a black-hole star

@@ -1,0 +1,18 @@
+{
+  "format": "A1 landscape, 841 x 594 mm",
+  "audience": "research/conference",
+  "date": "2026-11-12",
+  "author": "Biswajit Jana",
+  "build_script": "scripts/build_research_posters.py",
+  "input_hash_convention": "UTF-8 text with universal-newline normalization",
+  "result_inputs": {
+    "results/expanded/summary.json": "05d7d032a4cd9b737f9863a0bb60a143be1e0214ea012403bb9cc3186946c3ac",
+    "results/cliff_sensitivity.json": "05373ca383405688f99585de40d3178dc64edfbb28bfdcd3e393296f7b118e81",
+    "results/expanded/inspection_audit.json": "61b2e29d08760df3a54832388eb702ab3fd31cc3fa86412617d87bb04e11ac41"
+  },
+  "outputs": [
+    "output/pdf/jwst_evidence_limits_A1.pdf",
+    "output/pdf/jwst_project_purpose_methods_A1.pdf"
+  ],
+  "interpretation": "Research progress snapshot; no new black-hole-star identification"
+}

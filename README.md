@@ -1,8 +1,51 @@
 # JWST Cosmic Anomaly Lab
 
 A provenance-first Python research platform for comparing ordinary, unusual, and
-unclassified JWST sources across independent fields. **Version 0.1 is an executed
-research pilot, not a completed physical-classification programme.**
+unclassified JWST sources across independent fields. **This is an executed
+research programme in progress, not a completed physical classification.**
+
+## Expanded search: 12 November 2026
+
+**2,647 / 2,647 eligible PRISM source records analysed**, across four surveys.
+The fixed high-S/N subset is 13.1% of the 20,144-record parent catalogue, not a
+complete JWST census. Eleven sources pass both empirical screens; all eleven,
+three comparison sources and the published candidate The Cliff received detailed
+image/spectrum inspection. Seven yielded conditional medium-resolution fits.
+
+**No new black-hole star is established.** One PRISM priority favours a narrow
+model at higher resolution, and The Cliff exposes a missed-candidate limitation. Its
+exponential-profile preference weakens when the central pixels are excluded.
+The GLIMPSE-17775 reanalysis also retains a quality-mask discrepancy and a
+line-profile disagreement with the published analysis.
+
+Start with the [expanded research report and source images](reports/expanded_search.md),
+[measurements and coverage](results/expanded/summary.json), and
+[execution ledger](experiments/expanded_search.yaml).
+
+### Conference posters
+
+Two A1 landscape posters, with vector plots and actual telescope images:
+
+- [Project purpose and methods (PDF)](output/pdf/jwst_project_purpose_methods_A1.pdf)
+- [Evidence and limitations (PDF)](output/pdf/jwst_evidence_limits_A1.pdf)
+- [Poster previews and regeneration instructions](output/pdf/README.md)
+
+![Project purpose and search methods](output/pdf/jwst_project_purpose_methods_A1.png)
+
+The expanded download uses a finite **4 GiB** raw-data cap. Run:
+
+```sh
+python scripts/replay_manifest.py --budget-mib 4096  # restore all pinned inputs first
+python scripts/download_expanded_sample.py
+python scripts/analyse_expanded_sample.py
+python scripts/analyse_glimpse_benchmark.py
+python scripts/validate_line_profiles.py
+python scripts/inspect_followup_sources.py
+python scripts/audit_cliff_sensitivity.py
+python scripts/build_expanded_report.py
+```
+
+## Original 20-source pilot
 
 The pilot ingests 20,144 DJA source records and 44,619 observations from JADES,
 CEERS, RUBIES, and UNCOVER, across GOODS-N, GOODS-S, EGS, UDS, and Abell 2744.

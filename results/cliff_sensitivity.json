@@ -1,0 +1,120 @@
+{
+  "executed_utc": "2026-11-12T07:26:10.267074+00:00",
+  "raw_sha256": "c7c14ad4146600740a54016c6f99441a0407fe2eb092ea4ea6d20059bea0f38b",
+  "redshift": 3.546018,
+  "reference": "https://arxiv.org/abs/2503.16600",
+  "cases": [
+    {
+      "mask_core_400_km_s": false,
+      "lsf_scale": 1,
+      "n_pixels": 102,
+      "delta_bic_gaussian_minus_exponential": 56.83364434727767,
+      "delta_bic_doubled_errors": 10.739681476856216,
+      "gaussian_reduced_chi2": 2.1287190673269807,
+      "exponential_reduced_chi2": 1.4620909988636666,
+      "parameters_at_bound_gaussian": [
+        8
+      ],
+      "parameters_at_bound_exponential": [
+        2,
+        8
+      ]
+    },
+    {
+      "mask_core_400_km_s": false,
+      "lsf_scale": 1.3,
+      "n_pixels": 102,
+      "delta_bic_gaussian_minus_exponential": 67.59444844455598,
+      "delta_bic_doubled_errors": 13.429882501175793,
+      "gaussian_reduced_chi2": 2.1287190672348726,
+      "exponential_reduced_chi2": 1.3411830875651494,
+      "parameters_at_bound_gaussian": [
+        8
+      ],
+      "parameters_at_bound_exponential": [
+        2,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "mask_core_400_km_s": false,
+      "lsf_scale": 1.7,
+      "n_pixels": 102,
+      "delta_bic_gaussian_minus_exponential": 69.56607382436925,
+      "delta_bic_doubled_errors": 13.922788846129112,
+      "gaussian_reduced_chi2": 2.128719067534353,
+      "exponential_reduced_chi2": 1.3190299937127892,
+      "parameters_at_bound_gaussian": [
+        8
+      ],
+      "parameters_at_bound_exponential": [
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "mask_core_400_km_s": true,
+      "lsf_scale": 1,
+      "n_pixels": 98,
+      "delta_bic_gaussian_minus_exponential": 3.4762294272166514,
+      "delta_bic_doubled_errors": -2.5696682521987686,
+      "gaussian_reduced_chi2": 1.0682729648075477,
+      "exponential_reduced_chi2": 0.9860032713830811,
+      "parameters_at_bound_gaussian": [
+        2,
+        5,
+        8
+      ],
+      "parameters_at_bound_exponential": [
+        5,
+        8,
+        10
+      ]
+    },
+    {
+      "mask_core_400_km_s": true,
+      "lsf_scale": 1.3,
+      "n_pixels": 98,
+      "delta_bic_gaussian_minus_exponential": 9.008644444204293,
+      "delta_bic_doubled_errors": -1.186564497951851,
+      "gaussian_reduced_chi2": 1.0710184951401132,
+      "exponential_reduced_chi2": 0.9236938665785275,
+      "parameters_at_bound_gaussian": [
+        2,
+        5,
+        8
+      ],
+      "parameters_at_bound_exponential": [
+        10
+      ]
+    },
+    {
+      "mask_core_400_km_s": true,
+      "lsf_scale": 1.7,
+      "n_pixels": 98,
+      "delta_bic_gaussian_minus_exponential": 9.380592920505364,
+      "delta_bic_doubled_errors": -1.0935773788765903,
+      "gaussian_reduced_chi2": 1.0733524833139958,
+      "exponential_reduced_chi2": 0.9216794490097379,
+      "parameters_at_bound_gaussian": [
+        2,
+        5,
+        8
+      ],
+      "parameters_at_bound_exponential": [
+        10
+      ]
+    }
+  ],
+  "interpretation": "Post-screen published-benchmark diagnostic; no independent physical classification",
+  "limitations": [
+    "No absorption model",
+    "Fixed archive redshift with free local centroids",
+    "Diagonal errors and Gaussian LSF",
+    "Core masking can remove narrow-component information",
+    "No multiple-testing discovery probability or independent reduction"
+  ]
+}
