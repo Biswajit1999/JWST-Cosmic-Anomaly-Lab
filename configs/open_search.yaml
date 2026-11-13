@@ -1,0 +1,36 @@
+version: 1
+scope: Fainter extension and spectral-shape search without physical-class labels
+raw_storage_budget_MiB: 4096
+download_workers: 6
+maximum_product_MiB: 8
+selection:
+  grating: PRISM
+  quality_grade: 3
+  minimum_archive_median_pixel_SN: 2
+  maximum_archive_median_pixel_SN: 5
+  redshift_range: [0.5, 12]
+  duplicate_rule: Highest archive median pixel SN per upstream source_id, filename tie-break
+  exclude_previous_high_SN_sources: true
+shape_search:
+  rest_windows_um:
+    optical: [0.32, 0.68]
+    ultraviolet: [0.14, 0.30]
+  bins_per_window: 12
+  minimum_bin_coverage: 0.8
+  minimum_pixels_per_bin: 2
+  minimum_median_band_SN: 3
+  maximum_normalized_redshift_gap: 0.15
+  maximum_peer_SN_ratio: 2
+  minimum_peers: 30
+  empirical_scatter_floor: 0.05
+  perturbations: 128
+  random_seed: 20261112
+  inspection_count: 12
+  interpretation: Descriptive rarity and noise sensitivity, not discovery significance
+stopping_rule: Finish fixed selection and retain failures and unscorable objects
+limitations:
+  - Reliable-redshift selection can omit the most unfamiliar spectra
+  - Empirical peers are not physical models or a representative cosmic sample
+  - Broad spectral bins sacrifice narrow-line information
+  - Diagonal released errors omit calibration and extraction covariance
+  - Unknown or unresolved does not establish a new physical class

@@ -1,0 +1,71 @@
+{
+  "executed_utc": "2026-11-13T19:43:32.702587+00:00",
+  "new_attempted": 2084,
+  "new_analysed": 2084,
+  "new_failed": 0,
+  "new_joint_priorities": 0,
+  "combined_sources": 4731,
+  "combined_analysed": 4731,
+  "parent_sources": 20144,
+  "fraction_of_parent": 0.23485901509134233,
+  "combined_joint_priorities": 11,
+  "scored_source_mode_pairs": 4180,
+  "unique_shape_scored_sources": 3738,
+  "shape_followup_sources": 12,
+  "shape_queue_overlap_joint_screen": 0,
+  "shape_status_counts": [
+    {
+      "mode": "optical",
+      "status": "INSUFFICIENT_COVERAGE",
+      "count": 693
+    },
+    {
+      "mode": "optical",
+      "status": "INSUFFICIENT_MATCHED_PEERS",
+      "count": 308
+    },
+    {
+      "mode": "optical",
+      "status": "LOW_BAND_SN",
+      "count": 13
+    },
+    {
+      "mode": "optical",
+      "status": "SCORED",
+      "count": 3717
+    },
+    {
+      "mode": "ultraviolet",
+      "status": "INSUFFICIENT_COVERAGE",
+      "count": 4074
+    },
+    {
+      "mode": "ultraviolet",
+      "status": "INSUFFICIENT_MATCHED_PEERS",
+      "count": 161
+    },
+    {
+      "mode": "ultraviolet",
+      "status": "LOW_BAND_SN",
+      "count": 33
+    },
+    {
+      "mode": "ultraviolet",
+      "status": "SCORED",
+      "count": 463
+    }
+  ],
+  "physical_classification": "NOT_ESTABLISHED",
+  "cosmology": "Astropy Planck18: flat LambdaCDM, H0=67.66 km/s/Mpc, Om0=0.30966",
+  "input_sha256": {
+    "configs/open_search.yaml": "d8d1947203f34291765ce11436a54355265fff0a6ab8c018242f3f18fa41dce8",
+    "configs/expanded_search.yaml": "a0cfeb46b3f12f63eaa7ea01b507d4f646c5425d8d21b7a49dddb40303092d0d",
+    "data/catalogues/open_selection.csv.gz": "3a686d264ac07e20e8b41a1a09b65eebcc1d24155fe4663de920bb52d3ad8ecf",
+    "data/catalogues/expanded_selection.csv.gz": "1ea1d8eebcb50f3fcab5db679d7f2d9d4173a6924a58231966d9e4cd1bf2ea9d",
+    "results/expanded/measurements.csv": "8b8b15750f2c7f174a1594f5af2d2b4e7a26b811bfcfb88560d23dd8afd01aa3",
+    "src/cosmic_anomaly_lab/open_search.py": "645b202181a99b3bd59d2e96e1bf3195a79dddd8241b667d7fdb43d8b0805d7f",
+    "scripts/analyse_open_sample.py": "041c13e7ef8e39444540e873ee27a1da91e9eb5c208ffd06687287765e3e43f2",
+    "src/cosmic_anomaly_lab/spectroscopy.py": "b2f225ffb67a9a536aeb9237049de1fec2231096d2e7d506ff13b13cc64e9db6",
+    "src/cosmic_anomaly_lab/expanded_search.py": "d386f76aad48f04fdc3accd85176a2c5b73d547b900ee233b248597697da1d04"
+  }
+}

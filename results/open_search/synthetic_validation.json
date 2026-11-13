@@ -1,0 +1,68 @@
+{
+  "executed_utc": "2026-11-13T19:35:32.529768+00:00",
+  "seed": 20261113,
+  "peers": 300,
+  "null_calibration_trials": 500,
+  "threshold_q99": 1.970214608629506,
+  "outcomes": [
+    {
+      "scenario": "heldout_ordinary",
+      "trials": 500,
+      "selected": 6,
+      "fraction": 0.012,
+      "binomial_95_interval": [
+        0.004416172285801643,
+        0.025934927265336975
+      ],
+      "median_score": 0.6616480655813008
+    },
+    {
+      "scenario": "continuum_step",
+      "trials": 500,
+      "selected": 500,
+      "fraction": 1.0,
+      "binomial_95_interval": [
+        0.9926493899480923,
+        1.0
+      ],
+      "median_score": 3.842656170568951
+    },
+    {
+      "scenario": "smooth_bump",
+      "trials": 500,
+      "selected": 500,
+      "fraction": 1.0,
+      "binomial_95_interval": [
+        0.9926493899480923,
+        1.0
+      ],
+      "median_score": 3.369386852636688
+    },
+    {
+      "scenario": "single_band_spike",
+      "trials": 500,
+      "selected": 500,
+      "fraction": 1.0,
+      "binomial_95_interval": [
+        0.9926493899480923,
+        1.0
+      ],
+      "median_score": 6.820580657233074
+    },
+    {
+      "scenario": "negative_band_artifact",
+      "trials": 500,
+      "selected": 500,
+      "fraction": 1.0,
+      "binomial_95_interval": [
+        0.9926493899480923,
+        1.0
+      ],
+      "median_score": 8.806597402124806
+    }
+  ],
+  "interpretation": "Synthetic shape sensitivity only. Artifacts can score as outliers. Not a real-source false-positive rate or discovery threshold.",
+  "assumptions": "12 bands, log-quadratic continuum family, independent 0.04 errors, fixed empirical peers. No instrument/extraction/population realism.",
+  "analysis_sha256": "645b202181a99b3bd59d2e96e1bf3195a79dddd8241b667d7fdb43d8b0805d7f",
+  "script_sha256": "d8feff2fabbc61ac3ccac6c95b70ec9255b4cb5d044ad37ecbf662b91fb1a7b3"
+}

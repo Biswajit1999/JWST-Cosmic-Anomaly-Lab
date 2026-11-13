@@ -1,0 +1,32 @@
+stage: open-search-v1
+research_snapshot_date: '2026-11-13'
+selection_fixed_before_download: configs/open_search.yaml
+scope: Complete fainter extension plus class-agnostic shapes of the combined sample
+results: results/open_search/summary.json
+download_outcomes: results/open_downloads.json
+validation: results/open_search/synthetic_validation.json
+inspection: results/open_search/inspection_audit.json
+targeted_resolution_check: results/open_search/recovered_lrd_resolution.json
+cosmic_clocks: results/open_search/cosmic_context.json
+growth_scenarios: results/open_search/conditional_growth_grid.csv
+report: reports/open_search.md
+interpretation: Empirical follow-up priorities; no new physical class established
+performed:
+  - Full fixed 2084-source fainter sample downloaded and analysed
+  - Original empirical screen retained without relaxing thresholds to obtain a detection
+  - Optical and ultraviolet signed spectral shapes with covariance and missing-data audit
+  - Matched peers excluding the target, conditional noise perturbations
+  - Fixed 12-source inspection queue with real image and spectrum products
+  - Redshift, dominant-band and other-survey stress tests after queue selection
+  - Synthetic continuum changes and artificial defects, separate from observed data
+  - 180 conditional seed-growth scenarios under Planck18 cosmology
+  - Recovery of published CEERS-3506 and JADES-GS-159717 outside the earlier joint queue
+  - Targeted G395M/G395H check retains failure of a simple central-dip statistic
+not_performed:
+  - Complete competing physical forward-model fits
+  - Independent extraction or detector-level validation of all queued spectra
+  - Complete source-by-source literature novelty audit
+  - Physical masses, lifetime, abundance or evolutionary fate inference
+  - Uncertain-redshift and foreground search branches
+  - Realistic survey selection and false-discovery calibration
+poster_policy: Preserve 12 November posters as dated historical outputs

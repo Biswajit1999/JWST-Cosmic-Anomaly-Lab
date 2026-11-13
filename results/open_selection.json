@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-12T07:47:45.835842+00:00",
+  "config_sha256": "d8d1947203f34291765ce11436a54355265fff0a6ab8c018242f3f18fa41dce8",
+  "parent_source_records": 20144,
+  "new_eligible_sources": 2084,
+  "previous_sources": 2647,
+  "combined_sources": 4731,
+  "selected_by_survey": {
+    "CEERS": 180,
+    "JADES": 1328,
+    "RUBIES": 442,
+    "UNCOVER": 134
+  }
+}

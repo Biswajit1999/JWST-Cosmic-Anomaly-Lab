@@ -1,5 +1,11 @@
 # Have we tested the black-hole-star interpretation?
 
+**Update, 13 November 2026:** the [open search](open_search.md) adds 2,084 fainter
+sources for 4,731 analysed records in total. It also searches optical and UV
+shapes without requiring the original LRD-like cuts, and adds an
+[evolution/cosmology research note](evolution_and_unknown_objects.md).
+No new physical class or black-hole-star identification is established.
+
 **Update, 12 November 2026:** the [expanded search](expanded_search.md) now covers
 2,647 eligible PRISM source records, 15 detailed source inspections, seven
 conditional medium-resolution fits, GLIMPSE-17775 and The Cliff benchmark tests.

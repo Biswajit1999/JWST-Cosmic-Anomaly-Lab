@@ -1,0 +1,20 @@
+{
+  "executed_utc": "2026-11-13T19:35:27.554289+00:00",
+  "astropy_version": "8.0.2",
+  "cosmology": "FlatLambdaCDM(name=\"Planck18\", H0=67.66 km / (Mpc s), Om0=0.30966, Tcmb0=2.7255 K, Neff=3.046, m_nu=[0.   0.   0.06] eV, Ob0=0.04897)",
+  "formation_redshift": 20,
+  "formation_age_Gyr": 0.17811162843372694,
+  "default_efold_Myr": 50.05448997703861,
+  "formula": "t_e = (c sigma_T / (4 pi G m_p)) * epsilon / ((1-epsilon) lambda duty); t_required = t_e ln(M_target/M_seed)",
+  "trials": 180,
+  "physical_classification": "NOT_INFERRED",
+  "limitations": [
+    "No measured mass inferred for any source",
+    "Constant efficiency and averaged duty",
+    "No finite gas supply, feedback, mergers or structure evolution",
+    "No inference of future fate or new cosmological physics",
+    "Classical radiatively efficient growth is not a quasi-star envelope solver"
+  ],
+  "script_sha256": "9346886a9c1cc2d3636d039dfd80f5ea8141324f2a84e37e86bee5f6900a41a1",
+  "analysis_sha256": "645b202181a99b3bd59d2e96e1bf3195a79dddd8241b667d7fdb43d8b0805d7f"
+}

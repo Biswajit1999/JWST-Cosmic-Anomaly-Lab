@@ -4,7 +4,38 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
-## Expanded search: 12 November 2026
+## Open search: 13 November 2026
+
+**4,731 source records analysed**, including 2,084 additional fainter spectra.
+This covers 23.5% of the pinned parent catalogue and the entire stated grade-3,
+S/N ≥ 2, 0.5 ≤ z < 12 PRISM subset. The added sample produces no additional
+joint continuum/blend priorities; the earlier queue remains at 11.
+
+The new optical/ultraviolet shape search does not require an LRD label, red
+continuum, or broad hydrogen line. It preserves signed fluxes and missing
+coverage, compares matched empirical peers, and checks noise, redshift,
+dominant-band and survey dependence. **Rarity does not establish a new class.**
+
+3,738 sources have enough coverage and matched peers for shape scoring. The
+12-source follow-up queue includes seven from the fainter extension and has no
+overlap with the previous 11. All 12 have observed evidence sheets; ten have
+usable RGB cutouts. The method recovers published CEERS-3506 and JADES-GS-159717,
+while alternate-product checks expose a fragile UV anomaly. A G395M/G395H
+comparison also records the failure of a simple central-dip diagnostic on the
+complex profile of JADES-GS-159717.
+
+- [New research results, source images and spectra](reports/open_search.md)
+- [Evolution, cosmology and tests for unfamiliar objects](reports/evolution_and_unknown_objects.md)
+- [Run coverage and provenance](results/open_search/summary.json)
+- [Execution ledger](experiments/open_search.yaml)
+
+![Observed spectral-shape search](figures/open_search_overview.png)
+
+The evolutionary calculation is an explicit set of conditional growth clocks,
+not a mass measurement or a prediction of any source's future fate. Complete
+competing physical forward models and independent reductions remain outstanding.
+
+## Earlier high-S/N search: 12 November 2026
 
 **2,647 / 2,647 eligible PRISM source records analysed**, across four surveys.
 The fixed high-S/N subset is 13.1% of the 20,144-record parent catalogue, not a
@@ -24,7 +55,9 @@ Start with the [expanded research report and source images](reports/expanded_sea
 
 ### Conference posters
 
-Two A1 landscape posters, with vector plots and actual telescope images:
+Two A1 landscape posters of the **12 November high-S/N experiment**, with vector
+plots and actual telescope images. They remain a dated research snapshot; the
+new open-search results above extend that stage.
 
 - [Project purpose and methods (PDF)](output/pdf/jwst_project_purpose_methods_A1.pdf)
 - [Evidence and limitations (PDF)](output/pdf/jwst_evidence_limits_A1.pdf)

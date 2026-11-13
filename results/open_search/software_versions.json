@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-11-13T19:50:09.719860+00:00",
+  "python": "3.12.10",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "astropy": "8.0.2",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "requests": "2.34.2"
+  },
+  "prism_resolution_reference_sha256": "2e54a029286ac455a88158eca398b1fb4fa4a922981faff9e9241b17a637613c"
+}

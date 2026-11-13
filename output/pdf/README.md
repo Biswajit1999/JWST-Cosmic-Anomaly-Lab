@@ -1,5 +1,10 @@
 # Research/conference posters
 
+These posters preserve the **12 November 2026 high-S/N research snapshot**.
+The [13 November open search](../../reports/open_search.md) extends the sample
+and adds a different spectral-shape method; its results are not yet incorporated
+into these historical posters.
+
 Two single-page, A1 landscape posters (841 × 594 mm). Plot text and curves are
 embedded as vectors. Astronomical images are actual observed pixels, with their
 display transformations identified. Print the PDFs at 100% for A1, or scale to
