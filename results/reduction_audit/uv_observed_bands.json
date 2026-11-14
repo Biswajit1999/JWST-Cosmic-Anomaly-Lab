@@ -1,0 +1,722 @@
+[
+  {
+    "product": "DJA deep",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      13
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.1735908371566175
+    ],
+    "covariance_uJy2": [
+      [
+        3.840056243546009e-06
+      ]
+    ],
+    "statistical_error_uJy": 0.0019596061450061868
+  },
+  {
+    "product": "DJA deep",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      22
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.1372372444360337
+    ],
+    "covariance_uJy2": [
+      [
+        1.771825664586169e-06
+      ]
+    ],
+    "statistical_error_uJy": 0.0013310994194973451
+  },
+  {
+    "product": "DJA deep",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      6
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.5233379354086785
+    ],
+    "covariance_uJy2": [
+      [
+        6.446078513319461e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.008028747419940087
+  },
+  {
+    "product": "DJA wide",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      13
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      -0.0017237670964830444
+    ],
+    "covariance_uJy2": [
+      [
+        2.8268384341250545e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.005316802078434982
+  },
+  {
+    "product": "DJA wide",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      22
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.02596445004226638
+    ],
+    "covariance_uJy2": [
+      [
+        1.4548630984262192e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.003814266768890476
+  },
+  {
+    "product": "DJA wide",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      6
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.26825751560534966
+    ],
+    "covariance_uJy2": [
+      [
+        0.0004691521743857347
+      ]
+    ],
+    "statistical_error_uJy": 0.021659920922887384
+  },
+  {
+    "product": "goods-s-mediumhst_13905 3px/3-nod",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      21
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      -0.0018340898196207971
+    ],
+    "covariance_uJy2": [
+      [
+        9.372693970886496e-06
+      ]
+    ],
+    "statistical_error_uJy": 0.003061485582341765
+  },
+  {
+    "product": "goods-s-mediumhst_13905 3px/3-nod",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      35
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.017672111583481552
+    ],
+    "covariance_uJy2": [
+      [
+        4.869250553261925e-06
+      ]
+    ],
+    "statistical_error_uJy": 0.0022066378391711505
+  },
+  {
+    "product": "goods-s-mediumhst_13905 3px/3-nod",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      9
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.16445288511477602
+    ],
+    "covariance_uJy2": [
+      [
+        0.00015044922129728392
+      ]
+    ],
+    "statistical_error_uJy": 0.012265774386368108
+  },
+  {
+    "product": "goods-s-mediumhst_13905 3px/2-nod",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      21
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      -0.0004117770786468668
+    ],
+    "covariance_uJy2": [
+      [
+        1.8753514555409255e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.0043305328258089965
+  },
+  {
+    "product": "goods-s-mediumhst_13905 3px/2-nod",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      35
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.01826938526580892
+    ],
+    "covariance_uJy2": [
+      [
+        9.775119837821778e-06
+      ]
+    ],
+    "statistical_error_uJy": 0.0031265188049685194
+  },
+  {
+    "product": "goods-s-mediumhst_13905 3px/2-nod",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      9
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.1575192035047085
+    ],
+    "covariance_uJy2": [
+      [
+        0.0002854213959819763
+      ]
+    ],
+    "statistical_error_uJy": 0.01689441907796703
+  },
+  {
+    "product": "goods-s-mediumhst_13905 5px/3-nod",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      21
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      -0.002763697165654919
+    ],
+    "covariance_uJy2": [
+      [
+        1.3605620216561183e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.0036885797018040944
+  },
+  {
+    "product": "goods-s-mediumhst_13905 5px/3-nod",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      35
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.017280248889825836
+    ],
+    "covariance_uJy2": [
+      [
+        8.793552327490238e-06
+      ]
+    ],
+    "statistical_error_uJy": 0.0029653924407218413
+  },
+  {
+    "product": "goods-s-mediumhst_13905 5px/3-nod",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      9
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.16604539060194776
+    ],
+    "covariance_uJy2": [
+      [
+        0.0002205370200632492
+      ]
+    ],
+    "statistical_error_uJy": 0.014850488882971132
+  },
+  {
+    "product": "goods-s-mediumhst_13905 5px/2-nod",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      21
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      -0.0018761714801664817
+    ],
+    "covariance_uJy2": [
+      [
+        2.7075796596947084e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.0052034408420723955
+  },
+  {
+    "product": "goods-s-mediumhst_13905 5px/2-nod",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      0.9397620187114533
+    ],
+    "pixel_count": [
+      33
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.01827629169998908
+    ],
+    "covariance_uJy2": [
+      [
+        1.766096341479302e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.004202494903601076
+  },
+  {
+    "product": "goods-s-mediumhst_13905 5px/2-nod",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      9
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.15923670876400153
+    ],
+    "covariance_uJy2": [
+      [
+        0.000442826249140182
+      ]
+    ],
+    "statistical_error_uJy": 0.021043437198808135
+  },
+  {
+    "product": "goods-s-deephst_10013905 3px/3-nod",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      21
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.001820435537761061
+    ],
+    "covariance_uJy2": [
+      [
+        3.1033166590974304e-07
+      ]
+    ],
+    "statistical_error_uJy": 0.0005570742014397571
+  },
+  {
+    "product": "goods-s-deephst_10013905 3px/3-nod",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      35
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.012067344546394219
+    ],
+    "covariance_uJy2": [
+      [
+        1.4957459571290303e-07
+      ]
+    ],
+    "statistical_error_uJy": 0.00038674875011162355
+  },
+  {
+    "product": "goods-s-deephst_10013905 3px/3-nod",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      9
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.17320370866536094
+    ],
+    "covariance_uJy2": [
+      [
+        6.453733388492806e-06
+      ]
+    ],
+    "statistical_error_uJy": 0.002540419923652939
+  },
+  {
+    "product": "goods-s-deephst_10013905 3px/2-nod",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      21
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.0025859233177743853
+    ],
+    "covariance_uJy2": [
+      [
+        5.188900975577557e-07
+      ]
+    ],
+    "statistical_error_uJy": 0.0007203402651231956
+  },
+  {
+    "product": "goods-s-deephst_10013905 3px/2-nod",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      35
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.01196763402416435
+    ],
+    "covariance_uJy2": [
+      [
+        2.5899222556983283e-07
+      ]
+    ],
+    "statistical_error_uJy": 0.0005089127877837546
+  },
+  {
+    "product": "goods-s-deephst_10013905 3px/2-nod",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      9
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.1753085068543043
+    ],
+    "covariance_uJy2": [
+      [
+        1.0487401187728063e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.003238425726757997
+  },
+  {
+    "product": "goods-s-deephst_10013905 5px/3-nod",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      21
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.002315008214373392
+    ],
+    "covariance_uJy2": [
+      [
+        5.38887784958973e-07
+      ]
+    ],
+    "statistical_error_uJy": 0.0007340897662813267
+  },
+  {
+    "product": "goods-s-deephst_10013905 5px/3-nod",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      35
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.013956585836257085
+    ],
+    "covariance_uJy2": [
+      [
+        2.556516387207226e-07
+      ]
+    ],
+    "statistical_error_uJy": 0.0005056200537169413
+  },
+  {
+    "product": "goods-s-deephst_10013905 5px/3-nod",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      9
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.21240757164403118
+    ],
+    "covariance_uJy2": [
+      [
+        1.0572725428795406e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.0032515727623406193
+  },
+  {
+    "product": "goods-s-deephst_10013905 5px/2-nod",
+    "band": "shortwave",
+    "observed_um": [
+      0.82,
+      0.95
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      21
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.003053632638487419
+    ],
+    "covariance_uJy2": [
+      [
+        8.912259117651889e-07
+      ]
+    ],
+    "statistical_error_uJy": 0.0009440476215558137
+  },
+  {
+    "product": "goods-s-deephst_10013905 5px/2-nod",
+    "band": "ultraviolet",
+    "observed_um": [
+      1.2,
+      1.6
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      35
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.01335640873784072
+    ],
+    "covariance_uJy2": [
+      [
+        4.326272067199277e-07
+      ]
+    ],
+    "statistical_error_uJy": 0.0006577440282662608
+  },
+  {
+    "product": "goods-s-deephst_10013905 5px/2-nod",
+    "band": "optical_line",
+    "observed_um": [
+      4.08,
+      4.13
+    ],
+    "coverage": [
+      1.0
+    ],
+    "pixel_count": [
+      9
+    ],
+    "status": "MEASURED",
+    "flux_uJy": [
+      0.2150340395131241
+    ],
+    "covariance_uJy2": [
+      [
+        1.6809989385023732e-05
+      ]
+    ],
+    "statistical_error_uJy": 0.004099998705490495
+  }
+]

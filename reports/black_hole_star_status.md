@@ -1,5 +1,11 @@
 # Have we tested the black-hole-star interpretation?
 
+**Update, 14 November 2026:** the [cross-reduction audit](reduction_audit.md)
+compares eight JADES DR4 products for seven open-search priorities. Several
+shapes persist, but the GS-13905 UV anomaly is strongly reduction-dependent.
+Actual spectral images, absolute flux measurements and spatial diagnostics are
+included. This is a validation step, not a new physical classification.
+
 **Update, 13 November 2026:** the [open search](open_search.md) adds 2,084 fainter
 sources for 4,731 analysed records in total. It also searches optical and UV
 shapes without requiring the original LRD-like cuts, and adds an

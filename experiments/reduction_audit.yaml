@@ -1,0 +1,29 @@
+stage: reduction-audit-v1
+research_snapshot_date: '2026-11-14'
+configuration: configs/reduction_audit.yaml
+scope: Targeted validation of the existing 12-source open-search queue
+results: results/reduction_audit/summary.json
+download_outcomes: results/reduction_audit/downloads.json
+extraction_comparisons: results/reduction_audit/extraction_comparisons.csv
+spatial_audit: results/reduction_audit/spatial_audit.json
+absolute_flux_comparisons: results/reduction_audit/uv_observed_bands.json
+cache_verification: results/reduction_audit/cache_verification.json
+local_validation: 47 tests passed; Ruff passed; recorded input hashes and report links checked
+report: reports/reduction_audit.md
+performed:
+  - Explicit identifier, programme and coordinate associations for seven sources
+  - Eight JADES DR4 PRISM products; 32 aperture/nod variants
+  - Fixed original redshift and peer population; 29 coverage-qualified comparisons
+  - Original band S/N floor recorded separately; 26 qualified variants
+  - Signed spatial moments at three apertures for two GS-13905 products
+  - Absolute released-flux comparison and actual rectified spectral image rendering
+  - Exposure filename, roll-angle and shutter-position audit
+interpretation: GS-13905 UV anomaly is reduction-dependent; no new physical class established
+not_performed:
+  - Detector-level independent reduction and full visit-level counterpart audit
+  - Proof that independent reductions contain exactly the same input exposures
+  - Controlled variability inference or spatial deblending
+  - Full covariance and calibration systematics propagation
+  - Competing physical forward models or new population threshold calibration
+  - New higher-resolution absorption model
+poster_policy: Preserve 12 November conference posters as dated historical outputs

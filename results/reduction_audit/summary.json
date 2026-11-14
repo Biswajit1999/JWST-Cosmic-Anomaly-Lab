@@ -1,0 +1,23 @@
+{
+  "executed_utc": "2026-11-14T04:57:35.309188+00:00",
+  "associated_products": 8,
+  "associated_sources": 7,
+  "extraction_variants": 32,
+  "scorable_variants": 29,
+  "variants_meeting_original_band_sn_floor": 26,
+  "original_sample_refit": false,
+  "physical_classification": "NOT_ESTABLISHED",
+  "input_sha256": {
+    "configs/reduction_audit.yaml": "870b39e54e02ec5d3eae1d46ee16b80bfc8e6facfd3db2c00e446a297e420045",
+    "src/cosmic_anomaly_lab/reduction_audit.py": "5daa7a48c76f5fa9256578393ad3a4289a4d4df9e2bd6973f2b2b2624765f021",
+    "scripts/analyse_reduction_audit.py": "045499fde546143760c104001c39c54dfb6e0de9e278af199462040cca6d6d63",
+    "results/reduction_audit/downloads.json": "08d964e7d9aed9e58cf6447046c1c9279ea1101c09d7f9f0a80b1f976c5feba4",
+    "src/cosmic_anomaly_lab/open_search.py": "645b202181a99b3bd59d2e96e1bf3195a79dddd8241b667d7fdb43d8b0805d7f",
+    "results/open_search/shape_followup.csv": "9a81e0b7116ed22106560b0134ce7fa70c94995e647fa752f97ee9e4cee971f7",
+    "scripts/download_reduction_audit.py": "6d799ba3fa919a4e6b1a47a881a24c6cfb1f27f9bc5a048767bdf9cb4911e979"
+  },
+  "binary_input_sha256": {
+    "results/open_search/shape_details.jsonl.gz": "87eb08c1e7d35a585bad975c926448601f613628e5be85d161e49038f26b9d29",
+    "results/open_search/band_measurements.jsonl.gz": "2e08433d22ab654968097232b99559412f3d3afdafedebdde4e323d53e7f526e"
+  }
+}

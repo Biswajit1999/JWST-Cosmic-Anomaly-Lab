@@ -1,0 +1,36 @@
+version: 1
+research_snapshot: '2026-11-14'
+raw_storage_budget_MiB: 4096
+scope: Separately reduced JADES DR4 spectra for reviewed open-search associations
+association_policy: Explicit identifiers, programme and coordinates reviewed; never merge neighbours
+coordinate_tolerance_arcsec: 0.01
+targets:
+  - {source_id: CAL-82610407f3945338, dr4_id: goods-s-mediumjwst_159717, pid: 1286}
+  - {source_id: CAL-83a0d9ab00fa5821, dr4_id: goods-s-deepjwst_41544, pid: 1287}
+  - {source_id: CAL-5ad1397b3fd85dd4, dr4_id: goods-n-mediumjwst_27830, pid: 1181}
+  - {source_id: CAL-7e434e134b865988, dr4_id: goods-n-mediumhst_27395, pid: 1181}
+  - {source_id: CAL-c4cc096986f550c1, dr4_id: goods-n-mediumjwst_58441, pid: 1181}
+  - {source_id: CAL-cb97f77b0458575a, dr4_id: goods-s-mediumhst_13905, pid: 1180}
+  - {source_id: CAL-cb97f77b0458575a, dr4_id: goods-s-deephst_10013905, pid: 1210}
+  - {source_id: CAL-ed111fba06e55a96, dr4_id: goods-n-mediumjwst_38147, pid: 1181}
+not_associated:
+  - {source_id: CAL-941584bf27525741, reason: No DR4 reference source within 0.3 arcsec; no automatic match}
+  - {source_id: CAL-7b976d826a0f5c42, reason: No DR4 reference source within 0.3 arcsec; no automatic match}
+  - {source_id: CAL-32a9558e75df5db5, reason: CEERS source outside this JADES DR4 comparison}
+  - {source_id: CAL-f91bb46f62c056d0, reason: CEERS source outside this JADES DR4 comparison}
+  - {source_id: CAL-6859aea7c7375087, reason: CEERS source outside this JADES DR4 comparison}
+extractions:
+  pixel_apertures: [3, 5]
+  nods: [2, 3]
+shape_comparison:
+  use_original_peers_and_redshift: true
+  refit_population: false
+  claim: Cross-reduction consistency only, not new statistically independent photons
+spatial_check:
+  source_id: CAL-cb97f77b0458575a
+  observed_bands_um:
+    shortwave: [0.82, 0.95]
+    ultraviolet: [1.2, 1.6]
+    optical_line: [4.08, 4.13]
+  aperture_half_width_pixels: [2, 3, 4]
+  interpretation: Signed spatial moments; no clipping of negative flux and no deblending

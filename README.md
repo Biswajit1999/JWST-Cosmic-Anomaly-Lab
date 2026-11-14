@@ -4,6 +4,23 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Reduction audit: 14 November 2026
+
+Eight JADES DR4 spectra for seven shortlisted sources were compared across
+32 extraction variants. Several unusual optical shapes persist, while the
+GS-13905 ultraviolet anomaly weakens substantially in the separate reduction.
+Its absolute UV flux also differs strongly. Actual 2D spectral images and
+signed spatial measurements document the discrepancy; its origin remains unresolved.
+
+**No new black-hole star is established.** This validates part of the existing
+4,731-record search and does not add new unique objects.
+
+- [New results, telescope spectral images and source comparisons](reports/reduction_audit.md)
+- [Measurement table](results/reduction_audit/extraction_comparisons.csv)
+- [Execution ledger](experiments/reduction_audit.yaml)
+
+![Observed spectral images and reduction discrepancy](figures/uv_reduction_images.png)
+
 ## Open search: 13 November 2026
 
 **4,731 source records analysed**, including 2,084 additional fainter spectra.
@@ -33,7 +50,8 @@ complex profile of JADES-GS-159717.
 
 The evolutionary calculation is an explicit set of conditional growth clocks,
 not a mass measurement or a prediction of any source's future fate. Complete
-competing physical forward models and independent reductions remain outstanding.
+competing physical forward models remain outstanding. The 14 November audit
+above adds separate reductions for seven of the twelve priorities.
 
 ## Earlier high-S/N search: 12 November 2026
 

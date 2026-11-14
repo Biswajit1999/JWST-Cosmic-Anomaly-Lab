@@ -1,0 +1,140 @@
+{
+  "executed_utc": "2026-11-14T04:47:40.439636+00:00",
+  "config_sha256": "870b39e54e02ec5d3eae1d46ee16b80bfc8e6facfd3db2c00e446a297e420045",
+  "targets": [
+    {
+      "source_id": "CAL-82610407f3945338",
+      "dr4_id": "goods-s-mediumjwst_159717",
+      "pid": 1286,
+      "association_separation_arcsec": 0.0,
+      "dja_file": "jades-gds06-v4_prism-clear_1286_159717.spec.fits",
+      "archive_z": 5.0768846666666665,
+      "dr4_z": 5.077236683111554,
+      "dr4_z_flag": "A",
+      "directory_url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/clear-prism/goods-s-mediumjwst/",
+      "status": "DOWNLOADED",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_clear-prism_v1.0_x1d.fits",
+      "raw_sha256": "bf593ec9e74622077c7557de816b8a5e80b8ad946489e027660c22921ca9fe92"
+    },
+    {
+      "source_id": "CAL-83a0d9ab00fa5821",
+      "dr4_id": "goods-s-deepjwst_41544",
+      "pid": 1287,
+      "association_separation_arcsec": 0.0,
+      "dja_file": "jades-gds10-v4_prism-clear_1287_41544.spec.fits",
+      "archive_z": 3.7475657000000004,
+      "dr4_z": 3.7473571627808413,
+      "dr4_z_flag": "A",
+      "directory_url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/clear-prism/goods-s-deepjwst/",
+      "status": "DOWNLOADED",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deepjwst-00041544_clear-prism_v1.0_x1d.fits",
+      "raw_sha256": "9719c9a89f6da04ad1bd96bc69f115a078a7f897a9faa6e2120a9bc9e451d459"
+    },
+    {
+      "source_id": "CAL-5ad1397b3fd85dd4",
+      "dr4_id": "goods-n-mediumjwst_27830",
+      "pid": 1181,
+      "association_separation_arcsec": 0.00016079404892073833,
+      "dja_file": "jades-gdn10-v4_prism-clear_1181_27830.spec.fits",
+      "archive_z": 3.92125,
+      "dr4_z": 3.924133,
+      "dr4_z_flag": "B",
+      "directory_url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/clear-prism/goods-n-mediumjwst/",
+      "status": "DOWNLOADED",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00027830_clear-prism_v1.0_x1d.fits",
+      "raw_sha256": "8e11fa8f7ad95d4c5e7c7920be4b05bc3b2fa34495bc34dd6bc05f5a101b9c5f"
+    },
+    {
+      "source_id": "CAL-7e434e134b865988",
+      "dr4_id": "goods-n-mediumhst_27395",
+      "pid": 1181,
+      "association_separation_arcsec": 9.615125191841696e-05,
+      "dja_file": "jades-gdn2-v4_prism-clear_1181_27395.spec.fits",
+      "archive_z": 1.4868876333333334,
+      "dr4_z": 1.4866650743163723,
+      "dr4_z_flag": "A",
+      "directory_url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/clear-prism/goods-n-mediumhst/",
+      "status": "DOWNLOADED",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00027395_clear-prism_v1.0_x1d.fits",
+      "raw_sha256": "8ee23ab66e48be0b0af4b2013ed47d76fb9c23a173ecde0b372a932636a9cb18"
+    },
+    {
+      "source_id": "CAL-c4cc096986f550c1",
+      "dr4_id": "goods-n-mediumjwst_58441",
+      "pid": 1181,
+      "association_separation_arcsec": 9.571785813882219e-05,
+      "dja_file": "jades-gdn09-v4_prism-clear_1181_58441.spec.fits",
+      "archive_z": 5.968762525,
+      "dr4_z": 5.966401258331361,
+      "dr4_z_flag": "A",
+      "directory_url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/clear-prism/goods-n-mediumjwst/",
+      "status": "DOWNLOADED",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00058441_clear-prism_v1.0_x1d.fits",
+      "raw_sha256": "2abb0f875b0f7d148a8cc98aeb5c1a8c86e358f5cc4dc1625601e8ec3147bcd4"
+    },
+    {
+      "source_id": "CAL-cb97f77b0458575a",
+      "dr4_id": "goods-s-mediumhst_13905",
+      "pid": 1180,
+      "association_separation_arcsec": 0.0,
+      "dja_file": "gds-deep-v4_prism-clear_1210_13905.spec.fits",
+      "archive_z": 7.196724119999999,
+      "dr4_z": 7.195448962870962,
+      "dr4_z_flag": "A",
+      "directory_url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/clear-prism/goods-s-mediumhst/",
+      "status": "DOWNLOADED",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00013905_clear-prism_v1.0_x1d.fits",
+      "raw_sha256": "72f46ecb2f3f7b84591f3ccf93eac7f402d3a2d9ca7228187260580163bcf2f4"
+    },
+    {
+      "source_id": "CAL-cb97f77b0458575a",
+      "dr4_id": "goods-s-deephst_10013905",
+      "pid": 1210,
+      "association_separation_arcsec": 6.647644391209998e-05,
+      "dja_file": "gds-deep-v4_prism-clear_1210_13905.spec.fits",
+      "archive_z": 7.196724119999999,
+      "dr4_z": 7.194875686594384,
+      "dr4_z_flag": "A",
+      "directory_url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/clear-prism/goods-s-deephst/",
+      "status": "DOWNLOADED",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-10013905_clear-prism_v1.0_x1d.fits",
+      "raw_sha256": "06d47c676ab7ca4c7f337558a9735e4e1fca726dfb39bf857ac0f6fa9fadd2a5"
+    },
+    {
+      "source_id": "CAL-ed111fba06e55a96",
+      "dr4_id": "goods-n-mediumjwst_38147",
+      "pid": 1181,
+      "association_separation_arcsec": 0.000118533185275236,
+      "dja_file": "jades-gdn-v4_prism-clear_1181_38147.spec.fits",
+      "archive_z": 5.869894250000001,
+      "dr4_z": 5.8671617855922875,
+      "dr4_z_flag": "A",
+      "directory_url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/clear-prism/goods-n-mediumjwst/",
+      "status": "DOWNLOADED",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00038147_clear-prism_v1.0_x1d.fits",
+      "raw_sha256": "bd324d0dcb429678df996c4faf7f1e5bf66a66459dd0e4254afdf2b7a0bc1831"
+    }
+  ],
+  "not_associated": [
+    {
+      "source_id": "CAL-941584bf27525741",
+      "reason": "No DR4 reference source within 0.3 arcsec; no automatic match"
+    },
+    {
+      "source_id": "CAL-7b976d826a0f5c42",
+      "reason": "No DR4 reference source within 0.3 arcsec; no automatic match"
+    },
+    {
+      "source_id": "CAL-32a9558e75df5db5",
+      "reason": "CEERS source outside this JADES DR4 comparison"
+    },
+    {
+      "source_id": "CAL-f91bb46f62c056d0",
+      "reason": "CEERS source outside this JADES DR4 comparison"
+    },
+    {
+      "source_id": "CAL-6859aea7c7375087",
+      "reason": "CEERS source outside this JADES DR4 comparison"
+    }
+  ]
+}
