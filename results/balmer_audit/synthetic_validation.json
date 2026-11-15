@@ -1,0 +1,766 @@
+{
+  "data_kind": "SIMULATED",
+  "seed": 20261115,
+  "executed_utc": "2026-11-15T00:45:13.222855+00:00",
+  "completed_scenarios": 6,
+  "summaries": [
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trials": 10,
+      "delta_bic_over_10": 0,
+      "binomial_interval_95": [
+        0.0,
+        0.3084971078187608
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trials": 10,
+      "delta_bic_over_10": 10,
+      "binomial_interval_95": [
+        0.6915028921812392,
+        1.0
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trials": 10,
+      "delta_bic_over_10": 0,
+      "binomial_interval_95": [
+        0.0,
+        0.3084971078187608
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trials": 10,
+      "delta_bic_over_10": 8,
+      "binomial_interval_95": [
+        0.4439045376923585,
+        0.9747892736731666
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trials": 10,
+      "delta_bic_over_10": 10,
+      "binomial_interval_95": [
+        0.6915028921812392,
+        1.0
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trials": 10,
+      "delta_bic_over_10": 10,
+      "binomial_interval_95": [
+        0.6915028921812392,
+        1.0
+      ]
+    }
+  ],
+  "trials": [
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 0,
+      "delta_bic": -14.179996146988088,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 1,
+      "delta_bic": -13.753434587738894,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 2,
+      "delta_bic": -13.98829195559739,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 3,
+      "delta_bic": -10.781745388839454,
+      "absorbed_bound_parameters": [
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 4,
+      "delta_bic": -10.675335651861047,
+      "absorbed_bound_parameters": [
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 5,
+      "delta_bic": -15.04333363795709,
+      "absorbed_bound_parameters": [
+        "nii6585_area"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 6,
+      "delta_bic": -10.55001403997295,
+      "absorbed_bound_parameters": [
+        "nii6585_area"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 7,
+      "delta_bic": -14.53828097235197,
+      "absorbed_bound_parameters": [
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 8,
+      "delta_bic": -9.996254524562687,
+      "absorbed_bound_parameters": [
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "co_centered",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 9,
+      "delta_bic": -15.440655939243811,
+      "absorbed_bound_parameters": [
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 0,
+      "delta_bic": 319.99848978206546,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 1,
+      "delta_bic": 336.3846836685216,
+      "absorbed_bound_parameters": [
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 2,
+      "delta_bic": 301.6232473675576,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 3,
+      "delta_bic": 276.4975846695629,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 4,
+      "delta_bic": 348.1602832101149,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 5,
+      "delta_bic": 258.2795388571401,
+      "absorbed_bound_parameters": [
+        "nii6585_area"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 6,
+      "delta_bic": 308.3164628772936,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 7,
+      "delta_bic": 282.1976305547702,
+      "absorbed_bound_parameters": [
+        "nii6585_area"
+      ]
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 8,
+      "delta_bic": 255.40566996256277,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395H",
+      "truth": "absorbed",
+      "true_resolution": 2700,
+      "fitted_resolution": 2700,
+      "trial": 9,
+      "delta_bic": 278.00838581751907,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 0,
+      "delta_bic": -12.596030280581402,
+      "absorbed_bound_parameters": [
+        "nii6585_area"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 1,
+      "delta_bic": -12.646051228383541,
+      "absorbed_bound_parameters": [
+        "nii6585_area",
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 2,
+      "delta_bic": -12.590470785372844,
+      "absorbed_bound_parameters": [
+        "nii6585_area"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 3,
+      "delta_bic": -8.300111630657426,
+      "absorbed_bound_parameters": [
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 4,
+      "delta_bic": -11.486874516384319,
+      "absorbed_bound_parameters": []
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 5,
+      "delta_bic": -11.349900543814215,
+      "absorbed_bound_parameters": [
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 6,
+      "delta_bic": -5.355540457669775,
+      "absorbed_bound_parameters": [
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 7,
+      "delta_bic": -11.517449251256195,
+      "absorbed_bound_parameters": [
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 8,
+      "delta_bic": -7.4227797372360556,
+      "absorbed_bound_parameters": [
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 9,
+      "delta_bic": -9.199400409332767,
+      "absorbed_bound_parameters": [
+        "nii6585_area",
+        "abs_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 0,
+      "delta_bic": 3.3255077872333345,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "nii6585_area"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 1,
+      "delta_bic": 15.175288669406953,
+      "absorbed_bound_parameters": [
+        "narrow_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 2,
+      "delta_bic": 36.18191257876515,
+      "absorbed_bound_parameters": [
+        "narrow_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 3,
+      "delta_bic": 12.395189544496688,
+      "absorbed_bound_parameters": [
+        "nii6585_area"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 4,
+      "delta_bic": 9.673648160746112,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 5,
+      "delta_bic": 16.228434763080983,
+      "absorbed_bound_parameters": [
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 6,
+      "delta_bic": 27.456524633436857,
+      "absorbed_bound_parameters": [
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 7,
+      "delta_bic": 23.263300504235275,
+      "absorbed_bound_parameters": [
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 8,
+      "delta_bic": 20.76751430291411,
+      "absorbed_bound_parameters": [
+        "narrow_sigma"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1000,
+      "fitted_resolution": 1000,
+      "trial": 9,
+      "delta_bic": 23.080317983671264,
+      "absorbed_bound_parameters": [
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 0,
+      "delta_bic": 64.7653364355645,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 1,
+      "delta_bic": 94.29552968018479,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 2,
+      "delta_bic": 41.38147617800658,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 3,
+      "delta_bic": 41.8173122844982,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 4,
+      "delta_bic": 34.43513496144071,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "nii6585_area",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 5,
+      "delta_bic": 129.8166139121277,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 6,
+      "delta_bic": 76.92355265634428,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 7,
+      "delta_bic": 56.85126710920673,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 8,
+      "delta_bic": 51.391054746450266,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "co_centered",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 9,
+      "delta_bic": 105.9965678437541,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 0,
+      "delta_bic": 135.2236121486073,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "nii6585_area",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 1,
+      "delta_bic": 130.9231519716766,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "nii6585_area",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 2,
+      "delta_bic": 131.31549264670633,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 3,
+      "delta_bic": 159.01133955378242,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 4,
+      "delta_bic": 120.39163252609993,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 5,
+      "delta_bic": 168.35251234695937,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 6,
+      "delta_bic": 160.034105314138,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 7,
+      "delta_bic": 162.09258942425154,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 8,
+      "delta_bic": 174.92836552771536,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    },
+    {
+      "spectrum": "DJA G395M",
+      "truth": "absorbed",
+      "true_resolution": 1500,
+      "fitted_resolution": 1000,
+      "trial": 9,
+      "delta_bic": 104.75779276431916,
+      "absorbed_bound_parameters": [
+        "narrow_sigma",
+        "tau"
+      ]
+    }
+  ],
+  "template_parameters": [
+    0.49867067073266924,
+    0.04910026336774379,
+    2.2522992639530255,
+    36.33487199889052,
+    -26.787139805094657,
+    0.06329339333205422,
+    5.013630055324547,
+    511.1396857101586,
+    9.48158402301322,
+    1347.8379198278722,
+    -47.591519991230335,
+    5.260093085471752,
+    86.5936602291787,
+    -42.61214997713653
+  ],
+  "limitation": "Source-inspired local template, independent Gaussian pixel errors, only ten trials per cell; not a survey false-positive rate or population completeness",
+  "code_sha256": "a4e443bb56a11c2d1f91bf352146e5b011506c314a3bb6bb8dd41647229b8673",
+  "script_sha256": "5fb5119f8d0238a356040f48c0a549b74f26b49b947b1bdada5cbda5c7965d77"
+}

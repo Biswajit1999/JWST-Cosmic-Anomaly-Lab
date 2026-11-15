@@ -1,0 +1,15 @@
+{
+  "executed_utc": "2026-11-15T00:43:59.536530+00:00",
+  "research_snapshot": "2026-11-15",
+  "source_id": "CAL-82610407f3945338",
+  "unique_source_count": 1,
+  "extraction_variants": 6,
+  "fits": 90,
+  "physical_classification": "NOT_ESTABLISHED",
+  "design": "Post-selection known-source local-model benchmark",
+  "input_sha256": {
+    "configs/balmer_audit.yaml": "114169411f1c5d3caacfd685b97638a50ed075acb3a23253e22a1dcd63f07637",
+    "scripts/analyse_balmer_audit.py": "4b08e0d7c47af976331ab0b5e2134a7ad42ff820bea2721bd80324899cf59eeb",
+    "src/cosmic_anomaly_lab/balmer_absorption.py": "a4e443bb56a11c2d1f91bf352146e5b011506c314a3bb6bb8dd41647229b8673"
+  }
+}

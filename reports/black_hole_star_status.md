@@ -1,5 +1,11 @@
 # Have we tested the black-hole-star interpretation?
 
+**Update, 15 November 2026:** the [Balmer-line benchmark](balmer_audit.md)
+adds explicit local absorption and emission-only fits for known JADES-GS-159717,
+instrument-resolution sensitivity and synthetic controls. High-resolution
+absorption structure is supported within the tested families. This is not a full
+physical-class comparison, gas-density determination or new source discovery.
+
 **Update, 14 November 2026:** the [cross-reduction audit](reduction_audit.md)
 compares eight JADES DR4 products for seven open-search priorities. Several
 shapes persist, but the GS-13905 UV anomaly is strongly reduction-dependent.

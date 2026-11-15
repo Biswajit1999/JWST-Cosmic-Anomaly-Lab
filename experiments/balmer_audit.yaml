@@ -1,0 +1,28 @@
+stage: balmer-audit-v1
+research_snapshot_date: '2026-11-15'
+configuration: configs/balmer_audit.yaml
+scope: Targeted known-source local Halpha benchmark, JADES-GS-159717
+results: results/balmer_audit/summary.json
+spectral_inputs: results/balmer_audit/inputs.json
+fits: results/balmer_audit/fits.json
+model_comparisons: results/balmer_audit/model_preference.csv
+synthetic_controls: results/balmer_audit/synthetic_validation.json
+numerical_convergence: results/balmer_audit/numerical_convergence.json
+report: reports/balmer_audit.md
+performed:
+  - Two DJA grating spectra and four extractions of a separate JADES DR4 G395M product
+  - Common-centre emission, split-centre emission and broad-only absorption families
+  - Absorption applied before Gaussian LSF convolution and spectral pixel integration
+  - Five resolution assumptions; larger two added after initial boundary solutions
+  - Ninety observed fits, with four starting points and parameter-bound diagnostics
+  - Sixty source-inspired mock trials including instrumental-response mismatch
+  - Numerical integration convergence and analytic-limit/recovery tests
+interpretation: Conditional support for high-resolution absorption structure in a known source; wrong LSF produces false preferences in synthetic controls; no new physical class
+verification: results/balmer_audit/verification.json
+not_performed:
+  - Source-calibrated LSF or independent G395H reduction
+  - Full multi-line Bayesian inference and radiative-transfer models
+  - Absorber gas density, mass, covering fraction or evolutionary inference
+  - New source discovery, population completeness or real survey false-positive calibration
+  - Resolution of GS-13905 counterpart/extraction discrepancy
+poster_policy: Preserve 12 November conference posters until final synthesis

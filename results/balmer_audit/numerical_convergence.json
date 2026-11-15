@@ -1,0 +1,92 @@
+[
+  {
+    "label": "DJA G395H",
+    "family": "co_centered",
+    "maximum_difference_over_error": 0.023289364888925575
+  },
+  {
+    "label": "DJA G395H",
+    "family": "absorbed",
+    "maximum_difference_over_error": 0.031122127376928706
+  },
+  {
+    "label": "DJA G395H",
+    "family": "split_emission",
+    "maximum_difference_over_error": 0.023268654520475794
+  },
+  {
+    "label": "DJA G395M",
+    "family": "co_centered",
+    "maximum_difference_over_error": 0.001983454864032182
+  },
+  {
+    "label": "DJA G395M",
+    "family": "absorbed",
+    "maximum_difference_over_error": 0.005705113892679358
+  },
+  {
+    "label": "DJA G395M",
+    "family": "split_emission",
+    "maximum_difference_over_error": 0.0019726772240364412
+  },
+  {
+    "label": "DR4 G395M 3px/3-nod",
+    "family": "co_centered",
+    "maximum_difference_over_error": 0.0008878660096602077
+  },
+  {
+    "label": "DR4 G395M 3px/3-nod",
+    "family": "absorbed",
+    "maximum_difference_over_error": 0.002099359122716986
+  },
+  {
+    "label": "DR4 G395M 3px/3-nod",
+    "family": "split_emission",
+    "maximum_difference_over_error": 0.0008781284304851829
+  },
+  {
+    "label": "DR4 G395M 3px/2-nod",
+    "family": "co_centered",
+    "maximum_difference_over_error": 0.0008643508015832975
+  },
+  {
+    "label": "DR4 G395M 3px/2-nod",
+    "family": "absorbed",
+    "maximum_difference_over_error": 0.002149075382647847
+  },
+  {
+    "label": "DR4 G395M 3px/2-nod",
+    "family": "split_emission",
+    "maximum_difference_over_error": 0.0008448047181374939
+  },
+  {
+    "label": "DR4 G395M 5px/3-nod",
+    "family": "co_centered",
+    "maximum_difference_over_error": 0.0013842585187367324
+  },
+  {
+    "label": "DR4 G395M 5px/3-nod",
+    "family": "absorbed",
+    "maximum_difference_over_error": 0.003088807972661968
+  },
+  {
+    "label": "DR4 G395M 5px/3-nod",
+    "family": "split_emission",
+    "maximum_difference_over_error": 0.0013784422579003277
+  },
+  {
+    "label": "DR4 G395M 5px/2-nod",
+    "family": "co_centered",
+    "maximum_difference_over_error": 0.0011498283645210345
+  },
+  {
+    "label": "DR4 G395M 5px/2-nod",
+    "family": "absorbed",
+    "maximum_difference_over_error": 0.002474224210023815
+  },
+  {
+    "label": "DR4 G395M 5px/2-nod",
+    "family": "split_emission",
+    "maximum_difference_over_error": 0.0011363378739398607
+  }
+]

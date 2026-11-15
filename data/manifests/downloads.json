@@ -72178,5 +72178,20 @@
     "version": "DR4",
     "kind": "independently_reduced_observed_spectrum",
     "previous_sha256": null
+  },
+  {
+    "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f290lp-g395m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f290lp-g395m_v1.0_x1d.fits",
+    "final_url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f290lp-g395m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f290lp-g395m_v1.0_x1d.fits",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f290lp-g395m_v1.0_x1d.fits",
+    "bytes": 362880,
+    "sha256": "0db5c3c5daebf2ce40f7c2f1775d80d4eac4b29ed6b5cf13c0eeab9aaeba04d6",
+    "published_checksum": null,
+    "accessed_utc": "2026-11-15T00:37:13.739863+00:00",
+    "etag": "\"58980-6401584df9500\"",
+    "last_modified": "Wed, 01 Oct 2025 09:30:28 GMT",
+    "survey": "JADES",
+    "version": "DR4-v1.0",
+    "kind": "independently_reduced_observed_spectrum",
+    "previous_sha256": null
   }
 ]

@@ -4,6 +4,21 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Balmer-line benchmark: 15 November 2026
+
+The known source JADES-GS-159717 now has explicit emission/absorption model
+comparisons: **90 observed fits** across six extractions and five assumed
+instrument resolutions, plus **60 synthetic controls**. The high-resolution
+spectrum supports absorption structure within the tested model families.
+Medium-resolution constraints depend strongly on instrument and extraction
+assumptions; this is not a new black-hole-star discovery.
+Synthetic controls also show that an incorrect instrument response can create
+a false absorption preference even in emission-only spectra.
+
+- [New benchmark report and observed model comparisons](reports/balmer_audit.md)
+- [Resolution sensitivity and fit diagnostics](results/balmer_audit/model_preference.csv)
+- [Execution ledger](experiments/balmer_audit.yaml)
+
 ## Reduction audit: 14 November 2026
 
 Eight JADES DR4 spectra for seven shortlisted sources were compared across

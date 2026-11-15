@@ -1,0 +1,16 @@
+research_snapshot: '2026-11-15'
+source_id: CAL-82610407f3945338
+source_name: JADES-GS-159717
+redshift_reference: 5.07781
+halpha_vacuum_um: 0.656461
+velocity_limit_kms: 4500
+resolution: {G395H: 2700, G395M: 1000}
+resolution_factors: [0.8, 1.0, 1.2, 1.5, 2.0]
+resolution_design_note: Factors 1.5 and 2.0 added after the initial 54-fit run exposed boundary solutions; exploratory slit-underfill stress test, not calibrated source LSF
+families: [co_centered, absorbed, split_emission]
+covering_fraction: 1
+fitting_starts: 4
+grid_step_kms: 5
+raw_budget_MiB: 4096
+seed: 20261115
+interpretation: Targeted known-source benchmark; conditional local models, not physical-class inference
