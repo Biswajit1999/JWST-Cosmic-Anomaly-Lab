@@ -1,5 +1,15 @@
 # Have we tested the black-hole-star interpretation?
 
+**Wider follow-up, 15 November 2026:** [high-resolution inspection](high_resolution_followup.md)
+now covers nine existing priorities. Four of six Hα sources do not favour an
+added broad Gaussian; two known sources favour extra structure but remain poorly
+described by the simple fits. This narrows follow-up without establishing a discovery.
+
+**Further update, 15 November 2026:** the [independent-line control](line_anchor.md)
+measures [OIII] without Hα pixels. It bounds instrumental blur conditionally,
+retains the intrinsic-width degeneracy and identifies missing G395M coverage.
+This does not establish a unique instrumental calibration or a physical class.
+
 **Update, 15 November 2026:** the [Balmer-line benchmark](balmer_audit.md)
 adds explicit local absorption and emission-only fits for known JADES-GS-159717,
 instrument-resolution sensitivity and synthetic controls. High-resolution

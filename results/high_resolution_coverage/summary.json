@@ -1,0 +1,13 @@
+{
+  "executed_utc": "2026-11-15T20:21:05.489064+00:00",
+  "research_snapshot": "2026-11-15",
+  "source_records": 9,
+  "listed_products": 12,
+  "inspected_products": 12,
+  "line_windows": 24,
+  "coverage_qualified_windows": 14,
+  "interpretation": "Pixel-level coverage only; median pixel flux/error includes continuum, not line significance",
+  "physical_classification": "NOT_ESTABLISHED",
+  "script_sha256": "200961ae647966e806de4c5fad9cacaa099bda46914b8b3bba00e9227d25929c",
+  "inventory_sha256": "86196d29390f58ff8dbc9ca4d14e555a8e3a704621e789c8c6572caeaa49475c"
+}

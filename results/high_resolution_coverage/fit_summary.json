@@ -1,0 +1,14 @@
+{
+  "executed_utc": "2026-11-15T20:22:43.301992+00:00",
+  "research_snapshot": "2026-11-15",
+  "products": 7,
+  "source_records": 6,
+  "fits": 42,
+  "physical_classification": "NOT_ESTABLISHED",
+  "design": "Coverage-qualified local narrow Halpha+[NII] versus added Gaussian broad Halpha; three LSF scales; no significance calibration",
+  "input_sha256": {
+    "scripts/fit_priority_high_resolution.py": "2c27f6bbb487ef1286b9ac61605654760ea0f9d9f4b6e7315e13eb8c045452d8",
+    "src/cosmic_anomaly_lab/line_profiles.py": "a2993ab46a835ea4d523ee6ab7d4b8858d18ef8411147c48277e82adfc29705b",
+    "results/high_resolution_coverage/line_coverage.csv": "b76d13d0c4ef1799ffde71369aa5d61676191919c67f7f70559f35026a68676a"
+  }
+}

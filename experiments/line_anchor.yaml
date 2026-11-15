@@ -1,0 +1,21 @@
+stage: line-anchor-v1
+research_snapshot_date: '2026-11-15'
+configuration: configs/line_anchor.yaml
+scope: Independent-wavelength line control for GS-159717 and archive inventory of existing priorities
+results: results/line_anchor/summary.json
+observed_widths: results/line_anchor/width_constraints.csv
+archive_inventory: results/line_anchor/priority_followup_inventory.csv
+report: reports/line_anchor.md
+performed:
+  - Retrieved DJA and DR4 G235M spectra and a STScI resolution reference
+  - Twenty-two line/window checks; twelve measured, ten missing because of G395M coverage
+  - Pixel-integrated Gaussian doublet fits with independent amplitudes and signed flux
+  - Nuisance-refitted width profiles, two windows and two separate reductions
+  - Conditional lower resolving-power bounds with explicit intrinsic-width degeneracy
+  - Inventory of existing search priorities without automatic positional association
+not_performed:
+  - Unique instrumental LSF or intrinsic gas-width calibration
+  - Unconditional G235M-to-G395M calibration transfer
+  - Independent high-resolution reduction or detector-level re-extraction
+  - Physical-class determination or new source discovery
+interpretation: Narrow lines bound possible blur but do not resolve the absorption-calibration ambiguity

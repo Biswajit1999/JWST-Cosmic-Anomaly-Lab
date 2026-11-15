@@ -1,0 +1,188 @@
+[
+  {
+    "label": "DJA G395H",
+    "path": "data/raw/spectra/jades-gds06-v4_g395h-f290lp_1286_159717.spec.fits",
+    "sha256": "6f9be6f7f9b808451030488a446e793261627e3124355288b53b4393c08c0f63",
+    "metadata": {
+      "GRATING": "G395H",
+      "FILTER": "F290LP",
+      "VERSION": "0.9.5.dev8+ge2b237b",
+      "CRDS_CTX": "jwst_1298.pmap",
+      "CAL_VER": "0.1.dev8704+g9b678d4",
+      "SRCRA": 53.0975283,
+      "SRCDEC": -27.90126029999999
+    }
+  },
+  {
+    "label": "DJA G235M",
+    "path": "data/raw/spectra/jades-gds06-v4_g235m-f170lp_1286_159717.spec.fits",
+    "sha256": "7a4946ea99d124ebb71f65da406031cedc0b644e12072e05ddba07e13a52df1b",
+    "metadata": {
+      "GRATING": "G235M",
+      "FILTER": "F170LP",
+      "VERSION": "0.9.5.dev8+ge2b237b",
+      "CRDS_CTX": "jwst_1298.pmap",
+      "CAL_VER": "0.1.dev8704+g9b678d4",
+      "SRCRA": 53.0975283,
+      "SRCDEC": -27.90126029999999
+    }
+  },
+  {
+    "label": "DJA G395M",
+    "path": "data/raw/spectra/jades-gds06-v4_g395m-f290lp_1286_159717.spec.fits",
+    "sha256": "d72c083b57e5da742b37265451b8e5cea71decb48a21eb918e5df390407a8c41",
+    "metadata": {
+      "GRATING": "G395M",
+      "FILTER": "F290LP",
+      "VERSION": "0.9.5.dev8+ge2b237b",
+      "CRDS_CTX": "jwst_1298.pmap",
+      "CAL_VER": "0.1.dev8704+g9b678d4",
+      "SRCRA": 53.0975283,
+      "SRCDEC": -27.90126029999999
+    }
+  },
+  {
+    "label": "DR4 G235M 3px/3-nod",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f170lp-g235m_v1.0_x1d.fits",
+    "sha256": "704c35190eaaf56164d0883b437e61ed08a510b89c495a1e46bbc231b466014e",
+    "metadata": {
+      "RA": 53.0975283,
+      "DEC": -27.9012603,
+      "TARGET": "00159717",
+      "PROPOSID": 1286,
+      "MJD-BEG": 60290.7316215625,
+      "MJD-END": 60295.1772900463,
+      "HLSPVER": "1.0",
+      "DOI": "10.17909/8tdj-8n28",
+      "aperture_pixels": 3,
+      "nods": 3,
+      "quality_mask": "Finite flux/error and positive error; no DQ column supplied"
+    }
+  },
+  {
+    "label": "DR4 G235M 3px/2-nod",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f170lp-g235m_v1.0_x1d.fits",
+    "sha256": "704c35190eaaf56164d0883b437e61ed08a510b89c495a1e46bbc231b466014e",
+    "metadata": {
+      "RA": 53.0975283,
+      "DEC": -27.9012603,
+      "TARGET": "00159717",
+      "PROPOSID": 1286,
+      "MJD-BEG": 60290.7316215625,
+      "MJD-END": 60295.1772900463,
+      "HLSPVER": "1.0",
+      "DOI": "10.17909/8tdj-8n28",
+      "aperture_pixels": 3,
+      "nods": 2,
+      "quality_mask": "Finite flux/error and positive error; no DQ column supplied"
+    }
+  },
+  {
+    "label": "DR4 G235M 5px/3-nod",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f170lp-g235m_v1.0_x1d.fits",
+    "sha256": "704c35190eaaf56164d0883b437e61ed08a510b89c495a1e46bbc231b466014e",
+    "metadata": {
+      "RA": 53.0975283,
+      "DEC": -27.9012603,
+      "TARGET": "00159717",
+      "PROPOSID": 1286,
+      "MJD-BEG": 60290.7316215625,
+      "MJD-END": 60295.1772900463,
+      "HLSPVER": "1.0",
+      "DOI": "10.17909/8tdj-8n28",
+      "aperture_pixels": 5,
+      "nods": 3,
+      "quality_mask": "Finite flux/error and positive error; no DQ column supplied"
+    }
+  },
+  {
+    "label": "DR4 G235M 5px/2-nod",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f170lp-g235m_v1.0_x1d.fits",
+    "sha256": "704c35190eaaf56164d0883b437e61ed08a510b89c495a1e46bbc231b466014e",
+    "metadata": {
+      "RA": 53.0975283,
+      "DEC": -27.9012603,
+      "TARGET": "00159717",
+      "PROPOSID": 1286,
+      "MJD-BEG": 60290.7316215625,
+      "MJD-END": 60295.1772900463,
+      "HLSPVER": "1.0",
+      "DOI": "10.17909/8tdj-8n28",
+      "aperture_pixels": 5,
+      "nods": 2,
+      "quality_mask": "Finite flux/error and positive error; no DQ column supplied"
+    }
+  },
+  {
+    "label": "DR4 G395M 3px/3-nod",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f290lp-g395m_v1.0_x1d.fits",
+    "sha256": "0db5c3c5daebf2ce40f7c2f1775d80d4eac4b29ed6b5cf13c0eeab9aaeba04d6",
+    "metadata": {
+      "RA": 53.0975283,
+      "DEC": -27.9012603,
+      "TARGET": "00159717",
+      "PROPOSID": 1286,
+      "MJD-BEG": 60294.79854833333,
+      "MJD-END": 60295.26931662037,
+      "HLSPVER": "1.0",
+      "DOI": "10.17909/8tdj-8n28",
+      "aperture_pixels": 3,
+      "nods": 3,
+      "quality_mask": "Finite flux/error and positive error; no DQ column supplied"
+    }
+  },
+  {
+    "label": "DR4 G395M 3px/2-nod",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f290lp-g395m_v1.0_x1d.fits",
+    "sha256": "0db5c3c5daebf2ce40f7c2f1775d80d4eac4b29ed6b5cf13c0eeab9aaeba04d6",
+    "metadata": {
+      "RA": 53.0975283,
+      "DEC": -27.9012603,
+      "TARGET": "00159717",
+      "PROPOSID": 1286,
+      "MJD-BEG": 60294.79854833333,
+      "MJD-END": 60295.26931662037,
+      "HLSPVER": "1.0",
+      "DOI": "10.17909/8tdj-8n28",
+      "aperture_pixels": 3,
+      "nods": 2,
+      "quality_mask": "Finite flux/error and positive error; no DQ column supplied"
+    }
+  },
+  {
+    "label": "DR4 G395M 5px/3-nod",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f290lp-g395m_v1.0_x1d.fits",
+    "sha256": "0db5c3c5daebf2ce40f7c2f1775d80d4eac4b29ed6b5cf13c0eeab9aaeba04d6",
+    "metadata": {
+      "RA": 53.0975283,
+      "DEC": -27.9012603,
+      "TARGET": "00159717",
+      "PROPOSID": 1286,
+      "MJD-BEG": 60294.79854833333,
+      "MJD-END": 60295.26931662037,
+      "HLSPVER": "1.0",
+      "DOI": "10.17909/8tdj-8n28",
+      "aperture_pixels": 5,
+      "nods": 3,
+      "quality_mask": "Finite flux/error and positive error; no DQ column supplied"
+    }
+  },
+  {
+    "label": "DR4 G395M 5px/2-nod",
+    "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f290lp-g395m_v1.0_x1d.fits",
+    "sha256": "0db5c3c5daebf2ce40f7c2f1775d80d4eac4b29ed6b5cf13c0eeab9aaeba04d6",
+    "metadata": {
+      "RA": 53.0975283,
+      "DEC": -27.9012603,
+      "TARGET": "00159717",
+      "PROPOSID": 1286,
+      "MJD-BEG": 60294.79854833333,
+      "MJD-END": 60295.26931662037,
+      "HLSPVER": "1.0",
+      "DOI": "10.17909/8tdj-8n28",
+      "aperture_pixels": 5,
+      "nods": 2,
+      "quality_mask": "Finite flux/error and positive error; no DQ column supplied"
+    }
+  }
+]

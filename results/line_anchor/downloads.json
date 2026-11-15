@@ -1,0 +1,17 @@
+{
+  "executed_utc": "2026-11-15T20:11:46.034767+00:00",
+  "products": [
+    {
+      "path": "data/raw/spectra/jades-gds06-v4_g235m-f170lp_1286_159717.spec.fits",
+      "sha256": "7a4946ea99d124ebb71f65da406031cedc0b644e12072e05ddba07e13a52df1b"
+    },
+    {
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f170lp-g235m_v1.0_x1d.fits",
+      "sha256": "704c35190eaaf56164d0883b437e61ed08a510b89c495a1e46bbc231b466014e"
+    },
+    {
+      "path": "data/raw/instrument/g395h_disp.fits",
+      "sha256": "fc629587007cd8c0e86d803d8f98b5549a2a92993f6f5f73f907db5ceb6b48d8"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "executed_utc": "2026-11-15T20:27:24.548287+00:00",
+  "products_checked": 4829,
+  "failures": [],
+  "raw_bytes": 3538988199,
+  "local_tests_passed": 53,
+  "ruff_passed": true,
+  "analysis_hashes_valid": true,
+  "report_links_valid": true,
+  "inventory_hashes_valid": true
+}

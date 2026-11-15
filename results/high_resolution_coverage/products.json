@@ -1,0 +1,134 @@
+[
+  {
+    "source_id": "CAL-d256290324db5226",
+    "file": "goodsn-wide0-v4_g235h-f170lp_1211_3901.spec.fits",
+    "grating": "G235H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/goodsn-wide0-v4/goodsn-wide0-v4_g235h-f170lp_1211_3901.spec.fits",
+    "z_fixed": 1.87703385,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/goodsn-wide0-v4_g235h-f170lp_1211_3901.spec.fits",
+    "sha256": "c9d375fb7f8fcb9478b226751b7465f596e806001a72e6d6d0784a5a75e09f31",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-d256290324db5226",
+    "file": "goodsn-wide0-v4_g395h-f290lp_1211_3901.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/goodsn-wide0-v4/goodsn-wide0-v4_g395h-f290lp_1211_3901.spec.fits",
+    "z_fixed": 1.87703385,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/goodsn-wide0-v4_g395h-f290lp_1211_3901.spec.fits",
+    "sha256": "d4440754f9816abc8dae5e3d04938fe76e1482d53cd72bcf7ba64fa4adffb4de",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-b153aa637a685751",
+    "file": "goodsn-wide0-v4_g235h-f170lp_1211_3417.spec.fits",
+    "grating": "G235H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/goodsn-wide0-v4/goodsn-wide0-v4_g235h-f170lp_1211_3417.spec.fits",
+    "z_fixed": 3.1270221,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/goodsn-wide0-v4_g235h-f170lp_1211_3417.spec.fits",
+    "sha256": "7c6234544e0845c02d9c0578c8ea666997300b53f4feea7f70a328dd4501b665",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-b153aa637a685751",
+    "file": "goodsn-wide0-v4_g395h-f290lp_1211_3417.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/goodsn-wide0-v4/goodsn-wide0-v4_g395h-f290lp_1211_3417.spec.fits",
+    "z_fixed": 3.1270221,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/goodsn-wide0-v4_g395h-f290lp_1211_3417.spec.fits",
+    "sha256": "de2eed8a47dded84be30e59eaa8f94fa5e843c1529b23a06698f974d7c2f3888",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-efc95b2a0f8a519d",
+    "file": "jades-gdn198-v4_g395h-f290lp_1181_68797.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn198-v4/jades-gdn198-v4_g395h-f290lp_1181_68797.spec.fits",
+    "z_fixed": 5.039798983333333,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/jades-gdn198-v4_g395h-f290lp_1181_68797.spec.fits",
+    "sha256": "e2fd4ab71aaaec3f95eb7d769e73775a6fd0d781e497b324067491e287d5f218",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-efc95b2a0f8a519d",
+    "file": "jades-gdn-v4_g395h-f290lp_1181_68797.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn-v4/jades-gdn-v4_g395h-f290lp_1181_68797.spec.fits",
+    "z_fixed": 5.039798983333333,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/jades-gdn-v4_g395h-f290lp_1181_68797.spec.fits",
+    "sha256": "af71e3d73a394a7f409d3e7c1e9c0bfac3abcca6ccd1ec34c63a08bc46e19ddc",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-ee21ea17c6f8511b",
+    "file": "jades-gds06-v4_g395h-f290lp_1286_10072503.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds06-v4/jades-gds06-v4_g395h-f290lp_1286_10072503.spec.fits",
+    "z_fixed": 2.04655935,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/jades-gds06-v4_g395h-f290lp_1286_10072503.spec.fits",
+    "sha256": "8bb0bbe7d19eda90a015eb55b825adeaf930a89429f2e93bf9a2f42f59a681b8",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-cb97f77b0458575a",
+    "file": "gds-deep-v4_g395h-f290lp_1210_13905.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/gds-deep-v4/gds-deep-v4_g395h-f290lp_1210_13905.spec.fits",
+    "z_fixed": 7.196724119999999,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/gds-deep-v4_g395h-f290lp_1210_13905.spec.fits",
+    "sha256": "b616d36bc00d4e04ff4bfdb477f70931afd8bbcad812e964c44f0ec52bfd088c",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-82610407f3945338",
+    "file": "jades-gds06-v4_g395h-f290lp_1286_159717.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds06-v4/jades-gds06-v4_g395h-f290lp_1286_159717.spec.fits",
+    "z_fixed": 5.0768846666666665,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/jades-gds06-v4_g395h-f290lp_1286_159717.spec.fits",
+    "sha256": "6f9be6f7f9b808451030488a446e793261627e3124355288b53b4393c08c0f63",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-83a0d9ab00fa5821",
+    "file": "jades-gds10-v4_g395h-f290lp_1287_41544.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds10-v4/jades-gds10-v4_g395h-f290lp_1287_41544.spec.fits",
+    "z_fixed": 3.7475657000000004,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/jades-gds10-v4_g395h-f290lp_1287_41544.spec.fits",
+    "sha256": "b17c5486f29c6462297d8299b703284ad3eb5bd8fc3c69aca7838dc8de5f51e8",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-ed111fba06e55a96",
+    "file": "jades-gdn-v4_g395h-f290lp_1181_38147.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn-v4/jades-gdn-v4_g395h-f290lp_1181_38147.spec.fits",
+    "z_fixed": 5.869894250000001,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/jades-gdn-v4_g395h-f290lp_1181_38147.spec.fits",
+    "sha256": "92652ed673e123fca8ce543d51a7f3b744025e22239f670a4ce3bdb083be1c21",
+    "header_separation_arcsec": 0.0
+  },
+  {
+    "source_id": "CAL-c4cc096986f550c1",
+    "file": "jades-gdn09-v4_g395h-f290lp_1181_58441.spec.fits",
+    "grating": "G395H",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn09-v4/jades-gdn09-v4_g395h-f290lp_1181_58441.spec.fits",
+    "z_fixed": 5.968762525,
+    "status": "INSPECTED",
+    "path": "data/raw/spectra/jades-gdn09-v4_g395h-f290lp_1181_58441.spec.fits",
+    "sha256": "b4e4638dee28cbd4fe38138fe4e26101e81ded73ba0e0931a76bba2131566233",
+    "header_separation_arcsec": 0.0
+  }
+]

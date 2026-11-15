@@ -1,0 +1,13 @@
+{
+  "executed_utc": "2026-11-15T20:26:04.431818+00:00",
+  "sources": 23,
+  "with_listed_high_grating": 9,
+  "with_listed_medium_grating": 15,
+  "interpretation": "Archive product inventory only; not inspected coverage or new objects",
+  "input_sha256": {
+    "results/expanded/followup_priority.csv": "dadbd79282a267222dd970aeba80eeebdd702de1dfa8e168e0fd37d9f5611613",
+    "results/open_search/shape_followup.csv": "9a81e0b7116ed22106560b0134ce7fa70c94995e647fa752f97ee9e4cee971f7",
+    "data/catalogues/observations.csv.gz": "ff168abd54780217cbe04482629f63ba315441c9c5a3535550e745a5072a17fc"
+  },
+  "script_sha256": "cc7a8344517caac1eeed230b8572ea7be837c5485550de19be90ee8efe150e9e"
+}

@@ -1,0 +1,16 @@
+{
+  "executed_utc": "2026-11-15T20:15:09.006102+00:00",
+  "research_snapshot": "2026-11-15",
+  "source_id": "CAL-82610407f3945338",
+  "extraction_variants": 11,
+  "attempted_windows": 22,
+  "fitted_windows": 12,
+  "unique_LSF_calibrated": false,
+  "physical_classification": "NOT_ESTABLISHED",
+  "input_sha256": {
+    "scripts/analyse_line_anchor.py": "62b69adadadf58bb19a0f5d8d3eff6df39b12eac6c362b56a247ac703a65f15f",
+    "configs/line_anchor.yaml": "5fd224b883118e69443c966a63e01cf354c2f2324dedd68216c9ad55f19d46cf",
+    "src/cosmic_anomaly_lab/line_anchor.py": "07c9af5af9cd89ccd4cb61aa21f90447c5c3869215964a71ce8c02380da7d1e9",
+    "src/cosmic_anomaly_lab/line_profiles.py": "a2993ab46a835ea4d523ee6ab7d4b8858d18ef8411147c48277e82adfc29705b"
+  }
+}

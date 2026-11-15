@@ -1,0 +1,20 @@
+stage: priority-high-resolution-v1
+research_snapshot_date: '2026-11-15'
+scope: All listed high-resolution products in the existing 23-source follow-up union
+selection: results/line_anchor/priority_archive_products.csv
+coverage_summary: results/high_resolution_coverage/summary.json
+fits_summary: results/high_resolution_coverage/fit_summary.json
+report: reports/high_resolution_followup.md
+performed:
+  - Twelve products inspected for nine existing source records
+  - Header coordinate and grating checks; no automatic neighbour association
+  - Twenty-four requested line windows; fourteen meet pixel-coverage criteria
+  - Seven Halpha products from six sources, forty-two narrow/added-broad comparisons
+  - Three reference-resolution scale assumptions and signed residual inspection
+  - Primary-literature identity check for recovered known GN-68797
+interpretation: Four of six Halpha sources do not favour the added Gaussian; two known sources improve but remain poorly described
+not_performed:
+  - New unique-source survey or population false-discovery calibration
+  - Independent high-resolution reductions or detector-level extraction
+  - Multi-line radiative-transfer model or physical-class assignment
+  - Complete literature novelty audit of all priorities

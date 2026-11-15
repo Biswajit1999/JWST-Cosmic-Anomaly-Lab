@@ -4,6 +4,32 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Wider high-resolution follow-up: 15 November 2026
+
+**12 products for nine existing priorities** now have pixel-level coverage checks
+and observed spectral sheets. Seven Hα products from six sources received
+**42 conditional narrow/added-broad comparisons**. Four sources do not favour
+the added broad Gaussian. Two already known sources improve substantially, but
+their residuals still reject a satisfactory explanation by these simple models.
+
+- [Results, individual spectra and model comparisons](reports/high_resolution_followup.md)
+- [Full comparison table](results/high_resolution_coverage/halpha_comparisons.csv)
+- [Execution ledger](experiments/high_resolution_coverage.yaml)
+
+No new black-hole star is established; the total remains 4,731 analysed records.
+
+## Independent-line control: 15 November 2026
+
+The [OIII] doublet was checked in eleven extraction variants, independently of
+the Hα fits. Twelve of 22 line/window checks are measurable; ten have no usable
+G395M coverage. The observed widths constrain possible instrument blur but do
+not uniquely separate it from gas motion. G235M widths also differ between
+reductions, so the instrument-calibration ambiguity remains explicit.
+
+- [New line-control report and observed spectra](reports/line_anchor.md)
+- [Width measurements and conditional resolution bounds](results/line_anchor/width_constraints.csv)
+- [Archive inventory for all 23 existing priorities](results/line_anchor/priority_followup_inventory.csv)
+
 ## Balmer-line benchmark: 15 November 2026
 
 The known source JADES-GS-159717 now has explicit emission/absorption model
