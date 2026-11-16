@@ -7,10 +7,12 @@ from astropy.io import fits
 from .spectroscopy import Spectrum, pixel_edges
 
 
-def read_dr4_spectrum(path, aperture=5, nods=3):
+def read_dr4_spectrum(path, aperture=5, nods=3, wavelength_range=(0.7, 5.2)):
     """Read the documented DR4 boxcar product; no undocumented error rescaling."""
     if aperture not in (3, 5) or nods not in (2, 3):
         raise ValueError("DR4 supports 3/5-pixel, 2/3-nod variants")
+    if not (0 < wavelength_range[0] < wavelength_range[1]):
+        raise ValueError("Increasing positive wavelength limits required")
     with fits.open(path, checksum=True) as hdus:
         hdus.verify("exception")
         table = hdus[f"EXTRACT{aperture}PIX1D"]
@@ -32,7 +34,7 @@ def read_dr4_spectrum(path, aperture=5, nods=3):
             u.uJy, equivalencies=u.spectral_density(wave)
         )
         good = np.isfinite(flux.value + error.value) & (error.value > 0)
-        good &= (wave.value >= 0.7) & (wave.value <= 5.2)
+        good &= (wave.value >= wavelength_range[0]) & (wave.value <= wavelength_range[1])
         meta = {
             key: hdus[0].header.get(key)
             for key in ["RA", "DEC", "TARGET", "PROPOSID", "MJD-BEG", "MJD-END", "HLSPVER", "DOI"]
@@ -40,6 +42,7 @@ def read_dr4_spectrum(path, aperture=5, nods=3):
         meta.update(
             aperture_pixels=aperture,
             nods=nods,
+            analysis_wavelength_range_um=list(wavelength_range),
             quality_mask="Finite flux/error and positive error; no DQ column supplied",
         )
     if good.sum() < 10:

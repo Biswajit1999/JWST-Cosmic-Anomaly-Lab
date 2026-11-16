@@ -1,5 +1,12 @@
 # Have we tested the black-hole-star interpretation?
 
+**Catalogue expansion, 16 November 2026:** the [JADES Balmer census](jades_balmer_census.md)
+audits 5,190 DR4 records in two apertures and adds twelve follow-up spectrum
+sheets plus four actual 2D spectral-image sheets. Three targets retain measurable
+unusual core ratios across eight correlated variants, but none has a defensible
+black-hole-star classification. Calibration sensitivity, nod dependence and an
+association discrepancy remain explicit; record counts overlap earlier searches.
+
 **Wider follow-up, 15 November 2026:** [high-resolution inspection](high_resolution_followup.md)
 now covers nine existing priorities. Four of six Hα sources do not favour an
 added broad Gaussian; two known sources favour extra structure but remain poorly

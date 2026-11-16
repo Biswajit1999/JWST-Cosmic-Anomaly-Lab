@@ -1,0 +1,81 @@
+{
+  "executed_utc": "2026-11-16T01:26:19.026536+00:00",
+  "provenance_checks": [
+    {
+      "path": "configs/jades_balmer_census.yaml",
+      "match": true
+    },
+    {
+      "path": "data/raw/jades_dr4.fits",
+      "match": true
+    },
+    {
+      "path": "data/raw/metadata/jades_dr4_catalogues.md",
+      "match": true
+    },
+    {
+      "path": "scripts/analyse_jades_balmer_census.py",
+      "match": true
+    },
+    {
+      "path": "src/cosmic_anomaly_lab/balmer_census.py",
+      "match": true
+    },
+    {
+      "path": "data/catalogues/expanded_selection.csv.gz",
+      "match": true
+    },
+    {
+      "path": "data/catalogues/open_selection.csv.gz",
+      "match": true
+    },
+    {
+      "path": "scripts/inspect_jades_balmer_queue.py",
+      "match": true
+    },
+    {
+      "path": "src/cosmic_anomaly_lab/balmer_census.py",
+      "match": true
+    },
+    {
+      "path": "src/cosmic_anomaly_lab/reduction_audit.py",
+      "match": true
+    },
+    {
+      "path": "results/jades_balmer_census/followup_queue.csv",
+      "match": true
+    },
+    {
+      "path": "results/jades_balmer_census/aperture_measurements.csv.gz",
+      "match": true
+    },
+    {
+      "path": "scripts/image_jades_balmer_queue.py",
+      "match": true
+    },
+    {
+      "path": "results/jades_balmer_census/signed_core_measurements.csv",
+      "match": true
+    },
+    {
+      "path": "results/jades_balmer_census/followup_queue.csv",
+      "match": true
+    },
+    {
+      "path": "results/jades_balmer_census/spectral_products.json",
+      "match": true
+    },
+    {
+      "path": "results/jades_balmer_census/aperture_measurements.csv.gz",
+      "match": true
+    }
+  ],
+  "new_manifest_entries_verified": 31,
+  "raw_bytes": 3560079281,
+  "budget_bytes": 4294967296,
+  "figure_sets": 19,
+  "broken_local_links": [],
+  "local_pytest_passed": 57,
+  "ruff": "passed",
+  "previous_raw_cache_scope": "Unchanged products retain prior 15 November full-cache verification; new entries verified here"
+}

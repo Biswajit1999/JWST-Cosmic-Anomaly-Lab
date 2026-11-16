@@ -1,0 +1,17 @@
+research_snapshot: '2026-11-16'
+catalogue: data/raw/jades_dr4.fits
+apertures: [3, 5]
+redshift_flags: [A, B, C]
+minimum_flux_over_error: 5.0
+minimum_archive_SNR: 5.0
+reference_ratios:
+  ha: 2.86
+  hg: 0.468
+fractional_error_sensitivity: [0.0, 0.05, 0.10, 0.20]
+statistical_correlation_sensitivity: [-0.5, 0.0, 0.5]
+ranking_fractional_error: 0.10
+ranking_statistical_correlation: 0.0
+top_per_direction: 6
+positional_neighbour_radius_arcsec: 0.2
+raw_storage_budget_MiB: 4096
+selection_scope: Catalogue diagnostic follow-up, not a discovery or a calibrated hypothesis test

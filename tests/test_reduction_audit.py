@@ -11,7 +11,7 @@ from cosmic_anomaly_lab.reduction_audit import (
 
 
 def test_dr4_units_variants_and_missing_values(tmp_path):
-    wave = np.linspace(1, 2, 20)
+    wave = np.linspace(1, 5.5, 20)
     flux = (np.full(20, -2.0) * u.uJy).to_value(
         u.erg / u.s / u.cm**2 / u.AA, equivalencies=u.spectral_density(wave * u.um)
     )
@@ -33,8 +33,14 @@ def test_dr4_units_variants_and_missing_values(tmp_path):
     assert not spec.good[5]
     assert spec.flux.value[0] == pytest.approx(-2)
     assert read_dr4_spectrum(path, nods=2).flux.value[0] == pytest.approx(-4)
+    assert not spec.good[-1]
+    extended = read_dr4_spectrum(path, wavelength_range=(.6, 5.5))
+    assert extended.good[-1]
+    assert extended.metadata["analysis_wavelength_range_um"] == [.6, 5.5]
     with pytest.raises(ValueError):
         read_dr4_spectrum(path, aperture=4)
+    with pytest.raises(ValueError):
+        read_dr4_spectrum(path, wavelength_range=(5.5, .6))
 
 
 def test_spatial_collapse_propagates_weights_and_missing_coverage():

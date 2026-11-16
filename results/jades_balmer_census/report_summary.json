@@ -1,0 +1,11 @@
+{
+  "executed_utc": "2026-11-16T01:26:51.856651+00:00",
+  "all_eight_measurable": [
+    "goods-n-mediumjwst_66336",
+    "goods-s-mediumjwst_10009106",
+    "goods-n-mediumjwst_89464"
+  ],
+  "spectral_image_products": 6,
+  "spectral_image_sheets": 4,
+  "script_sha256": "37bd82e754ce5b8def140d0f1a6afd4fde2556cd718102541fbd057d728eaca9"
+}

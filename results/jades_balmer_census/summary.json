@@ -1,0 +1,33 @@
+{
+  "executed_utc": "2026-11-16T01:20:01.982051+00:00",
+  "research_snapshot": "2026-11-16",
+  "catalogue_records": 5190,
+  "aperture_records": 10380,
+  "redshift_flag_counts": {
+    "A": 2651,
+    "E": 1400,
+    "D": 493,
+    "C": 439,
+    "B": 207
+  },
+  "both_apertures_eligible": {
+    "ha": 1216,
+    "hg": 448
+  },
+  "invalid_filter_labels_with_valid_flux": 0,
+  "positional_neighbours_previous_records": 1997,
+  "no_neighbour_previous_records": 3193,
+  "queue_entries": 12,
+  "queue_distinct_dr4_ids": 12,
+  "no_unique_object_union_claim": true,
+  "physical_classification": "NOT_ESTABLISHED",
+  "inputs_sha256": {
+    "configs/jades_balmer_census.yaml": "41d32a7e6cd596b2fc2198808e2154c60d71a0445f960529a8e7582da53394f5",
+    "data/raw/jades_dr4.fits": "4b4e7fd4306208ee801406c7ed73fdab895a2e67184af7f639a91e5f9c8ab7d4",
+    "data/raw/metadata/jades_dr4_catalogues.md": "b425bb745bf92f6ae19cafb4df28ca5730c56ac5965b15d9ac0b6a63d8c11b28",
+    "scripts/analyse_jades_balmer_census.py": "32fd746c52da85fd3d3e87e55fa9cb97019328115e50e31f1393d26c89da98fa",
+    "src/cosmic_anomaly_lab/balmer_census.py": "ee7ad6ae5ff625ded3af2c9a3180bf0e3afe12a2c14d99d8aef62d356b1aaebd",
+    "data/catalogues/expanded_selection.csv.gz": "1ea1d8eebcb50f3fcab5db679d7f2d9d4173a6924a58231966d9e4cd1bf2ea9d",
+    "data/catalogues/open_selection.csv.gz": "3a686d264ac07e20e8b41a1a09b65eebcc1d24155fe4663de920bb52d3ad8ecf"
+  }
+}

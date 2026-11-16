@@ -1,0 +1,69 @@
+{
+  "executed_utc": "2026-11-16T01:24:59.347338+00:00",
+  "products": [
+    {
+      "dr4_id": "goods-n-mediumjwst_66336",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00066336_f290lp-g395m_v1.0_s2d.fits",
+      "sha256": "29159ea42d0562d1c68b51ddb85f2a3ff68775bb09c9a2491d97e7dc21b2cadc",
+      "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f290lp-g395m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00066336_f290lp-g395m_v1.0_s2d.fits",
+      "header_separation_arcsec": 4.766379433079167e-11,
+      "selection": "both_cores_SN5_in_all_8_variants"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_10009106",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10009106_f070lp-g140m_v1.0_s2d.fits",
+      "sha256": "b541950187b92a13b7886164488d93f6bdd8ebdca47e341d85b77e83b47083d9",
+      "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f070lp-g140m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10009106_f070lp-g140m_v1.0_s2d.fits",
+      "header_separation_arcsec": 0.0,
+      "selection": "both_cores_SN5_in_all_8_variants"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_10009106",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10009106_f170lp-g235m_v1.0_s2d.fits",
+      "sha256": "28f3040ed7aa8034ceed0705f1e725bdeb43537f5ba7c834831ef77aa9cdcc05",
+      "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10009106_f170lp-g235m_v1.0_s2d.fits",
+      "header_separation_arcsec": 0.0,
+      "selection": "both_cores_SN5_in_all_8_variants"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_89464",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00089464_f290lp-g395m_v1.0_s2d.fits",
+      "sha256": "ec5e2f1205ba573359b7227eeee85f3b756e83eb97f2d49dee2eb4e77f007ad3",
+      "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f290lp-g395m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00089464_f290lp-g395m_v1.0_s2d.fits",
+      "header_separation_arcsec": 4.76077724548118e-11,
+      "selection": "both_cores_SN5_in_all_8_variants"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_25734",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00025734_f070lp-g140m_v1.0_s2d.fits",
+      "sha256": "da0ebac80b4d9e8f7d8963d6394536d3804b0a77e02b8343faacf7a4b5abbcbf",
+      "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f070lp-g140m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00025734_f070lp-g140m_v1.0_s2d.fits",
+      "header_separation_arcsec": 4.762298770273091e-11,
+      "selection": "nod_sensitivity_control"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_25734",
+      "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00025734_f170lp-g235m_v1.0_s2d.fits",
+      "sha256": "102ec331459a4c3402e75b888aa61ba780a2de6011c715587a90669fe8442446",
+      "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00025734_f170lp-g235m_v1.0_s2d.fits",
+      "header_separation_arcsec": 4.762298770273091e-11,
+      "selection": "nod_sensitivity_control"
+    }
+  ],
+  "selection_is_exploratory": true,
+  "targets": [
+    "goods-n-mediumjwst_66336",
+    "goods-s-mediumjwst_10009106",
+    "goods-n-mediumjwst_89464",
+    "goods-n-mediumhst_25734"
+  ],
+  "input_sha256": {
+    "scripts/image_jades_balmer_queue.py": "9a3c0b83488292c2910fcd8ea5ac33efa65342556d2f0ebef62a3ed422f935c6",
+    "results/jades_balmer_census/signed_core_measurements.csv": "b782f5faccd9b49fbe93a9fad06cd2851326c2ce3eda004bcc51c14f8ede4dad",
+    "results/jades_balmer_census/followup_queue.csv": "f1be9b940ff669ba84d719c9bafe27566ab39613f7946a130262e69a1b8f3889",
+    "results/jades_balmer_census/spectral_products.json": "49c7d085870f02fa13ec7d3c08b491e85d90cfda73e8d918ec521c34def89e82",
+    "results/jades_balmer_census/aperture_measurements.csv.gz": "968ec7f3f12c03b509920bfcd0c7c47336d1b61027ddb4000cb52af3067fe3b0"
+  },
+  "mask": "Finite positive 2D error and valid released 5px 1D wavelength bin for the same nod variant; signed flux retained",
+  "interpretation": "Visual contamination/nod inspection; not deblending, detector reprocessing or independent confirmation"
+}

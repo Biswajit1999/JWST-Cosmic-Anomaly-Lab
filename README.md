@@ -4,6 +4,28 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Full JADES Balmer census: 16 November 2026
+
+**5,190 DR4 target records** were audited in two extraction apertures. The
+catalogue supports 1,216 dual-aperture Hα/Hβ comparisons and 448 Hγ/Hβ comparisons.
+A twelve-record queue received 1D spectral checks: fifteen products passed
+association checks, while one remains held for a programme-ID discrepancy.
+
+There are 247 usable signed core measurements across 288 attempts. Three targets
+retain measurable core pairs across all eight extraction/window variants, but
+calibration, nod dependence, blending and stellar absorption remain competing
+explanations. **No black-hole-star identification is established.**
+
+- [New census, measurements and observed-image gallery](reports/jades_balmer_census.md)
+- [Twelve-record follow-up queue](results/jades_balmer_census/followup_queue.csv)
+- [Signed core measurements](results/jades_balmer_census/signed_core_measurements.csv)
+- [Execution ledger](experiments/jades_balmer_census.yaml)
+
+![Actual telescope spectral images](figures/jades_balmer_images/goods-n-mediumjwst_66336.png)
+
+These 5,190 records overlap the earlier 4,731-record search; the counts are not
+added together as unique objects. This is one catalogue census, not all archives.
+
 ## Wider high-resolution follow-up: 15 November 2026
 
 **12 products for nine existing priorities** now have pixel-level coverage checks

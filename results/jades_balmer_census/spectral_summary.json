@@ -1,0 +1,24 @@
+{
+  "executed_utc": "2026-11-16T01:20:31.400303+00:00",
+  "research_snapshot": "2026-11-16",
+  "target_records": 12,
+  "listed_products": 16,
+  "downloaded_products": 15,
+  "association_review_products": 1,
+  "attempted_core_measurements": 288,
+  "measured_cores": 247,
+  "analysis_wavelength_range_um": [
+    0.6,
+    5.5
+  ],
+  "flux_unit": "1e-20 erg/s/cm2",
+  "aperture_and_nod_variants_independent": false,
+  "physical_classification": "NOT_ESTABLISHED",
+  "input_sha256": {
+    "scripts/inspect_jades_balmer_queue.py": "77c9a2e2d26fdc155e94b16c25f957fbf0cbaae67864bcbfb6e7e9fdbf1674fd",
+    "src/cosmic_anomaly_lab/balmer_census.py": "ee7ad6ae5ff625ded3af2c9a3180bf0e3afe12a2c14d99d8aef62d356b1aaebd",
+    "src/cosmic_anomaly_lab/reduction_audit.py": "4e07b479d51ca0eea6b00c908e1d11326f2646ee168ea98e80c9fbfb3043011c",
+    "results/jades_balmer_census/followup_queue.csv": "f1be9b940ff669ba84d719c9bafe27566ab39613f7946a130262e69a1b8f3889",
+    "results/jades_balmer_census/aperture_measurements.csv.gz": "968ec7f3f12c03b509920bfcd0c7c47336d1b61027ddb4000cb52af3067fe3b0"
+  }
+}

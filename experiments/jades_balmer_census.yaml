@@ -1,0 +1,57 @@
+experiment: jades_dr4_balmer_census
+research_snapshot: '2026-11-16'
+author: Biswajit Jana
+status: executed
+config: configs/jades_balmer_census.yaml
+catalogue_records: 5190
+aperture_records: 10380
+both_apertures_eligible:
+  ha_over_hb: 1216
+  hg_over_hb: 448
+followup_target_records: 12
+retrieved_1d_products: 16
+accepted_1d_products: 15
+association_review_products: 1
+attempted_signed_core_measurements: 288
+usable_signed_core_measurements: 247
+all_eight_variants_measurable_targets: 3
+spectral_image_products: 6
+spectral_image_sheets: 4
+figure_sets_png_and_pdf: 19
+prior_sample_positional_neighbours_arcsec: 0.2
+prior_sample_neighbour_records: 1997
+no_prior_sample_neighbour_records: 3193
+counts_are_unique_object_union: false
+commands:
+  - python scripts/analyse_jades_balmer_census.py
+  - python scripts/inspect_jades_balmer_queue.py
+  - python scripts/image_jades_balmer_queue.py
+  - python scripts/build_jades_balmer_report.py
+  - pytest -q
+  - ruff check src tests scripts
+results:
+  - results/jades_balmer_census/summary.json
+  - results/jades_balmer_census/spectral_summary.json
+  - results/jades_balmer_census/spectral_images.json
+  - results/jades_balmer_census/report_summary.json
+report: reports/jades_balmer_census.md
+limitations:
+  - Full pinned DR4 catalogue audited; not all public archives.
+  - Positive single-Gaussian catalogue fits cannot identify broad-line physics.
+  - Reference contrasts are diagnostic scores, not calibrated p-values.
+  - Apertures and nod combinations share photons; agreement is not independent confirmation.
+  - Core integrals are signed but are not deblended total emission-line fluxes.
+  - Extended-wavelength calibration and unreported covariance remain uncertain.
+  - GS-30099449 held for catalogue PID 1180 versus FITS PID 1286.
+  - 2D sheets require usable 1D coverage and positive finite 2D errors.
+  - Image subset selected after the core check and is explicitly exploratory.
+  - Three core priorities have not passed complete physical-model or novelty tests.
+physical_classification: NOT_ESTABLISHED
+validation:
+  local_tests_passed: 57
+  ruff: passed
+  new_manifest_entries_sha256_verified: 31
+  raw_bytes: 3560079281
+  raw_budget_bytes: 4294967296
+  broken_local_links: 0
+  record: results/jades_balmer_census/verification.json
