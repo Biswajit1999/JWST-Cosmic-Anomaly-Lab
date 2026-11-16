@@ -1,0 +1,23 @@
+{
+  "executed_utc": "2026-11-16T13:19:51.507646+00:00",
+  "targets": 3,
+  "intermediate_extractions": 21,
+  "spectrum_variants": 54,
+  "core_attempts": 324,
+  "usable_cores": 245,
+  "input_sha256": {
+    "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00066336_f290lp-g395m_v1.0_x1d.fits": "c33ec4a155690db55e2620c337f33211268d828eedd334f1909aa13d944491bf",
+    "data/raw/followup/jades-gdn10-v4_g395m-f290lp_1181_66336.spec.fits": "58c63718b1979a61cf806e5ac4ac85b0f1da8339972ee587c0179bfdb40c0cf4",
+    "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10009106_f070lp-g140m_v1.0_x1d.fits": "0e0afc361ee9ee3d3e669b464e64c416d587ce87f5ddef93c7e8831215acb1c6",
+    "data/raw/followup/jades-gds07-v4_g140m-f070lp_1286_10009106.spec.fits": "5568ff750d1930aa1c6a311268452b00de1aa5be5dfe2819c3fec5c42631c0ab",
+    "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00089464_f290lp-g395m_v1.0_x1d.fits": "941582e35087f44ed70d79817a088e515e95ee6a18658d02c4d4681c5ead88c3",
+    "data/raw/followup/jades-gdn11-v4_g395m-f290lp_1181_89464.spec.fits": "9ba4dad4fdea380c8c1c3eca670230797e6208aa8bd31e1580128c964f7f0d0e"
+  },
+  "script_sha256": "337f6c2e448a26d37887ccde2f3922c1db3d4438651d1f1a49016bb22c492c1c",
+  "module_sha256": "7d3652f2d0405ce080dbd48416c4056555285e41d9e5fbbf58ca69e9e992c3b8",
+  "documentation_sha256": "cc8d8f8173ceb8dfa1c0c0c54b8fbed448523cebf48753c5d9cfa476a5b360f2",
+  "common_coverage_selection": "Both lines satisfy coverage/pixel/sideband rules at 600 km/s; no S/N or ratio cut",
+  "independent_detection_trials": false,
+  "instrumental_cause_identified": false,
+  "physical_classification": "NOT_ESTABLISHED"
+}

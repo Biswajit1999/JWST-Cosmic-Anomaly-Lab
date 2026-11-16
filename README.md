@@ -4,6 +4,21 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Exposure-level research update: 16 November 2026
+
+After preprint v1.0, the [new exposure audit](reports/exposure_audit.md) checks
+21 individual-exposure/integration extractions for three Balmer priorities.
+GS-10009106's combined ratio depends strongly on partial-coverage inputs; its
+one extraction with usable coverage of both lines agrees closely with DJA.
+GN-89464's elevated point estimates survive each single-extraction omission,
+while GN-66336's inter-reduction discrepancy remains unresolved. These tests
+do not identify a new black-hole star or establish the cause of the discrepancies.
+
+- [Execution ledger](experiments/exposure_audit.yaml)
+- [All signed core measurements](results/exposure_audit/signed_cores.csv)
+
+![Exposure and coverage sensitivity](figures/exposure_audit/combination_sensitivity.png)
+
 ## Research paper and new validation: 16 November 2026
 
 The [research preprint PDF](output/pdf/jwst_cosmic_anomaly_lab.pdf) consolidates

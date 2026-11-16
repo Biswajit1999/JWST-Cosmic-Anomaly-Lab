@@ -1,0 +1,10 @@
+{
+  "executed_utc": "2026-11-16T13:20:22.769515+00:00",
+  "status": "PASS",
+  "verified_input_products": 6,
+  "verified_intermediate_extractions": 21,
+  "local_tests_passed": 60,
+  "ruff": "PASS",
+  "figure_review": "Four figures inspected; missing pixels retained as gaps",
+  "physical_classification": "NOT_ESTABLISHED"
+}

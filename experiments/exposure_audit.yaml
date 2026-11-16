@@ -1,0 +1,33 @@
+experiment: balmer-intermediate-exposure-audit-2026-11-16
+status: executed
+author: Biswajit Jana
+prior_snapshot: bb77f136262e8d4f69315512d4811b2ccc54525d
+targets:
+  - goods-n-mediumjwst_66336
+  - goods-s-mediumjwst_10009106
+  - goods-n-mediumjwst_89464
+commands:
+  - python scripts/analyse_balmer_exposures.py
+  - python scripts/build_exposure_audit_report.py
+selection:
+  intermediates: Every FLUX column and corresponding ERR column from the fixed DR4 products
+  wavelength_range_um: [0.6, 5.5]
+  common_coverage: Both relevant lines pass existing 600 km/s core coverage rules; no S/N or ratio cut
+  ratio_reporting: Both signed cores have S/N >= 5
+  half_widths_kms: [400, 600]
+  stacking: Per-pixel inverse-variance mean without clipping
+  redshift: Fixed previous DR4 catalogue redshift
+limitations:
+  - Intermediate products share nodded backgrounds and reductions.
+  - Leave-one-out variants are correlated, not independent detections.
+  - Diagnostic stack does not reconstruct the survey combination/rejection method.
+  - No detector-level recalibration or physical classification.
+  - A common-coverage result can depend on only one exposure.
+  - Path correction columns were inspected but not applied or undone.
+outputs:
+  - results/exposure_audit/summary.json
+  - results/exposure_audit/signed_cores.csv
+  - results/exposure_audit/core_ratios.csv
+  - results/exposure_audit/common_coverage_selection.csv
+  - figures/exposure_audit/
+  - reports/exposure_audit.md

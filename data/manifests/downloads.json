@@ -73108,5 +73108,20 @@
     "version": "0.9.5.dev2+g80b81b4",
     "kind": "observed_spectrum",
     "previous_sha256": null
+  },
+  {
+    "url": "https://jades.herts.ac.uk/DR4/Readme_DR4_spectra.md",
+    "final_url": "https://jades.herts.ac.uk/DR4/Readme_DR4_spectra.md",
+    "path": "data/raw/metadata/jades_dr4_spectra.md",
+    "bytes": 5558,
+    "sha256": "cc8d8f8173ceb8dfa1c0c0c54b8fbed448523cebf48753c5d9cfa476a5b360f2",
+    "published_checksum": null,
+    "accessed_utc": "2026-11-16T09:36:12.992035+00:00",
+    "etag": "\"15b6-64006b088ca00\"",
+    "last_modified": "Tue, 30 Sep 2025 15:48:56 GMT",
+    "survey": "JADES",
+    "version": "DR4",
+    "kind": "spectrum_documentation",
+    "previous_sha256": null
   }
 ]
