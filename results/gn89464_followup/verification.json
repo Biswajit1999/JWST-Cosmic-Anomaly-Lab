@@ -1,0 +1,29 @@
+{
+  "executed_utc": "2026-11-16T13:50:31.094561+00:00",
+  "checks": "PASS",
+  "ratios_verified": 150,
+  "retained_previous_measurements": 239,
+  "raw_storage_bytes": 3901254235,
+  "raw_storage_budget_bytes": 4294967296,
+  "artifact_sha256": {
+    "results/gn89464_followup/bilateral_cores.csv": "f8f354b893b402c03d61b1eba461a43828b894e4379476d5efc6d6097c780772",
+    "results/gn89464_followup/bilateral_ratios.csv": "0af3e46459eca1747247cd0600b320508405a9928e24be25dfaf103ed8df8350",
+    "results/gn89464_followup/identity_checks.csv": "cba182d7958ca101f03cbd38943bbee5d351de5963a32a67e771dc90c8b73c85",
+    "results/gn89464_followup/legacy_cores.csv": "e3d46b65c66f223e959c914a8faeb2955e643d8269ad53a66a99750ce8503b06",
+    "results/gn89464_followup/previous_queue_coverage_audit.csv": "e52dfb9f8d14735d1ee2a33ad4612fa734b55300dd3d0b9c8b8bbb3b970e334d",
+    "figures/gn89464_followup/continuum_coverage.pdf": "06c67b0dfe64c477d85a06338a0f1b1f353e9c32768ed9b00c649375bfc295ec",
+    "figures/gn89464_followup/continuum_coverage.png": "25bff50d929c1cd24101d051f85f0e755daacee7a681722d6a7c94a6974d0872",
+    "figures/gn89464_followup/observed_g395h.pdf": "8ee1bb407eef92ca86e532bc479b28df550b7857a6c36744715f59de20f668d5",
+    "figures/gn89464_followup/observed_g395h.png": "0f05fb8ad65e6871d9de4702d3e25496b77aafc04249720bf00213bd2e61bc92",
+    "figures/gn89464_followup/ratio_sensitivity.pdf": "d9b40c2a8fff30d4969040d023d3295280a5e3d97dd9b9e7032062cdd6e1452a",
+    "figures/gn89464_followup/ratio_sensitivity.png": "b1a69bd941e1ada14818fcc1ae87ceacee372b0be69649d15a4c7dfe02b44de2",
+    "reports/gn89464_continuum.md": "fa9b17e0f1b2da68204b38300399d9454e4db919d41fd72ba9c2ef16b72938b0"
+  },
+  "support_module_sha256": {
+    "spectroscopy.py": "b2f225ffb67a9a536aeb9237049de1fec2231096d2e7d506ff13b13cc64e9db6",
+    "reduction_audit.py": "4e07b479d51ca0eea6b00c908e1d11326f2646ee168ea98e80c9fbfb3043011c",
+    "balmer_census.py": "ee7ad6ae5ff625ded3af2c9a3180bf0e3afe12a2c14d99d8aef62d356b1aaebd",
+    "provenance.py": "29689ef6c579253bef3b99f8ecfc67fe0cd9633f64fa54ba839c667444658edb"
+  },
+  "verifier_sha256": "db7dd11138d758466769917b13778472ed52f6b85207b9c65f29ddb3baeac1c2"
+}

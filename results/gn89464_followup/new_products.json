@@ -1,0 +1,29 @@
+{
+  "executed_utc": "2026-11-16T13:38:32.066170+00:00",
+  "products": [
+    {
+      "file": "jades-gdn11-v4_g235m-f170lp_1181_89464.spec.fits",
+      "grating": "G235M",
+      "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn11-v4/jades-gdn11-v4_g235m-f170lp_1181_89464.spec.fits",
+      "path": "data/raw/followup/jades-gdn11-v4_g235m-f170lp_1181_89464.spec.fits",
+      "sha256": "8d4bf0f0630bc3e670d1a230347aa874405fcbfdd42dc04c3d150ecb4c08f597",
+      "z": 6.725348933333334
+    },
+    {
+      "file": "jades-gdn11-v4_g395h-f290lp_1181_89464.spec.fits",
+      "grating": "G395H",
+      "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn11-v4/jades-gdn11-v4_g395h-f290lp_1181_89464.spec.fits",
+      "path": "data/raw/followup/jades-gdn11-v4_g395h-f290lp_1181_89464.spec.fits",
+      "sha256": "a837d0e2e6c7c63ae7d092f31a375e8f689a8be4f548c85977874d341f9a4847",
+      "z": 6.725348933333334
+    },
+    {
+      "file": "jades-gdn11-v4_prism-clear_1181_89464.spec.fits",
+      "grating": "PRISM",
+      "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn11-v4/jades-gdn11-v4_prism-clear_1181_89464.spec.fits",
+      "path": "data/raw/spectra/jades-gdn11-v4_prism-clear_1181_89464.spec.fits",
+      "sha256": "f57940532e67f370ae11a5356162a7a66506f762f0cf23befe2603ff756266e1",
+      "z": 6.725348933333334
+    }
+  ]
+}

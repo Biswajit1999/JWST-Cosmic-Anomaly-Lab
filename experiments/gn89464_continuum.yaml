@@ -1,0 +1,37 @@
+experiment: gn89464-grating-continuum-followup-2026-11-16
+status: executed
+author: Biswajit Jana
+prior_snapshot: 20957ea
+commands:
+  - python scripts/analyse_gn89464_continuum.py
+  - python scripts/audit_previous_continuum_coverage.py
+  - python scripts/build_gn89464_report.py
+  - python scripts/verify_gn89464_results.py
+selection:
+  target: goods-n-mediumjwst_89464
+  reason: Elevated medium-resolution Hgamma/Hbeta persists in the prior exposure audit
+  grating_products: [DJA_G235M, DJA_G395H, DJA_PRISM, DJA_G395M, DR4_G395M]
+  redshift: Fixed previous DR4 catalogue redshift, not the new product catalogue z
+  half_widths_kms: [400, 600]
+  center_offsets_kms: [-200, -100, 0, 100, 200]
+  sidebands: legacy, symmetric_far, near as defined in continuum_audit.py
+  ratio_reporting: Both signed cores have S/N >= 5
+  continuum_quality: At least three valid pixels on each side of the line
+  retrospective_scope: All 288 previous twelve-record queue core attempts
+  exploratory: Grid defined after baseline coverage inspection, not blind confirmation
+findings:
+  - G395H Hbeta lacks the legacy blue continuum window and fails the two-sided rule.
+  - Eight previous GN-25734 Halpha cores lack red continuum coverage and are excluded.
+  - All 239 retained previous cores match their original flux and error numerically.
+  - GN-89464 medium-resolution point estimates stay elevated across eligible variants.
+  - No new grating variant meets the dual-line S/N threshold; no physical class established.
+limitations:
+  - Correlated variants and reductions are not independent confirmations.
+  - No pixel covariance or source-specific instrumental response is supplied by this test.
+  - Near continuum windows can include line wings or other absorption/emission.
+  - No new object, abundance, black-hole mass, or absorption detection is claimed.
+  - Previous preprint and data tables remain dated snapshots with their original rules.
+outputs:
+  - results/gn89464_followup/
+  - figures/gn89464_followup/
+  - reports/gn89464_continuum.md

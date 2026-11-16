@@ -4,6 +4,22 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Additional gratings and a quality correction: 16 November 2026
+
+The [GN-89464 follow-up](reports/gn89464_continuum.md) adds G235M/G395H spectra
+and audits continuum coverage. Its elevated medium-resolution Hγ/Hβ ratios
+survive a fixed 30-variant grid, but the additional gratings lack sufficient
+dual-line signal to confirm them. The G395H Hβ measurement lacks its blue
+continuum window. A two-sided coverage requirement also excludes eight earlier
+GN-25734 Hα cores; 239 other previous cores remain usable with unchanged values.
+This supersedes treating GN-25734's earlier two-nod ratios as accepted under
+the stricter method. No physical classification is established.
+
+- [Measurements and actual telescope images](reports/gn89464_continuum.md)
+- [Execution ledger](experiments/gn89464_continuum.yaml)
+
+![Actual high-resolution spectral images](figures/gn89464_followup/observed_g395h.png)
+
 ## Exposure-level research update: 16 November 2026
 
 After preprint v1.0, the [new exposure audit](reports/exposure_audit.md) checks

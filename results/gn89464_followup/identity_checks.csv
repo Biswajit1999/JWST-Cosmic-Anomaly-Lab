@@ -1,0 +1,6 @@
+product,separation_arcsec,pid,source_id,status,path
+DJA_G235M,1.282522389022858e-05,1181,89464,ACCEPTED,data/raw/followup/jades-gdn11-v4_g235m-f170lp_1181_89464.spec.fits
+DJA_G395H,1.282522389022858e-05,1181,89464,ACCEPTED,data/raw/followup/jades-gdn11-v4_g395h-f290lp_1181_89464.spec.fits
+DJA_PRISM,1.282522389022858e-05,1181,89464,ACCEPTED,data/raw/spectra/jades-gdn11-v4_prism-clear_1181_89464.spec.fits
+DJA_G395M,1.282522389022858e-05,1181,89464,ACCEPTED,data/raw/followup/jades-gdn11-v4_g395m-f290lp_1181_89464.spec.fits
+DR4_G395M,4.76077724548118e-11,1181,89464,ACCEPTED,data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00089464_f290lp-g395m_v1.0_x1d.fits

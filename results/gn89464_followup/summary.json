@@ -1,0 +1,23 @@
+{
+  "executed_utc": "2026-11-16T13:49:25.760635+00:00",
+  "target": "goods-n-mediumjwst_89464",
+  "fixed_dr4_z": 6.724704386327296,
+  "catalogue_product_z_is_not_fitting_z": true,
+  "products": 5,
+  "core_attempts": 300,
+  "usable_cores": 220,
+  "ratio_attempts": 150,
+  "eligible_ratios": 58,
+  "input_sha256": {
+    "data/raw/followup/jades-gdn11-v4_g235m-f170lp_1181_89464.spec.fits": "8d4bf0f0630bc3e670d1a230347aa874405fcbfdd42dc04c3d150ecb4c08f597",
+    "data/raw/followup/jades-gdn11-v4_g395h-f290lp_1181_89464.spec.fits": "a837d0e2e6c7c63ae7d092f31a375e8f689a8be4f548c85977874d341f9a4847",
+    "data/raw/spectra/jades-gdn11-v4_prism-clear_1181_89464.spec.fits": "f57940532e67f370ae11a5356162a7a66506f762f0cf23befe2603ff756266e1",
+    "data/raw/followup/jades-gdn11-v4_g395m-f290lp_1181_89464.spec.fits": "9ba4dad4fdea380c8c1c3eca670230797e6208aa8bd31e1580128c964f7f0d0e",
+    "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00089464_f290lp-g395m_v1.0_x1d.fits": "941582e35087f44ed70d79817a088e515e95ee6a18658d02c4d4681c5ead88c3"
+  },
+  "script_sha256": "0a895db8ec21deea102cc0e055da8f649bce0f761bae28cf18838ab8db276c28",
+  "module_sha256": "a0e32232042ef15c1415dc8a72b29c002d49aa18fae36bda487b7b237a9ccc36",
+  "selection": "Exploratory grid defined after baseline coverage inspection, not blind confirmation",
+  "physical_classification": "NOT_ESTABLISHED",
+  "independent_trials": false
+}

@@ -73123,5 +73123,35 @@
     "version": "DR4",
     "kind": "spectrum_documentation",
     "previous_sha256": null
+  },
+  {
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn11-v4/jades-gdn11-v4_g235m-f170lp_1181_89464.spec.fits",
+    "final_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn11-v4/jades-gdn11-v4_g235m-f170lp_1181_89464.spec.fits",
+    "path": "data/raw/followup/jades-gdn11-v4_g235m-f170lp_1181_89464.spec.fits",
+    "bytes": 4115520,
+    "sha256": "8d4bf0f0630bc3e670d1a230347aa874405fcbfdd42dc04c3d150ecb4c08f597",
+    "published_checksum": null,
+    "accessed_utc": "2026-11-16T13:38:29.822799+00:00",
+    "etag": "\"4066515a60a6cfde54156e5bfbb44f4a\"",
+    "last_modified": "Tue, 17 Mar 2026 16:12:26 GMT",
+    "survey": "DJA-JADES",
+    "version": "0.9.5.dev2+g80b81b4",
+    "kind": "observed_spectrum",
+    "previous_sha256": null
+  },
+  {
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn11-v4/jades-gdn11-v4_g395h-f290lp_1181_89464.spec.fits",
+    "final_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn11-v4/jades-gdn11-v4_g395h-f290lp_1181_89464.spec.fits",
+    "path": "data/raw/followup/jades-gdn11-v4_g395h-f290lp_1181_89464.spec.fits",
+    "bytes": 4236480,
+    "sha256": "a837d0e2e6c7c63ae7d092f31a375e8f689a8be4f548c85977874d341f9a4847",
+    "published_checksum": null,
+    "accessed_utc": "2026-11-16T13:38:31.958019+00:00",
+    "etag": "\"21ee1d71a62e294d33d7d00ef7d85aec\"",
+    "last_modified": "Tue, 17 Mar 2026 16:12:27 GMT",
+    "survey": "DJA-JADES",
+    "version": "0.9.5.dev2+g80b81b4",
+    "kind": "observed_spectrum",
+    "previous_sha256": null
   }
 ]
