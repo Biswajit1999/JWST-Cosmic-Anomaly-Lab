@@ -1,0 +1,32 @@
+{
+  "reviewed_utc": "2026-11-16T08:18:07.845795+00:00",
+  "scope": "Targeted primary-source review prompted by MIT August 2026 headline; not exhaustive",
+  "references": [
+    {
+      "key": "mom_bh_star",
+      "title": "A gas-enshrouded and gas-reddened black hole at cosmic dawn",
+      "authors": "Naidu et al.",
+      "date": "2026-08-12",
+      "url": "https://doi.org/10.1038/s41586-026-10846-4",
+      "preprint": "https://arxiv.org/abs/2503.16596",
+      "status": "peer-reviewed Nature paper",
+      "review": "Abstract, methods/data-availability context; physical fit not reproduced here"
+    },
+    {
+      "key": "glimpse_dense_cocoon",
+      "title": "The Deepest GLIMPSE of a Dense Gas Cocoon Enshrouding a Little Red Dot",
+      "authors": "Kokorev et al.",
+      "url": "https://arxiv.org/abs/2511.07515",
+      "version": "v2",
+      "review": "Preprint abstract/full-text diagnostic context; earlier restricted profile analysis in repository"
+    },
+    {
+      "key": "quasistar_challenges",
+      "title": "The quasi-star model for Little Red Dots: potential and challenges",
+      "authors": "Gentile et al.",
+      "url": "https://arxiv.org/abs/2606.06575",
+      "version": "v2",
+      "review": "Abstract and model limitations; models not executed here"
+    }
+  ]
+}

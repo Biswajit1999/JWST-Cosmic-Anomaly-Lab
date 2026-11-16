@@ -1,0 +1,15 @@
+{
+  "executed_utc": "2026-11-16T08:19:15.061040+00:00",
+  "status": "PASS",
+  "raw_storage_bytes": 3892896677,
+  "raw_storage_budget_bytes": 4294967296,
+  "checks": [
+    "script and input fingerprints",
+    "six product fingerprints and positions",
+    "fixed-sample measurement counts",
+    "signed negative photometry preserved",
+    "ineligible ratios remain missing",
+    "no inferred X-ray upper limits",
+    "raw cache within budget"
+  ]
+}

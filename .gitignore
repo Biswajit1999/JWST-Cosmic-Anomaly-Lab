@@ -13,4 +13,10 @@ data/synthetic/
 *.part
 *.log
 results/test_results.xml
+.tools/
+tmp/
+*.aux
+*.out
+*.toc
+*.synctex.gz
 

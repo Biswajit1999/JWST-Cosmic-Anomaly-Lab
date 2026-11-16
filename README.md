@@ -4,6 +4,24 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Research paper and new validation: 16 November 2026
+
+The [research preprint PDF](output/pdf/jwst_cosmic_anomaly_lab.pdf) consolidates
+the executed project, with [editable LaTeX](paper/jwst_cosmic_anomaly_lab.tex),
+[build instructions](paper/README.md) and a [LinkedIn draft](paper/linkedin_draft.md).
+It is **not peer reviewed** and does not claim a new black-hole-star discovery.
+
+Six additional DJA grating products change the interpretation of the earlier
+Balmer queue: GN-66336 and GS-10009106's extreme DR4 ratios are not reproduced
+at the same values; GN-89464 retains elevated Hγ/Hβ cores. Hubble/Spitzer
+catalogues provide eight positional candidates for twelve targets. No Chandra
+main-catalogue neighbour lies within 2 arcsec; no X-ray upper limit is inferred.
+
+- [New measurements, telescope comparisons and limitations](reports/multiwavelength_validation.md)
+- [Execution ledger](experiments/multiwavelength_validation.yaml)
+
+![New cross-reduction check](figures/multiwavelength/reduction_ratio_comparison.png)
+
 ## Full JADES Balmer census: 16 November 2026
 
 **5,190 DR4 target records** were audited in two extraction apertures. The

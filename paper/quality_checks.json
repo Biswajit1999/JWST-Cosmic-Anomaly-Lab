@@ -1,0 +1,19 @@
+{
+  "executed_utc": "2026-11-16T08:19:29.610312+00:00",
+  "pdf_sha256": "b50a5a594840f4586ac007e26042714d89b1ad31853043530e3175e7953bc138",
+  "pages": 14,
+  "figure_count": 7,
+  "references": 18,
+  "latex_compilation": "PASS",
+  "source_bundle_standalone_compilation": "PASS (before caption-only wording update)",
+  "visual_review": "All 14 pages inspected; updated caption page re-rendered and inspected",
+  "unresolved_references": false,
+  "overfull_boxes": false,
+  "local_tests_passed": 58,
+  "ruff": "PASS",
+  "scientific_verification": "results/multiwavelength/verification.json",
+  "known_nonblocking_tool_messages": [
+    "Tectonic Fontconfig configuration warning; embedded Latin Modern fonts render successfully",
+    "Bundled pypdf lacks optional fontTools for full math-font text decoding; equations visually inspected"
+  ]
+}

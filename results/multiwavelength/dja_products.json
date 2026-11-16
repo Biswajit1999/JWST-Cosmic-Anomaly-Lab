@@ -1,0 +1,68 @@
+[
+  {
+    "dr4_id": "goods-n-mediumjwst_66336",
+    "grating": "G395M",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn10-v4/jades-gdn10-v4_g395m-f290lp_1181_66336.spec.fits",
+    "path": "data/raw/followup/jades-gdn10-v4_g395m-f290lp_1181_66336.spec.fits",
+    "sha256": "58c63718b1979a61cf806e5ac4ac85b0f1da8339972ee587c0179bfdb40c0cf4",
+    "separation_arcsec": 0.00016565186304008534,
+    "programme": 1181,
+    "source_number": 66336,
+    "status": "VERIFIED"
+  },
+  {
+    "dr4_id": "goods-n-mediumjwst_89464",
+    "grating": "G395M",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn11-v4/jades-gdn11-v4_g395m-f290lp_1181_89464.spec.fits",
+    "path": "data/raw/followup/jades-gdn11-v4_g395m-f290lp_1181_89464.spec.fits",
+    "sha256": "9ba4dad4fdea380c8c1c3eca670230797e6208aa8bd31e1580128c964f7f0d0e",
+    "separation_arcsec": 1.2825223889747369e-05,
+    "programme": 1181,
+    "source_number": 89464,
+    "status": "VERIFIED"
+  },
+  {
+    "dr4_id": "goods-s-mediumjwst_10009106",
+    "grating": "G140M",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds07-v4/jades-gds07-v4_g140m-f070lp_1286_10009106.spec.fits",
+    "path": "data/raw/followup/jades-gds07-v4_g140m-f070lp_1286_10009106.spec.fits",
+    "sha256": "5568ff750d1930aa1c6a311268452b00de1aa5be5dfe2819c3fec5c42631c0ab",
+    "separation_arcsec": 0.0,
+    "programme": 1286,
+    "source_number": 10009106,
+    "status": "VERIFIED"
+  },
+  {
+    "dr4_id": "goods-s-mediumjwst_10009106",
+    "grating": "G235M",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds07-v4/jades-gds07-v4_g235m-f170lp_1286_10009106.spec.fits",
+    "path": "data/raw/followup/jades-gds07-v4_g235m-f170lp_1286_10009106.spec.fits",
+    "sha256": "db3847b300849cea583bc56c9279a39365b831ba3ea32ac40ddb68e179c42a22",
+    "separation_arcsec": 0.0,
+    "programme": 1286,
+    "source_number": 10009106,
+    "status": "VERIFIED"
+  },
+  {
+    "dr4_id": "goods-n-mediumhst_25734",
+    "grating": "G140M",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn2-v4/jades-gdn2-v4_g140m-f070lp_1181_25734.spec.fits",
+    "path": "data/raw/followup/jades-gdn2-v4_g140m-f070lp_1181_25734.spec.fits",
+    "sha256": "7e1587357fe3d4873b3921b0c84afb4bcf5673477c09b9660d359adc0ffe4705",
+    "separation_arcsec": 0.0001495913592052497,
+    "programme": 1181,
+    "source_number": 25734,
+    "status": "VERIFIED"
+  },
+  {
+    "dr4_id": "goods-n-mediumhst_25734",
+    "grating": "G235M",
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn2-v4/jades-gdn2-v4_g235m-f170lp_1181_25734.spec.fits",
+    "path": "data/raw/followup/jades-gdn2-v4_g235m-f170lp_1181_25734.spec.fits",
+    "sha256": "82c41ba539c80560c65b49cbc311d5bc2892843b8e0fc2972ead354146713b75",
+    "separation_arcsec": 0.0001495913592052497,
+    "programme": 1181,
+    "source_number": 25734,
+    "status": "VERIFIED"
+  }
+]

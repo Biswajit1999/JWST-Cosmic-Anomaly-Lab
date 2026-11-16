@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-11-16T08:19:28.954617+00:00",
+  "research_snapshot": "2026-11-16",
+  "compiler": "Tectonic 0.17.0",
+  "prior_analysis_commit": "6c9a7144fcafae72f397d209ad319a01a3400225",
+  "status": "RESEARCH_PREPRINT_NOT_PEER_REVIEWED",
+  "physical_classification": "NOT_ESTABLISHED",
+  "figure_count": 7,
+  "input_hash_convention": "Raw bytes for PDFs; canonical UTF-8/LF for text",
+  "input_sha256": {
+    "paper/jwst_cosmic_anomaly_lab.tex": "64d8c3f706595ab171dc820297c664db60e360acf31669c15890e43aee623f77",
+    "paper/README.md": "9295e000048534b9db29fa53850c50941137ad3e785c92497ccb3caf153fbb80",
+    "paper/linkedin_draft.md": "dd55c6af95aba304d92f7ac078fd11df316cbdffeb2293f921d39c186ec4e366",
+    "figures/expanded_search.pdf": "9116e2008923fd52c9136afd5efb94a8a0b45fbbb9f1c0d72d4288ab2f80ba86",
+    "figures/uv_reduction_images.pdf": "58efd98af1b64a5e7d0c552c80bc88d5685c13c3717dfa266c54f7185524ba54",
+    "figures/balmer_synthetic_controls.pdf": "bec3a21dabd38aeca09baee107dd984b6a1b0138e6568eed8b2c001adfff1852",
+    "figures/jades_balmer_sensitivity.pdf": "b646c8ac8fd484661b919bcc43a97b1eb934f9b15a07a25f2afd5dbfd0aadfa6",
+    "figures/multiwavelength/reduction_ratio_comparison.pdf": "cfb22b5a38ff6b4d9e5c2eaeea0c1becb4628ca96315fb16b737e399fa5b7888",
+    "figures/multiwavelength/goods-s-mediumjwst_10009106_reductions.pdf": "d9ed5e91f3919147b27a959adbcfcbaa6c1f7b6eade63478e76a3b50ea23b96d",
+    "figures/multiwavelength/hst_spitzer_context.pdf": "c32695df7d1a80e226cfa33e0d97c366753ee3dbdbf35a268f8fbcef6962cf08"
+  },
+  "output": {
+    "path": "output/pdf/jwst_cosmic_anomaly_lab.pdf",
+    "bytes": 344177,
+    "sha256": "b50a5a594840f4586ac007e26042714d89b1ad31853043530e3175e7953bc138"
+  },
+  "analysis_summary_sha256": {
+    "results/multiwavelength/dja_summary.json": "c0ad576461ba247d87ef79534bd667986a5acae92b283ad8b681e133088673dc",
+    "results/multiwavelength/context_summary.json": "410af9f252fcd886d85c6c562895d6ab4d680907b53921b78a5617a99d7c9e64"
+  }
+}

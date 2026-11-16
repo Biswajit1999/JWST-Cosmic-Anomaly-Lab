@@ -1,0 +1,298 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,booktabs,tabularx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{caption,placeins,fancyhdr,enumitem}
+\usepackage[hyphens]{url}
+\usepackage[colorlinks=true,linkcolor=MidnightBlue,citecolor=MidnightBlue,urlcolor=MidnightBlue]{hyperref}
+\hypersetup{pdftitle={JWST Cosmic Anomaly Lab: Archival spectral screening and validation},pdfauthor={Biswajit Jana},pdfsubject={Research preprint; not peer reviewed}}
+\graphicspath{{../figures/}}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2em}
+\captionsetup{font=small,labelfont=bf}
+\setlist{nosep,leftmargin=*}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small JWST Cosmic Anomaly Lab}
+\fancyhead[R]{\small Jana | Research preprint}
+\fancyfoot[L]{\footnotesize 16 November 2026 | Not peer reviewed}
+\fancyfoot[R]{\thepage}
+\newcommand{\ha}{H$\alpha$}
+\newcommand{\hb}{H$\beta$}
+\newcommand{\hg}{H$\gamma$}
+\newcommand{\kms}{\ensuremath{\mathrm{km\,s^{-1}}}}
+\newcommand{\fig}[4]{\begin{figure}[!htbp]\centering\includegraphics[width=#2\linewidth]{#1}\caption{#3}\label{#4}\end{figure}}
+\title{\textbf{JWST Cosmic Anomaly Lab}\\[5pt]\Large Archival spectral screening and validation\\in the search for gas-enshrouded accretion}
+\author{Biswajit Jana\\\small Independent research project\\\small\href{https://github.com/Biswajit1999/JWST-Cosmic-Anomaly-Lab}{github.com/Biswajit1999/JWST-Cosmic-Anomaly-Lab}}
+\date{Research snapshot: 16 November 2026\\\small Version 1.0 --- research preprint and project methods report; not peer reviewed}
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+\begin{abstract}
+We present an executed, reproducible archival investigation of unusual JWST spectra, motivated by gas-enshrouded accretion and the broader question of how to distinguish astrophysical anomalies from extraction and model failures. A pinned four-survey catalogue contains 20,144 upstream source records and 44,619 spectral products. We analyse 4,731 selected PRISM source records and independently audit all 5,190 target records in JADES DR4; these overlapping samples are not summed. Continuum and empirical blend screening produces 11 joint follow-up priorities, while a separate spectral-shape search supplies 12 additional priorities. Higher-resolution tests expose both inadequate line models and sensitivity to the instrumental response. A dual-aperture Balmer census yields a further twelve-record diagnostic queue. New comparisons of six DJA grating spectra for four targets show that the extreme DR4 ratios of GN-66336 and GS-10009106 are not reproduced at the same values; GN-89464 retains elevated \hg/\hb\ cores across the tested reductions. Hubble/Spitzer catalogue searches yield eight positional candidates for the twelve targets; none has a Chandra main-catalogue neighbour within 2 arcsec. These checks provide neither source-specific X-ray upper limits nor a new black-hole-star identification. The contribution is an auditable measurement and validation workflow, including negative results, observed image products and a constrained follow-up agenda.
+\end{abstract}
+\textbf{Keywords:} JWST; archival spectroscopy; anomaly detection; little red dots; data validation; gas-enshrouded accretion
+
+\section{Scientific motivation and the claim behind the headlines}
+The purpose of this project is to find unusual, reproducible observations and evaluate competing explanations. It does not assume that an anomaly must be a black hole, a new stellar class or evidence against standard cosmology. The working hypothesis registry includes galaxies dominated by stars, ordinary and obscured active galactic nuclei (AGN), dense accretion envelopes, supermassive stars, composite sources, foreground contaminants and unresolved cases. A catalogue label is retained as provenance rather than adopted as a physical conclusion.
+
+The August 2026 public announcement of a ``black hole star'' refers to MoM-BH*-1 and the Nature paper by Naidu et al.\ \cite{naidu}. The authors interpret its strong continuum discontinuity and complex Balmer emission/absorption as evidence for an accreting black hole embedded in dense gas. This is published observational and modelling work. It is not a discovery made by the present project. We review that interpretation but do not independently reproduce its radiative-transfer fit.
+
+The terminology needs care. A nuclear-powered star, a dense photoionized cocoon surrounding an AGN, and a hydrostatic quasi-star envelope are different physical proposals. Black-hole-powered massive envelopes were studied well before JWST \cite{begelman}. Recent quasi-star modelling reproduces several little-red-dot (LRD) observables but requires additional components for others, including broad helium emission or hot dust \cite{gentile}. A striking colour or one unusual hydrogen ratio cannot choose among these structures.
+
+GLIMPSE-17775 provides a separate published benchmark. Kokorev et al.\ \cite{kokorev} combine hydrogen profiles, helium features, fluorescence diagnostics and a rich low-ionization spectrum to support a dense-cocoon interpretation. Our restricted empirical profile exercise does not reproduce that complete evidence chain. The distinction between published physical interpretation, our own measurement, and a proposed next test is maintained throughout this report.
+
+\section{Data, sample construction and provenance}
+\subsection{Pinned archive scope}
+The DAWN JWST Archive (DJA) supplies the principal NIRSpec catalogue and released reductions \cite{dja}. The four-survey subset includes CEERS, JADES, RUBIES and UNCOVER; selection and reduction documentation are linked in the repository and in Refs.\ \cite{ceers,jades,rubies,uncover}. Memberships overlap. The 20,144 count uses upstream DJA identifiers, not an independently reconstructed census of physical galaxies. Multiple lensed images and blended objects have not been consolidated into source-plane systems.
+
+The full downloaded DJA catalogue snapshot lists 80,367 spectra, of which 44,619 belong to the retained four-survey subset. Initial MAST queries and additional release inventories document availability; they are not bulk analyses of those archives. The fixed PRISM selection requires archive visual grade 3, $0.5\le z<12$ and median pixel signal-to-noise (S/N) $\ge2$. The highest-S/N eligible product per upstream source ID is selected, with filename tie-breaking. The initial S/N$\ge5$ subset contains 2,647 records; the $2\le$S/N$<5$ extension adds 2,084, giving 4,731. All records in this defined subset were processed, equivalent to 23.5\% of the pinned four-survey parent.
+
+The JADES DR4 census is a separate all-record catalogue audit: 5,190 targets, each in two apertures. Of these, 1,997 have an earlier-search positional neighbour within 0.2 arcsec and 3,193 do not. This is an overlap diagnostic, not an identity merge. In particular, $4,731+5,190$ is not a valid unique-source total.
+
+\begin{table}[!htbp]\centering\small
+\caption{Executed scope. Rows overlap and must not be added as independent objects.}
+\begin{tabularx}{\linewidth}{@{}l r X@{}}\toprule
+Stage & Records / trials & Meaning\\\midrule
+Initial observed pilot & 20 & Actual PRISM spectra and image/measurement validation\\
+Expanded high-S/N search & 2,647 & Entire fixed grade-3, S/N$\ge5$ PRISM subset\\
+Combined PRISM search & 4,731 & Includes the fainter extension; no physical-class filter\\
+Shape scoring & 3,738 & Unique scored records within the combined sample\\
+JADES DR4 census & 5,190 & All catalogue target records; two apertures\\
+Balmer spectral queue & 12 & Selected records, 15 accepted DR4 products\\
+New DJA comparison & 4 & Six grating products, 72 core attempts\\
+HST/Spitzer context & 12 & Neighbour search in 88,786 catalogue rows\\
+Chandra context & 12 & Neighbour search in 1,691 main-catalogue rows\\\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Provenance, missingness and selection bias}
+Every retrieved product has its URL, access time, byte count and SHA256 fingerprint recorded. Publisher checksums are used where supplied; a locally computed hash alone establishes reproducibility, not independent upstream authenticity. Downloads are atomic and bounded by a 4 GiB raw-data budget. An unavailable product, invalid error or failed association remains missing. No neighbouring object is substituted merely because it is easier to retrieve.
+
+These data are targeted spectroscopy, not a flux-complete survey of the Universe. Target selection, exposure, release history, redshift success, S/N, wavelength coverage and extraction quality all affect inclusion. Reliable-redshift selection may preferentially omit the most unfamiliar spectra. We therefore do not infer population abundance, discovery rate, physical duty cycle or a null bound on all black-hole stars.
+
+\section{Measurement and validation methods}
+\subsection{Spectra and image products}
+The readers validate FITS wavelength and flux units and convert $F_\nu$ and $F_\lambda$ using the measured wavelength. Nonfinite values, nonpositive uncertainties, unusable extraction pixels and applicable data-quality flags are masked. Negative measured fluxes remain signed. Released calibration is adopted without an additional photometric renormalization. Early screens use 0.7--5.2~$\mu$m; the Balmer census and new comparison explicitly use 0.6--5.5~$\mu$m. This extension is consequential: several high-redshift \ha\ lines lie beyond 5.2~$\mu$m.
+
+The repository includes calibrated NIRCam cutouts, RGB displays, one-dimensional spectra and actual two-dimensional spectral images. A common intensity stretch is used for RGB display; clipping for display never replaces the signed measurement arrays. Images are not AI-generated scientific evidence. Registration and masking are checked before combining bands. Each DR4 nod image uses its own header wavelength/spatial grid. Image pixels are accepted only with valid uncertainties and corresponding usable one-dimensional wavelength coverage. Finite but unphysical values in a GS-10009106 \ha\ image are masked because its associated extraction has no accepted coverage.
+
+\subsection{Continuum and empirical line screening}
+The initial continuum statistic is a weighted $F_\nu$ ratio between rest-frame 0.40--0.42 and 0.34--0.36~$\mu$m windows. Both means require S/N$>3$ and adequate coverage. The high-S/N search requires the ratio to exceed 2 and its conditional three-error lower bound to exceed 1.5, with the lower-bound check repeated in shifted windows. This is a continuum proxy, not a unique decomposition of stellar light, dust and gas opacity.
+
+The PRISM line screen compares a local linear continuum plus an empirical \ha+[N\,II] blend with fixed intrinsic Gaussian dispersions of 100 and 1,500~\kms. Instrumental broadening is included using a reference resolving-power curve, with three scale assumptions. Pixel-integrated templates are used. For diagonal Gaussian errors,
+\begin{equation}
+\mathrm{BIC}=\chi^2+k\ln n,\qquad
+\Delta\mathrm{BIC}=\mathrm{BIC}_{\rm narrow}-\mathrm{BIC}_{\rm broad}.
+\end{equation}
+The line priority requires $\Delta\mathrm{BIC}>10$ and blend S/N$>5$ under all three response assumptions. Preference within these crude families does not establish an adequate fit, electron scattering or a black hole. We retain residuals and absolute goodness-of-fit rather than treating a large difference as sufficient evidence.
+
+\subsection{Searches beyond a predefined LRD template}
+The pilot's error-aware two-feature catalogue ranking used 857 records and ten field/redshift holdouts, followed by a Benjamini--Hochberg multiple-testing adjustment. Its calibration depends on exchangeability and can be affected by field shift or shared upstream fits. The later shape search bins optical and ultraviolet spectra into twelve rest-frame bins and compares normalized shapes with redshift/S/N-matched peers. At least thirty peers and specified coverage are required; 128 seeded perturbations assess sensitivity to released diagonal errors. Rarity is descriptive, not a physical-class probability. An object that cannot be scored is reported as such.
+
+\subsection{Signed Balmer cores and catalogue sensitivity}
+The DR4 catalogue audit requires redshift flags A/B/C, positive redshift, finite fluxes, positive uncertainties, archive line S/N$\ge5$, flux/error$\ge5$, and recognized disperser labels in both apertures. Catalogue Gaussian line fits have positivity and model assumptions; they are not equivalent to signed spectral measurements.
+
+For numerator $N$, denominator $D$ and illustrative reference ratio $r$, we evaluate
+\begin{equation}
+C=\frac{N-rD}{\sqrt{e_N^2+r^2e_D^2-2r\rho e_Ne_D+
+f^2[N^2+(rD)^2]}}.
+\end{equation}
+The sign is reversed for low-\ha/\hb\ ranking. We vary a fractional systematic floor $f$ and a correlation assumption $\rho$; neither is inferred from the catalogue. The references 2.86 and 0.468 are illustrative nebular ratios, not universal physical boundaries. These contrasts are not calibrated discovery significances.
+
+For observed spectra, a weighted linear continuum is fitted in velocity sidebands $[-3000,-1500]$ and $[2000,3000]$~\kms\ at fixed catalogue redshift. The signed core is
+\begin{equation}
+F_{\rm core}=\sum_i \Delta\lambda_{i,\rm overlap}
+\left[F_{\lambda,i}-(\widehat{a}+\widehat{b}v_i)\right],
+\end{equation}
+for windows of $\pm400$ and $\pm600$~\kms. At least 80\% coverage, four core pixels and six sideband pixels are required. Variance includes diagonal pixel errors and propagated continuum-fit covariance. A reported core ratio requires both signed cores to have S/N$\ge5$. It is not a deblended total line flux or a broad/narrow decomposition. Three/five-pixel and two/three-nod variants share photons and are not independent detections.
+
+\section{Results of the broad search and its controls}
+\subsection{Screening yield and empirical-model failure}
+The pilot measured sixteen continuum ratios and fourteen blend regions from twenty observed spectra. Eight nominal catalogue outliers had unadjusted $p\le0.01$, but none passed the reported 5\% Benjamini--Hochberg adjustment. Controlled artificial injections tested software behaviour; they did not calibrate a physical black-hole-star classifier.
+
+In the 2,647-record high-S/N sample, 2,164 continuum ratios and 1,892 blends were measurable. There were 474 continuum passes, 37 blend passes and eleven joint priorities. The broad/narrow preference changed sign for 559 records across instrumental-response assumptions. Eight joint priorities retained the line criteria when line errors were doubled. However, all eleven joint priorities had poor absolute fits, with reduced $\chi^2$ approximately 4.9--4,167. Their high relative preference therefore identifies model inadequacy as much as interesting spectra.
+
+The additional 2,084 fainter spectra supplied no new joint priorities. The class-agnostic shape search scored 3,738 unique records and selected twelve for inspection, seven from the fainter extension; this queue did not overlap the eleven joint-screen priorities. The recovery of already known objects, including CEERS-3506 \cite{zhu} and GS-159717 \cite{deugenio}, is useful validation of sensitivity to unusual spectra but is not evidence of novelty.
+
+\fig{expanded_search.pdf}{1}{Observed high-S/N screening. The plotted thresholds construct a follow-up queue; they do not measure discovery significance or identify a power source. The later fainter extension brings the analysed PRISM count to 4,731.}{fig:screen}
+\FloatBarrier
+
+\subsection{Benchmark tests and failure modes}
+The published source known as The Cliff \cite{degraaff} illustrates incompleteness: it was missed by the fixed-width joint screen even though our continuum proxy was $8.46\pm2.12$. In its medium-resolution profile comparison, an exponential profile was preferred over a Gaussian for the full window; the preference weakened or reversed under doubled errors and exclusion of the central pixels. This experiment tests empirical line shape, not a unique transfer mechanism.
+
+For GLIMPSE-17775, the released \ha\ region had zero extraction-pixel flags under the strict reader. A finite-error override was explicitly marked provisional, while the Paschen-$\delta$ comparison used the strict mask. Neither the provisional exercise nor a better empirical profile should be presented as an independent confirmation of the published dense-cocoon interpretation.
+
+Eight DR4 PRISM products for seven targets supplied thirty-two extraction variants in the separate reduction audit. For GS-13905, the ultraviolet anomaly score fell from 2.66 to approximately 0.78--1.06 in deeper DR4 products, while absolute ultraviolet flux differed by about a factor of 11.4. Different roll/slit configurations and reductions prevent interpreting this as controlled astrophysical variability. The images reveal a real measurement discrepancy whose origin remains unresolved.
+
+\fig{uv_reduction_images.pdf}{1}{Observed two-dimensional spectral images used to inspect the GS-13905 discrepancy. The differing configurations and extraction choices must be understood before assigning the apparent flux change to intrinsic variability. Display scales are diagnostic rather than photometric measurements.}{fig:images}
+
+\subsection{Resolved Balmer structure and instrumental-response degeneracy}
+GS-159717 received ninety observed fits spanning six extractions, three local emission/absorption families and five resolving-power assumptions. The absorbed family applies an optical-depth profile to broad emission before instrumental convolution and pixel integration. In the G395H spectrum it is preferred over the tested emission-only families; at nominal $R=2700$, the common-centre-to-absorbed $\Delta\mathrm{BIC}$ is 310.8 and the absorbed fit has reduced $\chi^2=1.23$. This is conditional evidence for absorption structure in an already known source.
+
+Sixty synthetic controls exposed a major failure mode. All ten emission-only realizations generated with $R=1500$ falsely preferred absorption at $\Delta\mathrm{BIC}>10$ when fitted with $R=1000$. The corresponding matched-response null test gave zero such flags in ten trials. These small constructed tests are counterexamples, not universal error rates. They demonstrate why instrumental mismatch can mimic an absorber.
+
+\fig{balmer_synthetic_controls.pdf}{.95}{Explicitly simulated validation of the GS-159717 local-model exercise. An incorrect instrumental response can generate a strong absorption preference in emission-only data. These trials are not observations and do not establish an astrophysical population false-positive rate.}{fig:controls}
+
+An independent-line check fitted the [O\,III] doublet in eleven extraction variants and two windows: twelve of twenty-two attempts were measurable. In the $\pm900$~\kms\ window, observed dispersions were 60.22~\kms\ (DJA G395H), 78.62~\kms\ (DJA G235M) and 89.82~\kms\ (DR4 G235M, three-pixel/three-nod). Since
+\begin{equation}
+\sigma_{\rm obs}^2=\sigma_{\rm intrinsic}^2+\sigma_{\rm LSF}^2,
+\end{equation}
+an observed narrow line supplies a conditional limit on blur, not a unique instrumental calibration. The reduction-dependent G235M widths reinforce that limitation.
+
+Wider high-resolution follow-up checked twelve products for nine existing priorities. Fourteen of twenty-four requested line windows had adequate coverage; forty-two narrow/added-broad fits were executed for seven \ha\ products from six sources. Four sources did not favour an added broad Gaussian. GN-68797 and GS-159717 improved strongly, but the simple emission fits retained substantial residuals. These known targets do not constitute new detections of a physical class.
+\FloatBarrier
+
+\section{JADES Balmer census and the new reduction test}
+\subsection{Catalogue census and observed follow-up}
+All 10,380 aperture rows were audited. The eligibility rules yielded 1,216 \ha/\hb\ and 448 \hg/\hb\ comparisons in both apertures. At $\rho=0$, the numbers with both aperture contrasts above 3 changed from 24 to 8 to 1 for low \ha/\hb, and from 10 to 1 to 0 for high \hg/\hb, as $f$ increased from 0 to 0.1 to 0.2. The strong sensitivity to this assumed floor argues against calling these counts detections.
+
+The top six positive contrasts in each direction at $f=0.1$ formed a twelve-record queue. Sixteen listed one-dimensional products were retrieved, fifteen passed checks, and one remained held: the GS-30099449 catalogue programme ID is 1180 whereas the retrieved header says 1286, despite matching target number and coordinates. We retained this conflict rather than silently repairing the association.
+
+Of 288 signed-core attempts, 247 were usable. Three targets had both relevant cores at S/N$\ge5$ in all eight correlated extraction/window variants: GN-66336, GS-10009106 and GN-89464. Their qualifying ranges were respectively 1.108--1.282 for \ha/\hb, 1.003--1.440 for \hg/\hb, and 0.667--0.775 for \hg/\hb. Stability within DR4 is useful, but it is not stability across reductions.
+
+\fig{jades_balmer_sensitivity.pdf}{.96}{Sensitivity of the full DR4 catalogue diagnostics to an assumed fractional error floor. Central curves use zero cross-line correlation; shaded bands span correlations from $-0.5$ to $+0.5$. The counted threshold exceedances are diagnostic contrasts, not calibrated discovery probabilities. Positivity-constrained catalogue fluxes are followed up with signed spectral cores.}{fig:census}
+\FloatBarrier
+
+\subsection{Six additional DJA grating products}
+We selected four records before the new check: the three internally stable DR4 targets and the nod-sensitive control GN-25734. Six DJA grating products were retrieved by programme, source number, grating and coordinates; the FITS source positions and grating were verified. The same core windows and fixed DR4 redshifts were used, without renormalizing fluxes. DJA and DR4 share observations, so the comparison probes processing sensitivity rather than independent photons. There were 72 core attempts across the DJA and two DR4 extractions; sixty were measurable.
+
+\begin{table}[!htbp]\centering\small
+\caption{New core-ratio comparison. Each pair gives $\pm400$ / $\pm600$~\kms\ results. Errors are conditional diagonal statistical errors, not cross-reduction significance.}
+\begin{tabularx}{\linewidth}{@{}l l X X@{}}\toprule
+Target & Ratio & DJA & DR4 five-pixel, three-nod\\\midrule
+GN-66336 & \ha/\hb & $2.602\pm0.318$ / $2.454\pm0.402$ & $1.199\pm0.152$ / $1.118\pm0.190$\\
+GS-10009106 & \hg/\hb & $0.405\pm0.060$ / $0.440\pm0.079$ & $1.240\pm0.187$ / $1.268\pm0.224$\\
+GN-89464 & \hg/\hb & $0.835\pm0.132$ / $0.845\pm0.156$ & $0.712\pm0.108$ / $0.704\pm0.133$\\\bottomrule
+\end{tabularx}\label{tab:ratios}
+\end{table}
+
+The result changes the shortlist. GN-66336's very low DR4 \ha/\hb\ is not reproduced at the same value in DJA; GS-10009106's high \hg/\hb\ likewise weakens. Absolute fluxes differ, not merely their formal errors. GN-89464 retains an elevated ratio in the tested reductions, but stellar absorption, continuum placement, extraction and line-dependent calibration remain alternatives. Its known catalogue identity is not a new-source discovery.
+
+GN-25734 has no accepted DJA \ha\ core under the fixed coverage rule. Its DR4 three-nod \ha\ core fails the S/N cut, while two-nod ratios are measurable. It remains a control for missing coverage and nod sensitivity. We do not assign independent significance to differences between reductions, because their noise and processing errors are correlated.
+
+\fig{multiwavelength/reduction_ratio_comparison.pdf}{1}{The new reduction comparison. Circles and squares use the two finite core windows. Dashed reference ratios are illustrative, not universal limits. The agreement of DR4 variants alone did not guarantee agreement with DJA.}{fig:newratios}
+\fig{multiwavelength/goods-s-mediumjwst_10009106_reductions.pdf}{1}{Actual released spectra for GS-10009106 at fixed redshift. The prominent reduction difference in \hb\ changes \hg/\hb. No amplitude matching was applied. The DJA \ha\ core has insufficient S/N for the ratio cut; DR4 has no accepted \ha\ coverage.}{fig:newspectra}
+\FloatBarrier
+
+\section{Hubble, Spitzer and Chandra catalogue context}
+The new multi-telescope extension searches the GOODS-N and GOODS-S 3D-HST v4.1 photometric catalogues \cite{skelton,brammer}, containing 38,279 and 50,507 rows, for all twelve Balmer-queue targets. These 88,786 rows were searched for positional neighbours; they were not individually classified as candidate black-hole stars. All neighbours within 0.3 arcsec are retained as candidates, with no automatic identity merge. Eight targets each have one neighbour and four have none.
+
+The eight neighbours supply 88 selected HST/Spitzer band rows. Seventy-four have valid signed flux, positive uncertainty and positive relative weight; seventeen of those fluxes are negative. Applying the catalogue's \texttt{use\_phot=1} flag leaves 65 displayable measurements. The documented AB zeropoint gives
+\begin{equation}
+F_\nu[\mu\mathrm{Jy}]=0.3631\,f_{\rm catalogue}.
+\end{equation}
+Nonfinite values, nonpositive uncertainties/weights and the reserved $-99$ sentinel remain unavailable. Low-S/N signed measurements are not replaced by detections or arbitrary upper limits. The GOODS-N release specifically documents invalid negative IRAC uncertainties for some objects; the validity checks reject these.
+
+Both plotted low-redshift candidates have \texttt{contam\_flag=1} and extraction flags of 3; their infrared photometry requires deblending review. The GS-10009106 neighbour is 0.294 arcsec away, close to the chosen search boundary. HST/Spitzer total fluxes are not aperture-matched to NIRSpec slit extractions, and the epochs differ. We therefore do not fit a joint physical spectral energy distribution or claim variability from their comparison.
+
+\fig{multiwavelength/hst_spitzer_context.pdf}{.94}{Published Hubble and Spitzer photometry for positional candidates around four JWST targets. Blank panels explicitly indicate no usable candidate within the adopted 0.3-arcsec search, not zero source flux. Signed values and errors are retained. Both populated panels have catalogue contamination flags; these are context measurements rather than a validated joint SED.}{fig:photometry}
+
+For X-ray context we searched the 683-record CDF-N and 1,008-record CDF-S main catalogues \cite{xue,luo}. CDS retrieval timed out; NASA HEASARC's TAP mirror supplied validated tables. An initial unsupported CSV-format response was rejected, then VOTable retrieval succeeded. None of the twelve target positions has a main-catalogue neighbour within 2 arcsec. The nearest entries are 4.85--24.68 arcsec away. This is a catalogue-search result, not a measured non-detection at a uniform depth. Event data, local backgrounds, point-spread functions, exposure and sensitivity maps were not analysed, so no object-specific X-ray luminosity limit or AGN exclusion follows.
+\FloatBarrier
+
+\section{Physical interpretation, evolution and next tests}
+\subsection{What the present evidence establishes}
+The project establishes that a large fixed archive subset can be processed reproducibly, that unusual spectral shapes can be recovered without requiring a prior LRD label, and that appealing diagnostics can fail under targeted validation. It does not establish a newly discovered black-hole star, a new physical population, an abundance of gas envelopes or a violation of cosmology. The new cross-reduction results specifically demote two internally stable DR4 ratio anomalies as immediate physical evidence. They do not prove that those objects are ordinary or determine which reduction is correct.
+
+No full comparison of stellar population, obscured AGN, dense-gas radiative transfer and supermassive-star models has been executed on a common likelihood for the new priorities. Local blackbody and line-profile baselines are descriptive. Missing such a comparison is a substantive limitation, not a small refinement to an already established classification. Likewise, a persistent high \hg/\hb\ core is a reason to inspect \hb\ absorption and extraction behaviour, not a sufficient dense-envelope diagnostic.
+
+The programmes share observations, reductions and sometimes catalogue fits. Treating all aperture/nod variants as independent would artificially strengthen the case. Released diagonal errors omit pixel covariance and calibration uncertainty; repeated manual investigation of ranked candidates adds selection effects. Formal likelihood or BIC differences are consequently reported as conditional comparisons. The priority queues were created by operational thresholds, not a calibrated family-wide discovery procedure.
+
+\subsection{Cosmic time and possible futures}
+The project includes 180 illustrative growth scenarios using Astropy's Planck18 cosmology \cite{planck,astropy}. With radiative efficiency $\epsilon$, Eddington ratio $\lambda$ and duty fraction $f_{\rm duty}$, the adopted simple growth clock is
+\begin{equation}
+t_e=\frac{c\sigma_T}{4\pi Gm_p}\frac{\epsilon}{(1-\epsilon)\lambda f_{\rm duty}},
+\qquad t_{\rm req}=t_e\ln(M_{\rm target}/M_{\rm seed}).
+\end{equation}
+Seed formation at $z=20$ and a target mass of $10^8 M_\odot$ are scenario inputs. Three seed masses, three efficiencies, two duty fractions, two Eddington ratios and five redshifts are explored. These are not measured masses or predicted futures for our queued objects. Cosmic expansion supplies a time--redshift relation; it does not establish their energy source. An envelope phase could be relevant to rapid growth, but its lifetime and eventual dispersal require a physical evolution model constrained by data.
+
+\subsection{Falsifiable next steps}
+The next useful experiments are targeted rather than an indefinite search until a desired answer appears:
+\begin{enumerate}
+\item Trace GN-66336 and GS-10009106 to exposure-level slit placement, backgrounds, path-loss corrections and wavelength-dependent throughput. Identify why absolute Balmer fluxes disagree before interpreting their ratios.
+\item For GN-89464, compare resolved \hb\ and \hg\ emission/absorption with models that include stellar absorption, velocity structure and a calibrated instrumental response. Use independent observations where available.
+\item Validate positional candidates on registered images and segmentation maps; perform aperture-aware photometry and explicit deblending before joint SED inference.
+\item Derive position-dependent X-ray limits from the actual counts, background and exposure products. Catalogue absence alone cannot constrain an obscured accretor.
+\item Fit competing stellar, AGN and dense-envelope predictions to the same accepted pixels, with appropriate calibration nuisance terms and predictive checks. Add helium, oxygen and iron diagnostics only where the data support them.
+\item Extend selection to fainter, uncertain-redshift and previously unscorable spectra with predeclared coverage and stopping rules. Calibrate the resulting selection function before population claims.
+\end{enumerate}
+
+\section{Conclusions}
+This work combines a 4,731-record PRISM search, a complete 5,190-record DR4 catalogue audit, observed-image inspection and targeted higher-resolution controls. Its most consequential new result is that two extreme Balmer ratios stable within DR4 are not reproduced in another released reduction. A third target retains an elevated core ratio but remains physically unresolved. Hubble/Spitzer and Chandra catalogue searches add useful context while exposing association, contamination and coverage limitations. The published MoM-BH*-1 and GLIMPSE-17775 studies motivate the investigation; the present results do not independently establish a new black-hole star. The reproducible measurements, rejected interpretations and explicit next tests are the scientific output of this project snapshot.
+
+\section*{Data, code and reproducibility}
+Code, configurations, result tables, figure generators, experiment ledgers and retrieval manifests are available in the \href{https://github.com/Biswajit1999/JWST-Cosmic-Anomaly-Lab}{project repository}. Raw archive products are excluded from Git and remain attributable to their original providers. Earlier programme results are pinned by commit \texttt{6c9a714}; the new analysis is described by \texttt{experiments/multiwavelength\_validation.yaml} and its input hashes. The paper's own build manifest records source, included figure and output checksums. Historical reports and conference posters retain their original dates; this paper updates their interpretation rather than silently rewriting earlier measurements.
+
+The archive products are released calibrations; this project has not rerun all telescope exposure calibration pipelines. Local tests exercise numerical and data-integrity behaviour, not scientific certification. Literature review is targeted rather than exhaustive. Published identities do not establish novelty, and an unsuccessful identifier search is not evidence of an unpublished source.
+
+\section*{Acknowledgements and assistance disclosure}
+This project uses public NASA/ESA/CSA JWST data and community products from DJA, JADES, CEERS, RUBIES and UNCOVER. It also uses Hubble/Spitzer catalogue products from 3D-HST and the Chandra catalogues served by HEASARC. The 3D-HST Treasury programmes HST-GO-12177 and HST-GO-12328 used the NASA/ESA Hubble Space Telescope, operated by the Association of Universities for Research in Astronomy under NASA contract NAS5-26555. Credit for observations, calibration pipelines, catalogue construction and the published physical discoveries belongs to the respective teams. Scientific Python libraries support the analysis.
+
+OpenAI Codex assisted with software implementation, archive retrieval, analysis execution, literature synthesis and manuscript drafting. This disclosure does not imply independent expert validation. The manuscript is an author-led project preprint, not a peer-reviewed publication or a claim of institutional endorsement. Domain-expert review of the methodology and interpretation remains necessary before journal submission.
+
+\begin{thebibliography}{99}\small\raggedright
+\bibitem{naidu} Naidu, R. P., et al. (2026). A gas-enshrouded and gas-reddened black hole at cosmic dawn. \textit{Nature}, 656, 329--333. \href{https://doi.org/10.1038/s41586-026-10846-4}{doi:10.1038/s41586-026-10846-4}. Earlier preprint: \href{https://arxiv.org/abs/2503.16596}{arXiv:2503.16596}.
+\bibitem{begelman} Begelman, M. C., Rossi, E. M., \& Armitage, P. J. (2008). Quasi-stars: accreting black holes inside massive envelopes. \textit{MNRAS}, 387, 1649--1659. \href{https://doi.org/10.1111/j.1365-2966.2008.13344.x}{doi:10.1111/j.1365-2966.2008.13344.x}.
+\bibitem{gentile} Gentile, F., et al. (2026). The quasi-star model for Little Red Dots: potential and challenges. \href{https://arxiv.org/abs/2606.06575}{arXiv:2606.06575}, version 2.
+\bibitem{kokorev} Kokorev, V., et al. (2025). The Deepest GLIMPSE of a Dense Gas Cocoon Enshrouding a Little Red Dot. \href{https://arxiv.org/abs/2511.07515}{arXiv:2511.07515}, version 2. Preprint version consulted.
+\bibitem{dja} DAWN JWST Archive. Compilation of public NIRSpec spectra and released extractions. \href{https://doi.org/10.5281/zenodo.15472354}{doi:10.5281/zenodo.15472354}; \url{https://dawn-cph.github.io/dja/}. Pinned catalogue described in the project manifest.
+\bibitem{ceers} CEERS collaboration. Data Release 1.0 documentation. \url{https://ceers.github.io/dr1.html}. CEERS spectroscopy in this analysis is accessed through DJA.
+\bibitem{jades} JADES collaboration. Data Release 4: sample selection, observing strategy and redshifts; data reduction, analysis and emission-line fluxes. \href{https://doi.org/10.1093/mnras/stag836}{doi:10.1093/mnras/stag836}; \href{https://doi.org/10.1093/mnras/stag939}{doi:10.1093/mnras/stag939}. Released products: \url{https://jades.herts.ac.uk/DR4/}.
+\bibitem{rubies} RUBIES collaboration. RUBIES: A complete census of the bright and red distant Universe with JWST/NIRSpec. \href{https://doi.org/10.1051/0004-6361/202452186}{doi:10.1051/0004-6361/202452186}.
+\bibitem{uncover} UNCOVER collaboration. The UNCOVER Survey: First Release of Ultradeep JWST/NIRSpec PRISM Spectra. \href{https://doi.org/10.3847/1538-4357/adaec1}{doi:10.3847/1538-4357/adaec1}.
+\bibitem{skelton} Skelton, R. E., et al. (2014). 3D-HST WFC3-selected photometric catalogs in the five CANDELS/3D-HST fields: photometry, photometric redshifts, and stellar masses. \textit{ApJS}, 214, 24. \href{https://doi.org/10.1088/0067-0049/214/2/24}{doi:10.1088/0067-0049/214/2/24}. Release: \url{https://archive.stsci.edu/prepds/3d-hst/}.
+\bibitem{brammer} Brammer, G. B., et al. (2012). 3D-HST: A Wide-Field Grism Spectroscopic Survey with the Hubble Space Telescope. \textit{ApJS}, 200, 13. \href{https://arxiv.org/abs/1204.2829}{arXiv:1204.2829}.
+\bibitem{xue} Xue, Y. Q., et al. (2016). The 2 Ms Chandra Deep Field-North Survey and the 250 ks Extended Chandra Deep Field-South Survey: Improved Point-source Catalogs. \textit{ApJS}, 224, 15. \href{https://doi.org/10.3847/0067-0049/224/2/15}{doi:10.3847/0067-0049/224/2/15}. NASA table: \url{https://heasarc.gsfc.nasa.gov/W3Browse/chandra/cdfn2msnew.html}.
+\bibitem{luo} Luo, B., et al. (2017). The Chandra Deep Field-South Survey: 7 Ms Source Catalogs. \textit{ApJS}, 228, 2. \href{https://arxiv.org/abs/1611.03501}{arXiv:1611.03501}. NASA table: \url{https://heasarc.gsfc.nasa.gov/W3Browse/chandra/chandfs7ms.html}.
+\bibitem{planck} Planck Collaboration (2020). Planck 2018 results. VI. Cosmological parameters. \textit{A\&A}, 641, A6. \href{https://doi.org/10.1051/0004-6361/201833910}{doi:10.1051/0004-6361/201833910}.
+\bibitem{astropy} Astropy Collaboration (2022). The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package. \textit{ApJ}, 935, 167. \href{https://doi.org/10.3847/1538-4357/ac7c74}{doi:10.3847/1538-4357/ac7c74}.
+\bibitem{zhu} Zhu, C., et al. (2025). The Physical Origin of Extreme Emission Line Galaxies at High Redshifts: Strong [O\,III] Emission Lines Produced by Obscured AGNs. Published in \textit{ApJ}; \href{https://arxiv.org/abs/2410.12198}{arXiv:2410.12198}, version 2.
+\bibitem{deugenio} D'Eugenio, F., et al. (2025). JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at $z=5$. Published in \textit{MNRAS}; \href{https://arxiv.org/abs/2506.14870}{arXiv:2506.14870}, version 2.
+\bibitem{degraaff} de Graaff, A., et al. (2025). A remarkable Ruby: Absorption in dense gas, rather than evolved stars, drives the extreme Balmer break of a Little Red Dot at $z=3.5$. \textit{A\&A}, 701, A168. \href{https://doi.org/10.1051/0004-6361/202554681}{doi:10.1051/0004-6361/202554681}.
+\end{thebibliography}
+
+\appendix
+\section{Reproduction map and current target disposition}
+\begin{table}[!htbp]\centering\small
+\caption{Primary machine-readable evidence supporting this snapshot. Paths are relative to the repository root.}
+\begin{tabularx}{\linewidth}{@{}p{.27\linewidth} X@{}}\toprule
+Stage & Result path / ledger\\\midrule
+Initial pilot & \path{results/run_summary.json}\\
+Expanded PRISM & \path{results/expanded/summary.json}\\
+Open shape search & \path{results/open_search/summary.json}\\
+Reduction audit & \path{experiments/reduction_audit.yaml}\\
+Balmer model controls & \path{results/balmer_audit/summary.json}\\
+Independent-line control & \path{results/line_anchor/summary.json}\\
+High-resolution follow-up & \path{results/high_resolution_coverage/fit_summary.json}\\
+Full DR4 census & \path{results/jades_balmer_census/summary.json}\\
+New reduction ratios & \path{results/multiwavelength/dja_core_ratios.csv}\\
+Signed HST/Spitzer data & \path{results/multiwavelength/signed_photometry.csv}\\
+Catalogue associations & \path{results/multiwavelength/association_summary.csv}\\
+Retrieval provenance & \path{data/manifests/downloads.json}\\\bottomrule
+\end{tabularx}
+\end{table}
+
+To reproduce the new experiment in the repository's Python environment, run the scripts below in order. The first script records CDS endpoint failures if they recur; the second uses NASA's mirror. Raw storage is capped and completed downloads are reused after fingerprint checks.
+\begin{quote}\small\ttfamily
+python scripts/download\_multiwavelength\_context.py\\
+python scripts/download\_chandra\_mirror.py\\
+python scripts/check\_balmer\_dja\_reductions.py\\
+python scripts/analyse\_multiwavelength\_context.py\\
+python scripts/build\_multiwavelength\_report.py
+\end{quote}
+The full project is broader than these five commands. Prior stages have their own dated configurations and execution ledgers. Re-running every stage can depend on live archive availability and will not make changing upstream releases identical unless the pinned inputs are retained.
+
+\begin{table}[!htbp]\centering\small
+\caption{Disposition of the four new cross-reduction targets. None is assigned a physical black-hole-star class.}
+\begin{tabularx}{\linewidth}{@{}l r X@{}}\toprule
+Target & Fixed $z$ & Current interpretation / next action\\\midrule
+GN-66336 & 7.13865 & Extreme low DR4 ratio not reproduced; investigate extended-wavelength \ha\ calibration and extraction.\\
+GS-10009106 & 1.55595 & Extreme high DR4 ratio not reproduced; investigate the large \hb\ extraction difference.\\
+GN-89464 & 6.72470 & Elevated core ratio persists; inspect stellar/line absorption and processing alternatives.\\
+GN-25734 & 1.79680 & Nod-sensitive control; missing accepted DJA \ha\ core, not a replicated low ratio.\\\bottomrule
+\end{tabularx}
+\end{table}
+\end{document}

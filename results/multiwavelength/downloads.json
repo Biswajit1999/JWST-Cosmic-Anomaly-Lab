@@ -1,0 +1,65 @@
+{
+  "executed_utc": "2026-11-16T02:03:12.304698+00:00",
+  "products": [
+    {
+      "url": "https://archive.stsci.edu/missions/hlsp/3d-hst/RELEASE_V4.0/Photometry/GOODS-N/goodsn_3dhst.v4.1.cats.tar.gz",
+      "survey": "3D-HST",
+      "version": "v4.1",
+      "status": "DOWNLOADED",
+      "path": "data/raw/ancillary/goodsn_3dhst.v4.1.cats.tar.gz",
+      "sha256": "642f1abdfa5d2cbd3a32766a4ed7999e9d0762bc26519981d72ed810a805aa86"
+    },
+    {
+      "url": "https://archive.stsci.edu/missions/hlsp/3d-hst/RELEASE_V4.0/Photometry/GOODS-N/goodsn_3dhst.v4.1.cats/goodsn_readme.v4.1.txt",
+      "survey": "3D-HST",
+      "version": "v4.1",
+      "status": "DOWNLOADED",
+      "path": "data/raw/ancillary/goodsn_readme.v4.1.txt",
+      "sha256": "51565025acda05548c3a7e63d74a56f0b628c74547c4bd558614aa3beb9cc25e"
+    },
+    {
+      "url": "https://archive.stsci.edu/missions/hlsp/3d-hst/RELEASE_V4.0/Photometry/GOODS-S/goodss_3dhst.v4.1.cats.tar.gz",
+      "survey": "3D-HST",
+      "version": "v4.1",
+      "status": "DOWNLOADED",
+      "path": "data/raw/ancillary/goodss_3dhst.v4.1.cats.tar.gz",
+      "sha256": "57a05ea597c0d3fffc8f89214dd3e702d483364a9bfb4421ec06c470b81d9c08"
+    },
+    {
+      "url": "https://archive.stsci.edu/missions/hlsp/3d-hst/RELEASE_V4.0/Photometry/GOODS-S/goodss_3dhst.v4.1.cats/goodss_readme.v4.1.txt",
+      "survey": "3D-HST",
+      "version": "v4.1",
+      "status": "DOWNLOADED",
+      "path": "data/raw/ancillary/goodss_readme.v4.1.txt",
+      "sha256": "76553c0fd903fdbf904db5f990d348e4b9ef1aa282ee9856a2ac3c93f277e3e0"
+    },
+    {
+      "url": "https://cdsarc.cds.unistra.fr/ftp/J/ApJS/224/15/ReadMe",
+      "survey": "Chandra",
+      "version": "224/15",
+      "status": "UNAVAILABLE",
+      "reason": "HTTPSConnectionPool(host='cdsarc.cds.unistra.fr', port=443): Max retries exceeded with url: /ftp/J/ApJS/224/15/ReadMe (Caused by ConnectTimeoutError(<HTTPSConnection(host='cdsarc.cds.unistra.fr', port=443) at 0x21a6850a030>, 'Connection to cdsarc.cds.unistra.fr timed out. (connect timeout=20)'))"
+    },
+    {
+      "url": "https://cdsarc.cds.unistra.fr/ftp/J/ApJS/224/15/table3.dat",
+      "survey": "Chandra",
+      "version": "224/15",
+      "status": "UNAVAILABLE",
+      "reason": "HTTPSConnectionPool(host='cdsarc.cds.unistra.fr', port=443): Max retries exceeded with url: /ftp/J/ApJS/224/15/table3.dat (Caused by ConnectTimeoutError(<HTTPSConnection(host='cdsarc.cds.unistra.fr', port=443) at 0x21a68ee2cc0>, 'Connection to cdsarc.cds.unistra.fr timed out. (connect timeout=20)'))"
+    },
+    {
+      "url": "https://cdsarc.cds.unistra.fr/ftp/J/ApJS/228/2/ReadMe",
+      "survey": "Chandra",
+      "version": "228/2",
+      "status": "UNAVAILABLE",
+      "reason": "HTTPSConnectionPool(host='cdsarc.cds.unistra.fr', port=443): Max retries exceeded with url: /ftp/J/ApJS/228/2/ReadMe (Caused by ConnectTimeoutError(<HTTPSConnection(host='cdsarc.cds.unistra.fr', port=443) at 0x21a68ee2750>, 'Connection to cdsarc.cds.unistra.fr timed out. (connect timeout=20)'))"
+    },
+    {
+      "url": "https://cdsarc.cds.unistra.fr/ftp/J/ApJS/228/2/table4.dat",
+      "survey": "Chandra",
+      "version": "228/2",
+      "status": "UNAVAILABLE",
+      "reason": "HTTPSConnectionPool(host='cdsarc.cds.unistra.fr', port=443): Max retries exceeded with url: /ftp/J/ApJS/228/2/table4.dat (Caused by ConnectTimeoutError(<HTTPSConnection(host='cdsarc.cds.unistra.fr', port=443) at 0x21a68ee2870>, 'Connection to cdsarc.cds.unistra.fr timed out. (connect timeout=20)'))"
+    }
+  ]
+}

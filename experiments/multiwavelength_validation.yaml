@@ -1,0 +1,48 @@
+experiment: multiwavelength-and-dja-validation-2026-11-16
+author: Biswajit Jana
+status: executed
+question: Do internally stable DR4 Balmer diagnostics persist in DJA, and what independent telescope catalogue context is available?
+selection:
+  fixed_dja_targets: [goods-n-mediumjwst_66336, goods-n-mediumjwst_89464, goods-s-mediumjwst_10009106, goods-n-mediumhst_25734]
+  catalogue_targets: Twelve records from the previous DR4 Balmer queue
+  photometry_radius_arcsec: 0.3
+  xray_radius_arcsec: 2.0
+  raw_storage_budget_MiB: 4096
+commands:
+  - python scripts/download_multiwavelength_context.py
+  - python scripts/download_chandra_mirror.py
+  - python scripts/check_balmer_dja_reductions.py
+  - python scripts/analyse_multiwavelength_context.py
+  - python scripts/build_multiwavelength_report.py
+results:
+  dja_products: 6
+  dja_dr4_core_attempts: 72
+  usable_cores: 60
+  photometric_catalogue_rows_searched: 88786
+  xray_main_catalogue_rows_searched: 1691
+  targets_with_photometric_candidates: 8
+  targets_with_xray_candidates: 0
+  signed_valid_photometric_band_rows: 74
+  negative_valid_photometric_fluxes: 17
+  physical_classification: NOT_ESTABLISHED
+interpretation:
+  - GN-66336 and GS-10009106 extreme DR4 ratios are not reproduced at the same values in DJA.
+  - GN-89464 retains elevated Hgamma/Hbeta cores; physical origin remains unresolved.
+  - GN-25734 remains a nod/coverage-sensitive control.
+  - Catalogue neighbours are candidates, not merged identities.
+  - No source-specific X-ray upper limit was measured.
+failures_preserved:
+  - CDS Chandra endpoints timed out; NASA HEASARC mirror succeeded.
+  - HEASARC csv format returned an error document; rejected by validation and replaced by VOTable.
+  - Initial local script runs failed on missing queue hb_filter and pandas flags attribute; corrected before final execution.
+limitations:
+  - Released reductions share observations; differences are not independent significance tests.
+  - No raw exposure reprocessing, transfer modelling, or exposure-dependent X-ray limits.
+  - Two displayed low-redshift photometric candidates carry contamination and extraction flags.
+  - New target count is not added to prior search counts.
+outputs:
+  - reports/multiwavelength_validation.md
+  - results/multiwavelength/
+  - figures/multiwavelength/
+  - paper/jwst_cosmic_anomaly_lab.tex
+  - output/pdf/jwst_cosmic_anomaly_lab.pdf

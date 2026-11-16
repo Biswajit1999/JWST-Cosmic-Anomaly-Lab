@@ -1,0 +1,23 @@
+{
+  "executed_utc": "2026-11-16T08:19:11.978136+00:00",
+  "target_records": 4,
+  "products": 6,
+  "core_attempts": 72,
+  "measured_cores": 60,
+  "script_sha256": "e13dabb7a444f62d6e2549a04e28cd6120669de52490c671c15c62d1270d5449",
+  "raw_storage_budget_bytes": 4294967296,
+  "flux_unit": "1e-20 erg/s/cm2",
+  "analysis_wavelength_range_um": [
+    0.6,
+    5.5
+  ],
+  "input_hash_convention": "Raw bytes for gzip; canonical UTF-8/LF for repository text",
+  "input_sha256": {
+    "data/catalogues/observations.csv.gz": "ff168abd54780217cbe04482629f63ba315441c9c5a3535550e745a5072a17fc",
+    "results/jades_balmer_census/followup_queue.csv": "f1be9b940ff669ba84d719c9bafe27566ab39613f7946a130262e69a1b8f3889",
+    "results/jades_balmer_census/aperture_measurements.csv.gz": "968ec7f3f12c03b509920bfcd0c7c47336d1b61027ddb4000cb52af3067fe3b0",
+    "results/jades_balmer_census/spectral_products.json": "49c7d085870f02fa13ec7d3c08b491e85d90cfda73e8d918ec521c34def89e82"
+  },
+  "independent_photons": false,
+  "physical_classification": "NOT_ESTABLISHED"
+}

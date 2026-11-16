@@ -1,0 +1,25 @@
+{
+  "executed_utc": "2026-11-16T08:00:01.817981+00:00",
+  "products": [
+    {
+      "table": "cdfn2msnew",
+      "query": "SELECT * FROM cdfn2msnew WHERE source_sample='Main'",
+      "expected_rows": 683,
+      "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+%2A+FROM+cdfn2msnew+WHERE+source_sample%3D%27Main%27&MAXREC=5000",
+      "status": "VERIFIED",
+      "rows": 683,
+      "path": "data/raw/ancillary/cdfn2msnew.xml",
+      "sha256": "01f68dd49ba0bfd8b6600a6bff07dee5bb94fcf3d13665a8c365c15825a5f579"
+    },
+    {
+      "table": "chandfs7ms",
+      "query": "SELECT * FROM chandfs7ms WHERE source_sample='M'",
+      "expected_rows": 1008,
+      "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+%2A+FROM+chandfs7ms+WHERE+source_sample%3D%27M%27&MAXREC=5000",
+      "status": "VERIFIED",
+      "rows": 1008,
+      "path": "data/raw/ancillary/chandfs7ms.xml",
+      "sha256": "b2d821ece9bfe4576f119a2a34626ff5d6f4121886625354cbe50eb52fa1dd5e"
+    }
+  ]
+}

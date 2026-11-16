@@ -1,0 +1,33 @@
+{
+  "executed_utc": "2026-11-16T08:02:54.942363+00:00",
+  "target_records": 12,
+  "catalogue_rows": {
+    "GN": {
+      "photometric_records": 38279,
+      "xray_records": 683
+    },
+    "GS": {
+      "photometric_records": 50507,
+      "xray_records": 1008
+    }
+  },
+  "photometric_radius_arcsec": 0.3,
+  "xray_radius_arcsec": 2.0,
+  "targets_with_photometric_candidates": 8,
+  "targets_with_xray_candidates": 0,
+  "photometric_neighbour_records": 8,
+  "photometric_band_rows": 88,
+  "valid_signed_band_rows": 74,
+  "display_usable_band_rows": 65,
+  "negative_valid_flux_rows": 17,
+  "association_is_confirmed_identity": false,
+  "xray_upper_limits_measured": false,
+  "physical_classification": "NOT_ESTABLISHED",
+  "input_sha256": {
+    "data/raw/ancillary/goodsn_3dhst.v4.1.cats.tar.gz": "642f1abdfa5d2cbd3a32766a4ed7999e9d0762bc26519981d72ed810a805aa86",
+    "data/raw/ancillary/cdfn2msnew.xml": "01f68dd49ba0bfd8b6600a6bff07dee5bb94fcf3d13665a8c365c15825a5f579",
+    "data/raw/ancillary/goodss_3dhst.v4.1.cats.tar.gz": "57a05ea597c0d3fffc8f89214dd3e702d483364a9bfb4421ec06c470b81d9c08",
+    "data/raw/ancillary/chandfs7ms.xml": "b2d821ece9bfe4576f119a2a34626ff5d6f4121886625354cbe50eb52fa1dd5e"
+  },
+  "script_sha256": "6f8ca51f2be00ac2da8e27193a84f7385deb0bb23b666667896a933a81df785b"
+}
