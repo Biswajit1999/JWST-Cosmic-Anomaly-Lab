@@ -1,0 +1,45 @@
+{
+  "executed_utc": "2026-11-16T19:32:47.492107+00:00",
+  "products": [
+    {
+      "dr4_id": "goods-n-mediumjwst_89464",
+      "ra": 189.18658160712423,
+      "dec": 62.270907698694735,
+      "z": 6.724704386327296,
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.18658160712423&dec=62.270907698694735&size=3&filters=f150w-clear,f277w-clear,f444w-clear&output=fits_weight",
+      "path": "data/raw/images/balmer_89464.fits",
+      "sha256": "b853a989c1401ec34cf454dd01712d7040409f2a08e46b82a3e745a4521c0883",
+      "status": "DOWNLOADED"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_66336",
+      "ra": 189.25929368242478,
+      "dec": 62.23546084528019,
+      "z": 7.138649047312444,
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.25929368242478&dec=62.23546084528019&size=3&filters=f150w-clear,f277w-clear,f444w-clear&output=fits_weight",
+      "path": "data/raw/images/balmer_66336.fits",
+      "sha256": "3b7d9df68ec06226f334f503a89944c82ef3a8a2d9298b646823ea232c13dc2e",
+      "status": "DOWNLOADED"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_10009106",
+      "ra": 53.1775273,
+      "dec": -27.7685922,
+      "z": 1.555946871741469,
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=53.1775273&dec=-27.7685922&size=3&filters=f150w-clear,f277w-clear,f444w-clear&output=fits_weight",
+      "path": "data/raw/images/balmer_10009106.fits",
+      "sha256": "28d1fe64cf392335d6c206f0ee8d0ddd0c62ce31d8cd5bedecb600f2b1b555ee",
+      "status": "DOWNLOADED"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_25734",
+      "ra": 189.02483737582097,
+      "dec": 62.26128165999981,
+      "z": 1.796799551302305,
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.02483737582097&dec=62.26128165999981&size=3&filters=f150w-clear,f277w-clear,f444w-clear&output=fits_weight",
+      "path": "data/raw/images/balmer_25734.fits",
+      "sha256": "2498d3347c54802bf33d6c7e9512f14d70e4d07d96c89a2904c8a443310c0948",
+      "status": "DOWNLOADED"
+    }
+  ]
+}

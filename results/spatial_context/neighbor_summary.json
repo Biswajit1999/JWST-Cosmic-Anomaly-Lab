@@ -1,0 +1,11 @@
+{
+  "executed_utc": "2026-11-16T19:45:05.507809+00:00",
+  "input_sha256": {
+    "data/raw/followup/jades-gdn11-v4_g395m-f290lp_1181_89464.spec.fits": "9ba4dad4fdea380c8c1c3eca670230797e6208aa8bd31e1580128c964f7f0d0e",
+    "data/raw/followup/jades-gdn2-v4_g395m-f290lp_1181_38432.spec.fits": "0153d0269ca0e890189495234afe356f06fb00fe4c44e5fc3bd8be31bd6a56b2"
+  },
+  "script_sha256": "a9a5059c63ccadf70a86c2608eacfe394e58f653c1742cba0d687d94ca1c1271",
+  "physical_association": "NOT_ESTABLISHED",
+  "psf_contamination_quantified": false,
+  "raw_detector_reduction": false
+}

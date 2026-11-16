@@ -4,6 +4,27 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Actual images and a parallel exoplanet programme: 16 November 2026
+
+The [spatial follow-up](reports/spatial_context.md) adds actual NIRCam images
+for four targets. GN-89464 has a nearby distinct catalogue source, GN-38432,
+whose hydrogen-line ratio is ordinary in the same measurement test. Their
+centroids lie outside each other's released slit polygons; PSF contamination
+and physical association remain unquantified.
+
+The [first exoplanet pilot](reports/exoplanet_pilot.md) searches 24 Kepler
+light curves from eleven search stars and one known control. TrES-2 is recovered;
+no new planet is validated. Three synthetic injections are recovered, but a
+control failure shows that automatic odd/even vetting needs calibration.
+A published JWST spectrum of WASP-39 b supplies an atmospheric benchmark,
+with explicit literature-derived physical properties and no new abundance claim.
+
+![Actual source images and slit geometry](figures/spatial_context/gn89464_neighbor.png)
+
+- [Actual Kepler host-star image](figures/exoplanet_pilot/tres2_observed_pixels.png)
+- [JWST atmospheric spectrum](figures/exoplanet_pilot/wasp39_atmosphere.png)
+- [Execution ledger](experiments/parallel_research.yaml)
+
 ## Additional gratings and a quality correction: 16 November 2026
 
 The [GN-89464 follow-up](reports/gn89464_continuum.md) adds G235M/G395H spectra

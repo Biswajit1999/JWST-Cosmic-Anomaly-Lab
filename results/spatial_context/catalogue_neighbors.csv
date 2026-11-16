@@ -1,0 +1,3 @@
+target,neighbor,ra,dec,separation_arcsec,neighbor_z,neighbor_z_flag,target_z,small_dz_velocity_proxy_kms,neighbor_nircam_dr5_id,projected_kpc_if_at_target_z,physical_association
+goods-n-mediumjwst_89464,goods-n-mediumhst_27359,189.18595364570396,62.270324763968475,2.347428315697461,2.6100615470340056,A,6.724704386327296,,1107235,12.836193239468825,NOT_ESTABLISHED
+goods-n-mediumjwst_89464,goods-n-mediumhst_38432,189.18617000457152,62.27086361455187,0.7074850323143986,6.7170105817648125,A,6.724704386327296,-298.5932491140044,1089452,3.8686653509677993,NOT_ESTABLISHED

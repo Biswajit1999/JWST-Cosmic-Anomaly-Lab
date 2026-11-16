@@ -1,0 +1,468 @@
+{
+  "executed_utc": "2026-11-16T19:45:00.223209+00:00",
+  "products": [
+    {
+      "dr4_id": "goods-n-mediumjwst_89464",
+      "ra": 189.18658160712423,
+      "dec": 62.270907698694735,
+      "z": 6.724704386327296,
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.18658160712423&dec=62.270907698694735&size=3&filters=f150w-clear,f277w-clear,f444w-clear&output=fits_weight",
+      "path": "data/raw/images/balmer_89464.fits",
+      "sha256": "b853a989c1401ec34cf454dd01712d7040409f2a08e46b82a3e745a4521c0883",
+      "status": "DOWNLOADED",
+      "image_details": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 5.582598969340325e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7059520159344657e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 6.080457475036383e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7059520159344657e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 1.9078272162005307e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7059520159344657e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.004697549512290073,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.07197778405097778,
+            "diagonal_error_uJy": 0.003098474190156851,
+            "sn": 23.230073782649168,
+            "upper_limit_3sigma_uJy": 0.08127320662144834,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00012281490489840508,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.07839283667504787,
+            "diagonal_error_uJy": 0.0012367448584014568,
+            "sn": 63.38642618362999,
+            "upper_limit_3sigma_uJy": 0.08210307125025225,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00016774123534560203,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.05381474142428488,
+            "diagonal_error_uJy": 0.0019730619919735466,
+            "sn": 27.274734216767776,
+            "upper_limit_3sigma_uJy": 0.059733927400205514,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 8.960206992924214e-05,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "catalog_neighbors_within_3arcsec": 2
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_66336",
+      "ra": 189.25929368242478,
+      "dec": 62.23546084528019,
+      "z": 7.138649047312444,
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.25929368242478&dec=62.23546084528019&size=3&filters=f150w-clear,f277w-clear,f444w-clear&output=fits_weight",
+      "path": "data/raw/images/balmer_66336.fits",
+      "sha256": "3b7d9df68ec06226f334f503a89944c82ef3a8a2d9298b646823ea232c13dc2e",
+      "status": "DOWNLOADED",
+      "image_details": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -4.1396790184080604e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7465752180209444e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -5.153797101229429e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7465752180209444e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -2.4983658222481607e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7465752180209444e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.001753844008113542,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.03235390196176013,
+            "diagonal_error_uJy": 0.0027479515906622923,
+            "sn": 11.773825300162006,
+            "upper_limit_3sigma_uJy": 0.040597756733747006,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -3.4683142439462243e-06,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.02265062062913785,
+            "diagonal_error_uJy": 0.001722179290834909,
+            "sn": 13.152301127809332,
+            "upper_limit_3sigma_uJy": 0.027817158501642576,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -4.001736670034006e-06,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.041820898627120184,
+            "diagonal_error_uJy": 0.0012737422052254879,
+            "sn": 32.83309484097429,
+            "upper_limit_3sigma_uJy": 0.04564212524279665,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.923089264892042e-05,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "catalog_neighbors_within_3arcsec": 0
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_10009106",
+      "ra": 53.1775273,
+      "dec": -27.7685922,
+      "z": 1.555946871741469,
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=53.1775273&dec=-27.7685922&size=3&filters=f150w-clear,f277w-clear,f444w-clear&output=fits_weight",
+      "path": "data/raw/images/balmer_10009106.fits",
+      "sha256": "28d1fe64cf392335d6c206f0ee8d0ddd0c62ce31d8cd5bedecb600f2b1b555ee",
+      "status": "DOWNLOADED",
+      "image_details": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 6.819310830906033e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3130794519192355e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 6.540361791849137e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3130794519192355e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 5.4647633805871014e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3130794519192355e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.012722705940622673,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.4119972971919924,
+            "diagonal_error_uJy": 0.000977160322735922,
+            "sn": 421.6271246446576,
+            "upper_limit_3sigma_uJy": 0.4149287781602002,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00011791185475885868,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.4058050709031522,
+            "diagonal_error_uJy": 0.0008298077498666925,
+            "sn": 489.0350457299829,
+            "upper_limit_3sigma_uJy": 0.40829449415275226,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00013738526031374933,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.3705469614081085,
+            "diagonal_error_uJy": 0.0008837270509964495,
+            "sn": 419.3002364138305,
+            "upper_limit_3sigma_uJy": 0.37319814256109785,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00011453850194811821,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "catalog_neighbors_within_3arcsec": 0
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_25734",
+      "ra": 189.02483737582097,
+      "dec": 62.26128165999981,
+      "z": 1.796799551302305,
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.02483737582097&dec=62.26128165999981&size=3&filters=f150w-clear,f277w-clear,f444w-clear&output=fits_weight",
+      "path": "data/raw/images/balmer_25734.fits",
+      "sha256": "2498d3347c54802bf33d6c7e9512f14d70e4d07d96c89a2904c8a443310c0948",
+      "status": "DOWNLOADED",
+      "image_details": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 0.00017663894221186637,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.691435632690995e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 8.270297665148974e-05,
+            "valid_fraction": 0.9604861111111112,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.691435632690995e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 7.373484317213297e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.691435632690995e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.004169760250920964,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.20364540392998606,
+            "diagonal_error_uJy": 0.008702229487362033,
+            "sn": 23.401520751174594,
+            "upper_limit_3sigma_uJy": 0.22975209239207217,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0004837731271982193,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.10565665273927152,
+            "diagonal_error_uJy": 0.005391733376788217,
+            "sn": 19.59604553039115,
+            "upper_limit_3sigma_uJy": 0.12183185286963617,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0003030778374522924,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.07819396083708852,
+            "diagonal_error_uJy": 0.004383612111651743,
+            "sn": 17.837791949987352,
+            "upper_limit_3sigma_uJy": 0.09134479717204375,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.00020444075576961043,
+            "n_aperture_pixels": 115,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "catalog_neighbors_within_3arcsec": 0
+    }
+  ],
+  "catalog_sha256": "4b4e7fd4306208ee801406c7ed73fdab895a2e67184af7f639a91e5f9c8ab7d4",
+  "script_sha256": "3050ced50cf5fb19925be852052a9a2c39308a9b1e8e3f7c78b7989b1b3f8449",
+  "image_reader_sha256": "f14948bb92110b4e33f7996311aba4b3ca06613b0eab631e73544a4f037381e8",
+  "separation_method": "Spherical coordinates, 0.1 < separation <= 3 arcsec; no automatic merging",
+  "cosmology": "Astropy Planck18; projected distances conditional on target redshift",
+  "morphology_or_blending_measured": false,
+  "physical_classification": "NOT_ESTABLISHED"
+}

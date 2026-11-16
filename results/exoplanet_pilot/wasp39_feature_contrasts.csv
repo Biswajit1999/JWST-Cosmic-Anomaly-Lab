@@ -1,0 +1,3 @@
+reference,band_bins,continuum_bins,excess_ppm,diagonal_error_ppm,formal_contrast,molecule_detection_significance
+reference_A,38,40,805.096839521912,54.468684236492216,14.780912203172402,False
+reference_B,38,23,812.7236316766811,67.25259142262924,12.084644093033637,False

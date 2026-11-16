@@ -1,0 +1,14 @@
+{
+  "executed_utc": "2026-11-16T19:51:18.164873+00:00",
+  "released_spectral_bins": 344,
+  "source_doi": "10.5281/zenodo.7185300",
+  "archive_member": "G395H_paper_data/3_TRANSMISSION_SPECTRA/transit-spectrum-W39b-G395H-10pix_weighted-average.nc",
+  "raw_sha256": "69e5c5824c34170d115f5435fa931d6189632e6d61eb5a6d7759eacdbc601f8b",
+  "script_sha256": "fbd8a6be0dd0401fed2e86f50a52b5d985a26e83f9e623e68e185606e20f0d22",
+  "hdf_declared_depth_units": "(R_jup*R_jup)/(R_sun*R_sun)",
+  "depth_convention": "Fractional depth verified against release notebook percent plotting; no Rjup/Rsun conversion",
+  "unit_metadata_ambiguity_documented": true,
+  "covariance_supplied": false,
+  "chemical_identification": "Published attribution of 4.3 micron feature to CO2; this test measures only band contrast",
+  "known_benchmark": true
+}

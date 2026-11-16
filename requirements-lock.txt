@@ -19,6 +19,7 @@ contourpy==1.4.0
 cycler==0.12.1
 fonttools==4.68.0
 gwcs==1.0.3
+h5py==3.16.0
 html5lib==1.1
 idna==3.20
 iniconfig==2.3.1

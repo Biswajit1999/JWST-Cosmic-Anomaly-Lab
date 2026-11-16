@@ -1,0 +1,7 @@
+{
+  "path": "data/raw/exoplanets/kplr011446443-2009259160929_lpd-targ.fits.gz",
+  "sha256": "d5bd6296a735e9cfe87c095c8aa7b9ca51fe2c944b11848b72117d89322b25d2",
+  "url": "https://archive.stsci.edu/missions/kepler/target_pixel_files/0114/011446443/kplr011446443-2009259160929_lpd-targ.fits.gz",
+  "kic": 11446443,
+  "quarter": 2
+}

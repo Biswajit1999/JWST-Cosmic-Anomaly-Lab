@@ -1,0 +1,27 @@
+{
+  "executed_utc": "2026-11-16T19:50:41.791270+00:00",
+  "script_sha256": "6f2a774583439dc4430fe706dc1a7a5dc304df32829e87f609b877e0695e0e99",
+  "control_event_scatter_odd_even_contrast": 0.603576526200142,
+  "control_original_box_odd_even_contrast": 40.40830239810203,
+  "empirical_diagnostic_is_not_validated_replacement": true,
+  "known_candidate": {
+    "kic": 11446424,
+    "koi": "K08223.01",
+    "disposition": "CANDIDATE",
+    "period_days": 66.716453,
+    "duration_days": 0.160625,
+    "epoch_bkjd": 150.0569,
+    "catalogue_candidate_radius_earth": 2.2,
+    "targeted_measurement": {
+      "depth": 0.0008561329459714218,
+      "error": 0.00017764232533644639,
+      "in_points": 16,
+      "status": "MEASURED"
+    },
+    "targeted_snr": 4.819419833364292,
+    "extended_scan_max_period": 57.94891059353869,
+    "extended_scan_max_snr": 6.0492933325577045,
+    "selection": "Follow-up after catalogue inspection, not blind discovery",
+    "validated": false
+  }
+}

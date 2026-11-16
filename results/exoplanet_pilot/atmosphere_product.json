@@ -1,0 +1,8 @@
+{
+  "path": "data/raw/exoplanets/G395H_paper_data.zip",
+  "sha256": "69e5c5824c34170d115f5435fa931d6189632e6d61eb5a6d7759eacdbc601f8b",
+  "url": "https://zenodo.org/api/records/7185300/files/G395H_paper_data.zip/content",
+  "published_checksum": "md5:01bee83308bc530a8f65a0453961d4b2",
+  "doi": "10.5281/zenodo.7185300",
+  "role": "known_planet_benchmark_not_discovery"
+}

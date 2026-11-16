@@ -1,0 +1,235 @@
+{
+  "executed_utc": "2026-11-16T19:36:58.080112+00:00",
+  "products": [
+    {
+      "kic": 11446443,
+      "role": "known_control",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446443/kplr011446443-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446443-2009259160929_llc.fits",
+      "sha256": "6d41c0b2a8784c922789c5ceb53258b795d7b220c6026ff514d86c81dde65e83"
+    },
+    {
+      "kic": 11446443,
+      "role": "known_control",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446443/kplr011446443-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446443-2009350155506_llc.fits",
+      "sha256": "b32babd8db6d2e272e0cc4c432c1f4dac31c3b95c08e7388306bc3a759ec7d1d"
+    },
+    {
+      "kic": 11446440,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446440/kplr011446440-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446440-2009259160929_llc.fits",
+      "sha256": "608c71c459d60776199256cda77e876680e94b1af9a1fc4288ee96ccb4ffdb55"
+    },
+    {
+      "kic": 11446440,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446440/kplr011446440-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446440-2009350155506_llc.fits",
+      "sha256": "5a4352058d6b8978ccd12a529d938283b1cc2f0b931ac51209d935220a8d738e"
+    },
+    {
+      "kic": 11446449,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446449/kplr011446449-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446449-2009259160929_llc.fits",
+      "sha256": "0235e78cc31a1cf3d7f860bb609f85d5b1e1e6d379039d0e0cc0a69ed9351f3c"
+    },
+    {
+      "kic": 11446449,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446449/kplr011446449-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446449-2009350155506_llc.fits",
+      "sha256": "14a149fe6ffae59cd56bad4617d8ea3082edc29b78104e259303644cdfa962f7"
+    },
+    {
+      "kic": 11446455,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446455/kplr011446455-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446455-2009259160929_llc.fits",
+      "sha256": "88f1f79d5532fc083f9a6bd92267887e9cb8c8fc7de92450e8b3b7df814b373e"
+    },
+    {
+      "kic": 11446455,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446455/kplr011446455-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446455-2009350155506_llc.fits",
+      "sha256": "592f43ba5528f9764fa190ab6f887944adcf89abeb11055266c3bd21cb2bd495"
+    },
+    {
+      "kic": 11446456,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446456/kplr011446456-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446456-2009259160929_llc.fits",
+      "sha256": "7145e9f1b26d8c0e70efc90a0e5641b3ae42b3bfcf50326ffbc3958e72c7ddb8"
+    },
+    {
+      "kic": 11446456,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446456/kplr011446456-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446456-2009350155506_llc.fits",
+      "sha256": "03875027add64b7e2544da19437884feee5dbfb56c0d9b1f88f8e5908d7dbd6b"
+    },
+    {
+      "kic": 11446458,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446458/kplr011446458-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446458-2009259160929_llc.fits",
+      "sha256": "41c558144ca77b15c4a79c60be4f41cc7635afe29b37e421dedefeb37d8363b9"
+    },
+    {
+      "kic": 11446458,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446458/kplr011446458-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446458-2009350155506_llc.fits",
+      "sha256": "48dee7e329a7d54d3974f692e6ae7cb930f72f695f7d4ed394a58f74e27d86a0"
+    },
+    {
+      "kic": 11446424,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446424/kplr011446424-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446424-2009259160929_llc.fits",
+      "sha256": "3eb941b1d0c732d700d2941947ea75c46752d24310f39a517cfb738dbfd71e66"
+    },
+    {
+      "kic": 11446424,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446424/kplr011446424-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446424-2009350155506_llc.fits",
+      "sha256": "2fed37cdf3f285322bf4f34f27aef2f8497f14e6580e15197a5c6df1eb917fb3"
+    },
+    {
+      "kic": 11446422,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446422/kplr011446422-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446422-2009259160929_llc.fits",
+      "sha256": "c3edc022d989508b64237fe79764695bd5affdfb36086060a88a07ffba4165c6"
+    },
+    {
+      "kic": 11446422,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446422/kplr011446422-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446422-2009350155506_llc.fits",
+      "sha256": "1871ff2d641fb19181c9b3430dd8a7c675d8e7d36acf235815f8c71dbc68a71d"
+    },
+    {
+      "kic": 11446478,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446478/kplr011446478-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446478-2009259160929_llc.fits",
+      "sha256": "dc5c9b98c26a452662f1bb4e7760f541f406f04b94c7fa5c4adfda11bca218e6"
+    },
+    {
+      "kic": 11446478,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446478/kplr011446478-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446478-2009350155506_llc.fits",
+      "sha256": "f98926a8dd3ef57487c2996aeb33de3035047ffc06cb1fa5257d09c10c7d1fd9"
+    },
+    {
+      "kic": 11446484,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446484/kplr011446484-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446484-2009259160929_llc.fits",
+      "sha256": "c55d2eb14ba7e8871c4068f99755c45208dce158d8fbecb291fcb90c651a70e4"
+    },
+    {
+      "kic": 11446484,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446484/kplr011446484-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446484-2009350155506_llc.fits",
+      "sha256": "246079e1835a8e77a1a99affb6dea8468435ada8ae8e71a61dd7f770e491e1d1"
+    },
+    {
+      "kic": 11446401,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446401/kplr011446401-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446401-2009259160929_llc.fits",
+      "sha256": "35738337063fc08ffab1fda8c43e7de311690a0265f4ab4984dde3d14a3db9a6"
+    },
+    {
+      "kic": 11446401,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446401/kplr011446401-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446401-2009350155506_llc.fits",
+      "sha256": "50e2c97b2daf9a326482166d6570cf4c8eec2d2a26fb179606f9ae0659b0ee95"
+    },
+    {
+      "kic": 11446398,
+      "role": "search",
+      "quarter": 2,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446398/kplr011446398-2009259160929_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446398-2009259160929_llc.fits",
+      "sha256": "8d2769a698b7c53cbe459fd0b3e8933083f545e2110536302f98e50f5deaa624"
+    },
+    {
+      "kic": 11446398,
+      "role": "search",
+      "quarter": 3,
+      "status": "DOWNLOADED",
+      "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011446398/kplr011446398-2009350155506_llc.fits",
+      "path": "data/raw/exoplanets/kplr011446398-2009350155506_llc.fits",
+      "sha256": "8b89b317945c97add7d918fc9271f748998bb2e4ff3ec5b50b556e6f0a37e997"
+    },
+    {
+      "kic": 11446387,
+      "role": "search",
+      "quarter": 2,
+      "status": "UNAVAILABLE",
+      "reason": "No unique listed long-cadence product for fixed quarter"
+    },
+    {
+      "kic": 11446387,
+      "role": "search",
+      "quarter": 3,
+      "status": "UNAVAILABLE",
+      "reason": "No unique listed long-cadence product for fixed quarter"
+    }
+  ]
+}

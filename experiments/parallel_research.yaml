@@ -1,0 +1,35 @@
+experiment: spatial-context-and-exoplanet-pilot-2026-11-16
+status: executed
+author: Biswajit Jana
+prior_snapshot: 425b76d
+scope:
+  galaxy: Four actual NIRCam image products plus a GN-38432 spectrum and slit geometry
+  transit: Fixed twelve-star numerical-ID sample plus TrES-2 control; Kepler Q2/Q3
+  atmosphere: Published WASP-39 b JWST/NIRSpec G395H benchmark
+commands:
+  - python scripts/download_spatial_context.py
+  - python scripts/analyse_spatial_context.py
+  - python scripts/analyse_neighbor_spectra.py
+  - python scripts/download_exoplanet_pilot.py
+  - python scripts/analyse_exoplanet_pilot.py
+  - python scripts/check_transit_recovery.py
+  - python scripts/audit_transit_controls.py
+  - python scripts/image_kepler_control.py
+  - python scripts/analyse_atmosphere_benchmark.py
+  - python scripts/verify_parallel_research.py
+limitations:
+  - Different source IDs are not merged by proximity.
+  - Released slit polygons are not complete wavelength-dependent PSF or nod models.
+  - Kepler screen is not a validated classifier; the known control exposes an odd/even false rejection.
+  - No new planets or black-hole stars validated.
+  - Three synthetic injections are not a completeness or false-alarm calibration.
+  - Known 66.7-day KOI follow-up occurred after catalogue inspection.
+  - Atmospheric chemistry is published interpretation; this analysis measures only a band contrast.
+  - TESS and K2 not yet analysed.
+outputs:
+  - reports/spatial_context.md
+  - reports/exoplanet_pilot.md
+  - results/spatial_context/
+  - results/exoplanet_pilot/
+  - figures/spatial_context/
+  - figures/exoplanet_pilot/

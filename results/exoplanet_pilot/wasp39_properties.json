@@ -1,0 +1,27 @@
+{
+  "source": "NASA Exoplanet Archive composite snapshot; heterogeneous literature measurements",
+  "retrieved_parameters": {
+    "pl_name": "WASP-39 b",
+    "hostname": "WASP-39",
+    "pl_orbper": 4.0552941,
+    "pl_orbpererr1": 3.4e-06,
+    "pl_orbpererr2": -3.4e-06,
+    "pl_radj": 1.279,
+    "pl_radjerr1": 0.04,
+    "pl_radjerr2": -0.04,
+    "pl_bmassj": 0.281,
+    "pl_bmassjerr1": 0.032,
+    "pl_bmassjerr2": -0.032,
+    "pl_eqt": 1166.0,
+    "st_teff": 5485.0,
+    "st_rad": 0.939,
+    "sy_dist": 213.982
+  },
+  "density_g_cm3": 0.1665552989163037,
+  "density_diagonal_error": 0.024575367820063677,
+  "gravity_m_s2": 4.257756085584058,
+  "gravity_diagonal_error": 0.5531935883219066,
+  "independence_of_mass_radius_errors_assumed": true,
+  "new_abundances_retrieved": false,
+  "new_planet_discovered": false
+}

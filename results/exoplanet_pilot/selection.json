@@ -1,0 +1,25 @@
+{
+  "executed_utc": "2026-11-16T19:35:50.755029+00:00",
+  "known_control": 11446443,
+  "search_targets": [
+    11446440,
+    11446449,
+    11446455,
+    11446456,
+    11446458,
+    11446424,
+    11446422,
+    11446478,
+    11446484,
+    11446401,
+    11446398,
+    11446387
+  ],
+  "method": "Twelve nearest numerical KIC IDs to control in fixed 0114 directory; not angular neighbours",
+  "quarters_requested": [
+    2,
+    3
+  ],
+  "selection_before_lightcurve_or_KOI_inspection": true,
+  "directory_sha256": "1fe4471c8e55e8caeed7ca71c05def2b6322d0b5c200244da82b1d857237bd5e"
+}

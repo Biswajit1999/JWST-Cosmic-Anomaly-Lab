@@ -1,0 +1,8 @@
+{
+  "executed_utc": "2026-11-16T19:45:29.807590+00:00",
+  "injections": 3,
+  "recovered": 3,
+  "script_sha256": "b72ec09cca0bc6aed5bb1d58736e5d82ae2d698bec5a8ea667c5838de3e0806f",
+  "module_sha256": "444227b0147ef60ec2829b1a5821efd03fb07fb1d80d498fa29b38e416ab2e9d",
+  "full_completeness_or_false_alarm_calibration": false
+}
