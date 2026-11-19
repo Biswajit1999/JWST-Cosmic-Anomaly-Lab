@@ -65,6 +65,16 @@ The [GLIMPSE-17775 study](https://arxiv.org/abs/2511.07515) is a separate benchm
 
 ## Reproduction and limitations
 
+To reproduce just the four-target spectral comparison from a clean checkout,
+install the project and run these commands. The subset contains six DJA and
+six JADES DR4 FITS files. Each download is checked against its recorded hash.
+
+```bash
+python -m pip install -e .
+python scripts/replay_manifest.py --balmer-comparison --budget-mib 100
+python scripts/check_balmer_dja_reductions.py
+```
+
 Run the five scripts listed in `experiments/multiwavelength_validation.yaml`.
 Raw URLs, SHA256 values, retrieval failures and measurements are retained in
 `results/multiwavelength/` and `data/manifests/downloads.json`. The original full

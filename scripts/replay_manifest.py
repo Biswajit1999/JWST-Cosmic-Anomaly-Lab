@@ -18,7 +18,25 @@ parser.add_argument(
     default=4096,
     help="Finite raw-data cap; expanded search requires about 2 GiB",
 )
+parser.add_argument(
+    "--balmer-comparison",
+    action="store_true",
+    help="Restore only the published DJA/DR4 inputs for the four-target Balmer comparison.",
+)
 args = parser.parse_args()
+if args.balmer_comparison:
+    dja = json.loads((root / "results/multiwavelength/dja_products.json").read_text())
+    dr4 = json.loads((root / "results/jades_balmer_census/spectral_products.json").read_text())
+    target_ids = {record["dr4_id"] for record in dja}
+    inputs = dja + [record for record in dr4 if record["dr4_id"] in target_ids
+                    and record["status"] == "DOWNLOADED"]
+    selected = {}
+    for item in inputs:
+        record = latest[item["path"]]
+        if record["sha256"] != item["sha256"]:
+            raise ValueError(f"Conflicting checksum receipts for {item['path']}")
+        selected[item["path"]] = record
+    latest = selected
 cache = DownloadCache(root, budget_bytes=args.budget_mib * 1024**2)
 for r in latest.values():
     name = Path(r["path"]).relative_to("data/raw").as_posix()
