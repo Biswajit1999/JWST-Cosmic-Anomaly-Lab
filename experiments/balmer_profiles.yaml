@@ -1,0 +1,17 @@
+experiment: empirical-balmer-profile-comparison-2026-11-21
+status: executed
+prior_snapshot: 8ef1b4a
+command: python scripts/analyse_balmer_profile_comparison.py
+inputs: Six fingerprinted spectra from the previous grating and neighbour studies
+grid:
+  windows_kms: [2400, 3000]
+  continuum_orders: [0, 1]
+  kinematics: [shared, free]
+limitations:
+  - Empirical observed widths without LSF deconvolution
+  - Diagonal errors and shared observations across reductions
+  - Physical mechanism remains unresolved
+outputs:
+  - reports/balmer_profiles.md
+  - results/balmer_profiles/
+  - figures/balmer_profiles/
