@@ -1,0 +1,8 @@
+{
+  "executed_utc": "2026-11-21T20:20:59.601131+00:00",
+  "script_sha256": "7b619e7248f1e300c6df443c3ae2e84b52b51d9802d0bce83c707eeba829f747",
+  "event_sha256": "0bfed193d7e9980367cb87d8e38ab222d0dce1d892c05bb39de239dddc15c148",
+  "replicating_observed_targets": 1,
+  "rows": 42,
+  "limitations": "Overlapping omissions are sensitivity checks and share observations. Quarter modulo four is a roll-season proxy."
+}

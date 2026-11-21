@@ -1,0 +1,62 @@
+{
+  "executed_utc": "2026-11-21T20:21:27.883386+00:00",
+  "quarter": 10,
+  "product": {
+    "url": "https://archive.stsci.edu/missions/kepler/target_pixel_files/0114/011455181/kplr011455181-2011271113734_lpd-targ.fits.gz",
+    "path": "data/raw/exoplanets/kplr011455181-2011271113734_lpd-targ.fits.gz",
+    "sha256": "6e6f2776149f4f7590f0b2bdf410cf889355982b930d8e158526057348c84723"
+  },
+  "script_sha256": "ae3b3c4976952cbc8a698f1e17d4783803ef667c6e27f212ab3712a228b1be2c",
+  "comparison_cadences": [
+    {
+      "cycle": 71,
+      "group": "Alias-selected transits",
+      "midpoint_bkjd": 917.4965864999999,
+      "in_cadences": 12
+    },
+    {
+      "cycle": 72,
+      "group": "Other published transits",
+      "midpoint_bkjd": 928.426068,
+      "in_cadences": 11
+    },
+    {
+      "cycle": 73,
+      "group": "Other published transits",
+      "midpoint_bkjd": 939.3555495,
+      "in_cadences": 12
+    },
+    {
+      "cycle": 74,
+      "group": "Alias-selected transits",
+      "midpoint_bkjd": 950.2850309999999,
+      "in_cadences": 11
+    },
+    {
+      "cycle": 75,
+      "group": "Other published transits",
+      "midpoint_bkjd": 961.2145125,
+      "in_cadences": 11
+    },
+    {
+      "cycle": 76,
+      "group": "Other published transits",
+      "midpoint_bkjd": 972.143994,
+      "in_cadences": 11
+    },
+    {
+      "cycle": 77,
+      "group": "Alias-selected transits",
+      "midpoint_bkjd": 983.0734754999999,
+      "in_cadences": 11
+    },
+    {
+      "cycle": 78,
+      "group": "Other published transits",
+      "midpoint_bkjd": 994.0029569999999,
+      "in_cadences": 12
+    }
+  ],
+  "selection": "Earliest later quarter with highest count of usable alias events",
+  "quantitative_centroid_or_blend_exclusion": false
+}

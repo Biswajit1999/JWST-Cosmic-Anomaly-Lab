@@ -4,6 +4,15 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Transit discovery search · 21 November 2026
+
+A 20–150 day search across 205 Kepler light curves recovered the known
+planet Kepler-10 c. A 32.79-day peak on another star traced to every
+third transit of the known Kepler-1437 b. A separate TESS residual search
+found no repeating additional dip after fitting the dominant variability.
+The report includes actual target pixels and signed event measurements.
+[Transit discovery search](reports/transit_discovery_search.md)
+
 ## Kepler, TESS and Balmer profile follow-up · 21 November 2026
 
 Across 13 Kepler quarters, candidate K08223.01 shows repeated dimming at its

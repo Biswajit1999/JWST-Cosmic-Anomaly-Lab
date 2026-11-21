@@ -1,0 +1,88 @@
+{
+  "executed_utc": "2026-11-21T20:11:45.798687+00:00",
+  "roster": [
+    {
+      "kic": 11904151,
+      "role": "confirmed_control"
+    },
+    {
+      "kic": 11446440,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446449,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446455,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446456,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446458,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446424,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446422,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446478,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446484,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446401,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446398,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11446387,
+      "role": "previous_short_period_sample"
+    },
+    {
+      "kic": 11415370,
+      "role": "new_search_sample"
+    },
+    {
+      "kic": 11445963,
+      "role": "new_search_sample"
+    },
+    {
+      "kic": 11447608,
+      "role": "new_search_sample"
+    },
+    {
+      "kic": 11493656,
+      "role": "new_search_sample"
+    },
+    {
+      "kic": 11404916,
+      "role": "new_search_sample"
+    },
+    {
+      "kic": 11455181,
+      "role": "new_search_sample"
+    }
+  ],
+  "listing": {
+    "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/",
+    "path": "data/raw/exoplanets/kepler_0114.html",
+    "sha256": "1fe4471c8e55e8caeed7ca71c05def2b6322d0b5c200244da82b1d857237bd5e"
+  },
+  "config_sha256": "61000e11b2d01c73ebfecd5a11dd2d57e71c216d1b419d7def87db5e5c544543",
+  "before_lightcurve_search": true
+}

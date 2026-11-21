@@ -1,0 +1,26 @@
+experiment: longer-period-kepler-and-variable-tess-search
+status: executed
+date: 2026-11-21
+prior_snapshot: a0c4efa
+commands:
+  - python scripts/download_kepler_long_period.py
+  - python scripts/search_kepler_long_period.py --workers 5
+  - python scripts/crossmatch_kepler_long_period.py
+  - python scripts/audit_kepler_replicated_events.py
+  - python scripts/audit_kepler_period_alias.py
+  - python scripts/image_kepler_period_alias.py
+  - python scripts/search_tess_residuals.py
+selection: configs/kepler_long_period.yaml
+limitations:
+  - Target lists are bounded, and five Kepler stars lack a usable baseline.
+  - One strongest peak per search is evaluated in later observations.
+  - Inverted controls and event-omission checks do not calibrate survey completeness or false alarms.
+  - The planetary mask and pixel audit follow the initial period and phase crossmatch.
+  - TESS nuisance coefficients are fitted per sector while the candidate timing remains fixed.
+  - No new planet passed the criteria.
+outputs:
+  - reports/transit_discovery_search.md
+  - results/kepler_long_period/
+  - results/tess_residual_search/
+  - figures/kepler_long_period/
+  - figures/tess_residual_search/

@@ -1,0 +1,15 @@
+{
+  "executed_utc": "2026-11-21T20:17:53.519172+00:00",
+  "input_sha256": {
+    "data/raw/exoplanets/tess2018234235059-s0002-0000000167045028-0121-s_lc.fits": "16865290b619446d04db93bd9c86a5d83a37681a5f7b4e95926390918272b46e",
+    "data/raw/exoplanets/tess2018263035959-s0003-0000000167045028-0123-s_lc.fits": "57fdd38ea2b75e2e6eb1da2645b7f2a522fce8f45ca89583fef50f44f12b06d8",
+    "data/raw/exoplanets/tess2018234235059-s0002-0000000382190230-0121-s_lc.fits": "de3514e0287657f24bf5d8f54395aaa796e46a1084598c4b1440d27492388087",
+    "data/raw/exoplanets/tess2018263035959-s0003-0000000382190230-0123-s_lc.fits": "f1c57b06d43831ada6d9a5d6eb3e53d134bd83de46be43c3f75a081357bdfe5c"
+  },
+  "script_sha256": "3dab7d7f81dc0b9de8928c92ed821d3f7084c8fd23521397fded10862f80c42d",
+  "primary_sample_selection": "Two prior TESS variable lookalikes",
+  "holdout_transit_timing_refitted": false,
+  "fitted_nuisance_in_each_sector": true,
+  "new_planets_validated": 0,
+  "candidates_tested": 2
+}

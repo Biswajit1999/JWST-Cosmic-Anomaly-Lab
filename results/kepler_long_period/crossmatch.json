@@ -1,0 +1,192 @@
+[
+  {
+    "kic": 11904151,
+    "role": "confirmed_control",
+    "period_days": 45.29423185952971,
+    "primary_replicated": true,
+    "assessment": "CATALOGUE_SIGNAL_RECOVERY",
+    "same_target_catalogue_entries": 4,
+    "matches": [
+      {
+        "table": "koi",
+        "reference_period_days": 45.29422297,
+        "harmonic": 1,
+        "relative_period_difference": 1.9626188785260013e-07,
+        "phase_distance_days": 0.005140465542268657,
+        "same_epoch": true,
+        "reference": {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.02",
+          "kepler_name": "Kepler-10 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 45.29422297,
+          "koi_time0bk": 138.678725,
+          "koi_duration": 6.83
+        }
+      },
+      {
+        "table": "tce",
+        "reference_period_days": 45.2943,
+        "harmonic": 1,
+        "relative_period_difference": -1.5043939367576087e-06,
+        "phase_distance_days": 0.005865465542257198,
+        "same_epoch": true,
+        "reference": {
+          "kepid": 11904151,
+          "tce_plnt_num": 1,
+          "tce_period": 45.2943,
+          "tce_time0bk": 138.678
+        }
+      }
+    ]
+  },
+  {
+    "kic": 11446440,
+    "role": "previous_short_period_sample",
+    "period_days": 138.36415357745364,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11446449,
+    "role": "previous_short_period_sample",
+    "period_days": 23.652211922893454,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11446455,
+    "role": "previous_short_period_sample",
+    "period_days": 75.88895212840598,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11446458,
+    "role": "previous_short_period_sample",
+    "period_days": 53.63161650003316,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11446424,
+    "role": "previous_short_period_sample",
+    "period_days": 92.30249333223684,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 2,
+    "matches": []
+  },
+  {
+    "kic": 11446422,
+    "role": "previous_short_period_sample",
+    "period_days": 98.5078201591328,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 1,
+    "matches": []
+  },
+  {
+    "kic": 11446478,
+    "role": "previous_short_period_sample",
+    "period_days": 22.27076040417438,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11446401,
+    "role": "previous_short_period_sample",
+    "period_days": 138.1359638211034,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11446398,
+    "role": "previous_short_period_sample",
+    "period_days": 95.93333657546756,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11415370,
+    "role": "new_search_sample",
+    "period_days": 95.44213574674222,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11445963,
+    "role": "new_search_sample",
+    "period_days": 101.62868165494956,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11447608,
+    "role": "new_search_sample",
+    "period_days": 51.78364034548031,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 0,
+    "matches": []
+  },
+  {
+    "kic": 11455181,
+    "role": "new_search_sample",
+    "period_days": 32.787971863055326,
+    "primary_replicated": false,
+    "assessment": "DID_NOT_REPLICATE",
+    "same_target_catalogue_entries": 2,
+    "matches": [
+      {
+        "table": "koi",
+        "reference_period_days": 10.9294815,
+        "harmonic": 3,
+        "relative_period_difference": -1.4414741287049893e-05,
+        "phase_distance_days": 0.014423445918951394,
+        "same_epoch": true,
+        "reference": {
+          "kepid": 11455181,
+          "kepoi_name": "K03131.01",
+          "kepler_name": "Kepler-1437 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 10.9294815,
+          "koi_time0bk": 141.5034,
+          "koi_duration": 5.893
+        }
+      },
+      {
+        "table": "tce",
+        "reference_period_days": 10.9295,
+        "harmonic": 3,
+        "relative_period_difference": -1.610738352386676e-05,
+        "phase_distance_days": 0.015115945918944718,
+        "same_epoch": true,
+        "reference": {
+          "kepid": 11455181,
+          "tce_plnt_num": 1,
+          "tce_period": 10.9295,
+          "tce_time0bk": 141.504
+        }
+      }
+    ]
+  }
+]

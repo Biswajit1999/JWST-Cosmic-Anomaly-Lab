@@ -1,0 +1,15 @@
+{
+  "executed_utc": "2026-11-21T20:17:17.916048+00:00",
+  "koi": {
+    "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+kepid%2Ckepoi_name%2Ckepler_name%2Ckoi_disposition%2Ckoi_period%2Ckoi_time0bk%2Ckoi_duration+from+cumulative+where+kepid+in+%2811904151%2C11446440%2C11446449%2C11446455%2C11446456%2C11446458%2C11446424%2C11446422%2C11446478%2C11446484%2C11446401%2C11446398%2C11446387%2C11415370%2C11445963%2C11447608%2C11493656%2C11404916%2C11455181%29&format=json",
+    "path": "data/raw/exoplanets/kepler_long_period_koi.json",
+    "sha256": "bc58c640224d5eb7744b1fbc2eecaa9faf510c4d5a1def76027016e970347c98",
+    "rows": 4
+  },
+  "tce": {
+    "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+kepid%2Ctce_plnt_num%2Ctce_period%2Ctce_time0bk+from+q1_q17_dr25_tce+where+kepid+in+%2811904151%2C11446440%2C11446449%2C11446455%2C11446456%2C11446458%2C11446424%2C11446422%2C11446478%2C11446484%2C11446401%2C11446398%2C11446387%2C11415370%2C11445963%2C11447608%2C11493656%2C11404916%2C11455181%29&format=json",
+    "path": "data/raw/exoplanets/kepler_long_period_tce.json",
+    "sha256": "8a57152473c85b48c7ac2f98ebb01194d94bca4a2ed5ddcf6c7e78d0f53bf2fc",
+    "rows": 5
+  }
+}

@@ -1,0 +1,11 @@
+control_kic: 11904151
+search_group: "0114"
+new_targets: 6
+selection_seed: kepler-long-period-2026-11-21-v1
+discovery_quarters: [1, 8]
+replication_quarters: [9, 17]
+period_days: [20, 150]
+durations_days: [0.12, 0.20, 0.32]
+minimum_events_per_half: 3
+minimum_contrast_per_half: 5
+raw_storage_budget_mib: 4096

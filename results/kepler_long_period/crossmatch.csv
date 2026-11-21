@@ -1,0 +1,15 @@
+kic,role,period_days,primary_replicated,assessment,same_target_catalogue_entries
+11904151,confirmed_control,45.29423185952971,True,CATALOGUE_SIGNAL_RECOVERY,4
+11446440,previous_short_period_sample,138.36415357745364,False,DID_NOT_REPLICATE,0
+11446449,previous_short_period_sample,23.652211922893454,False,DID_NOT_REPLICATE,0
+11446455,previous_short_period_sample,75.88895212840598,False,DID_NOT_REPLICATE,0
+11446458,previous_short_period_sample,53.63161650003316,False,DID_NOT_REPLICATE,0
+11446424,previous_short_period_sample,92.30249333223684,False,DID_NOT_REPLICATE,2
+11446422,previous_short_period_sample,98.5078201591328,False,DID_NOT_REPLICATE,1
+11446478,previous_short_period_sample,22.27076040417438,False,DID_NOT_REPLICATE,0
+11446401,previous_short_period_sample,138.1359638211034,False,DID_NOT_REPLICATE,0
+11446398,previous_short_period_sample,95.93333657546756,False,DID_NOT_REPLICATE,0
+11415370,new_search_sample,95.44213574674222,False,DID_NOT_REPLICATE,0
+11445963,new_search_sample,101.62868165494956,False,DID_NOT_REPLICATE,0
+11447608,new_search_sample,51.78364034548031,False,DID_NOT_REPLICATE,0
+11455181,new_search_sample,32.787971863055326,False,DID_NOT_REPLICATE,2
