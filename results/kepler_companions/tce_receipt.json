@@ -1,0 +1,7 @@
+{
+  "executed_utc": "2026-11-21T20:50:04.694474+00:00",
+  "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+kepid%2Ctce_plnt_num%2Ctce_period%2Ctce_time0bk+from+q1_q17_dr25_tce+where+kepid+in+%2811904151%2C8644288%2C11455181%2C12404954%2C5084942%2C6046540%2C9277896%2C4847534%2C7879433%2C7815744%2C11457726%2C11391957%2C4346178%2C5601258%2C10266615%29&format=json",
+  "path": "data/raw/exoplanets/kepler_companion_tce.json",
+  "sha256": "c0e04a0f9e52cb03eb28344a884549b34e42a90e14f2e5acc47b597a48a1a0ea",
+  "rows": 18
+}

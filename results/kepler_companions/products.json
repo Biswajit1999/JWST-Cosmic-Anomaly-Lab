@@ -1,0 +1,1350 @@
+{
+  "executed_utc": "2026-11-21T20:50:00.316358+00:00",
+  "targets": [
+    {
+      "kic": 11904151,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/",
+        "path": "data/raw/exoplanets/kic11904151_directory.html",
+        "sha256": "922321934342635f83345325bf460fc1d3cbb77d2027d08975dbc34e7fa20e41"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2009131105131_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2009131105131_llc.fits",
+          "sha256": "d14d76faf0bb4a245c1a728c5fbe3831c084570c0fed253b46d1b9b28837a337"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2009166043257_llc.fits",
+          "sha256": "a47542bd31fa92111f280a29885f6fbe860f0956012b442f780ca6d2cc3a19c6"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2009259160929_llc.fits",
+          "sha256": "1c944c1735a13739a7e3098bbd02ce021e6c3a529257f6c0c79252208a865ea1"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2009350155506_llc.fits",
+          "sha256": "445b4e6b14416019f69948993900c67860227828482ddf8a68b14f6f420154e6"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2010009091648_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2010009091648_llc.fits",
+          "sha256": "c7fd79673b6159e3c8fb1d6a6426ca36fd21e638356dc85282232bd99812a773"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2010174085026_llc.fits",
+          "sha256": "c9c5ab283f94c08942ee80f685337c99879ed7f0933da3bb449539dcfc30d8e5"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2010265121752_llc.fits",
+          "sha256": "24221fb7c7c43353de09eb3d0aabe1f58c80d8f8e64da5f7733b8e7a4bf94f3f"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2010355172524_llc.fits",
+          "sha256": "91030f8800b7286675fc717b6dd70cb2271a28fc34e0f11b9ebdea3ceceae64a"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2011177032512_llc.fits",
+          "sha256": "e48ea563375ceea69ab44465665879f8dda0b661eed8246d489a85164c23106d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2011271113734_llc.fits",
+          "sha256": "7c9db2415775f1fcfffdb6e6221d10188a92492f3f288d42181bc8fbf3f1574d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2012004120508_llc.fits",
+          "sha256": "13b2b156db7ecb1125ef13ac50dd954d42b5b14f4933582c0d150a23e2309efb"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2012179063303_llc.fits",
+          "sha256": "2dcfc5bc32be66ad23bbde7140a7ddb92beb3385d417cfab09caf90f2fa424c5"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2012277125453_llc.fits",
+          "sha256": "220c2b962c6e65410a023157307b65d19738c2cf0f640de2a7a8c448d973b200"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2013011073258_llc.fits",
+          "sha256": "cf66de529c265702f658c50e1bc1f7a4e798ce6625fa02313e5b19c0be00e784"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0119/011904151/kplr011904151-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr011904151-2013131215648_llc.fits",
+          "sha256": "14caebbff52a154c87bafd1a1bd2ddc8299f21eb5ae0f9c7c3b298e7440f5761"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 8644288,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/",
+        "path": "data/raw/exoplanets/kic8644288_directory.html",
+        "sha256": "326215554305fbe490f1886f7edc443f0beeb031a56b346254fd57137498d962"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2009131105131_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2009131105131_llc.fits",
+          "sha256": "03e3c41e5722bc95def2a2b905adebbfde8273dd19ba4ebdd0b73fced84e286c"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2009166043257_llc.fits",
+          "sha256": "8a18326a450144a56422b730929f37d7d5fe6f9c93a3cd281075c6ce24310127"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2009259160929_llc.fits",
+          "sha256": "1ee452b1185ff055d3fd56dd240e24076ea89c3d3cc7d87a1734d59e91be6dc7"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2009350155506_llc.fits",
+          "sha256": "292e06e8c3ba65a4f9545e05a0478563d962e839e84b41a8be2ce4dd86eca402"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2010078095331_llc.fits",
+          "sha256": "fb18e0483f5871a3504cd707df8bfe1353cf038dc73aa9f85e3b60da2f973767"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2010174085026_llc.fits",
+          "sha256": "7273d0d45f17a2363ffecad2ca07b7d39456439c3139fdf61e0a876fc98db6fd"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2010265121752_llc.fits",
+          "sha256": "1bec6f9fb783f6f5fee7a08ccdb9acd11bd43458c8d5b775974dd6e86dadf56a"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2010355172524_llc.fits",
+          "sha256": "b098727e1b746d768b23ac4336834cb94fd3fcb69ec5cbd96bf82c77475ad5b8"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2011073133259_llc.fits",
+          "sha256": "032a3cc5443e5d41741219886a1405a0e56ccbec5738c78c71e54a480c0cccd4"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2011177032512_llc.fits",
+          "sha256": "16f293b088c20e8364453be128ea2e8f2110b787381d7ee568501e21731eaef2"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2011271113734_llc.fits",
+          "sha256": "06f084184cfb4926f42a5080579fa30eba34fa851cdee8dbc45f569546e90549"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2012004120508_llc.fits",
+          "sha256": "399d2304de045bb498d2a12775c9bbea56fd8d425cc3854be8cf3f7bf50079d7"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2012088054726_llc.fits",
+          "sha256": "1a2ebe6e9e053fb56c5eb11fe5b1641abb409fd3779b859a68d5806c8f72f3ed"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2012179063303_llc.fits",
+          "sha256": "6b2d8f325407577f47c6b3034a7e55b2737afb2ab27c725dfe7966c7c57873f8"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2012277125453_llc.fits",
+          "sha256": "7e8fa1e01500500e9a8425cf5b0d52ba019726a02c659640c2a86d592ffd38b9"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2013011073258_llc.fits",
+          "sha256": "fc04f5d7adf6297775c873b42417641ef5569cc8e048ea6e94665a73809eeebf"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2013098041711_llc.fits",
+          "sha256": "1626c4a28ddf74f4a676a14c1258b5566eb16acf4da55c3906e6a17a33773866"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0086/008644288/kplr008644288-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr008644288-2013131215648_llc.fits",
+          "sha256": "e6f78716ed151d52074e2484e328e20aa2e1333f8b07c11133932225bd9cc7e7"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 11455181,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/",
+        "path": "data/raw/exoplanets/kic11455181_directory.html",
+        "sha256": "5619438ac1b7da746240b661967438cac7bd35549c331cda5d808bcd9fc7fc1e"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2009259160929_llc.fits",
+          "sha256": "5a881940ad2e56308d7d51a45a7243384e554af01de5ce85baf058185d6e81d3"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2009350155506_llc.fits",
+          "sha256": "3b6a2dfd21200c7ec13eda07238c52ee2134b2617d2ebe003243ae0c1f58e57f"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2010078095331_llc.fits",
+          "sha256": "6fe6ddf7660c2f87e5cf8832738bf14d08be4c28a2d0d6fb8ae42afffb3cd432"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2010174085026_llc.fits",
+          "sha256": "a6814acb3506afe4055f035cacd43cfe4695721ccd15cf50b1c06e7c23423916"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2010265121752_llc.fits",
+          "sha256": "a251c409fa12462721d428292a4aa1aba1bd126517e02606e039bd96cb3ed5af"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2010355172524_llc.fits",
+          "sha256": "cf41cd02daeb45e486c312cf15ccfb44dc1deec2d848d6a6ee3d156835c6f104"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2011073133259_llc.fits",
+          "sha256": "c9d88d4ee24dfea3e93cb26d251c56bc3351beab51774b165fb941bdea9753b9"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2011177032512_llc.fits",
+          "sha256": "ce6c0a87166c8a5592403738dc6a92bd8241098c916e2c8551b234b800131afd"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2011271113734_llc.fits",
+          "sha256": "8cb09bc4c927abbfd25371209362bfab573d30752c8320f8e3e34b74d082e609"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2012004120508_llc.fits",
+          "sha256": "d6779586a2730e90c90972046877b1652bba1227a411480a25e65c7da6d3f0cf"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2012088054726_llc.fits",
+          "sha256": "75648485e534e87270ecc4a834d9a4008fbc5cf43ff6ca1f0adb2513abd6b948"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2012179063303_llc.fits",
+          "sha256": "5f9aac1716a199c3c564e428dc7ff7138c65867cae6e1c68660fecdd25127751"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2012277125453_llc.fits",
+          "sha256": "17573884b6b45c8740aceee361e13a5cfbf7597fac63530547ecf9183a24c7b8"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2013011073258_llc.fits",
+          "sha256": "e8e162aa32100795e1c0afa7484cb7dc8531500214efdc4efea0a3f710790c32"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2013098041711_llc.fits",
+          "sha256": "8f9c69c17253e0c08b82ee922725c126d28a9cb1bba187afb28f7d27efe6c6b7"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011455181/kplr011455181-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr011455181-2013131215648_llc.fits",
+          "sha256": "8bf1f57a7551b8f5ec6240f52983dbf0f539564bc61365b97f3d16573c54cf12"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 12404954,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/",
+        "path": "data/raw/exoplanets/kic12404954_directory.html",
+        "sha256": "2476492740249d1f8dfa82d2ed67a208c3ab1ad6109b7900480014c2a76a3f99"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2009166043257_llc.fits",
+          "sha256": "9570e5d36b26092f0deca7fcf4c5350a2fb7e6f3cbbb685a01576257759475e8"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2009259160929_llc.fits",
+          "sha256": "7d93c24fc23c56d92e5ead7814100f6a48ef2f0b9edc0e0f5d3871390bac06f0"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2009350155506_llc.fits",
+          "sha256": "00b7082f15aadef994049267df2460d85e778ba8b78c68775832e9c51149731d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2010078095331_llc.fits",
+          "sha256": "18b0bcc32c3190c2be99f5c72d5fff1467bb306d574d6fea6a4d91d9fa8be8e6"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2010174085026_llc.fits",
+          "sha256": "60d0e109472e25f7c73c27eebb6715ed112608504ef1ae0d073a204a964b888f"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2010265121752_llc.fits",
+          "sha256": "c801344f7eb3c9d69288b7bc04627bd36d2f47dc9d97493104b47949afe0d592"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2010355172524_llc.fits",
+          "sha256": "3430088116b41e2e4a464a3c7233adfd7751c2aea6deaeaa15f82030f082cfda"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2011073133259_llc.fits",
+          "sha256": "80119c4c97af56e5c07ffeb6c0ae19676ee1b19f0fc6c16d83a1934ef0c1cb65"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2011177032512_llc.fits",
+          "sha256": "e72b963cf7370a1c78205612ec24b5db16d895c38b1e5a1c0bcc238cbdf9b3f9"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2011271113734_llc.fits",
+          "sha256": "90a2e5bc4912a57701bfad6fbb8b8e1f11704f711020db675f14ab22a899ac6e"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2012004120508_llc.fits",
+          "sha256": "cdd626d584e866dcc7bb20cdebf7e873389019300eeacba73bfb89e691c0a05c"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2012088054726_llc.fits",
+          "sha256": "4bb65585835577f8d3ac7e4932746bfd5c1be24c633a242e14ccc1828413b94f"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2012179063303_llc.fits",
+          "sha256": "1e76fca34e7e3aeee6a092274d5e847f4cb75acf5fc3a27099a50b648ce12730"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2012277125453_llc.fits",
+          "sha256": "035f50dab0c134da99cb7a224b6c1f610688139e7bb786978b978c267e388744"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2013011073258_llc.fits",
+          "sha256": "010bda03a254ae066fa6bbd749c85aea8b0e8dce74144ff4311cffa1aad43410"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2013098041711_llc.fits",
+          "sha256": "cb5f4fc2baf5543291116ff752535b1f51977d61284bbbf35a118a59f135a7b9"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0124/012404954/kplr012404954-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr012404954-2013131215648_llc.fits",
+          "sha256": "007a9c3cdbf80f5ffbd7f826b91beedac0add435cb4ca76d30f14a6cca613978"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 5084942,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/",
+        "path": "data/raw/exoplanets/kic5084942_directory.html",
+        "sha256": "1ff0b5d5877250d4ec1cd321dd898dc17f5f0f765395f070044170e31d17dd39"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2009166043257_llc.fits",
+          "sha256": "f18d9afb7825e4764be39ffffa7c3cde98149c8cd997fc1e81a71a3e7fb8e340"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2009259160929_llc.fits",
+          "sha256": "3070ded324a9ec5a0b00a49284d3c107260c21fffc7c62f706145ccc50974ff8"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2009350155506_llc.fits",
+          "sha256": "c5cc65093801a88f0e1815b2735fbc2c024a8a337d26d3d5e4618d7d1fb72c01"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2010078095331_llc.fits",
+          "sha256": "56cc98c7b8c28a3340379b37ffeb68bb1d165f3572ebdabcef6b743635396f91"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2010174085026_llc.fits",
+          "sha256": "64f733ccf00829b0841b983578d01dfb4381b213e22f3fda238c2adbadf66490"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2010265121752_llc.fits",
+          "sha256": "966f2dc6aa9a57d7ff8e1ffec3acac129bcaeb60939cda127a2b2594ec53764e"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2010355172524_llc.fits",
+          "sha256": "7d9fd61da5cb8448653ed3049ca523b0eaeed77c0b40658d74c9df365c8dd1ee"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2011073133259_llc.fits",
+          "sha256": "dc7be111d1660e99bbb879c761d052266bc5dfadafcd3fa7a0009eaeca23d5ec"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2011177032512_llc.fits",
+          "sha256": "a0699f4debeac4ff0a6579caa8aa5dbf1e9c125175c53f1e1de3850a05c70f23"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2011271113734_llc.fits",
+          "sha256": "a05b8eee1d1cb06ed1bbc9e51126f9dc1aaa41b225bb24700a15f026b2547e34"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2012004120508_llc.fits",
+          "sha256": "31ff701b10f9ecd9f787225a8faf2e89bcdcf1d46ac8bc95db213c90bdd0c35e"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2012088054726_llc.fits",
+          "sha256": "d958e9ff0f23b73c156af204740eade0885c439ab4df8b8425719c22a9c10582"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2012179063303_llc.fits",
+          "sha256": "0c4eefd450b64846c33b57bf4343c5f947b8ece6349f7a7f62ed240c5e5d0bb5"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2012277125453_llc.fits",
+          "sha256": "5ffe8211049e525352281d5d83f17b7cf09017536060add55c3010fb6db721af"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2013011073258_llc.fits",
+          "sha256": "20fb4a016d3f1238b3093467efdb20da94da20be63294e3c627371d155434163"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2013098041711_llc.fits",
+          "sha256": "1bdbecc89e92951d620debe8b647028d3d5ef59c5060e27c400d30f40ae5b311"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0050/005084942/kplr005084942-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr005084942-2013131215648_llc.fits",
+          "sha256": "f9892cf4920175b13a52b7754562b5c82fa86a8432cc6cb6e500f6b09f2b8df9"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 6046540,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/",
+        "path": "data/raw/exoplanets/kic6046540_directory.html",
+        "sha256": "019a586e30fc0cd83de4db4645393bc204b239a5b5c9376a2e58c8d947d9f52c"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2009166043257_llc.fits",
+          "sha256": "fac3db7218ee107771fe894b1f71e03ae38fd1f1bc4a5900c610c9114d53eef3"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2009259160929_llc.fits",
+          "sha256": "e1f7eae136f559ec2e68ceeae327d1538e2b6cfb7021c494a13373d55b6ea17e"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2009350155506_llc.fits",
+          "sha256": "9e1f6e98300a00e12014bf00ee2b51cfc6f589ea953dffff132647f1e876037d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2010078095331_llc.fits",
+          "sha256": "6c656b0ddc169f834c73529baee843cfc01a1a787a4b35ab94f9f22decb70040"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2010174085026_llc.fits",
+          "sha256": "7c083bc24ec1f289f4588bc1387b267b58bb5f48388fa98320e17cef77d84d14"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2010265121752_llc.fits",
+          "sha256": "07c4666de2d8b4b6ed0e4a7e469a53881502ad9f6e18e0a48ff3fbc58b41d3d5"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2010355172524_llc.fits",
+          "sha256": "0aa110598db576ce6a0f73b3636a38768c433fe7ea9803ffdb2138039f41bab3"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2011073133259_llc.fits",
+          "sha256": "95ae84c8d2c68e8a6f9e77cfe8b024ef1a847214f0e349815fa71018886c1575"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2011177032512_llc.fits",
+          "sha256": "ccf5ca20347db2bc9bdf8ac6e8c7d2bdc158a1310dde0feeeefd5a0c23384163"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2011271113734_llc.fits",
+          "sha256": "f3c6a805f8e389070ca097fdedfec5dc5ecbb35b226623fe27df8f606028b3a7"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2012004120508_llc.fits",
+          "sha256": "a6159c2d3d8f64e9078cbd840b243da3b7c723ccd32a4ad0959219fb4e1f93d1"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2012088054726_llc.fits",
+          "sha256": "e6453977dda8b7f6490c42159cba75746af274b80530afd5a38703a9f42322ce"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2012179063303_llc.fits",
+          "sha256": "bcffe70b0b30cb0629f3ca0224689873bcf3b9857cbf47d1bbb61eed3c793e72"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2012277125453_llc.fits",
+          "sha256": "4fd7cac584b3765bbf69fa519967fb75ef8169b9c17e70ef85b53176c6af1238"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2013011073258_llc.fits",
+          "sha256": "0d96b957a2c368e6c2d104e042971ad1ab0def563a11117dac9cca1bfe9a6ac6"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2013098041711_llc.fits",
+          "sha256": "2d9526141c488c7db01e5837d3db9386567ac42fe420a35c5cb395016faa4a3a"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0060/006046540/kplr006046540-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr006046540-2013131215648_llc.fits",
+          "sha256": "3e16c2d49bba1dab7206509401d020c1ce5e866f9ad4fcacde92f531854666f6"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 9277896,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/",
+        "path": "data/raw/exoplanets/kic9277896_directory.html",
+        "sha256": "42caa4d9404fb4daecdd0478df5f8abe78e3d7749f443e44933aa1e5b9573d8e"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2009131105131_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2009131105131_llc.fits",
+          "sha256": "9d97c73ff0e17cb641ee71c636c025f4c864d39014196b3e80836f0a2a589aae"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2009166043257_llc.fits",
+          "sha256": "1304b0e5cd48f6f84865dbd1b924de85af27ed695c09138e4492c926ce4bce1d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2009259160929_llc.fits",
+          "sha256": "00313a7a271d0435c283f3f91d5dc410a7c9d23641c5864017770c9bd0e22190"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2009350155506_llc.fits",
+          "sha256": "95a7a19bd9dfda58878ceffef1ce45edd3d57fc787f76ec8dc5573a50a5ea60f"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2010078095331_llc.fits",
+          "sha256": "7f4b461e024b270cb51ca10e49704e61937122199c5e26c822531d6e85748bd6"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2010174085026_llc.fits",
+          "sha256": "7dbdc9003ea1cae0fd9df3cda3df3b34ebd941f6c24e7225fe7a62ded1bcad3d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2010265121752_llc.fits",
+          "sha256": "9807c2a72c436c2e717c5e6a28911b464e95da7bbf5abef9be04d684e075b0f4"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2010355172524_llc.fits",
+          "sha256": "eca52933628ba80a83a847a14c5d22928242bb920ecaafc2448b4883d4c9919c"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2011073133259_llc.fits",
+          "sha256": "8f7bc975c14800c27451e4adb164a19d05eefe78b60ac0e74258177cdcb8eb1f"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2011177032512_llc.fits",
+          "sha256": "d6d78a5d61da86fabea2e4abe01235da40c2c030f3425f11582f35bc66ce4657"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2011271113734_llc.fits",
+          "sha256": "0247800835766e172a8868f0fe1bf05790f5be734eaed724836a5ea5faf50d7b"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2012004120508_llc.fits",
+          "sha256": "989e433dcb8aa5373bc0be05bc225aaa1d858a476f1ea0cba4953ec1d172774c"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2012088054726_llc.fits",
+          "sha256": "41db93c62212ca2d94b1464c346705071442679a95af78bd033d13e7b05e6795"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2012179063303_llc.fits",
+          "sha256": "69328315543c2a6f3362a72fa1ddfc69d4e602c1de20e9237011890f441f962a"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2012277125453_llc.fits",
+          "sha256": "d12f43530782b86ace82e89494e4218a91769ec07d489f378f349b77354253e6"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2013011073258_llc.fits",
+          "sha256": "0151e0226872b0c868208b2692fd3cf9239c7fbd887706c37825f1d2d6117eff"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2013098041711_llc.fits",
+          "sha256": "e1c50bf902be8cb5f9ca1b9325c98f7ea816c60ad149eb14a0c735fa1bf5ce23"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0092/009277896/kplr009277896-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr009277896-2013131215648_llc.fits",
+          "sha256": "edd95db490c485207a58482a10b1e26526f334d88484b1e21093c3ccfd815644"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 4847534,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/",
+        "path": "data/raw/exoplanets/kic4847534_directory.html",
+        "sha256": "33c75adfc06d2067e9de74ef9964ca1bf19ee05f47db2c2567c5fa8fac1e3c05"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2009166043257_llc.fits",
+          "sha256": "cc402cce99090bfd45ae0dccd9f216ce875bdbd66af5f7f47383e9c65fbb386e"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2009259160929_llc.fits",
+          "sha256": "2ac6edfd3731eafea0962a76e4a8d078160057a44f5fb94a7e9b3cb774e2ee4e"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2009350155506_llc.fits",
+          "sha256": "836eb8787bd9acbbc85e5a31a4c2e3cb0867f06599a867d76685682ed694d388"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2010078095331_llc.fits",
+          "sha256": "931a505d443c311823898aa461a3869919b4100117573fb35c3d3d9703d49dea"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2010174085026_llc.fits",
+          "sha256": "f034ff98c0f78d06e2a32d94bb66239d2da6b0bdccc2c2bf9840cad3ae844a1b"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2010355172524_llc.fits",
+          "sha256": "c84180b90cc2f20273d661072a889b55dbdd3ab5ae7cabf92c63686a7842d217"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2011073133259_llc.fits",
+          "sha256": "96c04fcb2c551af4636cdf5edaa25f1e069815c875b20e8c8e21f47f5f2abd08"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2011177032512_llc.fits",
+          "sha256": "22a251db3cd4ac43725cc958c162c8a329371144b56152ca781d444cff1f2f70"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2012004120508_llc.fits",
+          "sha256": "4bfcb61c64202c6442465552bf133c18c1212c9f0e1ef9cf85841da236f95c9b"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2012088054726_llc.fits",
+          "sha256": "64251c98a1a93d40b41081c080dd84156fb063a820b81e306bb6a456277c29dd"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2012179063303_llc.fits",
+          "sha256": "273fc5be2f1353b680c6adebd5e91ad2df1e336a416ef2551bef5df804d6e7dc"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2013011073258_llc.fits",
+          "sha256": "d3171fae2b357592c701eba03af20c5a7dbd544f834e3667e1ec346d8c6d57b7"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2013098041711_llc.fits",
+          "sha256": "90c693dd62f59581d21d3690a473dc91d95854a26e67a191bd323cd20cd27cd3"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0048/004847534/kplr004847534-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr004847534-2013131215648_llc.fits",
+          "sha256": "f34fdcb4bee96737ef47064e4e7000cb9d37dc93ce7c3dd45c9ec79f822429d6"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 7879433,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/",
+        "path": "data/raw/exoplanets/kic7879433_directory.html",
+        "sha256": "6541031e3ce5a7040fe1fdc4f3630637f47ab8207a10e4f50a63db1ff52dbb1a"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2009166043257_llc.fits",
+          "sha256": "eaf1aaacc3e48eb2b2f6d716e11ff465331840804d5676cc52e06a1205530677"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2009259160929_llc.fits",
+          "sha256": "4600afd25ecd418aa239b25f48a93327be5103e8396c81a654a7317d47bce790"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2009350155506_llc.fits",
+          "sha256": "7a0d21451e178941cf8f7a9ada82592ece0746e8d83e3761bef5aae7e09811c5"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2010078095331_llc.fits",
+          "sha256": "e4d38ab57663a722c055978375d3329f5240489f18db44998c991d73c03a1137"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2010174085026_llc.fits",
+          "sha256": "d043f0e5c6f0a42f326a6df1adb00c569310ea4e788e87dfcb49ac5fcb3fd2ae"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2010265121752_llc.fits",
+          "sha256": "04f584358d8039a016875ec689831f8dbda8069fdfe773eb7ec03d2e133c7310"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2010355172524_llc.fits",
+          "sha256": "10c0c0edb3884c1bda8574f9b17688867b27732d6389aba45dac2145ffd6d534"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2011073133259_llc.fits",
+          "sha256": "111027331ae10e2f97ba9d5593aa0639686aa85bb3faba27c883118e362bd2a9"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2011177032512_llc.fits",
+          "sha256": "7bf9913b282ed54a0b1948be3709bf88eb48bc0b31ea8aea9fa8cedef9121ceb"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2011271113734_llc.fits",
+          "sha256": "e655cd63f3396e9926ee91424ba9b5504045b97c2bd1367cd6320e6e9269bdab"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2012004120508_llc.fits",
+          "sha256": "c9cfcb4a1c648b53ea394308f20899e8c694d68efe86708269d5266dc41f92e0"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2012088054726_llc.fits",
+          "sha256": "8d459e599e2ba199c3beb8d9e01d4cdea40ab7673fddcec2e96172b393d132ac"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2012179063303_llc.fits",
+          "sha256": "272c272db184e6f2116e39f67cbcfafb48c1f8c8de70830ce01912b22f1b8ee1"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2012277125453_llc.fits",
+          "sha256": "b5511e423277d8a44713753bf91e177bb39d09157445a916dbe8fa791cb8dce0"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2013011073258_llc.fits",
+          "sha256": "9e634acdd634e7be7e221968c8586990dfe781989e708101bad129a5836a4107"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2013098041711_llc.fits",
+          "sha256": "0fc0436d7df2eda143873044053aa5f7bfc0e14aa48bf1d8751fffe134090fcd"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007879433/kplr007879433-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr007879433-2013131215648_llc.fits",
+          "sha256": "67fb3f207127c0248651929b489b956fd4e71a4d686d1f84c2a068aafe77ba5c"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 7815744,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/",
+        "path": "data/raw/exoplanets/kic7815744_directory.html",
+        "sha256": "feb81cd222d044ff05621824dedf5a620e000a8cc76116220c6742dca8db8fc5"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2009166043257_llc.fits",
+          "sha256": "b18644a8ae53fa7d1e32c727e237d9a75a61c0224dc72028a4b7bbc22d90d3a3"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2009350155506_llc.fits",
+          "sha256": "6fdb2c381e36a20b34c8be349110f00232801bbfc63f937e92b1ed7f11ee38d8"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2010174085026_llc.fits",
+          "sha256": "504810bcd1ac5dd3c53300803fb3778857b3f0d820c6ffa8367aee01f4a5a1e1"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2010355172524_llc.fits",
+          "sha256": "c206d25e155382c00c8e6be09a9286e9d8e2e965a15c62083b93b0c20d4c863b"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2011177032512_llc.fits",
+          "sha256": "55581d5ad2c60609ab85de9693acb38ce2bb242eef8ff662d681c5bbc2766bdf"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2012004120508_llc.fits",
+          "sha256": "8e2db961c3e8c4f40298b6328fc8400b8a1c8374554748b568fccd3357590648"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2012179063303_llc.fits",
+          "sha256": "ae8c51b848fa5907f8b04b9f8bd226f08f233bdf42bc8a832353312b694e7ccd"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2013011073258_llc.fits",
+          "sha256": "9f9b256810b2a187b2723eeb052633e0b326793da4ff338031a9da5549305073"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0078/007815744/kplr007815744-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr007815744-2013131215648_llc.fits",
+          "sha256": "b461402754fda79c3a11fcea0fc2661a2a18a837b2208b9952acbffa9c84cf2e"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 11457726,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/",
+        "path": "data/raw/exoplanets/kic11457726_directory.html",
+        "sha256": "47dc632f032945676df96b7a1f620b492246100a140f7fae578eeb41a3a01f44"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2009166043257_llc.fits",
+          "sha256": "69815b7c4a1851400dbcd1df47b21ba0cad9299b9ca9e9035e72f4c7d8f5b772"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2009259160929_llc.fits",
+          "sha256": "0924dc6005d752bb586dc5f1c0d1199780a2f1464d6e6f74054701d094e598b4"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2009350155506_llc.fits",
+          "sha256": "78ae867ac7e0189e743a673b69b1c61d4d0010773634925e6b07867d2918c514"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2010078095331_llc.fits",
+          "sha256": "3ac7e8d42d2450acc450d395993328f1108569b6c5c6c4cf99015a216829406e"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2010174085026_llc.fits",
+          "sha256": "75333b8886b32480385b4530cf33df3dd4822efae6a3af7740280fd7dfff356a"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2010265121752_llc.fits",
+          "sha256": "5e39b3619af57e8241d3c59334131399cfa206d273b95996dc4d8628518b670c"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2010355172524_llc.fits",
+          "sha256": "aa2d099e10aa1865e5428b54ec2cd9698d925a9495188a140714742ad744118d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2011073133259_llc.fits",
+          "sha256": "759440425e4386d43779578692eb0ba81ad302862332834de10bc351f4d78888"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2011177032512_llc.fits",
+          "sha256": "54c1a98feed1e612b88ed007f83182ecb058d4654e5a32d019f24441619479c5"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2011271113734_llc.fits",
+          "sha256": "08aa0fcf8c2c3d5256cbfdeef4c36f0470092b199e877203d580c801afa286af"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2012004120508_llc.fits",
+          "sha256": "c4097c903db7520105007f574d154a48dc7af31b9b9f1a30195fffaff203afb2"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2012088054726_llc.fits",
+          "sha256": "a6492857bb9178933a0101e78b3c4b09aea91a14d0511bd0d5eda6c0171d3f33"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2012179063303_llc.fits",
+          "sha256": "20a90eac1804c8598ddca693a59d1887ba173e59e5c19422f0f4584ff9d0b57d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2012277125453_llc.fits",
+          "sha256": "8da236f0647be6414337cf1453534c231263ed8368bcea76721731bd50913104"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2013011073258_llc.fits",
+          "sha256": "4eb8c26bf90ca592d39bd251ed10d1ff3c5ae88e415d5d8c82769de1ff94e6dc"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2013098041711_llc.fits",
+          "sha256": "6191d3051286ffb2456aa2e31b1f24d728c005e3fdcdd437baa888cead3006a7"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0114/011457726/kplr011457726-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr011457726-2013131215648_llc.fits",
+          "sha256": "32e0c61d7b3f81a625ed872d496a00f91808cc70b4de337ce5124b436ab1fe0e"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 11391957,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/",
+        "path": "data/raw/exoplanets/kic11391957_directory.html",
+        "sha256": "c2d179ed112b81d66ee450c1da1aa45d971f2fbe345ff393b71a9a489661543d"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2009166043257_llc.fits",
+          "sha256": "a96582321e9658a8ab303208e11ff303d5e6681d8c5dd6ac9f70931b1f352861"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2009259160929_llc.fits",
+          "sha256": "f4e9a75f3945eaa08822b4ff414ae31b64d5f4b757d298a73c0054c8a4c6a0a9"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2009350155506_llc.fits",
+          "sha256": "912299db5c8ef64216aabf056697a120e2e31503d5575506d8a045cf5516110a"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2010009091648_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2010009091648_llc.fits",
+          "sha256": "46d7b379ab7a89419b091db9195a24f7c119358988abda8e64087d607fcde6c3"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2010174085026_llc.fits",
+          "sha256": "b9fcd3caee6394ae4e9244724f238887f5ddf92d083af6e969c729edafd3a612"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2010265121752_llc.fits",
+          "sha256": "b0ae54f7ea931c513cb1ef347d8a892affbdd673712d97084fb8f1be22d9336d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2010355172524_llc.fits",
+          "sha256": "c33b5afef22e5ae826a623373607ccb3224781fabeb2be15254ffe44d43be1a6"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2011177032512_llc.fits",
+          "sha256": "d9334601fbdcec79bcdc99124114957ec7aa7242d4c25454a39c9552e7a42c78"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2011271113734_llc.fits",
+          "sha256": "568039a504912d80bcf6f504e524c2667c2fd362fbafa0eb7c88a1824bc7ceb8"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2012004120508_llc.fits",
+          "sha256": "9e208a4b07ae520e32c2f948a7e3586f0c026be7f45e74288104b5ea8edd06af"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2012179063303_llc.fits",
+          "sha256": "942e3ca3f474c85155d33cb6eb0b86262fd15814fae8f6f8b927aaa36e27ff89"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2012277125453_llc.fits",
+          "sha256": "849a6c3c1cd7f0eff293c633305a24f4f080433a3b642085c09aa92397c9c3be"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2013011073258_llc.fits",
+          "sha256": "d57d655c397393752ea7418cc86eaf06d75a1302ac240c401996948d969a2f11"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0113/011391957/kplr011391957-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr011391957-2013131215648_llc.fits",
+          "sha256": "51f7956d089a0da33be45f1ef0b00448baaaa845915178f907c078058882c891"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 4346178,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/",
+        "path": "data/raw/exoplanets/kic4346178_directory.html",
+        "sha256": "be763853300891b3a3fb071bc4c7674fd4bb6aceb45539850400d40692df97c9"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2009166043257_llc.fits",
+          "sha256": "d78c322f5b0f29a9ea9f8fefe8f9cc2fb06f4ef31c8eb022e3db2a1c73f6996d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2009259160929_llc.fits",
+          "sha256": "1273489dfb1794e3da28a708261d91e951d465937078997793ae561a3e3bdb5d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2009350155506_llc.fits",
+          "sha256": "2b2df4ed7e8b9225d55618f08aae38090a456d2769c2398565f4dc807a4f0237"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2010078095331_llc.fits",
+          "sha256": "d4b610e7665f7273539aa7ca19620535c717dc27aab2072fe81ed7e4110861bd"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2010174085026_llc.fits",
+          "sha256": "c20579037b53edd5abc0c358a7e984951faa52821dd1cccf7a9f4a536f2c7b18"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2010265121752_llc.fits",
+          "sha256": "ebde737fd7b85b3c5067dac20831fa83d7f5f7ad1f66b4ed414d083c898005fe"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2010355172524_llc.fits",
+          "sha256": "5e6c482e3e26508eff938ba5e6d0f1089c6610813a97fe5612a2fcbf8740b6ff"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2011073133259_llc.fits",
+          "sha256": "bf8f3fee43a20acb197d754624b593dc851d867aee34fe4475adf28f709ec141"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2011177032512_llc.fits",
+          "sha256": "094f4e89fb1c552ce1ce9e49b28102f38d8fe8121d575264a25d8c6d47f56d45"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2011271113734_llc.fits",
+          "sha256": "5cfdf33cec3935517f3c3b1c2f0dea6d2f43392eadc2bfcf33381a394b192738"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2012004120508_llc.fits",
+          "sha256": "c5873ee73577c9d62169b4f50ba0c0450421e0ad3bc75e56f9934fe580f66bb1"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2012088054726_llc.fits",
+          "sha256": "c445e1eb9d9db095685e6708f6370eea68a8cb36d0b30bfb292bd98b2120178f"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2012179063303_llc.fits",
+          "sha256": "45e54bca28b55eb727bdc580fd8a99c68b212305cccc2dc7fd8d671ccbeca93d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2012277125453_llc.fits",
+          "sha256": "97fa3def94a2f87caedcb92e588a160ca3040dc111edc94166aadd4231a8a9f4"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2013011073258_llc.fits",
+          "sha256": "677ac6520d4deb07e19343be86cb555509c36fb76aa0f3654b9699f600019984"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2013098041711_llc.fits",
+          "sha256": "36900f4c3b91a760ebc7fe571380f3138d0da33d1023d722ff0651589ed519fd"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0043/004346178/kplr004346178-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr004346178-2013131215648_llc.fits",
+          "sha256": "bdb0e19ce22257fb332a3a4f5e1a250dd419af1ec583da3281ba2e83d0f637aa"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 5601258,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/",
+        "path": "data/raw/exoplanets/kic5601258_directory.html",
+        "sha256": "d19ff5ad2f42c698be002a058d3b844d0f6d16d3f9c7c4f7db5418dd480c8889"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2009166043257_llc.fits",
+          "sha256": "42d08b63de2bd651bcb8be40dcdb65ef0d0a2c5b068aab66de8fabba03bef5f7"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2009259160929_llc.fits",
+          "sha256": "dcbb8895d979421a9806433ffb152234bc5e4a018db165735f6dfd8bdf7b296d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2009350155506_llc.fits",
+          "sha256": "8bbffe9457ad78b501220d6541943ebc1650c876bd98e2e8fecfbbf135b97fa0"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2010078095331_llc.fits",
+          "sha256": "78459b4f5c0bec6e0d231223c7ff370a356a180864a7e7ef5f434b4d808b4f5a"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2010265121752_llc.fits",
+          "sha256": "7d1209e2566179764055d108467e3024665e8affd829e1fecf54ee361c46d435"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2010355172524_llc.fits",
+          "sha256": "453487f309dc3bd7e10d6622218abecf040dec0728da8e39d689709d414783f1"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2011073133259_llc.fits",
+          "sha256": "eacd24147b9c15d439c9ccc83df661f6b171a68be36d3857699122bba3baac07"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2011271113734_llc.fits",
+          "sha256": "db1359e4a38d0e1863d5a5f75ced1c23e7f07b9d6d7c7a10d7bda622299a29ce"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2012004120508_llc.fits",
+          "sha256": "afdc322250110b4ab32f48106067d49e8bfa41e6e9acfdab57b01a4ee2920b5d"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2012088054726_llc.fits",
+          "sha256": "90198d8bf4545e29ead617cb4cfd4ce06062906c13cfe5cafe836071cf6f9b40"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2012277125453_llc.fits",
+          "sha256": "e386082791f6778d8f9996d5127a442d982e8a86265b469fd93c9ea314fcda7b"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2013011073258_llc.fits",
+          "sha256": "07b80ceba9dacf214854a0354fc6eadba92bd15fe41f063fe146499ebab8bc66"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0056/005601258/kplr005601258-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr005601258-2013098041711_llc.fits",
+          "sha256": "0d9d6d284ad0910581fd39d43210560ed57d5c656e0259c217c7f6f6bff0e88b"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "kic": 10266615,
+      "listing": {
+        "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/",
+        "path": "data/raw/exoplanets/kic10266615_directory.html",
+        "sha256": "f22dedcba2a2108a35b066530c3ad322e067131c500720e23ef5df632685ec90"
+      },
+      "products": [
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2009166043257_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2009166043257_llc.fits",
+          "sha256": "5f751233b0c202476ba9d9d2ff75ed48117b792e3876a474c762691c77eaf2de"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2009259160929_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2009259160929_llc.fits",
+          "sha256": "f9128dec3afca7abd9fc06169a623627e4894ea6775640c070cb016eee6ad71b"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2009350155506_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2009350155506_llc.fits",
+          "sha256": "3ebf6bdf1fdf65c6798e2fbd6ef843651f2293a579abf6b07125cb129cad40e5"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2010078095331_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2010078095331_llc.fits",
+          "sha256": "ba6df68870852680bee49cb2923db498f8843f3f6b4d0a39207e4f51c5c6f402"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2010174085026_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2010174085026_llc.fits",
+          "sha256": "dee5fe7a2c873a65c1a3fba5d650a7b298ad391d235b646e02467cfc6e42f746"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2010265121752_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2010265121752_llc.fits",
+          "sha256": "f8753bf6e130ca2fe916ec2ddf72283459451dd096be1d8c3ed9aae8ab85b819"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2010355172524_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2010355172524_llc.fits",
+          "sha256": "1c12558ff463b9937652e27e6d3054ac4157622ff44cef1810c352ad4b4d2b48"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2011073133259_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2011073133259_llc.fits",
+          "sha256": "8a95d3ff9ab7447b4929e77b469e3c6e2954bdd79c1c2d5f07c8b676669534f2"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2011177032512_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2011177032512_llc.fits",
+          "sha256": "7a192535a22af72dcb6cc634e5c868792501366dc31d389fcc3dec3832717aa0"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2011271113734_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2011271113734_llc.fits",
+          "sha256": "18f31f7f29e5fcc4e9fc6b6d4e6b180a3bc47732658676ce19f537e7e6a9b234"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2012004120508_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2012004120508_llc.fits",
+          "sha256": "6aa58de623349e43c511da17b8e43a93d5152da914a34b0d40deaa8d6964be8b"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2012088054726_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2012088054726_llc.fits",
+          "sha256": "abdf80915f071f75d5952de7f10213f4144c86dbc2d610f5b3b180d8609cd2d9"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2012179063303_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2012179063303_llc.fits",
+          "sha256": "02f719242ac5ceb819bdcb3e9fa2fa96cd1ce03733be7b036c82eb27f7c44e07"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2012277125453_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2012277125453_llc.fits",
+          "sha256": "a4a4cdc7247128da18ab01d261751adbe405ae267503bb68e417a6af2958d840"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2013011073258_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2013011073258_llc.fits",
+          "sha256": "b5eb2e24ff62622d7f30a49092825ed1aab8d9cf4d3575f3285fcf505cb3c2a3"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2013098041711_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2013098041711_llc.fits",
+          "sha256": "278b37645ac1fce651f39307022034359d1c6aa31a4a88c458424c91a76560d4"
+        },
+        {
+          "url": "https://archive.stsci.edu/missions/kepler/lightcurves/0102/010266615/kplr010266615-2013131215648_llc.fits",
+          "path": "data/raw/exoplanets/kplr010266615-2013131215648_llc.fits",
+          "sha256": "a81338eb57299f17a0dd43280339ac379fcfcdfb80c7a899ce1f6456cc0fd426"
+        }
+      ],
+      "failures": []
+    }
+  ]
+}

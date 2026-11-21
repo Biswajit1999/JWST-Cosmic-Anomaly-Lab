@@ -4,6 +4,14 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Companion search in known Kepler systems · 21 November 2026
+
+The search masked known transits across 236 Kepler light curves. Both
+withheld known planets were recovered. None of 36 observed peaks from the
+12 search systems passed replication. A weak residual on Kepler-1850 was
+checked with two photometry products and three mask widths.
+[Companion search and actual Kepler pixels](reports/kepler_companions.md)
+
 ## Transit discovery search · 21 November 2026
 
 A 20–150 day search across 205 Kepler light curves recovered the known

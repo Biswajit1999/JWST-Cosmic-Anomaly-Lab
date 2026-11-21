@@ -1,0 +1,691 @@
+{
+  "executed_utc": "2026-11-21T20:43:48.563133+00:00",
+  "config_sha256": "842b79e9a52cec00f51ff6940a055959f03f1d0ad7181843b38e61d395cd026e",
+  "source_catalogue": {
+    "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+kepid%2Ckepoi_name%2Ckepler_name%2Ckoi_disposition%2Ckoi_period%2Ckoi_time0bk%2Ckoi_duration%2Ckoi_depth%2Ckoi_prad%2Ckoi_srad%2Ckoi_steff%2Ckoi_smass%2Cra%2Cdec+from+cumulative&format=json",
+    "path": "data/raw/exoplanets/koi_cumulative.json",
+    "sha256": "7af273ab6d63ca007c4d1165d34fd5e49bc66ca6c9776fe413ea39b436018122"
+  },
+  "eligible_single_confirmed_transit_hosts": 893,
+  "targets": [
+    {
+      "kic": 11904151,
+      "role": "withheld_planet_control",
+      "withheld_planet": "Kepler-10 c",
+      "masks": [
+        {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.01",
+          "kepler_name": "Kepler-10 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 0.837491225,
+          "koi_time0bk": 131.574858,
+          "koi_duration": 1.796,
+          "koi_depth": 190.4,
+          "koi_prad": 1.43,
+          "koi_srad": 1.044,
+          "koi_steff": 5676.0,
+          "koi_smass": 0.884,
+          "ra": 285.67938,
+          "dec": 50.241299
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.01",
+          "kepler_name": "Kepler-10 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 0.837491225,
+          "koi_time0bk": 131.574858,
+          "koi_duration": 1.796,
+          "koi_depth": 190.4,
+          "koi_prad": 1.43,
+          "koi_srad": 1.044,
+          "koi_steff": 5676.0,
+          "koi_smass": 0.884,
+          "ra": 285.67938,
+          "dec": 50.241299
+        },
+        {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.02",
+          "kepler_name": "Kepler-10 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 45.29422297,
+          "koi_time0bk": 138.678725,
+          "koi_duration": 6.83,
+          "koi_depth": 477.1,
+          "koi_prad": 2.26,
+          "koi_srad": 1.044,
+          "koi_steff": 5676.0,
+          "koi_smass": 0.884,
+          "ra": 285.67938,
+          "dec": 50.241299
+        }
+      ]
+    },
+    {
+      "kic": 8644288,
+      "role": "withheld_planet_control",
+      "withheld_planet": "Kepler-18 d",
+      "masks": [
+        {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.01",
+          "kepler_name": "Kepler-18 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 7.641567589,
+          "koi_time0bk": 135.407564,
+          "koi_duration": 3.41018,
+          "koi_depth": 2269.7,
+          "koi_prad": 4.91,
+          "koi_srad": 1.055,
+          "koi_steff": 5356.0,
+          "koi_smass": 0.882,
+          "ra": 298.07944,
+          "dec": 44.746319
+        },
+        {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.03",
+          "kepler_name": "Kepler-18 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 3.504691252,
+          "koi_time0bk": 133.511941,
+          "koi_duration": 1.9811,
+          "koi_depth": 315.1,
+          "koi_prad": 2.03,
+          "koi_srad": 1.055,
+          "koi_steff": 5356.0,
+          "koi_smass": 0.882,
+          "ra": 298.07944,
+          "dec": 44.746319
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.01",
+          "kepler_name": "Kepler-18 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 7.641567589,
+          "koi_time0bk": 135.407564,
+          "koi_duration": 3.41018,
+          "koi_depth": 2269.7,
+          "koi_prad": 4.91,
+          "koi_srad": 1.055,
+          "koi_steff": 5356.0,
+          "koi_smass": 0.882,
+          "ra": 298.07944,
+          "dec": 44.746319
+        },
+        {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.02",
+          "kepler_name": "Kepler-18 d",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.85890852,
+          "koi_time0bk": 128.154869,
+          "koi_duration": 3.5252,
+          "koi_depth": 3269,
+          "koi_prad": 5.94,
+          "koi_srad": 1.055,
+          "koi_steff": 5356.0,
+          "koi_smass": 0.882,
+          "ra": 298.07944,
+          "dec": 44.746319
+        },
+        {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.03",
+          "kepler_name": "Kepler-18 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 3.504691252,
+          "koi_time0bk": 133.511941,
+          "koi_duration": 1.9811,
+          "koi_depth": 315.1,
+          "koi_prad": 2.03,
+          "koi_srad": 1.055,
+          "koi_steff": 5356.0,
+          "koi_smass": 0.882,
+          "ra": 298.07944,
+          "dec": 44.746319
+        }
+      ]
+    },
+    {
+      "kic": 11455181,
+      "role": "known_alias_control",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 11455181,
+          "kepoi_name": "K03131.01",
+          "kepler_name": "Kepler-1437 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 10.9294815,
+          "koi_time0bk": 141.5034,
+          "koi_duration": 5.893,
+          "koi_depth": 196.9,
+          "koi_prad": 1.21,
+          "koi_srad": 0.864,
+          "koi_steff": 5792.0,
+          "koi_smass": 0.959,
+          "ra": 291.86493,
+          "dec": 49.32592
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 11455181,
+          "kepoi_name": "K03131.01",
+          "kepler_name": "Kepler-1437 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 10.9294815,
+          "koi_time0bk": 141.5034,
+          "koi_duration": 5.893,
+          "koi_depth": 196.9,
+          "koi_prad": 1.21,
+          "koi_srad": 0.864,
+          "koi_steff": 5792.0,
+          "koi_smass": 0.959,
+          "ra": 291.86493,
+          "dec": 49.32592
+        }
+      ]
+    },
+    {
+      "kic": 12404954,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 12404954,
+          "kepoi_name": "K00361.01",
+          "kepler_name": "Kepler-537 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 3.247548814,
+          "koi_time0bk": 171.27807,
+          "koi_duration": 2.5146,
+          "koi_depth": 209.7,
+          "koi_prad": 1.41,
+          "koi_srad": 0.975,
+          "koi_steff": 5703.0,
+          "koi_smass": 1.091,
+          "ra": 289.88065,
+          "dec": 51.277081
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 12404954,
+          "kepoi_name": "K00361.01",
+          "kepler_name": "Kepler-537 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 3.247548814,
+          "koi_time0bk": 171.27807,
+          "koi_duration": 2.5146,
+          "koi_depth": 209.7,
+          "koi_prad": 1.41,
+          "koi_srad": 0.975,
+          "koi_steff": 5703.0,
+          "koi_smass": 1.091,
+          "ra": 289.88065,
+          "dec": 51.277081
+        }
+      ]
+    },
+    {
+      "kic": 5084942,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 5084942,
+          "kepoi_name": "K00161.01",
+          "kepler_name": "Kepler-475 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 3.105507835,
+          "koi_time0bk": 133.210427,
+          "koi_duration": 1.7458,
+          "koi_depth": 904.6,
+          "koi_prad": 2.68,
+          "koi_srad": 0.791,
+          "koi_steff": 4989.0,
+          "koi_smass": 0.878,
+          "ra": 287.05173,
+          "dec": 40.211552
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 5084942,
+          "kepoi_name": "K00161.01",
+          "kepler_name": "Kepler-475 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 3.105507835,
+          "koi_time0bk": 133.210427,
+          "koi_duration": 1.7458,
+          "koi_depth": 904.6,
+          "koi_prad": 2.68,
+          "koi_srad": 0.791,
+          "koi_steff": 4989.0,
+          "koi_smass": 0.878,
+          "ra": 287.05173,
+          "dec": 40.211552
+        }
+      ]
+    },
+    {
+      "kic": 6046540,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 6046540,
+          "kepoi_name": "K00200.01",
+          "kepler_name": "Kepler-74 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 7.340714946,
+          "koi_time0bk": 134.3457036,
+          "koi_duration": 2.9987,
+          "koi_depth": 8510.5,
+          "koi_prad": 14.31,
+          "koi_srad": 1.498,
+          "koi_steff": 6056.0,
+          "koi_smass": 1.268,
+          "ra": 293.09253,
+          "dec": 41.355518
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 6046540,
+          "kepoi_name": "K00200.01",
+          "kepler_name": "Kepler-74 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 7.340714946,
+          "koi_time0bk": 134.3457036,
+          "koi_duration": 2.9987,
+          "koi_depth": 8510.5,
+          "koi_prad": 14.31,
+          "koi_srad": 1.498,
+          "koi_steff": 6056.0,
+          "koi_smass": 1.268,
+          "ra": 293.09253,
+          "dec": 41.355518
+        }
+      ]
+    },
+    {
+      "kic": 9277896,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 9277896,
+          "kepoi_name": "K01632.01",
+          "kepler_name": "Kepler-915 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 4.59489816,
+          "koi_time0bk": 133.83995,
+          "koi_duration": 3.1381,
+          "koi_depth": 109.7,
+          "koi_prad": 1.85,
+          "koi_srad": 1.381,
+          "koi_steff": 6056.0,
+          "koi_smass": 1.148,
+          "ra": 290.59207,
+          "dec": 45.737141
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 9277896,
+          "kepoi_name": "K01632.01",
+          "kepler_name": "Kepler-915 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 4.59489816,
+          "koi_time0bk": 133.83995,
+          "koi_duration": 3.1381,
+          "koi_depth": 109.7,
+          "koi_prad": 1.85,
+          "koi_srad": 1.381,
+          "koi_steff": 6056.0,
+          "koi_smass": 1.148,
+          "ra": 290.59207,
+          "dec": 45.737141
+        }
+      ]
+    },
+    {
+      "kic": 4847534,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 4847534,
+          "kepoi_name": "K00499.01",
+          "kepler_name": "Kepler-579 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 9.66857386,
+          "koi_time0bk": 174.53483,
+          "koi_duration": 2.4656,
+          "koi_depth": 411.7,
+          "koi_prad": 1.9,
+          "koi_srad": 0.836,
+          "koi_steff": 5288.0,
+          "koi_smass": 0.884,
+          "ra": 295.00204,
+          "dec": 39.95293
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 4847534,
+          "kepoi_name": "K00499.01",
+          "kepler_name": "Kepler-579 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 9.66857386,
+          "koi_time0bk": 174.53483,
+          "koi_duration": 2.4656,
+          "koi_depth": 411.7,
+          "koi_prad": 1.9,
+          "koi_srad": 0.836,
+          "koi_steff": 5288.0,
+          "koi_smass": 0.884,
+          "ra": 295.00204,
+          "dec": 39.95293
+        }
+      ]
+    },
+    {
+      "kic": 7879433,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 7879433,
+          "kepoi_name": "K02527.01",
+          "kepler_name": "Kepler-1850 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 1.385787741,
+          "koi_time0bk": 135.49119,
+          "koi_duration": 1.6449,
+          "koi_depth": 85.4,
+          "koi_prad": 0.55,
+          "koi_srad": 0.6,
+          "koi_steff": 4239.0,
+          "koi_smass": 0.611,
+          "ra": 287.1427,
+          "dec": 43.616051
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 7879433,
+          "kepoi_name": "K02527.01",
+          "kepler_name": "Kepler-1850 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 1.385787741,
+          "koi_time0bk": 135.49119,
+          "koi_duration": 1.6449,
+          "koi_depth": 85.4,
+          "koi_prad": 0.55,
+          "koi_srad": 0.6,
+          "koi_steff": 4239.0,
+          "koi_smass": 0.611,
+          "ra": 287.1427,
+          "dec": 43.616051
+        }
+      ]
+    },
+    {
+      "kic": 7815744,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 7815744,
+          "kepoi_name": "K01710.01",
+          "kepler_name": "Kepler-933 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.20442616,
+          "koi_time0bk": 142.7332,
+          "koi_duration": 3.898,
+          "koi_depth": 800.6,
+          "koi_prad": 1.9,
+          "koi_srad": 0.678,
+          "koi_steff": 5350.0,
+          "koi_smass": 0.758,
+          "ra": 289.56866,
+          "dec": 43.538609
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 7815744,
+          "kepoi_name": "K01710.01",
+          "kepler_name": "Kepler-933 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.20442616,
+          "koi_time0bk": 142.7332,
+          "koi_duration": 3.898,
+          "koi_depth": 800.6,
+          "koi_prad": 1.9,
+          "koi_srad": 0.678,
+          "koi_steff": 5350.0,
+          "koi_smass": 0.758,
+          "ra": 289.56866,
+          "dec": 43.538609
+        }
+      ]
+    },
+    {
+      "kic": 11457726,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 11457726,
+          "kepoi_name": "K02047.01",
+          "kepler_name": "Kepler-1070 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 6.22161107,
+          "koi_time0bk": 131.99094,
+          "koi_duration": 3.4117,
+          "koi_depth": 165,
+          "koi_prad": 1.59,
+          "koi_srad": 1.097,
+          "koi_steff": 6277.0,
+          "koi_smass": 1.148,
+          "ra": 293.19537,
+          "dec": 49.316502
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 11457726,
+          "kepoi_name": "K02047.01",
+          "kepler_name": "Kepler-1070 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 6.22161107,
+          "koi_time0bk": 131.99094,
+          "koi_duration": 3.4117,
+          "koi_depth": 165,
+          "koi_prad": 1.59,
+          "koi_srad": 1.097,
+          "koi_steff": 6277.0,
+          "koi_smass": 1.148,
+          "ra": 293.19537,
+          "dec": 49.316502
+        }
+      ]
+    },
+    {
+      "kic": 11391957,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 11391957,
+          "kepoi_name": "K00765.01",
+          "kepler_name": "Kepler-668 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.35389523,
+          "koi_time0bk": 171.63257,
+          "koi_duration": 2.2514,
+          "koi_depth": 1041.6,
+          "koi_prad": 2.52,
+          "koi_srad": 0.787,
+          "koi_steff": 5592.0,
+          "koi_smass": 0.862,
+          "ra": 285.49924,
+          "dec": 49.277351
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 11391957,
+          "kepoi_name": "K00765.01",
+          "kepler_name": "Kepler-668 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.35389523,
+          "koi_time0bk": 171.63257,
+          "koi_duration": 2.2514,
+          "koi_depth": 1041.6,
+          "koi_prad": 2.52,
+          "koi_srad": 0.787,
+          "koi_steff": 5592.0,
+          "koi_smass": 0.862,
+          "ra": 285.49924,
+          "dec": 49.277351
+        }
+      ]
+    },
+    {
+      "kic": 4346178,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 4346178,
+          "kepoi_name": "K02652.01",
+          "kepler_name": "Kepler-1304 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 16.1289679,
+          "koi_time0bk": 143.75518,
+          "koi_duration": 6.271,
+          "koi_depth": 389,
+          "koi_prad": 2.94,
+          "koi_srad": 1.087,
+          "koi_steff": 5392.0,
+          "koi_smass": 0.888,
+          "ra": 285.27643,
+          "dec": 39.446911
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 4346178,
+          "kepoi_name": "K02652.01",
+          "kepler_name": "Kepler-1304 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 16.1289679,
+          "koi_time0bk": 143.75518,
+          "koi_duration": 6.271,
+          "koi_depth": 389,
+          "koi_prad": 2.94,
+          "koi_srad": 1.087,
+          "koi_steff": 5392.0,
+          "koi_smass": 0.888,
+          "ra": 285.27643,
+          "dec": 39.446911
+        }
+      ]
+    },
+    {
+      "kic": 5601258,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 5601258,
+          "kepoi_name": "K02191.01",
+          "kepler_name": "Kepler-1805 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.84784273,
+          "koi_time0bk": 140.15085,
+          "koi_duration": 2.0572,
+          "koi_depth": 460.2,
+          "koi_prad": 1.15,
+          "koi_srad": 0.552,
+          "koi_steff": 3867.0,
+          "koi_smass": 0.581,
+          "ra": 285.08655,
+          "dec": 40.898998
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 5601258,
+          "kepoi_name": "K02191.01",
+          "kepler_name": "Kepler-1805 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.84784273,
+          "koi_time0bk": 140.15085,
+          "koi_duration": 2.0572,
+          "koi_depth": 460.2,
+          "koi_prad": 1.15,
+          "koi_srad": 0.552,
+          "koi_steff": 3867.0,
+          "koi_smass": 0.581,
+          "ra": 285.08655,
+          "dec": 40.898998
+        }
+      ]
+    },
+    {
+      "kic": 10266615,
+      "role": "search_host",
+      "withheld_planet": null,
+      "masks": [
+        {
+          "kepid": 10266615,
+          "kepoi_name": "K00530.01",
+          "kepler_name": "Kepler-587 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 10.94026745,
+          "koi_time0bk": 170.30551,
+          "koi_duration": 2.3494,
+          "koi_depth": 538.6,
+          "koi_prad": 2.08,
+          "koi_srad": 0.864,
+          "koi_steff": 5749.0,
+          "koi_smass": 0.961,
+          "ra": 288.67068,
+          "dec": 47.399139
+        }
+      ],
+      "cumulative_koi": [
+        {
+          "kepid": 10266615,
+          "kepoi_name": "K00530.01",
+          "kepler_name": "Kepler-587 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 10.94026745,
+          "koi_time0bk": 170.30551,
+          "koi_duration": 2.3494,
+          "koi_depth": 538.6,
+          "koi_prad": 2.08,
+          "koi_srad": 0.864,
+          "koi_steff": 5749.0,
+          "koi_smass": 0.961,
+          "ra": 288.67068,
+          "dec": 47.399139
+        }
+      ]
+    }
+  ]
+}

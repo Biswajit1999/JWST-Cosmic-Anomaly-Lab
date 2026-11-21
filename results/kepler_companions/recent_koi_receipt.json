@@ -1,0 +1,7 @@
+{
+  "executed_utc": "2026-11-21T20:50:07.125389+00:00",
+  "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+kepid%2Ckepoi_name%2Ckepler_name%2Ckoi_disposition%2Ckoi_period%2Ckoi_time0bk%2Ckoi_duration+from+cumulative+where+kepid+in+%2811904151%2C8644288%2C11455181%2C12404954%2C5084942%2C6046540%2C9277896%2C4847534%2C7879433%2C7815744%2C11457726%2C11391957%2C4346178%2C5601258%2C10266615%29&format=json",
+  "path": "data/raw/exoplanets/kepler_companion_recent_koi.json",
+  "sha256": "15942bda4fb1911588451cd74fe81813eabd36debc219f2f85893cb7136fa7cd",
+  "rows": 18
+}

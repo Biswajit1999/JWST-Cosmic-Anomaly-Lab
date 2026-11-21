@@ -1,0 +1,22 @@
+{
+  "executed_utc": "2026-11-21T20:50:46.422657+00:00",
+  "kic": 8644288,
+  "rank": 1,
+  "quarter": 9,
+  "product": {
+    "url": "https://archive.stsci.edu/missions/kepler/target_pixel_files/0086/008644288/kplr008644288-2011177032512_lpd-targ.fits.gz",
+    "path": "data/raw/exoplanets/kplr008644288-2011177032512_lpd-targ.fits.gz",
+    "sha256": "1bdffd7151a1c546e1c679dc25b523b626374047d70582ec7264448aa09bd372"
+  },
+  "centers_bkjd": [
+    811.6642831422026,
+    826.5231784768528,
+    841.3820738115028,
+    856.2409691461529,
+    871.099864480803,
+    900.8176551501032
+  ],
+  "assessment": "CATALOGUE_MATCH_OR_ALIAS",
+  "script_sha256": "15caaa99c93f1e801eafedb62561e38140527c66bc5f471ec388253073d085be",
+  "measured_centroid_uncertainty": false
+}

@@ -1,0 +1,222 @@
+{
+  "executed_utc": "2026-11-21T20:49:35.797645+00:00",
+  "experiments": [
+    {
+      "kic": 12404954,
+      "kind": "SYNTHETIC_INJECTION",
+      "injected": {
+        "period_days": 8.137,
+        "epoch_bkjd": 151.394,
+        "duration_days": 0.14,
+        "depth": 0.0002
+      },
+      "recovered": true,
+      "trials": [
+        {
+          "rank": 1,
+          "period_days": 8.137008375488914,
+          "epoch_bkjd": 135.1221643849513,
+          "duration_days": 0.14,
+          "bls_contrast": 30.3525633100913,
+          "trial_periods": 53743,
+          "period_and_timing_match": true,
+          "later_depth": 0.0001961594669598987,
+          "later_contrast": 18.38546243200973,
+          "replicated": true
+        },
+        {
+          "rank": 2,
+          "period_days": 16.273974715405775,
+          "epoch_bkjd": 143.2581643849513,
+          "duration_days": 0.14,
+          "bls_contrast": 23.38667378837378,
+          "trial_periods": 53743,
+          "period_and_timing_match": false,
+          "later_depth": 0.0001639294453249487,
+          "later_contrast": 11.839985826331882,
+          "replicated": true
+        },
+        {
+          "rank": 3,
+          "period_days": 4.068498451124252,
+          "epoch_bkjd": 135.1221643849513,
+          "duration_days": 0.14,
+          "bls_contrast": 20.63371412543974,
+          "trial_periods": 53743,
+          "period_and_timing_match": false,
+          "later_depth": 9.793763250100531e-05,
+          "later_contrast": 8.555475765613428,
+          "replicated": true
+        }
+      ]
+    },
+    {
+      "kic": 12404954,
+      "kind": "SYNTHETIC_INJECTION",
+      "injected": {
+        "period_days": 8.137,
+        "epoch_bkjd": 151.394,
+        "duration_days": 0.14,
+        "depth": 0.0005
+      },
+      "recovered": true,
+      "trials": [
+        {
+          "rank": 1,
+          "period_days": 8.137008375488914,
+          "epoch_bkjd": 135.1221643849513,
+          "duration_days": 0.14,
+          "bls_contrast": 70.40535880066106,
+          "trial_periods": 53743,
+          "period_and_timing_match": true,
+          "later_depth": 0.0004945956231229224,
+          "later_contrast": 46.064838118946376,
+          "replicated": true
+        },
+        {
+          "rank": 2,
+          "period_days": 16.273974715405775,
+          "epoch_bkjd": 143.2581643849513,
+          "duration_days": 0.14,
+          "bls_contrast": 53.264055234266436,
+          "trial_periods": 53743,
+          "period_and_timing_match": false,
+          "later_depth": 0.0004629219710260512,
+          "later_contrast": 34.891797775822006,
+          "replicated": true
+        },
+        {
+          "rank": 3,
+          "period_days": 4.068498451124252,
+          "epoch_bkjd": 135.1221643849513,
+          "duration_days": 0.14,
+          "bls_contrast": 47.94118552412184,
+          "trial_periods": 53743,
+          "period_and_timing_match": false,
+          "later_depth": 0.00024090885273198845,
+          "later_contrast": 10.240584658390357,
+          "replicated": true
+        }
+      ]
+    },
+    {
+      "kic": 12404954,
+      "kind": "SYNTHETIC_INJECTION",
+      "injected": {
+        "period_days": 24.691,
+        "epoch_bkjd": 153.753,
+        "duration_days": 0.24,
+        "depth": 0.0002
+      },
+      "recovered": true,
+      "trials": [
+        {
+          "rank": 1,
+          "period_days": 24.691725036467204,
+          "epoch_bkjd": 153.7441643849513,
+          "duration_days": 0.24,
+          "bls_contrast": 16.674021760222633,
+          "trial_periods": 53743,
+          "period_and_timing_match": true,
+          "later_depth": 0.00015785814625487408,
+          "later_contrast": 8.766630170088106,
+          "replicated": true
+        },
+        {
+          "rank": 2,
+          "period_days": 49.38351970405284,
+          "epoch_bkjd": 153.7441643849513,
+          "duration_days": 0.24,
+          "bls_contrast": 12.782127977453658,
+          "trial_periods": 53743,
+          "period_and_timing_match": false,
+          "later_depth": 0.00020214072065424457,
+          "later_contrast": 12.572428665863384,
+          "replicated": false
+        },
+        {
+          "rank": 3,
+          "period_days": 15.301627813939705,
+          "epoch_bkjd": 146.02816438495128,
+          "duration_days": 0.24,
+          "bls_contrast": 12.413302838859332,
+          "trial_periods": 53743,
+          "period_and_timing_match": false,
+          "later_depth": 6.727313003854557e-06,
+          "later_contrast": 0.6352959633419257,
+          "replicated": false
+        }
+      ]
+    },
+    {
+      "kic": 12404954,
+      "kind": "SYNTHETIC_INJECTION",
+      "injected": {
+        "period_days": 24.691,
+        "epoch_bkjd": 153.753,
+        "duration_days": 0.24,
+        "depth": 0.0005
+      },
+      "recovered": true,
+      "trials": [
+        {
+          "rank": 1,
+          "period_days": 24.691527849215923,
+          "epoch_bkjd": 153.7441643849513,
+          "duration_days": 0.24,
+          "bls_contrast": 46.301026996067094,
+          "trial_periods": 53743,
+          "period_and_timing_match": true,
+          "later_depth": 0.00043854489450013886,
+          "later_contrast": 17.295379538312996,
+          "replicated": true
+        },
+        {
+          "rank": 2,
+          "period_days": 12.345598628238292,
+          "epoch_bkjd": 141.4041643849513,
+          "duration_days": 0.24,
+          "bls_contrast": 33.15905113230461,
+          "trial_periods": 53743,
+          "period_and_timing_match": false,
+          "later_depth": 0.00020999262180603214,
+          "later_contrast": 5.977493964819223,
+          "replicated": true
+        },
+        {
+          "rank": 3,
+          "period_days": 49.382533772311554,
+          "epoch_bkjd": 153.7521643849513,
+          "duration_days": 0.24,
+          "bls_contrast": 33.198456795695996,
+          "trial_periods": 53743,
+          "period_and_timing_match": false,
+          "later_depth": 0.0004956746760763504,
+          "later_contrast": 17.010993823,
+          "replicated": true
+        }
+      ]
+    }
+  ],
+  "script_sha256": "50674601cd6f0d92a9edfad5dcdf84750462cb5bfd9d716791ade5506571bb77",
+  "input_sha256": {
+    "data/raw/exoplanets/kplr012404954-2009166043257_llc.fits": "9570e5d36b26092f0deca7fcf4c5350a2fb7e6f3cbbb685a01576257759475e8",
+    "data/raw/exoplanets/kplr012404954-2009259160929_llc.fits": "7d93c24fc23c56d92e5ead7814100f6a48ef2f0b9edc0e0f5d3871390bac06f0",
+    "data/raw/exoplanets/kplr012404954-2009350155506_llc.fits": "00b7082f15aadef994049267df2460d85e778ba8b78c68775832e9c51149731d",
+    "data/raw/exoplanets/kplr012404954-2010078095331_llc.fits": "18b0bcc32c3190c2be99f5c72d5fff1467bb306d574d6fea6a4d91d9fa8be8e6",
+    "data/raw/exoplanets/kplr012404954-2010174085026_llc.fits": "60d0e109472e25f7c73c27eebb6715ed112608504ef1ae0d073a204a964b888f",
+    "data/raw/exoplanets/kplr012404954-2010265121752_llc.fits": "c801344f7eb3c9d69288b7bc04627bd36d2f47dc9d97493104b47949afe0d592",
+    "data/raw/exoplanets/kplr012404954-2010355172524_llc.fits": "3430088116b41e2e4a464a3c7233adfd7751c2aea6deaeaa15f82030f082cfda",
+    "data/raw/exoplanets/kplr012404954-2011073133259_llc.fits": "80119c4c97af56e5c07ffeb6c0ae19676ee1b19f0fc6c16d83a1934ef0c1cb65",
+    "data/raw/exoplanets/kplr012404954-2011177032512_llc.fits": "e72b963cf7370a1c78205612ec24b5db16d895c38b1e5a1c0bcc238cbdf9b3f9",
+    "data/raw/exoplanets/kplr012404954-2011271113734_llc.fits": "90a2e5bc4912a57701bfad6fbb8b8e1f11704f711020db675f14ab22a899ac6e",
+    "data/raw/exoplanets/kplr012404954-2012004120508_llc.fits": "cdd626d584e866dcc7bb20cdebf7e873389019300eeacba73bfb89e691c0a05c",
+    "data/raw/exoplanets/kplr012404954-2012088054726_llc.fits": "4bb65585835577f8d3ac7e4932746bfd5c1be24c633a242e14ccc1828413b94f",
+    "data/raw/exoplanets/kplr012404954-2012179063303_llc.fits": "1e76fca34e7e3aeee6a092274d5e847f4cb75acf5fc3a27099a50b648ce12730",
+    "data/raw/exoplanets/kplr012404954-2012277125453_llc.fits": "035f50dab0c134da99cb7a224b6c1f610688139e7bb786978b978c267e388744",
+    "data/raw/exoplanets/kplr012404954-2013011073258_llc.fits": "010bda03a254ae066fa6bbd749c85aea8b0e8dce74144ff4311cffa1aad43410",
+    "data/raw/exoplanets/kplr012404954-2013098041711_llc.fits": "cb5f4fc2baf5543291116ff752535b1f51977d61284bbbf35a118a59f135a7b9",
+    "data/raw/exoplanets/kplr012404954-2013131215648_llc.fits": "007a9c3cdbf80f5ffbd7f826b91beedac0add435cb4ca76d30f14a6cca613978"
+  },
+  "scope": "Two periods and two depths in one star. This is not a completeness measurement."
+}

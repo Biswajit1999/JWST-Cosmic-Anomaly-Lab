@@ -1,0 +1,16 @@
+single_transit_hosts: 12
+selection_seed: kepler-companions-v1
+stellar_radius_solar: [0.5, 1.5]
+known_period_days: [0.5, 20]
+positive_controls:
+  11904151: Kepler-10 c
+  8644288: Kepler-18 d
+alias_control_kic: 11455181
+discovery_quarters: [1, 8]
+replication_quarters: [9, 17]
+trial_period_days: [2, 50]
+trial_durations_days: [0.08, 0.14, 0.24]
+trial_peaks_per_sign: 3
+depth_contrast_threshold: 5
+minimum_events_per_half: 3
+raw_storage_budget_mib: 4096

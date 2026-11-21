@@ -1,0 +1,1086 @@
+[
+  {
+    "kic": 11904151,
+    "role": "withheld_planet_control",
+    "rank": 1,
+    "period_days": 45.29592186471429,
+    "status": "CATALOGUE_MATCH_OR_ALIAS",
+    "min_later_contrast_excluding_one_event": 26.745994839150374,
+    "later_parity": [
+      {
+        "events": 5,
+        "positive": 5,
+        "depth": 0.000441338139094593,
+        "error": 1.7197043909055033e-05,
+        "contrast": 25.66360482816516,
+        "event_scatter": 1.6500725560226834
+      },
+      {
+        "events": 6,
+        "positive": 6,
+        "depth": 0.0004084796617069092,
+        "error": 2.0805565145031723e-05,
+        "contrast": 19.63319231462705,
+        "event_scatter": 3.206413057248972
+      }
+    ],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 1.0,
+        "relative_period_error": 3.750797790291749e-05,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 19,
+        "reference": {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.02",
+          "kepler_name": "Kepler-10 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 45.29422297,
+          "koi_time0bk": 138.678725,
+          "koi_duration": 6.83,
+          "koi_depth": 477.1,
+          "koi_prad": 2.26,
+          "koi_srad": 1.044,
+          "koi_steff": 5676.0,
+          "koi_smass": 0.884,
+          "ra": 285.67938,
+          "dec": 50.241299
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 1.0,
+        "relative_period_error": 3.750797790291749e-05,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 19,
+        "reference": {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.02",
+          "kepler_name": "Kepler-10 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 45.29422297,
+          "koi_time0bk": 138.678725,
+          "koi_duration": 6.83
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 1.0,
+        "relative_period_error": 3.58072586239544e-05,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 19,
+        "reference": {
+          "kepid": 11904151,
+          "tce_plnt_num": 1,
+          "tce_period": 45.2943,
+          "tce_time0bk": 138.678
+        }
+      }
+    ]
+  },
+  {
+    "kic": 11904151,
+    "role": "withheld_planet_control",
+    "rank": 2,
+    "period_days": 22.647259186188432,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 0.5,
+        "relative_period_error": 6.521855492769291e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 36,
+        "reference": {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.02",
+          "kepler_name": "Kepler-10 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 45.29422297,
+          "koi_time0bk": 138.678725,
+          "koi_duration": 6.83,
+          "koi_depth": 477.1,
+          "koi_prad": 2.26,
+          "koi_srad": 1.044,
+          "koi_steff": 5676.0,
+          "koi_smass": 0.884,
+          "ra": 285.67938,
+          "dec": 50.241299
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 0.5,
+        "relative_period_error": 6.521855492769291e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 36,
+        "reference": {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.02",
+          "kepler_name": "Kepler-10 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 45.29422297,
+          "koi_time0bk": 138.678725,
+          "koi_duration": 6.83
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 0.5,
+        "relative_period_error": 4.821188910320018e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 36,
+        "reference": {
+          "kepid": 11904151,
+          "tce_plnt_num": 1,
+          "tce_period": 45.2943,
+          "tce_time0bk": 138.678
+        }
+      }
+    ]
+  },
+  {
+    "kic": 11904151,
+    "role": "withheld_planet_control",
+    "rank": 3,
+    "period_days": 45.26516783141244,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 1.0,
+        "relative_period_error": -0.0006414755940686856,
+        "timing_overlap_fraction": 0.375,
+        "measured_events": 16,
+        "reference": {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.02",
+          "kepler_name": "Kepler-10 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 45.29422297,
+          "koi_time0bk": 138.678725,
+          "koi_duration": 6.83,
+          "koi_depth": 477.1,
+          "koi_prad": 2.26,
+          "koi_srad": 1.044,
+          "koi_steff": 5676.0,
+          "koi_smass": 0.884,
+          "ra": 285.67938,
+          "dec": 50.241299
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 1.0,
+        "relative_period_error": -0.0006414755940686856,
+        "timing_overlap_fraction": 0.375,
+        "measured_events": 16,
+        "reference": {
+          "kepid": 11904151,
+          "kepoi_name": "K00072.02",
+          "kepler_name": "Kepler-10 c",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 45.29422297,
+          "koi_time0bk": 138.678725,
+          "koi_duration": 6.83
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 1.0,
+        "relative_period_error": -0.000643175158630549,
+        "timing_overlap_fraction": 0.375,
+        "measured_events": 16,
+        "reference": {
+          "kepid": 11904151,
+          "tce_plnt_num": 1,
+          "tce_period": 45.2943,
+          "tce_time0bk": 138.678
+        }
+      }
+    ]
+  },
+  {
+    "kic": 8644288,
+    "role": "withheld_planet_control",
+    "rank": 1,
+    "period_days": 14.858895334650093,
+    "status": "CATALOGUE_MATCH_OR_ALIAS",
+    "min_later_contrast_excluding_one_event": 159.13808449737257,
+    "later_parity": [
+      {
+        "events": 13,
+        "positive": 13,
+        "depth": 0.002925855204953766,
+        "error": 2.856942748178289e-05,
+        "contrast": 102.41210492647843,
+        "event_scatter": 0.5636245587373655
+      },
+      {
+        "events": 22,
+        "positive": 22,
+        "depth": 0.002963859715793664,
+        "error": 2.2580969374834178e-05,
+        "contrast": 131.2547599970087,
+        "event_scatter": 0.7555896740725631
+      }
+    ],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 1.0,
+        "relative_period_error": -8.873700170219934e-07,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 65,
+        "reference": {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.02",
+          "kepler_name": "Kepler-18 d",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.85890852,
+          "koi_time0bk": 128.154869,
+          "koi_duration": 3.5252,
+          "koi_depth": 3269,
+          "koi_prad": 5.94,
+          "koi_srad": 1.055,
+          "koi_steff": 5356.0,
+          "koi_smass": 0.882,
+          "ra": 298.07944,
+          "dec": 44.746319
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 1.0,
+        "relative_period_error": -8.873700170219934e-07,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 65,
+        "reference": {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.02",
+          "kepler_name": "Kepler-18 d",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.85890852,
+          "koi_time0bk": 128.154869,
+          "koi_duration": 3.5252
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 1.0,
+        "relative_period_error": -3.139768022242251e-07,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 65,
+        "reference": {
+          "kepid": 8644288,
+          "tce_plnt_num": 1,
+          "tce_period": 14.8589,
+          "tce_time0bk": 143.013
+        }
+      }
+    ]
+  },
+  {
+    "kic": 8644288,
+    "role": "withheld_planet_control",
+    "rank": 2,
+    "period_days": 29.71795123515385,
+    "status": "CATALOGUE_MATCH_OR_ALIAS",
+    "min_later_contrast_excluding_one_event": 108.37371653847174,
+    "later_parity": [
+      {
+        "events": 10,
+        "positive": 10,
+        "depth": 0.00292823915902486,
+        "error": 4.060288035382627e-05,
+        "contrast": 72.11900075825318,
+        "event_scatter": 0.535384764274114
+      },
+      {
+        "events": 12,
+        "positive": 12,
+        "depth": 0.0029824796437571536,
+        "error": 3.201551747016584e-05,
+        "contrast": 93.15731493443526,
+        "event_scatter": 0.3267593636388999
+      }
+    ],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 2.0,
+        "relative_period_error": 4.515646410796492e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 39,
+        "reference": {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.02",
+          "kepler_name": "Kepler-18 d",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.85890852,
+          "koi_time0bk": 128.154869,
+          "koi_duration": 3.5252,
+          "koi_depth": 3269,
+          "koi_prad": 5.94,
+          "koi_srad": 1.055,
+          "koi_steff": 5356.0,
+          "koi_smass": 0.882,
+          "ra": 298.07944,
+          "dec": 44.746319
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 2.0,
+        "relative_period_error": 4.515646410796492e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 39,
+        "reference": {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.02",
+          "kepler_name": "Kepler-18 d",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.85890852,
+          "koi_time0bk": 128.154869,
+          "koi_duration": 3.5252
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 2.0,
+        "relative_period_error": 5.089042723671611e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 39,
+        "reference": {
+          "kepid": 8644288,
+          "tce_plnt_num": 1,
+          "tce_period": 14.8589,
+          "tce_time0bk": 143.013
+        }
+      }
+    ]
+  },
+  {
+    "kic": 8644288,
+    "role": "withheld_planet_control",
+    "rank": 3,
+    "period_days": 7.4294668575406035,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 0.5,
+        "relative_period_error": 1.6956212613994381e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 135,
+        "reference": {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.02",
+          "kepler_name": "Kepler-18 d",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.85890852,
+          "koi_time0bk": 128.154869,
+          "koi_duration": 3.5252,
+          "koi_depth": 3269,
+          "koi_prad": 5.94,
+          "koi_srad": 1.055,
+          "koi_steff": 5356.0,
+          "koi_smass": 0.882,
+          "ra": 298.07944,
+          "dec": 44.746319
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 0.5,
+        "relative_period_error": 1.6956212613994381e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 135,
+        "reference": {
+          "kepid": 8644288,
+          "kepoi_name": "K00137.02",
+          "kepler_name": "Kepler-18 d",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 14.85890852,
+          "koi_time0bk": 128.154869,
+          "koi_duration": 3.5252
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 0.5,
+        "relative_period_error": 2.269015957123699e-06,
+        "timing_overlap_fraction": 1.0,
+        "measured_events": 135,
+        "reference": {
+          "kepid": 8644288,
+          "tce_plnt_num": 1,
+          "tce_period": 14.8589,
+          "tce_time0bk": 143.013
+        }
+      }
+    ]
+  },
+  {
+    "kic": 11455181,
+    "role": "known_alias_control",
+    "rank": 1,
+    "period_days": 38.59902298221557,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 11455181,
+    "role": "known_alias_control",
+    "rank": 2,
+    "period_days": 18.2301186545398,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 11455181,
+    "role": "known_alias_control",
+    "rank": 3,
+    "period_days": 31.919037254093254,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 12404954,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 15.305660904158309,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 12404954,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 13.068331422747951,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 12404954,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 7.463303413251892,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 5084942,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 44.43818782832241,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 5084942,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 16.575095500778144,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 5084942,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 29.582351537183218,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 6046540,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 44.53760381552404,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 6046540,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 44.47380550246935,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 6046540,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 21.857802107233585,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 9277896,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 3.1837888595505364,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 9277896,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 45.70467113660426,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 9277896,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 3.1817681557142445,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 4847534,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 15.531544190263427,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 4847534,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 31.907676356290526,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 4847534,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 42.60108874614883,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 7879433,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 48.57445254016503,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 7879433,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 13.171114255220736,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 7879433,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 9.254934423009999,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 7815744,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 12.06615828329371,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 7815744,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 43.52926076272513,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 7815744,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 28.11197753120365,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 11457726,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 21.66083532612448,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 11457726,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 21.644753845950813,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 11457726,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 10.829753724825164,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 11391957,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 19.313027533351264,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 11391957,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 6.116580929717627,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 11391957,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 6.099792306959175,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 4346178,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 32.23023483474892,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 2.0,
+        "relative_period_error": -0.0008587333493011995,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 17,
+        "reference": {
+          "kepid": 4346178,
+          "kepoi_name": "K02652.01",
+          "kepler_name": "Kepler-1304 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 16.1289679,
+          "koi_time0bk": 143.75518,
+          "koi_duration": 6.271,
+          "koi_depth": 389,
+          "koi_prad": 2.94,
+          "koi_srad": 1.087,
+          "koi_steff": 5392.0,
+          "koi_smass": 0.888,
+          "ra": 285.27643,
+          "dec": 39.446911
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 2.0,
+        "relative_period_error": -0.0008587333493011995,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 17,
+        "reference": {
+          "kepid": 4346178,
+          "kepoi_name": "K02652.01",
+          "kepler_name": "Kepler-1304 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 16.1289679,
+          "koi_time0bk": 143.75518,
+          "koi_duration": 6.271
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 2.0,
+        "relative_period_error": -0.0008421374708152962,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 17,
+        "reference": {
+          "kepid": 4346178,
+          "tce_plnt_num": 1,
+          "tce_period": 16.1287,
+          "tce_time0bk": 143.759
+        }
+      }
+    ]
+  },
+  {
+    "kic": 4346178,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 32.10474448709159,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 2.0,
+        "relative_period_error": -0.0047489496494196315,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 36,
+        "reference": {
+          "kepid": 4346178,
+          "kepoi_name": "K02652.01",
+          "kepler_name": "Kepler-1304 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 16.1289679,
+          "koi_time0bk": 143.75518,
+          "koi_duration": 6.271,
+          "koi_depth": 389,
+          "koi_prad": 2.94,
+          "koi_srad": 1.087,
+          "koi_steff": 5392.0,
+          "koi_smass": 0.888,
+          "ra": 285.27643,
+          "dec": 39.446911
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 2.0,
+        "relative_period_error": -0.0047489496494196315,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 36,
+        "reference": {
+          "kepid": 4346178,
+          "kepoi_name": "K02652.01",
+          "kepler_name": "Kepler-1304 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 16.1289679,
+          "koi_time0bk": 143.75518,
+          "koi_duration": 6.271
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 2.0,
+        "relative_period_error": -0.004732418387979553,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 36,
+        "reference": {
+          "kepid": 4346178,
+          "tce_plnt_num": 1,
+          "tce_period": 16.1287,
+          "tce_time0bk": 143.759
+        }
+      }
+    ]
+  },
+  {
+    "kic": 4346178,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 32.081165418300465,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 5601258,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 17.752648115716585,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 2.0,
+        "relative_period_error": 0.003219013801152082,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 49,
+        "reference": {
+          "kepid": 5601258,
+          "kepoi_name": "K02191.01",
+          "kepler_name": "Kepler-1805 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.84784273,
+          "koi_time0bk": 140.15085,
+          "koi_duration": 2.0572,
+          "koi_depth": 460.2,
+          "koi_prad": 1.15,
+          "koi_srad": 0.552,
+          "koi_steff": 3867.0,
+          "koi_smass": 0.581,
+          "ra": 285.08655,
+          "dec": 40.898998
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 2.0,
+        "relative_period_error": 0.003219013801152082,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 49,
+        "reference": {
+          "kepid": 5601258,
+          "kepoi_name": "K02191.01",
+          "kepler_name": "Kepler-1805 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.84784273,
+          "koi_time0bk": 140.15085,
+          "koi_duration": 2.0572
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 2.0,
+        "relative_period_error": 0.003207984893465854,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 49,
+        "reference": {
+          "kepid": 5601258,
+          "tce_plnt_num": 1,
+          "tce_period": 8.84794,
+          "tce_time0bk": 140.147
+        }
+      }
+    ]
+  },
+  {
+    "kic": 5601258,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 17.74109740880501,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 2.0,
+        "relative_period_error": 0.002566272377956924,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 49,
+        "reference": {
+          "kepid": 5601258,
+          "kepoi_name": "K02191.01",
+          "kepler_name": "Kepler-1805 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.84784273,
+          "koi_time0bk": 140.15085,
+          "koi_duration": 2.0572,
+          "koi_depth": 460.2,
+          "koi_prad": 1.15,
+          "koi_srad": 0.552,
+          "koi_steff": 3867.0,
+          "koi_smass": 0.581,
+          "ra": 285.08655,
+          "dec": 40.898998
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 2.0,
+        "relative_period_error": 0.002566272377956924,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 49,
+        "reference": {
+          "kepid": 5601258,
+          "kepoi_name": "K02191.01",
+          "kepler_name": "Kepler-1805 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.84784273,
+          "koi_time0bk": 140.15085,
+          "koi_duration": 2.0572
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 2.0,
+        "relative_period_error": 0.0025552506461963276,
+        "timing_overlap_fraction": 0.0,
+        "measured_events": 49,
+        "reference": {
+          "kepid": 5601258,
+          "tce_plnt_num": 1,
+          "tce_period": 8.84794,
+          "tce_time0bk": 140.147
+        }
+      }
+    ]
+  },
+  {
+    "kic": 5601258,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 17.763851684253982,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": [
+      {
+        "catalogue": "pinned_koi",
+        "harmonic": 2.0,
+        "relative_period_error": 0.0038521381049674286,
+        "timing_overlap_fraction": 0.041666666666666664,
+        "measured_events": 48,
+        "reference": {
+          "kepid": 5601258,
+          "kepoi_name": "K02191.01",
+          "kepler_name": "Kepler-1805 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.84784273,
+          "koi_time0bk": 140.15085,
+          "koi_duration": 2.0572,
+          "koi_depth": 460.2,
+          "koi_prad": 1.15,
+          "koi_srad": 0.552,
+          "koi_steff": 3867.0,
+          "koi_smass": 0.581,
+          "ra": 285.08655,
+          "dec": 40.898998
+        }
+      },
+      {
+        "catalogue": "recent_koi",
+        "harmonic": 2.0,
+        "relative_period_error": 0.0038521381049674286,
+        "timing_overlap_fraction": 0.041666666666666664,
+        "measured_events": 48,
+        "reference": {
+          "kepid": 5601258,
+          "kepoi_name": "K02191.01",
+          "kepler_name": "Kepler-1805 b",
+          "koi_disposition": "CONFIRMED",
+          "koi_period": 8.84784273,
+          "koi_time0bk": 140.15085,
+          "koi_duration": 2.0572
+        }
+      },
+      {
+        "catalogue": "tce",
+        "harmonic": 2.0,
+        "relative_period_error": 0.0038411022370168357,
+        "timing_overlap_fraction": 0.041666666666666664,
+        "measured_events": 48,
+        "reference": {
+          "kepid": 5601258,
+          "tce_plnt_num": 1,
+          "tce_period": 8.84794,
+          "tce_time0bk": 140.147
+        }
+      }
+    ]
+  },
+  {
+    "kic": 10266615,
+    "role": "search_host",
+    "rank": 1,
+    "period_days": 26.97991685111074,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 10266615,
+    "role": "search_host",
+    "rank": 2,
+    "period_days": 48.28303593859188,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  },
+  {
+    "kic": 10266615,
+    "role": "search_host",
+    "rank": 3,
+    "period_days": 34.31035886956307,
+    "status": "BELOW_REPLICATION_GATE",
+    "min_later_contrast_excluding_one_event": null,
+    "later_parity": [],
+    "matches": []
+  }
+]

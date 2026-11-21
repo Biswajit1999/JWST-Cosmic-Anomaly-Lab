@@ -1,0 +1,33 @@
+{
+  "executed_utc": "2026-11-21T20:52:28.664640+00:00",
+  "kic": 7879433,
+  "rank": 2,
+  "period_days": 13.171114255220736,
+  "epoch_bkjd": 141.44875005250745,
+  "duration_days": 0.24,
+  "selection": "Largest minimum of early and later contrasts among observed search-host peaks",
+  "fixed_ephemeris": true,
+  "followup_is_blind": false,
+  "caution": "SAP and PDCSAP share photons. Phase offsets share data and are not a false-alarm calibration.",
+  "qualitative_status": "BELOW_PRIMARY_REPLICATION_GATE",
+  "script_sha256": "604f6ae4ca54f5903f668ec166b57c81ecd5ddf32968fb170f1039e86db22b31",
+  "input_sha256": {
+    "data/raw/exoplanets/kplr007879433-2009166043257_llc.fits": "eaf1aaacc3e48eb2b2f6d716e11ff465331840804d5676cc52e06a1205530677",
+    "data/raw/exoplanets/kplr007879433-2009259160929_llc.fits": "4600afd25ecd418aa239b25f48a93327be5103e8396c81a654a7317d47bce790",
+    "data/raw/exoplanets/kplr007879433-2009350155506_llc.fits": "7a0d21451e178941cf8f7a9ada82592ece0746e8d83e3761bef5aae7e09811c5",
+    "data/raw/exoplanets/kplr007879433-2010078095331_llc.fits": "e4d38ab57663a722c055978375d3329f5240489f18db44998c991d73c03a1137",
+    "data/raw/exoplanets/kplr007879433-2010174085026_llc.fits": "d043f0e5c6f0a42f326a6df1adb00c569310ea4e788e87dfcb49ac5fcb3fd2ae",
+    "data/raw/exoplanets/kplr007879433-2010265121752_llc.fits": "04f584358d8039a016875ec689831f8dbda8069fdfe773eb7ec03d2e133c7310",
+    "data/raw/exoplanets/kplr007879433-2010355172524_llc.fits": "10c0c0edb3884c1bda8574f9b17688867b27732d6389aba45dac2145ffd6d534",
+    "data/raw/exoplanets/kplr007879433-2011073133259_llc.fits": "111027331ae10e2f97ba9d5593aa0639686aa85bb3faba27c883118e362bd2a9",
+    "data/raw/exoplanets/kplr007879433-2011177032512_llc.fits": "7bf9913b282ed54a0b1948be3709bf88eb48bc0b31ea8aea9fa8cedef9121ceb",
+    "data/raw/exoplanets/kplr007879433-2011271113734_llc.fits": "e655cd63f3396e9926ee91424ba9b5504045b97c2bd1367cd6320e6e9269bdab",
+    "data/raw/exoplanets/kplr007879433-2012004120508_llc.fits": "c9cfcb4a1c648b53ea394308f20899e8c694d68efe86708269d5266dc41f92e0",
+    "data/raw/exoplanets/kplr007879433-2012088054726_llc.fits": "8d459e599e2ba199c3beb8d9e01d4cdea40ab7673fddcec2e96172b393d132ac",
+    "data/raw/exoplanets/kplr007879433-2012179063303_llc.fits": "272c272db184e6f2116e39f67cbcfafb48c1f8c8de70830ce01912b22f1b8ee1",
+    "data/raw/exoplanets/kplr007879433-2012277125453_llc.fits": "b5511e423277d8a44713753bf91e177bb39d09157445a916dbe8fa791cb8dce0",
+    "data/raw/exoplanets/kplr007879433-2013011073258_llc.fits": "9e634acdd634e7be7e221968c8586990dfe781989e708101bad129a5836a4107",
+    "data/raw/exoplanets/kplr007879433-2013098041711_llc.fits": "0fc0436d7df2eda143873044053aa5f7bfc0e14aa48bf1d8751fffe134090fcd",
+    "data/raw/exoplanets/kplr007879433-2013131215648_llc.fits": "67fb3f207127c0248651929b489b956fd4e71a4d686d1f84c2a068aafe77ba5c"
+  }
+}

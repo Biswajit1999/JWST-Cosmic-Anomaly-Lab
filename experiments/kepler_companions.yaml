@@ -1,0 +1,23 @@
+experiment: known-system-residual-transit-search
+status: executed
+date: 2026-11-21
+prior_snapshot: 8c0fbc0
+config: configs/kepler_companions.yaml
+commands:
+  - python scripts/download_kepler_companions.py
+  - python scripts/search_kepler_companions.py --workers 4
+  - python scripts/vet_kepler_companions.py
+  - python scripts/inject_kepler_companions.py
+  - python scripts/image_kepler_companion.py
+  - python scripts/audit_weak_kepler_companion.py
+limitations:
+  - Linear transit masks can miss timing variations and discard overlapping real signals.
+  - Separate quarter sets share some instrument and processing systematics.
+  - Three peaks per sign and a fixed interval leave other periods and shapes unexplored.
+  - Selection of the weak residual uses both halves and needs independent evidence.
+  - Synthetic trials cover only one star and two periods.
+  - No new planets validated.
+outputs:
+  - reports/kepler_companions.md
+  - results/kepler_companions/
+  - figures/kepler_companions/

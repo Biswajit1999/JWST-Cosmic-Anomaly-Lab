@@ -1,0 +1,11 @@
+{
+  "executed_utc": "2026-11-21T20:50:15.814448+00:00",
+  "hosts": 15,
+  "peaks": 90,
+  "script_sha256": "ae99fe34b604365bc79eff1d49de561455e7fe61c81388bcddccfbef2cb9eb04",
+  "config_sha256": "842b79e9a52cec00f51ff6940a055959f03f1d0ad7181843b38e61d395cd026e",
+  "preparation_sha256": "95629cf4775d9e969aecd6a1300df581b2a390e9315a6e4c3bbebe12ac9846e9",
+  "products_sha256": "97d0bb8d55350066a07d6f819be8dc91c23e5141abfde1e48d4bc466e9e26995",
+  "selection_sha256": "2738c7bb769f0c449592512fc81fdf983c4d177ab02ba0eb859b0c4cbf9888eb",
+  "heldout_ephemeris_refitted": false
+}

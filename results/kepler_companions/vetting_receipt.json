@@ -1,0 +1,11 @@
+{
+  "executed_utc": "2026-11-21T20:50:38.628079+00:00",
+  "catalogue_sha256": {
+    "recent_koi": "15942bda4fb1911588451cd74fe81813eabd36debc219f2f85893cb7136fa7cd",
+    "tce": "c0e04a0f9e52cb03eb28344a884549b34e42a90e14f2e5acc47b597a48a1a0ea"
+  },
+  "script_sha256": "e1ce1b9d453e9bd6ea700e71faac25f0905e7e579954be377e05a9e9fe29d4f1",
+  "fitting_precedes_crossmatch": true,
+  "new_planets_confirmed": 0,
+  "candidate_table_sha256": "daf7063994a6f24ae20c3a16f8668532d26e36f2836105c7c79ddb4a4e148993"
+}
