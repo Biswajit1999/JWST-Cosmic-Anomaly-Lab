@@ -4,6 +4,19 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Kepler, TESS and Balmer profile follow-up · 21 November 2026
+
+Across 13 Kepler quarters, candidate K08223.01 shows repeated dimming at its
+catalogue timing, including 12 usable later events. Actual Kepler target-pixel
+images accompany the aperture photometry. A separate TESS test uses 34 light
+curves. Smooth variability models predict the second sector better than a
+transit box for both search signals that repeat. The Kepler candidate remains
+unvalidated. [Kepler and TESS results](reports/transit_followup.md)
+
+Empirical Balmer profile fits retain the elevated Hγ/Hβ point estimates of
+GN-89464 relative to GN-38432. The result depends on reduction and model
+choices, and the physical explanation remains open. [Balmer profile results](reports/balmer_profiles.md)
+
 ## Actual images and a parallel exoplanet programme: 16 November 2026
 
 The [spatial follow-up](reports/spatial_context.md) adds actual NIRCam images

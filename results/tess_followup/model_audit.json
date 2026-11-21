@@ -1,0 +1,8 @@
+{
+  "executed_utc": "2026-11-21T19:42:34.336790+00:00",
+  "script_sha256": "bf1e06d5b06eb97e5cec403e3c3bb01beb4cb530194e1a5bd07508297238e21c",
+  "searched_heldout_period": false,
+  "fitted_heldout_offset_only": true,
+  "comparison": "Unweighted residual RMS on same held-out cadences; template diagnostics, not class inference",
+  "ranking_sha256": "a206fde59a4952dc0723983202c131a7a4dc3cda2419eb8d36be9528e6b0f38c"
+}

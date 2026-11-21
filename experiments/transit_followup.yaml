@@ -1,0 +1,26 @@
+experiment: kepler-and-tess-followup-2026-11-21
+status: executed
+prior_snapshot: 8ef1b4a
+commands:
+  - python scripts/download_transit_followup.py kepler
+  - python scripts/analyse_transit_followup.py kepler
+  - python scripts/image_kepler_candidate.py
+  - python scripts/download_transit_followup.py tess
+  - python scripts/analyse_transit_followup.py tess
+  - python scripts/audit_tess_variability.py
+inputs:
+  raw_budget_bytes: 4294967296
+  kepler: All 13 listed long-cadence products for KIC 11446424 plus two target pixel cubes
+  tess: Two consecutive sectors, 16 search targets and one planet control
+limitations:
+  - Kepler catalogue ephemeris can depend on the same quarters.
+  - SAP and PDCSAP use the same observations.
+  - TESS screening thresholds and shifted-phase controls do not provide calibrated detection probabilities.
+  - Difference images have no centroid uncertainty or PSF fit.
+  - No new planet is validated.
+outputs:
+  - reports/transit_followup.md
+  - results/kepler_followup/
+  - results/tess_followup/
+  - figures/kepler_followup/
+  - figures/tess_followup/

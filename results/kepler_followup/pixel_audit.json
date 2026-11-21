@@ -1,0 +1,57 @@
+{
+  "executed_utc": "2026-11-21T19:43:05.865087+00:00",
+  "products": [
+    {
+      "quarter": 11,
+      "path": "data/raw/exoplanets/kplr011446424-2012004120508_lpd-targ.fits.gz",
+      "url": "https://archive.stsci.edu/missions/kepler/target_pixel_files/0114/011446424/kplr011446424-2012004120508_lpd-targ.fits.gz",
+      "sha256": "2b232f70b660ed8620d32860d88a2780227305c2e62e4b7ff1aa21edba683e53",
+      "target_column": 1.999973360275101,
+      "target_row": 1.369724784486714,
+      "brightest_difference_column": 2,
+      "brightest_difference_row": 2,
+      "events": [
+        {
+          "midpoint_bkjd": 1017.3707890000001,
+          "in_points": 7,
+          "left_points": 15,
+          "right_points": 16
+        },
+        {
+          "midpoint_bkjd": 1084.087242,
+          "in_points": 8,
+          "left_points": 15,
+          "right_points": 15
+        }
+      ]
+    },
+    {
+      "quarter": 9,
+      "path": "data/raw/exoplanets/kplr011446424-2011177032512_lpd-targ.fits.gz",
+      "url": "https://archive.stsci.edu/missions/kepler/target_pixel_files/0114/011446424/kplr011446424-2011177032512_lpd-targ.fits.gz",
+      "sha256": "f922df869c3830d58bb1aaa9c9ecc2801f8c23923b80d6d955765070ff3c3e41",
+      "target_column": 2.3437043598620635,
+      "target_row": 1.5100219601912541,
+      "brightest_difference_column": 3,
+      "brightest_difference_row": 1,
+      "events": [
+        {
+          "midpoint_bkjd": 817.22143,
+          "in_points": 7,
+          "left_points": 13,
+          "right_points": 14
+        },
+        {
+          "midpoint_bkjd": 883.937883,
+          "in_points": 7,
+          "left_points": 16,
+          "right_points": 15
+        }
+      ]
+    }
+  ],
+  "selection": "Two later quarters ranked by sum of squared PDCSAP depth-to-error ratios",
+  "script_sha256": "dee789cc26ca4ae3dd3cbbd1cf55b01129d50ea8ea7bbe60976e4ef341d467da",
+  "centroid_significance_measured": false,
+  "localization": "Uncalibrated difference images with no PSF fit or neighbour exclusion"
+}

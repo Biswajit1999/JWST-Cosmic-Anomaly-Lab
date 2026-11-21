@@ -1,0 +1,36 @@
+{
+  "control": 100100827,
+  "search_targets": [
+    382190230,
+    149625812,
+    382101865,
+    207088666,
+    167045028,
+    33735382,
+    279361150,
+    167892940,
+    31104764,
+    25063999,
+    260503815,
+    340705975,
+    30848801,
+    391923441,
+    231048679,
+    220015458
+  ],
+  "eligible_intersection": 7239,
+  "selection": "SHA256 ascending with fixed seed tess-s02-s03-v1",
+  "chosen_before_light_curve_inspection": true,
+  "listings": [
+    {
+      "url": "https://archive.stsci.edu/missions/tess/download_scripts/sector/tesscurl_sector_2_lc.sh",
+      "path": "data/raw/exoplanets/tess_sector_2_lc.sh",
+      "sha256": "9d02be8d18750dfef9dbed2af1306d9c3c314b9073b0fc21491fb4a36ed28a25"
+    },
+    {
+      "url": "https://archive.stsci.edu/missions/tess/download_scripts/sector/tesscurl_sector_3_lc.sh",
+      "path": "data/raw/exoplanets/tess_sector_3_lc.sh",
+      "sha256": "fbfbcec3e58e7125ae66db0fe157a26950b1d638d8f9524a01d0c8596ce5167e"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "executed_utc": "2026-11-21T19:41:06.900447+00:00",
+  "candidate": "K08223.01",
+  "catalogue_disposition": "CANDIDATE",
+  "period_days": 66.716453,
+  "epoch_bkjd": 150.0569,
+  "duration_days": 0.160625,
+  "catalogue_sha256": "7af273ab6d63ca007c4d1165d34fd5e49bc66ca6c9776fe413ea39b436018122",
+  "reductions": {
+    "PDCSAP_FLUX": {
+      "all": {
+        "events": 14,
+        "positive": 14,
+        "depth": 0.0006588959631308737,
+        "error": 8.40946291494943e-05,
+        "contrast": 7.835172944987486,
+        "event_scatter": 1.2386632825799861
+      },
+      "q4_and_later": {
+        "events": 12,
+        "positive": 12,
+        "depth": 0.000635848634357962,
+        "error": 8.620413798533003e-05,
+        "contrast": 7.376080188472726,
+        "event_scatter": 1.1061652138830995,
+        "phase_offsets_with_at_least_as_many_events": 158,
+        "phase_offsets_at_least_as_deep_in_contrast": 0
+      },
+      "q2_q3": {
+        "events": 2,
+        "positive": 2,
+        "depth": 0.0007893534935634089,
+        "error": 0.0003600006518161811,
+        "contrast": 2.1926446232282335,
+        "event_scatter": 3.408174230250833
+      },
+      "quarters": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        17
+      ],
+      "cadences": 46756
+    },
+    "SAP_FLUX": {
+      "all": {
+        "events": 14,
+        "positive": 14,
+        "depth": 0.0006528692959518144,
+        "error": 8.364938778930395e-05,
+        "contrast": 7.804830533802129,
+        "event_scatter": 1.2335784484952677
+      },
+      "q4_and_later": {
+        "events": 12,
+        "positive": 12,
+        "depth": 0.0006339926225234553,
+        "error": 8.671218230412856e-05,
+        "contrast": 7.311459655113183,
+        "event_scatter": 1.1241262773001295,
+        "phase_offsets_with_at_least_as_many_events": 158,
+        "phase_offsets_at_least_as_deep_in_contrast": 0
+      },
+      "q2_q3": {
+        "events": 2,
+        "positive": 2,
+        "depth": 0.0007582096278695778,
+        "error": 0.00035205749852252943,
+        "contrast": 2.1536528295847592,
+        "event_scatter": 3.3205715676179772
+      },
+      "quarters": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        17
+      ],
+      "cadences": 46766
+    }
+  },
+  "independent_of_catalogue": false,
+  "planet_validated": false,
+  "script_sha256": "ceafa1ff18cc0cdebd5d0c1b13f93021ce30ca3663fa946f99ab3e3d9555b2c9",
+  "event_model_sha256": "2bdb68337ec7b8f098ebd4f281168e727d00881a89d7a52d53e367f098cd71dd",
+  "input_sha256": {
+    "data/raw/exoplanets/kplr011446424-2009259160929_llc.fits": "3eb941b1d0c732d700d2941947ea75c46752d24310f39a517cfb738dbfd71e66",
+    "data/raw/exoplanets/kplr011446424-2009350155506_llc.fits": "2fed37cdf3f285322bf4f34f27aef2f8497f14e6580e15197a5c6df1eb917fb3",
+    "data/raw/exoplanets/kplr011446424-2010009091648_llc.fits": "ba3443caa7fdbe8b29b0f4b8ff21624ea11b96a4ce675283c1dca86f5591dab6",
+    "data/raw/exoplanets/kplr011446424-2010174085026_llc.fits": "f0d971ec14c7c1fa2fd2987190c15b61b7e0b2cc3a0331b7b155c6fcdb5aa8fd",
+    "data/raw/exoplanets/kplr011446424-2010265121752_llc.fits": "2d21184241092a156f723a2ddb5ab93aa0a98b6c55f83730e7f4810775b093f1",
+    "data/raw/exoplanets/kplr011446424-2010355172524_llc.fits": "99b956d9767c527ec30152a73633dc927aaf2950e4934a0ae0afb1e3dc868816",
+    "data/raw/exoplanets/kplr011446424-2011177032512_llc.fits": "79dd3672bfa249f4f210835a8625d0cfa2c257e0a9091291a6d53207b5996bc6",
+    "data/raw/exoplanets/kplr011446424-2011271113734_llc.fits": "63cd9f6aa4919da33d69f8a60c9d248af0529cba5831812bcd1063e571d6f1d1",
+    "data/raw/exoplanets/kplr011446424-2012004120508_llc.fits": "626e0a9226b2a468205693ad1fa7f8464ce903793966910452bc58c069d597aa",
+    "data/raw/exoplanets/kplr011446424-2012179063303_llc.fits": "2519ee5881ef18dd893ac4ce32c4985f22da8c742b1fb24e71c932256821fd0c",
+    "data/raw/exoplanets/kplr011446424-2012277125453_llc.fits": "bd3db09dac019b435094e1eed2fd0f17de29d7b7ad0401d2afcc99e4ebd09465",
+    "data/raw/exoplanets/kplr011446424-2013011073258_llc.fits": "12fb233c77a55d307a514f99cafe34e81e8a527aaf209359f1ffa67d111833a2",
+    "data/raw/exoplanets/kplr011446424-2013131215648_llc.fits": "34e73a52950a7d9bfbeeb552671a11af593784b885bba329fd71e7a73a9dc4ae"
+  }
+}

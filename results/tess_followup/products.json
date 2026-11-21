@@ -1,0 +1,289 @@
+{
+  "executed_utc": "2026-11-21T19:40:56.286847+00:00",
+  "products": [
+    {
+      "tic": 100100827,
+      "sector": 2,
+      "role": "control",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000100100827-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000100100827-0121-s_lc.fits",
+      "sha256": "9e83d10406a7ee0274409cd19f39857abbadfbe907e0a1f033d18c00136b0c7b"
+    },
+    {
+      "tic": 100100827,
+      "sector": 3,
+      "role": "control",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000100100827-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000100100827-0123-s_lc.fits",
+      "sha256": "ac1282526edb41a2dc6a05da9f486f2d44554258be5e056b3012729467a3a15d"
+    },
+    {
+      "tic": 382190230,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000382190230-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000382190230-0121-s_lc.fits",
+      "sha256": "de3514e0287657f24bf5d8f54395aaa796e46a1084598c4b1440d27492388087"
+    },
+    {
+      "tic": 382190230,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000382190230-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000382190230-0123-s_lc.fits",
+      "sha256": "f1c57b06d43831ada6d9a5d6eb3e53d134bd83de46be43c3f75a081357bdfe5c"
+    },
+    {
+      "tic": 149625812,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000149625812-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000149625812-0121-s_lc.fits",
+      "sha256": "5d62dcef58a3f095335ca404bb57f9bd38e2642f2bb65509ed3ba4793b3eed09"
+    },
+    {
+      "tic": 149625812,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000149625812-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000149625812-0123-s_lc.fits",
+      "sha256": "335726294f8a037448bfc0a0af1b5188a1e728ffe11974fff39d6d9a3fe98a4d"
+    },
+    {
+      "tic": 382101865,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000382101865-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000382101865-0121-s_lc.fits",
+      "sha256": "c08b3b7ee05274f15898674b3224a327779058d3cd81da0d200f8c8f66a3bcf4"
+    },
+    {
+      "tic": 382101865,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000382101865-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000382101865-0123-s_lc.fits",
+      "sha256": "c0345c2fe9b41d5aa47a8f7c236e3778cda302d295123ee883b9acd1590d734b"
+    },
+    {
+      "tic": 207088666,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000207088666-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000207088666-0121-s_lc.fits",
+      "sha256": "d34eff8ba5d1b8f09365247451303ef013810bbe43ff15c372cdfca5540e4ac7"
+    },
+    {
+      "tic": 207088666,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000207088666-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000207088666-0123-s_lc.fits",
+      "sha256": "d9cc2714ac0190e0c21b89a82987f5fe055bc270d75c011ee9b22257a6615ed2"
+    },
+    {
+      "tic": 167045028,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000167045028-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000167045028-0121-s_lc.fits",
+      "sha256": "16865290b619446d04db93bd9c86a5d83a37681a5f7b4e95926390918272b46e"
+    },
+    {
+      "tic": 167045028,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000167045028-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000167045028-0123-s_lc.fits",
+      "sha256": "57fdd38ea2b75e2e6eb1da2645b7f2a522fce8f45ca89583fef50f44f12b06d8"
+    },
+    {
+      "tic": 33735382,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000033735382-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000033735382-0121-s_lc.fits",
+      "sha256": "92fd205490d3797d3301ae6ba395575e3eb5f64d05d3e9dedee8cba22794ee98"
+    },
+    {
+      "tic": 33735382,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000033735382-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000033735382-0123-s_lc.fits",
+      "sha256": "39159afee85f4190862dfb2d6be93ed66c1208bf4eed3d2d59c4ee3ac2fedcdd"
+    },
+    {
+      "tic": 279361150,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000279361150-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000279361150-0121-s_lc.fits",
+      "sha256": "339c13b2d4118957fa6ced4ae92b80097b8003b8838f6bbb82a83c64a9bbd432"
+    },
+    {
+      "tic": 279361150,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000279361150-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000279361150-0123-s_lc.fits",
+      "sha256": "7a12e432b4d326941f546474b97002767c7ebec1d9aa727890d68327bca72717"
+    },
+    {
+      "tic": 167892940,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000167892940-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000167892940-0121-s_lc.fits",
+      "sha256": "77e92cc333e030f6f452f71ac3e924e5adb4107508da6c69a3c2bf3f4ca9daaf"
+    },
+    {
+      "tic": 167892940,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000167892940-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000167892940-0123-s_lc.fits",
+      "sha256": "11878e16cd05e90a1c7e8bd6c71b2366a82d20cac5f8def10db778903ed9a8d0"
+    },
+    {
+      "tic": 31104764,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000031104764-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000031104764-0121-s_lc.fits",
+      "sha256": "a5e8bc827e2686e2267531dac52b66a5f2c53b0ea9e3d21b814a758a14bd70d8"
+    },
+    {
+      "tic": 31104764,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000031104764-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000031104764-0123-s_lc.fits",
+      "sha256": "ec6ca08e2a92a5101b10e48a3efb31b40ac32ea1f1b4f189f6ce0aac2f982f86"
+    },
+    {
+      "tic": 25063999,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000025063999-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000025063999-0121-s_lc.fits",
+      "sha256": "dcd302418116388e8d421161dc551cd69b2f0cbe75c13fcd13d72528dcf4c884"
+    },
+    {
+      "tic": 25063999,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000025063999-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000025063999-0123-s_lc.fits",
+      "sha256": "a807ad85181c0dcaf6a62e415a9164d67d6522fbb7ec2c98a878580d328d44bc"
+    },
+    {
+      "tic": 260503815,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000260503815-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000260503815-0121-s_lc.fits",
+      "sha256": "e0ef0e674e3bf74e88e14407e7a95d402a35191d2cbd3ac496de6077e6ee7b24"
+    },
+    {
+      "tic": 260503815,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000260503815-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000260503815-0123-s_lc.fits",
+      "sha256": "4467c5fe1bf56747fcaa353eab2961d1b3ef60d321574d0451f272f9265244cb"
+    },
+    {
+      "tic": 340705975,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000340705975-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000340705975-0121-s_lc.fits",
+      "sha256": "26f1a8d232959a76030a8a2dd599676538ff5a6e13366491567975a40e355279"
+    },
+    {
+      "tic": 340705975,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000340705975-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000340705975-0123-s_lc.fits",
+      "sha256": "154fa595ce51f072b69f6b57eab967d931ea221568710fe5985d6503bf73ab69"
+    },
+    {
+      "tic": 30848801,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000030848801-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000030848801-0121-s_lc.fits",
+      "sha256": "8c48b9b5160d30e21af672a812d591ef718a43b9b07662d35020be1d97867689"
+    },
+    {
+      "tic": 30848801,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000030848801-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000030848801-0123-s_lc.fits",
+      "sha256": "ea9cabebb111e3c63ce7440530dd039b2281af9533503c4cbce87ca9e4e567aa"
+    },
+    {
+      "tic": 391923441,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000391923441-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000391923441-0121-s_lc.fits",
+      "sha256": "1e708ecaae4fd92246713bab26a7a8089b01974eddfba1ef81b2b3e240ef394d"
+    },
+    {
+      "tic": 391923441,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000391923441-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000391923441-0123-s_lc.fits",
+      "sha256": "1b8fcbbbf958e2b2ea80fab2d715d7f924381c016ac5b503fedc109985021739"
+    },
+    {
+      "tic": 231048679,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000231048679-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000231048679-0121-s_lc.fits",
+      "sha256": "27ccf4ebefa30ffd0239db6a8457ec7f89b1d9bfc3c9a41b00e2d5ef3b05a875"
+    },
+    {
+      "tic": 231048679,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000231048679-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000231048679-0123-s_lc.fits",
+      "sha256": "576f8841564f2f3f6881d54c8403d29b3a72ed444abaea414a29e6b014fa14bb"
+    },
+    {
+      "tic": 220015458,
+      "sector": 2,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018234235059-s0002-0000000220015458-0121-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018234235059-s0002-0000000220015458-0121-s_lc.fits",
+      "sha256": "d23c76aa95524df79f26fe6f886005f818259b2bf09c52ae2fcdc1938506354d"
+    },
+    {
+      "tic": 220015458,
+      "sector": 3,
+      "role": "search",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2018263035959-s0003-0000000220015458-0123-s_lc.fits",
+      "path": "data/raw/exoplanets/tess2018263035959-s0003-0000000220015458-0123-s_lc.fits",
+      "sha256": "d83a9db3a590894286141362d464e14e1cbb05343d8bcc64fd85c4a30c6bd535"
+    }
+  ],
+  "ancillary": {
+    "toi": {
+      "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+tid%2Ctoi%2Ctfopwg_disp%2Cpl_orbper+from+toi+where+tid+in+%28100100827%2C382190230%2C149625812%2C382101865%2C207088666%2C167045028%2C33735382%2C279361150%2C167892940%2C31104764%2C25063999%2C260503815%2C340705975%2C30848801%2C391923441%2C231048679%2C220015458%29&format=json",
+      "path": "data/raw/exoplanets/tess_followup_toi.json",
+      "sha256": "6824b17f362d1b0410c292ba7ae7d24b0e19ac14a6cf2ce6761b662bd58a963b"
+    },
+    "planets": {
+      "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Ctic_id%2Cpl_orbper+from+pscomppars+where+tic_id+in+%28%27TIC+100100827%27%2C%27TIC+382190230%27%2C%27TIC+149625812%27%2C%27TIC+382101865%27%2C%27TIC+207088666%27%2C%27TIC+167045028%27%2C%27TIC+33735382%27%2C%27TIC+279361150%27%2C%27TIC+167892940%27%2C%27TIC+31104764%27%2C%27TIC+25063999%27%2C%27TIC+260503815%27%2C%27TIC+340705975%27%2C%27TIC+30848801%27%2C%27TIC+391923441%27%2C%27TIC+231048679%27%2C%27TIC+220015458%27%29&format=json",
+      "path": "data/raw/exoplanets/tess_followup_planets.json",
+      "sha256": "34adb954e642302bd4a15ace41af5af7b9ab28efd2af2c4c8b930571dc6e24c1"
+    }
+  }
+}
