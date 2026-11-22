@@ -1,0 +1,77 @@
+{
+  "executed_utc": "2026-11-22T05:30:07.781532+00:00",
+  "position_degrees": [
+    53.19541375266448,
+    -27.77932804913642
+  ],
+  "photometry_f200w": {
+    "older": {
+      "radius_arcsec": 0.24,
+      "flux_njy": 318.7464904785156,
+      "local_mad_sigma_njy": 4.000309237289429,
+      "control_median_njy": -0.2573282718658447,
+      "control_count": 337
+    },
+    "newer": {
+      "radius_arcsec": 0.24,
+      "flux_njy": 257.10980224609375,
+      "local_mad_sigma_njy": 4.623352532172203,
+      "control_median_njy": -0.5088943243026733,
+      "control_count": 337
+    },
+    "usable_reference_count": 5,
+    "new_over_old_reference_ratio": null,
+    "reference_ratios": [
+      0.9930116955624424,
+      1.0040953924086817,
+      0.9843382329254402,
+      0.9781160959350166,
+      0.9994954797444923
+    ],
+    "raw_centroid_aperture_njy": [
+      361.82904052734375,
+      290.5987548828125
+    ]
+  },
+  "spectroscopic_observations": [
+    {
+      "dataset": "jades-gds08-v4_prism-clear_1286_126865.spec.fits",
+      "date_utc": "2023-12-17",
+      "start_mjd": 60295.52726003773,
+      "aperture_pa_deg": 168.80192656259268,
+      "dja_z": 2.8517077,
+      "dja_comment": "Redshift matches jades-gds08-v4_g395m-f290lp_1286_126865 z=2.8493",
+      "separation_arcsec": 0.10503424880936012
+    },
+    {
+      "dataset": "gds-dts-egami-09-v4_prism-clear_8060_2510042.spec.fits",
+      "date_utc": "2025-12-28",
+      "start_mjd": 61037.64471204861,
+      "aperture_pa_deg": 178.55907514573101,
+      "dja_z": 2.85233,
+      "dja_comment": "strange continuum features maybe SN transient",
+      "separation_arcsec": 0.056946841215657684
+    },
+    {
+      "dataset": "gds-dts-egami-10-v4_prism-clear_8060_2510042.spec.fits",
+      "date_utc": "2026-01-13",
+      "start_mjd": 61053.94246269676,
+      "aperture_pa_deg": 191.75182768538548,
+      "dja_z": 2.85002,
+      "dja_comment": null,
+      "separation_arcsec": 0.056946841215657684
+    },
+    {
+      "dataset": "gds-snia-pierel-v4_prism-clear_5324_2510042.spec.fits",
+      "date_utc": "2026-02-04",
+      "start_mjd": 61075.298885868055,
+      "aperture_pa_deg": 210.7204416841078,
+      "dja_z": 2.85079,
+      "dja_comment": null,
+      "separation_arcsec": 0.056946841215657684
+    }
+  ],
+  "disposition": "PRIOR_ARCHIVE_TRANSIENT_RECOGNITION_AND_SPECTROSCOPIC_FOLLOWUP",
+  "spectra_sha256": "f07134ebdc051caa5cddec4062352de43f5472b7ecd3aaa1e2b95b285bacd736",
+  "script_sha256": "0e9c9d265e909db405fec8462201b7d5b42351d105bd7a33171d9846e9eb383e"
+}

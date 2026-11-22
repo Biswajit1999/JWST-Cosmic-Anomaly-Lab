@@ -4,14 +4,29 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
-## JWST GOODS-S discovery search · 22 November 2026
+## Fading transient in JWST GOODS-S · 22 November 2026
+
+A blind search recovered a fading infrared transient at **RA 53.162036°,
+Dec −27.746384°**. It appears in four filters and was already bright on
+30 September 2025 in a separate JWST programme. F200W fell from 415 nJy in October 2025 to 49 nJy in
+October 2026, with intermediate measurements tracing the decline on
+other detectors. The public Transient Name Server returned zero entries
+within 5″. The event's classification and discovery priority remain open.
+[Analysis and archive receipts](reports/jwst_cross_detector.md)
+
+<img src="figures/jwst_cross_detector/field_b_transient_epochs.png" width="810" alt="JWST light curve and eight observed F200W cutouts showing the transient brighten and fade between 2022 and 2026.">
+
+## Earlier JWST GOODS-S discovery search · 22 November 2026
 
 Six public JWST F444W visits show a candidate 2025 brightening at the known
 galaxy ZFOURGE CDFS 18559. Its measured excess over 2026 persists after local
-flux scaling and aperture recentering. A separate apparent brightening in
-three filters traced to the same detector pixel in all nine exposures.
+flux scaling and aperture recentering. Public NIRSpec records subsequently
+identified a prior possible transient at that position. A separate apparent
+brightening in three filters traced to the same detector pixel in all nine
+exposures.
 [Full analysis](reports/jwst_epoch_search.md) ·
-[Native detector images](figures/jwst_epoch_search/target_dithers.png)
+[Native detector images](figures/jwst_epoch_search/target_dithers.png) ·
+[NIRSpec follow-up](reports/jwst_cross_detector.md#recovery-of-an-earlier-transient-candidate)
 
 <img src="figures/jwst_epoch_search/fading_lead_epochs.png" width="810" alt="Six real JWST F444W images of ZFOURGE CDFS 18559 from 2022 to 2026, with a photometry plot showing the measured 2025 peak.">
 

@@ -1,0 +1,942 @@
+{
+  "executed_utc": "2026-11-22T05:42:31.079425+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "observed_aperture_flux": [
+    {
+      "band": "F444W",
+      "detector": "NRCALONG",
+      "visit": "jw01180015001",
+      "dateobs": "2022-10-04 19:40:48",
+      "mjd": 59856.82,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 12.169529914855957,
+          "local_mad_sigma_njy": 1.1008410735625773,
+          "control_median_njy": -0.018150804564356804,
+          "control_count": 246
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 22.964872360229492,
+          "local_mad_sigma_njy": 1.9754053176283835,
+          "control_median_njy": 0.06677204370498657,
+          "control_count": 246
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 36.020774841308594,
+          "local_mad_sigma_njy": 2.8786448284506796,
+          "control_median_njy": 0.19519644975662231,
+          "control_count": 246
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16208349653268,
+        -27.746343208738725
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCA2",
+      "visit": "jw01180015001",
+      "dateobs": "2022-10-04 23:26:52",
+      "mjd": 59856.98,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 14.592857360839844,
+          "local_mad_sigma_njy": 1.1691039934515952,
+          "control_median_njy": -0.1279541663825512,
+          "control_count": 302
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 28.28889274597168,
+          "local_mad_sigma_njy": 1.8431709329903125,
+          "control_median_njy": -0.3042775094509125,
+          "control_count": 302
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 45.62229537963867,
+          "local_mad_sigma_njy": 2.8592263058602807,
+          "control_median_njy": -0.3788742125034332,
+          "control_count": 302
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16206527650195,
+        -27.74636389956865
+      ]
+    },
+    {
+      "band": "F444W",
+      "detector": "NRCALONG",
+      "visit": "jw01180013001",
+      "dateobs": "2023-10-03 14:15:21",
+      "mjd": 60220.59,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 11.862549781799316,
+          "local_mad_sigma_njy": 1.1227004790097475,
+          "control_median_njy": -0.055181458592414856,
+          "control_count": 307
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 23.747480392456055,
+          "local_mad_sigma_njy": 2.083659506115317,
+          "control_median_njy": -0.07298542559146881,
+          "control_count": 306
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 38.36244583129883,
+          "local_mad_sigma_njy": 3.043320004606247,
+          "control_median_njy": -0.011420488357543945,
+          "control_count": 306
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16205906696477,
+        -27.746355325752354
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCA2",
+      "visit": "jw01180013001",
+      "dateobs": "2023-10-03 18:00:00",
+      "mjd": 60220.75,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 17.03440284729004,
+          "local_mad_sigma_njy": 1.301151453772187,
+          "control_median_njy": -0.13653604686260223,
+          "control_count": 294
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 31.892475128173828,
+          "local_mad_sigma_njy": 2.395581181758642,
+          "control_median_njy": -0.039713054895401,
+          "control_count": 293
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 50.01811981201172,
+          "local_mad_sigma_njy": 3.3633558216333386,
+          "control_median_njy": -0.39926397800445557,
+          "control_count": 291
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162047886767795,
+        -27.74636863917314
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCB1",
+      "visit": "jw01180220001",
+      "dateobs": "2024-01-01 03:36:00",
+      "mjd": 60310.15,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 14.51964282989502,
+          "local_mad_sigma_njy": 1.2424729037314652,
+          "control_median_njy": -0.06718482077121735,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 24.74972915649414,
+          "local_mad_sigma_njy": 2.2551088716745373,
+          "control_median_njy": -0.2937443256378174,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 38.00584411621094,
+          "local_mad_sigma_njy": 3.308451370990276,
+          "control_median_njy": -0.32891589403152466,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162047553067616,
+        -27.746371891802422
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCA2",
+      "visit": "jw08060002001",
+      "dateobs": "2025-10-06 11:45:36",
+      "mjd": 60954.49,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 346.66680908203125,
+          "local_mad_sigma_njy": 1.6383129493564366,
+          "control_median_njy": -0.23404444754123688,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 392.2162780761719,
+          "local_mad_sigma_njy": 2.799484975862503,
+          "control_median_njy": -0.5606732368469238,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 414.61163330078125,
+          "local_mad_sigma_njy": 4.084271725916862,
+          "control_median_njy": -0.6230705976486206,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162037910870694,
+        -27.746385017378334
+      ]
+    },
+    {
+      "band": "F444W",
+      "detector": "NRCALONG",
+      "visit": "jw08060002001",
+      "dateobs": "2025-10-06 12:57:36",
+      "mjd": 60954.54,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 126.24966430664062,
+          "local_mad_sigma_njy": 1.7099984251096845,
+          "control_median_njy": 0.14179451018571854,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 160.6674041748047,
+          "local_mad_sigma_njy": 3.06283135972023,
+          "control_median_njy": 0.15247225761413574,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 185.77651977539062,
+          "local_mad_sigma_njy": 4.346330826222896,
+          "control_median_njy": -0.01270967721939087,
+          "control_count": 335
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162041176796535,
+        -27.746383063659604
+      ]
+    },
+    {
+      "band": "F356W",
+      "detector": "NRCALONG",
+      "visit": "jw08060002001",
+      "dateobs": "2025-10-06 14:15:21",
+      "mjd": 60954.59,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 187.83294677734375,
+          "local_mad_sigma_njy": 1.460434500735998,
+          "control_median_njy": 0.13483333587646484,
+          "control_count": 334
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 230.56536865234375,
+          "local_mad_sigma_njy": 2.709541704404354,
+          "control_median_njy": 0.07314068078994751,
+          "control_count": 331
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 272.24151611328125,
+          "local_mad_sigma_njy": 3.8846080113887784,
+          "control_median_njy": 0.3875821381807327,
+          "control_count": 330
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203633861028,
+        -27.746383695994
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCB3",
+      "visit": "jw08060003001",
+      "dateobs": "2025-11-18 08:09:36",
+      "mjd": 60997.34,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 127.76371765136719,
+          "local_mad_sigma_njy": 1.4365244150117038,
+          "control_median_njy": -0.24872642010450363,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 151.68043518066406,
+          "local_mad_sigma_njy": 2.5294296416401862,
+          "control_median_njy": -0.39925479888916016,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 169.1975555419922,
+          "local_mad_sigma_njy": 3.797823520088196,
+          "control_median_njy": -0.4669749140739441,
+          "control_count": 336
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203814930688,
+        -27.74638293835631
+      ]
+    },
+    {
+      "band": "F356W",
+      "detector": "NRCBLONG",
+      "visit": "jw08060003001",
+      "dateobs": "2025-11-18 09:28:48",
+      "mjd": 60997.39,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 62.08803176879883,
+          "local_mad_sigma_njy": 1.1555480479761957,
+          "control_median_njy": -0.024812452495098114,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 85.25726318359375,
+          "local_mad_sigma_njy": 2.3762973348140717,
+          "control_median_njy": 0.049733370542526245,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 108.9434814453125,
+          "local_mad_sigma_njy": 3.3401233006596565,
+          "control_median_njy": 0.2763206362724304,
+          "control_count": 336
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162035190583744,
+        -27.746381438663636
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCB1",
+      "visit": "jw08060005001",
+      "dateobs": "2025-12-31 08:48:28",
+      "mjd": 61040.37,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 62.36005401611328,
+          "local_mad_sigma_njy": 1.5789131025373935,
+          "control_median_njy": -0.14033957570791245,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 78.63351440429688,
+          "local_mad_sigma_njy": 2.6540052326202392,
+          "control_median_njy": -0.24465501308441162,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 93.57756805419922,
+          "local_mad_sigma_njy": 3.869294886749983,
+          "control_median_njy": -0.4012397229671478,
+          "control_count": 334
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203852579994,
+        -27.746382353655473
+      ]
+    },
+    {
+      "band": "F356W",
+      "detector": "NRCBLONG",
+      "visit": "jw08060005001",
+      "dateobs": "2025-12-31 10:01:55",
+      "mjd": 61040.42,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 35.85722732543945,
+          "local_mad_sigma_njy": 1.30172484152019,
+          "control_median_njy": -0.060258522629737854,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 54.083457946777344,
+          "local_mad_sigma_njy": 2.3157228539049624,
+          "control_median_njy": -0.034113019704818726,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 71.91561889648438,
+          "local_mad_sigma_njy": 3.534820453083515,
+          "control_median_njy": -0.05690115690231323,
+          "control_count": 335
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162036697508334,
+        -27.746379694758367
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCB1",
+      "visit": "jw05324027001",
+      "dateobs": "2026-02-04 11:09:36",
+      "mjd": 61075.46,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 40.830875396728516,
+          "local_mad_sigma_njy": 3.395753179371357,
+          "control_median_njy": -0.42609161138534546,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 57.08708953857422,
+          "local_mad_sigma_njy": 5.395262079548836,
+          "control_median_njy": -0.7473992109298706,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 69.81822204589844,
+          "local_mad_sigma_njy": 8.244491679096221,
+          "control_median_njy": -0.9465441703796387,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162039467634266,
+        -27.74637974856125
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCA2",
+      "visit": "jw12577002001",
+      "dateobs": "2026-10-10 02:24:00",
+      "mjd": 61323.1,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 17.37632942199707,
+          "local_mad_sigma_njy": 1.5203705095052717,
+          "control_median_njy": -0.22984910011291504,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 30.98204231262207,
+          "local_mad_sigma_njy": 2.9326935938715932,
+          "control_median_njy": -0.2687245011329651,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 49.43545913696289,
+          "local_mad_sigma_njy": 4.016203261113167,
+          "control_median_njy": -0.4688025712966919,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162049700009774,
+        -27.746366811667244
+      ]
+    },
+    {
+      "band": "F444W",
+      "detector": "NRCALONG",
+      "visit": "jw12577002001",
+      "dateobs": "2026-10-10 03:38:52",
+      "mjd": 61323.15,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 14.325813293457031,
+          "local_mad_sigma_njy": 1.7147140389427542,
+          "control_median_njy": 0.03681888431310654,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 27.08344268798828,
+          "local_mad_sigma_njy": 3.044634417700767,
+          "control_median_njy": -0.18444599211215973,
+          "control_count": 334
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 40.398216247558594,
+          "local_mad_sigma_njy": 4.399841684389114,
+          "control_median_njy": 0.18006086349487305,
+          "control_count": 333
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162049119614345,
+        -27.746370454273787
+      ]
+    },
+    {
+      "band": "F356W",
+      "detector": "NRCALONG",
+      "visit": "jw12577002001",
+      "dateobs": "2026-10-10 04:58:04",
+      "mjd": 61323.21,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 16.876991271972656,
+          "local_mad_sigma_njy": 1.5454581344783305,
+          "control_median_njy": -0.025953084230422974,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 32.14284133911133,
+          "local_mad_sigma_njy": 2.7778888877034187,
+          "control_median_njy": -0.015978485345840454,
+          "control_count": 330
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 48.73155212402344,
+          "local_mad_sigma_njy": 4.356358815461397,
+          "control_median_njy": -0.15527990460395813,
+          "control_count": 329
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162048503268316,
+        -27.74636827181159
+      ]
+    }
+  ],
+  "photometry_correction": "Signed local background removed, no aperture correction",
+  "native_bright_visit": {
+    "F200W": [
+      {
+        "file": "jw08060002001_03101_00001_nrca2_cal.fits",
+        "mjd": 60954.49,
+        "usable_reference_count": 10,
+        "offset_pixels_xy": [
+          0.276867196042474,
+          -0.10510320038868315
+        ],
+        "forced_center_pixels_xy": [
+          1219.9327957016462,
+          238.20976379008567
+        ],
+        "reference_residual_rms_pixels": 0.2792212259869784,
+        "unmasked_peak_pixels_xy": [
+          1220,
+          238
+        ],
+        "unmasked_peak_dq": 0,
+        "unmasked_peak_distance_arcsec": 0.006779794658641492,
+        "apertures_dq_zero_only": [
+          {
+            "radius_arcsec": 0.16,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 17
+          },
+          {
+            "radius_arcsec": 0.22,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 0
+          }
+        ],
+        "diagnostic_flux_including_flagged_pixels_njy": null,
+        "clean_centroid_ra_dec": [
+          53.162039775253525,
+          -27.74638480336398
+        ],
+        "clean_centroid_offset_arcsec": 0.012316665880713305
+      },
+      {
+        "file": "jw08060002001_03101_00002_nrca2_cal.fits",
+        "mjd": 60954.504,
+        "usable_reference_count": 12,
+        "offset_pixels_xy": [
+          0.36432398597867177,
+          -0.061357248741103376
+        ],
+        "forced_center_pixels_xy": [
+          1227.208941901091,
+          240.87018311354495
+        ],
+        "reference_residual_rms_pixels": 0.22520016924671268,
+        "unmasked_peak_pixels_xy": [
+          1227,
+          241
+        ],
+        "unmasked_peak_dq": 0,
+        "unmasked_peak_distance_arcsec": 0.007571446762285604,
+        "apertures_dq_zero_only": [
+          {
+            "radius_arcsec": 0.16,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 9
+          },
+          {
+            "radius_arcsec": 0.22,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 3
+          }
+        ],
+        "diagnostic_flux_including_flagged_pixels_njy": 367.3488464355469,
+        "clean_centroid_ra_dec": [
+          53.162038765742416,
+          -27.746384254728703
+        ],
+        "clean_centroid_offset_arcsec": 0.008826956113986295
+      },
+      {
+        "file": "jw08060002001_03101_00003_nrca2_cal.fits",
+        "mjd": 60954.52,
+        "usable_reference_count": 10,
+        "offset_pixels_xy": [
+          0.21152319926557084,
+          -0.15914556548149505
+        ],
+        "forced_center_pixels_xy": [
+          1224.423706367077,
+          245.31264586839785
+        ],
+        "reference_residual_rms_pixels": 0.33981680051407687,
+        "unmasked_peak_pixels_xy": [
+          1224,
+          245
+        ],
+        "unmasked_peak_dq": 0,
+        "unmasked_peak_distance_arcsec": 0.01620777324399591,
+        "apertures_dq_zero_only": [
+          {
+            "radius_arcsec": 0.16,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 12
+          },
+          {
+            "radius_arcsec": 0.22,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 0
+          }
+        ],
+        "diagnostic_flux_including_flagged_pixels_njy": 367.9164733886719,
+        "clean_centroid_ra_dec": [
+          53.16203809295904,
+          -27.74638509745488
+        ],
+        "clean_centroid_offset_arcsec": 0.007725331360386799
+      }
+    ],
+    "F444W": [
+      {
+        "file": "jw08060002001_05101_00001_nrcalong_cal.fits",
+        "mjd": 60954.54,
+        "usable_reference_count": 16,
+        "offset_pixels_xy": [
+          0.1615133898268084,
+          -0.012348376831255337
+        ],
+        "forced_center_pixels_xy": [
+          577.3269119415937,
+          1169.1075454764741
+        ],
+        "reference_residual_rms_pixels": 0.41128378135557575,
+        "unmasked_peak_pixels_xy": [
+          577,
+          1169
+        ],
+        "unmasked_peak_dq": 0,
+        "unmasked_peak_distance_arcsec": 0.021651424959217423,
+        "apertures_dq_zero_only": [
+          {
+            "radius_arcsec": 0.16,
+            "flux_njy": null,
+            "local_mad_sigma_njy": 3.8193419311523433,
+            "control_median_njy": -0.2197246551513672,
+            "control_count": 54
+          },
+          {
+            "radius_arcsec": 0.22,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 17
+          }
+        ],
+        "diagnostic_flux_including_flagged_pixels_njy": 163.14892578125,
+        "clean_centroid_ra_dec": [
+          53.16204181421725,
+          -27.74638368538081
+        ],
+        "clean_centroid_offset_arcsec": 0.01862066912612109
+      },
+      {
+        "file": "jw08060002001_05101_00002_nrcalong_cal.fits",
+        "mjd": 60954.56,
+        "usable_reference_count": 15,
+        "offset_pixels_xy": [
+          0.1903726980372653,
+          -0.09874390780532849
+        ],
+        "forced_center_pixels_xy": [
+          580.8836954385847,
+          1170.3210467730978
+        ],
+        "reference_residual_rms_pixels": 0.2972651144417179,
+        "unmasked_peak_pixels_xy": [
+          581,
+          1170
+        ],
+        "unmasked_peak_dq": 0,
+        "unmasked_peak_distance_arcsec": 0.021482612808469817,
+        "apertures_dq_zero_only": [
+          {
+            "radius_arcsec": 0.16,
+            "flux_njy": 163.6278076171875,
+            "local_mad_sigma_njy": 3.3838397752761837,
+            "control_median_njy": -0.529332160949707,
+            "control_count": 66
+          },
+          {
+            "radius_arcsec": 0.22,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 26
+          }
+        ],
+        "diagnostic_flux_including_flagged_pixels_njy": 160.96734619140625,
+        "clean_centroid_ra_dec": [
+          53.16204097783655,
+          -27.746384145320018
+        ],
+        "clean_centroid_offset_arcsec": 0.01591902589091316
+      },
+      {
+        "file": "jw08060002001_05101_00003_nrcalong_cal.fits",
+        "mjd": 60954.574,
+        "usable_reference_count": 14,
+        "offset_pixels_xy": [
+          0.14849576772735418,
+          -0.045298722070697295
+        ],
+        "forced_center_pixels_xy": [
+          579.549685240363,
+          1172.6080029176042
+        ],
+        "reference_residual_rms_pixels": 0.3395126629597398,
+        "unmasked_peak_pixels_xy": [
+          580,
+          1173
+        ],
+        "unmasked_peak_dq": 0,
+        "unmasked_peak_distance_arcsec": 0.037561097283743995,
+        "apertures_dq_zero_only": [
+          {
+            "radius_arcsec": 0.16,
+            "flux_njy": null,
+            "local_mad_sigma_njy": 3.9533530357360838,
+            "control_median_njy": 0.06517601013183594,
+            "control_count": 73
+          },
+          {
+            "radius_arcsec": 0.22,
+            "flux_njy": null,
+            "local_mad_sigma_njy": null,
+            "control_median_njy": null,
+            "control_count": 30
+          }
+        ],
+        "diagnostic_flux_including_flagged_pixels_njy": null,
+        "clean_centroid_ra_dec": [
+          53.16203961595727,
+          -27.746384544249597
+        ],
+        "clean_centroid_offset_arcsec": 0.011724523846747058
+      }
+    ]
+  },
+  "public_prior_checks": {
+    "tns": {
+      "status": "RETRIEVED",
+      "url": "https://www.wis-tns.org/search?ra=53.162036&decl=-27.746384&radius=5&coords_unit=arcsec&format=html",
+      "path": "data/raw/cross_detector/field_b_candidate_tns.txt",
+      "sha256": "b6d152396c79a2cb906d2a0395fc3ae8f3a054214ed09fd651544e42ebdce648",
+      "matches": 0,
+      "radius_arcsec": 5
+    },
+    "simbad": {
+      "status": "RETRIEVED",
+      "url": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=53.16203600+-27.74638399&CooFrame=ICRS&Radius=5&Radius.unit=arcsec&output.format=ASCII",
+      "path": "data/raw/cross_detector/field_b_candidate_simbad.txt",
+      "sha256": "5568baa198c9eafb0c5d08a4b406e6ac87f0f7bb19d3337f8eda9bcb4cfc4fb4",
+      "matches": 4,
+      "radius_arcsec": 5,
+      "objects": [
+        {
+          "separation_arcsec": 1.25,
+          "name": "EIS-DEEP CDFS-2 J 1 311",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 2.64,
+          "name": "CXOCDFS J033238.8-274449",
+          "type": "rG"
+        },
+        {
+          "separation_arcsec": 3.81,
+          "name": "ZFOURGE CDFS 22514",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 4.72,
+          "name": "ZFOURGE CDFS 22774",
+          "type": "G"
+        }
+      ]
+    },
+    "nirspec": {
+      "status": "RETRIEVED",
+      "url": "https://grizli-cutout.herokuapp.com/nirspec_extractions?coords=53.16203600%2C-27.74638399&size=2&output=csv",
+      "path": "data/raw/cross_detector/field_b_candidate_nirspec.txt",
+      "sha256": "142719cc5072fcb69990e5b17376a925feb017a50760dc42fd3b6cfb3c81a3c2",
+      "matches": 0,
+      "side_arcsec": 4
+    },
+    "jades_dr2": {
+      "status": "RETRIEVED",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=V%2F159%2Fgssample&-c=53.16203600+-27.74638399&-c.rs=3&-out.max=50&-out=NIRCamID%2CRA_ICRS%2CDE_ICRS%2CKronRad%2Czphot%2Czphotl68%2Czphotu68",
+      "path": "data/raw/cross_detector/field_b_candidate_jades_dr2.txt",
+      "sha256": "e607ecfc93a9b11e988869cbe7328bde0a2dd1a5ed75c987a492f5fefc5ee94b",
+      "matches": 5,
+      "radius_arcsec": 3,
+      "sources": [
+        {
+          "nircam_id": 217327,
+          "ra": 53.1622897,
+          "dec": -27.7462251,
+          "separation_arcsec": 0.9902443146961035,
+          "kron_radius_arcsec": 2.0351,
+          "photo_z": 0.78,
+          "photo_z_68": [
+            0.737,
+            0.851
+          ]
+        },
+        {
+          "nircam_id": 297746,
+          "ra": 53.1620453,
+          "dec": -27.7460718,
+          "separation_arcsec": 1.1242881612598805,
+          "kron_radius_arcsec": 0.2177,
+          "photo_z": 0.78,
+          "photo_z_68": [
+            0.724,
+            0.862
+          ]
+        },
+        {
+          "nircam_id": 217335,
+          "ra": 53.1620854,
+          "dec": -27.745969,
+          "separation_arcsec": 1.5022466100710161,
+          "kron_radius_arcsec": 0.5091,
+          "photo_z": 0.78,
+          "photo_z_68": [
+            0.741,
+            0.838
+          ]
+        },
+        {
+          "nircam_id": 151507,
+          "ra": 53.161229,
+          "dec": -27.7463996,
+          "separation_arcsec": 2.5717500735900143,
+          "kron_radius_arcsec": 0.3641,
+          "photo_z": 1.72,
+          "photo_z_68": [
+            1.755,
+            2.18
+          ]
+        },
+        {
+          "nircam_id": 217321,
+          "ra": 53.1616313,
+          "dec": -27.7470093,
+          "separation_arcsec": 2.5942176617965735,
+          "kron_radius_arcsec": 0.8556,
+          "photo_z": 0.75,
+          "photo_z_68": [
+            0.714,
+            0.783
+          ]
+        }
+      ]
+    },
+    "jades_2022_2023_transients": {
+      "url": "https://arxiv.org/html/2406.05060v4",
+      "path": "data/raw/epoch_search/decoursey2024_arxiv_v4.html",
+      "sha256": "6cc52d16304c556d2f192436efb743096d7a016d8932989a16de5876d188930d",
+      "searched_positions": 92,
+      "nearest_separation_arcsec": 13.83068026425477,
+      "matches": 0,
+      "radius_arcsec": 5
+    }
+  },
+  "input_sha256": "15e9ef609b7946d49be393148fe34586a2b5947d605e2c9b6eace86e38f204c8",
+  "script_sha256": "050eb0c8d47a9be7cc390faedf96b35b06ccfc85838149cdfede7f82f7fe6d71"
+}

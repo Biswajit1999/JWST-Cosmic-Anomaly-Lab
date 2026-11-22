@@ -1,0 +1,59 @@
+{
+  "executed_utc": "2026-11-22T05:26:22.253943+00:00",
+  "position_degrees": [
+    53.19541375266448,
+    -27.77932804913642
+  ],
+  "query": {
+    "url": "https://grizli-cutout.herokuapp.com/nirspec_extractions?coords=53.19541375%2C-27.77932805&size=0.167&output=csv",
+    "path": "data/raw/cross_detector/control_nirspec_query.csv",
+    "sha256": "62e07ecb4560ed71b4a75a26de6fe0163ec48e76b5d6f86007325004d3ce8e21"
+  },
+  "spectra": [
+    {
+      "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds08-v4/jades-gds08-v4_prism-clear_1286_126865.spec.fits",
+      "path": "data/raw/cross_detector/jades-gds08-v4_prism-clear_1286_126865.spec.fits",
+      "sha256": "b655cf655850590c3fd4707ea8eaef5476eb8c3a136f485818ab5bea8b8ebe7c",
+      "dataset": "jades-gds08-v4_prism-clear_1286_126865.spec.fits",
+      "separation_arcsec": 0.10503424880936012,
+      "msamet": "jw01286008001_02_msa.fits",
+      "dja_z": 2.8517077,
+      "dja_grade": 3,
+      "dja_comment": "Redshift matches jades-gds08-v4_g395m-f290lp_1286_126865 z=2.8493"
+    },
+    {
+      "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/gds-dts-egami-09-v4/gds-dts-egami-09-v4_prism-clear_8060_2510042.spec.fits",
+      "path": "data/raw/cross_detector/gds-dts-egami-09-v4_prism-clear_8060_2510042.spec.fits",
+      "sha256": "6fdf4163657c03b436529be85ffe5b0c6a246070d69aefcd88a7158c831c90ca",
+      "dataset": "gds-dts-egami-09-v4_prism-clear_8060_2510042.spec.fits",
+      "separation_arcsec": 0.056946841215657684,
+      "msamet": "jw08060009001_03_msa.fits",
+      "dja_z": 2.85233,
+      "dja_grade": 3,
+      "dja_comment": "strange continuum features maybe SN transient"
+    },
+    {
+      "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/gds-dts-egami-10-v4/gds-dts-egami-10-v4_prism-clear_8060_2510042.spec.fits",
+      "path": "data/raw/cross_detector/gds-dts-egami-10-v4_prism-clear_8060_2510042.spec.fits",
+      "sha256": "19f1a9fb9469dd2402ae88041ae6f44818fba9082fb3467ccdb0348f4cb6779f",
+      "dataset": "gds-dts-egami-10-v4_prism-clear_8060_2510042.spec.fits",
+      "separation_arcsec": 0.056946841215657684,
+      "msamet": "jw08060010001_02_msa.fits",
+      "dja_z": 2.85002,
+      "dja_grade": 3,
+      "dja_comment": null
+    },
+    {
+      "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/gds-snia-pierel-v4/gds-snia-pierel-v4_prism-clear_5324_2510042.spec.fits",
+      "path": "data/raw/cross_detector/gds-snia-pierel-v4_prism-clear_5324_2510042.spec.fits",
+      "sha256": "694be4ef4f4f878d59c631aae09959bc7b680680e63b1e57b322a68a0c8f5c70",
+      "dataset": "gds-snia-pierel-v4_prism-clear_5324_2510042.spec.fits",
+      "separation_arcsec": 0.056946841215657684,
+      "msamet": "jw05324025001_01_msa.fits",
+      "dja_z": 2.85079,
+      "dja_grade": 3,
+      "dja_comment": null
+    }
+  ],
+  "script_sha256": "081bb216113da309a423fe3976c44b73c43c2dfc7b904c78734efa2750a155ce"
+}

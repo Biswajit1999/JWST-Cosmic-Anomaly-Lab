@@ -1,0 +1,113 @@
+{
+  "executed_utc": "2026-11-22T05:31:50.638997+00:00",
+  "bands": [
+    "F444W",
+    "F356W",
+    "F200W"
+  ],
+  "sw_lw_matched_peaks": 154,
+  "sign_counts": {
+    "-1": 14,
+    "1": 140
+  },
+  "aperture_shortlist": 1,
+  "sum_chip_common_sw_lw_area_arcmin2": 3.8426037777777005,
+  "aperture_radius_arcsec": 0.24,
+  "match_radius_arcsec": 0.14,
+  "gate_minimum_fractional_change": 0.18,
+  "local_ranking_score_minimum": 4.5,
+  "pair_diagnostics": [
+    {
+      "background": 8.851734978816749e-05,
+      "flux_scale": 0.9779678692992797,
+      "derivative_x": 0.004713579930525401,
+      "derivative_y": -0.00228614418731889,
+      "laplacian": 0.26267054709584564,
+      "fit_pixels": 395444,
+      "trial_pixels": 396246,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F444W",
+      "detector": "NRCALONG",
+      "retained_peaks": 379,
+      "field_area_arcmin2": 4.336261333333246,
+      "overlap_with_f444w_arcmin2": null
+    },
+    {
+      "background": -0.0002597310206498915,
+      "flux_scale": 0.9813290571530827,
+      "derivative_x": -0.0038924476855515446,
+      "derivative_y": 0.004032181896121963,
+      "laplacian": 0.26152651781149594,
+      "fit_pixels": 393433,
+      "trial_pixels": 394697,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F356W",
+      "detector": "NRCALONG",
+      "retained_peaks": 606,
+      "field_area_arcmin2": 4.317043999999913,
+      "overlap_with_f444w_arcmin2": 4.288223111111025
+    },
+    {
+      "background": 0.00050592734267324,
+      "flux_scale": 0.972799837311061,
+      "derivative_x": -0.0014745387655859267,
+      "derivative_y": -0.012564954154010852,
+      "laplacian": 0.2628831240363355,
+      "fit_pixels": 371112,
+      "trial_pixels": 371524,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F200W",
+      "detector": "NRCA1",
+      "retained_peaks": 118,
+      "field_area_arcmin2": 1.0121245555555352,
+      "overlap_with_f444w_arcmin2": 0.9355741111110923
+    },
+    {
+      "background": 0.0012836683894829385,
+      "flux_scale": 0.9686669025745717,
+      "derivative_x": -0.005980186482119164,
+      "derivative_y": -0.014504354177743537,
+      "laplacian": 0.25914138301769074,
+      "fit_pixels": 361677,
+      "trial_pixels": 362197,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F200W",
+      "detector": "NRCA2",
+      "retained_peaks": 168,
+      "field_area_arcmin2": 0.9935502222222022,
+      "overlap_with_f444w_arcmin2": 0.934883777777759
+    },
+    {
+      "background": 0.0007952755421215543,
+      "flux_scale": 0.9810927531715288,
+      "derivative_x": -0.0012712908667679402,
+      "derivative_y": 0.011042526893712662,
+      "laplacian": 0.26749258215929195,
+      "fit_pixels": 389036,
+      "trial_pixels": 389625,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F200W",
+      "detector": "NRCA3",
+      "retained_peaks": 184,
+      "field_area_arcmin2": 1.062675444444423,
+      "overlap_with_f444w_arcmin2": 0.9910155555555356
+    },
+    {
+      "background": 0.000880152270109033,
+      "flux_scale": 0.9730418313514326,
+      "derivative_x": -0.006686475720958669,
+      "derivative_y": -0.02455369544269271,
+      "laplacian": 0.2609611325187339,
+      "fit_pixels": 378169,
+      "trial_pixels": 378694,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F200W",
+      "detector": "NRCA4",
+      "retained_peaks": 151,
+      "field_area_arcmin2": 1.0361915555555348,
+      "overlap_with_f444w_arcmin2": 0.9811303333333136
+    }
+  ],
+  "mosaics_sha256": "147befc93b2f75b7221e834cd40aee05769348969fc439af9a8fb5eccafd5ddf",
+  "script_sha256": "ce799b3116c29164d5816d4b110cf019d5613aac00472699c2c7692f351af8f5"
+}

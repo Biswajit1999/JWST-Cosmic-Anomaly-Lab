@@ -2,6 +2,10 @@
 
 22 November 2026 · DAWN JWST Archive mosaics and MAST calibrated exposures
 
+Follow-up archive work found prior NIRSpec recognition of the variability
+lead at ZFOURGE CDFS 18559. The independent search of the second pointing
+identified a separate fading transient. [Cross-detector search and follow-up](jwst_cross_detector.md).
+
 ## Search
 
 We searched a 2.88 arcmin² region of GOODS-S for sources that changed between
@@ -88,6 +92,10 @@ The source at RA 53.200315°, Dec −27.764134° shifts within the small apertur
 Its 2025–2026 F444W change falls from −25.5 nJy at 0.12″ to −3.4 nJy at
 0.24″. This sensitivity to aperture size makes a position or shape change
 a plausible explanation.
+
+The location of the moving source at RA 53.200315°, Dec −27.764134° agrees
+with the published brown-dwarf candidate JADES-GS-BD-11 within 0.03″.
+[JADES brown-dwarf catalogue, Table 3](https://arxiv.org/html/2510.00111).
 
 The 0.24″ F444W apertures at RA 53.195414°, Dec −27.779328° measure
 116.3, 154.8 and 122.1 nJy in 2023, 2025 and 2026. Those at RA 53.182972°,

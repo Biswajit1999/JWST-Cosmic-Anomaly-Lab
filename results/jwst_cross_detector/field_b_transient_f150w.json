@@ -1,0 +1,337 @@
+{
+  "executed_utc": "2026-11-22T05:44:51.800183+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "products": [
+    {
+      "band": "F150W-CLEAR",
+      "detector": "NRCA2",
+      "visit": "jw01180013001",
+      "mjd": 60220.59,
+      "dateobs": "2023-10-03 14:15:21",
+      "exposure_count": 9,
+      "assoc_name": "j033236m2748_goods-s-deep03b-f150w_00090",
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep03b-f150w_00090-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_goods-s-deep03b-f150w_00090-f150w-clear_drc_sci.fits.gz",
+        "sha256": "5d26e857c41cb01669c301fffc348ecd5651b4a02aacc8037d9bc37bea78b95a"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep03b-f150w_00090-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_goods-s-deep03b-f150w_00090-f150w-clear_drc_wht.fits.gz",
+        "sha256": "7551d5ce36ff8abaf1d942784a9044cee725172aa35120b27d50805d4c72a9ef"
+      }
+    },
+    {
+      "band": "F150W-CLEAR",
+      "detector": "NRCA2",
+      "visit": "jw04549005001",
+      "mjd": 60948.88,
+      "dateobs": "2025-09-30 21:00:00",
+      "exposure_count": 8,
+      "assoc_name": "j033236m2748_pointing-5_hudf_goods-s-4549-f150w_00391",
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_pointing-5_hudf_goods-s-4549-f150w_00391-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_pointing-5_hudf_goods-s-4549-f150w_00391-f150w-clear_drc_sci.fits.gz",
+        "sha256": "6610d411bc4b09e1bd19ac33903b0b358441dfe2c6c5af7f29019740d8df140a"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_pointing-5_hudf_goods-s-4549-f150w_00391-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_pointing-5_hudf_goods-s-4549-f150w_00391-f150w-clear_drc_wht.fits.gz",
+        "sha256": "6acf15fb8fdf107e14bc5e89b9d96f386e9b2a5070c184103d6f718afa0f3daa"
+      }
+    },
+    {
+      "band": "F150W-CLEAR",
+      "detector": "NRCA2",
+      "visit": "jw04549006001",
+      "mjd": 60948.98,
+      "dateobs": "2025-09-30 23:36:57",
+      "exposure_count": 5,
+      "assoc_name": "j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00402",
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00402-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00402-f150w-clear_drc_sci.fits.gz",
+        "sha256": "881186a0620d1b36a7bac173a966ebb4ffb2eba4d18f1d5db2a49843a9101284"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00402-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00402-f150w-clear_drc_wht.fits.gz",
+        "sha256": "91a8b02975fa12bfdd4a67e509a98884288339b1b3b4862366b5fa8526f782ce"
+      }
+    },
+    {
+      "band": "F150W-CLEAR",
+      "detector": "NRCA4",
+      "visit": "jw04549006001",
+      "mjd": 60949.02,
+      "dateobs": "2025-10-01 00:23:02",
+      "exposure_count": 4,
+      "assoc_name": "j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00404",
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00404-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00404-f150w-clear_drc_sci.fits.gz",
+        "sha256": "5dcb35106ebb15a4a6516e341889dcddcf08d36d31739079886b35e90f196011"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00404-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_pointing-6_hudf_goods-s-4549-f150w_00404-f150w-clear_drc_wht.fits.gz",
+        "sha256": "faf45bf9489cda054d5a04325aaec30302f1601f68d7c4caefc66b6a40d098e6"
+      }
+    },
+    {
+      "band": "F150W-CLEAR",
+      "detector": "NRCA2",
+      "visit": "jw08060002001",
+      "mjd": 60954.59,
+      "dateobs": "2025-10-06 14:15:21",
+      "exposure_count": 3,
+      "assoc_name": "j033240m2747_nircam-epoch-1b-8060-f150w_00034",
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f150w_00034-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f150w_00034-f150w-clear_drc_sci.fits.gz",
+        "sha256": "8ca2c5f7f7ea1d573ffb7c14fcba24f74845eceac4ff60600d96cc44cc668db1"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f150w_00034-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f150w_00034-f150w-clear_drc_wht.fits.gz",
+        "sha256": "ee9665a8c60ff9b051de52c908af9cd5285ef564b6a09975e7e73ad0f8dc3dc6"
+      }
+    },
+    {
+      "band": "F150W-CLEAR",
+      "detector": "NRCA2",
+      "visit": "jw12577002001",
+      "mjd": 61323.21,
+      "dateobs": "2026-10-10 04:58:04",
+      "exposure_count": 3,
+      "assoc_name": "j033236m2747_nircam-epoch-1b-12577-f150w_00068",
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f150w_00068-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f150w_00068-f150w-clear_drc_sci.fits.gz",
+        "sha256": "e062c916119e23e759638df51863d95a0dd2f6dfca6674100b409acef83f2531"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f150w_00068-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f150w_00068-f150w-clear_drc_wht.fits.gz",
+        "sha256": "4700e3f333c19356dea7f3c8d7e20f7ead5828c2d7d7147af690e1e423bd1fc2"
+      }
+    }
+  ],
+  "association_list": {
+    "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.16203600%2C-27.74638399%2C.02&filters=F150W-CLEAR&output=csv",
+    "path": "data/raw/cross_detector/transient_f150w_associations.csv",
+    "sha256": "3b8c80cda57084bbf837a9495e56858a5c53659adc2d2a89c37799804879d130"
+  },
+  "measurements": [
+    {
+      "band": "F150W",
+      "detector": "NRCA2",
+      "visit": "jw01180013001",
+      "dateobs": "2023-10-03 14:15:21",
+      "mjd": 60220.59,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 13.958292007446289,
+          "local_mad_sigma_njy": 1.4573175195157526,
+          "control_median_njy": -0.12668756395578384,
+          "control_count": 288
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 24.49603843688965,
+          "local_mad_sigma_njy": 2.673808495429158,
+          "control_median_njy": -0.3379661589860916,
+          "control_count": 288
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 39.29206085205078,
+          "local_mad_sigma_njy": 3.9313464696407316,
+          "control_median_njy": -0.6672258377075195,
+          "control_count": 287
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16204634020033,
+        -27.746371982760166
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCA2",
+      "visit": "jw04549005001",
+      "dateobs": "2025-09-30 21:00:00",
+      "mjd": 60948.88,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 432.3811340332031,
+          "local_mad_sigma_njy": 1.656376607555151,
+          "control_median_njy": -0.20614466071128845,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 458.6971435546875,
+          "local_mad_sigma_njy": 3.1532573956489562,
+          "control_median_njy": -0.2099752426147461,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 487.03338623046875,
+          "local_mad_sigma_njy": 4.3617553410530086,
+          "control_median_njy": -0.514430046081543,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203757206952,
+        -27.74638477617261
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCA2",
+      "visit": "jw04549006001",
+      "dateobs": "2025-09-30 23:36:57",
+      "mjd": 60948.98,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 409.39874267578125,
+          "local_mad_sigma_njy": 3.9376952245116232,
+          "control_median_njy": -0.4358441233634949,
+          "control_count": 299
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 425.4827575683594,
+          "local_mad_sigma_njy": 5.873618838930129,
+          "control_median_njy": -0.20058417320251465,
+          "control_count": 271
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 446.74896240234375,
+          "local_mad_sigma_njy": 7.731996764373779,
+          "control_median_njy": 0.11627769470214844,
+          "control_count": 233
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203759597962,
+        -27.746384131537585
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCA4",
+      "visit": "jw04549006001",
+      "dateobs": "2025-10-01 00:23:02",
+      "mjd": 60949.02,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 425.93609619140625,
+          "local_mad_sigma_njy": 2.541007284504175,
+          "control_median_njy": -0.13415637612342834,
+          "control_count": 309
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 453.7305908203125,
+          "local_mad_sigma_njy": 4.272548985743523,
+          "control_median_njy": -0.590162992477417,
+          "control_count": 286
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 481.61444091796875,
+          "local_mad_sigma_njy": 5.645497559523582,
+          "control_median_njy": -0.8960619568824768,
+          "control_count": 262
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203822593819,
+        -27.746384760386167
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCA2",
+      "visit": "jw08060002001",
+      "dateobs": "2025-10-06 14:15:21",
+      "mjd": 60954.59,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 381.27984619140625,
+          "local_mad_sigma_njy": 1.9105241433039306,
+          "control_median_njy": -0.16794868558645248,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 409.64935302734375,
+          "local_mad_sigma_njy": 2.957020310282707,
+          "control_median_njy": -0.4180365800857544,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 437.3482360839844,
+          "local_mad_sigma_njy": 4.436201987886428,
+          "control_median_njy": -0.834101676940918,
+          "control_count": 336
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203729923644,
+        -27.7463854827299
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCA2",
+      "visit": "jw12577002001",
+      "dateobs": "2026-10-10 04:58:04",
+      "mjd": 61323.21,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 20.601903915405273,
+          "local_mad_sigma_njy": 1.9230323537886143,
+          "control_median_njy": -0.34115102887153625,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 35.786102294921875,
+          "local_mad_sigma_njy": 3.5714805070996283,
+          "control_median_njy": -0.45510977506637573,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 57.053932189941406,
+          "local_mad_sigma_njy": 4.839778239154815,
+          "control_median_njy": -0.6596837043762207,
+          "control_count": 335
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203858433664,
+        -27.746377340271152
+      ]
+    }
+  ],
+  "main_vetting_sha256": "c56918df125bf55fc93381fa2c5afb1b4aae7df88e09bf3c80f48e4d2c105f74",
+  "script_sha256": "aa83679f6e79ab3d972486eaf3715d7d1f7bd4efd1865c4901c8d425edd42fda"
+}

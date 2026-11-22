@@ -1,0 +1,25 @@
+experiment: goods-s-field-b-cross-detector-transient-search
+status: executed
+date: 2026-11-22
+prior_snapshot: 7100489
+commands:
+  - python scripts/download_jwst_cross_detector.py
+  - python scripts/audit_jwst_recovered_transient.py
+  - python scripts/search_jwst_cross_detector.py
+  - python scripts/download_jwst_field_b_candidate.py
+  - python scripts/vet_jwst_field_b_candidate.py
+  - python scripts/measure_jwst_transient_early.py
+observations:
+  search_visits: [jw08060002001, jw12577002001]
+  search_filters: [F200W, F356W, F444W]
+  sw_detectors: [NRCA1, NRCA2, NRCA3, NRCA4]
+  lw_detector: NRCALONG
+limitations:
+  - Empirical residual rankings lack a global false-alarm calibration.
+  - Cross-detector coincidences can arise from shared astrometric or morphological effects.
+  - Catalogue and archival follow-up checks are needed for novelty decisions.
+  - Host identification, redshift and event type are unresolved.
+outputs:
+  - reports/jwst_cross_detector.md
+  - results/jwst_cross_detector/
+  - figures/jwst_cross_detector/
