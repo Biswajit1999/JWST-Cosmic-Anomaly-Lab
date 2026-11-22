@@ -1,0 +1,46 @@
+{
+  "executed_utc": "2026-11-22T04:04:05.167858+00:00",
+  "band_peaks": 435,
+  "two_band_peaks": 140,
+  "positive_matches": 111,
+  "negative_matches": 29,
+  "compact_positive": 103,
+  "compact_negative": 5,
+  "searched_area_sq_arcmin": 2.879587111111053,
+  "pixel_scale_arcsec": 0.0399999999999996,
+  "calibration": [
+    {
+      "background": -0.00020935753972194115,
+      "flux_scale": 0.9762313482190712,
+      "derivative_x": -0.0007347996436648766,
+      "derivative_y": 0.001024464128017938,
+      "laplacian": 0.2639831943491067,
+      "fit_pixels": 267302,
+      "trial_pixels": 267762,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F444W-CLEAR",
+      "max_header_registration_px": 1.3274186560862245e-09,
+      "peaks_sign_1": 163,
+      "peaks_sign_-1": 60
+    },
+    {
+      "background": -0.000445170718958406,
+      "flux_scale": 0.9793376190980888,
+      "derivative_x": 0.0058822468173226295,
+      "derivative_y": 0.014590635271664609,
+      "laplacian": 0.26095463755395487,
+      "fit_pixels": 264183,
+      "trial_pixels": 264907,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F356W-CLEAR",
+      "max_header_registration_px": 1.3274186560862245e-09,
+      "peaks_sign_1": 237,
+      "peaks_sign_-1": 87
+    }
+  ],
+  "paired_by": "Nearest same-sign peak, no position merging",
+  "classification": "UNVALIDATED",
+  "products_sha256": "8926f43462de99cc16e964908c5aec09a296b5003cbb9669715f5c6d97dd01e4",
+  "script_sha256": "b1802a9c6b28a136a3eaf416feb5fe3ca06dcb3b5d1e43c1297b5c53f78036f1",
+  "diagnostic_module_sha256": "333c165ae9a5ca1888ab980ed6f968cd4c6f833ab635d50f622f0930e38bb671"
+}

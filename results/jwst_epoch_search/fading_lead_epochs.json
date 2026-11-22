@@ -1,0 +1,274 @@
+{
+  "executed_utc": "2026-11-22T04:23:41.316392+00:00",
+  "candidate": "GS-JWST-53.195414-27.779328",
+  "ra": 53.19541375266448,
+  "dec": -27.77932804913642,
+  "selection": "Existing source with F444W aperture brightening in 2025 relative to 2023 and 2026",
+  "aperture_radius_arcsec": 0.24,
+  "sky_annulus_arcsec": [
+    0.28,
+    0.44
+  ],
+  "control_scaling": "Median same-aperture epoch/2025 ratio of nearby 2025 peaks with baseline flux >= 50 nJy",
+  "uncertainties": "Scaled local blank-aperture scatter excludes control ratio scatter and PSF systematics",
+  "archive_association_listing": {
+    "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.19541375%2C-27.77932805%2C0.025&filters=F444W-CLEAR&output=csv",
+    "path": "data/raw/epoch_search/fading_lead_f444w_associations.csv",
+    "sha256": "ccb7a4358ac676fe98e383e9d2c132db26111cfccb492ac29b285c4db3602197"
+  },
+  "products": [
+    {
+      "band": "F444W-CLEAR",
+      "visit": "jw01180007001",
+      "dateobs": "2022-09-29 20:31:12",
+      "assoc_name": "j033232m2749_goods-s-deep01b-f444w_00021",
+      "exposure_count": 9,
+      "mjd": 59851.86,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033232m2749_goods-s-deep01b-f444w_00021-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033232m2749_goods-s-deep01b-f444w_00021-f444w-clear_drc_sci.fits.gz",
+        "sha256": "be2f40145505a893c933a024f7fc1de7aed5e3fe05172e42f8a21c78e77498bb"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033232m2749_goods-s-deep01b-f444w_00021-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033232m2749_goods-s-deep01b-f444w_00021-f444w-clear_drc_wht.fits.gz",
+        "sha256": "b0a80fa310d3d4e7e230ed1fac2abcfe9cf9632e6ff57b0632e9c537ad940c53"
+      }
+    },
+    {
+      "band": "F444W-CLEAR",
+      "visit": "jw01180009001",
+      "dateobs": "2023-09-29 20:42:43",
+      "mjd": 60216.86,
+      "assoc_name": "j033236m2748_goods-s-deep01a-f444w_00103",
+      "exposure_count": 9,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep01a-f444w_00103-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033236m2748_goods-s-deep01a-f444w_00103-f444w-clear_drc_sci.fits.gz",
+        "sha256": "e771422f5a6efe02797223de4089f02fb9d03e815bb48555fd262679d67ceea2"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep01a-f444w_00103-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033236m2748_goods-s-deep01a-f444w_00103-f444w-clear_drc_wht.fits.gz",
+        "sha256": "1eaa3abde05c8d66e474f761b5799e42b0e4d50a11f70b00c05d00dd439119e8"
+      }
+    },
+    {
+      "band": "F444W-CLEAR",
+      "visit": "jw06541003001",
+      "dateobs": "2023-11-28 07:29:16",
+      "assoc_name": "j033236m2748_jades-deep3-6541-f444w_00206",
+      "exposure_count": 3,
+      "mjd": 60276.31,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_jades-deep3-6541-f444w_00206-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033236m2748_jades-deep3-6541-f444w_00206-f444w-clear_drc_sci.fits.gz",
+        "sha256": "748aac62f6f5fd35509b7f797bec92070a0ba63b4e2a0b3606b20db7665bf2dd"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_jades-deep3-6541-f444w_00206-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033236m2748_jades-deep3-6541-f444w_00206-f444w-clear_drc_wht.fits.gz",
+        "sha256": "bc9c6682d8e61ed5c27a4fd7ce75d82f4d0309aa8934c3d5378c57c66d80a31e"
+      }
+    },
+    {
+      "band": "F444W-CLEAR",
+      "visit": "jw06541005001",
+      "dateobs": "2024-01-01 09:36:00",
+      "assoc_name": "j033236m2747_jades-deep5-6541-f444w_00033",
+      "exposure_count": 3,
+      "mjd": 60310.4,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_jades-deep5-6541-f444w_00033-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033236m2747_jades-deep5-6541-f444w_00033-f444w-clear_drc_sci.fits.gz",
+        "sha256": "96329c2665b671cd2e76e4399018a5a5fc2b9d49ef2f5e45c9d00b21387d1a43"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_jades-deep5-6541-f444w_00033-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033236m2747_jades-deep5-6541-f444w_00033-f444w-clear_drc_wht.fits.gz",
+        "sha256": "613638572f47302ba29a324b89bbe992593ac243b9b61532df46591a30ebdf9c"
+      }
+    },
+    {
+      "visit": "jw08060001001",
+      "epoch": "older",
+      "band": "F444W-CLEAR",
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f444w_00014",
+      "dateobs": "2025-10-06 09:00:00",
+      "mjd": 60954.38,
+      "exposure_count": 3,
+      "exposure_seconds": 4122.9,
+      "pixel_scale_mas": 40.0,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f444w_00014-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033240m2747_nircam-epoch-1a-8060-f444w_00014-f444w-clear_drc_sci.fits.gz",
+        "sha256": "c795a1e9c9d68cc74ba8dcc2dfe7e592f5cc753d4dd09917ad86785e988f485e"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f444w_00014-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033240m2747_nircam-epoch-1a-8060-f444w_00014-f444w-clear_drc_wht.fits.gz",
+        "sha256": "470f7a6926dbbf92c3dd617acd30a8c6670b282f191a7edf0c45d5e960095d74"
+      }
+    },
+    {
+      "visit": "jw12577001001",
+      "epoch": "newer",
+      "band": "F444W-CLEAR",
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f444w_00014",
+      "dateobs": "2026-10-09 23:45:36",
+      "mjd": 61322.99,
+      "exposure_count": 3,
+      "exposure_seconds": 4122.9,
+      "pixel_scale_mas": 40.0,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f444w_00014-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033244m2748_nircam-epoch-1a-12577-f444w_00014-f444w-clear_drc_sci.fits.gz",
+        "sha256": "ac021b150be75bfccf4d8fb148b8e7cecda410dfbc744c366ebeaec2bcd7fb95"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f444w_00014-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033244m2748_nircam-epoch-1a-12577-f444w_00014-f444w-clear_drc_wht.fits.gz",
+        "sha256": "91df2eafd59e11d9a012ffad3afa70a39ec6b3547e19004c7a7bcdcf8692a32f"
+      }
+    }
+  ],
+  "epochs": [
+    {
+      "visit": "jw01180007001",
+      "utc_start": "2022-09-29 20:31:12",
+      "mjd": 59851.86,
+      "raw_fixed": {
+        "radius_arcsec": 0.24,
+        "flux_njy": 116.4571304321289,
+        "local_mad_sigma_njy": 2.4669247932381926,
+        "control_median_njy": -0.06046144291758537,
+        "control_count": 337
+      },
+      "raw_recentered_flux_njy": 134.24627685546875,
+      "usable_control_sources": 10,
+      "control_epoch_to_2025_median_ratio": 1.0113291005383873,
+      "control_ratio_mad_sigma": 0.021239796204177944,
+      "scaled_fixed_flux_njy": 115.15255555301655,
+      "scaled_recentered_flux_njy": 132.74242458167367,
+      "scaled_blank_scatter_njy": 2.4392898334725164
+    },
+    {
+      "visit": "jw01180009001",
+      "utc_start": "2023-09-29 20:42:43",
+      "mjd": 60216.86,
+      "raw_fixed": {
+        "radius_arcsec": 0.24,
+        "flux_njy": 116.33502197265625,
+        "local_mad_sigma_njy": 2.0395426940023897,
+        "control_median_njy": -0.11046174168586731,
+        "control_count": 337
+      },
+      "raw_recentered_flux_njy": 136.83827209472656,
+      "usable_control_sources": 10,
+      "control_epoch_to_2025_median_ratio": 1.0136060468217298,
+      "control_ratio_mad_sigma": 0.012165054518143549,
+      "scaled_fixed_flux_njy": 114.77340958791352,
+      "scaled_recentered_flux_njy": 135.00143623234845,
+      "scaled_blank_scatter_njy": 2.012165081687894
+    },
+    {
+      "visit": "jw06541003001",
+      "utc_start": "2023-11-28 07:29:16",
+      "mjd": 60276.31,
+      "raw_fixed": {
+        "radius_arcsec": 0.24,
+        "flux_njy": 121.86078643798828,
+        "local_mad_sigma_njy": 5.873632580441236,
+        "control_median_njy": -0.10862019658088684,
+        "control_count": 321
+      },
+      "raw_recentered_flux_njy": 142.55078125,
+      "usable_control_sources": 3,
+      "control_epoch_to_2025_median_ratio": null,
+      "control_ratio_mad_sigma": null,
+      "scaled_fixed_flux_njy": null,
+      "scaled_recentered_flux_njy": null,
+      "scaled_blank_scatter_njy": null
+    },
+    {
+      "visit": "jw06541005001",
+      "utc_start": "2024-01-01 09:36:00",
+      "mjd": 60310.4,
+      "raw_fixed": {
+        "radius_arcsec": 0.24,
+        "flux_njy": 122.24771881103516,
+        "local_mad_sigma_njy": 6.648599768686294,
+        "control_median_njy": -0.40950560569763184,
+        "control_count": 317
+      },
+      "raw_recentered_flux_njy": 142.19277954101562,
+      "usable_control_sources": 4,
+      "control_epoch_to_2025_median_ratio": null,
+      "control_ratio_mad_sigma": null,
+      "scaled_fixed_flux_njy": null,
+      "scaled_recentered_flux_njy": null,
+      "scaled_blank_scatter_njy": null
+    },
+    {
+      "visit": "jw08060001001",
+      "utc_start": "2025-10-06 09:00:00",
+      "mjd": 60954.38,
+      "raw_fixed": {
+        "radius_arcsec": 0.24,
+        "flux_njy": 154.82073974609375,
+        "local_mad_sigma_njy": 3.780075739905238,
+        "control_median_njy": 0.03316636383533478,
+        "control_count": 331
+      },
+      "raw_recentered_flux_njy": 173.60470581054688,
+      "usable_control_sources": 10,
+      "control_epoch_to_2025_median_ratio": 1.0,
+      "control_ratio_mad_sigma": 0.0,
+      "scaled_fixed_flux_njy": 154.82073974609375,
+      "scaled_recentered_flux_njy": 173.60470581054688,
+      "scaled_blank_scatter_njy": 3.780075739905238
+    },
+    {
+      "visit": "jw12577001001",
+      "utc_start": "2026-10-09 23:45:36",
+      "mjd": 61322.99,
+      "raw_fixed": {
+        "radius_arcsec": 0.24,
+        "flux_njy": 122.06410217285156,
+        "local_mad_sigma_njy": 3.929613536953926,
+        "control_median_njy": 0.07655371353030205,
+        "control_count": 330
+      },
+      "raw_recentered_flux_njy": 139.38058471679688,
+      "usable_control_sources": 10,
+      "control_epoch_to_2025_median_ratio": 1.0075449132774073,
+      "control_ratio_mad_sigma": 0.020966718736824617,
+      "scaled_fixed_flux_njy": 121.15003566024025,
+      "scaled_recentered_flux_njy": 138.33684521656775,
+      "scaled_blank_scatter_njy": 3.9001869645407914
+    }
+  ],
+  "catalogue_context": {
+    "simbad": {
+      "status": "PARSED",
+      "url": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=53.19541375+-27.77932805&CooFrame=ICRS&Radius=5&Radius.unit=arcsec&output.format=ASCII",
+      "path": "data/raw/epoch_search/fading_lead_simbad.txt",
+      "sha256": "24a5be777a5a1f40ae22e3342649f554a7b98912c00c0cdd0919a351c30d658a",
+      "radius_arcsec": 5,
+      "matches": 10,
+      "nearest_separation_arcsec": 0.11,
+      "nearest_id": "ZFOURGE CDFS 18559",
+      "nearest_type": "G"
+    },
+    "tns": {
+      "status": "PARSED",
+      "url": "https://www.wis-tns.org/search?ra=53.19541375266448&decl=-27.77932804913642&radius=5&coords_unit=arcsec&format=html",
+      "path": "data/raw/epoch_search/fading_lead_tns.txt",
+      "sha256": "9b1abc4d0f0641b8347e79c588e4ca0b0a849e4354a35e888e5eaf6aabb91423",
+      "radius_arcsec": 5,
+      "matches": 0
+    }
+  },
+  "candidate_receipt_sha256": "7dad783de01ad1412abdd162e06ce4b33004094c32a32e8224090e0c80952b78",
+  "script_sha256": "a5a85e4f36d015b3c3c7c7ca35251a8c36edf8d6135718881c2ad9ca92bd61a3"
+}

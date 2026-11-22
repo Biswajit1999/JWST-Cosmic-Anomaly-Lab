@@ -1,0 +1,91 @@
+{
+  "executed_utc": "2026-11-22T04:19:19.430501+00:00",
+  "ra": 53.19412267153221,
+  "dec": -27.770286624432476,
+  "queries": {
+    "simbad": {
+      "status": "UNAVAILABLE",
+      "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+TOP+30+main_id%2Cra%2Cdec%2Cotype+FROM+basic+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C53.19412267153221%2C-27.770286624432476%2C0.0013888889%29%29%3D1",
+      "error": "404 Client Error: Not Found for url: https://simbad.cds.unistra.fr/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+TOP+30+main_id%2Cra%2Cdec%2Cotype+FROM+basic+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C53.19412267153221%2C-27.770286624432476%2C0.0013888889%29%29%3D1"
+    },
+    "tns": {
+      "status": "RESPONSE_RETRIEVED",
+      "url": "https://www.wis-tns.org/search?ra=53.19412267153221&decl=-27.770286624432476&radius=5&coords_unit=arcsec&format=html",
+      "path": "data/raw/epoch_search/tns_target_query.html",
+      "sha256": "5e7e8f23ae6ce76102f2b9c89779890c791375b6398ed45adc8b4504cd1f23c3",
+      "matches_within_radius": 0,
+      "radius_arcsec": 5
+    },
+    "simbad_harvard": {
+      "status": "PARSED",
+      "url": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=53.19412267+-27.77028662&CooFrame=ICRS&Radius=5&Radius.unit=arcsec&output.format=ASCII",
+      "path": "data/raw/epoch_search/simbad_harvard_target.txt",
+      "sha256": "9553e96df01f31bd7e79e259f5b6cd07a6336eafb8b2000c043e8e846c35a782",
+      "radius_arcsec": 5,
+      "matches_within_radius": 9,
+      "objects": [
+        {
+          "separation_arcsec": 0.93,
+          "name": "[BIO2015] GSDV-2466246122",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 1.84,
+          "name": "ZFOURGE CDFS 19651",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 2.25,
+          "name": "ZFOURGE CDFS 19705",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 2.51,
+          "name": "ZFOURGE CDFS 19757",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 2.94,
+          "name": "JADES-GS NC 211014",
+          "type": "EmG"
+        },
+        {
+          "separation_arcsec": 3.11,
+          "name": "[BIO2015] GSDB-2466446100",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 3.76,
+          "name": "VUDS 530046323",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 4.43,
+          "name": "[BIO2015] GSDB-2468946111",
+          "type": "G"
+        },
+        {
+          "separation_arcsec": 4.54,
+          "name": "JADES-GS NC 211739",
+          "type": "EmG"
+        }
+      ]
+    },
+    "jades_2022_2023_transients": {
+      "status": "PARSED",
+      "url": "https://arxiv.org/html/2406.05060v4",
+      "path": "data/raw/epoch_search/decoursey2024_arxiv_v4.html",
+      "sha256": "6cc52d16304c556d2f192436efb743096d7a016d8932989a16de5876d188930d",
+      "radius_arcsec": 5,
+      "searched_positions": 92,
+      "nearest_separation_arcsec": 27.615074349401084,
+      "matches_within_radius": 0,
+      "published_tables": [
+        4,
+        9
+      ]
+    }
+  },
+  "expanded_utc": "2026-11-22T04:19:21.371368+00:00",
+  "crossmatch_script_sha256": "0873c707f0aeb9ce01aaa5682fa7cc470ed36562a7221ecfd8308d3857788019"
+}

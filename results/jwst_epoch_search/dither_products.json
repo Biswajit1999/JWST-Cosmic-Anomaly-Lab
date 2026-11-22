@@ -1,0 +1,142 @@
+{
+  "executed_utc": "2026-11-22T04:16:14.223235+00:00",
+  "candidate": "GS-JWST-53.194123-27.770287",
+  "target_ra": 53.19412267153221,
+  "target_dec": -27.770286624432476,
+  "groups": {
+    "f444w": {
+      "band": "F444W-CLEAR",
+      "visit": "jw12577001001",
+      "assoc": "j033244m2748_nircam-epoch-1a-12577-f444w_00014",
+      "products": [
+        {
+          "file": "jw12577001001_02103_00001_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02103_00001_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02103_00001_nrcalong_cal.fits",
+          "sha256": "3c7088477a7dafa33f0fadbc78fa30baf2967ee4c6e3ba4fc789be6527bbb570",
+          "expstart_mjd": 61322.99,
+          "exposure_seconds": 1374.307
+        },
+        {
+          "file": "jw12577001001_02103_00002_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02103_00002_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02103_00002_nrcalong_cal.fits",
+          "sha256": "0d5e7fe5637f50a39c70af0689e9b176e24bd1a5cf9508d95d71e7aeb6688b83",
+          "expstart_mjd": 61323.008,
+          "exposure_seconds": 1374.307
+        },
+        {
+          "file": "jw12577001001_02103_00003_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02103_00003_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02103_00003_nrcalong_cal.fits",
+          "sha256": "8586c27b49f5ac2bdefd82823a33006d934cb7c7dfa010f6f8be6b55ed52b4c5",
+          "expstart_mjd": 61323.023,
+          "exposure_seconds": 1374.307
+        }
+      ],
+      "listing_url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.19412267153221&dec=-27.770286624432476&arcmin=0.025&filters=F444W-CLEAR&output=csv",
+      "listing_sha256": "1e5c61754b605e687c775843cf76c137d110abe82eab99537a04f87b93848fbf"
+    },
+    "f277w": {
+      "band": "F277W-CLEAR",
+      "visit": "jw12577001001",
+      "assoc": "j033244m2748_nircam-epoch-1a-12577-f277w_00012",
+      "products": [
+        {
+          "file": "jw12577001001_02101_00001_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02101_00001_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00001_nrcalong_cal.fits",
+          "sha256": "089436d03ad77b2f6339ac80c8028437968977c03977ba6308b081a93cf6266a",
+          "expstart_mjd": 61322.938,
+          "exposure_seconds": 1374.307
+        },
+        {
+          "file": "jw12577001001_02101_00002_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02101_00002_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00002_nrcalong_cal.fits",
+          "sha256": "3e54ce63a5445e4e28a7eadc9155f34777e592da4700d7975eb47d452e0bf14a",
+          "expstart_mjd": 61322.953,
+          "exposure_seconds": 1374.307
+        },
+        {
+          "file": "jw12577001001_02101_00003_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02101_00003_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00003_nrcalong_cal.fits",
+          "sha256": "68addb9a18184f7207a66bb9fc6d0a574d557807dc39407e51403f1c99a2df4e",
+          "expstart_mjd": 61322.97,
+          "exposure_seconds": 1374.307
+        }
+      ],
+      "listing_url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.19412267153221&dec=-27.770286624432476&arcmin=0.025&filters=F277W-CLEAR&output=csv",
+      "listing_sha256": "6da87b24675928f27a6d7f886e516ba1cd3d9628df15c81fe231b87813edd753"
+    },
+    "f356w": {
+      "band": "F356W-CLEAR",
+      "visit": "jw12577001001",
+      "assoc": "j033244m2748_nircam-epoch-1a-12577-f356w_00013",
+      "products": [
+        {
+          "file": "jw12577001001_02105_00001_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02105_00001_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02105_00001_nrcalong_cal.fits",
+          "sha256": "08803964ed38209989ddf50d50471aee115d47a4eed22887dd85e4c4f955d6f6",
+          "expstart_mjd": 61323.043,
+          "exposure_seconds": 1374.307
+        },
+        {
+          "file": "jw12577001001_02105_00002_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02105_00002_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02105_00002_nrcalong_cal.fits",
+          "sha256": "bc7811921019a66e1cb6d8704026d499321420d0de0a0ecd4be4324e5fb87ac6",
+          "expstart_mjd": 61323.06,
+          "exposure_seconds": 1374.307
+        },
+        {
+          "file": "jw12577001001_02105_00003_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw12577001001_02105_00003_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02105_00003_nrcalong_cal.fits",
+          "sha256": "61a7d1509fc502a53a864c82cb6a6275de9cdec3dff70dcd18a6936b4ff372f6",
+          "expstart_mjd": 61323.08,
+          "exposure_seconds": 1374.307
+        }
+      ],
+      "listing_url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.19412267153221&dec=-27.770286624432476&arcmin=0.025&filters=F356W-CLEAR&output=csv",
+      "listing_sha256": "78159fa82a9d2a450de48ac0983594c3136cc132cb1c91e5059683cdfe6d46e6"
+    },
+    "f444w_2025": {
+      "band": "F444W-CLEAR",
+      "visit": "jw08060001001",
+      "assoc": "j033240m2747_nircam-epoch-1a-8060-f444w_00014",
+      "products": [
+        {
+          "file": "jw08060001001_04101_00001_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw08060001001_04101_00001_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw08060001001_04101_00001_nrcalong_cal.fits",
+          "sha256": "f71972dff1496f1081b37fbbd804906906d1983f6c7095c8ec4e89ab2629eef9",
+          "expstart_mjd": 60954.375,
+          "exposure_seconds": 1374.307
+        },
+        {
+          "file": "jw08060001001_04101_00002_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw08060001001_04101_00002_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw08060001001_04101_00002_nrcalong_cal.fits",
+          "sha256": "c8c8198190ea0726c21008e36b8799d1a2d493052532965b607060da99d269ea",
+          "expstart_mjd": 60954.39,
+          "exposure_seconds": 1374.307
+        },
+        {
+          "file": "jw08060001001_04101_00003_nrcalong_cal.fits",
+          "path": "data/raw/epoch_search/jw08060001001_04101_00003_nrcalong_cal.fits",
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw08060001001_04101_00003_nrcalong_cal.fits",
+          "sha256": "e248a040279c984cc276cf276b34bab05d0d597a29386f3f2de840f100373560",
+          "expstart_mjd": 60954.406,
+          "exposure_seconds": 1374.307
+        }
+      ],
+      "listing_url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.19412267153221&dec=-27.770286624432476&arcmin=0.025&filters=F444W-CLEAR&output=csv",
+      "listing_sha256": "4b6d518ec8ffe0f00d04dc38d22764c3cb030d132eb15c5b997e91b6ecd00d9e"
+    }
+  },
+  "script_sha256": "28fa3b5fd2276e4145304b97aff92cd9c13df9b48faa9a199fc8d043a5050822",
+  "raw_budget_mib": 6200
+}

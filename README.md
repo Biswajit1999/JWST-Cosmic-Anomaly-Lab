@@ -4,6 +4,17 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## JWST GOODS-S discovery search · 22 November 2026
+
+Six public JWST F444W visits show a candidate 2025 brightening at the known
+galaxy ZFOURGE CDFS 18559. Its measured excess over 2026 persists after local
+flux scaling and aperture recentering. A separate apparent brightening in
+three filters traced to the same detector pixel in all nine exposures.
+[Full analysis](reports/jwst_epoch_search.md) ·
+[Native detector images](figures/jwst_epoch_search/target_dithers.png)
+
+<img src="figures/jwst_epoch_search/fading_lead_epochs.png" width="810" alt="Six real JWST F444W images of ZFOURGE CDFS 18559 from 2022 to 2026, with a photometry plot showing the measured 2025 peak.">
+
 ## Companion search in known Kepler systems · 21 November 2026
 
 The search masked known transits across 236 Kepler light curves. Both

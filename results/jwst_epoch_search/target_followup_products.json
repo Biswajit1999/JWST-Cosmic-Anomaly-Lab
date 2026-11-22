@@ -1,0 +1,77 @@
+{
+  "executed_utc": "2026-11-22T04:19:17.977407+00:00",
+  "candidate": "GS-JWST-53.194123-27.770287",
+  "ra": 53.19412267153221,
+  "dec": -27.770286624432476,
+  "selection": "Highest matched-score compact brightening with >=25% direct aperture change in both bands",
+  "images": [
+    {
+      "band": "F277W-CLEAR",
+      "visit": "jw08060001001",
+      "dateobs": "2025-10-06 07:40:48",
+      "mjd": 60954.32,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f277w_00012",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f277w_00012-f277w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033240m2747_nircam-epoch-1a-8060-f277w_00012-f277w-clear_drc_sci.fits.gz",
+        "sha256": "9d6efeffdac2fea162a48d1b0ccedb1a2e146e78f2f64b66bd11b6f5e9f7576e"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f277w_00012-f277w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033240m2747_nircam-epoch-1a-8060-f277w_00012-f277w-clear_drc_wht.fits.gz",
+        "sha256": "1fd2e0f5aa8137ee0cfff01f6b6121d2cc19380d5f42dde342472ceac3a97ded"
+      }
+    },
+    {
+      "band": "F277W-CLEAR",
+      "visit": "jw12577001001",
+      "dateobs": "2026-10-09 22:30:43",
+      "mjd": 61322.94,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f277w_00012",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f277w_00012-f277w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033244m2748_nircam-epoch-1a-12577-f277w_00012-f277w-clear_drc_sci.fits.gz",
+        "sha256": "10e5bf041212d9d4dc681fbc127ef75e72001a420fadf6fc411702c41131be05"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f277w_00012-f277w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033244m2748_nircam-epoch-1a-12577-f277w_00012-f277w-clear_drc_wht.fits.gz",
+        "sha256": "4f388c38c61b43ddff87f26ffef97d46b4f920bfd0b5db56868971eb02360722"
+      }
+    },
+    {
+      "band": "F444W-CLEAR",
+      "visit": "jw01180009001",
+      "dateobs": "2023-09-29 20:42:43",
+      "mjd": 60216.86,
+      "assoc_name": "j033236m2748_goods-s-deep01a-f444w_00103",
+      "exposure_count": 9,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep01a-f444w_00103-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/epoch_search/j033236m2748_goods-s-deep01a-f444w_00103-f444w-clear_drc_sci.fits.gz",
+        "sha256": "e771422f5a6efe02797223de4089f02fb9d03e815bb48555fd262679d67ceea2"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep01a-f444w_00103-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/epoch_search/j033236m2748_goods-s-deep01a-f444w_00103-f444w-clear_drc_wht.fits.gz",
+        "sha256": "1eaa3abde05c8d66e474f761b5799e42b0e4d50a11f70b00c05d00dd439119e8"
+      }
+    }
+  ],
+  "associations": [
+    {
+      "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.19412267%2C-27.77028662%2C0.03&filters=F277W-CLEAR&output=csv",
+      "path": "data/raw/epoch_search/followup_F277W-CLEAR_associations.csv",
+      "sha256": "9fe631c0e8bc034a4faee02ef7a2f3081bd2af4e6b234242e1f2dbb64fd65c13"
+    },
+    {
+      "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.19412267%2C-27.77028662%2C0.03&filters=F444W-CLEAR&output=csv",
+      "path": "data/raw/epoch_search/followup_F444W-CLEAR_associations.csv",
+      "sha256": "5b9231bf2af3fbe4bfcd370d2adffb57ff1fd4a8da506ac90a21d4435c753dbe"
+    }
+  ],
+  "peak_table_sha256": "f3250112d5cea8d931ae0d5f9e3fbb25ff5e9e4a94b54a2d541e37ff3132116d",
+  "script_sha256": "f8260bd68f50d25f8aa56677acf3a5346ba0fe07a41d1efe361a386a200fc093"
+}

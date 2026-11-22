@@ -1,0 +1,24 @@
+experiment: goods-s-jwst-native-detector-transient-search
+status: executed
+date: 2026-11-22
+prior_snapshot: 30a64b3
+config: configs/jwst_epoch_search.yaml
+commands:
+  - python scripts/download_jwst_epoch_search.py
+  - python scripts/analyse_jwst_epoch_search.py
+  - python scripts/download_jwst_epoch_followup.py
+  - python scripts/download_jwst_candidate_dithers.py
+  - python scripts/measure_jwst_epoch_candidate.py
+  - python scripts/crossmatch_jwst_epoch_candidate.py
+  - python scripts/follow_jwst_fading_source.py
+limitations:
+  - One 2.88 square arcminute common GOODS-S footprint and two search epochs.
+  - Residual PSF, background and pointing terms remain after local linear subtraction.
+  - Search rankings use empirical noise with a finite shortlist per band and sign.
+  - The three NIRCam bands use the same detector, with limited dither separation.
+  - Public coordinate checks have limited epoch and catalogue coverage.
+  - Two archival epochs for the galaxy have too few controls for local flux scaling.
+outputs:
+  - reports/jwst_epoch_search.md
+  - results/jwst_epoch_search/
+  - figures/jwst_epoch_search/

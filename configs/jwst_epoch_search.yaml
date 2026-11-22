@@ -1,0 +1,15 @@
+field: GOODS-S
+query_ra_deg: 53.1957
+query_dec_deg: -27.7717
+query_width_arcmin: 0.6
+filters: [F444W-CLEAR, F356W-CLEAR]
+older_visit: jw08060001001
+newer_visit: jw12577001001
+tile: 672
+max_raw_storage_mib: 4800
+crop_half_width_arcsec: 53
+match_radius_arcsec: 0.16
+aperture_radius_arcsec: 0.12
+peak_to_local_noise_min: 5
+aperture_to_blank_noise_min: 5
+max_ranked_per_sign_and_band: 150
