@@ -110,8 +110,8 @@ pixel near the target has zero data-quality flags. Its coordinates change
 with the dithers. Centroids estimated from unflagged pixels agree with the
 local astrometric prediction within 0.019″ in all six frames. The formal
 native aperture sum remains missing for apertures containing other
-flagged pixels. The native images establish that the bright signal does
-not originate in one fixed detector pixel.
+flagged pixels. The compact signal follows the predicted sky location as
+it moves across the detector.
 [MAST exposure receipts](../results/jwst_cross_detector/field_b_candidate_products.json).
 
 ![Six native JWST exposures showing the signal follow the same sky position between dithers](../figures/jwst_cross_detector/field_b_transient_native.png)
@@ -135,3 +135,30 @@ galaxies and the lack of a spectrum at the transient position leave the
 host association and distance unresolved. The measured fading supports a
 real astrophysical transient. Its type remains open.
 [JADES DR2 catalogue](https://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=V%2F159%2Fgssample).
+
+### Slitless spectra and optical redshift context
+
+The 30 September and 1 October 2025 F150W images overlap two GO 4549
+F356W/GRISMR pointings. We inspected all 11 archived module-A
+extractions selected by the exposure footprints, along with the two
+direct-image catalogues used by the pipeline. No source position falls
+within 0.25″ of the transient. The closest extracted positions are
+0.897″ and 0.932″ away in the two pointings. A forced extraction and an
+upper limit on the transient spectrum remain outstanding.
+[JWST programme 4549](https://www.stsci.edu/jwst-program-info/program/?program=4549),
+[MAST product and cross-match receipts](../results/jwst_cross_detector/field_b_transient_wfss.json).
+
+The ACES optical survey measured secure heliocentric redshifts of
+0.85183 and 0.85330 for galaxy **ACES 40066**, 1.20″ from the transient.
+The other nearby ACES galaxy, **39932**, is 2.41″ away and has redshift
+about 0.732. The bright-epoch image places the transient on the outskirts
+of the extended emission near ACES 40066. Its host association remains
+unconfirmed. If the transient shares that galaxy's redshift, its
+30 September F150W excess corresponds to an observed aperture magnitude
+of 24.77 AB and to roughly −18.3 AB at a rest wavelength of 0.81 µm,
+assuming Planck18 and a blueshifted copy of the observed passband.
+The estimate has no extinction or aperture correction.
+[Cooper et al., ACES spectroscopy](https://academic.oup.com/mnras/article/425/3/2116/983732),
+[ACES redshift catalogue](https://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=J%2FMNRAS%2F425%2F2116%2Ftable2).
+
+![Observed F150W images of the bright and faded transient with two nearby optical redshift positions marked](../figures/jwst_cross_detector/field_b_transient_environment.png)

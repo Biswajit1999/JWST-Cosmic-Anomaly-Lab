@@ -9,6 +9,7 @@ commands:
   - python scripts/download_jwst_field_b_candidate.py
   - python scripts/vet_jwst_field_b_candidate.py
   - python scripts/measure_jwst_transient_early.py
+  - python scripts/audit_jwst_transient_wfss.py
 observations:
   search_visits: [jw08060002001, jw12577002001]
   search_filters: [F200W, F356W, F444W]
@@ -19,6 +20,7 @@ limitations:
   - Cross-detector coincidences can arise from shared astrometric or morphological effects.
   - Catalogue and archival follow-up checks are needed for novelty decisions.
   - Host identification, redshift and event type are unresolved.
+  - The slitless audit compares archive source positions. A forced extraction remains unperformed.
 outputs:
   - reports/jwst_cross_detector.md
   - results/jwst_cross_detector/

@@ -1,0 +1,350 @@
+{
+  "executed_utc": "2026-11-22T14:37:42.124265+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "crossmatch_radius_arcsec": 0.25,
+  "exposure_footprint_listing": {
+    "url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.162035995&dec=-27.746383994&arcmin=.03&filters=F356W-GRISMR&output=csv",
+    "path": "data/raw/cross_detector/field_b_transient_wfss_exposures.csv",
+    "sha256": "70b3c955441d62c9b4bea3333955419e93ae2bdee3eb7a33edc81453aa3ed9bf"
+  },
+  "x1d_exposures": [
+    {
+      "filename": "jw04549005001_02101_00001_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00001_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00001_nrcalong_x1d.fits",
+      "sha256": "435dc65f129cfbf11ecda87cb2417abd0c5a07df1e49f3e18c52772908fb9303",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-09-30",
+      "first_exposure_mjd": 60948.874720416665,
+      "source_catalogue": "jw04549-o005_t005_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1198,
+        "icrs_deg": [
+          53.162273333970944,
+          -27.746232795174453
+        ],
+        "separation_arcsec": 0.9317084449051678,
+        "usable_spectral_pixels": 148
+      }
+    },
+    {
+      "filename": "jw04549005001_02101_00003_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00003_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00003_nrcalong_x1d.fits",
+      "sha256": "1489387b254bf06f5d04d9e3e24364a5b667753518f8a4076453cfe6bdb9e3fe",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-09-30",
+      "first_exposure_mjd": 60948.90367446759,
+      "source_catalogue": "jw04549-o005_t005_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1198,
+        "icrs_deg": [
+          53.162273333970944,
+          -27.746232795174453
+        ],
+        "separation_arcsec": 0.9317084449051678,
+        "usable_spectral_pixels": 240
+      }
+    },
+    {
+      "filename": "jw04549005001_02101_00004_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00004_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00004_nrcalong_x1d.fits",
+      "sha256": "c1b542f2f5bf3bb5ffadb5618cfe3801b24dd5c75ad485e8f9d3dd7f426f0393",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-09-30",
+      "first_exposure_mjd": 60948.918338159725,
+      "source_catalogue": "jw04549-o005_t005_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1198,
+        "icrs_deg": [
+          53.162273333970944,
+          -27.746232795174453
+        ],
+        "separation_arcsec": 0.9317084449051678,
+        "usable_spectral_pixels": 244
+      }
+    },
+    {
+      "filename": "jw04549005001_02101_00005_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00005_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00005_nrcalong_x1d.fits",
+      "sha256": "1f09475b1b07d641046823713f1927f8b90b3064324158039711e312438419fd",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-09-30",
+      "first_exposure_mjd": 60948.93287739583,
+      "source_catalogue": "jw04549-o005_t005_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1198,
+        "icrs_deg": [
+          53.162273333970944,
+          -27.746232795174453
+        ],
+        "separation_arcsec": 0.9317084449051678,
+        "usable_spectral_pixels": 248
+      }
+    },
+    {
+      "filename": "jw04549005001_02101_00006_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00006_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00006_nrcalong_x1d.fits",
+      "sha256": "3461ec4fab5775a1a33fb778c9185f7e06730687c5ae5b8709db86702e0dcddb",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-09-30",
+      "first_exposure_mjd": 60948.94741738426,
+      "source_catalogue": "jw04549-o005_t005_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1198,
+        "icrs_deg": [
+          53.162273333970944,
+          -27.746232795174453
+        ],
+        "separation_arcsec": 0.9317084449051678,
+        "usable_spectral_pixels": 153
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00001_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00001_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00001_nrcalong_x1d.fits",
+      "sha256": "881c9d1f6328df173b489e24dd406b06a6239ba1a8d33489ac04d7411797e519",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-09-30",
+      "first_exposure_mjd": 60948.98595809028,
+      "source_catalogue": "jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1176,
+        "icrs_deg": [
+          53.162265633866035,
+          -27.746239647344044
+        ],
+        "separation_arcsec": 0.8974041975923599,
+        "usable_spectral_pixels": 1086
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00002_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00002_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00002_nrcalong_x1d.fits",
+      "sha256": "e4bc19c28fe8396255ce7046137d22eaf5f5bdd459717617b6c8a0e756019069",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-10-01",
+      "first_exposure_mjd": 60949.000498078705,
+      "source_catalogue": "jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1176,
+        "icrs_deg": [
+          53.162265633866035,
+          -27.746239647344044
+        ],
+        "separation_arcsec": 0.8974041975923599,
+        "usable_spectral_pixels": 1085
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00003_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00003_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00003_nrcalong_x1d.fits",
+      "sha256": "ed148b6ee2ddc3b111f0d8ed979c46a2e48c207cefe444e2b0a5351c9d736a89",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-10-01",
+      "first_exposure_mjd": 60949.01503731481,
+      "source_catalogue": "jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1176,
+        "icrs_deg": [
+          53.162265633866035,
+          -27.746239647344044
+        ],
+        "separation_arcsec": 0.8974041975923599,
+        "usable_spectral_pixels": 1084
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00004_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00004_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00004_nrcalong_x1d.fits",
+      "sha256": "f2a33792d3b53cf164fa8be63268381de3f69e097b297e47c23f04aadc7a0b13",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-10-01",
+      "first_exposure_mjd": 60949.0295765625,
+      "source_catalogue": "jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1176,
+        "icrs_deg": [
+          53.162265633866035,
+          -27.746239647344044
+        ],
+        "separation_arcsec": 0.8974041975923599,
+        "usable_spectral_pixels": 1084
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00005_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00005_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00005_nrcalong_x1d.fits",
+      "sha256": "cae1d6afe67c8bcf3da19050fb149fa8a795e34d8dc6ac69cfee280a425fe71a",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-10-01",
+      "first_exposure_mjd": 60949.04411581018,
+      "source_catalogue": "jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1176,
+        "icrs_deg": [
+          53.162265633866035,
+          -27.746239647344044
+        ],
+        "separation_arcsec": 0.8974041975923599,
+        "usable_spectral_pixels": 1084
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00006_nrcalong_x1d.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00006_nrcalong_x1d.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00006_nrcalong_x1d.fits",
+      "sha256": "8682e39c22b0bce06eeaf864ed7a8fe89fc7b3ac1272f96fc5e26eb28c34014f",
+      "source_rows": 100,
+      "positioned_rows": 100,
+      "date_obs": "2025-10-01",
+      "first_exposure_mjd": 60949.05853061342,
+      "source_catalogue": "jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1176,
+        "icrs_deg": [
+          53.162265633866035,
+          -27.746239647344044
+        ],
+        "separation_arcsec": 0.8974041975923599,
+        "usable_spectral_pixels": 1085
+      }
+    }
+  ],
+  "direct_image_catalogues": [
+    {
+      "filename": "jw04549-o005_t005_nircam_clear-f356w_cat.ecsv",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549-o005_t005_nircam_clear-f356w_cat.ecsv",
+      "path": "data/raw/cross_detector/jw04549-o005_t005_nircam_clear-f356w_cat.ecsv",
+      "sha256": "730d74299a1ca4d6f2cd450d7203dc2b6cc9ae77f2f8a8a126dccac8fcbdfd05",
+      "source_rows": 1263,
+      "positioned_rows": 1263,
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1198,
+        "icrs_deg": [
+          53.162273333970944,
+          -27.746232795174453
+        ],
+        "separation_arcsec": 0.9317084449051678
+      }
+    },
+    {
+      "filename": "jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "path": "data/raw/cross_detector/jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+      "sha256": "b5964fac49031a489c1898f036f412a32d29085e41a6c2bb6de887df7550ba34",
+      "source_rows": 1245,
+      "positioned_rows": 1245,
+      "matches_within_radius": 0,
+      "nearest": {
+        "id": 1176,
+        "icrs_deg": [
+          53.162265633866035,
+          -27.746239647344044
+        ],
+        "separation_arcsec": 0.8974041975923599
+      }
+    }
+  ],
+  "aces_query": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FMNRAS%2F425%2F2116%2Ftable2&-c=53.162035995+-27.746383994&-c.rs=5&-out.max=25&-out.all=1",
+    "path": "data/raw/cross_detector/field_b_transient_aces.tsv",
+    "sha256": "042d408402f62ed74468843da840e273d6c5eb12505059c84e1215feb353c26d"
+  },
+  "aces_nearby_galaxies": [
+    {
+      "aces_id": 40066,
+      "ra_j2000_deg": 53.162259,
+      "dec_j2000_deg": -27.746116,
+      "separation_arcsec": 1.198,
+      "median_heliocentric_redshift": 0.852565,
+      "observations": [
+        {
+          "mask": "ACES206",
+          "mjd": 55539.7,
+          "z": 0.85187,
+          "z_heliocentric": 0.85183,
+          "quality": 3
+        },
+        {
+          "mask": "ACES201",
+          "mjd": 55539.6,
+          "z": 0.85334,
+          "z_heliocentric": 0.8533,
+          "quality": 3
+        }
+      ]
+    },
+    {
+      "aces_id": 39932,
+      "ra_j2000_deg": 53.161596,
+      "dec_j2000_deg": -27.74693,
+      "separation_arcsec": 2.414,
+      "median_heliocentric_redshift": 0.73187,
+      "observations": [
+        {
+          "mask": "ACES85",
+          "mjd": 54796.7,
+          "z": 0.73257,
+          "z_heliocentric": 0.73254,
+          "quality": 3
+        },
+        {
+          "mask": "ACES84",
+          "mjd": 54796.6,
+          "z": 0.73123,
+          "z_heliocentric": 0.7312,
+          "quality": 3
+        }
+      ]
+    }
+  ],
+  "conditional_luminosity": {
+    "conditional_host_aces_id": 40066,
+    "redshift": 0.852565,
+    "bright_minus_baseline_njy": 447.74132537841797,
+    "local_aperture_scatter_njy": 5.872000912769096,
+    "observed_aperture_ab_mag": 24.772432048743557,
+    "luminosity_distance_mpc": 5581.318718549011,
+    "approximate_rest_wavelength_um": 0.8096881890783859,
+    "shifted_passband_absolute_ab_mag": -18.291818431311558,
+    "assumptions": "Planck18, redshifted same passband, no extinction or aperture correction; host unconfirmed"
+  },
+  "scope": "Pipeline source positions in archived X1D and direct catalogues; no forced extraction or spectral limit",
+  "f150w_input_sha256": "bca2b703c286bb2311e67e108637400a0e31c4fca76b79e347b888f9b08c6a70",
+  "script_sha256": "7c29ee008d82c4db73461fca069cfd2408b248c22920b8942f9236f6bd458e39"
+}
