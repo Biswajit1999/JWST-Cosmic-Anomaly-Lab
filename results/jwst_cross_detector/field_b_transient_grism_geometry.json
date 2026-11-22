@@ -1,0 +1,490 @@
+{
+  "executed_utc": "2026-11-22T18:57:43.012713+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "nominal_passband_um": [
+    3.14,
+    3.98
+  ],
+  "reference_pixel_edge": 4,
+  "exposure_coverage": [
+    {
+      "filename": "jw04549005001_02101_00001_nrcalong_rate.fits",
+      "date_utc": "2025-09-30T20:59:35.844",
+      "date_mjd": 60948.874720416665,
+      "estimated_direct_center_pix": [
+        -3.8230748639414287,
+        1212.9636686096974
+      ],
+      "nominal": {
+        "first_um": 3.9404662744210857,
+        "last_um": 3.979926412069504,
+        "fraction_of_band": 0.046976354343355356
+      },
+      "crds": {
+        "first_um": 3.9404662744210857,
+        "last_um": 4.072860975049994,
+        "fraction_of_band": 0.13199870175420275
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 0.0,
+        "position_error_max_pix": 4.1090927597195563e-10,
+        "wavelength_sample_count": 78188,
+        "absolute_wavelength_error_median_um": 6.275289443635756e-08,
+        "absolute_wavelength_error_p95_um": 1.1896367213548585e-07
+      }
+    },
+    {
+      "filename": "jw04549005001_02101_00003_nrcalong_rate.fits",
+      "date_utc": "2025-09-30T21:41:17.474",
+      "date_mjd": 60948.90367446759,
+      "estimated_direct_center_pix": [
+        87.66653229118924,
+        1312.8975802958132
+      ],
+      "nominal": {
+        "first_um": 3.8516638349005006,
+        "last_um": 3.979850706114311,
+        "fraction_of_band": 0.152603418111679
+      },
+      "crds": {
+        "first_um": 3.8516638349005006,
+        "last_um": 4.072889227423705,
+        "fraction_of_band": 0.22056369680517812
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 0.0,
+        "position_error_max_pix": 5.05972642917468e-10,
+        "wavelength_sample_count": 82882,
+        "absolute_wavelength_error_median_um": 6.242148864465946e-08,
+        "absolute_wavelength_error_p95_um": 1.1846886167621307e-07
+      }
+    },
+    {
+      "filename": "jw04549005001_02101_00004_nrcalong_rate.fits",
+      "date_utc": "2025-09-30T22:02:24.417",
+      "date_mjd": 60948.918338159725,
+      "estimated_direct_center_pix": [
+        91.84368628449033,
+        1217.3363888473327
+      ],
+      "nominal": {
+        "first_um": 3.847542333861574,
+        "last_um": 3.97992799351461,
+        "fraction_of_band": 0.15760197577742377
+      },
+      "crds": {
+        "first_um": 3.847542333861574,
+        "last_um": 4.072987805378694,
+        "fraction_of_band": 0.2247711533412096
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 0.0,
+        "position_error_max_pix": 4.129921111643943e-10,
+        "wavelength_sample_count": 81903,
+        "absolute_wavelength_error_median_um": 6.26666261105413e-08,
+        "absolute_wavelength_error_p95_um": 1.186590553814426e-07
+      }
+    },
+    {
+      "filename": "jw04549005001_02101_00005_nrcalong_rate.fits",
+      "date_utc": "2025-09-30T22:23:20.607",
+      "date_mjd": 60948.93287739583,
+      "estimated_direct_center_pix": [
+        96.08446315045194,
+        1121.8783071259559
+      ],
+      "nominal": {
+        "first_um": 3.843468431767613,
+        "last_um": 3.9799004239557463,
+        "fraction_of_band": 0.16241903831920645
+      },
+      "crds": {
+        "first_um": 3.843468431767613,
+        "last_um": 4.07298557078071,
+        "fraction_of_band": 0.22883064228518352
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 0.0,
+        "position_error_max_pix": 4.0798314418808477e-10,
+        "wavelength_sample_count": 83117,
+        "absolute_wavelength_error_median_um": 6.261206264568386e-08,
+        "absolute_wavelength_error_p95_um": 1.1873413345853123e-07
+      }
+    },
+    {
+      "filename": "jw04549005001_02101_00006_nrcalong_rate.fits",
+      "date_utc": "2025-09-30T22:44:16.862",
+      "date_mjd": 60948.94741738426,
+      "estimated_direct_center_pix": [
+        0.5108841006975808,
+        1117.5163136051099
+      ],
+      "nominal": {
+        "first_um": 3.936239597981713,
+        "last_um": 3.9798993605235693,
+        "fraction_of_band": 0.051975907787924075
+      },
+      "crds": {
+        "first_um": 3.936239597981713,
+        "last_um": 4.07286111273619,
+        "fraction_of_band": 0.13621287327678652
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 1.807725284348615e-10,
+        "position_error_max_pix": 5.147868560917601e-10,
+        "wavelength_sample_count": 79832,
+        "absolute_wavelength_error_median_um": 6.279270747810983e-08,
+        "absolute_wavelength_error_p95_um": 1.1903108985134025e-07
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00001_nrcalong_rate.fits",
+      "date_utc": "2025-09-30T23:39:46.779",
+      "date_mjd": 60948.98595809028,
+      "estimated_direct_center_pix": [
+        986.4123002336484,
+        1203.4362729724455
+      ],
+      "nominal": {
+        "first_um": 3.14005025591931,
+        "last_um": 3.9799459029993267,
+        "fraction_of_band": 0.9998757703333532
+      },
+      "crds": {
+        "first_um": 3.0700846197960985,
+        "last_um": 4.072852580587151,
+        "fraction_of_band": 0.9997686339133317
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 0.0,
+        "position_error_max_pix": 4.098453388432999e-10,
+        "wavelength_sample_count": 64291,
+        "absolute_wavelength_error_median_um": 6.21118649846153e-08,
+        "absolute_wavelength_error_p95_um": 1.1811101052749962e-07
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00002_nrcalong_rate.fits",
+      "date_utc": "2025-10-01T00:00:43.034",
+      "date_mjd": 60949.000498078705,
+      "estimated_direct_center_pix": [
+        983.1390984917288,
+        1298.8564021937925
+      ],
+      "nominal": {
+        "first_um": 3.140132554302026,
+        "last_um": 3.9799984146355136,
+        "fraction_of_band": 0.9998403099208188
+      },
+      "crds": {
+        "first_um": 3.0700083472794204,
+        "last_um": 4.072893306972796,
+        "fraction_of_band": 0.9998852828663486
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 0.0,
+        "position_error_max_pix": 4.0807247056506616e-10,
+        "wavelength_sample_count": 63407,
+        "absolute_wavelength_error_median_um": 6.180686629164711e-08,
+        "absolute_wavelength_error_p95_um": 1.1816775757900189e-07
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00003_nrcalong_rate.fits",
+      "date_utc": "2025-10-01T00:21:39.224",
+      "date_mjd": 60949.01503731481,
+      "estimated_direct_center_pix": [
+        1079.0459466855925,
+        1302.1839234005224
+      ],
+      "nominal": {
+        "first_um": 3.1400544204558862,
+        "last_um": 3.9799092997081975,
+        "fraction_of_band": 0.9998272372051327
+      },
+      "crds": {
+        "first_um": 3.0700097754620526,
+        "last_um": 4.072874755720466,
+        "fraction_of_band": 0.9998653631908311
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 2.5793367383301296e-10,
+        "position_error_max_pix": 5.607489957174613e-10,
+        "wavelength_sample_count": 64526,
+        "absolute_wavelength_error_median_um": 6.293167476023598e-08,
+        "absolute_wavelength_error_p95_um": 1.1865664883980998e-07
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00004_nrcalong_rate.fits",
+      "date_utc": "2025-10-01T00:42:35.415",
+      "date_mjd": 60949.0295765625,
+      "estimated_direct_center_pix": [
+        1082.2207656982566,
+        1206.789998627854
+      ],
+      "nominal": {
+        "first_um": 3.140106706344277,
+        "last_um": 3.9798569833522035,
+        "fraction_of_band": 0.9997027107237221
+      },
+      "crds": {
+        "first_um": 3.070061763066272,
+        "last_um": 4.072991237954257,
+        "fraction_of_band": 0.9999296649138845
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 2.013199004094891e-10,
+        "position_error_max_pix": 5.967943957042168e-10,
+        "wavelength_sample_count": 65308,
+        "absolute_wavelength_error_median_um": 6.224856341496832e-08,
+        "absolute_wavelength_error_p95_um": 1.1857165260753531e-07
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00005_nrcalong_rate.fits",
+      "date_utc": "2025-10-01T01:03:31.606",
+      "date_mjd": 60949.04411581018,
+      "estimated_direct_center_pix": [
+        1085.4088469813587,
+        1111.5090348190115
+      ],
+      "nominal": {
+        "first_um": 3.140075784909859,
+        "last_um": 3.9798546440734306,
+        "fraction_of_band": 0.9997367370994904
+      },
+      "crds": {
+        "first_um": 3.070034788671231,
+        "last_um": 4.0728428043833835,
+        "fraction_of_band": 0.9998085690282491
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 0.0,
+        "position_error_max_pix": 4.082639812288727e-10,
+        "wavelength_sample_count": 64958,
+        "absolute_wavelength_error_median_um": 6.237771166262007e-08,
+        "absolute_wavelength_error_p95_um": 1.1857872070919484e-07
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00006_nrcalong_rate.fits",
+      "date_utc": "2025-10-01T01:24:17.045",
+      "date_mjd": 60949.05853061342,
+      "estimated_direct_center_pix": [
+        989.712724378347,
+        1108.1259164393466
+      ],
+      "nominal": {
+        "first_um": 3.1400402949803343,
+        "last_um": 3.9799428770403082,
+        "fraction_of_band": 0.9998840262618739
+      },
+      "crds": {
+        "first_um": 3.0700830189045205,
+        "last_um": 4.072862264346926,
+        "fraction_of_band": 0.9997798848117538
+      },
+      "maximum_barycentric_window_um": [
+        3.069999933242798,
+        4.072999954223633
+      ],
+      "astronomical_pointing_validation": {
+        "catalogue_positions": 100,
+        "position_error_median_pix": 0.0,
+        "position_error_max_pix": 3.79647607070231e-10,
+        "wavelength_sample_count": 63779,
+        "absolute_wavelength_error_median_um": 6.233606075767284e-08,
+        "absolute_wavelength_error_p95_um": 1.1828204402597464e-07
+      }
+    }
+  ],
+  "direct_f356w_photometry": [
+    {
+      "filename": "jw04549-o005_t005_nircam_clear-f356w_i2d.fits",
+      "date_utc": "2025-09-30T23:07:32.620",
+      "scale_arcsec": 0.06290839507998204,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 192.6842164993286,
+          "local_mad_sigma_njy": 3.7555989935874936,
+          "control_median_njy": 0.2494335174560547,
+          "control_count": 329
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 230.0436143875122,
+          "local_mad_sigma_njy": 7.083346892595291,
+          "control_median_njy": 0.2116856575012207,
+          "control_count": 328
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 269.7890815734863,
+          "local_mad_sigma_njy": 12.043287974452971,
+          "control_median_njy": -0.791907787322998,
+          "control_count": 327
+        }
+      ]
+    },
+    {
+      "filename": "jw04549-o006_t006_nircam_clear-f356w_i2d.fits",
+      "date_utc": "2025-10-01T01:47:43.554",
+      "scale_arcsec": 0.06290838961429823,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 187.89980697631836,
+          "local_mad_sigma_njy": 3.199844564723968,
+          "control_median_njy": 0.052738189697265625,
+          "control_count": 329
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 238.2138214111328,
+          "local_mad_sigma_njy": 5.967758529281616,
+          "control_median_njy": 0.20862722396850586,
+          "control_count": 329
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 268.5198173522949,
+          "local_mad_sigma_njy": 9.27639485836029,
+          "control_median_njy": -1.3708715438842773,
+          "control_count": 329
+        }
+      ]
+    },
+    {
+      "band": "F356W",
+      "detector": "NRCALONG",
+      "visit": "jw08060002001",
+      "dateobs": "2025-10-06 14:15:21",
+      "mjd": 60954.59,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 187.83294677734375,
+          "local_mad_sigma_njy": 1.460434500735998,
+          "control_median_njy": 0.13483333587646484,
+          "control_count": 334
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 230.56536865234375,
+          "local_mad_sigma_njy": 2.709541704404354,
+          "control_median_njy": 0.07314068078994751,
+          "control_count": 331
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 272.24151611328125,
+          "local_mad_sigma_njy": 3.8846080113887784,
+          "control_median_njy": 0.3875821381807327,
+          "control_count": 330
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.16203633861028,
+        -27.746383695994
+      ],
+      "date_utc": "2025-10-06 14:15:21",
+      "scale_arcsec": 0.0399999999999996
+    },
+    {
+      "band": "F356W",
+      "detector": "NRCALONG",
+      "visit": "jw12577002001",
+      "dateobs": "2026-10-10 04:58:04",
+      "mjd": 61323.21,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 16.876991271972656,
+          "local_mad_sigma_njy": 1.5454581344783305,
+          "control_median_njy": -0.025953084230422974,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 32.14284133911133,
+          "local_mad_sigma_njy": 2.7778888877034187,
+          "control_median_njy": -0.015978485345840454,
+          "control_count": 330
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 48.73155212402344,
+          "local_mad_sigma_njy": 4.356358815461397,
+          "control_median_njy": -0.15527990460395813,
+          "control_count": 329
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.162048503268316,
+        -27.74636827181159
+      ],
+      "date_utc": "2026-10-10 04:58:04",
+      "scale_arcsec": 0.0399999999999996
+    }
+  ],
+  "scope": "Predicted geometric trace inside detector science area; throughput and DQ not evaluated",
+  "products_sha256": "c5d47c3f317e733d92de63adaa1d17bebf82149e1cc77db8bdbd76e224d9d328",
+  "comparison_mosaics_sha256": "15e9ef609b7946d49be393148fe34586a2b5947d605e2c9b6eace86e38f204c8",
+  "script_sha256": "eae7b3fb65872cc7ac825deb7f50f2550804d253079049d17a2c2c569939ed10"
+}

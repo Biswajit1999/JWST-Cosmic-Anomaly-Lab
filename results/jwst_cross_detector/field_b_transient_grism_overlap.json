@@ -1,0 +1,144 @@
+{
+  "executed_utc": "2026-11-22T19:11:20.715654+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "diagnostic_window_um": [
+    3.18,
+    3.94
+  ],
+  "crossdisp_tolerance_pix": 3,
+  "archive_catalogue": {
+    "filename": "jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+    "path": "data/raw/cross_detector/jw04549-o006_t006_nircam_clear-f356w_cat.ecsv",
+    "sha256": "b5964fac49031a489c1898f036f412a32d29085e41a6c2bb6de887df7550ba34",
+    "source_rows": 1245,
+    "positioned_rows": 1245,
+    "matches_within_radius": 0,
+    "nearest": {
+      "id": 1176,
+      "icrs_deg": [
+        53.162265633866035,
+        -27.746239647344044
+      ],
+      "separation_arcsec": 0.8974041975923599
+    }
+  },
+  "overlap_results": [
+    {
+      "filename": "jw04549006001_02101_00001_nrcalong_rate.fits",
+      "overlapping_sources": [
+        {
+          "catalogue_label": 1178,
+          "icrs": [
+            53.16162934467393,
+            -27.74701362864745
+          ],
+          "direct_flux_microjy": 25.709901043393977,
+          "source_separation_arcsec": 2.6108371070349037,
+          "order": 1,
+          "diagnostic_grid_overlap": 1.0,
+          "median_crossdisp_offset_pix": 0.010892235106666703,
+          "max_abs_crossdisp_offset_pix": 0.01474192171986033
+        }
+      ]
+    },
+    {
+      "filename": "jw04549006001_02101_00002_nrcalong_rate.fits",
+      "overlapping_sources": [
+        {
+          "catalogue_label": 1178,
+          "icrs": [
+            53.16162934467393,
+            -27.74701362864745
+          ],
+          "direct_flux_microjy": 25.709901043393977,
+          "source_separation_arcsec": 2.6108371070349037,
+          "order": 1,
+          "diagnostic_grid_overlap": 1.0,
+          "median_crossdisp_offset_pix": -0.0012448892287011404,
+          "max_abs_crossdisp_offset_pix": 0.006268489280046197
+        }
+      ]
+    },
+    {
+      "filename": "jw04549006001_02101_00003_nrcalong_rate.fits",
+      "overlapping_sources": [
+        {
+          "catalogue_label": 1178,
+          "icrs": [
+            53.16162934467393,
+            -27.74701362864745
+          ],
+          "direct_flux_microjy": 25.709901043393977,
+          "source_separation_arcsec": 2.6108371070349037,
+          "order": 1,
+          "diagnostic_grid_overlap": 1.0,
+          "median_crossdisp_offset_pix": -0.04799641614044958,
+          "max_abs_crossdisp_offset_pix": 0.0526289343724784
+        }
+      ]
+    },
+    {
+      "filename": "jw04549006001_02101_00004_nrcalong_rate.fits",
+      "overlapping_sources": [
+        {
+          "catalogue_label": 1178,
+          "icrs": [
+            53.16162934467393,
+            -27.74701362864745
+          ],
+          "direct_flux_microjy": 25.709901043393977,
+          "source_separation_arcsec": 2.6108371070349037,
+          "order": 1,
+          "diagnostic_grid_overlap": 1.0,
+          "median_crossdisp_offset_pix": -0.03370561309975528,
+          "max_abs_crossdisp_offset_pix": 0.03802004282283633
+        }
+      ]
+    },
+    {
+      "filename": "jw04549006001_02101_00005_nrcalong_rate.fits",
+      "overlapping_sources": [
+        {
+          "catalogue_label": 1178,
+          "icrs": [
+            53.16162934467393,
+            -27.74701362864745
+          ],
+          "direct_flux_microjy": 25.709901043393977,
+          "source_separation_arcsec": 2.6108371070349037,
+          "order": 1,
+          "diagnostic_grid_overlap": 1.0,
+          "median_crossdisp_offset_pix": -0.01925839205205193,
+          "max_abs_crossdisp_offset_pix": 0.02326487725622428
+        }
+      ]
+    },
+    {
+      "filename": "jw04549006001_02101_00006_nrcalong_rate.fits",
+      "overlapping_sources": [
+        {
+          "catalogue_label": 1178,
+          "icrs": [
+            53.16162934467393,
+            -27.74701362864745
+          ],
+          "direct_flux_microjy": 25.709901043393977,
+          "source_separation_arcsec": 2.6108371070349037,
+          "order": 1,
+          "diagnostic_grid_overlap": 1.0,
+          "median_crossdisp_offset_pix": 0.023065488375550558,
+          "max_abs_crossdisp_offset_pix": 0.026597393188467322
+        }
+      ]
+    }
+  ],
+  "calculation_scope": "Centroid traces for first and second orders, not a contaminant flux model",
+  "grism_products_sha256": "c5d47c3f317e733d92de63adaa1d17bebf82149e1cc77db8bdbd76e224d9d328",
+  "catalogue_audit_sha256": "0181fba60d484bbdd4125004f112fbf3672c4124898d84edb992b8bf42014618",
+  "script_sha256": "12b34e8be240777194d3092e01ffd8e156e530a285b35a024abe73ee9f3b54af"
+}

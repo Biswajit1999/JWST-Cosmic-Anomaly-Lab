@@ -1,0 +1,229 @@
+{
+  "executed_utc": "2026-11-22T18:56:09.440354+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "calibrations": {
+    "jwst_nircam_specwcs_0236.asdf": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_specwcs_0236.asdf",
+      "path": "data/raw/cross_detector/jwst_nircam_specwcs_0236.asdf",
+      "sha256": "ca8938e2298282162ba34ea7ac3446ff103e9f2380fa1190b1993fa2d71c1f58",
+      "bytes": 9426
+    },
+    "jwst_nircam_wavelengthrange_0007.asdf": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_wavelengthrange_0007.asdf",
+      "path": "data/raw/cross_detector/jwst_nircam_wavelengthrange_0007.asdf",
+      "sha256": "32c1eaeae89e0d3520080fa65daf6d6ccf88991e531b5da3ad101e21f05d460b",
+      "bytes": 4983
+    },
+    "jwst_nircam_filteroffset_0007.asdf": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_filteroffset_0007.asdf",
+      "path": "data/raw/cross_detector/jwst_nircam_filteroffset_0007.asdf",
+      "sha256": "ca295608187ac429c6a0e357c5da48e399665a1b462d7d0dd624e3ebc11abdf2",
+      "bytes": 11437
+    },
+    "jwst_nircam_distortion_0260.asdf": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_distortion_0260.asdf",
+      "path": "data/raw/cross_detector/jwst_nircam_distortion_0260.asdf",
+      "sha256": "f16252dbe6709164ee4c0f59746d00ce1a5a4355562d7b0c9c84729972a5efd5",
+      "bytes": 14434
+    }
+  },
+  "rate_headers": [
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00001_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00001_nrcalong_rate.fits.header.bin",
+      "sha256": "1efc15b466909828b1dba9964e506478b462d9d6ea0410236665f327fc9af208",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549005001_02101_00001_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549005001_02101_00001_nrcalong_x1d.fits",
+      "x1d_sha256": "435dc65f129cfbf11ecda87cb2417abd0c5a07df1e49f3e18c52772908fb9303",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00003_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00003_nrcalong_rate.fits.header.bin",
+      "sha256": "c83b85cc15fc45fd24efcd89ae9dcfb15d4207c65b9f89012d8f93d624590c30",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549005001_02101_00003_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549005001_02101_00003_nrcalong_x1d.fits",
+      "x1d_sha256": "1489387b254bf06f5d04d9e3e24364a5b667753518f8a4076453cfe6bdb9e3fe",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00004_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00004_nrcalong_rate.fits.header.bin",
+      "sha256": "8ba1e0a670f7ca31a166a8990eaf98e31a0cd5f8135b9f2ee76b758f059c8711",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549005001_02101_00004_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549005001_02101_00004_nrcalong_x1d.fits",
+      "x1d_sha256": "c1b542f2f5bf3bb5ffadb5618cfe3801b24dd5c75ad485e8f9d3dd7f426f0393",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00005_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00005_nrcalong_rate.fits.header.bin",
+      "sha256": "87e02be89829953b08919aaf7dc543530a72ff2fd5fb5bbe4fe8dab460d1ffe5",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549005001_02101_00005_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549005001_02101_00005_nrcalong_x1d.fits",
+      "x1d_sha256": "1f09475b1b07d641046823713f1927f8b90b3064324158039711e312438419fd",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549005001_02101_00006_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549005001_02101_00006_nrcalong_rate.fits.header.bin",
+      "sha256": "364058bf2fdee30237b7e08153e308ef59bfe355b977d07fac8ae21ec98e5fa2",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549005001_02101_00006_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549005001_02101_00006_nrcalong_x1d.fits",
+      "x1d_sha256": "3461ec4fab5775a1a33fb778c9185f7e06730687c5ae5b8709db86702e0dcddb",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00001_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00001_nrcalong_rate.fits.header.bin",
+      "sha256": "9be9a7edfe4f35e79030831243d4d6cfcdcb24e264da8be17e0f6ecead10f9f6",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549006001_02101_00001_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549006001_02101_00001_nrcalong_x1d.fits",
+      "x1d_sha256": "881c9d1f6328df173b489e24dd406b06a6239ba1a8d33489ac04d7411797e519",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00002_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00002_nrcalong_rate.fits.header.bin",
+      "sha256": "8d3a5099b4ce3904d97f2aebc3ea1eeaa8e25e576381047f2fc898c976bab1a9",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549006001_02101_00002_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549006001_02101_00002_nrcalong_x1d.fits",
+      "x1d_sha256": "e4bc19c28fe8396255ce7046137d22eaf5f5bdd459717617b6c8a0e756019069",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00003_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00003_nrcalong_rate.fits.header.bin",
+      "sha256": "fc13a3bccc59a367a36b4edc718f0f99fd37187c4bb96e0d1628f5776229a7aa",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549006001_02101_00003_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549006001_02101_00003_nrcalong_x1d.fits",
+      "x1d_sha256": "ed148b6ee2ddc3b111f0d8ed979c46a2e48c207cefe444e2b0a5351c9d736a89",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00004_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00004_nrcalong_rate.fits.header.bin",
+      "sha256": "0c4dab4731fcc6bd007f2cbd6c87634215c64f556714fa823dfb5d587a49e64f",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549006001_02101_00004_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549006001_02101_00004_nrcalong_x1d.fits",
+      "x1d_sha256": "f2a33792d3b53cf164fa8be63268381de3f69e097b297e47c23f04aadc7a0b13",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00005_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00005_nrcalong_rate.fits.header.bin",
+      "sha256": "821e658731611d0185b41f1677c05f55a67ea343c98a6253f725ff52e2e601ff",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549006001_02101_00005_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549006001_02101_00005_nrcalong_x1d.fits",
+      "x1d_sha256": "cae1d6afe67c8bcf3da19050fb149fa8a795e34d8dc6ac69cfee280a425fe71a",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00006_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00006_nrcalong_rate.fits.header.bin",
+      "sha256": "c6be3b147abbdd5e936df8c0d6a13e78e3f09bc67f9ae704bf17d30b37a65705",
+      "bytes": 57600,
+      "byte_range": "bytes=0-57599",
+      "rate_filename": "jw04549006001_02101_00006_nrcalong_rate.fits",
+      "x1d_path": "data/raw/cross_detector/jw04549006001_02101_00006_nrcalong_x1d.fits",
+      "x1d_sha256": "8682e39c22b0bce06eeaf864ed7a8fe89fc7b3ac1272f96fc5e26eb28c34014f",
+      "references": {
+        "R_SPCWCS": "jwst_nircam_specwcs_0236.asdf",
+        "R_DISTOR": "jwst_nircam_distortion_0260.asdf",
+        "R_FILOFF": "jwst_nircam_filteroffset_0007.asdf",
+        "R_WAVRAN": "jwst_nircam_wavelengthrange_0007.asdf"
+      }
+    }
+  ],
+  "direct_images": [
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549-o005_t005_nircam_clear-f356w_i2d.fits",
+      "path": "data/raw/cross_detector/jw04549-o005_t005_nircam_clear-f356w_i2d.fits",
+      "sha256": "8b065de98c8ea23a6f2b070804b1e865120cd7007089d6cf9d8b358b13645d47",
+      "bytes": 333132480
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549-o006_t006_nircam_clear-f356w_i2d.fits",
+      "path": "data/raw/cross_detector/jw04549-o006_t006_nircam_clear-f356w_i2d.fits",
+      "sha256": "b7590949edf038abdad2b20d3d5380a67d5492155ef94aa7c5eb9ca6a2c20f05",
+      "bytes": 333132480
+    }
+  ],
+  "audit_sha256": "0181fba60d484bbdd4125004f112fbf3672c4124898d84edb992b8bf42014618",
+  "storage_cap_mib": 11500,
+  "script_sha256": "65e925d41c1f12d4f1cc5d39dcbcac81ec591f2fe517f67f05e7bbb700eb1a0e"
+}

@@ -1,0 +1,92 @@
+{
+  "executed_utc": "2026-11-22T18:59:57.647154+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "geometry_sha256": "a842c5560fe935006fc866c95e0f2f3cde4e41d4219e4fb3fb1a2f6b46065366",
+  "script_sha256": "4f8e3ee64ec1388cf39948cadf317c3fe4d5289463e4b8c28cc67014a013ed5b",
+  "native_rate_frames": [
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00001_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00001_nrcalong_rate.fits",
+      "sha256": "c9b587153e265fa8357508e33c140a2973c725087aacf9720ba37f88895f5839",
+      "bytes": 83969280,
+      "filename": "jw04549006001_02101_00001_nrcalong_rate.fits",
+      "references": {
+        "R_FLAT": "jwst_nircam_flat_0762.fits",
+        "R_PHOTOM": "jwst_nircam_photom_0165.fits"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00002_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00002_nrcalong_rate.fits",
+      "sha256": "a462129e52f6dc49e2291705afeff928e67a7293db16a1310f8a17a42e04e62a",
+      "bytes": 83969280,
+      "filename": "jw04549006001_02101_00002_nrcalong_rate.fits",
+      "references": {
+        "R_FLAT": "jwst_nircam_flat_0762.fits",
+        "R_PHOTOM": "jwst_nircam_photom_0165.fits"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00003_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00003_nrcalong_rate.fits",
+      "sha256": "af7806dccc13c3771ce3e010efe1c71e00fdf898143f268636915456575629ec",
+      "bytes": 83969280,
+      "filename": "jw04549006001_02101_00003_nrcalong_rate.fits",
+      "references": {
+        "R_FLAT": "jwst_nircam_flat_0762.fits",
+        "R_PHOTOM": "jwst_nircam_photom_0165.fits"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00004_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00004_nrcalong_rate.fits",
+      "sha256": "ad326e2dc2d136cb829c844bf12282ac5c117f0b190d3be7f697d00ea29695a4",
+      "bytes": 83969280,
+      "filename": "jw04549006001_02101_00004_nrcalong_rate.fits",
+      "references": {
+        "R_FLAT": "jwst_nircam_flat_0762.fits",
+        "R_PHOTOM": "jwst_nircam_photom_0165.fits"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00005_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00005_nrcalong_rate.fits",
+      "sha256": "46d05e60b7e5693be4239c79a574aab23ab848b0dd75be0e5f8fee6b3af5512b",
+      "bytes": 83969280,
+      "filename": "jw04549006001_02101_00005_nrcalong_rate.fits",
+      "references": {
+        "R_FLAT": "jwst_nircam_flat_0762.fits",
+        "R_PHOTOM": "jwst_nircam_photom_0165.fits"
+      }
+    },
+    {
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549006001_02101_00006_nrcalong_rate.fits",
+      "path": "data/raw/cross_detector/jw04549006001_02101_00006_nrcalong_rate.fits",
+      "sha256": "57109f777a40793ef30b4674bb2fe7f0b6badde173312933da241d35550d26e5",
+      "bytes": 83969280,
+      "filename": "jw04549006001_02101_00006_nrcalong_rate.fits",
+      "references": {
+        "R_FLAT": "jwst_nircam_flat_0762.fits",
+        "R_PHOTOM": "jwst_nircam_photom_0165.fits"
+      }
+    }
+  ],
+  "calibrations": {
+    "jwst_nircam_flat_0762.fits": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_flat_0762.fits",
+      "path": "data/raw/cross_detector/jwst_nircam_flat_0762.fits",
+      "sha256": "e040490397b98b1558c0c1d48f30ff8d3258d8d6bf972e2c76aa2ddab5687e62",
+      "bytes": 50356800
+    },
+    "jwst_nircam_photom_0165.fits": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_photom_0165.fits",
+      "path": "data/raw/cross_detector/jwst_nircam_photom_0165.fits",
+      "sha256": "aa1e9903f52d7126551fdb57ba7ff8e9d7ece89294775f7e54c537587968a6aa",
+      "bytes": 1736640
+    }
+  }
+}

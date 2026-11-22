@@ -7,15 +7,20 @@ research programme in progress, not a completed physical classification.**
 ## Fading transient in JWST GOODS-S · 22 November 2026
 
 A blind search recovered a fading infrared transient at **RA 53.162036°,
-Dec −27.746384°**. It appears in four filters and was already bright on
+Dec −27.746384°**. It appears in six filters and was already bright on
 30 September 2025 in a separate JWST programme. F200W fell from 415 nJy
 in October 2025 to 49 nJy in October 2026, with intermediate measurements tracing the decline on
 other detectors. The public Transient Name Server returned zero entries
-within 5″. The event's classification and discovery priority remain open.
+within 5″. A nearby galaxy overlaps the transient's predicted slitless trace
+and accounts for a prominent hydrogen feature. The event's classification
+and discovery priority remain open.
 [Analysis and archive receipts](reports/jwst_cross_detector.md) ·
-[Slitless spectra and possible host](reports/jwst_cross_detector.md#slitless-spectra-and-optical-redshift-context)
+[Slitless spectrum overlap](reports/jwst_cross_detector.md#what-the-grism-frames-can-measure) ·
+[Six-filter photometry and JWST images](figures/jwst_cross_detector/field_b_transient_colours.png)
 
 <img src="figures/jwst_cross_detector/field_b_transient_epochs.png" width="810" alt="JWST light curve and eight observed F200W cutouts showing the transient brighten and fade between 2022 and 2026.">
+
+<img src="figures/jwst_cross_detector/field_b_transient_colours.png" width="810" alt="Six-filter JWST light curve and four observed F115W and F277W images of the transient in 2025 and 2026.">
 
 ## Earlier JWST GOODS-S discovery search · 22 November 2026
 

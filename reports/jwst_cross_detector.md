@@ -143,8 +143,8 @@ F356W/GRISMR pointings. We inspected all 11 archived module-A
 extractions selected by the exposure footprints, along with the two
 direct-image catalogues used by the pipeline. No source position falls
 within 0.25″ of the transient. The closest extracted positions are
-0.897″ and 0.932″ away in the two pointings. A forced extraction and an
-upper limit on the transient spectrum remain outstanding.
+0.897″ and 0.932″ away in the two pointings. The detector-level
+follow-up below checks coverage and overlapping spectra.
 [JWST programme 4549](https://www.stsci.edu/jwst-program-info/program/?program=4549),
 [MAST product and cross-match receipts](../results/jwst_cross_detector/field_b_transient_wfss.json).
 
@@ -162,3 +162,72 @@ The estimate has no extinction or aperture correction.
 [ACES redshift catalogue](https://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=J%2FMNRAS%2F425%2F2116%2Ftable2).
 
 ![Observed F150W images of the bright and faded transient with two nearby optical redshift positions marked](../figures/jwst_cross_detector/field_b_transient_environment.png)
+
+### What the grism frames can measure
+
+The calibrated first-order trace reaches only the red edge of the nominal
+3.14–3.98 µm band in five exposures and covers essentially the whole band
+in six. The reconstructed detector positions and wavelengths agree with
+the archived extractions. The two GO 4549 F356W direct images measure
+269.8 ± 12.0 and 268.5 ± 9.3 nJy in the transient's 0.24″ aperture,
+compared with 48.7 ± 4.4 nJy in October 2026.
+[Coverage and observed F356W images](../figures/jwst_cross_detector/field_b_transient_grism_geometry.png) ·
+[CRDS and MAST receipts](../results/jwst_cross_detector/field_b_transient_grism_products.json) ·
+[Coverage measurements](../results/jwst_cross_detector/field_b_transient_grism_geometry.json).
+
+All six full-coverage exposures contain the first-order trace of F356W
+catalogue source **1178**, 2.61″ from the transient on the sky. Between
+3.18 and 3.94 µm on the transient's wavelength scale, the two predicted
+traces stay within **0.053 cross-dispersion pixel** in every exposure.
+The galaxy's catalogue F356W flux is **25.71 µJy**, about 96 times the
+flux in the transient aperture. This is a brightness comparison using
+two aperture definitions. A flat-corrected extraction with linear
+sideband subtraction finds a strong blended ridge. The quadratic
+sideband fit has insufficient usable pixels to report transient-trace
+bins under the extraction's sampling criteria.
+[Trace overlap measurements](../results/jwst_cross_detector/field_b_transient_grism_overlap.json) ·
+[Detector diagnostic](../figures/jwst_cross_detector/field_b_transient_forced_grism.png) ·
+[Native exposure receipts](../results/jwst_cross_detector/field_b_transient_grism_rates.json).
+
+![Observed F356W field and the six bright-galaxy traces relative to the predicted transient trace](../figures/jwst_cross_detector/field_b_transient_grism_overlap.png)
+
+The independent GO 1207 NIRSpec extraction of this galaxy (DJA source
+217321, 0.019″ from catalogue source 1178) has a catalogue redshift of
+0.73374 and a peak at 3.2528 µm, consistent with hydrogen Paschen α.
+The archived NIRCam extractions of source 1178 peak at 3.2494–3.2549 µm
+in the predicted line window. Its projected detector column corresponds
+to 3.2924–3.2925 µm on the transient wavelength scale. The four forced
+extractions meeting the local sample-count criteria show peaks at
+3.2882–3.2928 µm. This agreement identifies bright-galaxy line
+contamination in the blend. The data leave the transient's spectrum,
+redshift and line-flux limits unresolved.
+[Line measurements and provenance](../results/jwst_cross_detector/field_b_transient_grism_contaminant.json) ·
+[DAWN JWST Archive spectroscopy](https://dawn-cph.github.io/dja/spectroscopy/nirspec/) ·
+[Paschen wavelength reference](https://arxiv.org/abs/2609.10097).
+
+### Six-filter photometry
+
+The 6 October 2025 GO 8060 observations record a positive excess in six
+filters. Each measurement subtracts the October 2026 flux in the same
+0.24″ aperture and filter. Reported uncertainties combine local
+aperture noise in both epochs. Aperture corrections and calibration
+systematics are outside this calculation.
+
+| Filter | 6 October 2025 excess (nJy) |
+| --- | ---: |
+| F115W | 382.8 ± 7.8 |
+| F150W | 380.3 ± 6.6 |
+| F200W | 365.2 ± 5.7 |
+| F277W | 204.9 ± 6.1 |
+| F356W | 223.5 ± 5.8 |
+| F444W | 145.4 ± 6.2 |
+
+The source faded through November and December in all four filters with
+measurements at both visits. The F150W–F356W excess colour was −0.58 ± 0.03
+AB mag in October, −0.61 ± 0.12 in November and −0.76 ± 0.30 in December.
+These measurements are consistent with a constant colour. The template
+noise is shared across epochs and the photometry alone leaves the event
+type unresolved.
+[Signed fluxes and archive receipts](../results/jwst_cross_detector/field_b_transient_colours.json).
+
+![Observed F115W and F277W images of the transient and its six-filter photometry](../figures/jwst_cross_detector/field_b_transient_colours.png)

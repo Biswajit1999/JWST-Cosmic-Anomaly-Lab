@@ -10,6 +10,13 @@ commands:
   - python scripts/vet_jwst_field_b_candidate.py
   - python scripts/measure_jwst_transient_early.py
   - python scripts/audit_jwst_transient_wfss.py
+  - python scripts/download_jwst_transient_grism_geometry.py
+  - python scripts/measure_jwst_transient_grism_geometry.py
+  - python scripts/download_jwst_transient_grism_rates.py
+  - python scripts/extract_jwst_transient_grism.py
+  - python scripts/audit_jwst_transient_grism_overlap.py
+  - python scripts/check_jwst_transient_grism_contaminant.py
+  - python scripts/measure_jwst_transient_colours.py
 observations:
   search_visits: [jw08060002001, jw12577002001]
   search_filters: [F200W, F356W, F444W]
@@ -20,7 +27,8 @@ limitations:
   - Cross-detector coincidences can arise from shared astrometric or morphological effects.
   - Catalogue and archival follow-up checks are needed for novelty decisions.
   - Host identification, redshift and event type are unresolved.
-  - The slitless audit compares archive source positions. A forced extraction remains unperformed.
+  - The forced slitless extraction blends with a bright galaxy in all full-coverage exposures.
+  - Signed aperture excesses share an October 2026 baseline and omit systematic uncertainties.
 outputs:
   - reports/jwst_cross_detector.md
   - results/jwst_cross_detector/

@@ -1,0 +1,168 @@
+{
+  "executed_utc": "2026-11-22T19:11:55.014906+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "catalogued_source": {
+    "catalogue_label": 1178,
+    "icrs": [
+      53.16162934467393,
+      -27.74701362864745
+    ],
+    "direct_flux_microjy": 25.709901043393977,
+    "source_separation_arcsec": 2.6108371070349037,
+    "order": 1,
+    "diagnostic_grid_overlap": 1.0,
+    "median_crossdisp_offset_pix": 0.010892235106666703,
+    "max_abs_crossdisp_offset_pix": 0.01474192171986033
+  },
+  "pa_alpha_rest_vacuum_um": 1.87561,
+  "predicted_contaminant_pa_alpha_um": 3.251823082376,
+  "line_half_width_um": 0.008,
+  "sideband_offsets_um": [
+    0.013,
+    0.028
+  ],
+  "nirspec": {
+    "query": {
+      "url": "https://grizli-cutout.herokuapp.com/nirspec_extractions?coords=53.161629345%2C-27.747013629&size=0.6&output=csv",
+      "path": "data/raw/cross_detector/transient_grism_contaminant_nirspec.csv",
+      "sha256": "6f2b7028f7d57d719bb0d3ada12aa734a7ede128aa6fd59a638221150e823a8b"
+    },
+    "product": {
+      "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/gds-rieke-v4/gds-rieke-v4_g235m-f170lp_1207_217321.spec.fits",
+      "path": "data/raw/cross_detector/gds-rieke-v4_g235m-f170lp_1207_217321.spec.fits",
+      "sha256": "b39636ab8c56e980550127c93558dacd91512b33bb36b9111dea089861e5507d"
+    },
+    "catalogue_entry": {
+      "root": "gds-rieke-v4",
+      "file": "gds-rieke-v4_g235m-f170lp_1207_217321.spec.fits",
+      "ra": "53.161624",
+      "dec": "-27.747015999999974",
+      "srcid": "217321",
+      "msamet": "jw01207002001_01_msa.fits",
+      "slitid": "55",
+      "grating": "G235M_F170LP",
+      "exptime": "7002.666",
+      "wmin": "1.7496",
+      "wmax": "3.8998857",
+      "sn50": "54.129704",
+      "flux50": "34.825832",
+      "ctime": "1737892611.715504",
+      "version": "0.9.5.dev2+g80b81b4",
+      "z": "0.7337416",
+      "grade": "3",
+      "comment": "Redshift matches gds-rieke-v3_g235m-f170lp_1207_217321 z=0.7337"
+    },
+    "separation_arcsec": 0.019048442940405853,
+    "feature_flux_unit": "microJy",
+    "line_samples": 15,
+    "sideband_samples": 30,
+    "peak_um": 3.2527809523809257,
+    "peak_above_sideband": 38.63700732858741
+  },
+  "grism": [
+    {
+      "filename": "jw04549006001_02101_00001_nrcalong_rate.fits",
+      "archived_x1d_feature_microjy": {
+        "line_samples": 17,
+        "sideband_samples": 31,
+        "peak_um": 3.2517077922821045,
+        "peak_above_sideband": 26.528154289739568
+      },
+      "projected_line_on_transient_wavelength_um": 3.292484116329157,
+      "forced_blend_feature_mdn_per_s": {
+        "line_samples": 13,
+        "sideband_samples": 15,
+        "peak_um": 3.291399711469925,
+        "peak_above_sideband": 325.83123425809464
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00002_nrcalong_rate.fits",
+      "archived_x1d_feature_microjy": {
+        "line_samples": 17,
+        "sideband_samples": 31,
+        "peak_um": 3.2549288272857666,
+        "peak_above_sideband": 17.918317977075063
+      },
+      "projected_line_on_transient_wavelength_um": 3.292521606773258,
+      "forced_blend_feature_mdn_per_s": {
+        "line_samples": 0,
+        "sideband_samples": 0,
+        "peak_um": null,
+        "peak_above_sideband": null
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00003_nrcalong_rate.fits",
+      "archived_x1d_feature_microjy": {
+        "line_samples": 17,
+        "sideband_samples": 31,
+        "peak_um": 3.251591920852661,
+        "peak_above_sideband": 27.453384646576993
+      },
+      "projected_line_on_transient_wavelength_um": 3.2925005825227207,
+      "forced_blend_feature_mdn_per_s": {
+        "line_samples": 3,
+        "sideband_samples": 5,
+        "peak_um": 3.290329156770509,
+        "peak_above_sideband": 315.7822775806542
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00004_nrcalong_rate.fits",
+      "archived_x1d_feature_microjy": {
+        "line_samples": 16,
+        "sideband_samples": 32,
+        "peak_um": 3.2494194507598877,
+        "peak_above_sideband": 24.074336829409972
+      },
+      "projected_line_on_transient_wavelength_um": 3.2924636825368134,
+      "forced_blend_feature_mdn_per_s": {
+        "line_samples": 0,
+        "sideband_samples": 0,
+        "peak_um": null,
+        "peak_above_sideband": null
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00005_nrcalong_rate.fits",
+      "archived_x1d_feature_microjy": {
+        "line_samples": 16,
+        "sideband_samples": 31,
+        "peak_um": 3.253119945526123,
+        "peak_above_sideband": 21.943958798060265
+      },
+      "projected_line_on_transient_wavelength_um": 3.2924238658282667,
+      "forced_blend_feature_mdn_per_s": {
+        "line_samples": 9,
+        "sideband_samples": 9,
+        "peak_um": 3.2927509155264794,
+        "peak_above_sideband": 366.16074622736886
+      }
+    },
+    {
+      "filename": "jw04549006001_02101_00006_nrcalong_rate.fits",
+      "archived_x1d_feature_microjy": {
+        "line_samples": 16,
+        "sideband_samples": 31,
+        "peak_um": 3.253371477127075,
+        "peak_above_sideband": 23.213262469880974
+      },
+      "projected_line_on_transient_wavelength_um": 3.2924434712831436,
+      "forced_blend_feature_mdn_per_s": {
+        "line_samples": 4,
+        "sideband_samples": 10,
+        "peak_um": 3.2881783495276786,
+        "peak_above_sideband": 211.3604819979996
+      }
+    }
+  ],
+  "scope": "Peak samples relative to fixed sidebands, without line fitting or transient deblending",
+  "input_sha256": {
+    "rates": "953ceeb28feeb777bae09709174d72170c8e213b86c7071f8543421b8e8f7694",
+    "headers": "c5d47c3f317e733d92de63adaa1d17bebf82149e1cc77db8bdbd76e224d9d328",
+    "positions": "0181fba60d484bbdd4125004f112fbf3672c4124898d84edb992b8bf42014618",
+    "overlap": "e8a03bc8bd97381b166baadc32e908d77d191f9535bbcae9f92149bc6aa3c0ca"
+  },
+  "script_sha256": "eaa0b54fe1befc71c5d097df030a11b3288427f9a9cc36089c8f781402f4bc40"
+}
