@@ -17,6 +17,7 @@ commands:
   - python scripts/audit_jwst_transient_grism_overlap.py
   - python scripts/check_jwst_transient_grism_contaminant.py
   - python scripts/measure_jwst_transient_colours.py
+  - python scripts/audit_jwst_transient_environment.py
 observations:
   search_visits: [jw08060002001, jw12577002001]
   search_filters: [F200W, F356W, F444W]
@@ -29,6 +30,7 @@ limitations:
   - Host identification, redshift and event type are unresolved.
   - The forced slitless extraction blends with a bright galaxy in all full-coverage exposures.
   - Signed aperture excesses share an October 2026 baseline and omit systematic uncertainties.
+  - The public Chandra coverage found by the footprint query ends before the bright epoch.
 outputs:
   - reports/jwst_cross_detector.md
   - results/jwst_cross_detector/

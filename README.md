@@ -16,7 +16,8 @@ and accounts for a prominent hydrogen feature. The event's classification
 and discovery priority remain open.
 [Analysis and archive receipts](reports/jwst_cross_detector.md) ·
 [Slitless spectrum overlap](reports/jwst_cross_detector.md#what-the-grism-frames-can-measure) ·
-[Six-filter photometry and JWST images](figures/jwst_cross_detector/field_b_transient_colours.png)
+[Six-filter photometry and JWST images](figures/jwst_cross_detector/field_b_transient_colours.png) ·
+[Hubble, Chandra and VLA comparison](reports/jwst_cross_detector.md#archival-x-ray-radio-and-optical-environment)
 
 <img src="figures/jwst_cross_detector/field_b_transient_epochs.png" width="810" alt="JWST light curve and eight observed F200W cutouts showing the transient brighten and fade between 2022 and 2026.">
 

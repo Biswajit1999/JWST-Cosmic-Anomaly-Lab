@@ -1,0 +1,471 @@
+{
+  "executed_utc": "2026-11-22T20:02:02.801595+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "products": {
+    "chandra_bundle": {
+      "url": "https://zenodo.org/records/8021940/files/luo2017-cdfs-data-products03.tar.gz?download=1",
+      "path": "data/raw/cross_detector/luo2017-cdfs-data-products03.tar.gz",
+      "sha256": "b9dfec4162a952d1ab0730e6163f9c74a23bf4aac85cdc703abcee356268d478",
+      "checksum": "md5:1d40972eded449f6f921482ffe82f4c9"
+    },
+    "chandra_footprints": {
+      "url": "https://cda.cfa.harvard.edu/fps-dbdal-rest/jax-rs/main/footprints?POS=53.1620359953%2C-27.7463839937&SIZE=0.0&inst=ACIS-I%2CACIS-S",
+      "path": "data/raw/cross_detector/transient_chandra_footprints.xml",
+      "sha256": "0446439cfb13d6839a052fad5fef91b3e13426c90ed680cf1582ab119df1bb88",
+      "bytes": 434490
+    },
+    "radio_query": {
+      "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+%2A+FROM+vlaecdfs1p4+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C53.1620359953%2C-27.7463839937%2C0.00555556%29%29&MAXREC=200",
+      "path": "data/raw/cross_detector/transient_vla_1p4.xml",
+      "sha256": "30e944103c528ce1fc4495241a74642b79126c26c18e68527c73410e2aeeb8b1",
+      "bytes": 7260
+    },
+    "optical_cutout": {
+      "url": "https://grizli-cutout.herokuapp.com/thumb?ra=53.1620359953&dec=-27.7463839937&size=14&all_filters=False&filters=f606w%2Cf814w&output=fits_weight",
+      "path": "data/raw/cross_detector/transient_hst_optical.fits",
+      "sha256": "9c4167199c82d5e7f2fb34b17dbd9f1a2bf407acb5e2b9118a67de1c7542de3c"
+    },
+    "muse_maps": [
+      {
+        "url": "https://musewide.aip.de/files/dr1/musewide_field_mapping.fits",
+        "path": "data/raw/cross_detector/musewide_field_mapping.fits",
+        "sha256": "75fd8a0e3032334a6e8791c9a36d11758c7edc13b86b460c82f25eeed729f68b",
+        "bytes": 30415680
+      },
+      {
+        "url": "https://musewide.aip.de/files/dr1/expmap_dr1_seconds.fits",
+        "path": "data/raw/cross_detector/expmap_dr1_seconds.fits",
+        "sha256": "131aa22c4c1b42bc20002ab014f3d58e29f00db84b7c1157d1b46d7413615c03",
+        "bytes": 30415680
+      }
+    ]
+  },
+  "chandra_catalogue_rows": {
+    "main": 1008,
+    "supplementary": 47
+  },
+  "nearest_xray_sources": [
+    {
+      "table": "tbl04.fits",
+      "id": 726,
+      "icrs": [
+        53.161609,
+        -27.746876
+      ],
+      "separation_from_transient_arcsec": 2.2333831298659845,
+      "separation_from_grism_galaxy_arcsec": 0.49968512332815573,
+      "positional_error_radius_68_arcsec": 0.4744551181793213,
+      "counterpart_catalogue": "CANDELS",
+      "counterpart_icrs": [
+        53.161601939,
+        -27.746910662
+      ],
+      "counterpart_separation_from_grism_galaxy_arcsec": 0.38082494844180304,
+      "redshift": 0.7350000143051147,
+      "published_type": "Galaxy",
+      "soft_flux_signed_erg_per_cm2_s": 3.461190436574204e-17
+    },
+    {
+      "table": "tbl04.fits",
+      "id": 733,
+      "icrs": [
+        53.162703,
+        -27.744261
+      ],
+      "separation_from_transient_arcsec": 7.932733314514598,
+      "separation_from_grism_galaxy_arcsec": 10.48327358467539,
+      "positional_error_radius_68_arcsec": 0.17655831575393677,
+      "counterpart_catalogue": "CANDELS",
+      "counterpart_icrs": [
+        53.162708939,
+        -27.744254662
+      ],
+      "counterpart_separation_from_grism_galaxy_arcsec": 10.511021117683223,
+      "redshift": 2.403700113296509,
+      "published_type": "AGN",
+      "soft_flux_signed_erg_per_cm2_s": 6.050504818775232e-16
+    },
+    {
+      "table": "tbl04.fits",
+      "id": 750,
+      "icrs": [
+        53.166825,
+        -27.738697
+      ],
+      "separation_from_transient_arcsec": 31.601101825056627,
+      "separation_from_grism_galaxy_arcsec": 34.211655252175944,
+      "positional_error_radius_68_arcsec": 0.580033004283905,
+      "counterpart_catalogue": "CANDELS",
+      "counterpart_icrs": [
+        53.166823939,
+        -27.738500662
+      ],
+      "counterpart_separation_from_grism_galaxy_arcsec": 34.830296050661616,
+      "redshift": 0.5220000147819519,
+      "published_type": "Galaxy",
+      "soft_flux_signed_erg_per_cm2_s": 2.7516780943776225e-17
+    },
+    {
+      "table": "tbl05.fits",
+      "id": 32,
+      "icrs": [
+        53.14066,
+        -27.738163
+      ],
+      "separation_from_transient_arcsec": 74.26015565717395,
+      "separation_from_grism_galaxy_arcsec": 74.02053633955234,
+      "positional_error_radius_68_arcsec": 0.6711681485176086,
+      "counterpart_catalogue": "TENIS",
+      "counterpart_icrs": [
+        53.140720367,
+        -27.738197327
+      ],
+      "counterpart_separation_from_grism_galaxy_arcsec": 73.79373005269984,
+      "redshift": 1.2990000247955322,
+      "published_type": "Galaxy",
+      "soft_flux_signed_erg_per_cm2_s": 1.7873931683878702e-17
+    },
+    {
+      "table": "tbl05.fits",
+      "id": 39,
+      "icrs": [
+        53.181554,
+        -27.729262
+      ],
+      "separation_from_transient_arcsec": 87.5616336740596,
+      "separation_from_grism_galaxy_arcsec": 90.08012384816085,
+      "positional_error_radius_68_arcsec": 0.8660373687744141,
+      "counterpart_catalogue": "TENIS",
+      "counterpart_icrs": [
+        53.18138504,
+        -27.729223251
+      ],
+      "counterpart_separation_from_grism_galaxy_arcsec": 89.80095968728374,
+      "redshift": 1.3097000122070312,
+      "published_type": "Galaxy",
+      "soft_flux_signed_erg_per_cm2_s": 1.3464845084909885e-17
+    },
+    {
+      "table": "tbl05.fits",
+      "id": 37,
+      "icrs": [
+        53.169168,
+        -27.719145
+      ],
+      "separation_from_transient_arcsec": 100.65933431697692,
+      "separation_from_grism_galaxy_arcsec": 103.16275729771256,
+      "positional_error_radius_68_arcsec": 0.706953763961792,
+      "counterpart_catalogue": "TENIS",
+      "counterpart_icrs": [
+        53.169326782,
+        -27.718980789
+      ],
+      "counterpart_separation_from_grism_galaxy_arcsec": 103.8560875517105,
+      "redshift": 1.225000023841858,
+      "published_type": "Galaxy",
+      "soft_flux_signed_erg_per_cm2_s": 2.0955313772521253e-17
+    }
+  ],
+  "soft_image_apertures": {
+    "transient": [
+      {
+        "radius_arcsec": 1.0,
+        "pixel_count": 14,
+        "observed_counts": 9,
+        "background_map_counts": 2,
+        "median_effective_exposure_cm2_s": 1460930176.0
+      },
+      {
+        "radius_arcsec": 1.5,
+        "pixel_count": 29,
+        "observed_counts": 15,
+        "background_map_counts": 4,
+        "median_effective_exposure_cm2_s": 1461043712.0
+      }
+    ],
+    "chandra_726": [
+      {
+        "radius_arcsec": 1.0,
+        "pixel_count": 12,
+        "observed_counts": 16,
+        "background_map_counts": 3,
+        "median_effective_exposure_cm2_s": 1463258112.0
+      },
+      {
+        "radius_arcsec": 1.5,
+        "pixel_count": 29,
+        "observed_counts": 32,
+        "background_map_counts": 4,
+        "median_effective_exposure_cm2_s": 1463761792.0
+      }
+    ]
+  },
+  "acis_footprints": {
+    "response_rows": 229,
+    "distinct_observations": 104,
+    "first_obs": [
+      "1999-10-14T20:39:35.0",
+      581,
+      "ACIS-I"
+    ],
+    "last_obs": [
+      "2016-03-24T09:17:58.0",
+      16185,
+      "ACIS-I"
+    ],
+    "since_transient_bright_epoch": 0
+  },
+  "radio_radius_arcsec": 20,
+  "radio_matches": [
+    {
+      "name": "[MBF2013] J033238.8-274449",
+      "icrs": [
+        53.16166667,
+        -27.74708333
+      ],
+      "separation_from_transient_arcsec": 2.7790216923441604,
+      "separation_from_grism_galaxy_arcsec": 0.2776783541752396,
+      "catalogue_snr": 9.2,
+      "integrated_flux": 0.0585,
+      "integrated_flux_error": 0.0109,
+      "flux_unit": "mJy"
+    }
+  ],
+  "hst_apertures": {
+    "F606W": {
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 9.683259010314941,
+          "local_mad_sigma_njy": 1.2161590366780757,
+          "control_median_njy": -0.09470966458320618,
+          "control_count": 349
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 14.225638389587402,
+          "local_mad_sigma_njy": 2.1033234538614747,
+          "control_median_njy": -0.1282322108745575,
+          "control_count": 349
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 18.816970825195312,
+          "local_mad_sigma_njy": 3.210468233004212,
+          "control_median_njy": 0.19326506555080414,
+          "control_count": 349
+        }
+      ],
+      "exposure_members": [
+        "j8e620kgq_flc.fits",
+        "j8e620kkq_flc.fits",
+        "j8e641etq_flc.fits",
+        "j8e641exq_flc.fits",
+        "j8e651yhq_flc.fits",
+        "j8e651ylq_flc.fits",
+        "j8e672s3q_flc.fits",
+        "j8e672scq_flc.fits",
+        "j8e682ecq_flc.fits",
+        "j8e682ehq_flc.fits",
+        "j8m897czq_flc.fits",
+        "j8m897d3q_flc.fits",
+        "j8m897daq_flc.fits",
+        "j8m897dgq_flc.fits",
+        "j8m89fckq_flc.fits",
+        "j8m89fcqq_flc.fits",
+        "j8m89fcxq_flc.fits",
+        "j8m89fd3q_flc.fits",
+        "j8m8adwlq_flc.fits",
+        "j8m8adwvq_flc.fits",
+        "j8m8adx9q_flc.fits",
+        "j8m8adxoq_flc.fits",
+        "j8m8b5z5q_flc.fits",
+        "j8m8b5zaq_flc.fits",
+        "j8m8b5zhq_flc.fits",
+        "j8m8b5znq_flc.fits",
+        "j8m8c4e2q_flc.fits",
+        "j8m8c4e8q_flc.fits",
+        "j8m8c4elq_flc.fits",
+        "j8m8c4erq_flc.fits",
+        "j8m8ccooq_flc.fits",
+        "j8m8ccouq_flc.fits",
+        "j8m8ccp0q_flc.fits",
+        "j8m8ccp6q_flc.fits",
+        "j8qq40vjq_flc.fits",
+        "j8qq43c9q_flc.fits",
+        "j8wc87swq_flc.fits",
+        "j8wc87t7q_flc.fits",
+        "j8wc87tlq_flc.fits",
+        "j8wc87tnq_flc.fits",
+        "j91h04p9q_flc.fits",
+        "j91h04pxq_flc.fits",
+        "j9fa8fs9q_flc.fits",
+        "jb5x37k3q_flc.fits",
+        "jb5x37k5q_flc.fits",
+        "jb5x4gtdq_flc.fits",
+        "jb5x4gtfq_flc.fits",
+        "jb5x4ileq_flc.fits",
+        "jb5x4ilhq_flc.fits",
+        "jb5x4illq_flc.fits",
+        "jb5x4iloq_flc.fits",
+        "jb5x4lc4q_flc.fits",
+        "jb5x4lc6q_flc.fits",
+        "jb5x4lcaq_flc.fits",
+        "jb5x4lcdq_flc.fits",
+        "j94sajd3q_flc.fits",
+        "j94sajd5q_flc.fits",
+        "j9fa8gx2q_flc.fits",
+        "j8m86chcq_flc.fits",
+        "j8m86chfq_flc.fits",
+        "j8m86chlq_flc.fits",
+        "j8m86chqq_flc.fits",
+        "j8m873toq_flc.fits",
+        "j8m873tvq_flc.fits",
+        "j8m873u2q_flc.fits",
+        "j8m873u8q_flc.fits",
+        "j8m879bmq_flc.fits",
+        "j8m879btq_flc.fits",
+        "j8m879byq_flc.fits",
+        "j8m879chq_flc.fits",
+        "j8m880jaq_flc.fits",
+        "j8m880jgq_flc.fits",
+        "j8m880jsq_flc.fits",
+        "j8m880l1q_flc.fits",
+        "j8m88fyzq_flc.fits",
+        "j8m88fz3q_flc.fits",
+        "j8m88fzaq_flc.fits",
+        "j8m88fzgq_flc.fits",
+        "j8m8a5oyq_flc.fits",
+        "j8m8a5pfq_flc.fits",
+        "j8m8a5plq_flc.fits",
+        "j8m8a5puq_flc.fits",
+        "j8m8bcieq_flc.fits",
+        "j8m8bcijq_flc.fits",
+        "j8m8bciqq_flc.fits",
+        "j8m8bciwq_flc.fits",
+        "j8qq30o6q_flc.fits",
+        "j8qq33maq_flc.fits",
+        "j9fa81o1q_flc.fits",
+        "j9fa82nnq_flc.fits"
+      ]
+    },
+    "F814W": {
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 11.431868553161621,
+          "local_mad_sigma_njy": 2.12401105581522,
+          "control_median_njy": -0.03704887628555298,
+          "control_count": 349
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 18.38968276977539,
+          "local_mad_sigma_njy": 3.3167748384475706,
+          "control_median_njy": 0.17619562149047852,
+          "control_count": 349
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 27.582836151123047,
+          "local_mad_sigma_njy": 4.753314176917076,
+          "control_median_njy": 0.659619927406311,
+          "control_count": 349
+        }
+      ],
+      "exposure_members": [
+        "jb5x47kfq_flc.fits",
+        "jb5x47khq_flc.fits",
+        "jb5x48bgq_flc.fits",
+        "jb5x48biq_flc.fits",
+        "jb5x4ckmq_flc.fits",
+        "jb5x4ckoq_flc.fits",
+        "jb5x4fmnq_flc.fits",
+        "jb5x4fmpq_flc.fits",
+        "jb6o11wrq_flc.fits",
+        "jbet3rh2q_flc.fits",
+        "jbet3rh3q_flc.fits",
+        "jbet3rh7q_flc.fits",
+        "jbet3rhaq_flc.fits",
+        "jbet3rhfq_flc.fits",
+        "jbet3rhiq_flc.fits",
+        "jbet3rhlq_flc.fits",
+        "jbet3rhoq_flc.fits",
+        "jbet3rhsq_flc.fits",
+        "jbet3rhuq_flc.fits",
+        "jbet3rhxq_flc.fits",
+        "jbet3rhzq_flc.fits",
+        "jbet3wdrq_flc.fits",
+        "jbet3wduq_flc.fits",
+        "jbet3wdxq_flc.fits",
+        "jbet3we0q_flc.fits",
+        "jbetanvlq_flc.fits",
+        "jbetanvsq_flc.fits",
+        "jbetanwjq_flc.fits",
+        "jbetanwoq_flc.fits",
+        "jbetaqs1q_flc.fits",
+        "jbetaqs5q_flc.fits",
+        "jbetaqsgq_flc.fits",
+        "jbetaqskq_flc.fits",
+        "jbeuhfanq_flc.fits",
+        "jbeuhfaqq_flc.fits",
+        "jbeuhfauq_flc.fits",
+        "jbeuhfayq_flc.fits",
+        "jbeuhfb1q_flc.fits",
+        "jbeui2eyq_flc.fits",
+        "jbeui2f1q_flc.fits",
+        "jbeui2f5q_flc.fits",
+        "jbeui2f9q_flc.fits",
+        "jbeui2fcq_flc.fits",
+        "jbeui7clq_flc.fits",
+        "jbeui7coq_flc.fits",
+        "jbeui7csq_flc.fits",
+        "jbeui7cwq_flc.fits",
+        "jbeui7czq_flc.fits",
+        "jbhj01ipq_flc.fits",
+        "jbhj01iwq_flc.fits",
+        "jbhj01j3q_flc.fits",
+        "jbhj01jaq_flc.fits",
+        "jbhj06p8q_flc.fits",
+        "jbhj06pfq_flc.fits",
+        "jbhj06pmq_flc.fits",
+        "jbhj06ptq_flc.fits",
+        "jbhj27b0q_flc.fits",
+        "jbhj27b8q_flc.fits",
+        "jbhj27boq_flc.fits",
+        "jbhj27bvq_flc.fits",
+        "jbhj03xnq_flc.fits",
+        "jbhj03xuq_flc.fits",
+        "jbhj03y1q_flc.fits",
+        "jbhj03y8q_flc.fits",
+        "jbhj04fnq_flc.fits",
+        "jbhj04fuq_flc.fits",
+        "jbhj04gcq_flc.fits",
+        "jbhj04gkq_flc.fits",
+        "jbhj24r8q_flc.fits",
+        "jbhj24rjq_flc.fits",
+        "jbhj24seq_flc.fits",
+        "jbhj24slq_flc.fits"
+      ]
+    }
+  },
+  "muse_wide_dr1_position_samples": {
+    "musewide_field_mapping.fits": 0.0,
+    "expmap_dr1_seconds.fits": 0.0
+  },
+  "jwst_direct_image": {
+    "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw04549-o006_t006_nircam_clear-f356w_i2d.fits",
+    "path": "data/raw/cross_detector/jw04549-o006_t006_nircam_clear-f356w_i2d.fits",
+    "sha256": "b7590949edf038abdad2b20d3d5380a67d5492155ef94aa7c5eb9ca6a2c20f05",
+    "bytes": 333132480
+  },
+  "jwst_direct_dateobs": "2025-10-01T01:47:43.554",
+  "scope": "Native Chandra mosaic apertures without PSF deblending; archival HST mosaics are static context",
+  "overlap_sha256": "e8a03bc8bd97381b166baadc32e908d77d191f9535bbcae9f92149bc6aa3c0ca",
+  "jwst_products_sha256": "c5d47c3f317e733d92de63adaa1d17bebf82149e1cc77db8bdbd76e224d9d328",
+  "script_sha256": "c0ad06b4446060033225f0f69cac4c5253068ea799b45b9fbe11cefad90766ea"
+}

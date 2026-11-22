@@ -231,3 +231,48 @@ type unresolved.
 [Signed fluxes and archive receipts](../results/jwst_cross_detector/field_b_transient_colours.json).
 
 ![Observed F115W and F277W images of the transient and its six-filter photometry](../figures/jwst_cross_detector/field_b_transient_colours.png)
+
+### Archival X-ray, radio and optical environment
+
+The published 7 Ms Chandra main and supplementary catalogues contain
+1,055 sources. The nearest, CDF-S source **726**, is **2.23″** from the
+infrared transient. Its published 68% positional error radius is 0.47″,
+and its CANDELS counterpart is 0.38″ from the galaxy that contaminates
+the slitless spectrum. The Chandra counterpart's catalogue redshift
+of 0.735 is close to that galaxy's independent NIRSpec redshift of
+0.73374. The VLA 1.4 GHz search finds one source within 20″, located
+0.28″ from the contaminating galaxy and 2.78″ from the transient.
+Its catalogue integrated flux density is **58.5 ± 10.9 µJy**. The
+positions and redshifts support associating the archival detections
+with the contaminating galaxy. The CDF-S astrometry uses the TENIS
+reference frame, whose published offsets from Gaia DR1 are a few
+tenths of an arcsecond.
+[7 Ms Chandra catalogue and maps](https://zenodo.org/records/8021940) ·
+[VLA survey catalogue](https://heasarc.gsfc.nasa.gov/W3Browse/all/vlaecdfs1p4.html).
+
+The soft-band image contains nine counts within 1.0″ of the transient,
+with two counts in the published background map for that aperture.
+At source 726 the equivalent aperture contains 16 counts, with three
+in the background map. These are native-pixel sums. The apertures sample
+nearby point-spread function wings, and the calculation provides neither
+a separate X-ray detection nor a deblended flux limit. The Chandra
+footprint service returned 104 distinct ACIS observations from
+October 1999 through March 2016, all before the 2025 brightening.
+The archival data constrain the source environment before the event.
+[Chandra footprint service](https://cxcfps.cfa.harvard.edu/cda/footprint/cdaview.html).
+
+Archival Hubble ACS mosaics measure signed 0.24″ aperture fluxes of
+**18.8 ± 3.2 nJy** in F606W and **27.6 ± 4.8 nJy** in F814W at the JWST
+transient coordinates. The local background subtraction leaves light
+from nearby galaxy structure in the aperture. These fluxes do not
+isolate a persistent point source or determine a progenitor magnitude.
+The VLT MUSE-Wide DR1 field and exposure maps both return zero coverage
+at the transient position.
+[DAWN HST cutouts](https://dawn-cph.github.io/dja/general/api_summary/#image-cutouts) ·
+[MUSE-Wide DR1 maps](https://musewide.aip.de/serve/table/musewide_dr1/fields/) ·
+[Measurements and archive receipts](../results/jwst_cross_detector/field_b_transient_ancillary.json).
+
+![Hubble, JWST and Chandra images showing the transient aperture and the separate galaxy with Chandra and VLA detections](../figures/jwst_cross_detector/field_b_transient_ancillary.png)
+
+The solid circle marks the catalogue's 68% positional error radius for
+Chandra source 726. The VLA marker shows the radio catalogue position.
