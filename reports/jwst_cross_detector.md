@@ -95,8 +95,9 @@ next 3.4 hours measure 446.7 ± 7.7 and 481.6 ± 5.6 nJy. The mosaics span
 two pointings and two short-wave detectors. The aperture measures
 39.3 ± 3.9 nJy in October 2023, 437.3 ± 4.4 nJy on 6 October 2025, and
 57.1 ± 4.8 nJy in October 2026. The source was already bright 5.6 days
-before the visit used to find it. The start of the event remains
-unconstrained between the earlier faint image and this detection.
+before the visit used to find it. The pre-brightening archive check below
+examines coverage between the January 2024 faint F200W image and this
+detection.
 [GO 4549](https://www.stsci.edu/jwst-program-info/program/?program=4549),
 [F150W measurements and archive receipts](../results/jwst_cross_detector/field_b_transient_f150w.json).
 
@@ -276,3 +277,38 @@ at the transient position.
 
 The solid circle marks the catalogue's 68% positional error radius for
 Chandra source 726. The VLA marker shows the radio catalogue position.
+
+### Coverage before brightening and in the transient survey
+
+An exact-position test against the DAWN JWST Archive detector polygons
+found 520 exposure footprints in 88 visit, filter and detector groups.
+Between the faint 1 January 2024 F200W image and the bright 30 September
+2025 F150W image, only the eight nominal detector polygons from the
+18 November 2024 MIRI visit covered the coordinate. Each of the four
+F1000W and four F2100W footprints is an outer detector outline.
+[DJA exposure search](https://dawn-cph.github.io/dja/general/api_summary/#exposure-metadata).
+
+The 2024 GO 5407 mosaics have zero usable pixels within 1″ of the
+transient in both filters. This holds in the DAWN reductions and the
+independently produced MAST stage 3 mosaics. The nearest usable pixels
+are about 12″ away. On 7 December 2022, the SMILES images give a
+0.55″ aperture flux of **+0.02 ± 0.15 µJy** in F1000W and a 0.85″
+aperture flux of **−0.42 ± 0.83 µJy** in F2100W. Uncertainties are
+the scaled median absolute deviations of 55 nearby apertures.
+Neither 2022 flux exceeds the local scatter. The 2024 fluxes and
+inter-epoch differences remain missing, leaving the onset interval open.
+[SMILES programme](https://archive.stsci.edu/hlsp/smiles) ·
+[MEOW programme](https://www.stsci.edu/jwst/science-execution/approved-programs/general-observers/cycle-3-go) ·
+[Coverage and photometry receipts](../results/jwst_cross_detector/field_b_transient_precursor.json).
+
+![Observed 2022 JWST/MIRI cutouts and 2024 coverage masks showing the gap at the transient position in the DAWN and MAST reductions](../figures/jwst_cross_detector/field_b_transient_precursor.png)
+
+The DJA NIRSpec shutter search returned 1,308 rows within a 15″ query
+radius. None of their projected shutter polygons contains the
+transient. In GO 8060, which independently targeted transients in
+GOODS-S, the nearest listed spectroscopy target is 13.51″ away. This
+rules out a direct match in the available GO 8060 shutter listing.
+Discovery priority and an uncontaminated transient spectrum remain
+unverified.
+[DJA shutter search](https://dawn-cph.github.io/dja/general/api_summary/#nirspec-msa-slits) ·
+[GO 8060 programme](https://www.stsci.edu/jwst-program-info/program/?program=8060).

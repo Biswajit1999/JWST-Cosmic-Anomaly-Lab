@@ -1,0 +1,1103 @@
+{
+  "executed_utc": "2026-11-22T20:35:10.244110+00:00",
+  "candidate": "GS-B-53.162036-27.746384",
+  "position_degrees": [
+    53.162035995306766,
+    -27.74638399367973
+  ],
+  "coverage": {
+    "exposures": {
+      "url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.162035995306766&dec=-27.74638399367973&arcmin=0.008&output=csv",
+      "path": "data/raw/cross_detector/transient_precursor_exposures.csv",
+      "sha256": "c54e4d2087cebe9a34a9349bf42cae4b684e8962a5dda91c0400b448e35fa998"
+    },
+    "nirspec_shutters": {
+      "url": "https://grizli-cutout.herokuapp.com/nirspec_slits?coords=53.162035995306766%2C-27.74638399367973&size=15",
+      "path": "data/raw/cross_detector/transient_precursor_msa.csv",
+      "sha256": "e01c8b099bd4d896b83e9b7863b95bf1902d704142e644bccd3c9d777b219aa4"
+    },
+    "matching_exposure_groups": [
+      {
+        "visit": "jw01180018001",
+        "band": "F335M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-02T06:57:36.000",
+        "last_exposure_utc": "2022-10-02T10:13:26.400",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180018001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-02T10:40:48.000",
+        "last_exposure_utc": "2022-10-02T13:58:04.800",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180018001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-02T14:24:00.000",
+        "last_exposure_utc": "2022-10-02T17:36:57.600",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180018001",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-02T18:05:45.600",
+        "last_exposure_utc": "2022-10-02T21:21:36.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180018001",
+        "band": "F410M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-02T21:50:24.000",
+        "last_exposure_utc": "2022-10-03T01:07:40.800",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F090W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2022-10-04T08:24:00.000",
+        "last_exposure_utc": "2022-10-04T11:45:36.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F335M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-04T08:24:00.000",
+        "last_exposure_utc": "2022-10-04T11:45:36.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F115W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2022-10-04T12:11:31.200",
+        "last_exposure_utc": "2022-10-04T19:12:00.000",
+        "native_exposure_count": 18,
+        "total_exposure_seconds": 24737.526
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-04T12:11:31.200",
+        "last_exposure_utc": "2022-10-04T15:28:48.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-04T15:56:09.600",
+        "last_exposure_utc": "2022-10-04T19:12:00.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2022-10-04T19:40:48.000",
+        "last_exposure_utc": "2022-10-04T22:58:04.800",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-04T19:40:48.000",
+        "last_exposure_utc": "2022-10-04T22:58:04.800",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2022-10-04T23:26:52.800",
+        "last_exposure_utc": "2022-10-05T02:38:24.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180015001",
+        "band": "F410M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-04T23:26:52.800",
+        "last_exposure_utc": "2022-10-05T02:38:24.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180017001",
+        "band": "F410M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-05T03:17:16.800",
+        "last_exposure_utc": "2022-10-05T09:36:00.000",
+        "native_exposure_count": 8,
+        "total_exposure_seconds": 10994.456
+      },
+      {
+        "visit": "jw01180017001",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-05T04:58:04.800",
+        "last_exposure_utc": "2022-10-05T11:16:48.000",
+        "native_exposure_count": 8,
+        "total_exposure_seconds": 10994.456
+      },
+      {
+        "visit": "jw01180017001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-10-05T06:38:52.800",
+        "last_exposure_utc": "2022-10-05T12:57:36.000",
+        "native_exposure_count": 8,
+        "total_exposure_seconds": 10994.456
+      },
+      {
+        "visit": "jw01895001002",
+        "band": "F444W-GRISMR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-11-13T08:09:36.000",
+        "last_exposure_utc": "2022-11-13T10:04:48.000",
+        "native_exposure_count": 8,
+        "total_exposure_seconds": 7043.32
+      },
+      {
+        "visit": "jw01895001002",
+        "band": "F210M-CLEAR",
+        "detector": "NRCA4",
+        "first_exposure_utc": "2022-11-13T08:09:36.000",
+        "last_exposure_utc": "2022-11-13T09:00:00.000",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 3521.66
+      },
+      {
+        "visit": "jw01895001002",
+        "band": "F182M-CLEAR",
+        "detector": "NRCA4",
+        "first_exposure_utc": "2022-11-13T09:17:16.800",
+        "last_exposure_utc": "2022-11-13T10:40:48.000",
+        "native_exposure_count": 7,
+        "total_exposure_seconds": 4455.758
+      },
+      {
+        "visit": "jw01895001002",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2022-11-13T10:24:57.600",
+        "last_exposure_utc": "2022-11-13T10:40:48.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 934.098
+      },
+      {
+        "visit": "jw01895001001",
+        "band": "F182M-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2022-11-18T03:17:16.800",
+        "last_exposure_utc": "2022-11-18T03:17:16.800",
+        "native_exposure_count": 1,
+        "total_exposure_seconds": 311.366
+      },
+      {
+        "visit": "jw01207001001",
+        "band": "F560W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2022-12-07T09:36:00.000",
+        "last_exposure_utc": "2022-12-07T09:44:38.400",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 654.908
+      },
+      {
+        "visit": "jw01207001001",
+        "band": "F770W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2022-12-07T09:56:09.600",
+        "last_exposure_utc": "2022-12-07T10:04:48.000",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 865.812
+      },
+      {
+        "visit": "jw01207001001",
+        "band": "F1000W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2022-12-07T10:19:12.000",
+        "last_exposure_utc": "2022-12-07T10:30:43.200",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 643.808
+      },
+      {
+        "visit": "jw01207001001",
+        "band": "F1280W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2022-12-07T10:33:36.000",
+        "last_exposure_utc": "2022-12-07T10:48:00.000",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 754.812
+      },
+      {
+        "visit": "jw01207001001",
+        "band": "F1500W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2022-12-07T10:52:19.200",
+        "last_exposure_utc": "2022-12-07T11:16:48.000",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 1121.116
+      },
+      {
+        "visit": "jw01207001001",
+        "band": "F1800W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2022-12-07T11:21:07.200",
+        "last_exposure_utc": "2022-12-07T11:36:57.600",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 754.812
+      },
+      {
+        "visit": "jw01207001001",
+        "band": "F2100W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2022-12-07T11:45:36.000",
+        "last_exposure_utc": "2022-12-07T12:11:31.200",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 2186.732
+      },
+      {
+        "visit": "jw01180014001",
+        "band": "F410M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-01T08:31:12.000",
+        "last_exposure_utc": "2023-10-01T14:52:48.000",
+        "native_exposure_count": 8,
+        "total_exposure_seconds": 10994.456
+      },
+      {
+        "visit": "jw01180014001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-01T09:00:00.000",
+        "last_exposure_utc": "2023-10-01T14:52:48.000",
+        "native_exposure_count": 5,
+        "total_exposure_seconds": 6871.535
+      },
+      {
+        "visit": "jw01180014001",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-01T10:13:26.400",
+        "last_exposure_utc": "2023-10-01T16:33:36.000",
+        "native_exposure_count": 8,
+        "total_exposure_seconds": 10994.456
+      },
+      {
+        "visit": "jw01180014001",
+        "band": "F115W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-01T10:40:48.000",
+        "last_exposure_utc": "2023-10-01T16:33:36.000",
+        "native_exposure_count": 5,
+        "total_exposure_seconds": 6871.535
+      },
+      {
+        "visit": "jw01180014001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-01T12:00:00.000",
+        "last_exposure_utc": "2023-10-01T18:14:24.000",
+        "native_exposure_count": 8,
+        "total_exposure_seconds": 10994.456
+      },
+      {
+        "visit": "jw01180014001",
+        "band": "F090W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-01T12:23:02.400",
+        "last_exposure_utc": "2023-10-01T18:14:24.000",
+        "native_exposure_count": 5,
+        "total_exposure_seconds": 6871.535
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F335M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-02T08:09:36.000",
+        "last_exposure_utc": "2023-10-02T11:26:52.800",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F090W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-02T10:13:26.400",
+        "last_exposure_utc": "2023-10-02T10:33:36.000",
+        "native_exposure_count": 2,
+        "total_exposure_seconds": 2748.614
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-02T11:54:14.400",
+        "last_exposure_utc": "2023-10-02T15:11:31.200",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F115W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-02T13:58:04.800",
+        "last_exposure_utc": "2023-10-02T18:05:45.600",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 5497.228
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-02T15:38:52.800",
+        "last_exposure_utc": "2023-10-02T18:57:36.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-02T19:26:24.000",
+        "last_exposure_utc": "2023-10-02T22:40:48.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-02T21:28:48.000",
+        "last_exposure_utc": "2023-10-02T21:50:24.000",
+        "native_exposure_count": 2,
+        "total_exposure_seconds": 2748.614
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F410M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-02T23:09:36.000",
+        "last_exposure_utc": "2023-10-03T02:21:07.200",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180016001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-03T01:07:40.800",
+        "last_exposure_utc": "2023-10-03T01:35:02.400",
+        "native_exposure_count": 2,
+        "total_exposure_seconds": 2748.614
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F090W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-03T03:00:00.000",
+        "last_exposure_utc": "2023-10-03T06:14:24.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F335M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-03T03:00:00.000",
+        "last_exposure_utc": "2023-10-03T06:14:24.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F115W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-03T06:43:12.000",
+        "last_exposure_utc": "2023-10-03T13:46:33.600",
+        "native_exposure_count": 18,
+        "total_exposure_seconds": 24737.526
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-03T06:43:12.000",
+        "last_exposure_utc": "2023-10-03T10:01:55.200",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-03T10:30:43.200",
+        "last_exposure_utc": "2023-10-03T13:46:33.600",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-03T14:15:21.600",
+        "last_exposure_utc": "2023-10-03T17:31:12.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-03T14:15:21.600",
+        "last_exposure_utc": "2023-10-03T17:31:12.000",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2023-10-03T18:00:00.000",
+        "last_exposure_utc": "2023-10-03T21:17:16.800",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180013001",
+        "band": "F410M-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2023-10-03T18:00:00.000",
+        "last_exposure_utc": "2023-10-03T21:17:16.800",
+        "native_exposure_count": 9,
+        "total_exposure_seconds": 12368.763
+      },
+      {
+        "visit": "jw01180220001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCB1",
+        "first_exposure_utc": "2024-01-01T03:36:00.000",
+        "last_exposure_utc": "2024-01-01T04:52:19.200",
+        "native_exposure_count": 6,
+        "total_exposure_seconds": 5024.808
+      },
+      {
+        "visit": "jw01180220001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCBLONG",
+        "first_exposure_utc": "2024-01-01T03:36:00.000",
+        "last_exposure_utc": "2024-01-01T04:52:19.200",
+        "native_exposure_count": 6,
+        "total_exposure_seconds": 5024.808
+      },
+      {
+        "visit": "jw05407040001",
+        "band": "F2100W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2024-11-18T22:04:48.000",
+        "last_exposure_utc": "2024-11-18T22:52:19.200",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 3085.844
+      },
+      {
+        "visit": "jw05407040001",
+        "band": "F1000W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2024-11-18T23:09:36.000",
+        "last_exposure_utc": "2024-11-18T23:21:07.200",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 721.512
+      },
+      {
+        "visit": "jw04549005001",
+        "band": "F356W-GRISMR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2025-09-30T21:00:00.000",
+        "last_exposure_utc": "2025-09-30T22:48:00.000",
+        "native_exposure_count": 5,
+        "total_exposure_seconds": 5797.855
+      },
+      {
+        "visit": "jw04549005001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2025-09-30T21:00:00.000",
+        "last_exposure_utc": "2025-09-30T23:26:52.800",
+        "native_exposure_count": 8,
+        "total_exposure_seconds": 7537.2119999999995
+      },
+      {
+        "visit": "jw04549005001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2025-09-30T23:09:36.000",
+        "last_exposure_utc": "2025-09-30T23:26:52.800",
+        "native_exposure_count": 2,
+        "total_exposure_seconds": 579.786
+      },
+      {
+        "visit": "jw04549006001",
+        "band": "F356W-GRISMR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2025-09-30T23:36:57.600",
+        "last_exposure_utc": "2025-10-01T01:26:24.000",
+        "native_exposure_count": 6,
+        "total_exposure_seconds": 6957.4259999999995
+      },
+      {
+        "visit": "jw04549006001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2025-10-01T00:00:00.000",
+        "last_exposure_utc": "2025-10-01T01:58:04.800",
+        "native_exposure_count": 2,
+        "total_exposure_seconds": 1449.464
+      },
+      {
+        "visit": "jw04549006001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA4",
+        "first_exposure_utc": "2025-10-01T00:23:02.400",
+        "last_exposure_utc": "2025-10-01T02:03:50.400",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 3768.6059999999998
+      },
+      {
+        "visit": "jw04549006001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2025-10-01T01:46:33.600",
+        "last_exposure_utc": "2025-10-01T02:03:50.400",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 869.6789999999999
+      },
+      {
+        "visit": "jw08060002001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2025-10-06T11:45:36.000",
+        "last_exposure_utc": "2025-10-06T12:28:48.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060002001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2025-10-06T11:45:36.000",
+        "last_exposure_utc": "2025-10-06T12:28:48.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060002001",
+        "band": "F115W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2025-10-06T12:57:36.000",
+        "last_exposure_utc": "2025-10-06T13:46:33.600",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060002001",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2025-10-06T12:57:36.000",
+        "last_exposure_utc": "2025-10-06T13:46:33.600",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060002001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2025-10-06T14:15:21.600",
+        "last_exposure_utc": "2025-10-06T15:07:12.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060002001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2025-10-06T14:15:21.600",
+        "last_exposure_utc": "2025-10-06T15:07:12.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060003001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCBLONG",
+        "first_exposure_utc": "2025-11-18T08:09:36.000",
+        "last_exposure_utc": "2025-11-18T09:00:00.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060003001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCB3",
+        "first_exposure_utc": "2025-11-18T08:09:36.000",
+        "last_exposure_utc": "2025-11-18T09:00:00.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060003001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCB3",
+        "first_exposure_utc": "2025-11-18T09:28:48.000",
+        "last_exposure_utc": "2025-11-18T10:13:26.400",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060003001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCBLONG",
+        "first_exposure_utc": "2025-11-18T09:28:48.000",
+        "last_exposure_utc": "2025-11-18T10:13:26.400",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060005001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCBLONG",
+        "first_exposure_utc": "2025-12-31T08:48:28.800",
+        "last_exposure_utc": "2025-12-31T09:36:00.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060005001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCB1",
+        "first_exposure_utc": "2025-12-31T08:48:28.800",
+        "last_exposure_utc": "2025-12-31T09:36:00.000",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060005001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCBLONG",
+        "first_exposure_utc": "2025-12-31T10:01:55.200",
+        "last_exposure_utc": "2025-12-31T10:52:19.200",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw08060005001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCB1",
+        "first_exposure_utc": "2025-12-31T10:01:55.200",
+        "last_exposure_utc": "2025-12-31T10:52:19.200",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw05324027001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCBLONG",
+        "first_exposure_utc": "2026-02-04T10:40:48.000",
+        "last_exposure_utc": "2026-02-04T10:58:04.800",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 1460.2
+      },
+      {
+        "visit": "jw05324027001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCB1",
+        "first_exposure_utc": "2026-02-04T10:40:48.000",
+        "last_exposure_utc": "2026-02-04T10:58:04.800",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 1460.2
+      },
+      {
+        "visit": "jw05324027001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCBLONG",
+        "first_exposure_utc": "2026-02-04T11:09:36.000",
+        "last_exposure_utc": "2026-02-04T11:31:12.000",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 1460.2
+      },
+      {
+        "visit": "jw05324027001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCB1",
+        "first_exposure_utc": "2026-02-04T11:09:36.000",
+        "last_exposure_utc": "2026-02-04T11:31:12.000",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 1460.2
+      },
+      {
+        "visit": "jw12577002001",
+        "band": "F277W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2026-10-10T02:24:00.000",
+        "last_exposure_utc": "2026-10-10T03:11:31.200",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw12577002001",
+        "band": "F200W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2026-10-10T02:24:00.000",
+        "last_exposure_utc": "2026-10-10T03:11:31.200",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw12577002001",
+        "band": "F444W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2026-10-10T03:38:52.800",
+        "last_exposure_utc": "2026-10-10T04:30:43.200",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw12577002001",
+        "band": "F115W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2026-10-10T03:38:52.800",
+        "last_exposure_utc": "2026-10-10T04:30:43.200",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw12577002001",
+        "band": "F150W-CLEAR",
+        "detector": "NRCA2",
+        "first_exposure_utc": "2026-10-10T04:58:04.800",
+        "last_exposure_utc": "2026-10-10T05:48:28.800",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      },
+      {
+        "visit": "jw12577002001",
+        "band": "F356W-CLEAR",
+        "detector": "NRCALONG",
+        "first_exposure_utc": "2026-10-10T04:58:04.800",
+        "last_exposure_utc": "2026-10-10T05:48:28.800",
+        "native_exposure_count": 3,
+        "total_exposure_seconds": 4122.921
+      }
+    ],
+    "bracketing_dates_utc": [
+      "2024-01-01",
+      "2025-09-30"
+    ],
+    "intermediate_geometric_groups": [
+      {
+        "visit": "jw05407040001",
+        "band": "F2100W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2024-11-18T22:04:48.000",
+        "last_exposure_utc": "2024-11-18T22:52:19.200",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 3085.844
+      },
+      {
+        "visit": "jw05407040001",
+        "band": "F1000W",
+        "detector": "MIRIMAGE",
+        "first_exposure_utc": "2024-11-18T23:09:36.000",
+        "last_exposure_utc": "2024-11-18T23:21:07.200",
+        "native_exposure_count": 4,
+        "total_exposure_seconds": 721.512
+      }
+    ],
+    "msa": {
+      "query_radius_arcsec": 15,
+      "rows": 1308,
+      "valid_rows": 1043,
+      "exact_footprint_rows": 0,
+      "valid_exact_footprint_rows": 0,
+      "nearest_valid_shutter": {
+        "file": "jw01207002001_04101_00003_nrs1",
+        "separation_arcsec": 1.4527551648029648,
+        "date_utc": "2023-08-07T20:38:53.562"
+      },
+      "go8060_rows": 36,
+      "go8060_nearest_shutter_arcsec": 12.711777145915075,
+      "go8060_nearest_listed_target": {
+        "source_id": 217891,
+        "separation_arcsec": 13.511389526655249
+      }
+    }
+  },
+  "miri": {
+    "F1000W": {
+      "exposures": [
+        {
+          "visit": "jw01207001001",
+          "band": "F1000W",
+          "date_utc": "2022-12-07 10:19:12",
+          "assoc_name": "j033236m2748_xdf-offcenter-1207-f1000w_00223",
+          "native_exposure_count": 4,
+          "sci": {
+            "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_xdf-offcenter-1207-f1000w_00223-f1000w_drz_sci.fits.gz",
+            "path": "data/raw/cross_detector/j033236m2748_xdf-offcenter-1207-f1000w_00223-f1000w_drz_sci.fits.gz",
+            "sha256": "88c29c7855c403a45f70a5109fbbcdd96205ca8a3cd9fb4bfed75c5fb1fcd819"
+          },
+          "wht": {
+            "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_xdf-offcenter-1207-f1000w_00223-f1000w_drz_wht.fits.gz",
+            "path": "data/raw/cross_detector/j033236m2748_xdf-offcenter-1207-f1000w_00223-f1000w_drz_wht.fits.gz",
+            "sha256": "fd38062b93e1d9f5bd252f2fb9b0bb6fbb1426c5226eb9ca704ab4274119af96"
+          }
+        },
+        {
+          "visit": "jw05407040001",
+          "band": "F1000W",
+          "date_utc": "2024-11-18 23:09:36",
+          "assoc_name": "j033228m2748_goods-s_new_10-5407-f1000w_00245",
+          "native_exposure_count": 4,
+          "sci": {
+            "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033228m2748_goods-s_new_10-5407-f1000w_00245-f1000w_drz_sci.fits.gz",
+            "path": "data/raw/cross_detector/j033228m2748_goods-s_new_10-5407-f1000w_00245-f1000w_drz_sci.fits.gz",
+            "sha256": "884a505287becfb9d67218454438211d895818ca47effbb091ef8fec18e6d467"
+          },
+          "wht": {
+            "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033228m2748_goods-s_new_10-5407-f1000w_00245-f1000w_drz_wht.fits.gz",
+            "path": "data/raw/cross_detector/j033228m2748_goods-s_new_10-5407-f1000w_00245-f1000w_drz_wht.fits.gz",
+            "sha256": "93b14a26ee58a93db3af3ffca2a91bcb76113f0c377d4f97c321a1993a48e6be"
+          }
+        }
+      ],
+      "listing": {
+        "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.1620359953%2C-27.7463839937%2C.02&filters=F1000W&output=csv",
+        "path": "data/raw/cross_detector/transient_precursor_f1000w.csv",
+        "sha256": "dd409dfd42ab432d6a64691892091041a5b68c62323c3cddeeb749955a021323"
+      },
+      "approximate_psf_fwhm_arcsec": 0.356,
+      "pixel_scale_arcsec": 0.0799999999999992,
+      "sky_annulus_arcsec": [
+        0.85,
+        1.25
+      ],
+      "apertures": [
+        {
+          "radius_arcsec": 0.4,
+          "2022": {
+            "flux_microjy": 0.03807099533081055,
+            "local_mad_microjy": 0.11884191286239623,
+            "control_apertures": 55
+          },
+          "2024": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 1
+          },
+          "difference": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 1
+          }
+        },
+        {
+          "radius_arcsec": 0.55,
+          "2022": {
+            "flux_microjy": 0.015855022430419922,
+            "local_mad_microjy": 0.15031719346618652,
+            "control_apertures": 55
+          },
+          "2024": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          },
+          "difference": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          }
+        },
+        {
+          "radius_arcsec": 0.75,
+          "2022": {
+            "flux_microjy": 0.21409461975097657,
+            "local_mad_microjy": 0.23111620136718747,
+            "control_apertures": 55
+          },
+          "2024": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          },
+          "difference": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          }
+        }
+      ],
+      "dja_2024_coverage": {
+        "target_pixel_usable": false,
+        "usable_pixels_within_1_arcsec": 0,
+        "nearest_usable_pixel_arcsec": 12.097148424312996
+      },
+      "mast_2024_coverage": {
+        "product": {
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw05407-o040_t085_miri_f1000w_i2d.fits",
+          "path": "data/raw/cross_detector/jw05407-o040_t085_miri_f1000w_i2d.fits",
+          "sha256": "1633cf9ef941c4eb1970bb539b309841f66a96730a4f37d3188002b659ecc8d1",
+          "bytes": 35804160
+        },
+        "target_pixel_usable": false,
+        "usable_pixels_within_1_arcsec": 0,
+        "nearest_usable_pixel_arcsec": 11.907843729881568
+      }
+    },
+    "F2100W": {
+      "exposures": [
+        {
+          "visit": "jw01207001001",
+          "band": "F2100W",
+          "date_utc": "2022-12-07 11:45:36",
+          "assoc_name": "j033236m2748_xdf-offcenter-1207-f2100w_00227",
+          "native_exposure_count": 4,
+          "sci": {
+            "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_xdf-offcenter-1207-f2100w_00227-f2100w_drz_sci.fits.gz",
+            "path": "data/raw/cross_detector/j033236m2748_xdf-offcenter-1207-f2100w_00227-f2100w_drz_sci.fits.gz",
+            "sha256": "01db619353f4f08d41c93fe0f6acb54a1ea3b57b542adb5305ccaaf6abb46c9f"
+          },
+          "wht": {
+            "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_xdf-offcenter-1207-f2100w_00227-f2100w_drz_wht.fits.gz",
+            "path": "data/raw/cross_detector/j033236m2748_xdf-offcenter-1207-f2100w_00227-f2100w_drz_wht.fits.gz",
+            "sha256": "383523933ff329db3bd26acdd684b9c4dcf6f702d097dc390896b8481ad44d5a"
+          }
+        },
+        {
+          "visit": "jw05407040001",
+          "band": "F2100W",
+          "date_utc": "2024-11-18 22:04:48",
+          "assoc_name": "j033228m2748_goods-s_new_10-5407-f2100w_00244",
+          "native_exposure_count": 4,
+          "sci": {
+            "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033228m2748_goods-s_new_10-5407-f2100w_00244-f2100w_drz_sci.fits.gz",
+            "path": "data/raw/cross_detector/j033228m2748_goods-s_new_10-5407-f2100w_00244-f2100w_drz_sci.fits.gz",
+            "sha256": "9397c294d210150ac413b3144341833f53041d0e7bc101fc871d6f87f042fc90"
+          },
+          "wht": {
+            "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033228m2748_goods-s_new_10-5407-f2100w_00244-f2100w_drz_wht.fits.gz",
+            "path": "data/raw/cross_detector/j033228m2748_goods-s_new_10-5407-f2100w_00244-f2100w_drz_wht.fits.gz",
+            "sha256": "5f69b92ab724f8c664a87c318a9f9ae188b6112e4e41d21271bdbb1004822ed9"
+          }
+        }
+      ],
+      "listing": {
+        "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.1620359953%2C-27.7463839937%2C.02&filters=F2100W&output=csv",
+        "path": "data/raw/cross_detector/transient_precursor_f2100w.csv",
+        "sha256": "59e417bf9e8d352f7074e2d33d0b0008d46e7faceb00263b87f49ae721013a2d"
+      },
+      "approximate_psf_fwhm_arcsec": 0.685,
+      "pixel_scale_arcsec": 0.0799999999999992,
+      "sky_annulus_arcsec": [
+        1.15,
+        1.65
+      ],
+      "apertures": [
+        {
+          "radius_arcsec": 0.65,
+          "2022": {
+            "flux_microjy": -0.492134033203125,
+            "local_mad_microjy": 0.6117966681427002,
+            "control_apertures": 55
+          },
+          "2024": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          },
+          "difference": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          }
+        },
+        {
+          "radius_arcsec": 0.85,
+          "2022": {
+            "flux_microjy": -0.4224815673828125,
+            "local_mad_microjy": 0.8265817599426268,
+            "control_apertures": 55
+          },
+          "2024": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          },
+          "difference": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          }
+        },
+        {
+          "radius_arcsec": 1.05,
+          "2022": {
+            "flux_microjy": -0.109760498046875,
+            "local_mad_microjy": 1.1020744759643553,
+            "control_apertures": 55
+          },
+          "2024": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          },
+          "difference": {
+            "flux_microjy": null,
+            "local_mad_microjy": null,
+            "control_apertures": 0
+          }
+        }
+      ],
+      "dja_2024_coverage": {
+        "target_pixel_usable": false,
+        "usable_pixels_within_1_arcsec": 0,
+        "nearest_usable_pixel_arcsec": 12.188658662865976
+      },
+      "mast_2024_coverage": {
+        "product": {
+          "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw05407-o040_t085_miri_f2100w_i2d.fits",
+          "path": "data/raw/cross_detector/jw05407-o040_t085_miri_f2100w_i2d.fits",
+          "sha256": "0dfc8d2de01a413a0e8700b45097227383a8ff47cf98ea4d739f9d95fc0fd85c",
+          "bytes": 35801280
+        },
+        "target_pixel_usable": false,
+        "usable_pixels_within_1_arcsec": 0,
+        "nearest_usable_pixel_arcsec": 12.16913065644051
+      }
+    }
+  },
+  "source_sha256": "c56918df125bf55fc93381fa2c5afb1b4aae7df88e09bf3c80f48e4d2c105f74",
+  "script_sha256": "3ae274e382872ad73ef21d0d6e43b26cbef580971dab673646cdba7f0fcb5642",
+  "scope": "Signed native-grid aperture differences and empirical local scatter; no PSF deblending or aperture correction"
+}
