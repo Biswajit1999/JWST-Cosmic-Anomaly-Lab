@@ -133,6 +133,42 @@ aperture-dependent F115W signal leaves a spectral break unverified.
 
 ![Observed JWST difference images and signed aperture flux for all six filters](../figures/jwst_cross_detector/module_b_001_six_filter_change.png)
 
+#### Position of the extra light
+
+F150W, F200W and F277W each have 2022, 2023 and 2025 baseline images.
+For each pairing with October 2026, we use 16–20 bright local sources
+to estimate a relative translation and the difference in Gaussian core
+width. The Gaussian convolution approximates an epoch-dependent
+change in core width. We then fit the quiescent-light and residual
+centroids separately within radii of 0.18–0.23″. All nine comparisons
+place the extra light northwest of the quiescent image centroid.
+
+| Filter | West offset (mas) | North offset (mas) | Projected separation (mas) |
+| --- | ---: | ---: | ---: |
+| F150W | 26–28 | 13–26 | 30–38 |
+| F200W | 27–33 | 20–27 | 35–41 |
+| F277W | 30–35 | 17–30 | 36–43 |
+
+Ranges include the fits repeated after an additional common Gaussian
+smoothing of 0.030″ standard deviation. The leave-one-out alignment
+control yields 68th-percentile positional residuals of 3–6 mas.
+Recovery of synthetic Gaussian sources injected into observed
+difference-image patches gives 95th-percentile radial errors of 2–9 mas.
+Those trials measure position recovery under local noise. We also
+subtracted successive pairs of 2022, 2023 and 2025 images at the actual
+galaxy position. The 0.24″ difference fluxes span −3.8 to +0.7 nJy
+in these six quiescent comparisons. Inserting a Gaussian brightening
+at the quiescent light centroid, with peak and width varied by
+±20%, gives apparent offsets of at most 6.2 mas across 54 injections.
+The measured northwest displacement therefore exceeds the errors
+found in both synthetic tests. The fitted quiescent centroid traces
+light, and the position of the galaxy's dynamical nucleus is unknown.
+The repeated fits use the same bright visit, and chromatic and spatial
+PSF effects remain unmodelled.
+[FITS receipts, source controls, and positional measurements](../results/jwst_cross_detector/module_b_001_excess_position.json).
+
+![Observed quiescent JWST images, October excess images, and fitted offsets across three baselines](../figures/jwst_cross_detector/module_b_001_excess_position.png)
+
 #### Earlier records of variability and active nuclei
 
 The current public GO 8060 and 12577 APT files contain four identical
@@ -158,6 +194,30 @@ a supernova and other physical explanations open.
 [Pouliasis et al.](https://doi.org/10.1093/mnras/stz1483) ·
 [Lyu et al.](https://arxiv.org/abs/2310.12330) ·
 [Luo et al.](https://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=J%2FApJS%2F228%2F2).
+
+#### Additional visits before the brightening
+
+The DAWN native-exposure footprints show two more visits to this
+position before February 2026. The same signed 0.24″ aperture
+measurements from both visits are below the October 2026 values.
+This extends the quiescent measurements to NRCA1 and NRCA3.
+
+| Visit | F150W (nJy) | F200W (nJy) | F277W (nJy) | F356W (nJy) |
+| --- | ---: | ---: | ---: | ---: |
+| 18 Nov 2025 · GO 8060 | 65.0 ± 4.8 | 67.3 ± 3.2 | 67.4 ± 3.8 | 69.3 ± 3.2 |
+| 8–9 Dec 2025 · GO 5324 | 76.1 ± 8.9 | 73.8 ± 8.6 | 61.5 ± 8.8 | 60.8 ± 6.8 |
+| 9–10 Oct 2026 · GO 12577 | 101.4 ± 4.2 | 107.2 ± 3.8 | 92.2 ± 3.7 | 92.2 ± 3.5 |
+
+At the 23 November 2026 check, the DAWN footprint service had no later
+covering exposure than the October 2026 visit. The MAST programme query
+returned six untimed entries at calibration level −1 for each of the
+two planned 24 November visits. The position falls inside all six
+planned field polygons for visit 004 but outside those for visit 003.
+Exact coverage requires the observed detector footprints and usable
+pixels. The next light-curve point remains unmeasured.
+[DAWN exposure search](https://dawn-cph.github.io/dja/general/api_summary/#exposure-metadata) ·
+[STScI visit schedule](https://www.stsci.edu/jwst-program-info/visits/?program=12577) ·
+[Footprint checks and epoch photometry](../results/jwst_cross_detector/module_b_001_followup_coverage.json).
 
 ### Fading at 53.147252°, −27.790612°
 

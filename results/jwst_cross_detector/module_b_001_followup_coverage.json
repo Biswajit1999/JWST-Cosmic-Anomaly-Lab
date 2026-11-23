@@ -1,0 +1,812 @@
+{
+  "executed_utc": "2026-11-23T22:14:35.330012+00:00",
+  "candidate": "GS-001-B-53.188670-27.812539",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "mast": {
+    "queried_utc": "2026-11-23T22:12:12.178072+00:00",
+    "query": {
+      "obs_collection": "JWST",
+      "proposal_id": "12577"
+    },
+    "programme_rows": 54,
+    "visits": {
+      "jw12577003001": [
+        {
+          "obs_id": "jw12577003001_xx101_00001_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22189921748 -27.78383831239 53.12613258302 -27.77129152627 53.13241397477 -27.73528657176 53.22697634258 -27.74764136956",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx102_00002_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22196456857 -27.78386888714 53.12619789966 -27.77132214602 53.13247927157 -27.73531718856 53.22704167337 -27.74767194193",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx103_00003_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22193344998 -27.7839045791 53.12616675325 -27.77135781654 53.13244813753 -27.73535286048 53.22701056679 -27.74770763502",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx104_00001_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22189921748 -27.78383831239 53.12613258302 -27.77129152627 53.13241397477 -27.73528657176 53.22697634258 -27.74764136956",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx105_00002_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22196456857 -27.78386888714 53.12619789966 -27.77132214602 53.13247927157 -27.73531718856 53.22704167337 -27.74767194193",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx106_00003_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22193344998 -27.7839045791 53.12616675325 -27.77135781654 53.13244813753 -27.73535286048 53.22701056679 -27.74770763502",
+          "predicted_polygon_contains_position": false
+        }
+      ],
+      "jw12577004001": [
+        {
+          "obs_id": "jw12577004001_xx101_00001_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.19874763292 -27.82401052206 53.10294559409 -27.8114637329 53.10922933233 -27.77545878202 53.20382660701 -27.78781357626",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx102_00002_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.1988130082 -27.82404109677 53.10301093484 -27.81149435269 53.10929465321 -27.77548939886 53.20389196194 -27.78784414858",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx103_00003_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.19878187812 -27.82407678875 53.1029797769 -27.81153002318 53.10926350765 -27.77552507076 53.2038608439 -27.7878798417",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx104_00001_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.19874763292 -27.82401052206 53.10294559409 -27.8114637329 53.10922933233 -27.77545878202 53.20382660701 -27.78781357626",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx105_00002_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.1988130082 -27.82404109677 53.10301093484 -27.81149435269 53.10929465321 -27.77548939886 53.20389196194 -27.78784414858",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx106_00003_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.19878187812 -27.82407678875 53.1029797769 -27.81153002318 53.10926350765 -27.77552507076 53.2038608439 -27.7878798417",
+          "predicted_polygon_contains_position": true
+        }
+      ]
+    },
+    "scope": "Untimed entries at calibration level -1 describe planned footprints."
+  },
+  "dawn": {
+    "query": {
+      "url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.18866983298658&dec=-27.812539402767552&arcmin=0.013&output=csv",
+      "path": "data/raw/cross_detector/module_b_001_coverage_20261123.csv",
+      "sha256": "91d5b20bf6e292c16141ee75474c1e578298c25beb17b5740f0f8d634aa393e1"
+    },
+    "matching_groups": [
+      {
+        "visit": "jw05324026001",
+        "detector": "NRCA1",
+        "filter": "F150W-CLEAR",
+        "earliest_start_utc": "2025-12-09T00:00:00.000",
+        "exposure_files": [
+          "jw05324026001_03103_00001_nrca1",
+          "jw05324026001_03103_00002_nrca1",
+          "jw05324026001_03103_00003_nrca1",
+          "jw05324026001_03103_00004_nrca1"
+        ]
+      },
+      {
+        "visit": "jw05324026001",
+        "detector": "NRCA1",
+        "filter": "F200W-CLEAR",
+        "earliest_start_utc": "2025-12-08T23:31:12.000",
+        "exposure_files": [
+          "jw05324026001_03101_00001_nrca1",
+          "jw05324026001_03101_00002_nrca1",
+          "jw05324026001_03101_00003_nrca1",
+          "jw05324026001_03101_00004_nrca1"
+        ]
+      },
+      {
+        "visit": "jw05324026001",
+        "detector": "NRCALONG",
+        "filter": "F277W-CLEAR",
+        "earliest_start_utc": "2025-12-08T23:31:12.000",
+        "exposure_files": [
+          "jw05324026001_03101_00001_nrcalong",
+          "jw05324026001_03101_00002_nrcalong",
+          "jw05324026001_03101_00003_nrcalong",
+          "jw05324026001_03101_00004_nrcalong"
+        ]
+      },
+      {
+        "visit": "jw05324026001",
+        "detector": "NRCALONG",
+        "filter": "F356W-CLEAR",
+        "earliest_start_utc": "2025-12-09T00:00:00.000",
+        "exposure_files": [
+          "jw05324026001_03103_00001_nrcalong",
+          "jw05324026001_03103_00002_nrcalong",
+          "jw05324026001_03103_00003_nrcalong",
+          "jw05324026001_03103_00004_nrcalong"
+        ]
+      },
+      {
+        "visit": "jw05324027001",
+        "detector": "NRCA2",
+        "filter": "F150W-CLEAR",
+        "earliest_start_utc": "2026-02-04T10:40:48.000",
+        "exposure_files": [
+          "jw05324027001_02101_00001_nrca2",
+          "jw05324027001_02101_00002_nrca2",
+          "jw05324027001_02101_00003_nrca2",
+          "jw05324027001_02101_00004_nrca2"
+        ]
+      },
+      {
+        "visit": "jw05324027001",
+        "detector": "NRCA2",
+        "filter": "F200W-CLEAR",
+        "earliest_start_utc": "2026-02-04T11:09:36.000",
+        "exposure_files": [
+          "jw05324027001_02103_00001_nrca2",
+          "jw05324027001_02103_00002_nrca2",
+          "jw05324027001_02103_00003_nrca2",
+          "jw05324027001_02103_00004_nrca2"
+        ]
+      },
+      {
+        "visit": "jw05324027001",
+        "detector": "NRCALONG",
+        "filter": "F277W-CLEAR",
+        "earliest_start_utc": "2026-02-04T10:40:48.000",
+        "exposure_files": [
+          "jw05324027001_02101_00001_nrcalong",
+          "jw05324027001_02101_00002_nrcalong",
+          "jw05324027001_02101_00003_nrcalong",
+          "jw05324027001_02101_00004_nrcalong"
+        ]
+      },
+      {
+        "visit": "jw05324027001",
+        "detector": "NRCALONG",
+        "filter": "F356W-CLEAR",
+        "earliest_start_utc": "2026-02-04T11:09:36.000",
+        "exposure_files": [
+          "jw05324027001_02103_00001_nrcalong",
+          "jw05324027001_02103_00002_nrcalong",
+          "jw05324027001_02103_00003_nrcalong",
+          "jw05324027001_02103_00004_nrcalong"
+        ]
+      },
+      {
+        "visit": "jw08060004001",
+        "detector": "NRCA3",
+        "filter": "F150W-CLEAR",
+        "earliest_start_utc": "2025-11-18T12:05:45.600",
+        "exposure_files": [
+          "jw08060004001_03103_00001_nrca3",
+          "jw08060004001_03103_00002_nrca3",
+          "jw08060004001_03103_00003_nrca3"
+        ]
+      },
+      {
+        "visit": "jw08060004001",
+        "detector": "NRCA3",
+        "filter": "F200W-CLEAR",
+        "earliest_start_utc": "2025-11-18T10:52:19.200",
+        "exposure_files": [
+          "jw08060004001_03101_00001_nrca3",
+          "jw08060004001_03101_00002_nrca3",
+          "jw08060004001_03101_00003_nrca3"
+        ]
+      },
+      {
+        "visit": "jw08060004001",
+        "detector": "NRCALONG",
+        "filter": "F277W-CLEAR",
+        "earliest_start_utc": "2025-11-18T10:52:19.200",
+        "exposure_files": [
+          "jw08060004001_03101_00001_nrcalong",
+          "jw08060004001_03101_00002_nrcalong",
+          "jw08060004001_03101_00003_nrcalong"
+        ]
+      },
+      {
+        "visit": "jw08060004001",
+        "detector": "NRCALONG",
+        "filter": "F356W-CLEAR",
+        "earliest_start_utc": "2025-11-18T12:05:45.600",
+        "exposure_files": [
+          "jw08060004001_03103_00001_nrcalong",
+          "jw08060004001_03103_00002_nrcalong",
+          "jw08060004001_03103_00003_nrcalong"
+        ]
+      },
+      {
+        "visit": "jw12577001001",
+        "detector": "NRCB4",
+        "filter": "F115W-CLEAR",
+        "earliest_start_utc": "2026-10-09T23:45:36.000",
+        "exposure_files": [
+          "jw12577001001_02103_00001_nrcb4",
+          "jw12577001001_02103_00002_nrcb4",
+          "jw12577001001_02103_00003_nrcb4"
+        ]
+      },
+      {
+        "visit": "jw12577001001",
+        "detector": "NRCB4",
+        "filter": "F150W-CLEAR",
+        "earliest_start_utc": "2026-10-10T01:01:55.200",
+        "exposure_files": [
+          "jw12577001001_02105_00001_nrcb4",
+          "jw12577001001_02105_00002_nrcb4",
+          "jw12577001001_02105_00003_nrcb4"
+        ]
+      },
+      {
+        "visit": "jw12577001001",
+        "detector": "NRCB4",
+        "filter": "F200W-CLEAR",
+        "earliest_start_utc": "2026-10-09T22:30:43.200",
+        "exposure_files": [
+          "jw12577001001_02101_00001_nrcb4",
+          "jw12577001001_02101_00002_nrcb4",
+          "jw12577001001_02101_00003_nrcb4"
+        ]
+      },
+      {
+        "visit": "jw12577001001",
+        "detector": "NRCBLONG",
+        "filter": "F277W-CLEAR",
+        "earliest_start_utc": "2026-10-09T22:30:43.200",
+        "exposure_files": [
+          "jw12577001001_02101_00001_nrcblong",
+          "jw12577001001_02101_00002_nrcblong",
+          "jw12577001001_02101_00003_nrcblong"
+        ]
+      },
+      {
+        "visit": "jw12577001001",
+        "detector": "NRCBLONG",
+        "filter": "F356W-CLEAR",
+        "earliest_start_utc": "2026-10-10T01:01:55.200",
+        "exposure_files": [
+          "jw12577001001_02105_00001_nrcblong",
+          "jw12577001001_02105_00002_nrcblong",
+          "jw12577001001_02105_00003_nrcblong"
+        ]
+      },
+      {
+        "visit": "jw12577001001",
+        "detector": "NRCBLONG",
+        "filter": "F444W-CLEAR",
+        "earliest_start_utc": "2026-10-09T23:45:36.000",
+        "exposure_files": [
+          "jw12577001001_02103_00001_nrcblong",
+          "jw12577001001_02103_00002_nrcblong",
+          "jw12577001001_02103_00003_nrcblong"
+        ]
+      }
+    ]
+  },
+  "earlier_visits": {
+    "epoch_products": [
+      {
+        "band": "F150W",
+        "visit": "jw05324026001",
+        "detector": "NRCA1",
+        "dateobs": "2025-12-09 00:00:00",
+        "mjd": 61018.0,
+        "assoc_name": "j033240m2747_jades-snia-5324-f150w_00176",
+        "exposure_count": 4,
+        "sci": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_jades-snia-5324-f150w_00176-f150w-clear_drc_sci.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_jades-snia-5324-f150w_00176-f150w-clear_drc_sci.fits.gz",
+          "sha256": "77d34de9a2c4b33beef9496f5abd79cbb4516de77e11895d25b30b87048a5dec"
+        },
+        "wht": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_jades-snia-5324-f150w_00176-f150w-clear_drc_wht.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_jades-snia-5324-f150w_00176-f150w-clear_drc_wht.fits.gz",
+          "sha256": "398a196ec37dde93c97b74b67926adad41154862ff1b247a47f533998f667900"
+        }
+      },
+      {
+        "band": "F150W",
+        "visit": "jw08060004001",
+        "detector": "NRCA3",
+        "dateobs": "2025-11-18 12:05:45",
+        "mjd": 60997.5,
+        "assoc_name": "j033240m2747_nircam-epoch-2b-8060-f150w_00120",
+        "exposure_count": 3,
+        "sci": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-2b-8060-f150w_00120-f150w-clear_drc_sci.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-2b-8060-f150w_00120-f150w-clear_drc_sci.fits.gz",
+          "sha256": "66f02d3c95ca9c486165144be6d537823c0ff69e04e351f28f6e0520f6a618f3"
+        },
+        "wht": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-2b-8060-f150w_00120-f150w-clear_drc_wht.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-2b-8060-f150w_00120-f150w-clear_drc_wht.fits.gz",
+          "sha256": "c48884f559fe711d152317f68661a4c786dd8db9aba364455a5a6ac409d4843e"
+        }
+      },
+      {
+        "band": "F200W",
+        "visit": "jw05324026001",
+        "detector": "NRCA1",
+        "dateobs": "2025-12-08 23:31:12",
+        "mjd": 61017.98,
+        "assoc_name": "j033240m2747_jades-snia-5324-f200w_00177",
+        "exposure_count": 4,
+        "sci": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_jades-snia-5324-f200w_00177-f200w-clear_drc_sci.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_jades-snia-5324-f200w_00177-f200w-clear_drc_sci.fits.gz",
+          "sha256": "5b254ab0b7c0b27b7cb8d4d6b1a93f24897dcb2de981f486cbaf69a9449e0036"
+        },
+        "wht": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_jades-snia-5324-f200w_00177-f200w-clear_drc_wht.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_jades-snia-5324-f200w_00177-f200w-clear_drc_wht.fits.gz",
+          "sha256": "ad2050fb577fa3557d351d4080b7cb688636cfaf4e16e8889044a636d8711687"
+        }
+      },
+      {
+        "band": "F200W",
+        "visit": "jw08060004001",
+        "detector": "NRCA3",
+        "dateobs": "2025-11-18 10:52:19",
+        "mjd": 60997.45,
+        "assoc_name": "j033240m2747_nircam-epoch-2b-8060-f200w_00121",
+        "exposure_count": 3,
+        "sci": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-2b-8060-f200w_00121-f200w-clear_drc_sci.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-2b-8060-f200w_00121-f200w-clear_drc_sci.fits.gz",
+          "sha256": "1b1dac93bc2e9ca33824b33aa4e769331daed2f283259487087619a5ddcd02f9"
+        },
+        "wht": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-2b-8060-f200w_00121-f200w-clear_drc_wht.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-2b-8060-f200w_00121-f200w-clear_drc_wht.fits.gz",
+          "sha256": "e33aabefede5038e271eb8098ecbc4b54014f6d37f8df40c7d29ce3e7eeacb81"
+        }
+      },
+      {
+        "band": "F277W",
+        "visit": "jw05324026001",
+        "detector": "NRCALONG",
+        "dateobs": "2025-12-08 23:31:12",
+        "mjd": 61017.98,
+        "assoc_name": "j033240m2747_jades-snia-5324-f277w_00184",
+        "exposure_count": 4,
+        "sci": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_jades-snia-5324-f277w_00184-f277w-clear_drc_sci.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_jades-snia-5324-f277w_00184-f277w-clear_drc_sci.fits.gz",
+          "sha256": "52b8bf2909697ff9aeeea6e7a382fc3ebae49c6290453985bc2580505704d7e4"
+        },
+        "wht": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_jades-snia-5324-f277w_00184-f277w-clear_drc_wht.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_jades-snia-5324-f277w_00184-f277w-clear_drc_wht.fits.gz",
+          "sha256": "59c9f5bd286c63cf404c72a6ebfce5578d55306519f18bf60eaf86fe365e14a9"
+        }
+      },
+      {
+        "band": "F277W",
+        "visit": "jw08060004001",
+        "detector": "NRCALONG",
+        "dateobs": "2025-11-18 10:52:19",
+        "mjd": 60997.45,
+        "assoc_name": "j033240m2747_nircam-epoch-2b-8060-f277w_00124",
+        "exposure_count": 3,
+        "sci": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-2b-8060-f277w_00124-f277w-clear_drc_sci.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-2b-8060-f277w_00124-f277w-clear_drc_sci.fits.gz",
+          "sha256": "70562743b0b7869dd91a37da33809659811b09fbaa84573487760ffa47493510"
+        },
+        "wht": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-2b-8060-f277w_00124-f277w-clear_drc_wht.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-2b-8060-f277w_00124-f277w-clear_drc_wht.fits.gz",
+          "sha256": "0246fb0cbb7feeea7d142510b83c0da26612572f93bd46b3355bfcb00c3c8ba1"
+        }
+      },
+      {
+        "band": "F356W",
+        "visit": "jw05324026001",
+        "detector": "NRCALONG",
+        "dateobs": "2025-12-09 00:00:00",
+        "mjd": 61018.0,
+        "assoc_name": "j033240m2747_jades-snia-5324-f356w_00185",
+        "exposure_count": 4,
+        "sci": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_jades-snia-5324-f356w_00185-f356w-clear_drc_sci.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_jades-snia-5324-f356w_00185-f356w-clear_drc_sci.fits.gz",
+          "sha256": "64fd58c62b84a86e580f6fcb8a3b3c52a5f0a8d6938529b7d25721ea0852e6f7"
+        },
+        "wht": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_jades-snia-5324-f356w_00185-f356w-clear_drc_wht.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_jades-snia-5324-f356w_00185-f356w-clear_drc_wht.fits.gz",
+          "sha256": "4f7374916a504130db0324a92b4064d733ed97ae12df33723f37e79d93083c4d"
+        }
+      },
+      {
+        "band": "F356W",
+        "visit": "jw08060004001",
+        "detector": "NRCALONG",
+        "dateobs": "2025-11-18 12:05:45",
+        "mjd": 60997.5,
+        "assoc_name": "j033240m2747_nircam-epoch-2b-8060-f356w_00125",
+        "exposure_count": 3,
+        "sci": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-2b-8060-f356w_00125-f356w-clear_drc_sci.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-2b-8060-f356w_00125-f356w-clear_drc_sci.fits.gz",
+          "sha256": "368abb1f5014e1c244d14b02c603d10967ae7f208d1a42d8ab769d350d178d52"
+        },
+        "wht": {
+          "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-2b-8060-f356w_00125-f356w-clear_drc_wht.fits.gz",
+          "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-2b-8060-f356w_00125-f356w-clear_drc_wht.fits.gz",
+          "sha256": "a1c5f50b0b4f70ac067fbb245270ddb0889bfc77ee1ed21a07dd10c5723152ca"
+        }
+      }
+    ],
+    "association_queries": [
+      {
+        "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.18866983%2C-27.81253940%2C.02&filters=F150W-CLEAR&output=csv",
+        "path": "data/raw/cross_detector/module_b_001_F150W_intermediate_mosaics.csv",
+        "sha256": "82b65f5b295cf707863dd7a7edee26bf6c6e040ca3ae6c37567bb171f5e5c925"
+      },
+      {
+        "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.18866983%2C-27.81253940%2C.02&filters=F200W-CLEAR&output=csv",
+        "path": "data/raw/cross_detector/module_b_001_F200W_intermediate_mosaics.csv",
+        "sha256": "d8c33b1e01c07de9d0a0b763d01faff342af1392f64c4a705a9fcb17d32d88d6"
+      },
+      {
+        "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.18866983%2C-27.81253940%2C.02&filters=F277W-CLEAR&output=csv",
+        "path": "data/raw/cross_detector/module_b_001_F277W_intermediate_mosaics.csv",
+        "sha256": "e00379f615692d07ad552c8bd4dcca4be33baf98b81339c9121820ddd2142e2d"
+      },
+      {
+        "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.18866983%2C-27.81253940%2C.02&filters=F356W-CLEAR&output=csv",
+        "path": "data/raw/cross_detector/module_b_001_F356W_intermediate_mosaics.csv",
+        "sha256": "52132081f357a355f9fd0c879cb3526dd2312d078039024319a7a2927f543ca8"
+      }
+    ],
+    "measurements": [
+      {
+        "band": "F150W",
+        "detector": "NRCA1",
+        "visit": "jw05324026001",
+        "dateobs": "2025-12-09 00:00:00",
+        "mjd": 61018.0,
+        "apertures": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 46.50541687011719,
+            "local_mad_sigma_njy": 4.143600545471906,
+            "control_median_njy": -0.14435145258903503,
+            "control_count": 324
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 59.302467346191406,
+            "local_mad_sigma_njy": 6.6228491489410395,
+            "control_median_njy": -0.2746541500091553,
+            "control_count": 324
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 76.12823486328125,
+            "local_mad_sigma_njy": 8.914864803242683,
+            "control_median_njy": -0.1738187074661255,
+            "control_count": 324
+          }
+        ],
+        "local_centroid_ra_dec": [
+          53.18866810631444,
+          -27.812549954724084
+        ]
+      },
+      {
+        "band": "F150W",
+        "detector": "NRCA3",
+        "visit": "jw08060004001",
+        "dateobs": "2025-11-18 12:05:45",
+        "mjd": 60997.5,
+        "apertures": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 49.130428314208984,
+            "local_mad_sigma_njy": 1.802623644080758,
+            "control_median_njy": -0.18378914892673492,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 62.033775329589844,
+            "local_mad_sigma_njy": 3.330035794329643,
+            "control_median_njy": -0.34391558170318604,
+            "control_count": 335
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 65.03446197509766,
+            "local_mad_sigma_njy": 4.780120462846756,
+            "control_median_njy": -0.7194424867630005,
+            "control_count": 334
+          }
+        ],
+        "local_centroid_ra_dec": [
+          53.18866874431225,
+          -27.812549082721663
+        ]
+      },
+      {
+        "band": "F200W",
+        "detector": "NRCA1",
+        "visit": "jw05324026001",
+        "dateobs": "2025-12-08 23:31:12",
+        "mjd": 61017.98,
+        "apertures": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 46.882938385009766,
+            "local_mad_sigma_njy": 3.5738960968494413,
+            "control_median_njy": -0.25517508387565613,
+            "control_count": 324
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 61.59341812133789,
+            "local_mad_sigma_njy": 6.249283474230766,
+            "control_median_njy": -0.3890925645828247,
+            "control_count": 324
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 73.80335235595703,
+            "local_mad_sigma_njy": 8.564110920667648,
+            "control_median_njy": -0.792500376701355,
+            "control_count": 324
+          }
+        ],
+        "local_centroid_ra_dec": [
+          53.18866876230693,
+          -27.812549707884717
+        ]
+      },
+      {
+        "band": "F200W",
+        "detector": "NRCA3",
+        "visit": "jw08060004001",
+        "dateobs": "2025-11-18 10:52:19",
+        "mjd": 60997.45,
+        "apertures": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 46.47175216674805,
+            "local_mad_sigma_njy": 1.2699422728031873,
+            "control_median_njy": -0.0866854339838028,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 59.44969177246094,
+            "local_mad_sigma_njy": 2.0207112564861776,
+            "control_median_njy": -0.34336671233177185,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 67.3489761352539,
+            "local_mad_sigma_njy": 3.164112615019083,
+            "control_median_njy": -0.3309616148471832,
+            "control_count": 337
+          }
+        ],
+        "local_centroid_ra_dec": [
+          53.18866759366703,
+          -27.812548619326947
+        ]
+      },
+      {
+        "band": "F277W",
+        "detector": "NRCALONG",
+        "visit": "jw05324026001",
+        "dateobs": "2025-12-08 23:31:12",
+        "mjd": 61017.98,
+        "apertures": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 43.74640655517578,
+            "local_mad_sigma_njy": 3.01139056520462,
+            "control_median_njy": 0.11788113042712212,
+            "control_count": 276
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 57.02051544189453,
+            "local_mad_sigma_njy": 5.265913677352667,
+            "control_median_njy": 0.28786054253578186,
+            "control_count": 268
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 61.46110916137695,
+            "local_mad_sigma_njy": 8.749375652432441,
+            "control_median_njy": 0.45550334453582764,
+            "control_count": 263
+          }
+        ],
+        "local_centroid_ra_dec": [
+          53.188667503358495,
+          -27.81254740093793
+        ]
+      },
+      {
+        "band": "F277W",
+        "detector": "NRCALONG",
+        "visit": "jw08060004001",
+        "dateobs": "2025-11-18 10:52:19",
+        "mjd": 60997.45,
+        "apertures": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 41.81083297729492,
+            "local_mad_sigma_njy": 1.4211448196791112,
+            "control_median_njy": -0.035074349492788315,
+            "control_count": 336
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 58.43601989746094,
+            "local_mad_sigma_njy": 2.4495192197620868,
+            "control_median_njy": -0.08323046565055847,
+            "control_count": 336
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 67.43263244628906,
+            "local_mad_sigma_njy": 3.760544799824059,
+            "control_median_njy": -0.19704144448041916,
+            "control_count": 336
+          }
+        ],
+        "local_centroid_ra_dec": [
+          53.1886716672828,
+          -27.812548926431308
+        ]
+      },
+      {
+        "band": "F356W",
+        "detector": "NRCALONG",
+        "visit": "jw05324026001",
+        "dateobs": "2025-12-09 00:00:00",
+        "mjd": 61018.0,
+        "apertures": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 43.06581115722656,
+            "local_mad_sigma_njy": 2.4620776795506476,
+            "control_median_njy": -0.17649930715560913,
+            "control_count": 275
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 55.50358581542969,
+            "local_mad_sigma_njy": 4.179129863119125,
+            "control_median_njy": -0.11186957359313965,
+            "control_count": 273
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 60.765663146972656,
+            "local_mad_sigma_njy": 6.835716290581226,
+            "control_median_njy": 0.03853398561477661,
+            "control_count": 263
+          }
+        ],
+        "local_centroid_ra_dec": [
+          53.188670713970644,
+          -27.812541702412787
+        ]
+      },
+      {
+        "band": "F356W",
+        "detector": "NRCALONG",
+        "visit": "jw08060004001",
+        "dateobs": "2025-11-18 12:05:45",
+        "mjd": 60997.5,
+        "apertures": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 43.06684112548828,
+            "local_mad_sigma_njy": 1.2048068156266585,
+            "control_median_njy": -0.014569454826414585,
+            "control_count": 333
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 59.529476165771484,
+            "local_mad_sigma_njy": 2.1509860839664934,
+            "control_median_njy": -0.046439915895462036,
+            "control_count": 333
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 69.2864990234375,
+            "local_mad_sigma_njy": 3.219582212921977,
+            "control_median_njy": -0.15486912429332733,
+            "control_count": 331
+          }
+        ],
+        "local_centroid_ra_dec": [
+          53.18866646125188,
+          -27.812548934315153
+        ]
+      }
+    ]
+  },
+  "six_filter_sha256": "e11e4d84b17423f1c35747230610b650e79294e7570ba9d12cb82edd55c85a34",
+  "script_sha256": "d9af0a36340c757af96237ad4cbed7ec48cb7938d88435e5591399feab852404"
+}
