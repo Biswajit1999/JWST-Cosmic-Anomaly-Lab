@@ -1,0 +1,363 @@
+{
+  "executed_utc": "2026-11-23T07:21:12.348615+00:00",
+  "pointings": {
+    "001": {
+      "observed": {
+        "pairs": 163,
+        "two_filter": 1,
+        "three_filter": 1
+      },
+      "shifted": [
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 0,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 45,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 90,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 135,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 180,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 225,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 270,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 315,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 0,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 45,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 90,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 135,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 180,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 225,
+          "pairs": 2,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 270,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 315,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 0,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 45,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 90,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 135,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 180,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 225,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 270,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 315,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        }
+      ]
+    },
+    "002": {
+      "observed": {
+        "pairs": 205,
+        "two_filter": 5,
+        "three_filter": 1
+      },
+      "shifted": [
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 0,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 45,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 90,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 135,
+          "pairs": 2,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 180,
+          "pairs": 2,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 225,
+          "pairs": 4,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 270,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 3.0,
+          "position_angle_deg": 315,
+          "pairs": 3,
+          "two_filter": 2,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 0,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 45,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 90,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 135,
+          "pairs": 2,
+          "two_filter": 1,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 180,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 225,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 270,
+          "pairs": 2,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 6.0,
+          "position_angle_deg": 315,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 0,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 45,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 90,
+          "pairs": 2,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 135,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 180,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 225,
+          "pairs": 0,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 270,
+          "pairs": 1,
+          "two_filter": 0,
+          "three_filter": 0
+        },
+        {
+          "radius_arcsec": 9.0,
+          "position_angle_deg": 315,
+          "pairs": 3,
+          "two_filter": 0,
+          "three_filter": 0
+        }
+      ]
+    }
+  },
+  "peaks_sha256": "a998eacd8aa59beb1e26294fed966651e76fb367d621639aafd14af1fb6a40d3",
+  "search_sha256": "4ed1cdcec08aab50392ebcc66c5794bbf2c4f6ef9c45ada6778699a5fe82a30c",
+  "script_sha256": "dfaf280dabe154b042e9e0fc203b160809e35b2a41e685e24e3cfdd91f0ea962",
+  "scope": "Incidental positional matches; shifts break co-spatial artifacts and can move edge peaks off the common footprint"
+}

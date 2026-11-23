@@ -1,0 +1,155 @@
+# JWST GOODS-S transient search in NIRCam Module B
+
+23 November 2026 · DAWN JWST Archive mosaics and MAST calibrated exposures
+
+## Search
+
+We compared the two public GOODS-S pointings from programmes 8060 and
+12577, in October 2025 and October 2026. This search used the four
+short-wavelength Module B detectors in F200W and the separate NRCBLONG
+detector in F356W and F444W. Each association combines three
+exposures. The science and inverse-variance images come from the same
+DAWN release and tangent-plane grid.
+[NIRCam detector layout](https://jwst-docs.stsci.edu/jwst-near-infrared-camera/nircam-instrumentation/nircam-detector-overview) ·
+[Programme 8060](https://www.stsci.edu/jwst-program-info/program/?program=8060) ·
+[Programme 12577](https://www.stsci.edu/jwst-program-info/program/?program=12577) ·
+[Product receipts](../results/jwst_cross_detector/module_b_products.json).
+
+The search fits a relative scale, background, two spatial derivatives
+and a Laplacian before ranking signed aperture residuals against local
+scatter. We pair same-sign F200W and F444W positions within 0.14″. The
+aperture criteria require a change of at least 18% of the brighter
+0.24″ aperture flux in both filters and a ranking score of at least 6
+in one of the two. The three-filter shortlist additionally requires a
+matching F356W residual and aperture change with the same sign.
+[Search thresholds and coverage](../results/jwst_cross_detector/module_b_search.json).
+
+| Pointing | Summed F200W–F444W overlap (arcmin²) | Ranked peaks | Cross-detector pairs | Two-filter aperture gate | Three-filter gate |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 001 | 3.849 | 1,809 | 163 | 1 | 1 |
+| 002 | 3.796 | 1,951 | 205 | 5 | 1 |
+
+The sum of the per-detector intersections is 7.645 arcmin². This is a
+coverage sum across pointings. There are 342 positive and 26 negative
+pairs before the aperture gate. Registration, PSF differences and source
+blending can create coincident residuals. The local scores rank peaks
+without calibrating a search-wide false-alarm rate.
+[All ranked peaks](../results/jwst_cross_detector/module_b_peaks.csv) ·
+[All matched positions](../results/jwst_cross_detector/module_b_matches.csv).
+
+As a spatial control, we shifted all F200W locations by 3″, 6″ and 9″
+in eight directions each, keeping the two long-wavelength lists fixed.
+None of the 48 shifted pointing trials passed the three-filter gate.
+This checks incidental positional alignments. Shared residuals
+at the same sky position and the exact footprint boundary can affect
+the actual search.
+[Shifted controls](../results/jwst_cross_detector/module_b_coincidences.json).
+
+## Forced measurements at the two positions
+
+We centered all three filters at the respective F200W search position.
+The quoted scatter comes from nearby apertures with the same geometry.
+The values use an aperture radius of 0.24″ and a 0.30–0.48″ sky annulus.
+The measurements include the persistent underlying source.
+
+| Position (ICRS) | Filter | October 2025 (nJy) | October 2026 (nJy) |
+| --- | --- | ---: | ---: |
+| 53.188670°, −27.812539° | F200W | 66.9 ± 3.6 | 107.2 ± 3.8 |
+| | F356W | 69.0 ± 3.4 | 92.2 ± 3.5 |
+| | F444W | 59.7 ± 3.1 | 82.7 ± 4.1 |
+| 53.147252°, −27.790612° | F200W | 47.7 ± 3.7 | 17.6 ± 4.1 |
+| | F356W | 28.1 ± 3.3 | 7.7 ± 3.3 |
+| | F444W | 24.8 ± 3.6 | 8.0 ± 3.8 |
+
+The sign of each change persists across aperture radii of 0.12″,
+0.18″ and 0.24″. Centroids of the brighter-minus-fainter pixels lie
+within 0.035″ of the first position and 0.052″ of the second position.
+These are image diagnostics and include local morphology and PSF
+effects.
+
+### Brightening at 53.188670°, −27.812539°
+
+F200W measured 70.4 ± 2.7 nJy in October 2022, 69.0 ± 2.6 nJy in
+October 2023, 66.9 ± 3.6 nJy in October 2025, and 66.3 ± 7.9 nJy in
+February 2026. The October 2026 measurement rises to 107.2 ± 3.8 nJy.
+The February observation used NRCA2 and the October search pair used
+NRCB4. F356W also shows an excess in October 2026 relative to 2023
+and 2025.
+
+All three bright-epoch F200W and all three F444W frames show clean peak
+pixels. The peak positions span 8.06 and 3.61 detector pixels,
+respectively, compared with predicted sky tracks of 8.52 and 4.11 pixels.
+The clean light centroids stay within 0.045″ of the search position
+across the six registered native exposures. The observed changes support
+real variability at a persistent source. The time of maximum light and
+the physical origin remain open.
+[Native exposure images](../figures/jwst_cross_detector/module_b_001_native.png) ·
+[Observed light curve](../figures/jwst_cross_detector/module_b_001_lightcurve.png).
+
+![Observed JWST images and difference images for the October 2026 brightening](../figures/jwst_cross_detector/module_b_001_mosaics.png)
+
+The brightening is 0.049″ from JADES source 103607, whose catalogue
+photometric redshift is 2.47. The closest DAWN NIRSpec extraction is
+1.559″ away at source 103483, a separate catalogue position. The JADES
+transient tables and the full TNS snapshot below have no match at the
+brightening position. The change is a candidate for previously
+unreported variability in the public records searched. Discovery
+priority beyond those records remains open.
+[JADES catalogue](https://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=V%2F159%2Fgssample) ·
+[Position measurements](../results/jwst_cross_detector/module_b_spectra.json) ·
+[Positional and native exposure checks](../results/jwst_cross_detector/module_b_vetting.json).
+
+### Fading at 53.147252°, −27.790612°
+
+This position measured 8–11 nJy in F200W from 2022 through January 2024.
+It reached 47.7 ± 3.7 nJy in October 2025 and remained bright in an
+independent GO 7336 visit on 18 October 2025 at 42.7 ± 3.1 nJy. F200W
+then measured 43.4 ± 3.4 nJy in November, 38.1 ± 8.3 nJy in December,
+and 16.8 ± 6.8 nJy in February 2026. The sequence includes both modules
+and three short-wavelength detectors. An independent GO 4549 F356W
+image on 30 September 2025 has 37.3 ± 7.4 nJy in the aperture.
+
+The bright-epoch F200W peak is unflagged and follows the dither in all
+three native frames. The first F444W brightest pixel carries a jump
+flag. The other two exposures have unflagged peaks, and the centroid
+of the cleaned light remains within 0.061″ of the search position in
+all six frames. The signed aperture results preserve any measurements
+affected by missing data as null.
+[Native exposure images](../figures/jwst_cross_detector/module_b_002_native.png) ·
+[Observed image subtraction](../figures/jwst_cross_detector/module_b_002_mosaics.png) ·
+[Photometry and native product receipts](../results/jwst_cross_detector/module_b_vetting.json).
+
+![JWST aperture photometry of the fading source in three filters from 2022 to 2026](../figures/jwst_cross_detector/module_b_002_lightcurve.png)
+
+The fading position is 0.015″ from JADES source 117875. The DAWN JWST
+Archive identifies it as GO 8060 NIRSpec target 2510132, 0.025″ from
+the search position. It has two PRISM spectra, taken on 28 December
+2025 and 13 January 2026. The December grade-2 inspection reports a
+redshift of 2.1433 and suggests a Type II supernova. The January
+grade-3 inspection reports 2.1411 and labels the source a transient.
+This establishes earlier recognition of the fading event. The
+photometry independently recovers it.
+[DAWN NIRSpec release](https://dawn-cph.github.io/dja/spectroscopy/nirspec/) ·
+[Prior public spectra and catalogue annotations](../results/jwst_cross_detector/module_b_prior_prism.json).
+
+![Two prior observed GO 8060 NIRSpec PRISM spectra of the fading source](../figures/jwst_cross_detector/module_b_002_prior_prism.png)
+
+The 17–18 October 2025 GO 7336 archive search adds seven F277W GRISMR
+and four GRISMC exposures over the position. Among their first- and
+second-order catalogue extractions, the nearest is 7.96″ from the
+transient. This test checks extracted coordinates. An exposure-level
+sensitivity or trace-overlap model would require a separate reduction.
+[GO 7336 programme](https://www.stsci.edu/jwst/science-execution/approved-programs/general-observers/cycle-4-go) ·
+[Slitless extraction inventory](../results/jwst_cross_detector/module_b_spectra.json).
+
+## Public transient snapshot
+
+We checked all **213,716** objects in the public Transient Name Server
+snapshot dated 23 November 2026 at 00:00 UTC. The 5″ search found no
+entries at either Module B lead or at the original fading GOODS-S event.
+The respective nearest entries lie 33.75″, 9.87″, and 22.74″ away. The
+check establishes the public registry result on that date. Individual
+teams may also record transients in other products, as the GO 8060
+spectroscopy demonstrates.
+[TNS public archive announcement](https://www.wis-tns.org/astronotes/astronote/2026-315) ·
+[Catalogue match receipts](../results/jwst_cross_detector/module_b_vetting.json).

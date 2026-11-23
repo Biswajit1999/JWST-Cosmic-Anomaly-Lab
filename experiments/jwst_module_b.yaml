@@ -1,0 +1,33 @@
+experiment: goods-s-nircam-module-b-epoch-search
+status: executed
+date: 2026-11-23
+prior_snapshot: 2c83389
+commands:
+  - python scripts/search_jwst_module_b.py
+  - python scripts/check_jwst_module_b_coincidences.py
+  - python scripts/vet_jwst_module_b.py
+  - python scripts/audit_jwst_module_b_spectra.py
+  - python scripts/plot_jwst_module_b_prior_spectra.py
+inputs:
+  older_visits: [jw08060001001, jw08060002001]
+  newer_visits: [jw12577001001, jw12577002001]
+  filters: [F200W, F356W, F444W]
+  short_detectors: [NRCB1, NRCB2, NRCB3, NRCB4]
+  long_detector: NRCBLONG
+limitations:
+  - Effective searched areas are summed detector intersections.
+  - Empirical residual scores do not calibrate the global false-alarm probability.
+  - Public registry checks establish the archived public record at a specified date.
+  - Light-curve aperture uncertainties exclude correlated calibration systematics.
+  - The slitless audit checks extraction positions without measuring wavelength coverage or sensitivity.
+outputs:
+  - reports/jwst_module_b.md
+  - results/jwst_cross_detector/module_b_products.json
+  - results/jwst_cross_detector/module_b_search.json
+  - results/jwst_cross_detector/module_b_peaks.csv
+  - results/jwst_cross_detector/module_b_matches.csv
+  - results/jwst_cross_detector/module_b_coincidences.json
+  - results/jwst_cross_detector/module_b_vetting.json
+  - results/jwst_cross_detector/module_b_spectra.json
+  - results/jwst_cross_detector/module_b_prior_prism.json
+  - figures/jwst_cross_detector/module_b_*

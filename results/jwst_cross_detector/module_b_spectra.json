@@ -1,0 +1,492 @@
+{
+  "executed_utc": "2026-11-23T07:31:47.174985+00:00",
+  "direct_catalogue_matches": {
+    "001": {
+      "receipt": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=V%2F159%2Fgssample&-out.max=30&-out=NIRCamID%2CRA_ICRS%2CDE_ICRS%2CKronRad%2Czphot%2Czphotl68%2Czphotu68&NIRCamID=103607",
+        "path": "data/raw/cross_detector/module_b_jades_103607.tsv",
+        "sha256": "a11cb425a9381b4d3e1812d53cd9e6d7dd9f34162a8186cfc2bcdc7dfc7aa4aa"
+      },
+      "nircam_id": 103607,
+      "icrs_deg": [
+        53.1886733,
+        -27.8125526
+      ],
+      "separation_arcsec": 0.048775731148606366,
+      "photo_z": 2.47,
+      "kron_radius_arcsec": 0.4148
+    },
+    "002": {
+      "receipt": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=V%2F159%2Fgssample&-out.max=30&-out=NIRCamID%2CRA_ICRS%2CDE_ICRS%2CKronRad%2Czphot%2Czphotl68%2Czphotu68&NIRCamID=117875",
+        "path": "data/raw/cross_detector/module_b_jades_117875.tsv",
+        "sha256": "fa72d57666bacc0b2acfb67e5223b0b133492633f93cd48d538a0ae2880a534b"
+      },
+      "nircam_id": 117875,
+      "icrs_deg": [
+        53.1472515,
+        -27.7906159
+      ],
+      "separation_arcsec": 0.014818312375490564,
+      "photo_z": 1.12,
+      "kron_radius_arcsec": 0.1761
+    }
+  },
+  "f277w_slitless": {
+    "candidate_position_degrees": [
+      53.14725188226616,
+      -27.790611797717343
+    ],
+    "archive_listing": {
+      "url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.14725188226616&dec=-27.790611797717343&arcmin=0.012&output=csv&filters=F277W-GRISMR%2CF277W-GRISMC",
+      "path": "data/raw/cross_detector/module_b_002_f277w_wfss.csv",
+      "sha256": "feedc211c2cc92e73cbf71ed1dcc3c46b0dc5bb1ebfe5b9894b079719c3347d5"
+    },
+    "products": [
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336001001/jw07336001001_03101_00002_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336001001_03101_00002_nrcblong_x1d.fits",
+          "sha256": "533ffadc5a6830dd08c036186e0f955c0908e36af8a36f75f30a632eb72e8875",
+          "bytes": 33629760
+        },
+        "filter": "F277W",
+        "disperser": "GRISMR",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-17T15:48:19.022",
+        "extraction_orders": [
+          {
+            "order": 2,
+            "valid_positions": 34,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 746,
+              "distance_arcsec": 70.51712411286184,
+              "icrs_deg": [
+                53.125111525718886,
+                -27.790852737766265
+              ]
+            }
+          },
+          {
+            "order": 1,
+            "valid_positions": 69,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 403,
+              "distance_arcsec": 10.722982973353862,
+              "icrs_deg": [
+                53.149169192062175,
+                -27.793060306312086
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336001001/jw07336001001_03101_00003_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336001001_03101_00003_nrcblong_x1d.fits",
+          "sha256": "3190ff4948a6e11adf5debbf25a1be07a1b84b5477ade34d8f82b1423d9076b0",
+          "bytes": 34928640
+        },
+        "filter": "F277W",
+        "disperser": "GRISMR",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-17T16:14:15.884",
+        "extraction_orders": [
+          {
+            "order": 2,
+            "valid_positions": 35,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 925,
+              "distance_arcsec": 52.872739404213775,
+              "icrs_deg": [
+                53.130653097366235,
+                -27.79033462068439
+              ]
+            }
+          },
+          {
+            "order": 1,
+            "valid_positions": 68,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 403,
+              "distance_arcsec": 10.722982973353862,
+              "icrs_deg": [
+                53.149169192062175,
+                -27.793060306312086
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336001001/jw07336001001_03101_00004_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336001001_03101_00004_nrcblong_x1d.fits",
+          "sha256": "77983ffe015df5de9bdb19ffdcac93bcfbd3e4f1e482869d4fd94abaf98c5a8f",
+          "bytes": 36230400
+        },
+        "filter": "F277W",
+        "disperser": "GRISMR",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-17T16:40:12.683",
+        "extraction_orders": [
+          {
+            "order": 2,
+            "valid_positions": 35,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 925,
+              "distance_arcsec": 52.872739404213775,
+              "icrs_deg": [
+                53.130653097366235,
+                -27.79033462068439
+              ]
+            }
+          },
+          {
+            "order": 1,
+            "valid_positions": 69,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 403,
+              "distance_arcsec": 10.722982973353862,
+              "icrs_deg": [
+                53.149169192062175,
+                -27.793060306312086
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336001002/jw07336001002_02101_00001_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336001002_02101_00001_nrcblong_x1d.fits",
+          "sha256": "3a379870dc4202f42a8dbea006728eccdf3db866ba590044e0ee46cd387781c9",
+          "bytes": 37630080
+        },
+        "filter": "F277W",
+        "disperser": "GRISMR",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-17T17:41:22.567",
+        "extraction_orders": [
+          {
+            "order": 2,
+            "valid_positions": 37,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 439,
+              "distance_arcsec": 29.68288717306346,
+              "icrs_deg": [
+                53.14099350514382,
+                -27.7967218519918
+              ]
+            }
+          },
+          {
+            "order": 1,
+            "valid_positions": 66,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 403,
+              "distance_arcsec": 10.722982973353862,
+              "icrs_deg": [
+                53.149169192062175,
+                -27.793060306312086
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336001002/jw07336001002_02101_00002_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336001002_02101_00002_nrcblong_x1d.fits",
+          "sha256": "32fad7281ccaf5064a20561807524d5cd71644dae912ef550aeb60b0bf14af79",
+          "bytes": 37647360
+        },
+        "filter": "F277W",
+        "disperser": "GRISMR",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-17T18:07:30.182",
+        "extraction_orders": [
+          {
+            "order": 2,
+            "valid_positions": 37,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 586,
+              "distance_arcsec": 21.35318507698179,
+              "icrs_deg": [
+                53.142141991248856,
+                -27.786771704420104
+              ]
+            }
+          },
+          {
+            "order": 1,
+            "valid_positions": 68,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 403,
+              "distance_arcsec": 10.722982973353862,
+              "icrs_deg": [
+                53.149169192062175,
+                -27.793060306312086
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336001002/jw07336001002_02101_00003_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336001002_02101_00003_nrcblong_x1d.fits",
+          "sha256": "c2f05e5629908af4cf7ae049bd282fab3bf7beee6f935e7818f40dfcdb0e067a",
+          "bytes": 37981440
+        },
+        "filter": "F277W",
+        "disperser": "GRISMR",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-17T18:33:37.668",
+        "extraction_orders": [
+          {
+            "order": 2,
+            "valid_positions": 36,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 586,
+              "distance_arcsec": 21.35318507698179,
+              "icrs_deg": [
+                53.142141991248856,
+                -27.786771704420104
+              ]
+            }
+          },
+          {
+            "order": 1,
+            "valid_positions": 68,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 403,
+              "distance_arcsec": 10.722982973353862,
+              "icrs_deg": [
+                53.149169192062175,
+                -27.793060306312086
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336001002/jw07336001002_02101_00004_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336001002_02101_00004_nrcblong_x1d.fits",
+          "sha256": "285d9058c623f66d0da2ddc19981a2ff854f5cbb7205013a93c32448b197c4b6",
+          "bytes": 37814400
+        },
+        "filter": "F277W",
+        "disperser": "GRISMR",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-17T18:59:45.219",
+        "extraction_orders": [
+          {
+            "order": 2,
+            "valid_positions": 39,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 586,
+              "distance_arcsec": 21.35318507698179,
+              "icrs_deg": [
+                53.142141991248856,
+                -27.786771704420104
+              ]
+            }
+          },
+          {
+            "order": 1,
+            "valid_positions": 67,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 403,
+              "distance_arcsec": 10.722982973353862,
+              "icrs_deg": [
+                53.149169192062175,
+                -27.793060306312086
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336002001/jw07336002001_02101_00001_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336002001_02101_00001_nrcblong_x1d.fits",
+          "sha256": "81fa0fee28937e0a4c28d90b549e42373497e2f131b9150315a0f6972d6d0166",
+          "bytes": 36745920
+        },
+        "filter": "F277W",
+        "disperser": "GRISMC",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-18T01:39:13.643",
+        "extraction_orders": [
+          {
+            "order": 1,
+            "valid_positions": 45,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 748,
+              "distance_arcsec": 7.962762034992354,
+              "icrs_deg": [
+                53.14509042597148,
+                -27.789500016529793
+              ]
+            }
+          },
+          {
+            "order": 2,
+            "valid_positions": 69,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 692,
+              "distance_arcsec": 10.725174573280722,
+              "icrs_deg": [
+                53.14916650358797,
+                -27.79306269220393
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336002001/jw07336002001_02101_00002_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336002001_02101_00002_nrcblong_x1d.fits",
+          "sha256": "9787e0fa039a157e0001fbf02ebfe771008ee19a5580d1c4486b42e59fe7cc70",
+          "bytes": 36889920
+        },
+        "filter": "F277W",
+        "disperser": "GRISMC",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-18T02:05:21.194",
+        "extraction_orders": [
+          {
+            "order": 1,
+            "valid_positions": 45,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 731,
+              "distance_arcsec": 9.77273041747663,
+              "icrs_deg": [
+                53.14930746851008,
+                -27.78859627182334
+              ]
+            }
+          },
+          {
+            "order": 2,
+            "valid_positions": 73,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 692,
+              "distance_arcsec": 10.725174573280722,
+              "icrs_deg": [
+                53.14916650358797,
+                -27.79306269220393
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336002001/jw07336002001_02101_00003_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336002001_02101_00003_nrcblong_x1d.fits",
+          "sha256": "9192d3e6620b2b428af3a1b471dccd74ef7673a09c6e843b867aa4b375a7a405",
+          "bytes": 36846720
+        },
+        "filter": "F277W",
+        "disperser": "GRISMC",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-18T02:31:28.744",
+        "extraction_orders": [
+          {
+            "order": 1,
+            "valid_positions": 41,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 692,
+              "distance_arcsec": 10.725174573280722,
+              "icrs_deg": [
+                53.14916650358797,
+                -27.79306269220393
+              ]
+            }
+          },
+          {
+            "order": 2,
+            "valid_positions": 74,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 692,
+              "distance_arcsec": 10.725174573280722,
+              "icrs_deg": [
+                53.14916650358797,
+                -27.79306269220393
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "product": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw07336/jw07336002001/jw07336002001_02101_00004_nrcblong_x1d.fits",
+          "path": "data/raw/cross_detector/jw07336002001_02101_00004_nrcblong_x1d.fits",
+          "sha256": "f953f885796e949f654192681190e8bb8422ccd348a7b2e5ac354c613e5acc3c",
+          "bytes": 36800640
+        },
+        "filter": "F277W",
+        "disperser": "GRISMC",
+        "geometric_direct_footprint": true,
+        "date_utc": "2025-10-18T02:57:36.359",
+        "extraction_orders": [
+          {
+            "order": 1,
+            "valid_positions": 37,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 692,
+              "distance_arcsec": 10.725174573280722,
+              "icrs_deg": [
+                53.14916650358797,
+                -27.79306269220393
+              ]
+            }
+          },
+          {
+            "order": 2,
+            "valid_positions": 75,
+            "rows_within_match_radius": 0,
+            "nearest": {
+              "source_id": 692,
+              "distance_arcsec": 10.725174573280722,
+              "icrs_deg": [
+                53.14916650358797,
+                -27.79306269220393
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "positions_match_radius_arcsec": 0.2,
+    "scope": "Cross-match of published extraction coordinates; spectral coverage and sensitivity are untested"
+  },
+  "vetting_sha256": "fa564e032867cff78e4d198e24b860f5385ddcddf3dd7d2e749f13ce9944ff8c",
+  "script_sha256": "39f2452ca4d1aac4a03aff4db607d5e4a2a6fb31fe8284c5f60a15f2e96f0e4c"
+}

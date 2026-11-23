@@ -4,6 +4,20 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Two GOODS-S variability signals · 23 November 2026
+
+A search across both NIRCam Module B pointings recovered two three-filter
+brightness changes. One source rose from **67 to 107 nJy** in F200W between
+October 2025 and October 2026. It appears in six clean native exposures,
+and the public transient snapshot and earlier JADES transient tables
+have no positional match. The other source faded. Its two earlier GO 8060
+NIRSpec spectra establish prior recognition of that transient.
+[Analysis and archive receipts](reports/jwst_module_b.md) ·
+[Light curve of the brightening](figures/jwst_cross_detector/module_b_001_lightcurve.png) ·
+[Prior spectra of the fading source](figures/jwst_cross_detector/module_b_002_prior_prism.png)
+
+<img src="figures/jwst_cross_detector/module_b_001_mosaics.png" width="810" alt="Observed JWST images and difference maps in three filters showing a source brighten in October 2026.">
+
 ## Fading transient in JWST GOODS-S · 22 November 2026
 
 A blind search recovered a fading infrared transient at **RA 53.162036°,

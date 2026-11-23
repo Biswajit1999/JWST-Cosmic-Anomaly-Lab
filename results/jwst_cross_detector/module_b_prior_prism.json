@@ -1,0 +1,57 @@
+{
+  "executed_utc": "2026-11-23T07:36:26.366989+00:00",
+  "candidate": "GS-002-B-53.147252-27.790612",
+  "spectra": [
+    {
+      "entry": {
+        "root": "gds-dts-egami-09-v4",
+        "file": "gds-dts-egami-09-v4_prism-clear_8060_204948.spec.fits",
+        "srcid": 2510132,
+        "z": 2.1433223753,
+        "grade": 2,
+        "comment": "probably type II SN",
+        "separation_arcsec": 0.024880758
+      },
+      "product": {
+        "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/gds-dts-egami-09-v4/gds-dts-egami-09-v4_prism-clear_8060_204948.spec.fits",
+        "path": "data/raw/cross_detector/gds-dts-egami-09-v4_prism-clear_8060_204948.spec.fits",
+        "sha256": "e7c706001e82608e1b390b2ae272ade3c1ef2e3e18e7f276de470877b5e25fa0"
+      },
+      "date_utc": "2025-12-28",
+      "effective_exposure_seconds": 24947.001000000004,
+      "msa": "jw08060009001_01_msa.fits",
+      "finite_samples": 468,
+      "wavelength_um": [
+        0.549125977329285,
+        5.501833324931415
+      ]
+    },
+    {
+      "entry": {
+        "root": "gds-dts-egami-10-v4",
+        "file": "gds-dts-egami-10-v4_prism-clear_8060_2510132.spec.fits",
+        "srcid": 2510132,
+        "z": 2.1411197899,
+        "grade": 3,
+        "comment": "transient",
+        "separation_arcsec": 0.024880758
+      },
+      "product": {
+        "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/gds-dts-egami-10-v4/gds-dts-egami-10-v4_prism-clear_8060_2510132.spec.fits",
+        "path": "data/raw/cross_detector/gds-dts-egami-10-v4_prism-clear_8060_2510132.spec.fits",
+        "sha256": "64e645ba8fc5d01c822f4383d95b9ed364e4b214a99a06f82485c275f930225f"
+      },
+      "date_utc": "2026-01-13",
+      "effective_exposure_seconds": 24947.001000000004,
+      "msa": "jw08060010001_02_msa.fits",
+      "finite_samples": 467,
+      "wavelength_um": [
+        0.549125977329285,
+        5.495018544530257
+      ]
+    }
+  ],
+  "scope": "Verification of prior spectroscopy; classification and redshift annotations are inherited from the archive",
+  "vetting_sha256": "fa564e032867cff78e4d198e24b860f5385ddcddf3dd7d2e749f13ce9944ff8c",
+  "script_sha256": "3d481bb166622fb63b74a709a89c22e07cecae78826adf61574e7d60dc25ec59"
+}

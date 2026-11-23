@@ -1,0 +1,608 @@
+{
+  "executed_utc": "2026-11-22T20:45:53.890904+00:00",
+  "images": [
+    {
+      "pointing": "001",
+      "band": "F444W",
+      "detector": "NRCBLONG",
+      "epoch": "older",
+      "visit": "jw08060001001",
+      "detector_center": [
+        53.166785,
+        -27.8131
+      ],
+      "dateobs": "2025-10-06 09:00:00",
+      "mjd": 60954.38,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f444w_00029",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f444w_00029-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f444w_00029-f444w-clear_drc_sci.fits.gz",
+        "sha256": "c6619f4a1b82da5bc5b55d577b32abf9c567800671c0f405815b23b89f0c1abd"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f444w_00029-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f444w_00029-f444w-clear_drc_wht.fits.gz",
+        "sha256": "98206c04e3dee9f8b481c55114c301eb6755e9734ffa5c54a141a638dfa5bde7"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F444W",
+      "detector": "NRCBLONG",
+      "epoch": "newer",
+      "visit": "jw12577001001",
+      "detector_center": [
+        53.166028,
+        -27.812667
+      ],
+      "dateobs": "2026-10-09 23:45:36",
+      "mjd": 61322.99,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f444w_00029",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f444w_00029-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f444w_00029-f444w-clear_drc_sci.fits.gz",
+        "sha256": "d51f73e3bfd4d3edb44792b25d0b3b99f0277124ce1bbdb709d212c3e89869a2"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f444w_00029-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f444w_00029-f444w-clear_drc_wht.fits.gz",
+        "sha256": "ab9f77c0ae3682526f9ab2c3e36820206fe21be7948ec578111e1f6dde3db715"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F444W",
+      "detector": "NRCBLONG",
+      "epoch": "older",
+      "visit": "jw08060002001",
+      "detector_center": [
+        53.131135,
+        -27.795792
+      ],
+      "dateobs": "2025-10-06 12:57:36",
+      "mjd": 60954.54,
+      "assoc_name": "j033240m2747_nircam-epoch-1b-8060-f444w_00059",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f444w_00059-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f444w_00059-f444w-clear_drc_sci.fits.gz",
+        "sha256": "74a5087fc9c2b7e2dbfa198c1d1ddd19a86188ec661c5a9691be9da4534101bc"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f444w_00059-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f444w_00059-f444w-clear_drc_wht.fits.gz",
+        "sha256": "1e0ae51fcb152b6259cb91075f28f3a1637ce2300861b12798c3d392d360ddaf"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F444W",
+      "detector": "NRCBLONG",
+      "epoch": "newer",
+      "visit": "jw12577002001",
+      "detector_center": [
+        53.130377,
+        -27.795359
+      ],
+      "dateobs": "2026-10-10 03:38:52",
+      "mjd": 61323.15,
+      "assoc_name": "j033236m2747_nircam-epoch-1b-12577-f444w_00093",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f444w_00093-f444w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f444w_00093-f444w-clear_drc_sci.fits.gz",
+        "sha256": "6c9314d695349580b88b149745042170d231f9f3850ddf687b2cfbc76c2dd7e3"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f444w_00093-f444w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f444w_00093-f444w-clear_drc_wht.fits.gz",
+        "sha256": "f60a9dc3bec8abaf4c26849ab8d6f7f3ea92d3861fa09a8ec75d69ff16359f22"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F356W",
+      "detector": "NRCBLONG",
+      "epoch": "older",
+      "visit": "jw08060001001",
+      "detector_center": [
+        53.166785,
+        -27.8131
+      ],
+      "dateobs": "2025-10-06 10:19:12",
+      "mjd": 60954.43,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f356w_00028",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f356w_00028-f356w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f356w_00028-f356w-clear_drc_sci.fits.gz",
+        "sha256": "e466e1e64921fe43d484ea077c75ca4e8dab6ed0abe3953eb14318cf52f06e16"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f356w_00028-f356w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f356w_00028-f356w-clear_drc_wht.fits.gz",
+        "sha256": "412b91ac64ef1411fbe1442351e7fa481d7c2139023abdb3466500608f2bc37e"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F356W",
+      "detector": "NRCBLONG",
+      "epoch": "newer",
+      "visit": "jw12577001001",
+      "detector_center": [
+        53.16603,
+        -27.812667
+      ],
+      "dateobs": "2026-10-10 01:01:55",
+      "mjd": 61323.04,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f356w_00028",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f356w_00028-f356w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f356w_00028-f356w-clear_drc_sci.fits.gz",
+        "sha256": "d3b050c8c294b01e0fbe6a3ca3201fd2a3e9ac9d2d921853d9e4738b32e5bb84"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f356w_00028-f356w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f356w_00028-f356w-clear_drc_wht.fits.gz",
+        "sha256": "173fcdba2cb927f98f17864804a6a98a8ab3852fc475c12d0ccc88640606d71c"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F356W",
+      "detector": "NRCBLONG",
+      "epoch": "older",
+      "visit": "jw08060002001",
+      "detector_center": [
+        53.131135,
+        -27.795793
+      ],
+      "dateobs": "2025-10-06 14:15:21",
+      "mjd": 60954.59,
+      "assoc_name": "j033240m2747_nircam-epoch-1b-8060-f356w_00058",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f356w_00058-f356w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f356w_00058-f356w-clear_drc_sci.fits.gz",
+        "sha256": "ea5cc6a32744f472804ff3bded4fb501246b4e69116699e28e103b1b247f97e6"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f356w_00058-f356w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f356w_00058-f356w-clear_drc_wht.fits.gz",
+        "sha256": "d82fc7336655f6a5114e901c3acf5a051feebf931df367fc04b8153090482120"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F356W",
+      "detector": "NRCBLONG",
+      "epoch": "newer",
+      "visit": "jw12577002001",
+      "detector_center": [
+        53.130377,
+        -27.795359
+      ],
+      "dateobs": "2026-10-10 04:58:04",
+      "mjd": 61323.21,
+      "assoc_name": "j033236m2747_nircam-epoch-1b-12577-f356w_00092",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f356w_00092-f356w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f356w_00092-f356w-clear_drc_sci.fits.gz",
+        "sha256": "8f4510527d101662f7546e73d50684c87a164868b27a30f59e58165aaf23c956"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f356w_00092-f356w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f356w_00092-f356w-clear_drc_wht.fits.gz",
+        "sha256": "86aa6abf703621d94aa513d78ef6f537ed5886a5383223a0528fe31d1518f143"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F200W",
+      "detector": "NRCB1",
+      "epoch": "older",
+      "visit": "jw08060001001",
+      "detector_center": [
+        53.152382,
+        -27.816147
+      ],
+      "dateobs": "2025-10-06 07:40:48",
+      "mjd": 60954.32,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f200w_00017",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f200w_00017-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f200w_00017-f200w-clear_drc_sci.fits.gz",
+        "sha256": "639070bf786c55f19ece2d413f620a9bcd5025c80655b3e0f47a51a2e821a7d9"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f200w_00017-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f200w_00017-f200w-clear_drc_wht.fits.gz",
+        "sha256": "a41c1c0f6133ffa2738bf488df0b2b2acb74c6a42057128478acc0616dcb7567"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F200W",
+      "detector": "NRCB1",
+      "epoch": "newer",
+      "visit": "jw12577001001",
+      "detector_center": [
+        53.151521,
+        -27.815292
+      ],
+      "dateobs": "2026-10-09 22:30:43",
+      "mjd": 61322.94,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f200w_00017",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f200w_00017-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f200w_00017-f200w-clear_drc_sci.fits.gz",
+        "sha256": "e238464ead31f2bf0fc4982ee441325230ca21e22369f2ad8c12354dc35505f7"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f200w_00017-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f200w_00017-f200w-clear_drc_wht.fits.gz",
+        "sha256": "d0d12a4e096144d37d2cc19b8accab3d18c2231ea90fe1055ddc4d288e9f655a"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F200W",
+      "detector": "NRCB2",
+      "epoch": "older",
+      "visit": "jw08060001001",
+      "detector_center": [
+        53.170569,
+        -27.825898
+      ],
+      "dateobs": "2025-10-06 07:40:48",
+      "mjd": 60954.32,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f200w_00020",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f200w_00020-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f200w_00020-f200w-clear_drc_sci.fits.gz",
+        "sha256": "4620cfa4db9872e4a7b62b6acc46ce6a874e32e6d0af20eef8bcbfa58a8c9aeb"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f200w_00020-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f200w_00020-f200w-clear_drc_wht.fits.gz",
+        "sha256": "a97c2388dd6071ec6abdb64a975ff612c61a472e45183c3988e3c1e3c107abb3"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F200W",
+      "detector": "NRCB2",
+      "epoch": "newer",
+      "visit": "jw12577001001",
+      "detector_center": [
+        53.169337,
+        -27.825565
+      ],
+      "dateobs": "2026-10-09 22:30:43",
+      "mjd": 61322.94,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f200w_00020",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f200w_00020-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f200w_00020-f200w-clear_drc_sci.fits.gz",
+        "sha256": "62dd972174576ab43adfafe146f3802cbe18da49826513e495970353a7202fbb"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f200w_00020-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f200w_00020-f200w-clear_drc_wht.fits.gz",
+        "sha256": "c832ccdf3f3d22a22d331005780c7d932d0f63184251bd7c7a5fe091589e9309"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F200W",
+      "detector": "NRCB3",
+      "epoch": "older",
+      "visit": "jw08060001001",
+      "detector_center": [
+        53.163356,
+        -27.8
+      ],
+      "dateobs": "2025-10-06 07:40:48",
+      "mjd": 60954.32,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f200w_00023",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f200w_00023-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f200w_00023-f200w-clear_drc_sci.fits.gz",
+        "sha256": "4633d4cd40210d493b5c66a1e695066b2f89cf94805d500d1092628c7babe415"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f200w_00023-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f200w_00023-f200w-clear_drc_wht.fits.gz",
+        "sha256": "011d2695dbd109a7f92fdb0997b786c7e5ba2c9b7746856545d7590bb9b05d30"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F200W",
+      "detector": "NRCB3",
+      "epoch": "newer",
+      "visit": "jw12577001001",
+      "detector_center": [
+        53.163088,
+        -27.799473
+      ],
+      "dateobs": "2026-10-09 22:30:43",
+      "mjd": 61322.94,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f200w_00023",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f200w_00023-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f200w_00023-f200w-clear_drc_sci.fits.gz",
+        "sha256": "6e6fb2c9d41813434ea8dc4be26ca7d4a439df8e2e2d1c1c5bb859f58ae42047"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f200w_00023-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f200w_00023-f200w-clear_drc_wht.fits.gz",
+        "sha256": "e34fb68f6cb585e514eade9de763ad3931e62fab02bb3b3b89e59b262aeeba4d"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F200W",
+      "detector": "NRCB4",
+      "epoch": "older",
+      "visit": "jw08060001001",
+      "detector_center": [
+        53.181676,
+        -27.809668
+      ],
+      "dateobs": "2025-10-06 07:40:48",
+      "mjd": 60954.32,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f200w_00026",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f200w_00026-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f200w_00026-f200w-clear_drc_sci.fits.gz",
+        "sha256": "d66cfcd364f87c9166d05bec2a8c47b41e560068b88e42c852c4baf0caedce98"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f200w_00026-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f200w_00026-f200w-clear_drc_wht.fits.gz",
+        "sha256": "632353e58029663b3779287a4adce06a97848a1fa46ccb706a564999d223df27"
+      }
+    },
+    {
+      "pointing": "001",
+      "band": "F200W",
+      "detector": "NRCB4",
+      "epoch": "newer",
+      "visit": "jw12577001001",
+      "detector_center": [
+        53.181039,
+        -27.809667
+      ],
+      "dateobs": "2026-10-09 22:30:43",
+      "mjd": 61322.94,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f200w_00026",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f200w_00026-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f200w_00026-f200w-clear_drc_sci.fits.gz",
+        "sha256": "24cc10c32f33a5f2d4c6606ef035d4ef55f3a8b4a5fe0f9cde05255b27466f2d"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f200w_00026-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f200w_00026-f200w-clear_drc_wht.fits.gz",
+        "sha256": "391e1e7314d63974efe45663b4331d877ce102d5a49bb7416ed57079da419e80"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F200W",
+      "detector": "NRCB1",
+      "epoch": "older",
+      "visit": "jw08060002001",
+      "detector_center": [
+        53.116734,
+        -27.798838
+      ],
+      "dateobs": "2025-10-06 11:45:36",
+      "mjd": 60954.49,
+      "assoc_name": "j033240m2747_nircam-epoch-1b-8060-f200w_00047",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f200w_00047-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f200w_00047-f200w-clear_drc_sci.fits.gz",
+        "sha256": "df1a46c6c47ea89c9c8770d54af5e31cd2a68024566407e6851e5a8f4d69f4c3"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f200w_00047-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f200w_00047-f200w-clear_drc_wht.fits.gz",
+        "sha256": "f61c3eff6fe1a4695e9769f49b72c259785f736289385cee1a19d512e5f59b98"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F200W",
+      "detector": "NRCB1",
+      "epoch": "newer",
+      "visit": "jw12577002001",
+      "detector_center": [
+        53.115871,
+        -27.797983
+      ],
+      "dateobs": "2026-10-10 02:24:00",
+      "mjd": 61323.1,
+      "assoc_name": "j033236m2747_nircam-epoch-1b-12577-f200w_00081",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f200w_00081-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f200w_00081-f200w-clear_drc_sci.fits.gz",
+        "sha256": "3be31c8f7b42f3409bf7370ad063cd9e33750c67d2293823ff11b44f7383ecaa"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f200w_00081-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f200w_00081-f200w-clear_drc_wht.fits.gz",
+        "sha256": "3f75e06492a2110609946221bfbf9199c5cab14755ad63f372d763aa3b8bf155"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F200W",
+      "detector": "NRCB2",
+      "epoch": "older",
+      "visit": "jw08060002001",
+      "detector_center": [
+        53.134918,
+        -27.80859
+      ],
+      "dateobs": "2025-10-06 11:45:36",
+      "mjd": 60954.49,
+      "assoc_name": "j033240m2747_nircam-epoch-1b-8060-f200w_00050",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f200w_00050-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f200w_00050-f200w-clear_drc_sci.fits.gz",
+        "sha256": "e5b658cb2ba9efaea314fadaceca927a96a32597ef6298de0ea2176cdc71f7db"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f200w_00050-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f200w_00050-f200w-clear_drc_wht.fits.gz",
+        "sha256": "e32c84e08266409c0a3a665ef73fb436fb99ec5238de420ddf5f903a6988c91d"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F200W",
+      "detector": "NRCB2",
+      "epoch": "newer",
+      "visit": "jw12577002001",
+      "detector_center": [
+        53.133685,
+        -27.808257
+      ],
+      "dateobs": "2026-10-10 02:24:00",
+      "mjd": 61323.1,
+      "assoc_name": "j033236m2747_nircam-epoch-1b-12577-f200w_00084",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f200w_00084-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f200w_00084-f200w-clear_drc_sci.fits.gz",
+        "sha256": "63817211bf21c48c0c4bf62495046b23cfacf081f4272136b1459841d2c52709"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f200w_00084-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f200w_00084-f200w-clear_drc_wht.fits.gz",
+        "sha256": "7f164e3dfef61efd4e4e801f5aafbc6fddb52cbc9da48b4a728dbf0ad9647812"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F200W",
+      "detector": "NRCB3",
+      "epoch": "older",
+      "visit": "jw08060002001",
+      "detector_center": [
+        53.127706,
+        -27.782692
+      ],
+      "dateobs": "2025-10-06 11:45:36",
+      "mjd": 60954.49,
+      "assoc_name": "j033240m2747_nircam-epoch-1b-8060-f200w_00053",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f200w_00053-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f200w_00053-f200w-clear_drc_sci.fits.gz",
+        "sha256": "a1588fe8a49c7f67e576d7fafe0b58e133808bc1f7aa18ad80ea7cfde2c4d2f5"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f200w_00053-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f200w_00053-f200w-clear_drc_wht.fits.gz",
+        "sha256": "2b6bbb39b134f9cdcaebc7686def1afb4e9af5e24a8bd238553c6daa79cb33f9"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F200W",
+      "detector": "NRCB3",
+      "epoch": "newer",
+      "visit": "jw12577002001",
+      "detector_center": [
+        53.127438,
+        -27.782164
+      ],
+      "dateobs": "2026-10-10 02:24:00",
+      "mjd": 61323.1,
+      "assoc_name": "j033236m2747_nircam-epoch-1b-12577-f200w_00087",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f200w_00087-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f200w_00087-f200w-clear_drc_sci.fits.gz",
+        "sha256": "f3267b40a61aa7a9b375158d5a56173afdded39c6a3045e24a9f899e370aa51f"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f200w_00087-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f200w_00087-f200w-clear_drc_wht.fits.gz",
+        "sha256": "fbcde32443dc8f3c7fc1e6f98d280e520d970d1baeb653cb8117712cd0d924a4"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F200W",
+      "detector": "NRCB4",
+      "epoch": "older",
+      "visit": "jw08060002001",
+      "detector_center": [
+        53.146023,
+        -27.79236
+      ],
+      "dateobs": "2025-10-06 11:45:36",
+      "mjd": 60954.49,
+      "assoc_name": "j033240m2747_nircam-epoch-1b-8060-f200w_00056",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f200w_00056-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f200w_00056-f200w-clear_drc_sci.fits.gz",
+        "sha256": "f7a15204f9e26bbb5cd8f06560399d72bd8a759dceb0c0a1a2b1af6971224b6c"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1b-8060-f200w_00056-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1b-8060-f200w_00056-f200w-clear_drc_wht.fits.gz",
+        "sha256": "facde152bbe6f53d6665bd9117ec3041c79f8a960b2e3352afc633a93ff3768e"
+      }
+    },
+    {
+      "pointing": "002",
+      "band": "F200W",
+      "detector": "NRCB4",
+      "epoch": "newer",
+      "visit": "jw12577002001",
+      "detector_center": [
+        53.145384,
+        -27.792358
+      ],
+      "dateobs": "2026-10-10 02:24:00",
+      "mjd": 61323.1,
+      "assoc_name": "j033236m2747_nircam-epoch-1b-12577-f200w_00090",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f200w_00090-f200w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f200w_00090-f200w-clear_drc_sci.fits.gz",
+        "sha256": "91aaefb66feb198be023454301e74f86bee2993ae4eaec26d129dbb4e163f684"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_nircam-epoch-1b-12577-f200w_00090-f200w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_nircam-epoch-1b-12577-f200w_00090-f200w-clear_drc_wht.fits.gz",
+        "sha256": "86fb0804926b56948d0ce90b774b3c8e279aba0ec900b334314d94c3ade8f9e9"
+      }
+    }
+  ],
+  "association_ledger_sha256": "147befc93b2f75b7221e834cd40aee05769348969fc439af9a8fb5eccafd5ddf",
+  "storage_cap_mib": 14100,
+  "script_sha256": "a1a9a87a292d4032cb3f6a3918a39ebcc41b89c2334ef4b7b743d7a0833dd9ce"
+}
