@@ -12,10 +12,13 @@ October 2025 and October 2026. It appears in six clean native exposures.
 Two filters held out of the search confirm the brightening, with a weak,
 aperture-dependent signal in F115W. The extra light lies about 30–43 mas
 northwest of the quiescent light centroid in three filters. JADES 103607
-is a candidate for previously unreported variability. Public GO 8060
-spectroscopy and observing plans already identified the other source.
+is a candidate for previously unreported variability. The official
+STScI reduction reproduces the brightening and the position offset.
+Public GO 8060 spectroscopy and observing plans already identified the
+other source.
 [Analysis and archive receipts](reports/jwst_module_b.md) ·
 [Position of the extra light](figures/jwst_cross_detector/module_b_001_excess_position.png) ·
+[STScI and DAWN comparison](figures/jwst_cross_detector/module_b_001_mast_comparison.png) ·
 [Light curve of the brightening](figures/jwst_cross_detector/module_b_001_lightcurve.png) ·
 [Prior spectra of the fading source](figures/jwst_cross_detector/module_b_002_prior_prism.png)
 

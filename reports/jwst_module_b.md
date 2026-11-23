@@ -169,6 +169,38 @@ PSF effects remain unmodelled.
 
 ![Observed quiescent JWST images, October excess images, and fitted offsets across three baselines](../figures/jwst_cross_detector/module_b_001_excess_position.png)
 
+#### Independent STScI reduction
+
+The official STScI stage-3 mosaics independently reproduce the
+five-filter brightening and the northwest displacement. We measured
+the published images for both October visits in all six bands. The
+FITS headers report pipeline 3.0.0 with CRDS context
+`jwst_1584.pmap`. We read the necessary science and weight stripes
+from the twelve public FITS files. Each downloaded range has its own
+SHA-256 checksum and upstream object ETag. Sampled header and
+image-stripe bytes also match the separate MAST download endpoint
+for all twelve products.
+
+| Band | STScI matched difference, 0.24″ aperture (nJy) | West, north offset (mas) |
+| --- | ---: | ---: |
+| F115W | +3.0 ± 6.3 | — |
+| F150W | +30.3 ± 5.3 | 25.6, 12.7 |
+| F200W | +35.9 ± 4.3 | 28.2, 25.0 |
+| F277W | +27.8 ± 3.6 | 32.9, 27.7 |
+| F356W | +24.4 ± 3.5 | — |
+| F444W | +22.6 ± 3.9 | — |
+
+The three STScI position vectors lie within 4 mas of the corresponding
+DAWN vectors for the same visits. The listed flux changes use local
+registration and core-width matching on the STScI images. The
+two reductions share the underlying exposures and the positional
+fitting method. The comparison tests reduction sensitivity, so
+the flux errors and position fits should be treated as correlated.
+[STScI pipeline stages](https://jwst-docs.stsci.edu/jwst-science-calibration-pipeline/stages-of-jwst-data-processing) ·
+[MAST product and measurement receipts](../results/jwst_cross_detector/module_b_001_mast_comparison.json).
+
+![STScI images and comparison of six-filter flux changes with DAWN](../figures/jwst_cross_detector/module_b_001_mast_comparison.png)
+
 #### Earlier records of variability and active nuclei
 
 The current public GO 8060 and 12577 APT files contain four identical
@@ -194,6 +226,21 @@ a supernova and other physical explanations open.
 [Pouliasis et al.](https://doi.org/10.1093/mnras/stz1483) ·
 [Lyu et al.](https://arxiv.org/abs/2310.12330) ·
 [Luo et al.](https://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=J%2FApJS%2F228%2F2).
+
+The SIMBAD cone contains 31 entries within 10″. Two are within 1″
+and have redshift values. The original tables show that both values
+come from photometry. ZFOURGE CDFS 14409 is 0.399″ away and its
+redshift probability distribution peaks at 2.4858. The linked
+HDUV/3D-HST source GOODS-S 21067 is 0.222″ from the brightening and
+its photometric redshift peaks at 2.263. Both spectroscopic fields
+are missing. The nearest of 2,221 MUSE HUDF DR2 entries is 34.65″
+away. These positions and redshift estimates are kept separate
+from the JADES detection and leave the host's spectroscopic
+redshift unmeasured.
+[ZFOURGE catalogue](https://doi.org/10.3847/0004-637X/830/1/51) ·
+[HDUV catalogue](https://cdsarc.cds.unistra.fr/viz-bin/ReadMe/J/ApJS/237/12) ·
+[ESO MUSE HUDF DR2](https://www.eso.org/qi/catalog/show/409) ·
+[Redshift provenance receipts](../results/jwst_cross_detector/module_b_001_redshift_context.json).
 
 #### Additional visits before the brightening
 

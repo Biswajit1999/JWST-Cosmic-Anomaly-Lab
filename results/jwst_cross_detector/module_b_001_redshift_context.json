@@ -1,0 +1,261 @@
+{
+  "executed_utc": "2026-11-23T22:32:28.846899+00:00",
+  "candidate": "GS-001-B-53.188670-27.812539",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "simbad": {
+    "product": {
+      "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+main_id%2Cotype%2Cra%2Cdec%2Crvz_redshift%2Crvz_bibcode+FROM+basic+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C53.1886698330%2C-27.8125394028%2C0.002777777778%29%29%3D1&MAXREC=4000",
+      "path": "data/raw/cross_detector/module_b_001_simbad_10arcsec.csv",
+      "sha256": "bdab3b225ec8bbc494a102eac6c04bb52c652b832a19af6773701e0f9b519c70",
+      "bytes": 2617
+    },
+    "rows": 31,
+    "radius_arcsec": 1.0,
+    "matches": 2,
+    "closest": [
+      {
+        "main_id": "[SWM2014] GOODS-S 21067",
+        "otype": "G",
+        "ra": 53.188647,
+        "dec": -27.812481,
+        "rvz_redshift": 2.263,
+        "rvz_bibcode": "2018ApJS..237...12O",
+        "separation_arcsec": 0.2224652441
+      },
+      {
+        "main_id": "ZFOURGE CDFS 14409",
+        "otype": "G",
+        "ra": 53.1887283,
+        "dec": -27.8126373,
+        "rvz_redshift": 2.4858,
+        "rvz_bibcode": "2016ApJ...830...51S",
+        "separation_arcsec": 0.398578425
+      },
+      {
+        "main_id": "JADES-GS NC  103483",
+        "otype": "EmG",
+        "ra": 53.18825,
+        "dec": -27.81275,
+        "rvz_redshift": 5.252093,
+        "rvz_bibcode": "2023ApJS..269...16R",
+        "separation_arcsec": 1.536822372
+      },
+      {
+        "main_id": "[SWM2014] GOODS-S 21155",
+        "otype": "G",
+        "ra": 53.187965,
+        "dec": -27.812285,
+        "rvz_redshift": 0.491,
+        "rvz_bibcode": "2018ApJS..237...12O",
+        "separation_arcsec": 2.4239566804
+      },
+      {
+        "main_id": "ZFOURGE CDFS 14372",
+        "otype": "G",
+        "ra": 53.1893463,
+        "dec": -27.812891,
+        "rvz_redshift": 1.3026,
+        "rvz_bibcode": "2016ApJ...830...51S",
+        "separation_arcsec": 2.4983253566
+      },
+      {
+        "main_id": "GOODS J033245.10-274843.8",
+        "otype": "G",
+        "ra": 53.187915,
+        "dec": -27.812178,
+        "rvz_redshift": 0.4874,
+        "rvz_bibcode": "2016ApJ...830...51S",
+        "separation_arcsec": 2.733034039
+      },
+      {
+        "main_id": "ZFOURGE CDFS 14281",
+        "otype": "G",
+        "ra": 53.1889191,
+        "dec": -27.8134365,
+        "rvz_redshift": 2.1331,
+        "rvz_bibcode": "2016ApJ...830...51S",
+        "separation_arcsec": 3.3256493026
+      },
+      {
+        "main_id": "ZFOURGE CDFS 14287",
+        "otype": "G",
+        "ra": 53.1878891,
+        "dec": -27.8131695,
+        "rvz_redshift": 0.3427,
+        "rvz_bibcode": "2016ApJ...830...51S",
+        "separation_arcsec": 3.3653122511
+      }
+    ]
+  },
+  "zfourge": {
+    "zf_cdfs": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F830%2F51%2Fzf_cdfs&-out.max=2&-out=Seq%2CRAJ2000%2CDEJ2000%2CSNR%2CNghb%2Czspec&Seq=14409",
+        "path": "data/raw/cross_detector/module_b_001_zfourge_zf_cdfs.tsv",
+        "sha256": "c3ae2a8f72e5c66fb49ce9367932be7d2912ecd47800627c48f7b6e4190e9f88",
+        "bytes": 2394
+      },
+      "row": {
+        "Seq": 14409,
+        "RAJ2000": 53.1887283,
+        "DEJ2000": -27.8126373,
+        "SNR": 3.935865,
+        "Nghb": 0,
+        "zspec": null,
+        "separation_from_search_arcsec": 0.3985784250263045
+      }
+    },
+    "cdfsz": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F830%2F51%2Fcdfsz&-out.max=2&-out=Seq%2Czspec%2Czpk%2Czsp%2Czp%2Cl68%2Cu68&Seq=14409",
+        "path": "data/raw/cross_detector/module_b_001_zfourge_cdfsz.tsv",
+        "sha256": "da41bf2f04e20fac895a1efaae86475d4f8d357035a5e6848ebb80e4e3ff9a33",
+        "bytes": 2529
+      },
+      "row": {
+        "Seq": 14409,
+        "zspec": null,
+        "zpk": 2.4858,
+        "zsp": null,
+        "zp": 2.657,
+        "l68": 2.138,
+        "u68": 2.729
+      }
+    },
+    "cdfsxmatch": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F830%2F51%2Fcdfsxmatch&-out.max=2&-out=Seq%2C%5BSWM2014%5D%2CRAJ2000%2CDEJ2000%2CSep%2CirAGN%2CradAGN%2CxAGN&Seq=14409",
+        "path": "data/raw/cross_detector/module_b_001_zfourge_cdfsxmatch.tsv",
+        "sha256": "505239750bc4933a108a2b60601fc853d29fa285b44b6d697d055dcae75b4451",
+        "bytes": 2700
+      },
+      "row": {
+        "Seq": 14409,
+        "[SWM2014]": 21067,
+        "RAJ2000": 53.188648,
+        "DEJ2000": -27.812481,
+        "Sep": 0.62,
+        "irAGN": 0,
+        "radAGN": null,
+        "xAGN": null,
+        "separation_from_search_arcsec": 0.22144509950959412
+      }
+    }
+  },
+  "hduv": {
+    "product": {
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F237%2F12%2Fgoodss&-out.max=2&-out=ID%2CRAJ2000%2CDEJ2000%2Czbest%2Czpeak%2Czspec&ID=21067",
+      "path": "data/raw/cross_detector/module_b_001_hduv_goodss.tsv",
+      "sha256": "4ff9ac8b86a4183f03f8bbe27750248070e10856c30c4fbab0c41dd583410143",
+      "bytes": 2678
+    },
+    "row": {
+      "ID": 21067,
+      "RAJ2000": 53.188647,
+      "DEJ2000": -27.812481,
+      "zbest": 2.263,
+      "zpeak": 2.263,
+      "zspec": null,
+      "separation_from_search_arcsec": 0.22246524405105464
+    }
+  },
+  "muse_hudf_dr2": {
+    "product": {
+      "url": "https://archive.eso.org/tap_cat/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+ID%2CRAJ2000%2CDEJ2000%2Cz%2Ce_z%2Czconf%2CDataSet+FROM+safcat.AMUSED_MAIN_SOURCE_CAT_V1&MAXREC=4000",
+      "path": "data/raw/cross_detector/module_b_001_muse_udf_dr2.csv",
+      "sha256": "de4649d7664e7f9db81ede77e076cd78dc860bd993608b6cf6f1682b7334df0b",
+      "bytes": 127731
+    },
+    "rows": 2221,
+    "radius_arcsec": 1.0,
+    "matches": 0,
+    "closest": [
+      {
+        "ID": 7861,
+        "RAJ2000": 53.1809,
+        "DEJ2000": -27.8058,
+        "z": 4.88697513,
+        "e_z": 2.0422e-05,
+        "zconf": 2,
+        "DataSet": "MOSAIC",
+        "separation_arcsec": 34.6518175325
+      },
+      {
+        "ID": 1094,
+        "RAJ2000": 53.1782,
+        "DEJ2000": -27.8076,
+        "z": 1.22403653,
+        "e_z": 8.6526e-05,
+        "zconf": 3,
+        "DataSet": "MOSAIC",
+        "separation_arcsec": 37.7838155345
+      },
+      {
+        "ID": 7792,
+        "RAJ2000": 53.1791,
+        "DEJ2000": -27.8059,
+        "z": 3.91453292,
+        "e_z": 0.001626786,
+        "zconf": 1,
+        "DataSet": "MOSAIC",
+        "separation_arcsec": 38.7281501379
+      },
+      {
+        "ID": 1373,
+        "RAJ2000": 53.1776,
+        "DEJ2000": -27.8078,
+        "z": 1.41342334,
+        "e_z": 5.4942e-05,
+        "zconf": 3,
+        "DataSet": "MOSAIC",
+        "separation_arcsec": 39.1607296413
+      },
+      {
+        "ID": 6993,
+        "RAJ2000": 53.1807,
+        "DEJ2000": -27.8041,
+        "z": 1.04545971,
+        "e_z": 0.000274029,
+        "zconf": 2,
+        "DataSet": "MOSAIC",
+        "separation_arcsec": 39.5865600773
+      },
+      {
+        "ID": 7067,
+        "RAJ2000": 53.1792,
+        "DEJ2000": -27.8052,
+        "z": 3.72188248,
+        "e_z": 0.000476278,
+        "zconf": 3,
+        "DataSet": "MOSAIC",
+        "separation_arcsec": 40.0922233537
+      },
+      {
+        "ID": 1341,
+        "RAJ2000": 53.1772,
+        "DEJ2000": -27.8078,
+        "z": 1.41276616,
+        "e_z": 0.000280589,
+        "zconf": 2,
+        "DataSet": "MOSAIC",
+        "separation_arcsec": 40.3109837113
+      },
+      {
+        "ID": 1367,
+        "RAJ2000": 53.1815,
+        "DEJ2000": -27.8031,
+        "z": 0.52319264,
+        "e_z": 0.000131049,
+        "zconf": 2,
+        "DataSet": "MOSAIC",
+        "separation_arcsec": 40.9390247848
+      }
+    ]
+  },
+  "six_filter_sha256": "e11e4d84b17423f1c35747230610b650e79294e7570ba9d12cb82edd55c85a34",
+  "script_sha256": "b56eafa8a6b0ba4080b9afc3c337dfd110c2ec71ae6f4748bb33de2844636279",
+  "scope": "Positional neighbours remain separate. ZFOURGE zpk and zp are photometric estimates."
+}

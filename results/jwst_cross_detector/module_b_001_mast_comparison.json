@@ -1,0 +1,3053 @@
+{
+  "executed_utc": "2026-11-23T22:27:23.248693+00:00",
+  "candidate": "GS-001-B-53.188670-27.812539",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "storage_cap_mib": 19500,
+  "half_cutout_arcsec": 16.5,
+  "official_mosaics": [
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+      "etag": "\"86cc772cf885a8284b5d1beabe832d8c-24\"",
+      "object_bytes": 1211872320,
+      "science_array_shape": [
+        4380,
+        9879
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        6030,
+        7089,
+        0,
+        901
+      ],
+      "date_utc": "2025-10-06T08:58:41.024",
+      "exposure_start_mjd": 60954.37408666666,
+      "filter": "F115W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.031227847178745743,
+      "header_pixel_area_sr": 2.2921013892552e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f115w_i2d.fits/86cc772cf885a8284b5d1beabe832d8c-24-0-23039.bytes",
+          "sha256": "ee21e943172934afec94677b5459e4ef293b9a9ec0ce00987d8ea69854536616",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f115w_i2d.fits/86cc772cf885a8284b5d1beabe832d8c-24-23040-46079.bytes",
+          "sha256": "6ce563012a3d8ef3e7da4b3f5f5c4469e83ea46bff80d7bef3441414b4a87631",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f115w_i2d.fits/86cc772cf885a8284b5d1beabe832d8c-24-173116800-173139839.bytes",
+          "sha256": "4d0338ce27c781f41dc00ef13324462c9deab8b7675144b5f9f77fee34a2f01e",
+          "first_byte": 173116800,
+          "last_byte": 173139839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f115w_i2d.fits/86cc772cf885a8284b5d1beabe832d8c-24-346201920-346224959.bytes",
+          "sha256": "adf0af8031de4a04ad33a9617c5c508095e582145284ff6c830002d1752e5e28",
+          "first_byte": 346201920,
+          "last_byte": 346224959
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f115w_i2d.fits/86cc772cf885a8284b5d1beabe832d8c-24-519287040-519310079.bytes",
+          "sha256": "7a3dd2c2d32aa076885ee8d78e5a44151a3a56dffeffc46021a1926db2c7567f",
+          "first_byte": 519287040,
+          "last_byte": 519310079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f115w_i2d.fits/86cc772cf885a8284b5d1beabe832d8c-24-34560-35638475.bytes",
+          "sha256": "577d2f805ab713f2dbcdf94ddcfc862cf9f7e8b5c765a8f44935d615cee0d290",
+          "first_byte": 34560,
+          "last_byte": 35638475
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f115w_i2d.fits/86cc772cf885a8284b5d1beabe832d8c-24-519289920-554893835.bytes",
+          "sha256": "1199649ec2eb31995432d5473c660094226d9026f6db82963f19929f0c19e7f9",
+          "first_byte": 519289920,
+          "last_byte": 554893835
+        }
+      ],
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f115w",
+        "obsid": "354725262",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f115w_i2d.fits",
+        "archive_start_mjd": 60954.37408592593
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+      "etag": "\"116558a0ab00e607aab12858ce8ca2cc-24\"",
+      "object_bytes": 1211872320,
+      "science_array_shape": [
+        4380,
+        9879
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        5969,
+        7028,
+        0,
+        849
+      ],
+      "date_utc": "2026-10-09T23:44:51.326",
+      "exposure_start_mjd": 61322.9894844213,
+      "filter": "F115W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.031227731746757137,
+      "header_pixel_area_sr": 2.29208444403763e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f115w_i2d.fits/116558a0ab00e607aab12858ce8ca2cc-24-0-23039.bytes",
+          "sha256": "936887ec80b4d9e4cdf0c3ad7048947daa41d73c09e48deaa497628af751cddd",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f115w_i2d.fits/116558a0ab00e607aab12858ce8ca2cc-24-23040-46079.bytes",
+          "sha256": "10e7ca398d2ab4298c4a3adcaf7722e075dc4021aa6e12b148e1e4e8f59e36e8",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f115w_i2d.fits/116558a0ab00e607aab12858ce8ca2cc-24-173116800-173139839.bytes",
+          "sha256": "4d0338ce27c781f41dc00ef13324462c9deab8b7675144b5f9f77fee34a2f01e",
+          "first_byte": 173116800,
+          "last_byte": 173139839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f115w_i2d.fits/116558a0ab00e607aab12858ce8ca2cc-24-346201920-346224959.bytes",
+          "sha256": "adf0af8031de4a04ad33a9617c5c508095e582145284ff6c830002d1752e5e28",
+          "first_byte": 346201920,
+          "last_byte": 346224959
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f115w_i2d.fits/116558a0ab00e607aab12858ce8ca2cc-24-519287040-519310079.bytes",
+          "sha256": "7a3dd2c2d32aa076885ee8d78e5a44151a3a56dffeffc46021a1926db2c7567f",
+          "first_byte": 519287040,
+          "last_byte": 519310079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f115w_i2d.fits/116558a0ab00e607aab12858ce8ca2cc-24-34560-33583643.bytes",
+          "sha256": "3ef2475c60519ef0b898eea230fac25212c95a4a2afca15fc441dac5d6d63ded",
+          "first_byte": 34560,
+          "last_byte": 33583643
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f115w_i2d.fits/116558a0ab00e607aab12858ce8ca2cc-24-519289920-552839003.bytes",
+          "sha256": "629e8795a987a66a2c56b1e9ad854514d6beb25dab38a9af65dc73a8a3ea4032",
+          "first_byte": 519289920,
+          "last_byte": 552839003
+        }
+      ],
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f115w",
+        "obsid": "454289825",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f115w_i2d.fits",
+        "archive_start_mjd": 61322.98948293982
+      }
+    },
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+      "etag": "\"5a871e5429b14433c30fb6212c933bb8-24\"",
+      "object_bytes": 1211993280,
+      "science_array_shape": [
+        4380,
+        9880
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        6030,
+        7089,
+        0,
+        901
+      ],
+      "date_utc": "2025-10-06T10:15:59.291",
+      "exposure_start_mjd": 60954.4277703125,
+      "filter": "F150W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.031227823675291713,
+      "header_pixel_area_sr": 2.29209793898346e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-0-23039.bytes",
+          "sha256": "c4061b026335229d1483bc13d8e1bf49a67ae31720f6d5c3ebb6deab97590b18",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-23040-46079.bytes",
+          "sha256": "930ef5afa9a637313c7bd9dda08eeba9e0a7ef52758b593f1534a7252d2b4692",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-173134080-173157119.bytes",
+          "sha256": "199a60255ba386d941f87fbbabd32d7a11983afa26f1863482e11a202b3f9272",
+          "first_byte": 173134080,
+          "last_byte": 173157119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-346236480-346259519.bytes",
+          "sha256": "59881b1ca8cd5409a593a8f6e8287dcb4cd5b157981717c645c24d5df995286e",
+          "first_byte": 346236480,
+          "last_byte": 346259519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-519338880-519361919.bytes",
+          "sha256": "c1bca2a8ca4bee9d241cacd036a63b79652c15b285696e1f8e2fbd5811c36905",
+          "first_byte": 519338880,
+          "last_byte": 519361919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-34560-35642079.bytes",
+          "sha256": "374de5aaf1c03f560b94649d18484895736fc7b914d2642eea9057c42dc2bfc5",
+          "first_byte": 34560,
+          "last_byte": 35642079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-519341760-554949279.bytes",
+          "sha256": "1c381adb0e6307643f81ab9a4045ea85cfa4c40b0eec2e874e534f51abf8e5e9",
+          "first_byte": 519341760,
+          "last_byte": 554949279
+        }
+      ],
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f150w",
+        "obsid": "354725273",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+        "archive_start_mjd": 60954.42776957176
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+      "etag": "\"62af8abf9619ce07aea2913cc1b6e27b-24\"",
+      "object_bytes": 1211993280,
+      "science_array_shape": [
+        4380,
+        9880
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        5970,
+        7029,
+        0,
+        850
+      ],
+      "date_utc": "2026-10-10T01:01:05.210",
+      "exposure_start_mjd": 61323.04242215278,
+      "filter": "F150W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.031227708194299795,
+      "header_pixel_area_sr": 2.29208098658506e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-0-23039.bytes",
+          "sha256": "f88a65f780005406f5e827c044ab51b1ebd93c5958b63b3e43f5342f5998938e",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-23040-46079.bytes",
+          "sha256": "1ce411f4af239e0b816f4cc589dc9451efe0601a96a6bce1f466c890571857f3",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-173134080-173157119.bytes",
+          "sha256": "199a60255ba386d941f87fbbabd32d7a11983afa26f1863482e11a202b3f9272",
+          "first_byte": 173134080,
+          "last_byte": 173157119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-346236480-346259519.bytes",
+          "sha256": "59881b1ca8cd5409a593a8f6e8287dcb4cd5b157981717c645c24d5df995286e",
+          "first_byte": 346236480,
+          "last_byte": 346259519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-519338880-519361919.bytes",
+          "sha256": "c1bca2a8ca4bee9d241cacd036a63b79652c15b285696e1f8e2fbd5811c36905",
+          "first_byte": 519338880,
+          "last_byte": 519361919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-34560-33626559.bytes",
+          "sha256": "5ad493e151a2032516199a043d0194618873767e421f7b775fb9314ffb77d884",
+          "first_byte": 34560,
+          "last_byte": 33626559
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-519341760-552933759.bytes",
+          "sha256": "3f631aa11c10713bbd21a2e9dcddc4d74f143b82b35ef5e6f452f4789b0c7ef7",
+          "first_byte": 519341760,
+          "last_byte": 552933759
+        }
+      ],
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f150w",
+        "obsid": "454289820",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+        "archive_start_mjd": 61323.04242141204
+      }
+    },
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+      "etag": "\"f2641c8d022cfe08102ecb0890e1079f-24\"",
+      "object_bytes": 1214009280,
+      "science_array_shape": [
+        4386,
+        9883
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        6032,
+        7091,
+        0,
+        906
+      ],
+      "date_utc": "2025-10-06T07:41:22.693",
+      "exposure_start_mjd": 60954.32040228009,
+      "filter": "F200W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.03122926144397576,
+      "header_pixel_area_sr": 2.29230900604573e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-0-23039.bytes",
+          "sha256": "35ba904ad62d05be0823ed291dab90f5567669862763342e82065aad4414da2a",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-23040-46079.bytes",
+          "sha256": "61964398b24872e8715fbdf064a99a897b65c178634ae31d6370ff76e257dd6c",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-173422080-173445119.bytes",
+          "sha256": "0253e6b2b22594d5fea05ba127e22a280acd99de53d50ffa94beb7ce8e846f90",
+          "first_byte": 173422080,
+          "last_byte": 173445119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-346812480-346835519.bytes",
+          "sha256": "8819f0d05ac240b8fa9560b0304850fabfad5256ade002ab62ae7ef85c389bbf",
+          "first_byte": 346812480,
+          "last_byte": 346835519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-520202880-520225919.bytes",
+          "sha256": "66e5a5483ee16e12cf49ac501e5843110204b638e5e60ede97c9624743e4ce8e",
+          "first_byte": 520202880,
+          "last_byte": 520225919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-34560-35850551.bytes",
+          "sha256": "5a7ec8bdf967a906ad5d6c4a6a4e50e054d54105c92dfbb0b162420574361934",
+          "first_byte": 34560,
+          "last_byte": 35850551
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-520205760-556021751.bytes",
+          "sha256": "1b6fdf5574f0a93addeb6792264f05bdc9f9b0d0d784b1fdb7fa0aaa94ac5c6e",
+          "first_byte": 520205760,
+          "last_byte": 556021751
+        }
+      ],
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f200w",
+        "obsid": "354725250",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+        "archive_start_mjd": 60954.32040153935
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+      "etag": "\"c47609bc349f007e82d4681c2bcaca9e-24\"",
+      "object_bytes": 1214009280,
+      "science_array_shape": [
+        4386,
+        9883
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        5972,
+        7031,
+        0,
+        854
+      ],
+      "date_utc": "2026-10-09T22:28:37.507",
+      "exposure_start_mjd": 61322.93654596065,
+      "filter": "F200W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.03122914605941876,
+      "header_pixel_area_sr": 2.29229206702391e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-0-23039.bytes",
+          "sha256": "c4fa1b77bb4ca3f8c8e203fa9c62d34acc8b9888feff66c3abf268852c6ca660",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-23040-46079.bytes",
+          "sha256": "5d581783742652adf6c23e5272ec3572a326e320f310ec88a64d2b7d64cd205b",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-173422080-173445119.bytes",
+          "sha256": "0253e6b2b22594d5fea05ba127e22a280acd99de53d50ffa94beb7ce8e846f90",
+          "first_byte": 173422080,
+          "last_byte": 173445119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-346812480-346835519.bytes",
+          "sha256": "8819f0d05ac240b8fa9560b0304850fabfad5256ade002ab62ae7ef85c389bbf",
+          "first_byte": 346812480,
+          "last_byte": 346835519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-520202880-520225919.bytes",
+          "sha256": "66e5a5483ee16e12cf49ac501e5843110204b638e5e60ede97c9624743e4ce8e",
+          "first_byte": 520202880,
+          "last_byte": 520225919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-34560-33794887.bytes",
+          "sha256": "4a151ec8d10ab0421efeabd054a487a5532d5dbb815386db8971c0b396bebfc0",
+          "first_byte": 34560,
+          "last_byte": 33794887
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-520205760-553966087.bytes",
+          "sha256": "d65ddd82ad1b201a5e2e21a0382cbb20dc2cbe8c539ad73c1e0a925b70083020",
+          "first_byte": 520205760,
+          "last_byte": 553966087
+        }
+      ],
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f200w",
+        "obsid": "454289822",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+        "archive_start_mjd": 61322.93654521991
+      }
+    },
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+      "etag": "\"a4f9454b261092346f7a280bd153332d-6\"",
+      "object_bytes": 287691840,
+      "science_array_shape": [
+        2109,
+        4868
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2966,
+        3493,
+        0,
+        407
+      ],
+      "date_utc": "2025-10-06T07:41:22.757",
+      "exposure_start_mjd": 60954.32040228009,
+      "filter": "F277W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290838543981636,
+      "header_pixel_area_sr": 9.30179602313742e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-0-23039.bytes",
+          "sha256": "cb4cb22fd529a12ae84c437da7c074045d538044fe3e21105c5bf899c2a398e1",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-23040-46079.bytes",
+          "sha256": "ed22f0dfc2d29145718e7cb637544dd536fc40df6fa88f02767c89c7ae243c5c",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-41100480-41123519.bytes",
+          "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+          "first_byte": 41100480,
+          "last_byte": 41123519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-82172160-82195199.bytes",
+          "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+          "first_byte": 82172160,
+          "last_byte": 82195199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-123243840-123266879.bytes",
+          "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+          "first_byte": 123243840,
+          "last_byte": 123266879
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-31680-7956783.bytes",
+          "sha256": "dc14b188f87eb6ea23b9bd3d9bf3c1990e1d4dd9afda24550f6439d292d2a179",
+          "first_byte": 31680,
+          "last_byte": 7956783
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-123246720-131171823.bytes",
+          "sha256": "854b320a919cf6d736813b03ef5e3bcee5bdd5393c7fd438f9abaca84de1b853",
+          "first_byte": 123246720,
+          "last_byte": 131171823
+        }
+      ],
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f277w",
+        "obsid": "354725265",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+        "archive_start_mjd": 60954.32040228009
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+      "etag": "\"6028b42e28de076ec77765aa25140b0f-6\"",
+      "object_bytes": 287691840,
+      "science_array_shape": [
+        2109,
+        4868
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2935,
+        3462,
+        0,
+        382
+      ],
+      "date_utc": "2026-10-09T22:28:37.507",
+      "exposure_start_mjd": 61322.93654596065,
+      "filter": "F277W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290815292888688,
+      "header_pixel_area_sr": 9.30172726393379e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-0-23039.bytes",
+          "sha256": "dd3b96249b007dc93ea49e76d63a10614dc6696998596282ba6366a37b6eac12",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-23040-46079.bytes",
+          "sha256": "4fd0b0a95d2a43905e09848673092c3892b350bec1434d6a253fbc382bdfd421",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-41100480-41123519.bytes",
+          "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+          "first_byte": 41100480,
+          "last_byte": 41123519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-82172160-82195199.bytes",
+          "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+          "first_byte": 82172160,
+          "last_byte": 82195199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-123243840-123266879.bytes",
+          "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+          "first_byte": 123243840,
+          "last_byte": 123266879
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-31680-7469983.bytes",
+          "sha256": "044efe2acc1571df61d07ffff85df548aeb853270fa2e726b9b66ff39a4e2836",
+          "first_byte": 31680,
+          "last_byte": 7469983
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-123246720-130685023.bytes",
+          "sha256": "7145d5efb44d7324738f765b2489bd57b5cf0d78dc85d8a7b4bf115eeea2d928",
+          "first_byte": 123246720,
+          "last_byte": 130685023
+        }
+      ],
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f277w",
+        "obsid": "454289821",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+        "archive_start_mjd": 61322.93654521991
+      }
+    },
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+      "etag": "\"708e617d4c01a5569b8fd2e868129b68-6\"",
+      "object_bytes": 287752320,
+      "science_array_shape": [
+        2109,
+        4869
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2966,
+        3493,
+        0,
+        407
+      ],
+      "date_utc": "2025-10-06T10:15:59.291",
+      "exposure_start_mjd": 60954.4277703125,
+      "filter": "F356W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290803438730388,
+      "header_pixel_area_sr": 9.30169220836833e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-0-23039.bytes",
+          "sha256": "7d562515f9eb9399c0376998f4ea7691b24a7d4a6172b8a0429fa5da0e86bda3",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-23040-46079.bytes",
+          "sha256": "aeefb7dfb862bbde2e038366a09ce656b3d4f72c954fecae2ec97f905e565c85",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-41109120-41132159.bytes",
+          "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+          "first_byte": 41109120,
+          "last_byte": 41132159
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-82189440-82212479.bytes",
+          "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+          "first_byte": 82189440,
+          "last_byte": 82212479
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-123269760-123292799.bytes",
+          "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+          "first_byte": 123269760,
+          "last_byte": 123292799
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-31680-7958411.bytes",
+          "sha256": "850b34fe62ebabb7d402c756938bc50371d6eb6c004a61c32d60f6e5db98f3c0",
+          "first_byte": 31680,
+          "last_byte": 7958411
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-123272640-131199371.bytes",
+          "sha256": "001e8af1ce3df1827b9ca218fb85ef47e898866286f3bc2cbcd4bae560dd90b0",
+          "first_byte": 123272640,
+          "last_byte": 131199371
+        }
+      ],
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f356w",
+        "obsid": "354725280",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+        "archive_start_mjd": 60954.42776957176
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+      "etag": "\"bf3e1c5ef90af6243319f666232a7e96-6\"",
+      "object_bytes": 287752320,
+      "science_array_shape": [
+        2109,
+        4869
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2936,
+        3463,
+        0,
+        382
+      ],
+      "date_utc": "2026-10-10T01:01:05.210",
+      "exposure_start_mjd": 61323.04242215278,
+      "filter": "F356W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290780178395844,
+      "header_pixel_area_sr": 9.30162342221895e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-0-23039.bytes",
+          "sha256": "79f0e7dd81400123ae0a401ad79b2151d00f4bf26f035d850e33f91ddc7dcf5b",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-23040-46079.bytes",
+          "sha256": "79fd42857e23a213efac367b0dcf735b8461b125bdb3ca4cf43e38e0098f1aaa",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-41109120-41132159.bytes",
+          "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+          "first_byte": 41109120,
+          "last_byte": 41132159
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-82189440-82212479.bytes",
+          "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+          "first_byte": 82189440,
+          "last_byte": 82212479
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-123269760-123292799.bytes",
+          "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+          "first_byte": 123269760,
+          "last_byte": 123292799
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-31680-7471511.bytes",
+          "sha256": "f42bee8f28010958220d255d078673daa1819abb73dfbe3294f32ae89903eecc",
+          "first_byte": 31680,
+          "last_byte": 7471511
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-123272640-130712471.bytes",
+          "sha256": "b0df9eea76ef49930ca5745c367be9c0e71710a32a7add4ae942204a92295977",
+          "first_byte": 123272640,
+          "last_byte": 130712471
+        }
+      ],
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f356w",
+        "obsid": "454289824",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+        "archive_start_mjd": 61323.04242141204
+      }
+    },
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+      "etag": "\"b29f7713fcb72c0da9d1294a6c8c7701-6\"",
+      "object_bytes": 287691840,
+      "science_array_shape": [
+        2109,
+        4868
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2965,
+        3492,
+        0,
+        408
+      ],
+      "date_utc": "2025-10-06T08:58:41.024",
+      "exposure_start_mjd": 60954.37408666666,
+      "filter": "F444W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06291280964927988,
+      "header_pixel_area_sr": 9.30310441917426e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f444w_i2d.fits/b29f7713fcb72c0da9d1294a6c8c7701-6-0-23039.bytes",
+          "sha256": "3568079cdba2ba444cf5b2fd72d04242657d747be9ddc15dab1f6d55ab2fef2c",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f444w_i2d.fits/b29f7713fcb72c0da9d1294a6c8c7701-6-23040-46079.bytes",
+          "sha256": "53fc9cb99e81f2519e71efeafc23b95310ccbb7ca0363591ace4329cdd5e6f61",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f444w_i2d.fits/b29f7713fcb72c0da9d1294a6c8c7701-6-41100480-41123519.bytes",
+          "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+          "first_byte": 41100480,
+          "last_byte": 41123519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f444w_i2d.fits/b29f7713fcb72c0da9d1294a6c8c7701-6-82172160-82195199.bytes",
+          "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+          "first_byte": 82172160,
+          "last_byte": 82195199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f444w_i2d.fits/b29f7713fcb72c0da9d1294a6c8c7701-6-123243840-123266879.bytes",
+          "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+          "first_byte": 123243840,
+          "last_byte": 123266879
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f444w_i2d.fits/b29f7713fcb72c0da9d1294a6c8c7701-6-31680-7976255.bytes",
+          "sha256": "a8ef12113c92f31768d9519c5cfd0505790ad8e5d3a620ff97fa9d0f8bb77278",
+          "first_byte": 31680,
+          "last_byte": 7976255
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f444w_i2d.fits/b29f7713fcb72c0da9d1294a6c8c7701-6-123246720-131191295.bytes",
+          "sha256": "96d1656c4ecd917854a04b66b5a15099ebf470f63934cdcf7f07700942688193",
+          "first_byte": 123246720,
+          "last_byte": 131191295
+        }
+      ],
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f444w",
+        "obsid": "354725277",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f444w_i2d.fits",
+        "archive_start_mjd": 60954.37408592593
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+      "etag": "\"7bb0f8a1516325499be566ec9ca271ba-6\"",
+      "object_bytes": 287691840,
+      "science_array_shape": [
+        2109,
+        4868
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2935,
+        3462,
+        0,
+        382
+      ],
+      "date_utc": "2026-10-09T23:44:51.326",
+      "exposure_start_mjd": 61322.989483680554,
+      "filter": "F444W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06291257709088512,
+      "header_pixel_area_sr": 9.3030356410973e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f444w_i2d.fits/7bb0f8a1516325499be566ec9ca271ba-6-0-23039.bytes",
+          "sha256": "ef62ec71fd4e9ab5558b837d62356ec0f17f5787a12df93c29251bd76fabaf53",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f444w_i2d.fits/7bb0f8a1516325499be566ec9ca271ba-6-23040-46079.bytes",
+          "sha256": "a2681cfbfee8fb8c49f8badd2b380a6f5e2b2cb2f3631d69cffa9f887618d8bd",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f444w_i2d.fits/7bb0f8a1516325499be566ec9ca271ba-6-41100480-41123519.bytes",
+          "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+          "first_byte": 41100480,
+          "last_byte": 41123519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f444w_i2d.fits/7bb0f8a1516325499be566ec9ca271ba-6-82172160-82195199.bytes",
+          "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+          "first_byte": 82172160,
+          "last_byte": 82195199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f444w_i2d.fits/7bb0f8a1516325499be566ec9ca271ba-6-123243840-123266879.bytes",
+          "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+          "first_byte": 123243840,
+          "last_byte": 123266879
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f444w_i2d.fits/7bb0f8a1516325499be566ec9ca271ba-6-31680-7469983.bytes",
+          "sha256": "d56e35497a47518c0fb1620b022ce7381eb8ad8c115f485d8e15f18d0b549733",
+          "first_byte": 31680,
+          "last_byte": 7469983
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f444w_i2d.fits/7bb0f8a1516325499be566ec9ca271ba-6-123246720-130685023.bytes",
+          "sha256": "68c716b037277559a775f131183f39ec0833d06687174a9f9e6b4fa2aab8aac2",
+          "first_byte": 123246720,
+          "last_byte": 130685023
+        }
+      ],
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f444w",
+        "obsid": "454289823",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f444w_i2d.fits",
+        "archive_start_mjd": 61322.98948293982
+      }
+    }
+  ],
+  "bands": {
+    "F115W": {
+      "registration": {
+        "reference_count": 16,
+        "reference_sources": [
+          {
+            "offset_arcsec": [
+              -3.6419709003016636,
+              -4.534901067102149
+            ],
+            "old_njy": 78.99137878417969,
+            "new_njy": 84.73770141601562,
+            "new_to_old": 1.0727461999053851,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.007664283943140518,
+              8.593832125087034e-05
+            ],
+            "new_minus_old_variance_arcsec2": 0.003306105737983206
+          },
+          {
+            "offset_arcsec": [
+              3.103244090307417,
+              -3.972799817884726
+            ],
+            "old_njy": 93.58365631103516,
+            "new_njy": 83.57421112060547,
+            "new_to_old": 0.8930428069922568,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0021599890686269272,
+              -0.007903995729950118
+            ],
+            "new_minus_old_variance_arcsec2": 0.0001587032179003003
+          },
+          {
+            "offset_arcsec": [
+              -5.859148049992611,
+              -3.0671922497010997
+            ],
+            "old_njy": 102.33079528808594,
+            "new_njy": 112.68904113769531,
+            "new_to_old": 1.1012231539923871,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.005230465650885673,
+              -0.013187229569345043
+            ],
+            "new_minus_old_variance_arcsec2": 0.0008812270439533102
+          },
+          {
+            "offset_arcsec": [
+              2.5411428410899934,
+              -2.4426353061261845
+            ],
+            "old_njy": 81.2270278930664,
+            "new_njy": 78.58475494384766,
+            "new_to_old": 0.967470520370421,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0017058039979087822,
+              -0.007148294785344957
+            ],
+            "new_minus_old_variance_arcsec2": 5.690795269402277e-05
+          },
+          {
+            "offset_arcsec": [
+              -5.671780966920137,
+              -0.10054676772025394
+            ],
+            "old_njy": 270.21258544921875,
+            "new_njy": 273.6803283691406,
+            "new_to_old": 1.0128333878829399,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0021402209434323565,
+              -0.011102182420938272
+            ],
+            "new_minus_old_variance_arcsec2": 0.0005766903833653702
+          },
+          {
+            "offset_arcsec": [
+              3.134471937486163,
+              0.5552380230334066
+            ],
+            "old_njy": 130.9408416748047,
+            "new_njy": 139.0770263671875,
+            "new_to_old": 1.0621363402611177,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.000509148407603105,
+              -0.013736091024272357
+            ],
+            "new_minus_old_variance_arcsec2": 0.0005912969071299621
+          },
+          {
+            "offset_arcsec": [
+              7.475142695331821,
+              2.1790860763281854
+            ],
+            "old_njy": 406.3560791015625,
+            "new_njy": 408.42437744140625,
+            "new_to_old": 1.0050898668586838,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0015070662274124982,
+              -0.00884255492707387
+            ],
+            "new_minus_old_variance_arcsec2": 0.00012779516720965453
+          },
+          {
+            "offset_arcsec": [
+              0.5425606216502661,
+              2.241541770685677
+            ],
+            "old_njy": 142.57339477539062,
+            "new_njy": 139.67098999023438,
+            "new_to_old": 0.9796427321539991,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.00698258632051205,
+              -0.012412140595920522
+            ],
+            "new_minus_old_variance_arcsec2": 0.00020422578844057904
+          },
+          {
+            "offset_arcsec": [
+              -8.888249226330949,
+              2.335225312221914
+            ],
+            "old_njy": 117.27897644042969,
+            "new_njy": 126.53944396972656,
+            "new_to_old": 1.0789610193605381,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0023529789910956313,
+              -0.027396074629148004
+            ],
+            "new_minus_old_variance_arcsec2": 0.004465378148488077
+          },
+          {
+            "offset_arcsec": [
+              1.2608011067614182,
+              3.927845518337947
+            ],
+            "old_njy": 1263.7841796875,
+            "new_njy": 1249.53173828125,
+            "new_to_old": 0.9887224087503815,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.002207905501641151,
+              -0.007811798321606713
+            ],
+            "new_minus_old_variance_arcsec2": 0.00023837789794854463
+          },
+          {
+            "offset_arcsec": [
+              3.072016243128671,
+              3.9590733655166925
+            ],
+            "old_njy": 119.3687744140625,
+            "new_njy": 119.39054870605469,
+            "new_to_old": 1.000182411959066,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.005570844045102755,
+              -0.007293838961629993
+            ],
+            "new_minus_old_variance_arcsec2": -0.0003882916456902155
+          },
+          {
+            "offset_arcsec": [
+              -4.922312634630239,
+              5.676604960347708
+            ],
+            "old_njy": 127.98059844970703,
+            "new_njy": 126.24793243408203,
+            "new_to_old": 0.9864614946592402,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.002880397874485745,
+              -0.014885299878038213
+            ],
+            "new_minus_old_variance_arcsec2": 0.00017590724083170993
+          },
+          {
+            "offset_arcsec": [
+              1.8541302031575873,
+              6.426073292637606
+            ],
+            "old_njy": 120.17730712890625,
+            "new_njy": 119.48059844970703,
+            "new_to_old": 0.9942026602538871,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0102954890745443,
+              -0.0030715378023054886
+            ],
+            "new_minus_old_variance_arcsec2": -0.0006553678836979486
+          },
+          {
+            "offset_arcsec": [
+              0.8236112462589777,
+              11.01656682791323
+            ],
+            "old_njy": 479.9349670410156,
+            "new_njy": 483.4241943359375,
+            "new_to_old": 1.007270208537699,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.005572793660328604,
+              -0.009098985197923112
+            ],
+            "new_minus_old_variance_arcsec2": -9.11374416283535e-05
+          },
+          {
+            "offset_arcsec": [
+              -3.1735531926204774,
+              12.296908562241807
+            ],
+            "old_njy": 627.669189453125,
+            "new_njy": 627.0298461914062,
+            "new_to_old": 0.9989814009155431,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.00330689450458118,
+              -0.008120051990531176
+            ],
+            "new_minus_old_variance_arcsec2": -4.178651895920182e-05
+          },
+          {
+            "offset_arcsec": [
+              5.757611100500805,
+              12.48427564531428
+            ],
+            "old_njy": 101.79950714111328,
+            "new_njy": 98.15975952148438,
+            "new_to_old": 0.964245921008404,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.010174930135832738,
+              -0.003489055368537917
+            ],
+            "new_minus_old_variance_arcsec2": 0.0004418852234102065
+          }
+        ],
+        "old_to_new_xy_arcsec": [
+          0.0030936461895334625,
+          -0.008481303458802523
+        ],
+        "held_out_reference_radius68_arcsec": 0.006780912792376877,
+        "matched_variance_arcsec2": 0.00019006651463614448,
+        "new_to_old_scale": 0.9995819064373046
+      },
+      "aperture_photometry": {
+        "older": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 35.54494857788086,
+            "local_mad_sigma_njy": 1.9972787103652954,
+            "control_median_njy": -0.1502397060394287,
+            "control_count": 338
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 44.085933685302734,
+            "local_mad_sigma_njy": 3.466371556091308,
+            "control_median_njy": -0.10082197189331055,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 50.19712448120117,
+            "local_mad_sigma_njy": 5.127859696483612,
+            "control_median_njy": 0.11262035369873047,
+            "control_count": 337
+          }
+        ],
+        "newer_on_old_grid": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 41.69437789916992,
+            "local_mad_sigma_njy": 1.8328577742576597,
+            "control_median_njy": 0.13731765747070312,
+            "control_count": 335
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 51.478981018066406,
+            "local_mad_sigma_njy": 3.619198368358612,
+            "control_median_njy": 0.010972023010253906,
+            "control_count": 335
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 53.35612487792969,
+            "local_mad_sigma_njy": 5.172313263988495,
+            "control_median_njy": -0.3259758949279785,
+            "control_count": 335
+          }
+        ],
+        "unmatched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 5.971459865570068,
+            "local_mad_sigma_njy": 2.651217340707779,
+            "control_median_njy": 0.2665369510650635,
+            "control_count": 334
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 7.015315532684326,
+            "local_mad_sigma_njy": 4.200956154727936,
+            "control_median_njy": 0.10313844680786133,
+            "control_count": 333
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 2.4798059463500977,
+            "local_mad_sigma_njy": 6.145468876361846,
+            "control_median_njy": -0.21663570404052734,
+            "control_count": 333
+          }
+        ],
+        "matched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 7.535920143127441,
+            "local_mad_sigma_njy": 2.60711053647995,
+            "control_median_njy": 0.14944887161254883,
+            "control_count": 333
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 7.38307523727417,
+            "local_mad_sigma_njy": 4.089372610187531,
+            "control_median_njy": 0.1909956932067871,
+            "control_count": 333
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 2.9754247665405273,
+            "local_mad_sigma_njy": 6.323357377052306,
+            "control_median_njy": 0.02451944351196289,
+            "control_count": 333
+          }
+        ]
+      },
+      "astrometry": null
+    },
+    "F150W": {
+      "registration": {
+        "reference_count": 18,
+        "reference_sources": [
+          {
+            "offset_arcsec": [
+              -3.5567201268391986,
+              -4.54186247449413
+            ],
+            "old_njy": 91.24360656738281,
+            "new_njy": 87.78276824951172,
+            "new_to_old": 0.9620703471939671,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0031877943655015933,
+              -0.022375331453380835
+            ],
+            "new_minus_old_variance_arcsec2": -0.0001357374108968655
+          },
+          {
+            "offset_arcsec": [
+              3.094806315997936,
+              -3.9797616483388794
+            ],
+            "old_njy": 88.37096405029297,
+            "new_njy": 88.23307800292969,
+            "new_to_old": 0.998439690583382,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.004645710193839452,
+              -0.010542462245445385
+            ],
+            "new_minus_old_variance_arcsec2": 0.00022705535965390506
+          },
+          {
+            "offset_arcsec": [
+              -5.836351255135494,
+              -3.0741547617554197
+            ],
+            "old_njy": 117.00370788574219,
+            "new_njy": 121.576416015625,
+            "new_to_old": 1.0390817369168182,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0019236204443172297,
+              -0.009168497951032716
+            ],
+            "new_minus_old_variance_arcsec2": -0.00016577619252837981
+          },
+          {
+            "offset_arcsec": [
+              2.5327054898426855,
+              -2.4808261119248773
+            ],
+            "old_njy": 168.64776611328125,
+            "new_njy": 170.9283447265625,
+            "new_to_old": 1.013522732413481,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0028255264803034585,
+              -0.010546937333317786
+            ],
+            "new_minus_old_variance_arcsec2": 1.683378238323996e-05
+          },
+          {
+            "offset_arcsec": [
+              -5.680212136759035,
+              -0.107511512602707
+            ],
+            "old_njy": 297.61737060546875,
+            "new_njy": 293.9058532714844,
+            "new_to_old": 0.9875292314879548,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0010732904255271228,
+              -0.010450111369249379
+            ],
+            "new_minus_old_variance_arcsec2": 0.00019196597029928373
+          },
+          {
+            "offset_arcsec": [
+              3.094806315997936,
+              0.548272784578419
+            ],
+            "old_njy": 141.17376708984375,
+            "new_njy": 137.80715942382812,
+            "new_to_old": 0.9761527390292483,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.004647958404205224,
+              -0.01219195768944503
+            ],
+            "new_minus_old_variance_arcsec2": 0.001556777249274474
+          },
+          {
+            "offset_arcsec": [
+              7.466701630538776,
+              2.172119615693588
+            ],
+            "old_njy": 613.7965087890625,
+            "new_njy": 624.2720336914062,
+            "new_to_old": 1.0170667717270183,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0027092342349352046,
+              -0.01180486783583761
+            ],
+            "new_minus_old_variance_arcsec2": -7.848319035205949e-05
+          },
+          {
+            "offset_arcsec": [
+              0.502896950948724,
+              2.2345752630441713
+            ],
+            "old_njy": 148.11874389648438,
+            "new_njy": 133.9560089111328,
+            "new_to_old": 0.9043825608239734,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0005731337243562364,
+              -0.010702446316089378
+            ],
+            "new_minus_old_variance_arcsec2": 0.0009383706672876522
+          },
+          {
+            "offset_arcsec": [
+              -8.86545015163879,
+              2.39071438142063
+            ],
+            "old_njy": 126.89506530761719,
+            "new_njy": 128.18894958496094,
+            "new_to_old": 1.0101964901015428,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0037864539090984592,
+              -0.010296960607882231
+            ],
+            "new_minus_old_variance_arcsec2": -0.006513680415307737
+          },
+          {
+            "offset_arcsec": [
+              1.2523647191557252,
+              3.952105565185216
+            ],
+            "old_njy": 1529.259765625,
+            "new_njy": 1509.761962890625,
+            "new_to_old": 0.987250169544344,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.003543872439381193,
+              -0.010184562222660482
+            ],
+            "new_minus_old_variance_arcsec2": 0.00017298807472566078
+          },
+          {
+            "offset_arcsec": [
+              3.2821732580496863,
+              4.326839449288716
+            ],
+            "old_njy": 229.65435791015625,
+            "new_njy": 231.51333618164062,
+            "new_to_old": 1.0080946788399794,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0019166866138566312,
+              -0.013788275731799597
+            ],
+            "new_minus_old_variance_arcsec2": 3.704369782685929e-05
+          },
+          {
+            "offset_arcsec": [
+              -4.930744368552034,
+              5.700863691001552
+            ],
+            "old_njy": 129.81419372558594,
+            "new_njy": 126.50982666015625,
+            "new_to_old": 0.9745454100927147,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0006714074368698196,
+              -0.008555907293565012
+            ],
+            "new_minus_old_variance_arcsec2": 0.001961521520924629
+          },
+          {
+            "offset_arcsec": [
+              1.8456933689862676,
+              6.419103635533261
+            ],
+            "old_njy": 138.60220336914062,
+            "new_njy": 139.2345733642578,
+            "new_to_old": 1.004562481546076,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.002320072210023819,
+              -0.005623069673493011
+            ],
+            "new_minus_old_variance_arcsec2": -0.00028773221677508634
+          },
+          {
+            "offset_arcsec": [
+              -0.6213047013617776,
+              7.949266995622555
+            ],
+            "old_njy": 143.58982849121094,
+            "new_njy": 151.27157592773438,
+            "new_to_old": 1.0534978523008238,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.005338391739155456,
+              -0.005681079622258976
+            ],
+            "new_minus_old_variance_arcsec2": -0.00019010071892274112
+          },
+          {
+            "offset_arcsec": [
+              -7.21037549684833,
+              9.073468647933057
+            ],
+            "old_njy": 113.8940200805664,
+            "new_njy": 111.07000732421875,
+            "new_to_old": 0.9752049075592379,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.005916625536404464,
+              -0.004022094343286966
+            ],
+            "new_minus_old_variance_arcsec2": -0.0006072038346900165
+          },
+          {
+            "offset_arcsec": [
+              0.8151751877016411,
+              11.009593715801143
+            ],
+            "old_njy": 515.1913452148438,
+            "new_njy": 527.015625,
+            "new_to_old": 1.0229512391754665,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0041610720496848,
+              -0.014591121222548548
+            ],
+            "new_minus_old_variance_arcsec2": 0.0014956851809547313
+          },
+          {
+            "offset_arcsec": [
+              -3.21321406641099,
+              12.321162310163395
+            ],
+            "old_njy": 1217.7025146484375,
+            "new_njy": 1223.151123046875,
+            "new_to_old": 1.0044744987654153,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.002156984068825379,
+              -0.011045978517066114
+            ],
+            "new_minus_old_variance_arcsec2": 3.35443087609486e-05
+          },
+          {
+            "offset_arcsec": [
+              5.780399152073024,
+              12.508529252215146
+            ],
+            "old_njy": 98.05099487304688,
+            "new_njy": 99.91500091552734,
+            "new_to_old": 1.0190105775560352,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.004912274702521872,
+              -0.013656630704652162
+            ],
+            "new_minus_old_variance_arcsec2": 0.000666548194356781
+          }
+        ],
+        "old_to_new_xy_arcsec": [
+          -0.0027673803576193316,
+          -0.010544699789381586
+        ],
+        "held_out_reference_radius68_arcsec": 0.0039056831053532505,
+        "matched_variance_arcsec2": 3.5294003293903945e-05,
+        "new_to_old_scale": 1.0044744987654153
+      },
+      "aperture_photometry": {
+        "older": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 45.879146575927734,
+            "local_mad_sigma_njy": 1.5206782133102417,
+            "control_median_njy": -0.18748998641967773,
+            "control_count": 338
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 58.328338623046875,
+            "local_mad_sigma_njy": 2.837141488265991,
+            "control_median_njy": -0.1990489959716797,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 66.2101821899414,
+            "local_mad_sigma_njy": 4.244790072870254,
+            "control_median_njy": 0.05323147773742676,
+            "control_count": 337
+          }
+        ],
+        "newer_on_old_grid": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 67.78640747070312,
+            "local_mad_sigma_njy": 1.7053931078910827,
+            "control_median_njy": 0.07798075675964355,
+            "control_count": 336
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 84.43792724609375,
+            "local_mad_sigma_njy": 2.8160179136753083,
+            "control_median_njy": 0.11448502540588379,
+            "control_count": 336
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 94.7623062133789,
+            "local_mad_sigma_njy": 4.334854145908356,
+            "control_median_njy": -0.12681293487548828,
+            "control_count": 336
+          }
+        ],
+        "unmatched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 22.336376190185547,
+            "local_mad_sigma_njy": 2.026079503726959,
+            "control_median_njy": 0.10306906700134277,
+            "control_count": 335
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 27.110872268676758,
+            "local_mad_sigma_njy": 3.6495859306812286,
+            "control_median_njy": 0.18487083911895752,
+            "control_count": 334
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 30.344894409179688,
+            "local_mad_sigma_njy": 5.420424686336517,
+            "control_median_njy": 0.039549827575683594,
+            "control_count": 334
+          }
+        ],
+        "matched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 23.821516036987305,
+            "local_mad_sigma_njy": 2.1059167111873625,
+            "control_median_njy": 0.13123679161071777,
+            "control_count": 335
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 27.929832458496094,
+            "local_mad_sigma_njy": 3.355148383784294,
+            "control_median_njy": 0.018725991249084473,
+            "control_count": 334
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 30.307432174682617,
+            "local_mad_sigma_njy": 5.3038980860710145,
+            "control_median_njy": 0.036252498626708984,
+            "control_count": 333
+          }
+        ]
+      },
+      "astrometry": {
+        "host_core": {
+          "amplitude_njy_per_pixel": 3.2576990370683108,
+          "offset_xy_arcsec": [
+            0.043838933964203144,
+            -0.022487271779661536
+          ],
+          "core_sigma_arcsec": 0.048042686789896434,
+          "background_njy_per_pixel": 4.603910445993821
+        },
+        "excess_core": {
+          "amplitude_njy_per_pixel": 4.111448134876713,
+          "offset_xy_arcsec": [
+            0.04585943254265371,
+            0.00606223163635147
+          ],
+          "core_sigma_arcsec": 0.02562288238228555,
+          "background_njy_per_pixel": 0.1714933793319073
+        },
+        "excess_minus_host_east_north_arcsec": [
+          -0.025639864003155828,
+          0.012718245678723742
+        ],
+        "projected_offset_arcsec": 0.02862090842801292
+      }
+    },
+    "F200W": {
+      "registration": {
+        "reference_count": 20,
+        "reference_sources": [
+          {
+            "offset_arcsec": [
+              -4.2829526217288,
+              -5.481743573077805
+            ],
+            "old_njy": 77.07412719726562,
+            "new_njy": 86.31820678710938,
+            "new_to_old": 1.1199375189314074,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.004893277389151785,
+              -0.006700768049934707
+            ],
+            "new_minus_old_variance_arcsec2": -0.00019407289753063444
+          },
+          {
+            "offset_arcsec": [
+              -3.627138131405309,
+              -4.513636468314556
+            ],
+            "old_njy": 84.700927734375,
+            "new_njy": 89.5412368774414,
+            "new_to_old": 1.0571458810728234,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.008958662082411806,
+              -0.017839755722397203
+            ],
+            "new_minus_old_variance_arcsec2": -0.002975556247844579
+          },
+          {
+            "offset_arcsec": [
+              3.118382340493455,
+              -4.013968285210943
+            ],
+            "old_njy": 80.81015014648438,
+            "new_njy": 80.15938568115234,
+            "new_to_old": 0.9919469959633488,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0004448010209390646,
+              -0.01046363810815534
+            ],
+            "new_minus_old_variance_arcsec2": -0.00011919367017624921
+          },
+          {
+            "offset_arcsec": [
+              4.305094275364534,
+              -3.170778226223598
+            ],
+            "old_njy": 119.58213806152344,
+            "new_njy": 105.2904281616211,
+            "new_to_old": 0.8804862487694488,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0025900506902837572,
+              -0.01052324736007832
+            ],
+            "new_minus_old_variance_arcsec2": -0.0009525513484411989
+          },
+          {
+            "offset_arcsec": [
+              -5.844415693927588,
+              -3.0770904418916705
+            ],
+            "old_njy": 123.63548278808594,
+            "new_njy": 130.23658752441406,
+            "new_to_old": 1.053391668697914,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.002560187419910845,
+              -0.0075968491412531265
+            ],
+            "new_minus_old_variance_arcsec2": 7.36083998580982e-05
+          },
+          {
+            "offset_arcsec": [
+              2.525026373057916,
+              -2.4525052130121554
+            ],
+            "old_njy": 102.05858612060547,
+            "new_njy": 104.15750122070312,
+            "new_to_old": 1.0205657865729916,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0033518533121879553,
+              -0.009483261802139993
+            ],
+            "new_minus_old_variance_arcsec2": -1.1635871635967254e-05
+          },
+          {
+            "offset_arcsec": [
+              -5.657040125263733,
+              -0.07908134326999766
+            ],
+            "old_njy": 293.68353271484375,
+            "new_njy": 293.1927490234375,
+            "new_to_old": 0.998328868878451,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0025925028253343356,
+              -0.008029810041328304
+            ],
+            "new_minus_old_variance_arcsec2": -0.0005013675345778247
+          },
+          {
+            "offset_arcsec": [
+              3.149611601937431,
+              0.5455038856095176
+            ],
+            "old_njy": 139.67523193359375,
+            "new_njy": 139.11732482910156,
+            "new_to_old": 0.9960056833500914,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0005942478779930004,
+              -0.011812703301447293
+            ],
+            "new_minus_old_variance_arcsec2": -0.0008772101880446664
+          },
+          {
+            "offset_arcsec": [
+              7.459249681206086,
+              2.169425480696257
+            ],
+            "old_njy": 800.0703125,
+            "new_njy": 816.800537109375,
+            "new_to_old": 1.0209109428858791,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0012456754122253976,
+              -0.010916394285413389
+            ],
+            "new_minus_old_variance_arcsec2": -3.933948857236594e-05
+          },
+          {
+            "offset_arcsec": [
+              0.5263536406434672,
+              2.2318840035842085
+            ],
+            "old_njy": 156.5889892578125,
+            "new_njy": 157.09976196289062,
+            "new_to_old": 1.0032618685866679,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0019354966823400318,
+              -0.010977628612008818
+            ],
+            "new_minus_old_variance_arcsec2": 0.00023938917785085861
+          },
+          {
+            "offset_arcsec": [
+              -8.873654053993237,
+              2.3568010493601115
+            ],
+            "old_njy": 147.03903198242188,
+            "new_njy": 137.65911865234375,
+            "new_to_old": 0.9362080040679303,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.00016577751898058657,
+              -0.0030858671451076403
+            ],
+            "new_minus_old_variance_arcsec2": -4.8792870806457084e-05
+          },
+          {
+            "offset_arcsec": [
+              1.2446266538549098,
+              3.980722644446851
+            ],
+            "old_njy": 1798.7841796875,
+            "new_njy": 1788.641845703125,
+            "new_to_old": 0.9943615614930875,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0024174026928068006,
+              -0.009773575437879295
+            ],
+            "new_minus_old_variance_arcsec2": 0.00010420177888248623
+          },
+          {
+            "offset_arcsec": [
+              3.274528647713334,
+              4.324244520330584
+            ],
+            "old_njy": 321.664794921875,
+            "new_njy": 317.74591064453125,
+            "new_to_old": 0.9878168691780661,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.00018586533785195855,
+              -0.009235867029789612
+            ],
+            "new_minus_old_variance_arcsec2": -0.0002066463172795312
+          },
+          {
+            "offset_arcsec": [
+              -4.907537850608315,
+              5.698332023865518
+            ],
+            "old_njy": 124.13473510742188,
+            "new_njy": 117.90616607666016,
+            "new_to_old": 0.949824124364774,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0074380609459635625,
+              -0.013002585868773111
+            ],
+            "new_minus_old_variance_arcsec2": -0.0012068931614610742
+          },
+          {
+            "offset_arcsec": [
+              1.8067533598464733,
+              6.354146514189009
+            ],
+            "old_njy": 133.88629150390625,
+            "new_njy": 135.84158325195312,
+            "new_to_old": 1.0146041220955757,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.002739393004621527,
+              -0.014987197849922917
+            ],
+            "new_minus_old_variance_arcsec2": -0.0019021750654068439
+          },
+          {
+            "offset_arcsec": [
+              -0.5978997713396601,
+              7.946838847831772
+            ],
+            "old_njy": 176.93292236328125,
+            "new_njy": 174.82925415039062,
+            "new_to_old": 0.9881103630415862,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0022667107782439935,
+              -0.010456234665335764
+            ],
+            "new_minus_old_variance_arcsec2": 0.00029163311324992367
+          },
+          {
+            "offset_arcsec": [
+              -7.187273936018546,
+              9.102321521258876
+            ],
+            "old_njy": 97.8025894165039,
+            "new_njy": 93.50332641601562,
+            "new_to_old": 0.95604141949474,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0018508312632870838,
+              -0.013478718329923702
+            ],
+            "new_minus_old_variance_arcsec2": -4.438615623052547e-05
+          },
+          {
+            "offset_arcsec": [
+              0.8074169936392491,
+              11.007306469341398
+            ],
+            "old_njy": 553.4834594726562,
+            "new_njy": 558.912841796875,
+            "new_to_old": 1.0098094752992108,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.001396809712046039,
+              -0.011434204976402091
+            ],
+            "new_minus_old_variance_arcsec2": 0.000706084626479966
+          },
+          {
+            "offset_arcsec": [
+              -3.221157732633624,
+              12.350164711432354
+            ],
+            "old_njy": 1743.269287109375,
+            "new_njy": 1771.8294677734375,
+            "new_to_old": 1.0163831146887352,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0012728159088914613,
+              -0.009816013600329774
+            ],
+            "new_minus_old_variance_arcsec2": -4.365937031292587e-05
+          },
+          {
+            "offset_arcsec": [
+              5.80409882467537,
+              12.506311018652234
+            ],
+            "old_njy": 93.46781158447266,
+            "new_njy": 100.66788482666016,
+            "new_to_old": 1.0770326502796137,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.005537306232564175,
+              -0.006765826742676503
+            ],
+            "new_minus_old_variance_arcsec2": -0.0020970450561087327
+          }
+        ],
+        "old_to_new_xy_arcsec": [
+          -0.0016661531971930354,
+          -0.010459936386745552
+        ],
+        "held_out_reference_radius68_arcsec": 0.004595144143791335,
+        "matched_variance_arcsec2": -8.399327049135315e-05,
+        "new_to_old_scale": 1.0007953687325595
+      },
+      "aperture_photometry": {
+        "older": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 43.77980422973633,
+            "local_mad_sigma_njy": 1.4021788445949555,
+            "control_median_njy": 0.08364248275756836,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 56.4661750793457,
+            "local_mad_sigma_njy": 2.4651680614471436,
+            "control_median_njy": 0.19988584518432617,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 60.56740188598633,
+            "local_mad_sigma_njy": 4.159904826307296,
+            "control_median_njy": 0.3312397003173828,
+            "control_count": 337
+          }
+        ],
+        "newer_on_old_grid": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 72.74962615966797,
+            "local_mad_sigma_njy": 1.4866950586795806,
+            "control_median_njy": 0.018544793128967285,
+            "control_count": 336
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 90.2493896484375,
+            "local_mad_sigma_njy": 2.49103320851326,
+            "control_median_njy": -0.09789204597473145,
+            "control_count": 335
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 97.47764587402344,
+            "local_mad_sigma_njy": 3.4507820547580716,
+            "control_median_njy": -0.0908052921295166,
+            "control_count": 335
+          }
+        ],
+        "unmatched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 28.731121063232422,
+            "local_mad_sigma_njy": 1.858818184018135,
+            "control_median_njy": -0.1461268663406372,
+            "control_count": 334
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 33.24351501464844,
+            "local_mad_sigma_njy": 3.3915300727844238,
+            "control_median_njy": -0.29352498054504395,
+            "control_count": 333
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 35.93463897705078,
+            "local_mad_sigma_njy": 4.577602225542068,
+            "control_median_njy": -0.08269929885864258,
+            "control_count": 333
+          }
+        ],
+        "matched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 29.661575317382812,
+            "local_mad_sigma_njy": 1.748374080276489,
+            "control_median_njy": -0.016295194625854492,
+            "control_count": 333
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 33.224483489990234,
+            "local_mad_sigma_njy": 3.186931962776184,
+            "control_median_njy": -0.10784435272216797,
+            "control_count": 333
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 35.87987518310547,
+            "local_mad_sigma_njy": 4.299229079532623,
+            "control_median_njy": 0.23568344116210938,
+            "control_count": 333
+          }
+        ]
+      },
+      "astrometry": {
+        "host_core": {
+          "amplitude_njy_per_pixel": 2.739510448972388,
+          "offset_xy_arcsec": [
+            0.0499132137823653,
+            -0.026136173839448242
+          ],
+          "core_sigma_arcsec": 0.05185548093248083,
+          "background_njy_per_pixel": 3.6384223676771628
+        },
+        "excess_core": {
+          "amplitude_njy_per_pixel": 3.8180056271949714,
+          "offset_xy_arcsec": [
+            0.04259853074459702,
+            0.010867618986617417
+          ],
+          "core_sigma_arcsec": 0.0323509805056339,
+          "background_njy_per_pixel": 0.26417660917594504
+        },
+        "excess_minus_host_east_north_arcsec": [
+          -0.028201403255183947,
+          0.025049267257265917
+        ],
+        "projected_offset_arcsec": 0.037719821522475876
+      }
+    },
+    "F277W": {
+      "registration": {
+        "reference_count": 17,
+        "reference_sources": [
+          {
+            "offset_arcsec": [
+              -3.6183070384760954,
+              -4.469961929628483
+            ],
+            "old_njy": 79.94065856933594,
+            "new_njy": 74.15485382080078,
+            "new_to_old": 0.9276237542687132,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.020475792522383327,
+              -0.019786341349803272
+            ],
+            "new_minus_old_variance_arcsec2": -0.002582404117090195
+          },
+          {
+            "offset_arcsec": [
+              3.049981818144439,
+              -4.0296032315497685
+            ],
+            "old_njy": 86.07635498046875,
+            "new_njy": 85.4383773803711,
+            "new_to_old": 0.9925882363368846,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.002672170687431647,
+              -0.01393410796657018
+            ],
+            "new_minus_old_variance_arcsec2": 0.0002376206494197168
+          },
+          {
+            "offset_arcsec": [
+              4.24524114150095,
+              -3.2117942208321555
+            ],
+            "old_njy": 116.46734619140625,
+            "new_njy": 113.87905883789062,
+            "new_to_old": 0.977776712201702,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.002601734338470019,
+              -0.0129255035065034
+            ],
+            "new_minus_old_variance_arcsec2": -0.0012506935999278893
+          },
+          {
+            "offset_arcsec": [
+              -5.883008914309484,
+              -3.0230690645127067
+            ],
+            "old_njy": 105.3681411743164,
+            "new_njy": 98.83338928222656,
+            "new_to_old": 0.9379817104177719,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0040862747360785896,
+              -0.021079771635955796
+            ],
+            "new_minus_old_variance_arcsec2": 0.0007470894922411968
+          },
+          {
+            "offset_arcsec": [
+              -5.694283757990035,
+              -0.06637494884133757
+            ],
+            "old_njy": 306.7325134277344,
+            "new_njy": 298.38861083984375,
+            "new_to_old": 0.9727974628621937,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.00017474990240911627,
+              -0.01926607868271648
+            ],
+            "new_minus_old_variance_arcsec2": 0.0005393181249989483
+          },
+          {
+            "offset_arcsec": [
+              3.1128902035842554,
+              0.5627089055568261
+            ],
+            "old_njy": 112.40531921386719,
+            "new_njy": 112.97483825683594,
+            "new_to_old": 1.0050666556258352,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.000543095904477868,
+              -0.019596057150217883
+            ],
+            "new_minus_old_variance_arcsec2": -0.0005453255033178155
+          },
+          {
+            "offset_arcsec": [
+              7.453568798931585,
+              2.072510156112419
+            ],
+            "old_njy": 1067.5108642578125,
+            "new_njy": 1102.973388671875,
+            "new_to_old": 1.0332198252977198,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.00015638254536542995,
+              -0.01845140419321677
+            ],
+            "new_minus_old_variance_arcsec2": -0.0008726379069799823
+          },
+          {
+            "offset_arcsec": [
+              0.5336464005517846,
+              2.2612353124318676
+            ],
+            "old_njy": 122.91468811035156,
+            "new_njy": 125.16332244873047,
+            "new_to_old": 1.0182942687562295,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0027360913840107706,
+              -0.024717478455214194
+            ],
+            "new_minus_old_variance_arcsec2": 0.0010605398369051434
+          },
+          {
+            "offset_arcsec": [
+              -8.839703029980853,
+              2.512868854191133
+            ],
+            "old_njy": 107.98429107666016,
+            "new_njy": 107.19487762451172,
+            "new_to_old": 0.9926895528573872,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0024868293756620235,
+              -0.022450971612543613
+            ],
+            "new_minus_old_variance_arcsec2": -0.0006431988774711923
+          },
+          {
+            "offset_arcsec": [
+              1.288547025829581,
+              3.9597617193069095
+            ],
+            "old_njy": 1889.447265625,
+            "new_njy": 1889.24365234375,
+            "new_to_old": 0.9998922365895284,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0013038567099942693,
+              -0.018310085205903572
+            ],
+            "new_minus_old_variance_arcsec2": -0.00017731044321494995
+          },
+          {
+            "offset_arcsec": [
+              3.3016153599037046,
+              4.337212031945808
+            ],
+            "old_njy": 328.0989685058594,
+            "new_njy": 328.10223388671875,
+            "new_to_old": 1.0000099524264714,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.002695974255453094,
+              -0.019590714986931677
+            ],
+            "new_minus_old_variance_arcsec2": 0.0009480847221259806
+          },
+          {
+            "offset_arcsec": [
+              -4.876474747272423,
+              5.721196511621768
+            ],
+            "old_njy": 90.15699768066406,
+            "new_njy": 95.46406555175781,
+            "new_to_old": 1.0588647360451307,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0015299915402231827,
+              -0.02406187933407587
+            ],
+            "new_minus_old_variance_arcsec2": 0.0027518413119855204
+          },
+          {
+            "offset_arcsec": [
+              1.9176308802277446,
+              6.413188751459748
+            ],
+            "old_njy": 117.93209838867188,
+            "new_njy": 115.58256530761719,
+            "new_to_old": 0.9800772384011072,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0007585936982468927,
+              -0.016957660696935432
+            ],
+            "new_minus_old_variance_arcsec2": -0.0009113867626470151
+          },
+          {
+            "offset_arcsec": [
+              -0.5357961519250936,
+              7.92299000201534
+            ],
+            "old_njy": 176.8012237548828,
+            "new_njy": 173.81436157226562,
+            "new_to_old": 0.9831061000643402,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.0012583066603252153,
+              -0.014495808871959547
+            ],
+            "new_minus_old_variance_arcsec2": 0.00039689568687630104
+          },
+          {
+            "offset_arcsec": [
+              -6.952451466786362,
+              9.181157710811668
+            ],
+            "old_njy": 86.15547180175781,
+            "new_njy": 75.1673583984375,
+            "new_to_old": 0.8724618045316522,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.012182827457645429,
+              -0.017495115003462947
+            ],
+            "new_minus_old_variance_arcsec2": -0.0014068565372840486
+          },
+          {
+            "offset_arcsec": [
+              0.8481883277508664,
+              11.068409274006159
+            ],
+            "old_njy": 448.39410400390625,
+            "new_njy": 441.8101806640625,
+            "new_to_old": 0.9853166594273809,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0031281296481254824,
+              -0.019542380444114903
+            ],
+            "new_minus_old_variance_arcsec2": 0.0005763429324641932
+          },
+          {
+            "offset_arcsec": [
+              -3.1150399549575645,
+              12.389485368242301
+            ],
+            "old_njy": 2443.27685546875,
+            "new_njy": 2467.96533203125,
+            "new_to_old": 1.010104657811185,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0004415475969723904,
+              -0.01900921636217786
+            ],
+            "new_minus_old_variance_arcsec2": -0.0002950881445367157
+          }
+        ],
+        "old_to_new_xy_arcsec": [
+          -0.0004415475969723904,
+          -0.01926607868271648
+        ],
+        "held_out_reference_radius68_arcsec": 0.0053511771579952795,
+        "matched_variance_arcsec2": -0.00017731044321494995,
+        "new_to_old_scale": 0.9925882363368846
+      },
+      "aperture_photometry": {
+        "older": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 39.44766616821289,
+            "local_mad_sigma_njy": 1.2656598037719726,
+            "control_median_njy": 0.0038013458251953125,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 55.176177978515625,
+            "local_mad_sigma_njy": 2.0847987922668456,
+            "control_median_njy": 0.06072998046875,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 60.51451110839844,
+            "local_mad_sigma_njy": 3.2977739075660706,
+            "control_median_njy": 0.04515981674194336,
+            "control_count": 329
+          }
+        ],
+        "newer_on_old_grid": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 57.70655059814453,
+            "local_mad_sigma_njy": 1.34634218044281,
+            "control_median_njy": 0.0003604888916015625,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 77.42137145996094,
+            "local_mad_sigma_njy": 2.200477042007446,
+            "control_median_njy": -0.12758159637451172,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 87.1091537475586,
+            "local_mad_sigma_njy": 3.2086299413681028,
+            "control_median_njy": -0.08451461791992188,
+            "control_count": 305
+          }
+        ],
+        "unmatched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 18.195301055908203,
+            "local_mad_sigma_njy": 1.4187078941345215,
+            "control_median_njy": -0.12445545196533203,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 22.1074275970459,
+            "local_mad_sigma_njy": 2.4814479080200194,
+            "control_median_njy": -0.18048477172851562,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 26.36151123046875,
+            "local_mad_sigma_njy": 3.785627067375183,
+            "control_median_njy": -0.04998016357421875,
+            "control_count": 305
+          }
+        ],
+        "matched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 20.27053451538086,
+            "local_mad_sigma_njy": 1.5225940715789794,
+            "control_median_njy": -0.06119823455810547,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 24.091733932495117,
+            "local_mad_sigma_njy": 2.501394042778015,
+            "control_median_njy": -0.18332576751708984,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 27.822158813476562,
+            "local_mad_sigma_njy": 3.5573755308151243,
+            "control_median_njy": 0.15701007843017578,
+            "control_count": 305
+          }
+        ]
+      },
+      "astrometry": {
+        "host_core": {
+          "amplitude_njy_per_pixel": 6.395405357887181,
+          "offset_xy_arcsec": [
+            0.04245633862619885,
+            -0.02674846743960617
+          ],
+          "core_sigma_arcsec": 0.07076352670659265,
+          "background_njy_per_pixel": 8.881369104553734
+        },
+        "excess_core": {
+          "amplitude_njy_per_pixel": 5.005693247049401,
+          "offset_xy_arcsec": [
+            0.03559358887532425,
+            0.015694034757491614
+          ],
+          "core_sigma_arcsec": 0.05218373322286794,
+          "background_njy_per_pixel": 0.6696976901475695
+        },
+        "excess_minus_host_east_north_arcsec": [
+          -0.032881598079355145,
+          0.02769951985976352
+        ],
+        "projected_offset_arcsec": 0.042993754112820685
+      }
+    },
+    "F356W": {
+      "registration": {
+        "reference_count": 12,
+        "reference_sources": [
+          {
+            "offset_arcsec": [
+              3.065916227913209,
+              -4.0299857630143086
+            ],
+            "old_njy": 82.86880493164062,
+            "new_njy": 82.72065734863281,
+            "new_to_old": 0.9982122635516463,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.015956238098084552,
+              0.0015523354104585198
+            ],
+            "new_minus_old_variance_arcsec2": -0.0006033168986918436
+          },
+          {
+            "offset_arcsec": [
+              4.261168881271983,
+              -3.212181315979358
+            ],
+            "old_njy": 117.45679473876953,
+            "new_njy": 117.80084228515625,
+            "new_to_old": 1.0029291412825618,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.01730189374438661,
+              0.0024225662677392758
+            ],
+            "new_minus_old_variance_arcsec2": -0.0012819038517112337
+          },
+          {
+            "offset_arcsec": [
+              -5.678300551922031,
+              -0.06677959661416355
+            ],
+            "old_njy": 298.68658447265625,
+            "new_njy": 294.82904052734375,
+            "new_to_old": 0.9870849775455327,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.01399260781075646,
+              -0.0033837293401835803
+            ],
+            "new_minus_old_variance_arcsec2": 0.0002658126593069344
+          },
+          {
+            "offset_arcsec": [
+              3.1288242623005127,
+              0.5623007472588754
+            ],
+            "old_njy": 75.35269927978516,
+            "new_njy": 73.08206939697266,
+            "new_to_old": 0.9698666417458831,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.012422107507401551,
+              0.002572194409562273
+            ],
+            "new_minus_old_variance_arcsec2": 0.0014457761317618698
+          },
+          {
+            "offset_arcsec": [
+              7.469478635024481,
+              2.0720935725541687
+            ],
+            "old_njy": 1259.761962890625,
+            "new_njy": 1269.744873046875,
+            "new_to_old": 1.0079244416408186,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.014950568440030208,
+              -0.001821607223577694
+            ],
+            "new_minus_old_variance_arcsec2": 0.0007419151701753435
+          },
+          {
+            "offset_arcsec": [
+              0.5495948524210535,
+              2.2608176757160803
+            ],
+            "old_njy": 80.34552001953125,
+            "new_njy": 79.96452331542969,
+            "new_to_old": 0.9952580218037179,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.012888355399845671,
+              -0.004406325775851774
+            ],
+            "new_minus_old_variance_arcsec2": 0.0011296111941616217
+          },
+          {
+            "offset_arcsec": [
+              1.3044912650687002,
+              3.896426569785981
+            ],
+            "old_njy": 2010.0010986328125,
+            "new_njy": 2001.0263671875,
+            "new_to_old": 0.9955349619204601,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.015201755906681803,
+              -0.0032018287049877525
+            ],
+            "new_minus_old_variance_arcsec2": 0.000987485483205302
+          },
+          {
+            "offset_arcsec": [
+              3.254640331075121,
+              4.273874776109804
+            ],
+            "old_njy": 330.5481262207031,
+            "new_njy": 325.75335693359375,
+            "new_to_old": 0.9854944895863426,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.015975484926787756,
+              -0.0029239131773679547
+            ],
+            "new_minus_old_variance_arcsec2": 0.0008802041147866532
+          },
+          {
+            "offset_arcsec": [
+              1.870663574554435,
+              6.412747945278136
+            ],
+            "old_njy": 112.42539978027344,
+            "new_njy": 112.98410034179688,
+            "new_to_old": 1.0049695225688802,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.012980867583154303,
+              -0.005883126538672418
+            ],
+            "new_minus_old_variance_arcsec2": 0.0004247191429473957
+          },
+          {
+            "offset_arcsec": [
+              -0.5198417321631125,
+              7.92254077057343
+            ],
+            "old_njy": 178.05569458007812,
+            "new_njy": 178.6032257080078,
+            "new_to_old": 1.0030750554157841,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.015069328083082614,
+              -0.0036679048825174537
+            ],
+            "new_minus_old_variance_arcsec2": 0.00045306179366764836
+          },
+          {
+            "offset_arcsec": [
+              0.8641350243575731,
+              11.00503445555132
+            ],
+            "old_njy": 282.4928283691406,
+            "new_njy": 292.51019287109375,
+            "new_to_old": 1.0354605975655538,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.013839737509546276,
+              0.0037319645906484025
+            ],
+            "new_minus_old_variance_arcsec2": 0.0014286176324560893
+          },
+          {
+            "offset_arcsec": [
+              -3.099071142042572,
+              12.389011212072006
+            ],
+            "old_njy": 3627.23046875,
+            "new_njy": 3734.86474609375,
+            "new_to_old": 1.0296739560033643,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.011939431006029956,
+              -0.004891628939826753
+            ],
+            "new_minus_old_variance_arcsec2": -0.000801717098029401
+          }
+        ],
+        "old_to_new_xy_arcsec": [
+          0.014471588125393333,
+          -0.0030628709411778536
+        ],
+        "held_out_reference_radius68_arcsec": 0.004339460791443812,
+        "matched_variance_arcsec2": 0.000597488481921496,
+        "new_to_old_scale": 1.000570702417104
+      },
+      "aperture_photometry": {
+        "older": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 35.01633071899414,
+            "local_mad_sigma_njy": 0.8642196284294128,
+            "control_median_njy": 0.07619047164916992,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 55.47594451904297,
+            "local_mad_sigma_njy": 1.5899955207824705,
+            "control_median_njy": 0.07619857788085938,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 67.04098510742188,
+            "local_mad_sigma_njy": 2.609162130832672,
+            "control_median_njy": 0.1937103271484375,
+            "control_count": 329
+          }
+        ],
+        "newer_on_old_grid": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 46.68537902832031,
+            "local_mad_sigma_njy": 0.9997273647308349,
+            "control_median_njy": 0.05181884765625,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 75.07225036621094,
+            "local_mad_sigma_njy": 1.822006664085388,
+            "control_median_njy": 0.03912830352783203,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 91.20670318603516,
+            "local_mad_sigma_njy": 3.1566995779037472,
+            "control_median_njy": 0.15415573120117188,
+            "control_count": 305
+          }
+        ],
+        "unmatched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 11.746638298034668,
+            "local_mad_sigma_njy": 1.0184985340118409,
+            "control_median_njy": -0.10507583618164062,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 19.78252410888672,
+            "local_mad_sigma_njy": 2.375897549629211,
+            "control_median_njy": -0.13292884826660156,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 24.514892578125,
+            "local_mad_sigma_njy": 3.581354158401489,
+            "control_median_njy": -0.19380712509155273,
+            "control_count": 305
+          }
+        ],
+        "matched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 15.231550216674805,
+            "local_mad_sigma_njy": 1.0794496913909912,
+            "control_median_njy": -0.12200927734375,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 21.20334243774414,
+            "local_mad_sigma_njy": 2.264174027252197,
+            "control_median_njy": -0.22582626342773438,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 24.41853141784668,
+            "local_mad_sigma_njy": 3.4683460919380185,
+            "control_median_njy": -0.11510944366455078,
+            "control_count": 305
+          }
+        ]
+      },
+      "astrometry": null
+    },
+    "F444W": {
+      "registration": {
+        "reference_count": 9,
+        "reference_sources": [
+          {
+            "offset_arcsec": [
+              4.256342078312108,
+              -3.2422156275530836
+            ],
+            "old_njy": 119.31198120117188,
+            "new_njy": 118.81966400146484,
+            "new_to_old": 0.9958736985611115,
+            "new_minus_old_centroid_xy_arcsec": [
+              0.004573233291033601,
+              0.0034273462663150303
+            ],
+            "new_minus_old_variance_arcsec2": 0.0010429474770673134
+          },
+          {
+            "offset_arcsec": [
+              -5.6838818462741125,
+              -0.0336623354398097
+            ],
+            "old_njy": 243.40188598632812,
+            "new_njy": 241.814453125,
+            "new_to_old": 0.9934781406688965,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.0067431238832818645,
+              -0.005588285580589755
+            ],
+            "new_minus_old_variance_arcsec2": -0.0009194322285558491
+          },
+          {
+            "offset_arcsec": [
+              7.464895370425382,
+              2.105373192635706
+            ],
+            "old_njy": 1302.3060302734375,
+            "new_njy": 1306.8287353515625,
+            "new_to_old": 1.0034728435352291,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.009871379421001365,
+              -0.005477668072778245
+            ],
+            "new_minus_old_variance_arcsec2": 0.00011094237866146085
+          },
+          {
+            "offset_arcsec": [
+              1.2994400247959539,
+              3.9298446724648226
+            ],
+            "old_njy": 2002.52880859375,
+            "new_njy": 2004.9576416015625,
+            "new_to_old": 1.0012128829295186,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.009248180155848568,
+              -0.007359121701265642
+            ],
+            "new_minus_old_variance_arcsec2": 0.0005050725164213992
+          },
+          {
+            "offset_arcsec": [
+              3.31264993357291,
+              4.307321530360502
+            ],
+            "old_njy": 339.69439697265625,
+            "new_njy": 344.7597351074219,
+            "new_to_old": 1.0149114562380415,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.008176288020493321,
+              -0.006156936361985756
+            ],
+            "new_minus_old_variance_arcsec2": -0.0011419447776439828
+          },
+          {
+            "offset_arcsec": [
+              1.8656553116394727,
+              6.383444248786738
+            ],
+            "old_njy": 105.48453521728516,
+            "new_njy": 110.4687728881836,
+            "new_to_old": 1.047250885266087,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.010051558548552868,
+              -0.0059154018223615
+            ],
+            "new_minus_old_variance_arcsec2": -0.002956996852546424
+          },
+          {
+            "offset_arcsec": [
+              -0.5250314550331627,
+              7.956264490018735
+            ],
+            "old_njy": 168.97906494140625,
+            "new_njy": 168.35427856445312,
+            "new_to_old": 0.996302581167852,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.00977115296985308,
+              -0.011589541407202954
+            ],
+            "new_minus_old_variance_arcsec2": 0.0007314575127577699
+          },
+          {
+            "offset_arcsec": [
+              0.8590503572509947,
+              11.038992162833448
+            ],
+            "old_njy": 216.89881896972656,
+            "new_njy": 208.93751525878906,
+            "new_to_old": 0.9632948498809083,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.007448913500591592,
+              -0.002994169797002051
+            ],
+            "new_minus_old_variance_arcsec2": 0.002476277033717042
+          },
+          {
+            "offset_arcsec": [
+              -3.104456650653638,
+              12.360161165468327
+            ],
+            "old_njy": 4842.849609375,
+            "new_njy": 4853.283203125,
+            "new_to_old": 1.0021544327393117,
+            "new_minus_old_centroid_xy_arcsec": [
+              -0.01057419734983329,
+              -0.007663022375979999
+            ],
+            "new_minus_old_variance_arcsec2": 0.00019408032677165066
+          }
+        ],
+        "old_to_new_xy_arcsec": [
+          -0.009248180155848568,
+          -0.0059154018223615
+        ],
+        "held_out_reference_radius68_arcsec": 0.0031861260935262836,
+        "matched_variance_arcsec2": 0.00019408032677165066,
+        "new_to_old_scale": 1.0012128829295186
+      },
+      "aperture_photometry": {
+        "older": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 34.81806564331055,
+            "local_mad_sigma_njy": 1.3101161991119383,
+            "control_median_njy": 0.041873931884765625,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 50.90342712402344,
+            "local_mad_sigma_njy": 2.3104204421997068,
+            "control_median_njy": -0.017848968505859375,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 58.57722473144531,
+            "local_mad_sigma_njy": 3.569406555175781,
+            "control_median_njy": 0.3977775573730469,
+            "control_count": 329
+          }
+        ],
+        "newer_on_old_grid": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 47.25101089477539,
+            "local_mad_sigma_njy": 1.376578807067871,
+            "control_median_njy": 0.17536354064941406,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 66.05723571777344,
+            "local_mad_sigma_njy": 2.713664069366455,
+            "control_median_njy": 0.1773681640625,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 78.99114990234375,
+            "local_mad_sigma_njy": 3.5803785552978513,
+            "control_median_njy": 0.2957477569580078,
+            "control_count": 305
+          }
+        ],
+        "unmatched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 13.00457763671875,
+            "local_mad_sigma_njy": 1.7074779293060303,
+            "control_median_njy": 0.07515335083007812,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 16.43997573852539,
+            "local_mad_sigma_njy": 2.804274975013733,
+            "control_median_njy": 0.11383724212646484,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 22.700448989868164,
+            "local_mad_sigma_njy": 3.9701645153045653,
+            "control_median_njy": -0.1595439910888672,
+            "control_count": 305
+          }
+        ],
+        "matched_difference": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 12.309110641479492,
+            "local_mad_sigma_njy": 1.6837439094543456,
+            "control_median_njy": -0.004077911376953125,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 16.064476013183594,
+            "local_mad_sigma_njy": 2.6444740144729613,
+            "control_median_njy": 0.216339111328125,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 22.5907039642334,
+            "local_mad_sigma_njy": 3.8754999080657955,
+            "control_median_njy": -0.21385765075683594,
+            "control_count": 305
+          }
+        ]
+      },
+      "astrometry": null
+    }
+  },
+  "dawn_photometry_sha256": "e11e4d84b17423f1c35747230610b650e79294e7570ba9d12cb82edd55c85a34",
+  "cutout_reader_sha256": "8b6b28ced66853331b80c7f6a71ce9b343aa18e5b0b7c3b279be09c7ae9cfb76",
+  "relative_astrometry_script_sha256": "b1ad10426f45e18be1f85cfd43a59a0aa57d46810ecc89efefe74950f420faa3",
+  "script_sha256": "fa2cd2d6c116d1f0a81c18f1c79516cd858830a23a44775ea8cb83cecfc940f2",
+  "scope": "STScI and DAWN perform separate resampling and image calibration of shared exposures. The range receipts hash the downloaded sections, and ETags identify the upstream FITS versions."
+}
