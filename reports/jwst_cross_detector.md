@@ -119,12 +119,18 @@ it moves across the detector.
 
 ### Public matches and interpretation
 
-The 5″ Transient Name Server search returned zero entries. The earlier
-JADES transient catalogue and its list of excluded sources contain 92
-positions. The nearest is 13.83″ away. The DJA query found no v4
-NIRSpec extraction within the four-arcsecond square around this position.
-These checks establish the scope of the public search and leave priority
-over the active survey unresolved.
+The public GO 8060 APT input catalogue identifies this event as
+transient **2510038**, just **0.015″** from the photometric position.
+The matched row is explicitly labelled `trans` in `MPT_input_v3`.
+It has no assigned configuration in the corresponding saved plan.
+The same input catalogue is embedded in the GO 12577 APT file.
+These records establish prior recognition by the survey team.
+The input redshift of 0.77 is planning metadata. The closest of the
+92 positions in the earlier JADES transient tables is 13.83″ away,
+and the public TNS and DJA extraction checks had no match in their
+respective search windows.
+[GO 8060 public APT](https://www.stsci.edu/jwst-program-info/download/jwst/apt/8060/) ·
+[Target and catalogue match receipts](../results/jwst_cross_detector/goods_s_prior_records.json) ·
 [Transient Name Server](https://www.wis-tns.org/search?ra=53.162036&decl=-27.746384&radius=5&coords_unit=arcsec&format=html),
 [earlier JADES transient survey](https://arxiv.org/html/2406.05060v4),
 [DJA spectroscopy API](https://dawn-cph.github.io/dja/general/api_summary/#extracted-nirspec-msa-spectra).
@@ -308,7 +314,8 @@ radius. None of their projected shutter polygons contains the
 transient. In GO 8060, which independently targeted transients in
 GOODS-S, the nearest listed spectroscopy target is 13.51″ away. This
 rules out a direct match in the available GO 8060 shutter listing.
-Discovery priority and an uncontaminated transient spectrum remain
+The public observing plan nevertheless lists the event in an input
+catalogue. An uncontaminated spectrum of the transient remains
 unverified.
 [DJA shutter search](https://dawn-cph.github.io/dja/general/api_summary/#nirspec-msa-slits) ·
 [GO 8060 programme](https://www.stsci.edu/jwst-program-info/program/?program=8060).

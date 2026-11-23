@@ -4,19 +4,20 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
-## Two GOODS-S variability signals · 23 November 2026
+## Five-filter GOODS-S brightening · 23 November 2026
 
 A search across both NIRCam Module B pointings recovered two three-filter
 brightness changes. One source rose from **67 to 107 nJy** in F200W between
-October 2025 and October 2026. It appears in six clean native exposures,
-and the public transient snapshot and earlier JADES transient tables
-have no positional match. The other source faded. Its two earlier GO 8060
-NIRSpec spectra establish prior recognition of that transient.
+October 2025 and October 2026. It appears in six clean native exposures.
+Two filters held out of the search confirm the brightening, with a weak,
+aperture-dependent signal in F115W. JADES 103607 is a candidate for
+previously unreported variability. The other source had already been
+recognized in public GO 8060 spectroscopy and observing plans.
 [Analysis and archive receipts](reports/jwst_module_b.md) ·
 [Light curve of the brightening](figures/jwst_cross_detector/module_b_001_lightcurve.png) ·
 [Prior spectra of the fading source](figures/jwst_cross_detector/module_b_002_prior_prism.png)
 
-<img src="figures/jwst_cross_detector/module_b_001_mosaics.png" width="810" alt="Observed JWST images and difference maps in three filters showing a source brighten in October 2026.">
+<img src="figures/jwst_cross_detector/module_b_001_six_filter_change.png" width="810" alt="Observed JWST difference images and signed aperture photometry showing the October 2026 brightness change in six filters.">
 
 ## Fading transient in JWST GOODS-S · 22 November 2026
 
@@ -25,9 +26,10 @@ Dec −27.746384°**. It appears in six filters and was already bright on
 30 September 2025 in a separate JWST programme. F200W fell from 415 nJy
 in October 2025 to 49 nJy in October 2026, with intermediate measurements tracing the decline on
 other detectors. The public Transient Name Server returned zero entries
-within 5″. A nearby galaxy overlaps the transient's predicted slitless trace
-and accounts for a prominent hydrogen feature. The event's classification
-and discovery priority remain open.
+within 5″. The public GO 8060 observing plan identifies the event as
+transient **2510038**. A nearby galaxy overlaps the transient's predicted
+slitless trace and accounts for a prominent hydrogen feature. The event's
+physical classification remains open.
 [Analysis and archive receipts](reports/jwst_cross_detector.md) ·
 [Slitless spectrum overlap](reports/jwst_cross_detector.md#what-the-grism-frames-can-measure) ·
 [Six-filter photometry and JWST images](figures/jwst_cross_detector/field_b_transient_colours.png) ·

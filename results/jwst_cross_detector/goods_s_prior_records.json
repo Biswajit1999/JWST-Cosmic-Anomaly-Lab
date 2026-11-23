@@ -1,0 +1,1799 @@
+{
+  "executed_utc": "2026-11-23T22:05:09.919704+00:00",
+  "positions_icrs_deg": {
+    "GS-001-B-53.188670-27.812539": [
+      53.18866983298658,
+      -27.812539402767552
+    ],
+    "GS-002-B-53.147252-27.790612": [
+      53.14725188226616,
+      -27.790611797717343
+    ],
+    "GS-B-53.162036-27.746384": [
+      53.162035995306766,
+      -27.74638399367973
+    ]
+  },
+  "public_apt": [
+    {
+      "program": 8060,
+      "product": {
+        "url": "https://www.stsci.edu/jwst-program-info/download/jwst/apt/8060/",
+        "path": "data/raw/cross_detector/goods_s_8060_20261123.aptx",
+        "sha256": "7c900b5cbae1ca86b459858f85e7086ff1bec0e13a61f27db1df4a9ff3e2bc69",
+        "bytes": 879609
+      },
+      "radius_arcsec": 1.0,
+      "catalogues": [
+        {
+          "name": "msa_catalog_sample",
+          "rows": 2877,
+          "label_field": null,
+          "csv_sha256": "7bd15028b9c466ce5b8f32ebc543e40b71312daaa7f74c0066570303f49f730b",
+          "positions": {
+            "GS-001-B-53.188670-27.812539": {
+              "nearest": [
+                {
+                  "ID": 103915,
+                  "RA": 53.1843809,
+                  "DEC": -27.8121577,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 13.725477301
+                },
+                {
+                  "ID": 106374,
+                  "RA": 53.1851204,
+                  "DEC": -27.8087885,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 17.6089079126
+                },
+                {
+                  "ID": 199765,
+                  "RA": 53.1838869,
+                  "DEC": -27.8093247,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 19.1278793671
+                }
+              ],
+              "matches": []
+            },
+            "GS-002-B-53.147252-27.790612": {
+              "nearest": [
+                {
+                  "ID": 117695,
+                  "RA": 53.1473374,
+                  "DEC": -27.7908386,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 0.8607145679
+                },
+                {
+                  "ID": 204861,
+                  "RA": 53.1469397,
+                  "DEC": -27.7902553,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 1.623448898
+                },
+                {
+                  "ID": 204948,
+                  "RA": 53.1472228,
+                  "DEC": -27.7901205,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 1.7710952599
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 117695,
+                  "RA": 53.1473374,
+                  "DEC": -27.7908386,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 0.8607145679,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-B-53.162036-27.746384": {
+              "nearest": [
+                {
+                  "ID": 208963,
+                  "RA": 53.1573004,
+                  "DEC": -27.777154,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 111.7945496102
+                },
+                {
+                  "ID": 208882,
+                  "RA": 53.1583065,
+                  "DEC": -27.7775098,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 112.6809837386
+                },
+                {
+                  "ID": 208810,
+                  "RA": 53.1641815,
+                  "DEC": -27.7778462,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 113.4699702518
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "name": "MPT_input",
+          "rows": 18077,
+          "label_field": "[LABEL] - PriorityClass",
+          "csv_sha256": "9b3e32a6cc757181383a11b3ab5b7947524700da065e2c058a06ae765a16a6b0",
+          "positions": {
+            "GS-001-B-53.188670-27.812539": {
+              "nearest": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 31,
+                  "separation_arcsec": 0.0516409518
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 33,
+                  "separation_arcsec": 0.7440682004
+                },
+                {
+                  "ID": 103871,
+                  "RA": 53.188625,
+                  "DEC": -27.812223,
+                  "Redshift": 2.67,
+                  "Weight": 2,
+                  "[LABEL] - PriorityClass": 35,
+                  "separation_arcsec": 1.1479605924
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 31,
+                  "separation_arcsec": 0.0516409518,
+                  "configurations": []
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 33,
+                  "separation_arcsec": 0.7440682004,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-002-B-53.147252-27.790612": {
+              "nearest": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 100000,
+                  "[LABEL] - PriorityClass": 1,
+                  "separation_arcsec": 0.0248807581
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 31,
+                  "separation_arcsec": 0.8494277525
+                },
+                {
+                  "ID": 204861,
+                  "RA": 53.14699,
+                  "DEC": -27.790215,
+                  "Redshift": 3.33,
+                  "Weight": 2,
+                  "[LABEL] - PriorityClass": 35,
+                  "separation_arcsec": 1.6541301945
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 100000,
+                  "[LABEL] - PriorityClass": 1,
+                  "separation_arcsec": 0.0248807581,
+                  "configurations": [
+                    {
+                      "plan": "P0.json",
+                      "configuration": "c1",
+                      "role": "primary"
+                    }
+                  ]
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 31,
+                  "separation_arcsec": 0.8494277525,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-B-53.162036-27.746384": {
+              "nearest": [
+                {
+                  "ID": 2510038,
+                  "RA": 53.1620395,
+                  "DEC": -27.7463867,
+                  "Redshift": 0.77,
+                  "Weight": 12500,
+                  "[LABEL] - PriorityClass": 2,
+                  "separation_arcsec": 0.0148190596
+                },
+                {
+                  "ID": 217327,
+                  "RA": 53.162277,
+                  "DEC": -27.746223,
+                  "Redshift": 0.77,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 0.9620358956
+                },
+                {
+                  "ID": 289302,
+                  "RA": 53.1620447,
+                  "DEC": -27.7460669,
+                  "Redshift": 0.0,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 1.1418740937
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510038,
+                  "RA": 53.1620395,
+                  "DEC": -27.7463867,
+                  "Redshift": 0.77,
+                  "Weight": 12500,
+                  "[LABEL] - PriorityClass": 2,
+                  "separation_arcsec": 0.0148190596,
+                  "configurations": []
+                },
+                {
+                  "ID": 217327,
+                  "RA": 53.162277,
+                  "DEC": -27.746223,
+                  "Redshift": 0.77,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 0.9620358956,
+                  "configurations": []
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "MPT_input_v3",
+          "rows": 14107,
+          "label_field": "[LABEL] - Class",
+          "csv_sha256": "92421da39aad5c39d9fcceb6d1593db2035765d7c34fdbf731bd0bc8e0dba989",
+          "positions": {
+            "GS-001-B-53.188670-27.812539": {
+              "nearest": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.0516409518
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.7440682004
+                },
+                {
+                  "ID": 103871,
+                  "RA": 53.188625,
+                  "DEC": -27.812223,
+                  "Redshift": 2.67,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 1.1479605924
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.0516409518,
+                  "configurations": []
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.7440682004,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-002-B-53.147252-27.790612": {
+              "nearest": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0248807581
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.8494277525
+                },
+                {
+                  "ID": 204861,
+                  "RA": 53.14699,
+                  "DEC": -27.790215,
+                  "Redshift": 3.33,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 1.6541301945
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0248807581,
+                  "configurations": [
+                    {
+                      "plan": "P1V3.json",
+                      "configuration": "c1",
+                      "role": "primary"
+                    },
+                    {
+                      "plan": "P1V3.json",
+                      "configuration": "c2",
+                      "role": "primary"
+                    },
+                    {
+                      "plan": "P1V3.json",
+                      "configuration": "c3",
+                      "role": "primary"
+                    }
+                  ]
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.8494277525,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-B-53.162036-27.746384": {
+              "nearest": [
+                {
+                  "ID": 2510038,
+                  "RA": 53.1620395,
+                  "DEC": -27.7463867,
+                  "Redshift": 0.77,
+                  "Weight": 3704,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0148190596
+                },
+                {
+                  "ID": 217327,
+                  "RA": 53.162277,
+                  "DEC": -27.746223,
+                  "Redshift": 0.77,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.9620358956
+                },
+                {
+                  "ID": 151507,
+                  "RA": 53.161232,
+                  "DEC": -27.746399,
+                  "Redshift": 2.27,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 2.5621477335
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510038,
+                  "RA": 53.1620395,
+                  "DEC": -27.7463867,
+                  "Redshift": 0.77,
+                  "Weight": 3704,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0148190596,
+                  "configurations": []
+                },
+                {
+                  "ID": 217327,
+                  "RA": 53.162277,
+                  "DEC": -27.746223,
+                  "Redshift": 0.77,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.9620358956,
+                  "configurations": []
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "MPT_input_P2_v0.1",
+          "rows": 8386,
+          "label_field": "[LABEL] - Class",
+          "csv_sha256": "caa9ec515e91179dbbd3bb1a7c8c4f94a1ddd6eb2c18ee8032323732e89706b3",
+          "positions": {
+            "GS-001-B-53.188670-27.812539": {
+              "nearest": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.0516409518
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.7440682004
+                },
+                {
+                  "ID": 103871,
+                  "RA": 53.188625,
+                  "DEC": -27.812223,
+                  "Redshift": 2.67,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 1.1479605924
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.0516409518,
+                  "configurations": []
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.7440682004,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-002-B-53.147252-27.790612": {
+              "nearest": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 100000,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0248807581
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.8494277525
+                },
+                {
+                  "ID": 204861,
+                  "RA": 53.14699,
+                  "DEC": -27.790215,
+                  "Redshift": 3.33,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 1.6541301945
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 100000,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0248807581,
+                  "configurations": [
+                    {
+                      "plan": "P2V1.0.json",
+                      "configuration": "c1",
+                      "role": "primary"
+                    },
+                    {
+                      "plan": "P2V1.0.json",
+                      "configuration": "c2",
+                      "role": "primary"
+                    },
+                    {
+                      "plan": "P2V1.0.json",
+                      "configuration": "c3",
+                      "role": "primary"
+                    }
+                  ]
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.8494277525,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-B-53.162036-27.746384": {
+              "nearest": [
+                {
+                  "ID": 217129,
+                  "RA": 53.160595,
+                  "DEC": -27.748772,
+                  "Redshift": 0.96,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 9.74592697
+                },
+                {
+                  "ID": 150153,
+                  "RA": 53.161076,
+                  "DEC": -27.749374,
+                  "Redshift": 2.61,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 11.1901289828
+                },
+                {
+                  "ID": 406882,
+                  "RA": 53.159424,
+                  "DEC": -27.748724,
+                  "Redshift": 0.67,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 11.8413670781
+                }
+              ],
+              "matches": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "program": 12577,
+      "product": {
+        "url": "https://www.stsci.edu/jwst-program-info/download/jwst/apt/12577/",
+        "path": "data/raw/cross_detector/goods_s_12577_20261123.aptx",
+        "sha256": "63d7f0f90fb637394bdc8ced0d0d79d2048822dc0ba052d1e75db988fc424b86",
+        "bytes": 940138
+      },
+      "radius_arcsec": 1.0,
+      "catalogues": [
+        {
+          "name": "msa_catalog_sample",
+          "rows": 2877,
+          "label_field": null,
+          "csv_sha256": "7bd15028b9c466ce5b8f32ebc543e40b71312daaa7f74c0066570303f49f730b",
+          "positions": {
+            "GS-001-B-53.188670-27.812539": {
+              "nearest": [
+                {
+                  "ID": 103915,
+                  "RA": 53.1843809,
+                  "DEC": -27.8121577,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 13.725477301
+                },
+                {
+                  "ID": 106374,
+                  "RA": 53.1851204,
+                  "DEC": -27.8087885,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 17.6089079126
+                },
+                {
+                  "ID": 199765,
+                  "RA": 53.1838869,
+                  "DEC": -27.8093247,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 19.1278793671
+                }
+              ],
+              "matches": []
+            },
+            "GS-002-B-53.147252-27.790612": {
+              "nearest": [
+                {
+                  "ID": 117695,
+                  "RA": 53.1473374,
+                  "DEC": -27.7908386,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 0.8607145679
+                },
+                {
+                  "ID": 204861,
+                  "RA": 53.1469397,
+                  "DEC": -27.7902553,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 1.623448898
+                },
+                {
+                  "ID": 204948,
+                  "RA": 53.1472228,
+                  "DEC": -27.7901205,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 1.7710952599
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 117695,
+                  "RA": 53.1473374,
+                  "DEC": -27.7908386,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 0.8607145679,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-B-53.162036-27.746384": {
+              "nearest": [
+                {
+                  "ID": 208963,
+                  "RA": 53.1573004,
+                  "DEC": -27.777154,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 111.7945496102
+                },
+                {
+                  "ID": 208882,
+                  "RA": 53.1583065,
+                  "DEC": -27.7775098,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 112.6809837386
+                },
+                {
+                  "ID": 208810,
+                  "RA": 53.1641815,
+                  "DEC": -27.7778462,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 113.4699702518
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "name": "MPT_input",
+          "rows": 18077,
+          "label_field": "[LABEL] - PriorityClass",
+          "csv_sha256": "9b3e32a6cc757181383a11b3ab5b7947524700da065e2c058a06ae765a16a6b0",
+          "positions": {
+            "GS-001-B-53.188670-27.812539": {
+              "nearest": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 31,
+                  "separation_arcsec": 0.0516409518
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 33,
+                  "separation_arcsec": 0.7440682004
+                },
+                {
+                  "ID": 103871,
+                  "RA": 53.188625,
+                  "DEC": -27.812223,
+                  "Redshift": 2.67,
+                  "Weight": 2,
+                  "[LABEL] - PriorityClass": 35,
+                  "separation_arcsec": 1.1479605924
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 31,
+                  "separation_arcsec": 0.0516409518,
+                  "configurations": []
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 33,
+                  "separation_arcsec": 0.7440682004,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-002-B-53.147252-27.790612": {
+              "nearest": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 100000,
+                  "[LABEL] - PriorityClass": 1,
+                  "separation_arcsec": 0.0248807581
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 31,
+                  "separation_arcsec": 0.8494277525
+                },
+                {
+                  "ID": 204861,
+                  "RA": 53.14699,
+                  "DEC": -27.790215,
+                  "Redshift": 3.33,
+                  "Weight": 2,
+                  "[LABEL] - PriorityClass": 35,
+                  "separation_arcsec": 1.6541301945
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 100000,
+                  "[LABEL] - PriorityClass": 1,
+                  "separation_arcsec": 0.0248807581,
+                  "configurations": [
+                    {
+                      "plan": "P0.json",
+                      "configuration": "c1",
+                      "role": "primary"
+                    }
+                  ]
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 31,
+                  "separation_arcsec": 0.8494277525,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-B-53.162036-27.746384": {
+              "nearest": [
+                {
+                  "ID": 2510038,
+                  "RA": 53.1620395,
+                  "DEC": -27.7463867,
+                  "Redshift": 0.77,
+                  "Weight": 12500,
+                  "[LABEL] - PriorityClass": 2,
+                  "separation_arcsec": 0.0148190596
+                },
+                {
+                  "ID": 217327,
+                  "RA": 53.162277,
+                  "DEC": -27.746223,
+                  "Redshift": 0.77,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 0.9620358956
+                },
+                {
+                  "ID": 289302,
+                  "RA": 53.1620447,
+                  "DEC": -27.7460669,
+                  "Redshift": 0.0,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 1.1418740937
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510038,
+                  "RA": 53.1620395,
+                  "DEC": -27.7463867,
+                  "Redshift": 0.77,
+                  "Weight": 12500,
+                  "[LABEL] - PriorityClass": 2,
+                  "separation_arcsec": 0.0148190596,
+                  "configurations": []
+                },
+                {
+                  "ID": 217327,
+                  "RA": 53.162277,
+                  "DEC": -27.746223,
+                  "Redshift": 0.77,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 0.9620358956,
+                  "configurations": []
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "MPT_input_v3",
+          "rows": 14107,
+          "label_field": "[LABEL] - Class",
+          "csv_sha256": "92421da39aad5c39d9fcceb6d1593db2035765d7c34fdbf731bd0bc8e0dba989",
+          "positions": {
+            "GS-001-B-53.188670-27.812539": {
+              "nearest": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.0516409518
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.7440682004
+                },
+                {
+                  "ID": 103871,
+                  "RA": 53.188625,
+                  "DEC": -27.812223,
+                  "Redshift": 2.67,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 1.1479605924
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.0516409518,
+                  "configurations": []
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.7440682004,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-002-B-53.147252-27.790612": {
+              "nearest": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0248807581
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.8494277525
+                },
+                {
+                  "ID": 204861,
+                  "RA": 53.14699,
+                  "DEC": -27.790215,
+                  "Redshift": 3.33,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 1.6541301945
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0248807581,
+                  "configurations": [
+                    {
+                      "plan": "P1V3.json",
+                      "configuration": "c1",
+                      "role": "primary"
+                    },
+                    {
+                      "plan": "P1V3.json",
+                      "configuration": "c2",
+                      "role": "primary"
+                    },
+                    {
+                      "plan": "P1V3.json",
+                      "configuration": "c3",
+                      "role": "primary"
+                    }
+                  ]
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.8494277525,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-B-53.162036-27.746384": {
+              "nearest": [
+                {
+                  "ID": 2510038,
+                  "RA": 53.1620395,
+                  "DEC": -27.7463867,
+                  "Redshift": 0.77,
+                  "Weight": 3704,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0148190596
+                },
+                {
+                  "ID": 217327,
+                  "RA": 53.162277,
+                  "DEC": -27.746223,
+                  "Redshift": 0.77,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.9620358956
+                },
+                {
+                  "ID": 151507,
+                  "RA": 53.161232,
+                  "DEC": -27.746399,
+                  "Redshift": 2.27,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 2.5621477335
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510038,
+                  "RA": 53.1620395,
+                  "DEC": -27.7463867,
+                  "Redshift": 0.77,
+                  "Weight": 3704,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0148190596,
+                  "configurations": []
+                },
+                {
+                  "ID": 217327,
+                  "RA": 53.162277,
+                  "DEC": -27.746223,
+                  "Redshift": 0.77,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.9620358956,
+                  "configurations": []
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "MPT_input_P2_v0.1",
+          "rows": 8386,
+          "label_field": "[LABEL] - Class",
+          "csv_sha256": "caa9ec515e91179dbbd3bb1a7c8c4f94a1ddd6eb2c18ee8032323732e89706b3",
+          "positions": {
+            "GS-001-B-53.188670-27.812539": {
+              "nearest": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.0516409518
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.7440682004
+                },
+                {
+                  "ID": 103871,
+                  "RA": 53.188625,
+                  "DEC": -27.812223,
+                  "Redshift": 2.67,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 1.1479605924
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 103607,
+                  "RA": 53.188675,
+                  "DEC": -27.812553,
+                  "Redshift": 2.48,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.0516409518,
+                  "configurations": []
+                },
+                {
+                  "ID": 103529,
+                  "RA": 53.188663,
+                  "DEC": -27.812746,
+                  "Redshift": 2.49,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.7440682004,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-002-B-53.147252-27.790612": {
+              "nearest": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 100000,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0248807581
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.8494277525
+                },
+                {
+                  "ID": 204861,
+                  "RA": 53.14699,
+                  "DEC": -27.790215,
+                  "Redshift": 3.33,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 1.6541301945
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510132,
+                  "RA": 53.1472505,
+                  "DEC": -27.7906186,
+                  "Redshift": 2.06,
+                  "Weight": 100000,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0248807581,
+                  "configurations": [
+                    {
+                      "plan": "P2V1.0.json",
+                      "configuration": "c1",
+                      "role": "primary"
+                    },
+                    {
+                      "plan": "P2V1.0.json",
+                      "configuration": "c2",
+                      "role": "primary"
+                    },
+                    {
+                      "plan": "P2V1.0.json",
+                      "configuration": "c3",
+                      "role": "primary"
+                    }
+                  ]
+                },
+                {
+                  "ID": 117695,
+                  "RA": 53.147335,
+                  "DEC": -27.790836,
+                  "Redshift": 1.55,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.8494277525,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-B-53.162036-27.746384": {
+              "nearest": [
+                {
+                  "ID": 217129,
+                  "RA": 53.160595,
+                  "DEC": -27.748772,
+                  "Redshift": 0.96,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 9.74592697
+                },
+                {
+                  "ID": 150153,
+                  "RA": 53.161076,
+                  "DEC": -27.749374,
+                  "Redshift": 2.61,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 11.1901289828
+                },
+                {
+                  "ID": 406882,
+                  "RA": 53.159424,
+                  "DEC": -27.748724,
+                  "Redshift": 0.67,
+                  "Weight": 3,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 11.8413670781
+                }
+              ],
+              "matches": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "literature_catalogues": {
+    "pouliasis_2019": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FMNRAS%2F487%2F4285%2Ftable3&-out.max=unlimited&-out.all=1",
+        "path": "data/raw/cross_detector/goods_s_pouliasis_2019_full.tsv",
+        "sha256": "bf3924abf10140b7d5169223c4fb54546a96acca353cbbe6acbb5df38e7212cd",
+        "bytes": 12644
+      },
+      "rows": 113,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-B-53.188670-27.812539": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.18014,
+              "DEJ2000": -27.82066,
+              "ID": "17370",
+              "Grade": "A",
+              "z": " 1.92",
+              "separation_arcsec": 39.902988065
+            },
+            {
+              "RAJ2000": 53.19754,
+              "DEJ2000": -27.82945,
+              "ID": "19047",
+              "Grade": "A",
+              "z": " 0.24",
+              "separation_arcsec": 67.1098515011
+            },
+            {
+              "RAJ2000": 53.21064,
+              "DEJ2000": -27.81873,
+              "ID": "20076",
+              "Grade": "A",
+              "z": " 2.84",
+              "separation_arcsec": 73.417971036
+            }
+          ]
+        },
+        "GS-002-B-53.147252-27.790612": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.14633,
+              "DEJ2000": -27.77111,
+              "ID": "13240",
+              "Grade": "B",
+              "z": " 1.31",
+              "separation_arcsec": 70.267846158
+            },
+            {
+              "RAJ2000": 53.14385,
+              "DEJ2000": -27.81352,
+              "ID": "12977",
+              "Grade": "A",
+              "z": " 0.20",
+              "separation_arcsec": 83.1779914048
+            },
+            {
+              "RAJ2000": 53.14316,
+              "DEJ2000": -27.81556,
+              "ID": "12911",
+              "Grade": "A",
+              "z": " 4.14",
+              "separation_arcsec": 90.7538198058
+            }
+          ]
+        },
+        "GS-B-53.162036-27.746384": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.16373,
+              "DEJ2000": -27.75912,
+              "ID": "15390",
+              "Grade": "B",
+              "z": " 1.03",
+              "separation_arcsec": 46.1661596571
+            },
+            {
+              "RAJ2000": 53.17445,
+              "DEJ2000": -27.73336,
+              "ID": "16721",
+              "Grade": "A",
+              "z": " 2.57",
+              "separation_arcsec": 61.3421769551
+            },
+            {
+              "RAJ2000": 53.17742,
+              "DEJ2000": -27.75976,
+              "ID": "17058",
+              "Grade": "A",
+              "z": " 2.51",
+              "separation_arcsec": 68.7087032967
+            }
+          ]
+        }
+      }
+    },
+    "villforth_2010": {
+      "product": {
+        "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJ%2F723%2F737%2Ftable5&-out.max=unlimited",
+        "path": "data/raw/cross_detector/goods_s_villforth_2010_full.tsv",
+        "sha256": "3fb4f09dc8d7de4a432c2de373cb59844073ee83d8dfcd216bc532a0c23b5955",
+        "bytes": 19560
+      },
+      "rows": 155,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-B-53.188670-27.812539": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.193291,
+              "DEJ2000": -27.805574,
+              "GOODS": "J033246.39-274820.1",
+              "Var": " 1.45",
+              "separation_arcsec": 29.0741245986
+            },
+            {
+              "RAJ2000": 53.193206,
+              "DEJ2000": -27.820211,
+              "GOODS": "J033246.37-274912.8",
+              "Var": " 2.07",
+              "separation_arcsec": 31.1664302575
+            },
+            {
+              "RAJ2000": 53.199929,
+              "DEJ2000": -27.81547,
+              "GOODS": "J033247.98-274855.7",
+              "Var": " 1.33",
+              "separation_arcsec": 37.3702466649
+            }
+          ]
+        },
+        "GS-002-B-53.147252-27.790612": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.147432,
+              "DEJ2000": -27.784516,
+              "GOODS": "J033235.38-274704.3",
+              "Var": "20.68",
+              "separation_arcsec": 21.9523682264
+            },
+            {
+              "RAJ2000": 53.158024,
+              "DEJ2000": -27.769192,
+              "GOODS": "J033237.93-274609.1",
+              "Var": " 1.51",
+              "separation_arcsec": 84.3998128119
+            },
+            {
+              "RAJ2000": 53.174448,
+              "DEJ2000": -27.780866,
+              "GOODS": "J033241.87-274651.1",
+              "Var": "12.07",
+              "separation_arcsec": 93.4531010447
+            }
+          ]
+        },
+        "GS-B-53.162036-27.746384": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.162859,
+              "DEJ2000": -27.76716,
+              "GOODS": "J033239.09-274601.8",
+              "Var": " 4.39",
+              "separation_arcsec": 74.8395639259
+            },
+            {
+              "RAJ2000": 53.158024,
+              "DEJ2000": -27.769192,
+              "GOODS": "J033237.93-274609.1",
+              "Var": " 1.51",
+              "separation_arcsec": 83.0976287731
+            },
+            {
+              "RAJ2000": 53.18304,
+              "DEJ2000": -27.730852,
+              "GOODS": "J033243.93-274351.1",
+              "Var": " 9.75",
+              "separation_arcsec": 87.209162929
+            }
+          ]
+        }
+      }
+    },
+    "sarajedini_2011": {
+      "product": {
+        "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJ%2F731%2F97%2Ftable1&-out.max=unlimited",
+        "path": "data/raw/cross_detector/goods_s_sarajedini_2011_full.tsv",
+        "sha256": "eee7de4497c43d2e55c89e1e276f2cefd5a48a10d5106bbe247881b67739a6d6",
+        "bytes": 11742
+      },
+      "rows": 85,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-B-53.188670-27.812539": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.180149,
+              "DEJ2000": -27.820604,
+              "Name": "26882",
+              "Signi": "59.702",
+              "z": " 1.920",
+              "separation_arcsec": 39.7359604111
+            },
+            {
+              "RAJ2000": 53.200371,
+              "DEJ2000": -27.789839,
+              "Name": "29365",
+              "Signi": " 5.287",
+              "z": " 0.700",
+              "separation_arcsec": 89.8155972215
+            },
+            {
+              "RAJ2000": 53.162861,
+              "DEJ2000": -27.767162,
+              "Name": "24251",
+              "Signi": " 3.624",
+              "z": " 1.216",
+              "separation_arcsec": 182.8720272296
+            }
+          ]
+        },
+        "GS-002-B-53.147252-27.790612": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.158027,
+              "DEJ2000": -27.769194,
+              "Name": "23424",
+              "Signi": " 3.609",
+              "z": " 0.150",
+              "separation_arcsec": 84.3971196404
+            },
+            {
+              "RAJ2000": 53.131573,
+              "DEJ2000": -27.770204,
+              "Name": "18648",
+              "Signi": " 3.402",
+              "z": " 0.680",
+              "separation_arcsec": 88.8334844036
+            },
+            {
+              "RAJ2000": 53.162861,
+              "DEJ2000": -27.767162,
+              "Name": "24251",
+              "Signi": " 3.624",
+              "z": " 1.216",
+              "separation_arcsec": 97.9712676948
+            }
+          ]
+        },
+        "GS-B-53.162036-27.746384": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.17445,
+              "DEJ2000": -27.733299,
+              "Name": "26093",
+              "Signi": "12.566",
+              "z": " 0.381",
+              "separation_arcsec": 61.5101964759
+            },
+            {
+              "RAJ2000": 53.162861,
+              "DEJ2000": -27.767162,
+              "Name": "24251",
+              "Signi": " 3.624",
+              "z": " 1.216",
+              "separation_arcsec": 74.8469829716
+            },
+            {
+              "RAJ2000": 53.158027,
+              "DEJ2000": -27.769194,
+              "Name": "23424",
+              "Signi": " 3.609",
+              "z": " 0.150",
+              "separation_arcsec": 83.1032737734
+            }
+          ]
+        }
+      }
+    },
+    "lyu_2024": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F966%2F229%2Ftable2&-out.max=unlimited&-out.all=1",
+        "path": "data/raw/cross_detector/goods_s_lyu_2024_full.tsv",
+        "sha256": "4cb9fe13cb4c064e1f7e1bc3ec57220132cf4acacce1c59f3534bec424e4a293",
+        "bytes": 21231
+      },
+      "rows": 217,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-B-53.188670-27.812539": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.1793431,
+              "DEJ2000": -27.812592,
+              "ID": " 815",
+              "JADES": "  1",
+              "Sample": "norm ",
+              "z": " 0.73",
+              "separation_arcsec": 29.6980706044
+            },
+            {
+              "RAJ2000": 53.1783755,
+              "DEJ2000": -27.816309,
+              "ID": "2394",
+              "JADES": "  1",
+              "Sample": "highz",
+              "z": " 5.13",
+              "separation_arcsec": 35.4760225432
+            },
+            {
+              "RAJ2000": 53.1786857,
+              "DEJ2000": -27.802703,
+              "ID": " 939",
+              "JADES": "  1",
+              "Sample": "norm ",
+              "z": " 2.69",
+              "separation_arcsec": 47.5886927882
+            }
+          ]
+        },
+        "GS-002-B-53.147252-27.790612": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.1491644,
+              "DEJ2000": -27.793057,
+              "ID": "1067",
+              "JADES": "  1",
+              "Sample": "norm ",
+              "z": " 1.22",
+              "separation_arcsec": 10.7045096691
+            },
+            {
+              "RAJ2000": 53.1433667,
+              "DEJ2000": -27.786811,
+              "ID": "2681",
+              "JADES": "  1",
+              "Sample": "dwarf",
+              "z": " 0.83",
+              "separation_arcsec": 18.4479626624
+            },
+            {
+              "RAJ2000": 53.1481549,
+              "DEJ2000": -27.784493,
+              "ID": "1168",
+              "JADES": "  1",
+              "Sample": "norm ",
+              "z": " 3.61",
+              "separation_arcsec": 22.2146256881
+            }
+          ]
+        },
+        "GS-B-53.162036-27.746384": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.160305,
+              "DEJ2000": -27.746792,
+              "ID": "2980",
+              "JADES": "  1",
+              "Sample": "dwarf",
+              "z": " 1.90",
+              "separation_arcsec": 5.7072919443
+            },
+            {
+              "RAJ2000": 53.1622336,
+              "DEJ2000": -27.744283,
+              "ID": "1640",
+              "JADES": "  1",
+              "Sample": "dwarf",
+              "z": " 0.68",
+              "separation_arcsec": 7.5897351882
+            },
+            {
+              "RAJ2000": 53.1627365,
+              "DEJ2000": -27.744347,
+              "ID": "1639",
+              "JADES": "  1",
+              "Sample": "norm ",
+              "z": " 0.68",
+              "separation_arcsec": 7.6652945168
+            }
+          ]
+        }
+      }
+    },
+    "luo_2017": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F228%2F2%2Fsources&-out.max=unlimited",
+        "path": "data/raw/cross_detector/goods_s_luo_2017_full.tsv",
+        "sha256": "d7968fdec7551e561ddd33242355e8024315333403a44ba77c8508fdd23268ae",
+        "bytes": 293319
+      },
+      "rows": 1055,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-B-53.188670-27.812539": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.185805,
+              "DEJ2000": -27.809946,
+              "OType": "AGN   ",
+              "errPos": " 0.17",
+              "zspec": " 2.593",
+              "zF": " 2.593",
+              "separation_arcsec": 13.052897439
+            },
+            {
+              "RAJ2000": 53.181858,
+              "DEJ2000": -27.814094,
+              "OType": "AGN   ",
+              "errPos": " 0.47",
+              "zspec": "      ",
+              "zF": " 2.406",
+              "separation_arcsec": 22.3999693172
+            },
+            {
+              "RAJ2000": 53.184944,
+              "DEJ2000": -27.819698,
+              "OType": "AGN   ",
+              "errPos": " 0.52",
+              "zspec": " 1.986",
+              "zF": " 1.986",
+              "separation_arcsec": 28.3703288151
+            }
+          ]
+        },
+        "GS-002-B-53.147252-27.790612": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.149276,
+              "DEJ2000": -27.788628,
+              "OType": "Galaxy",
+              "errPos": " 0.44",
+              "zspec": " 1.906",
+              "zF": " 1.906",
+              "separation_arcsec": 9.620788216
+            },
+            {
+              "RAJ2000": 53.149102,
+              "DEJ2000": -27.792999,
+              "OType": "AGN   ",
+              "errPos": " 0.28",
+              "zspec": " 1.223",
+              "zF": " 1.223",
+              "separation_arcsec": 10.4198262785
+            },
+            {
+              "RAJ2000": 53.144678,
+              "DEJ2000": -27.785457,
+              "OType": "Galaxy",
+              "errPos": " 0.45",
+              "zspec": " 0.247",
+              "zF": " 0.247",
+              "separation_arcsec": 20.2871842029
+            }
+          ]
+        },
+        "GS-B-53.162036-27.746384": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.161609,
+              "DEJ2000": -27.746876,
+              "OType": "Galaxy",
+              "errPos": " 0.47",
+              "zspec": " 0.735",
+              "zF": " 0.735",
+              "separation_arcsec": 2.2333831299
+            },
+            {
+              "RAJ2000": 53.162703,
+              "DEJ2000": -27.744261,
+              "OType": "AGN   ",
+              "errPos": " 0.18",
+              "zspec": " 0.679",
+              "zF": " 2.404",
+              "separation_arcsec": 7.9327333145
+            },
+            {
+              "RAJ2000": 53.166825,
+              "DEJ2000": -27.738697,
+              "OType": "Galaxy",
+              "errPos": " 0.58",
+              "zspec": " 0.522",
+              "zF": " 0.522",
+              "separation_arcsec": 31.6011018251
+            }
+          ]
+        }
+      }
+    }
+  },
+  "vetting_sha256": "fa564e032867cff78e4d198e24b860f5385ddcddf3dd7d2e749f13ce9944ff8c",
+  "original_position_sha256": "f35522f20db54e961bc438dc5ef2c51c32e769069324b894050469660a749594",
+  "script_sha256": "667f71fa5c4e9f5a49221730131d5a0dfe67b13a53a451ff25cd0337f7897f11",
+  "scope": "Public planning snapshots and selected historical catalogues. A planning row is neither an observed spectrum nor evidence of recognition of variability unless its label or assignment supports that inference."
+}

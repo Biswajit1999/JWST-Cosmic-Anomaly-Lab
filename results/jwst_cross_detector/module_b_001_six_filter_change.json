@@ -1,0 +1,2159 @@
+{
+  "executed_utc": "2026-11-23T22:04:56.437896+00:00",
+  "candidate": "GS-001-B-53.188670-27.812539",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "baseline_visit": "jw08060001001",
+  "bright_visit": "jw12577001001",
+  "held_out_filters": [
+    "F115W",
+    "F150W",
+    "F277W"
+  ],
+  "observed_apertures": [
+    {
+      "band": "F444W",
+      "detector": "NRCBLONG",
+      "visit": "jw08060001001",
+      "dateobs": "2025-10-06 09:00:00",
+      "mjd": 60954.38,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 33.90922546386719,
+          "local_mad_sigma_njy": 1.3820581352055072,
+          "control_median_njy": -0.001245655119419098,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 52.23540496826172,
+          "local_mad_sigma_njy": 2.1490019820839166,
+          "control_median_njy": -0.17281992733478546,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 59.74425506591797,
+          "local_mad_sigma_njy": 3.0801765931606293,
+          "control_median_njy": 0.19417603313922882,
+          "control_count": 336
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18867095562648,
+        -27.81255138356857
+      ]
+    },
+    {
+      "band": "F444W",
+      "detector": "NRCBLONG",
+      "visit": "jw12577001001",
+      "dateobs": "2026-10-09 23:45:36",
+      "mjd": 61322.99,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 47.89922332763672,
+          "local_mad_sigma_njy": 1.5302373894676564,
+          "control_median_njy": -0.06604542583227158,
+          "control_count": 308
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 70.23262786865234,
+          "local_mad_sigma_njy": 2.718644770646095,
+          "control_median_njy": -0.09212887287139893,
+          "control_count": 308
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 82.68475341796875,
+          "local_mad_sigma_njy": 4.081737985682487,
+          "control_median_njy": 0.08884792029857635,
+          "control_count": 306
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18867104044436,
+        -27.812554844188213
+      ]
+    },
+    {
+      "band": "F356W",
+      "detector": "NRCBLONG",
+      "visit": "jw08060001001",
+      "dateobs": "2025-10-06 10:19:12",
+      "mjd": 60954.43,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 39.42885971069336,
+          "local_mad_sigma_njy": 1.1787346718609333,
+          "control_median_njy": -0.14795473217964172,
+          "control_count": 330
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 57.61824417114258,
+          "local_mad_sigma_njy": 2.1464785590291022,
+          "control_median_njy": -0.19416992366313934,
+          "control_count": 330
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 68.9854507446289,
+          "local_mad_sigma_njy": 3.400195376899838,
+          "control_median_njy": 0.12500254809856415,
+          "control_count": 329
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.188670977719795,
+        -27.812550903068257
+      ]
+    },
+    {
+      "band": "F356W",
+      "detector": "NRCBLONG",
+      "visit": "jw12577001001",
+      "dateobs": "2026-10-10 01:01:55",
+      "mjd": 61323.04,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 56.832855224609375,
+          "local_mad_sigma_njy": 1.2541473447158933,
+          "control_median_njy": 0.10580024868249893,
+          "control_count": 308
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 80.08160400390625,
+          "local_mad_sigma_njy": 2.3047402052164077,
+          "control_median_njy": 0.015367865562438965,
+          "control_count": 307
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 92.2337875366211,
+          "local_mad_sigma_njy": 3.5103201782941817,
+          "control_median_njy": 0.24037760496139526,
+          "control_count": 304
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866406057507,
+        -27.81254858587171
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCB4",
+      "visit": "jw08060001001",
+      "dateobs": "2025-10-06 07:40:48",
+      "mjd": 60954.32,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 49.664615631103516,
+          "local_mad_sigma_njy": 1.476696712001413,
+          "control_median_njy": -0.06834840402007103,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 61.828189849853516,
+          "local_mad_sigma_njy": 2.4121711181223393,
+          "control_median_njy": -0.19561126828193665,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 66.86528778076172,
+          "local_mad_sigma_njy": 3.609624555945396,
+          "control_median_njy": -0.22555334866046906,
+          "control_count": 336
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.188669213946085,
+        -27.81255093073867
+      ]
+    },
+    {
+      "band": "F200W",
+      "detector": "NRCB4",
+      "visit": "jw12577001001",
+      "dateobs": "2026-10-09 22:30:43",
+      "mjd": 61322.94,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 82.31385803222656,
+          "local_mad_sigma_njy": 1.519864989799261,
+          "control_median_njy": -0.18114544451236725,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 98.28387451171875,
+          "local_mad_sigma_njy": 2.4100017709493637,
+          "control_median_njy": -0.4527500867843628,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 107.19865417480469,
+          "local_mad_sigma_njy": 3.8096806325912476,
+          "control_median_njy": -0.4206502437591553,
+          "control_count": 333
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.188666669049134,
+        -27.812546837537592
+      ]
+    },
+    {
+      "band": "F115W",
+      "detector": "NRCB4",
+      "visit": "jw01180010001",
+      "dateobs": "2022-09-30 13:55:12",
+      "mjd": 59852.58,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 37.57855987548828,
+          "local_mad_sigma_njy": 0.9557234450966119,
+          "control_median_njy": -0.06337709724903107,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 45.66121292114258,
+          "local_mad_sigma_njy": 1.7910188495814798,
+          "control_median_njy": -0.04896751046180725,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 52.163818359375,
+          "local_mad_sigma_njy": 2.7287887453079223,
+          "control_median_njy": 0.13463222980499268,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866620778042,
+        -27.812549094854106
+      ]
+    },
+    {
+      "band": "F115W",
+      "detector": "NRCB4",
+      "visit": "jw01180012001",
+      "dateobs": "2023-09-30 16:24:57",
+      "mjd": 60217.68,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 39.076725006103516,
+          "local_mad_sigma_njy": 0.8615821640878916,
+          "control_median_njy": -0.06846900284290314,
+          "control_count": 302
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 46.56130599975586,
+          "local_mad_sigma_njy": 1.7520706903651355,
+          "control_median_njy": -0.1319858506321907,
+          "control_count": 302
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 50.09979248046875,
+          "local_mad_sigma_njy": 2.8411748647928237,
+          "control_median_njy": -0.15881526470184326,
+          "control_count": 301
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.1886692643289,
+        -27.812550911180903
+      ]
+    },
+    {
+      "band": "F115W",
+      "detector": "NRCB4",
+      "visit": "jw08060001001",
+      "dateobs": "2025-10-06 09:00:00",
+      "mjd": 60954.38,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 35.82267379760742,
+          "local_mad_sigma_njy": 2.203917810344696,
+          "control_median_njy": -0.23141833394765854,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 47.1534538269043,
+          "local_mad_sigma_njy": 3.5558234028339384,
+          "control_median_njy": -0.45491595566272736,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 52.676795959472656,
+          "local_mad_sigma_njy": 4.97137092615366,
+          "control_median_njy": -0.18966752290725708,
+          "control_count": 335
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.188668679921534,
+        -27.812549984921365
+      ]
+    },
+    {
+      "band": "F115W",
+      "detector": "NRCB4",
+      "visit": "jw12577001001",
+      "dateobs": "2026-10-09 23:45:36",
+      "mjd": 61322.99,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 46.139869689941406,
+          "local_mad_sigma_njy": 2.175095465786755,
+          "control_median_njy": -0.11385690420866013,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 55.986328125,
+          "local_mad_sigma_njy": 3.360394194602966,
+          "control_median_njy": -0.10417747497558594,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 57.98926544189453,
+          "local_mad_sigma_njy": 4.8756510945796965,
+          "control_median_njy": 0.492085337638855,
+          "control_count": 334
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866599145614,
+        -27.81254847616451
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCB4",
+      "visit": "jw01180010001",
+      "dateobs": "2022-09-30 21:17:16",
+      "mjd": 59852.89,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 50.474613189697266,
+          "local_mad_sigma_njy": 1.044594508639723,
+          "control_median_njy": -0.04025143012404442,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 63.17112731933594,
+          "local_mad_sigma_njy": 1.9310102067768573,
+          "control_median_njy": -0.06172826886177063,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 71.68565368652344,
+          "local_mad_sigma_njy": 2.8221532111823557,
+          "control_median_njy": 0.10513326525688171,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866733916817,
+        -27.812549134069965
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCB4",
+      "visit": "jw01180012001",
+      "dateobs": "2023-09-30 23:54:14",
+      "mjd": 60218.0,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 52.51567840576172,
+          "local_mad_sigma_njy": 1.2853460925199092,
+          "control_median_njy": -0.06646743789315224,
+          "control_count": 302
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 65.22956085205078,
+          "local_mad_sigma_njy": 2.00494302713871,
+          "control_median_njy": -0.04711318016052246,
+          "control_count": 302
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 71.7762451171875,
+          "local_mad_sigma_njy": 2.9365370635986325,
+          "control_median_njy": 0.11284732818603516,
+          "control_count": 301
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866868278465,
+        -27.812550904348665
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCB4",
+      "visit": "jw08060001001",
+      "dateobs": "2025-10-06 10:19:12",
+      "mjd": 60954.43,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 52.178367614746094,
+          "local_mad_sigma_njy": 1.9266469014286993,
+          "control_median_njy": -0.14808005094528198,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 61.786964416503906,
+          "local_mad_sigma_njy": 2.8658447213172913,
+          "control_median_njy": -0.3816871643066406,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 71.36048126220703,
+          "local_mad_sigma_njy": 4.343085178506374,
+          "control_median_njy": -0.32511967420578003,
+          "control_count": 334
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866964891381,
+        -27.812549761902584
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCB4",
+      "visit": "jw12577001001",
+      "dateobs": "2026-10-10 01:01:55",
+      "mjd": 61323.04,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 77.66215515136719,
+          "local_mad_sigma_njy": 1.8080974711954592,
+          "control_median_njy": -0.16779032349586487,
+          "control_count": 334
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 92.37786865234375,
+          "local_mad_sigma_njy": 2.75891667702198,
+          "control_median_njy": -0.49978482723236084,
+          "control_count": 333
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 101.41754913330078,
+          "local_mad_sigma_njy": 4.161862306773663,
+          "control_median_njy": -0.38871902227401733,
+          "control_count": 332
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866592222612,
+        -27.81254713802212
+      ]
+    },
+    {
+      "band": "F150W",
+      "detector": "NRCA2",
+      "visit": "jw05324027001",
+      "dateobs": "2026-02-04 10:40:48",
+      "mjd": 61075.44,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 49.55425262451172,
+          "local_mad_sigma_njy": 4.0996574463844295,
+          "control_median_njy": -0.06622099690139294,
+          "control_count": 264
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 64.57850646972656,
+          "local_mad_sigma_njy": 6.944994707679748,
+          "control_median_njy": 0.41759181022644043,
+          "control_count": 264
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 67.99078369140625,
+          "local_mad_sigma_njy": 10.11087944741249,
+          "control_median_njy": 0.3593590259552002,
+          "control_count": 263
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866875282356,
+        -27.812548184709705
+      ]
+    },
+    {
+      "band": "F277W",
+      "detector": "NRCBLONG",
+      "visit": "jw01180010001",
+      "dateobs": "2022-09-30 13:55:12",
+      "mjd": 59852.58,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 40.166500091552734,
+          "local_mad_sigma_njy": 0.6807608117982745,
+          "control_median_njy": 0.06266399472951889,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 56.44929504394531,
+          "local_mad_sigma_njy": 1.1748033625066279,
+          "control_median_njy": 0.12971505522727966,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 64.73912048339844,
+          "local_mad_sigma_njy": 1.7722492046803235,
+          "control_median_njy": 0.19277648627758026,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18867131750217,
+        -27.8125499310258
+      ]
+    },
+    {
+      "band": "F277W",
+      "detector": "NRCBLONG",
+      "visit": "jw01180012001",
+      "dateobs": "2023-09-30 16:24:57",
+      "mjd": 60217.68,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 39.891326904296875,
+          "local_mad_sigma_njy": 0.6754771234542131,
+          "control_median_njy": 0.06779156625270844,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 56.13837814331055,
+          "local_mad_sigma_njy": 1.2571356042087078,
+          "control_median_njy": 0.039881378412246704,
+          "control_count": 337
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 63.73454284667969,
+          "local_mad_sigma_njy": 1.7233776529848575,
+          "control_median_njy": 0.08990314602851868,
+          "control_count": 337
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.188672307487046,
+        -27.812555511464293
+      ]
+    },
+    {
+      "band": "F277W",
+      "detector": "NRCBLONG",
+      "visit": "jw08060001001",
+      "dateobs": "2025-10-06 07:40:48",
+      "mjd": 60954.32,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 37.56485366821289,
+          "local_mad_sigma_njy": 1.2675978428721426,
+          "control_median_njy": -0.01733112335205078,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 53.439701080322266,
+          "local_mad_sigma_njy": 2.0188530816346404,
+          "control_median_njy": 0.08817379176616669,
+          "control_count": 336
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 59.84388732910156,
+          "local_mad_sigma_njy": 3.080916955733299,
+          "control_median_njy": 0.20659466087818146,
+          "control_count": 334
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18867068024342,
+        -27.812551147576684
+      ]
+    },
+    {
+      "band": "F277W",
+      "detector": "NRCBLONG",
+      "visit": "jw12577001001",
+      "dateobs": "2026-10-09 22:30:43",
+      "mjd": 61322.94,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 60.74013900756836,
+          "local_mad_sigma_njy": 1.323953635686636,
+          "control_median_njy": 0.09102379158139229,
+          "control_count": 306
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 82.86122131347656,
+          "local_mad_sigma_njy": 2.507113869452476,
+          "control_median_njy": 0.1051315888762474,
+          "control_count": 306
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 92.16194152832031,
+          "local_mad_sigma_njy": 3.7321314530074594,
+          "control_median_njy": -0.12158802151679993,
+          "control_count": 306
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18866407237031,
+        -27.812548838242314
+      ]
+    },
+    {
+      "band": "F277W",
+      "detector": "NRCALONG",
+      "visit": "jw05324027001",
+      "dateobs": "2026-02-04 10:40:48",
+      "mjd": 61075.44,
+      "apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 39.510101318359375,
+          "local_mad_sigma_njy": 3.0333455233097073,
+          "control_median_njy": -0.300983190536499,
+          "control_count": 219
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 48.979698181152344,
+          "local_mad_sigma_njy": 4.603650651669502,
+          "control_median_njy": -0.6242812871932983,
+          "control_count": 215
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 54.54808044433594,
+          "local_mad_sigma_njy": 8.191964112210274,
+          "control_median_njy": -0.3494483232498169,
+          "control_count": 209
+        }
+      ],
+      "local_centroid_ra_dec": [
+        53.18867212710145,
+        -27.81254825867883
+      ]
+    }
+  ],
+  "difference_photometry": {
+    "F115W": {
+      "unit_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 10.059329986572266,
+          "local_mad_sigma_njy": 2.637869848653674,
+          "control_median_njy": 0.1528160125017166,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 8.255514144897461,
+          "local_mad_sigma_njy": 4.1723914855957025,
+          "control_median_njy": 0.6095513701438904,
+          "control_count": 334
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 4.306083679199219,
+          "local_mad_sigma_njy": 5.667216746878624,
+          "control_median_njy": 0.6243177950382233,
+          "control_count": 332
+        }
+      ],
+      "local_flux_scale": {
+        "median_gain": 1.00139694083671,
+        "robust_scatter": 0.016479193964262194,
+        "references": [
+          {
+            "offset_arcsec": [
+              5.700000000022062,
+              -5.280000000016245
+            ],
+            "old_njy": 419.013427734375,
+            "new_njy": 425.3101806640625,
+            "new_to_old": 1.0150275683615542
+          },
+          {
+            "offset_arcsec": [
+              -1.8199999999778629,
+              -4.720000000016251
+            ],
+            "old_njy": 81.64897155761719,
+            "new_njy": 85.60293579101562,
+            "new_to_old": 1.0484263813489463
+          },
+          {
+            "offset_arcsec": [
+              -0.8199999999778729,
+              -3.440000000016264
+            ],
+            "old_njy": 85.55474853515625,
+            "new_njy": 82.14850616455078,
+            "new_to_old": 0.9601864019364656
+          },
+          {
+            "offset_arcsec": [
+              3.000000000022089,
+              -2.600000000016272
+            ],
+            "old_njy": 80.95919799804688,
+            "new_njy": 80.70063781738281,
+            "new_to_old": 0.9968062902417796
+          },
+          {
+            "offset_arcsec": [
+              2.080000000022098,
+              -2.400000000016274
+            ],
+            "old_njy": 141.0272674560547,
+            "new_njy": 144.7448272705078,
+            "new_to_old": 1.0263605746712177
+          },
+          {
+            "offset_arcsec": [
+              4.940000000022069,
+              -0.5600000000162926
+            ],
+            "old_njy": 116.5733642578125,
+            "new_njy": 117.23542785644531,
+            "new_to_old": 1.0056793728382807
+          },
+          {
+            "offset_arcsec": [
+              2.180000000022097,
+              0.6999999999836948
+            ],
+            "old_njy": 149.48944091796875,
+            "new_njy": 149.75033569335938,
+            "new_to_old": 1.001745238819468
+          },
+          {
+            "offset_arcsec": [
+              -5.739999999977823,
+              0.7399999999836945
+            ],
+            "old_njy": 85.46131134033203,
+            "new_njy": 89.88763427734375,
+            "new_to_old": 1.0517932953238314
+          },
+          {
+            "offset_arcsec": [
+              4.020000000022079,
+              0.9599999999836922
+            ],
+            "old_njy": 1311.7850341796875,
+            "new_njy": 1306.0548095703125,
+            "new_to_old": 0.9956317350327462
+          },
+          {
+            "offset_arcsec": [
+              13.700000000021982,
+              1.4599999999836872
+            ],
+            "old_njy": 102.48260498046875,
+            "new_njy": 102.59007263183594,
+            "new_to_old": 1.0010486428539522
+          },
+          {
+            "offset_arcsec": [
+              6.380000000022055,
+              1.7199999999836846
+            ],
+            "old_njy": 129.07772827148438,
+            "new_njy": 132.319580078125,
+            "new_to_old": 1.025115500947012
+          },
+          {
+            "offset_arcsec": [
+              -5.6399999999778245,
+              3.4399999999836672
+            ],
+            "old_njy": 111.5484619140625,
+            "new_njy": 118.26456451416016,
+            "new_to_old": 1.0602079355004623
+          },
+          {
+            "offset_arcsec": [
+              -3.0199999999778506,
+              4.839999999983653
+            ],
+            "old_njy": 292.9656982421875,
+            "new_njy": 292.4143981933594,
+            "new_to_old": 0.998118209564683
+          },
+          {
+            "offset_arcsec": [
+              9.86000000002202,
+              4.939999999983653
+            ],
+            "old_njy": 483.63763427734375,
+            "new_njy": 480.1542053222656,
+            "new_to_old": 0.9927974402565195
+          },
+          {
+            "offset_arcsec": [
+              2.360000000022095,
+              7.1399999999836306
+            ],
+            "old_njy": 132.86798095703125,
+            "new_njy": 130.032958984375,
+            "new_to_old": 0.9786628655584593
+          },
+          {
+            "offset_arcsec": [
+              -2.499999999977856,
+              8.859999999983613
+            ],
+            "old_njy": 119.69300842285156,
+            "new_njy": 119.64006805419922,
+            "new_to_old": 0.9995576987382144
+          },
+          {
+            "offset_arcsec": [
+              8.920000000022029,
+              9.03999999998361
+            ],
+            "old_njy": 663.1035766601562,
+            "new_njy": 658.4983520507812,
+            "new_to_old": 0.9930550448354236
+          },
+          {
+            "offset_arcsec": [
+              4.100000000022078,
+              10.859999999983593
+            ],
+            "old_njy": 78.0922622680664,
+            "new_njy": 83.87530517578125,
+            "new_to_old": 1.074053981018804
+          }
+        ]
+      },
+      "local_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 9.99747371673584,
+          "local_mad_sigma_njy": 2.5894107632160184,
+          "control_median_njy": 0.1763002872467041,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 8.163190841674805,
+          "local_mad_sigma_njy": 4.186180539679527,
+          "control_median_njy": 0.6156339645385742,
+          "control_count": 334
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 4.186387062072754,
+          "local_mad_sigma_njy": 5.766208339458704,
+          "control_median_njy": 0.591458648443222,
+          "control_count": 332
+        }
+      ]
+    },
+    "F150W": {
+      "unit_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 25.505657196044922,
+          "local_mad_sigma_njy": 2.046644967506826,
+          "control_median_njy": 0.027332760393619537,
+          "control_count": 332
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 30.639875411987305,
+          "local_mad_sigma_njy": 2.992563722920418,
+          "control_median_njy": 0.06337833404541016,
+          "control_count": 331
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 30.14241600036621,
+          "local_mad_sigma_njy": 4.632207014036179,
+          "control_median_njy": -0.13596749305725098,
+          "control_count": 329
+        }
+      ],
+      "local_flux_scale": {
+        "median_gain": 0.999166655420451,
+        "robust_scatter": 0.03237644715037822,
+        "references": [
+          {
+            "offset_arcsec": [
+              -0.5199999999778758,
+              -5.280000000016245
+            ],
+            "old_njy": 110.05335998535156,
+            "new_njy": 92.1806869506836,
+            "new_to_old": 0.8375999330047998
+          },
+          {
+            "offset_arcsec": [
+              5.700000000022062,
+              -5.280000000016245
+            ],
+            "old_njy": 648.1443481445312,
+            "new_njy": 658.2105712890625,
+            "new_to_old": 1.0155308353352894
+          },
+          {
+            "offset_arcsec": [
+              -1.8199999999778629,
+              -4.700000000016251
+            ],
+            "old_njy": 94.509765625,
+            "new_njy": 95.60577392578125,
+            "new_to_old": 1.0115967730269275
+          },
+          {
+            "offset_arcsec": [
+              -0.8199999999778729,
+              -3.420000000016264
+            ],
+            "old_njy": 180.38287353515625,
+            "new_njy": 184.1786651611328,
+            "new_to_old": 1.0210429712731945
+          },
+          {
+            "offset_arcsec": [
+              2.080000000022098,
+              -2.3800000000162744
+            ],
+            "old_njy": 152.376953125,
+            "new_njy": 148.86676025390625,
+            "new_to_old": 0.9769637546944897
+          },
+          {
+            "offset_arcsec": [
+              5.420000000022064,
+              -0.5600000000162926
+            ],
+            "old_njy": 238.1603240966797,
+            "new_njy": 237.9378204345703,
+            "new_to_old": 0.9990657400095784
+          },
+          {
+            "offset_arcsec": [
+              2.180000000022097,
+              0.7199999999836946
+            ],
+            "old_njy": 156.4063720703125,
+            "new_njy": 145.46701049804688,
+            "new_to_old": 0.930058082497126
+          },
+          {
+            "offset_arcsec": [
+              -5.719999999977824,
+              0.7399999999836945
+            ],
+            "old_njy": 98.32817840576172,
+            "new_njy": 94.5030517578125,
+            "new_to_old": 0.9610983676300355
+          },
+          {
+            "offset_arcsec": [
+              -6.9199999999778115,
+              0.8999999999836928
+            ],
+            "old_njy": 78.98481750488281,
+            "new_njy": 71.5103759765625,
+            "new_to_old": 0.9053686295108773
+          },
+          {
+            "offset_arcsec": [
+              4.040000000022078,
+              0.979999999983692
+            ],
+            "old_njy": 1620.508544921875,
+            "new_njy": 1613.372802734375,
+            "new_to_old": 0.9955966031713557
+          },
+          {
+            "offset_arcsec": [
+              13.680000000021982,
+              1.479999999983687
+            ],
+            "old_njy": 106.25240325927734,
+            "new_njy": 112.0120620727539,
+            "new_to_old": 1.0542073274278967
+          },
+          {
+            "offset_arcsec": [
+              6.460000000022054,
+              1.6999999999836848
+            ],
+            "old_njy": 143.57521057128906,
+            "new_njy": 146.90963745117188,
+            "new_to_old": 1.023224252060053
+          },
+          {
+            "offset_arcsec": [
+              -5.6399999999778245,
+              3.4399999999836672
+            ],
+            "old_njy": 127.87955474853516,
+            "new_njy": 127.26261901855469,
+            "new_to_old": 0.9951756499997703
+          },
+          {
+            "offset_arcsec": [
+              -2.999999999977851,
+              4.839999999983653
+            ],
+            "old_njy": 313.116455078125,
+            "new_njy": 315.8468017578125,
+            "new_to_old": 1.0087199079939961
+          },
+          {
+            "offset_arcsec": [
+              9.88000000002202,
+              4.979999999983652
+            ],
+            "old_njy": 555.025146484375,
+            "new_njy": 566.6830444335938,
+            "new_to_old": 1.0210042698480635
+          },
+          {
+            "offset_arcsec": [
+              2.3400000000220955,
+              7.17999999998363
+            ],
+            "old_njy": 134.92501831054688,
+            "new_njy": 131.81434631347656,
+            "new_to_old": 0.9769451801006193
+          },
+          {
+            "offset_arcsec": [
+              -2.499999999977856,
+              8.879999999983612
+            ],
+            "old_njy": 133.2592010498047,
+            "new_njy": 133.8586883544922,
+            "new_to_old": 1.0044986560024733
+          },
+          {
+            "offset_arcsec": [
+              8.94000000002203,
+              9.13999999998361
+            ],
+            "old_njy": 1302.521484375,
+            "new_njy": 1301.43603515625,
+            "new_to_old": 0.999166655420451
+          },
+          {
+            "offset_arcsec": [
+              4.120000000022078,
+              10.859999999983593
+            ],
+            "old_njy": 121.01508331298828,
+            "new_njy": 121.3450698852539,
+            "new_to_old": 1.002726821840978
+          }
+        ]
+      },
+      "local_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 25.55366325378418,
+          "local_mad_sigma_njy": 2.0462796023771164,
+          "control_median_njy": 0.02866966277360916,
+          "control_count": 332
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 30.701492309570312,
+          "local_mad_sigma_njy": 2.983224444079399,
+          "control_median_njy": 0.05833399295806885,
+          "control_count": 331
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 30.21953582763672,
+          "local_mad_sigma_njy": 4.585201678848266,
+          "control_median_njy": -0.14174747467041016,
+          "control_count": 329
+        }
+      ]
+    },
+    "F200W": {
+      "unit_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 32.68672561645508,
+          "local_mad_sigma_njy": 1.862698283046484,
+          "control_median_njy": -0.1638334095478058,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 36.53959655761719,
+          "local_mad_sigma_njy": 2.9140225476264954,
+          "control_median_njy": -0.13056433200836182,
+          "control_count": 334
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 40.479637145996094,
+          "local_mad_sigma_njy": 4.2751914208889,
+          "control_median_njy": -0.028910934925079346,
+          "control_count": 332
+        }
+      ],
+      "local_flux_scale": {
+        "median_gain": 1.0048579067955026,
+        "robust_scatter": 0.02132680234782325,
+        "references": [
+          {
+            "offset_arcsec": [
+              -0.5199999999778758,
+              -5.300000000016245
+            ],
+            "old_njy": 126.7081069946289,
+            "new_njy": 110.82022094726562,
+            "new_to_old": 0.8746103432195008
+          },
+          {
+            "offset_arcsec": [
+              5.700000000022062,
+              -5.280000000016245
+            ],
+            "old_njy": 849.8966064453125,
+            "new_njy": 863.9819946289062,
+            "new_to_old": 1.0165730608603154
+          },
+          {
+            "offset_arcsec": [
+              -1.8399999999778627,
+              -4.720000000016251
+            ],
+            "old_njy": 88.75723266601562,
+            "new_njy": 86.673095703125,
+            "new_to_old": 0.9765186802214416
+          },
+          {
+            "offset_arcsec": [
+              -0.8199999999778729,
+              -3.420000000016264
+            ],
+            "old_njy": 108.37382507324219,
+            "new_njy": 110.70985412597656,
+            "new_to_old": 1.021555288384032
+          },
+          {
+            "offset_arcsec": [
+              2.080000000022098,
+              -2.400000000016274
+            ],
+            "old_njy": 148.88621520996094,
+            "new_njy": 150.25051879882812,
+            "new_to_old": 1.009163397611681
+          },
+          {
+            "offset_arcsec": [
+              5.420000000022064,
+              -0.5800000000162924
+            ],
+            "old_njy": 344.0591125488281,
+            "new_njy": 341.246826171875,
+            "new_to_old": 0.9918261534882207
+          },
+          {
+            "offset_arcsec": [
+              2.180000000022097,
+              0.6999999999836948
+            ],
+            "old_njy": 166.7123565673828,
+            "new_njy": 166.84170532226562,
+            "new_to_old": 1.0007758798300626
+          },
+          {
+            "offset_arcsec": [
+              -5.739999999977823,
+              0.8199999999836937
+            ],
+            "old_njy": 85.2145767211914,
+            "new_njy": 92.44275665283203,
+            "new_to_old": 1.0848232803560134
+          },
+          {
+            "offset_arcsec": [
+              -6.9199999999778115,
+              0.879999999983693
+            ],
+            "old_njy": 82.63821411132812,
+            "new_njy": 93.95467376708984,
+            "new_to_old": 1.1369397896294864
+          },
+          {
+            "offset_arcsec": [
+              4.040000000022078,
+              0.979999999983692
+            ],
+            "old_njy": 1941.6298828125,
+            "new_njy": 1949.5250244140625,
+            "new_to_old": 1.0040662443813062
+          },
+          {
+            "offset_arcsec": [
+              13.74000000002198,
+              1.4399999999836874
+            ],
+            "old_njy": 97.66835021972656,
+            "new_njy": 105.20591735839844,
+            "new_to_old": 1.0771751250196655
+          },
+          {
+            "offset_arcsec": [
+              6.400000000022055,
+              1.7399999999836844
+            ],
+            "old_njy": 146.20513916015625,
+            "new_njy": 144.6144561767578,
+            "new_to_old": 0.9891201978772034
+          },
+          {
+            "offset_arcsec": [
+              -5.6399999999778245,
+              3.4599999999836673
+            ],
+            "old_njy": 133.25607299804688,
+            "new_njy": 134.9091339111328,
+            "new_to_old": 1.0124051450406328
+          },
+          {
+            "offset_arcsec": [
+              6.520000000022053,
+              4.619999999983656
+            ],
+            "old_njy": 186.10104370117188,
+            "new_njy": 185.69561767578125,
+            "new_to_old": 0.9978214736611493
+          },
+          {
+            "offset_arcsec": [
+              -2.999999999977851,
+              4.819999999983653
+            ],
+            "old_njy": 315.4512939453125,
+            "new_njy": 318.462890625,
+            "new_to_old": 1.0095469466681268
+          },
+          {
+            "offset_arcsec": [
+              9.90000000002202,
+              5.059999999983651
+            ],
+            "old_njy": 616.1671752929688,
+            "new_njy": 619.6482543945312,
+            "new_to_old": 1.0056495692096992
+          },
+          {
+            "offset_arcsec": [
+              2.360000000022095,
+              7.15999999998363
+            ],
+            "old_njy": 128.3216552734375,
+            "new_njy": 124.26518249511719,
+            "new_to_old": 0.9683882446055073
+          },
+          {
+            "offset_arcsec": [
+              -2.519999999977856,
+              8.839999999983613
+            ],
+            "old_njy": 150.22703552246094,
+            "new_njy": 145.746337890625,
+            "new_to_old": 0.9701738264603776
+          },
+          {
+            "offset_arcsec": [
+              8.920000000022029,
+              9.11999999998361
+            ],
+            "old_njy": 1871.932861328125,
+            "new_njy": 1900.5347900390625,
+            "new_to_old": 1.0152793560612237
+          },
+          {
+            "offset_arcsec": [
+              4.100000000022078,
+              10.859999999983593
+            ],
+            "old_njy": 103.53787994384766,
+            "new_njy": 97.44282531738281,
+            "new_to_old": 0.9411321283594911
+          }
+        ]
+      },
+      "local_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 32.44621658325195,
+          "local_mad_sigma_njy": 1.8274125126957892,
+          "control_median_njy": -0.16717082262039185,
+          "control_count": 335
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 36.24093246459961,
+          "local_mad_sigma_njy": 2.9303185437887906,
+          "control_median_njy": -0.09928925335407257,
+          "control_count": 334
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 40.15776824951172,
+          "local_mad_sigma_njy": 4.258684640550613,
+          "control_median_njy": -0.06176871061325073,
+          "control_count": 332
+        }
+      ]
+    },
+    "F277W": {
+      "unit_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 23.252262115478516,
+          "local_mad_sigma_njy": 1.6586861534893511,
+          "control_median_njy": 0.17157438397407532,
+          "control_count": 305
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 29.59748077392578,
+          "local_mad_sigma_njy": 2.67776218444705,
+          "control_median_njy": -0.1791679561138153,
+          "control_count": 305
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 32.6259765625,
+          "local_mad_sigma_njy": 3.821356410169601,
+          "control_median_njy": -0.1878499984741211,
+          "control_count": 303
+        }
+      ],
+      "local_flux_scale": {
+        "median_gain": 1.0067458724805913,
+        "robust_scatter": 0.04613827296436637,
+        "references": [
+          {
+            "offset_arcsec": [
+              -0.5299999999778757,
+              -5.310000000016244
+            ],
+            "old_njy": 110.92394256591797,
+            "new_njy": 114.31289672851562,
+            "new_to_old": 1.0305520529130465
+          },
+          {
+            "offset_arcsec": [
+              5.670000000022062,
+              -5.270000000016245
+            ],
+            "old_njy": 1087.6080322265625,
+            "new_njy": 1103.4864501953125,
+            "new_to_old": 1.0145993938057294
+          },
+          {
+            "offset_arcsec": [
+              -1.8099999999778629,
+              -4.710000000016251
+            ],
+            "old_njy": 84.72610473632812,
+            "new_njy": 84.90373992919922,
+            "new_to_old": 1.0020965816075684
+          },
+          {
+            "offset_arcsec": [
+              2.070000000022098,
+              -2.390000000016274
+            ],
+            "old_njy": 115.94705200195312,
+            "new_njy": 112.7773208618164,
+            "new_to_old": 0.9726622532836512
+          },
+          {
+            "offset_arcsec": [
+              5.390000000022065,
+              -0.5900000000162923
+            ],
+            "old_njy": 333.5972595214844,
+            "new_njy": 345.2404479980469,
+            "new_to_old": 1.034901930828999
+          },
+          {
+            "offset_arcsec": [
+              -5.689999999977824,
+              0.8099999999836938
+            ],
+            "old_njy": 78.05760955810547,
+            "new_njy": 72.61366271972656,
+            "new_to_old": 0.9302573205969563
+          },
+          {
+            "offset_arcsec": [
+              4.030000000022079,
+              0.9699999999836921
+            ],
+            "old_njy": 1912.84912109375,
+            "new_njy": 1936.494384765625,
+            "new_to_old": 1.0123612800461517
+          },
+          {
+            "offset_arcsec": [
+              6.430000000022054,
+              1.7299999999836846
+            ],
+            "old_njy": 121.85789489746094,
+            "new_njy": 117.10498046875,
+            "new_to_old": 0.9609962536058058
+          },
+          {
+            "offset_arcsec": [
+              -5.649999999977824,
+              3.449999999983667
+            ],
+            "old_njy": 107.6141586303711,
+            "new_njy": 103.5807876586914,
+            "new_to_old": 0.9625200714941855
+          },
+          {
+            "offset_arcsec": [
+              6.510000000022053,
+              4.609999999983655
+            ],
+            "old_njy": 177.14207458496094,
+            "new_njy": 169.64492797851562,
+            "new_to_old": 0.957677211221496
+          },
+          {
+            "offset_arcsec": [
+              -3.009999999977851,
+              4.809999999983654
+            ],
+            "old_njy": 304.19122314453125,
+            "new_njy": 301.563232421875,
+            "new_to_old": 0.991360727980611
+          },
+          {
+            "offset_arcsec": [
+              9.870000000022019,
+              5.049999999983651
+            ],
+            "old_njy": 443.00604248046875,
+            "new_njy": 448.0541687011719,
+            "new_to_old": 1.0113951633536142
+          },
+          {
+            "offset_arcsec": [
+              2.390000000022095,
+              7.16999999998363
+            ],
+            "old_njy": 91.24806213378906,
+            "new_njy": 95.80418395996094,
+            "new_to_old": 1.0499311625872298
+          },
+          {
+            "offset_arcsec": [
+              -2.489999999977856,
+              8.849999999983613
+            ],
+            "old_njy": 109.59230041503906,
+            "new_njy": 115.07777404785156,
+            "new_to_old": 1.0500534582451355
+          },
+          {
+            "offset_arcsec": [
+              8.95000000002203,
+              9.089999999983611
+            ],
+            "old_njy": 2449.544189453125,
+            "new_njy": 2482.20703125,
+            "new_to_old": 1.0133342529346927
+          },
+          {
+            "offset_arcsec": [
+              4.230000000022076,
+              10.769999999983593
+            ],
+            "old_njy": 84.8456039428711,
+            "new_njy": 78.27698516845703,
+            "new_to_old": 0.9225815072418261
+          }
+        ]
+      },
+      "local_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 23.019865036010742,
+          "local_mad_sigma_njy": 1.6453105819165705,
+          "control_median_njy": 0.1622200310230255,
+          "control_count": 305
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 29.285001754760742,
+          "local_mad_sigma_njy": 2.682984577256441,
+          "control_median_njy": -0.1269911825656891,
+          "control_count": 305
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 32.30630874633789,
+          "local_mad_sigma_njy": 3.81523485417366,
+          "control_median_njy": -0.16846179962158203,
+          "control_count": 303
+        }
+      ]
+    },
+    "F356W": {
+      "unit_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 17.96249771118164,
+          "local_mad_sigma_njy": 1.4433811087131498,
+          "control_median_njy": 0.45171380043029785,
+          "control_count": 301
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 23.73993682861328,
+          "local_mad_sigma_njy": 2.4851197635054585,
+          "control_median_njy": 0.15983057022094727,
+          "control_count": 300
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 25.482341766357422,
+          "local_mad_sigma_njy": 3.7463756559848784,
+          "control_median_njy": 0.356999009847641,
+          "control_count": 296
+        }
+      ],
+      "local_flux_scale": {
+        "median_gain": 1.0072264475750052,
+        "robust_scatter": 0.012087345824361488,
+        "references": [
+          {
+            "offset_arcsec": [
+              -0.5299999999778757,
+              -5.310000000016244
+            ],
+            "old_njy": 119.2737808227539,
+            "new_njy": 119.03890228271484,
+            "new_to_old": 0.9980307613423599
+          },
+          {
+            "offset_arcsec": [
+              5.670000000022062,
+              -5.270000000016245
+            ],
+            "old_njy": 1270.2999267578125,
+            "new_njy": 1279.662841796875,
+            "new_to_old": 1.0073706333770793
+          },
+          {
+            "offset_arcsec": [
+              -1.8099999999778629,
+              -4.710000000016251
+            ],
+            "old_njy": 81.7452621459961,
+            "new_njy": 82.32420349121094,
+            "new_to_old": 1.0070822617729314
+          },
+          {
+            "offset_arcsec": [
+              2.1100000000220978,
+              -2.390000000016274
+            ],
+            "old_njy": 79.07173156738281,
+            "new_njy": 73.59352111816406,
+            "new_to_old": 0.9307184711827088
+          },
+          {
+            "offset_arcsec": [
+              5.390000000022065,
+              -0.5500000000162926
+            ],
+            "old_njy": 335.9299621582031,
+            "new_njy": 342.29632568359375,
+            "new_to_old": 1.0189514608476407
+          },
+          {
+            "offset_arcsec": [
+              2.190000000022097,
+              0.6899999999836949
+            ],
+            "old_njy": 83.56410217285156,
+            "new_njy": 84.7621078491211,
+            "new_to_old": 1.0143363674726196
+          },
+          {
+            "offset_arcsec": [
+              4.030000000022079,
+              0.9699999999836921
+            ],
+            "old_njy": 2005.7364501953125,
+            "new_njy": 2027.9906005859375,
+            "new_to_old": 1.0110952515164482
+          },
+          {
+            "offset_arcsec": [
+              6.470000000022054,
+              1.7299999999836846
+            ],
+            "old_njy": 114.80764770507812,
+            "new_njy": 110.8756103515625,
+            "new_to_old": 0.9657510851226881
+          },
+          {
+            "offset_arcsec": [
+              6.470000000022054,
+              4.569999999983656
+            ],
+            "old_njy": 176.49314880371094,
+            "new_njy": 172.89059448242188,
+            "new_to_old": 0.9795881350312601
+          },
+          {
+            "offset_arcsec": [
+              -3.009999999977851,
+              4.809999999983654
+            ],
+            "old_njy": 296.94451904296875,
+            "new_njy": 298.81829833984375,
+            "new_to_old": 1.0063101999757869
+          },
+          {
+            "offset_arcsec": [
+              9.870000000022019,
+              5.009999999983652
+            ],
+            "old_njy": 278.9169921875,
+            "new_njy": 290.34735107421875,
+            "new_to_old": 1.0409812209613776
+          },
+          {
+            "offset_arcsec": [
+              8.95000000002203,
+              9.12999999998361
+            ],
+            "old_njy": 3719.515869140625,
+            "new_njy": 3755.074462890625,
+            "new_to_old": 1.0095600059257754
+          }
+        ]
+      },
+      "local_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 17.68353271484375,
+          "local_mad_sigma_njy": 1.4177226587176321,
+          "control_median_njy": 0.43000859022140503,
+          "control_count": 301
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 23.337196350097656,
+          "local_mad_sigma_njy": 2.5150853156268593,
+          "control_median_njy": 0.1768225133419037,
+          "control_count": 300
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 25.007678985595703,
+          "local_mad_sigma_njy": 3.7782207463681696,
+          "control_median_njy": 0.368379682302475,
+          "control_count": 296
+        }
+      ]
+    },
+    "F444W": {
+      "unit_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 14.0681791305542,
+          "local_mad_sigma_njy": 1.694762436300516,
+          "control_median_njy": 0.1733672320842743,
+          "control_count": 307
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 18.175926208496094,
+          "local_mad_sigma_njy": 3.201347028851509,
+          "control_median_njy": -0.14393222332000732,
+          "control_count": 307
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 23.253238677978516,
+          "local_mad_sigma_njy": 4.5102552121639246,
+          "control_median_njy": 0.0060503482818603516,
+          "control_count": 305
+        }
+      ],
+      "local_flux_scale": {
+        "median_gain": 1.0085100110870584,
+        "robust_scatter": 0.00844576978796311,
+        "references": [
+          {
+            "offset_arcsec": [
+              -0.5299999999778757,
+              -5.310000000016244
+            ],
+            "old_njy": 121.17525482177734,
+            "new_njy": 122.89674377441406,
+            "new_to_old": 1.0142066047657061
+          },
+          {
+            "offset_arcsec": [
+              5.670000000022062,
+              -5.270000000016245
+            ],
+            "old_njy": 1311.214111328125,
+            "new_njy": 1321.096435546875,
+            "new_to_old": 1.007536773844464
+          },
+          {
+            "offset_arcsec": [
+              5.390000000022065,
+              -0.5900000000162923
+            ],
+            "old_njy": 343.07666015625,
+            "new_njy": 345.9962463378906,
+            "new_to_old": 1.0085100110870584
+          },
+          {
+            "offset_arcsec": [
+              4.030000000022079,
+              0.9699999999836921
+            ],
+            "old_njy": 2024.8916015625,
+            "new_njy": 2050.86181640625,
+            "new_to_old": 1.01282548400305
+          },
+          {
+            "offset_arcsec": [
+              6.470000000022054,
+              1.7299999999836846
+            ],
+            "old_njy": 107.96511840820312,
+            "new_njy": 109.6968994140625,
+            "new_to_old": 1.0160401899371954
+          },
+          {
+            "offset_arcsec": [
+              6.510000000022053,
+              4.609999999983655
+            ],
+            "old_njy": 173.0894775390625,
+            "new_njy": 170.4465789794922,
+            "new_to_old": 0.9847310269974449
+          },
+          {
+            "offset_arcsec": [
+              -3.009999999977851,
+              4.809999999983654
+            ],
+            "old_njy": 249.05075073242188,
+            "new_njy": 253.31036376953125,
+            "new_to_old": 1.0171033936841487
+          },
+          {
+            "offset_arcsec": [
+              9.83000000002202,
+              4.969999999983652
+            ],
+            "old_njy": 199.68055725097656,
+            "new_njy": 192.0505828857422,
+            "new_to_old": 0.9617890971946541
+          },
+          {
+            "offset_arcsec": [
+              8.95000000002203,
+              9.12999999998361
+            ],
+            "old_njy": 4876.47119140625,
+            "new_njy": 4915.6396484375,
+            "new_to_old": 1.0080321313289569
+          }
+        ]
+      },
+      "local_scale_apertures": [
+        {
+          "radius_arcsec": 0.12,
+          "flux_njy": 13.808121681213379,
+          "local_mad_sigma_njy": 1.6970775716274975,
+          "control_median_njy": 0.16846804320812225,
+          "control_count": 307
+        },
+        {
+          "radius_arcsec": 0.18,
+          "flux_njy": 17.796566009521484,
+          "local_mad_sigma_njy": 3.182892046880722,
+          "control_median_njy": -0.11786103248596191,
+          "control_count": 307
+        },
+        {
+          "radius_arcsec": 0.24,
+          "flux_njy": 22.85885238647461,
+          "local_mad_sigma_njy": 4.503563228809833,
+          "control_median_njy": -0.004709899425506592,
+          "control_count": 305
+        }
+      ]
+    }
+  },
+  "association_queries": {
+    "F115W": {
+      "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.18866983%2C-27.81253940%2C.02&filters=F115W-CLEAR&output=csv",
+      "path": "data/raw/cross_detector/module_b_001_F115W_heldout_epochs.csv",
+      "sha256": "228d95bf32f58737b5b353593d6880ca03e7cd1f2ac33b9dbe9aaa8580ad79f5"
+    },
+    "F150W": {
+      "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.18866983%2C-27.81253940%2C.02&filters=F150W-CLEAR&output=csv",
+      "path": "data/raw/cross_detector/module_b_001_F150W_heldout_epochs.csv",
+      "sha256": "d729a18f82b5bffffe32bae37b583d687fc18493909f7e211ac3ded594a5719e"
+    },
+    "F277W": {
+      "url": "https://grizli-cutout.herokuapp.com/assoc_mosaic?coords=53.18866983%2C-27.81253940%2C.02&filters=F277W-CLEAR&output=csv",
+      "path": "data/raw/cross_detector/module_b_001_F277W_heldout_epochs.csv",
+      "sha256": "06e9e49da7a017abc9701146575afc58c0bbfbbea4ffcdf108636446411ce6c2"
+    }
+  },
+  "additional_products": [
+    {
+      "band": "F115W",
+      "visit": "jw01180010001",
+      "detector": "NRCB4",
+      "dateobs": "2022-09-30 13:55:12",
+      "mjd": 59852.58,
+      "assoc_name": "j033232m2749_goods-s-deep02b-f115w_00078",
+      "exposure_count": 18,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033232m2749_goods-s-deep02b-f115w_00078-f115w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033232m2749_goods-s-deep02b-f115w_00078-f115w-clear_drc_sci.fits.gz",
+        "sha256": "0ccaf3f5ccdf059fcda1bf3232d5dfbc65c4485972143d8a95e184f8197d30d7"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033232m2749_goods-s-deep02b-f115w_00078-f115w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033232m2749_goods-s-deep02b-f115w_00078-f115w-clear_drc_wht.fits.gz",
+        "sha256": "47159acf390fae880e58a28c3e54b3e1b3c74449e949a89f283539b5d0fef53b"
+      }
+    },
+    {
+      "band": "F115W",
+      "visit": "jw01180012001",
+      "detector": "NRCB4",
+      "dateobs": "2023-09-30 16:24:57",
+      "mjd": 60217.68,
+      "assoc_name": "j033236m2748_goods-s-deep02a-f115w_00094",
+      "exposure_count": 18,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep02a-f115w_00094-f115w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_goods-s-deep02a-f115w_00094-f115w-clear_drc_sci.fits.gz",
+        "sha256": "d8c5713caf1ff761276283795cdd1873a0303bf1100c91840c167fcdb0352d80"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep02a-f115w_00094-f115w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_goods-s-deep02a-f115w_00094-f115w-clear_drc_wht.fits.gz",
+        "sha256": "e78cbb189d2fd393899085ef4a98faf86e2ca721c6738c57e97f45ce294a35e6"
+      }
+    },
+    {
+      "band": "F115W",
+      "visit": "jw08060001001",
+      "detector": "NRCB4",
+      "dateobs": "2025-10-06 09:00:00",
+      "mjd": 60954.38,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f115w_00024",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f115w_00024-f115w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f115w_00024-f115w-clear_drc_sci.fits.gz",
+        "sha256": "053c37654d2bf759a89c569f10d9f618cb02b398cc9e5f5ca7dee240f259db6c"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f115w_00024-f115w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f115w_00024-f115w-clear_drc_wht.fits.gz",
+        "sha256": "9a88c89f13793ca8e8f5f40767ed13abe9a301057e0d286b6549f047722f96f9"
+      }
+    },
+    {
+      "band": "F115W",
+      "visit": "jw12577001001",
+      "detector": "NRCB4",
+      "dateobs": "2026-10-09 23:45:36",
+      "mjd": 61322.99,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f115w_00024",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f115w_00024-f115w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f115w_00024-f115w-clear_drc_sci.fits.gz",
+        "sha256": "913a5f4c4ae768f4cccc0b2b6419c5f57bafc1fe27a826bdfcd8b51db2e032ed"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f115w_00024-f115w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f115w_00024-f115w-clear_drc_wht.fits.gz",
+        "sha256": "892b338e7a8f448daab67437ac80ba835a0a04bc8f0cb362101077b9958093f5"
+      }
+    },
+    {
+      "band": "F150W",
+      "visit": "jw01180010001",
+      "detector": "NRCB4",
+      "dateobs": "2022-09-30 21:17:16",
+      "mjd": 59852.89,
+      "assoc_name": "j033232m2749_goods-s-deep02b-f150w_00079",
+      "exposure_count": 9,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033232m2749_goods-s-deep02b-f150w_00079-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033232m2749_goods-s-deep02b-f150w_00079-f150w-clear_drc_sci.fits.gz",
+        "sha256": "c6659f40287d143c586307c74b0b950f3d9e01e8c223c7adbfc370f8969f4f50"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033232m2749_goods-s-deep02b-f150w_00079-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033232m2749_goods-s-deep02b-f150w_00079-f150w-clear_drc_wht.fits.gz",
+        "sha256": "2b642e349d849b66c087e13fa1192fd007b675271afe31a9a87423176770d176"
+      }
+    },
+    {
+      "band": "F150W",
+      "visit": "jw01180012001",
+      "detector": "NRCB4",
+      "dateobs": "2023-09-30 23:54:14",
+      "mjd": 60218.0,
+      "assoc_name": "j033236m2748_goods-s-deep02a-f150w_00083",
+      "exposure_count": 9,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep02a-f150w_00083-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_goods-s-deep02a-f150w_00083-f150w-clear_drc_sci.fits.gz",
+        "sha256": "ae5dc3b32be53b8101f641ecfa3b67988ec2fad22fb0718f6d5f8364f4bad41f"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep02a-f150w_00083-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_goods-s-deep02a-f150w_00083-f150w-clear_drc_wht.fits.gz",
+        "sha256": "e4c32e979574abe53aa20cd5cb01992bbe150a21513a7df01418530941110d32"
+      }
+    },
+    {
+      "band": "F150W",
+      "visit": "jw08060001001",
+      "detector": "NRCB4",
+      "dateobs": "2025-10-06 10:19:12",
+      "mjd": 60954.43,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f150w_00025",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f150w_00025-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f150w_00025-f150w-clear_drc_sci.fits.gz",
+        "sha256": "f10e14f1e3dd4c4becc3bf613906b918919d0aea1455ad557fd2bcc7c941dbb9"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f150w_00025-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f150w_00025-f150w-clear_drc_wht.fits.gz",
+        "sha256": "103eaa9d1f8c83231a59b383df6f0cedc3017035c153b8e5c1012d0997b64bfc"
+      }
+    },
+    {
+      "band": "F150W",
+      "visit": "jw12577001001",
+      "detector": "NRCB4",
+      "dateobs": "2026-10-10 01:01:55",
+      "mjd": 61323.04,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f150w_00025",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f150w_00025-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f150w_00025-f150w-clear_drc_sci.fits.gz",
+        "sha256": "496319f2dd2a4e0502f38ea84259d45e8dde656e32388bded8835f86c04f27d6"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f150w_00025-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f150w_00025-f150w-clear_drc_wht.fits.gz",
+        "sha256": "74bd0b042aef87da105e3c599942c9fab7bbeb6c0a3bca2c8644a67b285375cd"
+      }
+    },
+    {
+      "band": "F150W",
+      "visit": "jw05324027001",
+      "detector": "NRCA2",
+      "dateobs": "2026-02-04 10:40:48",
+      "mjd": 61075.44,
+      "assoc_name": "j033236m2747_jades-snia-5324-f150w_00046",
+      "exposure_count": 4,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_jades-snia-5324-f150w_00046-f150w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_jades-snia-5324-f150w_00046-f150w-clear_drc_sci.fits.gz",
+        "sha256": "98fa658a092d3e6113ad4d83a8bf933792c6853282fd4f5e6a0f946cb9c8e033"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_jades-snia-5324-f150w_00046-f150w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_jades-snia-5324-f150w_00046-f150w-clear_drc_wht.fits.gz",
+        "sha256": "5f6e94f5f505a295c1b1612b18cf31fcc15203af4d3d694a2b06b499389692bf"
+      }
+    },
+    {
+      "band": "F277W",
+      "visit": "jw01180010001",
+      "detector": "NRCBLONG",
+      "dateobs": "2022-09-30 13:55:12",
+      "mjd": 59852.58,
+      "assoc_name": "j033232m2749_goods-s-deep02b-f277w_00081",
+      "exposure_count": 9,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033232m2749_goods-s-deep02b-f277w_00081-f277w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033232m2749_goods-s-deep02b-f277w_00081-f277w-clear_drc_sci.fits.gz",
+        "sha256": "05519d4c5078b088b1dab882044eebb6959d37564dff77c82754f6ba0f8d028b"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033232m2749_goods-s-deep02b-f277w_00081-f277w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033232m2749_goods-s-deep02b-f277w_00081-f277w-clear_drc_wht.fits.gz",
+        "sha256": "ae8873846d30ba6c969d70bc8a979f331c6ac7a96fb42726cbaaa69a6af2fe63"
+      }
+    },
+    {
+      "band": "F277W",
+      "visit": "jw01180012001",
+      "detector": "NRCBLONG",
+      "dateobs": "2023-09-30 16:24:57",
+      "mjd": 60217.68,
+      "assoc_name": "j033236m2748_goods-s-deep02a-f277w_00107",
+      "exposure_count": 9,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep02a-f277w_00107-f277w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_goods-s-deep02a-f277w_00107-f277w-clear_drc_sci.fits.gz",
+        "sha256": "4e896e9e9df5f282e2692ca4e3848a96278377ac496c070ce5f110deaf601732"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2748_goods-s-deep02a-f277w_00107-f277w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2748_goods-s-deep02a-f277w_00107-f277w-clear_drc_wht.fits.gz",
+        "sha256": "036fea1fa93920ecf51cdc895d16356f5ceb415675d9d4f3c7e93228186bf02d"
+      }
+    },
+    {
+      "band": "F277W",
+      "visit": "jw08060001001",
+      "detector": "NRCBLONG",
+      "dateobs": "2025-10-06 07:40:48",
+      "mjd": 60954.32,
+      "assoc_name": "j033240m2747_nircam-epoch-1a-8060-f277w_00027",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f277w_00027-f277w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f277w_00027-f277w-clear_drc_sci.fits.gz",
+        "sha256": "968da7e811cda83e82c2ce5605a9c045414758b3217c5df956665af1d867fd48"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033240m2747_nircam-epoch-1a-8060-f277w_00027-f277w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033240m2747_nircam-epoch-1a-8060-f277w_00027-f277w-clear_drc_wht.fits.gz",
+        "sha256": "55bc7e467f8124e2226214c4a3f6e362afb246be3da4c539ebe712e6e004980e"
+      }
+    },
+    {
+      "band": "F277W",
+      "visit": "jw12577001001",
+      "detector": "NRCBLONG",
+      "dateobs": "2026-10-09 22:30:43",
+      "mjd": 61322.94,
+      "assoc_name": "j033244m2748_nircam-epoch-1a-12577-f277w_00027",
+      "exposure_count": 3,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f277w_00027-f277w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f277w_00027-f277w-clear_drc_sci.fits.gz",
+        "sha256": "4b29b1b789ac9a098cf9048f1f9162ac79db772a6ee8fe6c26297ee407a0ab92"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033244m2748_nircam-epoch-1a-12577-f277w_00027-f277w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033244m2748_nircam-epoch-1a-12577-f277w_00027-f277w-clear_drc_wht.fits.gz",
+        "sha256": "6dd9b1d5d25d67005afbc37f38470219cea75d5df9a38f2cf594ea54391e11de"
+      }
+    },
+    {
+      "band": "F277W",
+      "visit": "jw05324027001",
+      "detector": "NRCALONG",
+      "dateobs": "2026-02-04 10:40:48",
+      "mjd": 61075.44,
+      "assoc_name": "j033236m2747_jades-snia-5324-f277w_00052",
+      "exposure_count": 4,
+      "sci": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_jades-snia-5324-f277w_00052-f277w-clear_drc_sci.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_jades-snia-5324-f277w_00052-f277w-clear_drc_sci.fits.gz",
+        "sha256": "69437c125216a80d6bccacb864650097fac53b0361c0ac9b9c3ebb2742065280"
+      },
+      "wht": {
+        "url": "https://s3.amazonaws.com/grizli-v2/assoc_mosaic/v7.0/j033236m2747_jades-snia-5324-f277w_00052-f277w-clear_drc_wht.fits.gz",
+        "path": "data/raw/cross_detector/j033236m2747_jades-snia-5324-f277w_00052-f277w-clear_drc_wht.fits.gz",
+        "sha256": "9f24c6b60281c402f98dcbc60cf29cb12a0b37617285840ff36dd9a0aef8cfff"
+      }
+    }
+  ],
+  "storage_cap_mib": 18000,
+  "search_products_sha256": "5a7b48bffb394186ec3460ce0672502939fbae759c54b567caea57ffdd1db183",
+  "vetting_sha256": "fa564e032867cff78e4d198e24b860f5385ddcddf3dd7d2e749f13ce9944ff8c",
+  "script_sha256": "aeb76ddf9f03e285595a5aa76ac05ed12913197e0391fa7268e8f568c0a2fd2e",
+  "scope": "Signed aperture fluxes without total-flux correction; errors are empirical local sky scatter. Held-out filters were excluded from ranking and share the bright observing visit."
+}

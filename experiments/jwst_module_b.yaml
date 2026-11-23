@@ -8,10 +8,13 @@ commands:
   - python scripts/vet_jwst_module_b.py
   - python scripts/audit_jwst_module_b_spectra.py
   - python scripts/plot_jwst_module_b_prior_spectra.py
+  - python scripts/measure_jwst_module_b_brightening.py
+  - python scripts/audit_jwst_goods_s_prior_records.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
   newer_visits: [jw12577001001, jw12577002001]
   filters: [F200W, F356W, F444W]
+  held_out_filters: [F115W, F150W, F277W]
   short_detectors: [NRCB1, NRCB2, NRCB3, NRCB4]
   long_detector: NRCBLONG
 limitations:
@@ -20,6 +23,8 @@ limitations:
   - Public registry checks establish the archived public record at a specified date.
   - Light-curve aperture uncertainties exclude correlated calibration systematics.
   - The slitless audit checks extraction positions without measuring wavelength coverage or sensitivity.
+  - The held-out filters share the October 2026 visit and the reported aperture fluxes omit total-flux correction.
+  - The two public APT snapshots carry identical embedded target catalogues.
 outputs:
   - reports/jwst_module_b.md
   - results/jwst_cross_detector/module_b_products.json
@@ -30,4 +35,6 @@ outputs:
   - results/jwst_cross_detector/module_b_vetting.json
   - results/jwst_cross_detector/module_b_spectra.json
   - results/jwst_cross_detector/module_b_prior_prism.json
+  - results/jwst_cross_detector/module_b_001_six_filter_change.json
+  - results/jwst_cross_detector/goods_s_prior_records.json
   - figures/jwst_cross_detector/module_b_*

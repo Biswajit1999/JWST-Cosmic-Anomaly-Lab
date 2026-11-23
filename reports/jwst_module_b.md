@@ -99,6 +99,66 @@ priority beyond those records remains open.
 [Position measurements](../results/jwst_cross_detector/module_b_spectra.json) ·
 [Positional and native exposure checks](../results/jwst_cross_detector/module_b_vetting.json).
 
+#### Three filters held out of the search
+
+We measured F115W, F150W and F277W at the fixed F200W position using
+14 additional science and weight mosaic pairs. The older and newer
+visits are from October 2025 and October 2026 respectively. F150W and
+F277W show a brightening at all three aperture radii. F115W has a compact
+positive residual, but the signal declines as the aperture expands.
+The F115W measurement in the 0.24″ aperture is consistent with zero.
+
+| Filter | 2025 aperture (nJy) | 2026 aperture (nJy) | Difference-image aperture (nJy) | Nearby-source median flux ratio |
+| --- | ---: | ---: | ---: | ---: |
+| F115W | 52.7 ± 5.0 | 58.0 ± 4.9 | +4.3 ± 5.7 | 1.001 |
+| F150W | 71.4 ± 4.3 | 101.4 ± 4.2 | +30.1 ± 4.6 | 0.999 |
+| F200W | 66.9 ± 3.6 | 107.2 ± 3.8 | +40.5 ± 4.3 | 1.005 |
+| F277W | 59.8 ± 3.1 | 92.2 ± 3.7 | +32.6 ± 3.8 | 1.007 |
+| F356W | 69.0 ± 3.4 | 92.2 ± 3.5 | +25.5 ± 3.8 | 1.007 |
+| F444W | 59.7 ± 3.1 | 82.7 ± 4.1 | +23.3 ± 4.5 | 1.008 |
+
+The table uses a 0.24″ aperture radius. Each image and difference image
+has its own local sky annulus estimate and nearby-aperture scatter.
+The difference values therefore need not equal the subtraction of the
+two individual entries. We checked the relative photometric scale with
+9–20 nearby sources per filter. Their median newer-to-older ratios differ
+from unity by less than 0.9%. Applying those ratios changes each
+difference aperture by less than 0.5 nJy. The measured F150W and F277W
+brightening is also above the 2022 and 2023 baselines and above an
+independent February 2026 GO 5324 visit on Module A. The October 2026
+measurements all share the GO 12577 visit. The images have no
+point-spread-function matching or total-flux correction. The
+aperture-dependent F115W signal leaves a spectral break unverified.
+[Six-filter signed photometry and product checksums](../results/jwst_cross_detector/module_b_001_six_filter_change.json).
+
+![Observed JWST difference images and signed aperture flux for all six filters](../figures/jwst_cross_detector/module_b_001_six_filter_change.png)
+
+#### Earlier records of variability and active nuclei
+
+The current public GO 8060 and 12577 APT files contain four identical
+embedded input catalogues, verified by their CSV hashes. The three
+science planning catalogues include JADES 103607 just 0.052″ from the
+brightening. It is a catalogue source with ordinary weight 3 and no
+assigned configuration in the corresponding plans. The two labelled
+science catalogues list class `JADES` at this position, and neither
+has a row labelled `trans` within 1″. The same audit finds two
+previously recognized events at their respective coordinates.
+[GO 8060 public APT](https://www.stsci.edu/jwst-program-info/download/jwst/apt/8060/) ·
+[GO 12577 public APT](https://www.stsci.edu/jwst-program-info/download/jwst/apt/12577/) ·
+[Coordinate matches and configuration assignments](../results/jwst_cross_detector/goods_s_prior_records.json).
+
+The brightening is over 29″ from the nearest entry in each of the
+three historical HST variability catalogues examined. It lies 29.70″
+from the nearest SMILES MIRI AGN catalogue entry and 13.05″ from the
+nearest 7 Ms Chandra entry. These are catalogue checks with different
+selection functions and observing epochs. They leave an active nucleus,
+a supernova and other physical explanations open.
+[Villforth et al.](https://vizier.idia.ac.za/viz-bin/VizieR-3?-source=J%2FApJ%2F723%2F737) ·
+[Sarajedini et al.](https://vizier.idia.ac.za/viz-bin/VizieR-3?-source=J%2FApJ%2F731%2F97) ·
+[Pouliasis et al.](https://doi.org/10.1093/mnras/stz1483) ·
+[Lyu et al.](https://arxiv.org/abs/2310.12330) ·
+[Luo et al.](https://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=J%2FApJS%2F228%2F2).
+
 ### Fading at 53.147252°, −27.790612°
 
 This position measured 8–11 nJy in F200W from 2022 through January 2024.
@@ -128,7 +188,9 @@ the search position. It has two PRISM spectra, taken on 28 December
 redshift of 2.1433 and suggests a Type II supernova. The January
 grade-3 inspection reports 2.1411 and labels the source a transient.
 This establishes earlier recognition of the fading event. The
-photometry independently recovers it.
+photometry independently recovers it. The public APT catalogues also
+label source 2510132 `trans` and assign it as a primary target in
+three saved plans.
 [DAWN NIRSpec release](https://dawn-cph.github.io/dja/spectroscopy/nirspec/) ·
 [Prior public spectra and catalogue annotations](../results/jwst_cross_detector/module_b_prior_prism.json).
 
@@ -148,8 +210,8 @@ We checked all **213,716** objects in the public Transient Name Server
 snapshot dated 23 November 2026 at 00:00 UTC. The 5″ search found no
 entries at either Module B lead or at the original fading GOODS-S event.
 The respective nearest entries lie 33.75″, 9.87″, and 22.74″ away. The
-check establishes the public registry result on that date. Individual
-teams may also record transients in other products, as the GO 8060
-spectroscopy demonstrates.
+check establishes the public registry result on that date. GO 8060
+observing plans independently establish prior recognition of both
+fading events, including source 2510038 at the original position.
 [TNS public archive announcement](https://www.wis-tns.org/astronotes/astronote/2026-315) ·
 [Catalogue match receipts](../results/jwst_cross_detector/module_b_vetting.json).
