@@ -317,6 +317,16 @@ pixels. The next light-curve point remains unmeasured.
 [STScI visit schedule](https://www.stsci.edu/jwst-program-info/visits/?program=12577) ·
 [Footprint checks and epoch photometry](../results/jwst_cross_detector/module_b_001_followup_coverage.json).
 
+After the scheduled window on 24 November, the public MAST query
+still contained only untimed planning rows for visits 003 and 004.
+The two public S3 prefixes for visit 004 had zero objects and DAWN
+had no covering exposures after October. The public TNS snapshot
+dated 24 November contains 213,742 entries, with zero within 5″
+of JADES 103607's brightening. The closest remains AT 2022aewg,
+33.75″ away. This establishes the archive and public registry
+status at the time of the check.
+[24 November archive and registry receipts](../results/jwst_cross_detector/module_b_001_release_20261124.json).
+
 ### Fading at 53.147252°, −27.790612°
 
 This position measured 8–11 nJy in F200W from 2022 through January 2024.

@@ -1,0 +1,224 @@
+{
+  "executed_utc": "2026-11-24T20:36:29.253368+00:00",
+  "candidate": "GS-001-B-53.188670-27.812539",
+  "position_degrees": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "mast": {
+    "queried_utc": "2026-11-24T20:36:30.567210+00:00",
+    "query": {
+      "obs_collection": "JWST",
+      "proposal_id": "12577"
+    },
+    "programme_rows": 54,
+    "visits": {
+      "jw12577003001": [
+        {
+          "obs_id": "jw12577003001_xx101_00001_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22189921748 -27.78383831239 53.12613258302 -27.77129152627 53.13241397477 -27.73528657176 53.22697634258 -27.74764136956",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx102_00002_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22196456857 -27.78386888714 53.12619789966 -27.77132214602 53.13247927157 -27.73531718856 53.22704167337 -27.74767194193",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx103_00003_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22193344998 -27.7839045791 53.12616675325 -27.77135781654 53.13244813753 -27.73535286048 53.22701056679 -27.74770763502",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx104_00001_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22189921748 -27.78383831239 53.12613258302 -27.77129152627 53.13241397477 -27.73528657176 53.22697634258 -27.74764136956",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx105_00002_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22196456857 -27.78386888714 53.12619789966 -27.77132214602 53.13247927157 -27.73531718856 53.22704167337 -27.74767194193",
+          "predicted_polygon_contains_position": false
+        },
+        {
+          "obs_id": "jw12577003001_xx106_00003_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.22193344998 -27.7839045791 53.12616675325 -27.77135781654 53.13244813753 -27.73535286048 53.22701056679 -27.74770763502",
+          "predicted_polygon_contains_position": false
+        }
+      ],
+      "jw12577004001": [
+        {
+          "obs_id": "jw12577004001_xx101_00001_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.19874763292 -27.82401052206 53.10294559409 -27.8114637329 53.10922933233 -27.77545878202 53.20382660701 -27.78781357626",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx102_00002_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.1988130082 -27.82404109677 53.10301093484 -27.81149435269 53.10929465321 -27.77548939886 53.20389196194 -27.78784414858",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx103_00003_nircam",
+          "filters": "F200W;F277W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.19878187812 -27.82407678875 53.1029797769 -27.81153002318 53.10926350765 -27.77552507076 53.2038608439 -27.7878798417",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx104_00001_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.19874763292 -27.82401052206 53.10294559409 -27.8114637329 53.10922933233 -27.77545878202 53.20382660701 -27.78781357626",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx105_00002_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.1988130082 -27.82404109677 53.10301093484 -27.81149435269 53.10929465321 -27.77548939886 53.20389196194 -27.78784414858",
+          "predicted_polygon_contains_position": true
+        },
+        {
+          "obs_id": "jw12577004001_xx106_00003_nircam",
+          "filters": "F150W;F356W",
+          "start_mjd": null,
+          "calibration_level": -1,
+          "rights": "PUBLIC",
+          "data_url": null,
+          "s_region": "POLYGON 53.19878187812 -27.82407678875 53.1029797769 -27.81153002318 53.10926350765 -27.77552507076 53.2038608439 -27.7878798417",
+          "predicted_polygon_contains_position": true
+        }
+      ]
+    },
+    "scope": "Untimed entries at calibration level -1 describe planned footprints."
+  },
+  "s3": {
+    "visit_products": {
+      "prefix": "jwst/public/jw12577/jw12577004001/",
+      "keys": [],
+      "truncated": false,
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/?list-type=2&prefix=jwst%2Fpublic%2Fjw12577%2Fjw12577004001%2F&max-keys=1000",
+        "path": "data/raw/cross_detector/module_b_001_o004_visit_products_20261124T203629Z.xml",
+        "sha256": "2bcb14a376bce3406ff2c574b4ccea314fefcde1764be947d03854d3a6302e18",
+        "bytes": 274
+      }
+    },
+    "stage3_products": {
+      "prefix": "jwst/public/jw12577/L3/t/o004/",
+      "keys": [],
+      "truncated": false,
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/?list-type=2&prefix=jwst%2Fpublic%2Fjw12577%2FL3%2Ft%2Fo004%2F&max-keys=1000",
+        "path": "data/raw/cross_detector/module_b_001_o004_stage3_products_20261124T203629Z.xml",
+        "sha256": "0519a5459450f7ddcc08c4507bfb7c4fcde3edfbc3312b6396b675133f8ae334",
+        "bytes": 270
+      }
+    }
+  },
+  "dawn": {
+    "product": {
+      "url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.18866983298658&dec=-27.812539402767552&arcmin=0.013&output=csv",
+      "path": "data/raw/cross_detector/module_b_001_release_dawn_20261124T203629Z.csv",
+      "sha256": "74976587f588822a7ee76f07e69b940cede30b1441209d600e90d2188319f36e"
+    },
+    "rows": 915,
+    "covering_rows": 473,
+    "latest_covering_start_mjd": 61323.08,
+    "later_covering": []
+  },
+  "tns": {
+    "url": "https://www.wis-tns.org/sites/default/files/tns_public_objects/tns_public_objects.csv.zip",
+    "path": "data/raw/cross_detector/tns_public_objects_snapshot_20261124.csv.zip",
+    "sha256": "e377e235a147351981469fe00fe135d741a1127679d85c7fd30bd5ed2d2deae7",
+    "snapshot_label_utc": "2026-11-24 00:00:00",
+    "catalogue_rows": 213742,
+    "radius_arcsec": 5,
+    "matches": 0,
+    "nearest": [
+      {
+        "objid": 152827,
+        "name_prefix": "AT",
+        "name": "2022aewg",
+        "ra": 53.186467,
+        "declination": -27.803368,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 33.753921957
+      },
+      {
+        "objid": 152803,
+        "name_prefix": "AT",
+        "name": "2022aevi",
+        "ra": 53.172492,
+        "declination": -27.813742,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 51.6935519314
+      },
+      {
+        "objid": 152829,
+        "name_prefix": "AT",
+        "name": "2022aewi",
+        "ra": 53.19805,
+        "declination": -27.797108,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 63.0741031684
+      }
+    ]
+  },
+  "native_receipt_sha256": "a27bbae33083bff57f0166f75bd2e27bc75aaed9d829fa476ca367bd802a9e05",
+  "script_sha256": "25653799a2035e431ab7eedd78fac702adb98a9a9731896f21db259b5245d11f"
+}
