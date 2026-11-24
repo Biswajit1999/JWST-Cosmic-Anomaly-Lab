@@ -201,6 +201,57 @@ the flux errors and position fits should be treated as correlated.
 
 ![STScI images and comparison of six-filter flux changes with DAWN](../figures/jwst_cross_detector/module_b_001_mast_comparison.png)
 
+#### Photometry on the detector grid
+
+We measured 36 calibrated native images, comprising three dithers
+per visit in each of six filters. All report JWST pipeline 3.0.0
+and CRDS context `jwst_1584.pmap`. Old-epoch DAWN references anchor
+the local astrometric translations. We split the aperture boundary
+pixels into an 8×8 subpixel grid for the integration weights and
+leave the science image pixels on their original detector grid.
+Relative gains use the largest reference aperture with at least
+five matched field sources in each exposure. The fallback is the
+archive pipeline's flux calibration. We retain the pipeline-calibrated
+measurements for comparison. A visit median requires at least two
+usable candidate exposures. Its comparison scatter comes from the
+same sky apertures in both visits.
+
+The aperture analysis retains calibrated pixels with either zero
+flags or only `JUMP_DET`. Ramp fitting estimates a slope from
+valid readout segments around a jump. We require 95% usable aperture
+area and an unmasked central 0.07″. We retain missing measurements
+when these gates fail. A separate check fits the source core on
+pixels with zero data-quality flags and repeats the fit after
+discarding each exposure's brightest usable pixel.
+[JWST ramp fitting](https://jwst-docs.stsci.edu/jwst-science-calibration-pipeline/stages-of-jwst-data-processing/calwebb_detector1).
+
+| Filter | Change in 0.18″ aperture (nJy) | Change in 0.24″ aperture (nJy) |
+| --- | ---: | ---: |
+| F115W | +10.3 ± 5.3 | +4.3 ± 7.1 |
+| F150W | +28.2 ± 3.9 | +26.9 ± 5.7 |
+| F200W | +30.6 ± 3.7 | +32.8 ± 5.5 |
+| F277W | +25.7 ± 2.5 | — |
+| F356W | +19.3 ± 2.8 | +21.2 ± 4.0 |
+| F444W | +17.5 ± 3.0 | — |
+
+Every eligible 0.18″ dither pair shows an increase in the five
+filters from F150W to F444W. The pairs reuse exposures. F277W
+and F444W each have only one usable older exposure at 0.24″.
+The F356W and F444W measurements use the pipeline's flux scale
+because the reference apertures did not have enough usable sources
+in every exposure. F115W again has a weak, aperture-dependent change.
+
+In F150W, F200W and F277W, each of the three 2026 exposures has a
+higher fitted core amplitude than every 2025 exposure when using
+only zero-flag pixels. The ordering holds when dropping the
+brightest pixel in every fit and varying the assumed Gaussian
+width by ±15%. The direct measurements show the brightening
+before mosaic resampling. They use the same visits as the two
+image reductions.
+[Native FITS receipts, signed photometry and core fits](../results/jwst_cross_detector/module_b_001_native_epoch_flux.json).
+
+![Signed flux differences and native NIRCam detector images of eighteen dithers, with flagged pixels shown in purple](../figures/jwst_cross_detector/module_b_001_native_epoch_flux.png)
+
 #### Earlier records of variability and active nuclei
 
 The current public GO 8060 and 12577 APT files contain four identical

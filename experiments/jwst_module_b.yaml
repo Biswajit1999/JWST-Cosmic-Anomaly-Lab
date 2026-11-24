@@ -14,6 +14,7 @@ commands:
   - python scripts/audit_jwst_brightening_followup.py
   - python scripts/compare_jwst_brightening_mast.py
   - python scripts/audit_jwst_brightening_redshifts.py
+  - python scripts/measure_jwst_brightening_native.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
   newer_visits: [jw12577001001, jw12577002001]
@@ -32,6 +33,7 @@ limitations:
   - The measured light-centroid offset uses Gaussian core matching and shares one bright epoch.
   - MAST planned polygons represent field outlines and do not resolve individual detector gaps.
   - The STScI and DAWN mosaics have different processing but share telescope exposures.
+  - Native visit medians require two usable exposures, and dither-pair comparisons share exposures.
 outputs:
   - reports/jwst_module_b.md
   - results/jwst_cross_detector/module_b_products.json
@@ -48,4 +50,5 @@ outputs:
   - results/jwst_cross_detector/module_b_001_followup_coverage.json
   - results/jwst_cross_detector/module_b_001_mast_comparison.json
   - results/jwst_cross_detector/module_b_001_redshift_context.json
+  - results/jwst_cross_detector/module_b_001_native_epoch_flux.json
   - figures/jwst_cross_detector/module_b_*
