@@ -121,11 +121,11 @@ The common UV range reduces one source of sample mismatch, but stellar
 mass, dust, target selection and line recovery may still vary. A modest
 change among detections remains plausible. Establishing population
 evolution requires a wavelength-dependent completeness model, including
-Hβ non-detections, and an independent survey comparison. The first step
-is a forced flux measurement on a common grating across the overlap
-regions, followed by artificial-line injection into representative
-released spectra. The uncertainty model should include slit losses and
+Hβ non-detections, and an independent survey comparison. The follow-up
+tests forced flux measurement and artificial-line recovery in a random
+pilot sample. The uncertainty model should include slit losses and
 spectral covariance.
+[Forced measurements and injection study](jades_evolution_line_recovery.md) ·
 [DR4 selection, depth and completeness methods](https://ora.ox.ac.uk/objects/uuid%3Ad58d91ee-152c-4f38-a134-0e40203ff016).
 
 ## Observed examples
@@ -134,12 +134,13 @@ One detected source nearest each field's median ratio in each endpoint
 bin is shown with a NIRCam cutout and its public JWST/NIRSpec spectrum.
 The shaded bands show formal spectral errors. A fixed-window
 remeasurement and the released catalogue measurements share the same
-observations. Both lines are present in all four examples. The simple
-600 km/s half-width integration yields ratios of 3.84–4.41, compared
-with 5.16–5.80 for the catalogue profile fits for the same targets.
-The example integrations illustrate sensitivity to the measurement
-method. The population comparison above uses catalogue profile fits
-throughout. The images use F444W, F277W and F150W as red, green and blue.
+observations. Both lines are present in all four examples. The original
+integration yielded ratios of 3.84–4.41. The follow-up identified the
+weaker [O III] λ4959 line in the blue continuum window and measured
+ratios of 4.14–5.02 after masking it. The population comparison above
+uses the catalogue profile fits (5.16–5.80 in these four sources).
+The images use F444W, F277W and F150W as red, green and blue.
+[Continuum correction and signed measurements](jades_evolution_line_recovery.md#a-correction-to-the-earlier-spectrum-examples).
 
 ![Four observed JWST galaxies with their H-beta and oxygen emission spectra](../figures/jades_cosmic_evolution_observed.png)
 

@@ -16,6 +16,13 @@ of reionization and early black-hole growth.
 [Research goals and measurements](reports/jades_cosmic_evolution.md) ·
 [Observed NIRCam cutouts and NIRSpec spectra](figures/jades_cosmic_evolution_observed.png).
 
+We followed up with forced measurements in 96 public G235M spectra.
+At the same artificial Hβ luminosity of 10⁴¹ erg s⁻¹, recovery fell
+from 36% in the lowest-redshift bin to 5% in the highest. The follow-up
+also documents and corrects contamination of the oxygen continuum window
+in the original spectrum examples.
+[Line recovery and continuum check](reports/jades_evolution_line_recovery.md).
+
 ## Infrared rise and fade near JADES 103607 · 25 November 2026
 
 A compact infrared source near **JADES 103607** brightened in five

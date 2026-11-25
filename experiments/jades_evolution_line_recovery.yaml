@@ -1,0 +1,26 @@
+experiment: jades-dr4-forced-line-recovery
+status: executed
+date: 2026-11-25
+commands:
+  - python scripts/download_jades_evolution_sample.py
+  - python scripts/measure_jades_evolution_lines.py
+inputs:
+  parent_sample: results/jades_cosmic_evolution/observed_targets.csv
+  spectra: JADES DR4 five-pixel three-nod G235M boxcar extractions
+  targets_per_field_and_redshift_bin: 16
+  prior_example_controls: 4
+  line_units: 1e-20 erg s-1 cm-2
+  injection_velocity_dispersion_kms: [125, 250]
+limits:
+  - The pilot resamples galaxies and treats the released pixel variance as diagonal.
+  - Recovery is conditional on usable local spectral pixels.
+  - The signed population comparison still requires an oxygen detection and usable H-beta coverage.
+  - Fixed-luminosity trials assume isotropic emission and Planck18 luminosity distance.
+outputs:
+  - reports/jades_evolution_line_recovery.md
+  - results/jades_cosmic_evolution/forced_sample.json
+  - results/jades_cosmic_evolution/forced_measurements.csv
+  - results/jades_cosmic_evolution/injection_trials.csv
+  - results/jades_cosmic_evolution/forced_summary.json
+  - figures/jades_evolution_forced_lines_continuum.*
+  - figures/jades_evolution_forced_lines_recovery.*

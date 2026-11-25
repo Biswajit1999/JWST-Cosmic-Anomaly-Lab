@@ -1,0 +1,2851 @@
+{
+  "executed_utc": "2026-11-25T21:34:36.904265+00:00",
+  "seed": 94278,
+  "per_stratum": 16,
+  "strata": [
+    {
+      "field": "GN",
+      "redshift_bin": 0,
+      "population": 221,
+      "selected": 16
+    },
+    {
+      "field": "GN",
+      "redshift_bin": 1,
+      "population": 123,
+      "selected": 16
+    },
+    {
+      "field": "GN",
+      "redshift_bin": 2,
+      "population": 98,
+      "selected": 16
+    },
+    {
+      "field": "GS",
+      "redshift_bin": 0,
+      "population": 304,
+      "selected": 16
+    },
+    {
+      "field": "GS",
+      "redshift_bin": 1,
+      "population": 234,
+      "selected": 16
+    },
+    {
+      "field": "GS",
+      "redshift_bin": 2,
+      "population": 126,
+      "selected": 16
+    }
+  ],
+  "planned": 100,
+  "records": [
+    {
+      "dr4_id": "goods-n-mediumhst_1240",
+      "nircam_id": 1034865,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.3338395861,
+      "ra": 189.1173708639,
+      "dec": 62.298258302,
+      "redshift_bin": 0,
+      "m_uv": -18.468702927,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001240_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001240_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "859bf971f9fe45046fef9dcaebb11adea9656af0458fb328546d07cc21f2d75a"
+      },
+      "header_offset_arcsec": 7.596590427975215e-08,
+      "header_pid": 1181,
+      "header_target_number": 1240,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_22456",
+      "nircam_id": 1026913,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.1288988576,
+      "ra": 189.0357219597,
+      "dec": 62.243153623,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00022456_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00022456_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "384600860b288e5d732edbd885fd76149c6ac9b33b3b81fe72dc19088652aeb2"
+      },
+      "header_offset_arcsec": 1.4823577643249218e-07,
+      "header_pid": 1181,
+      "header_target_number": 22456,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_23682",
+      "nircam_id": 1093774,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.1253348178,
+      "ra": 189.0183302871,
+      "dec": 62.2503312856,
+      "redshift_bin": 0,
+      "m_uv": -19.6210715236,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00023682_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00023682_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "79942a2cf54a1d83c2ad2eeb6899158b6966e00e22ba0a65e64022dd760221ee"
+      },
+      "header_offset_arcsec": 1.4202615248189165e-07,
+      "header_pid": 1181,
+      "header_target_number": 23682,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_26294",
+      "nircam_id": 1029680,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.9758957881,
+      "ra": 189.1009836001,
+      "dec": 62.2643869009,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00026294_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00026294_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "c4491a3a221d86a3c82556daf6769976140703ad4010ea2ef58bb46e8b7200d1"
+      },
+      "header_offset_arcsec": 1.417416367003931e-07,
+      "header_pid": 1181,
+      "header_target_number": 26294,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_26416",
+      "nircam_id": 1012203,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.9711660032,
+      "ra": 189.1022589162,
+      "dec": 62.2649618594,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00026416_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00026416_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "9f833a30fbc6e9a85af8c5485bdd6558bf27714efd6923b1a9aaeda7999d99c1"
+      },
+      "header_offset_arcsec": 2.9032627327078884e-08,
+      "header_pid": 1181,
+      "header_target_number": 26416,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_28044",
+      "nircam_id": 1030797,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.9695097013,
+      "ra": 189.070141123,
+      "dec": 62.2736645991,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00028044_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00028044_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "21307010dacb371e6249cc7488b3f460874ef2b520ea97e7e59e0e8bdecc44ec"
+      },
+      "header_offset_arcsec": 3.921423093435596e-08,
+      "header_pid": 1181,
+      "header_target_number": 28044,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_30245",
+      "nircam_id": 1018696,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.9772152562,
+      "ra": 189.104556971,
+      "dec": 62.2869533157,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00030245_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00030245_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "2b83a0a017e6071fb35348b7e45bb7a5236a40899398623d6284c5fa3b26a048"
+      },
+      "header_offset_arcsec": 8.658503864904029e-08,
+      "header_pid": 1181,
+      "header_target_number": 30245,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38298",
+      "nircam_id": 1190208,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.3617466461,
+      "ra": 189.1791978705,
+      "dec": 62.2766395973,
+      "redshift_bin": 0,
+      "m_uv": -19.1863780437,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00038298_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00038298_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "c1913398abe0ac551c93394de9928f885ecfb7c900fa31569aa88dd43ccd2104"
+      },
+      "header_offset_arcsec": 1.1080827583341307e-07,
+      "header_pid": 1181,
+      "header_target_number": 38298,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_10014109",
+      "nircam_id": 1187851,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.1457755946,
+      "ra": 189.2275966891,
+      "dec": 62.1976017178,
+      "redshift_bin": 0,
+      "m_uv": -18.1450749581,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-10014109_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-10014109_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "4692e79b489e2dfc8904f6971b9292d39356aa4a55a59175e88cf3d10282abee"
+      },
+      "header_offset_arcsec": 9.317822808148388e-08,
+      "header_pid": 1181,
+      "header_target_number": 10014109,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_13376",
+      "nircam_id": 1013376,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.3400544416,
+      "ra": 189.1340082356,
+      "dec": 62.2697791656,
+      "redshift_bin": 0,
+      "m_uv": -17.2164179636,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00013376_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00013376_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "fb9ae27c402397d2e2a5b4a93e7fda9cd4ceab7218b81bfa3cc02d7f5d32e51e"
+      },
+      "header_offset_arcsec": 1.6601935902615974e-07,
+      "header_pid": 1181,
+      "header_target_number": 13376,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_18644",
+      "nircam_id": 1018644,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.9798290994,
+      "ra": 189.1503177534,
+      "dec": 62.2867932073,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00018644_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00018644_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "cc3e4ee5ab24441a81d8ee2c26ffcc0ee8305053aea399f3b653cd18f5e7c110"
+      },
+      "header_offset_arcsec": 8.407440029739172e-08,
+      "header_pid": 1181,
+      "header_target_number": 18644,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_25498",
+      "nircam_id": 1025498,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.9882505717,
+      "ra": 189.1948415115,
+      "dec": 62.2316328873,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00025498_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00025498_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "c023ffaa834050c9fc9505895c0ef0354758e3215f6763e277cb343ef998cbc7"
+      },
+      "header_offset_arcsec": 1.7327564194899858e-07,
+      "header_pid": 1181,
+      "header_target_number": 25498,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_55233",
+      "nircam_id": 1055233,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.9802787694,
+      "ra": 189.288461155,
+      "dec": 62.198159434,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00055233_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00055233_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "1f45b606c7e3210591cbf276090767592e79874bbaa193f4ca520351d7a7c0f9"
+      },
+      "header_offset_arcsec": 1.0371545479227499e-07,
+      "header_pid": 1181,
+      "header_target_number": 55233,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_72136",
+      "nircam_id": 1072136,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.996,
+      "ra": 189.2903731063,
+      "dec": 62.1687931302,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00072136_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00072136_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "09650a5ec629cfedab385cdc6b4fd04a5ad5db32894a74b7e01931b30ab04dd0"
+      },
+      "header_offset_arcsec": 1.1612376016335188e-07,
+      "header_pid": 1181,
+      "header_target_number": 72136,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_76402",
+      "nircam_id": 1076402,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.2460793033,
+      "ra": 189.2776131311,
+      "dec": 62.1921976036,
+      "redshift_bin": 0,
+      "m_uv": -19.4806944416,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00076402_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00076402_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "47c85062a55574967665fd5a98f9e2d5dfe43e4d7ea88a6a99274157a6a65633"
+      },
+      "header_offset_arcsec": 1.0639317455788797e-07,
+      "header_pid": 1181,
+      "header_target_number": 76402,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_76626",
+      "nircam_id": 1076626,
+      "pid": 1181,
+      "field": "GN",
+      "z": 2.8017953683,
+      "ra": 189.2812938243,
+      "dec": 62.1933004141,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00076626_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00076626_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "e10a6d8669eb590855b14d2e886f77723b6bc329386e866647a452d7771d85f8"
+      },
+      "header_offset_arcsec": 2.833021673880684e-08,
+      "header_pid": 1181,
+      "header_target_number": 76626,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1023",
+      "nircam_id": 1013256,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.0215833003,
+      "ra": 189.0825401262,
+      "dec": 62.2693244699,
+      "redshift_bin": 1,
+      "m_uv": -18.9246401145,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001023_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001023_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "ce6086df42f04e571544ee1c110500ef6add1ee624003c852aa769b40cd67b58"
+      },
+      "header_offset_arcsec": 9.865961349070584e-08,
+      "header_pid": 1181,
+      "header_target_number": 1023,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1949",
+      "nircam_id": 1020157,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.8565244334,
+      "ra": 189.1799985297,
+      "dec": 62.2914026947,
+      "redshift_bin": 1,
+      "m_uv": -20.1525393428,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001949_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001949_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "02a1fc724045a32ec5a829449310fc2101747133c402cd8d0dcdb5ff3d773670"
+      },
+      "header_offset_arcsec": 9.999171556503466e-08,
+      "header_pid": 1181,
+      "header_target_number": 1949,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_3585",
+      "nircam_id": 1013259,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.6614238422,
+      "ra": 189.0936543266,
+      "dec": 62.2693067406,
+      "redshift_bin": 1,
+      "m_uv": null,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00003585_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00003585_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "6b4838ef33b49ca69585762c7c9dfc9caded4bc812e983a559bb8c4e007a0a05"
+      },
+      "header_offset_arcsec": 3.127632030703442e-08,
+      "header_pid": 1181,
+      "header_target_number": 3585,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_3610",
+      "nircam_id": 1030762,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.0432938003,
+      "ra": 189.1355641684,
+      "dec": 62.2734983004,
+      "redshift_bin": 1,
+      "m_uv": -17.0121123899,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00003610_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00003610_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "4978e008fd55fc6ffdb24f54d4be20e3dddc68a942d7c15f0218d56fd74eb92f"
+      },
+      "header_offset_arcsec": 6.792485750957888e-08,
+      "header_pid": 1181,
+      "header_target_number": 3610,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_606",
+      "nircam_id": 1000705,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.9725480326,
+      "ra": 189.1080752955,
+      "dec": 62.2220503429,
+      "redshift_bin": 1,
+      "m_uv": -18.6840751554,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000606_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000606_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "d7d6ee9c99dd67aadc53bcd7601ddded7392dd47101bc5d0041ce1299a53f69f"
+      },
+      "header_offset_arcsec": 1.2727056086689758e-07,
+      "header_pid": 1181,
+      "header_target_number": 606,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_997",
+      "nircam_id": 1029814,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.1602817901,
+      "ra": 189.1778912348,
+      "dec": 62.2653559298,
+      "redshift_bin": 1,
+      "m_uv": null,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000997_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000997_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "ec381ad69667c02d9f3a6cb7ac3e414e367f8356da8bfeb786132a38490d1767"
+      },
+      "header_offset_arcsec": 1.3285250552951607e-07,
+      "header_pid": 1181,
+      "header_target_number": 997,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_10038778",
+      "nircam_id": 1072164,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.1268968285,
+      "ra": 189.2635423491,
+      "dec": 62.168435388,
+      "redshift_bin": 1,
+      "m_uv": -18.244639734,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-10038778_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-10038778_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "26d97794ff229f62e4a7a339af493c36718c4507251072be7561fd1b99a9ceeb"
+      },
+      "header_offset_arcsec": 9.124112073857701e-08,
+      "header_pid": 1181,
+      "header_target_number": 10038778,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_110",
+      "nircam_id": 1000110,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.0627861769,
+      "ra": 189.1463787206,
+      "dec": 62.2155082349,
+      "redshift_bin": 1,
+      "m_uv": -20.0521414711,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00000110_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00000110_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "e7c31b527f41fce61337fe4bee6b238c2e7ecad9402067d440191ba6759c8dbf"
+      },
+      "header_offset_arcsec": 1.6697905186470536e-08,
+      "header_pid": 1181,
+      "header_target_number": 110,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_15529",
+      "nircam_id": 1015529,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.8694501492,
+      "ra": 189.2150439615,
+      "dec": 62.2770074918,
+      "redshift_bin": 1,
+      "m_uv": -19.0522443268,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00015529_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00015529_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "c616381b9333aac2bb76a2467ecc541dabbed60879abab00b7726160a3ba7dbc"
+      },
+      "header_offset_arcsec": 9.856713548013949e-08,
+      "header_pid": 1181,
+      "header_target_number": 15529,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_2472",
+      "nircam_id": 1002472,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.662409284,
+      "ra": 189.165604799,
+      "dec": 62.231169948,
+      "redshift_bin": 1,
+      "m_uv": -18.4567220325,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00002472_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00002472_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "70388f97c8163f3306764075e3383dde8df93f1ae8a1046ef7b01daaea177c00"
+      },
+      "header_offset_arcsec": 8.385828473092668e-08,
+      "header_pid": 1181,
+      "header_target_number": 2472,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_27139",
+      "nircam_id": 1183962,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.5167626473,
+      "ra": 189.2184648225,
+      "dec": 62.2445448619,
+      "redshift_bin": 1,
+      "m_uv": -18.2142808788,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00027139_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00027139_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "89452ff224ac4e0c01f0b86cbc502fb1b237506d72c157f71694e6f2098c915b"
+      },
+      "header_offset_arcsec": 1.670075516060597e-07,
+      "header_pid": 1181,
+      "header_target_number": 27139,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_40668",
+      "nircam_id": 1040668,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.6452168159,
+      "ra": 189.2699198613,
+      "dec": 62.1573746487,
+      "redshift_bin": 1,
+      "m_uv": -14.8922307285,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00040668_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00040668_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "a50d31eb00a7019f230b15fd75f0a768e0480a7611aa76d9f6883e87dadab7a3"
+      },
+      "header_offset_arcsec": 1.250221558327355e-07,
+      "header_pid": 1181,
+      "header_target_number": 40668,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_55804",
+      "nircam_id": 1055804,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.774102,
+      "ra": 189.1978695932,
+      "dec": 62.199604191,
+      "redshift_bin": 1,
+      "m_uv": -16.5761217786,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00055804_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00055804_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "0fe110a35ddd38b782b69b1a7051e5a5b33be3974608ee78a99fe6a3979cbf8b"
+      },
+      "header_offset_arcsec": 1.7601177584995037e-07,
+      "header_pid": 1181,
+      "header_target_number": 55804,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_7488",
+      "nircam_id": 1007488,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.5745813649,
+      "ra": 189.2587786688,
+      "dec": 62.2475664102,
+      "redshift_bin": 1,
+      "m_uv": -18.7517999963,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00007488_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00007488_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "f3f9068e66efd9d58566fe23abdf896edf295073531fa3644a63d72e06d86177"
+      },
+      "header_offset_arcsec": 2.750118763942079e-08,
+      "header_pid": 1181,
+      "header_target_number": 7488,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_77786",
+      "nircam_id": 1077786,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.674431762,
+      "ra": 189.2759219963,
+      "dec": 62.1991998309,
+      "redshift_bin": 1,
+      "m_uv": -18.3585602714,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00077786_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00077786_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "f08b165727093002717ed3ccad231a49e81b4d26f1f797fc58f34f34e9c918d8"
+      },
+      "header_offset_arcsec": 1.467390083232459e-07,
+      "header_pid": 1181,
+      "header_target_number": 77786,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_79572",
+      "nircam_id": 1079572,
+      "pid": 1181,
+      "field": "GN",
+      "z": 3.9667572693,
+      "ra": 189.1492835593,
+      "dec": 62.2083031435,
+      "redshift_bin": 1,
+      "m_uv": -18.2923617039,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00079572_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00079572_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "962d743c713d43bfe2b59417338838e53acd648a5976a453bd3d9e7c07f05e19"
+      },
+      "header_offset_arcsec": 8.297556821418443e-08,
+      "header_pid": 1181,
+      "header_target_number": 79572,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1110",
+      "nircam_id": 1016157,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.6909179335,
+      "ra": 189.0948214506,
+      "dec": 62.278994372,
+      "redshift_bin": 2,
+      "m_uv": -19.1324172645,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001110_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001110_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "9b5b1f2ceff5d08c579d3c3025b379bfb90f0342d64c246e0c1ec74ff75d1395"
+      },
+      "header_offset_arcsec": 4.60796052898763e-08,
+      "header_pid": 1181,
+      "header_target_number": 1110,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38493",
+      "nircam_id": 1102319,
+      "pid": 1181,
+      "field": "GN",
+      "z": 5.0152943233,
+      "ra": 189.0275315991,
+      "dec": 62.2537411134,
+      "redshift_bin": 2,
+      "m_uv": -18.8660193416,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00038493_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00038493_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "92e49e9fa52b912f6ed27451d1c06d6a20b32782e48b6d46d0fca8d0403eec8a"
+      },
+      "header_offset_arcsec": 9.667712073406452e-08,
+      "header_pid": 1181,
+      "header_target_number": 38493,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_48228",
+      "nircam_id": 1007211,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.3332518949,
+      "ra": 189.1548052,
+      "dec": 62.2467584,
+      "redshift_bin": 2,
+      "m_uv": -18.1685747615,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00048228_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00048228_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "fb81be0577e93bba591e145dc0020405492dfbc907c5d04888bd1d25c758ea8a"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1181,
+      "header_target_number": 48228,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_795",
+      "nircam_id": 1005572,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.770247118,
+      "ra": 189.1917925319,
+      "dec": 62.2420453147,
+      "redshift_bin": 2,
+      "m_uv": -18.6360008742,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000795_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000795_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "83cb6b32437b4854209de1652ba1e077ff6a8c1b26a6e0a822d177bd2177efd4"
+      },
+      "header_offset_arcsec": 8.039886721292469e-08,
+      "header_pid": 1181,
+      "header_target_number": 795,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_901",
+      "nircam_id": 1009354,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.8315127568,
+      "ra": 189.0714059542,
+      "dec": 62.2532650257,
+      "redshift_bin": 2,
+      "m_uv": -19.6711120102,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000901_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000901_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "4e527ecd48b80d3ddd3b35f71fe2005ca127f705ddcc9ac1039b6fd996f621a9"
+      },
+      "header_offset_arcsec": 4.471993470319898e-08,
+      "header_pid": 1181,
+      "header_target_number": 901,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_910",
+      "nircam_id": 1088066,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.4143239496,
+      "ra": 189.1134429885,
+      "dec": 62.2548033843,
+      "redshift_bin": 2,
+      "m_uv": -19.1534795348,
+      "exposure_s": 12254.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000910_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00000910_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "c2a41976aa0c362505ce9ed31e32a1b4fc50184de12cbd7a2b3d9375bbb2030b"
+      },
+      "header_offset_arcsec": 4.533308605190467e-08,
+      "header_pid": 1181,
+      "header_target_number": 910,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_16553",
+      "nircam_id": 1016553,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.3814514165,
+      "ra": 189.1436028455,
+      "dec": 62.2805454661,
+      "redshift_bin": 2,
+      "m_uv": -19.6344771239,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00016553_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00016553_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "d6b5957ed1ae93e02bad88bf203d008884a9754314c40894e211bd9e05a37d60"
+      },
+      "header_offset_arcsec": 1.6473737378724725e-07,
+      "header_pid": 1181,
+      "header_target_number": 16553,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_28174",
+      "nircam_id": 1184181,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.4007471283,
+      "ra": 189.2277009209,
+      "dec": 62.2517639381,
+      "redshift_bin": 2,
+      "m_uv": -18.448722569,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00028174_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00028174_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "1c1801fe02443b21ba8bcca44dc435ab1031b2c72301dcbb7ed04950ffb526d8"
+      },
+      "header_offset_arcsec": 3.138223053565281e-08,
+      "header_pid": 1181,
+      "header_target_number": 28174,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_37319",
+      "nircam_id": 1037319,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.4237273498,
+      "ra": 189.2715529064,
+      "dec": 62.1443395905,
+      "redshift_bin": 2,
+      "m_uv": -18.4768925348,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00037319_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00037319_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "27a53da7fc4f98b444393d410452092f1333df1dfd99f32c79a6983c9204888c"
+      },
+      "header_offset_arcsec": 1.7820059124137225e-07,
+      "header_pid": 1181,
+      "header_target_number": 37319,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_5400",
+      "nircam_id": 1005400,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.3338220586,
+      "ra": 189.1601197186,
+      "dec": 62.2415421543,
+      "redshift_bin": 2,
+      "m_uv": -18.2535497044,
+      "exposure_s": 15318.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00005400_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00005400_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "d686377cd09d860b6823fdc289d74f109a9774800d3d81f66ccc2b6f7512eb32"
+      },
+      "header_offset_arcsec": 7.897833659997089e-08,
+      "header_pid": 1181,
+      "header_target_number": 5400,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_57512",
+      "nircam_id": 1057512,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.4154655674,
+      "ra": 189.2730717075,
+      "dec": 62.2044216246,
+      "redshift_bin": 2,
+      "m_uv": -16.5250365732,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00057512_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00057512_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "899e5c5046046882abf129978d83f4fe059c35ee8e44a064efdd2739ba5d3f9b"
+      },
+      "header_offset_arcsec": 1.4900700731152723e-07,
+      "header_pid": 1181,
+      "header_target_number": 57512,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_62309",
+      "nircam_id": 1062309,
+      "pid": 1181,
+      "field": "GN",
+      "z": 5.1717386711,
+      "ra": 189.2489772227,
+      "dec": 62.2183501659,
+      "redshift_bin": 2,
+      "m_uv": -18.7920250853,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00062309_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00062309_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "d00a80cd6d1b78c73d509ee4c619852000f6212216fbc42210a71aded52aff53"
+      },
+      "header_offset_arcsec": 9.943509852103525e-08,
+      "header_pid": 1181,
+      "header_target_number": 62309,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_62955",
+      "nircam_id": 1062955,
+      "pid": 1181,
+      "field": "GN",
+      "z": 5.1844800784,
+      "ra": 189.2354490346,
+      "dec": 62.220429856,
+      "redshift_bin": 2,
+      "m_uv": -19.5879024851,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00062955_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00062955_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "88f4ee724440766aed052cc55ed55cda89c61287f048b461e4cb16e8f486119c"
+      },
+      "header_offset_arcsec": 1.274101329522203e-07,
+      "header_pid": 1181,
+      "header_target_number": 62955,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_76489",
+      "nircam_id": 1076489,
+      "pid": 1181,
+      "field": "GN",
+      "z": 4.4275999553,
+      "ra": 189.2786201489,
+      "dec": 62.1924411852,
+      "redshift_bin": 2,
+      "m_uv": -17.4922250242,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00076489_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00076489_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "85e5265b6dd33acd7b15c5c4613dd817b4cfa7b485d4090215bb13c739b480ba"
+      },
+      "header_offset_arcsec": 1.4175512488094633e-07,
+      "header_pid": 1181,
+      "header_target_number": 76489,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_82960",
+      "nircam_id": 1208186,
+      "pid": 1181,
+      "field": "GN",
+      "z": 5.08943194,
+      "ra": 189.254605,
+      "dec": 62.236679,
+      "redshift_bin": 2,
+      "m_uv": -19.3858764202,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00082960_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00082960_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "925304866c225368c719f0b8c0862997cb19e5ba55686eaa8d8bde1b28e8ea82"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1181,
+      "header_target_number": 82960,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_83030",
+      "nircam_id": 1083030,
+      "pid": 1181,
+      "field": "GN",
+      "z": 5.1157782533,
+      "ra": 189.2425747553,
+      "dec": 62.238526604,
+      "redshift_bin": 2,
+      "m_uv": -18.1858975705,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00083030_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00083030_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "7c1965dd0ad2c7ae946e225df6db78b7c75a8023238438f5fbad99cc9a4a5490"
+      },
+      "header_offset_arcsec": 6.103057164532868e-08,
+      "header_pid": 1181,
+      "header_target_number": 83030,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-deephst_10000478",
+      "nircam_id": 433836,
+      "pid": 1210,
+      "field": "GS",
+      "z": 2.843952,
+      "ra": 53.1468369838,
+      "dec": -27.8160271363,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 8315.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deephst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/",
+        "sha256": "d015145b08be13c2b7626eaf19c26867263f9655e6e1ba0131fce377a8e9dc1e"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-10000478_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/hlsp_jades_jwst_nirspec_goods-s-deephst-10000478_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "d0f27c75db1d46a69959666dc6efd8cfbd40512295cab03c16fd937788a0c85b"
+      },
+      "header_offset_arcsec": 6.791361660447459e-08,
+      "header_pid": 1210,
+      "header_target_number": 10000478,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-deephst_10004721",
+      "nircam_id": 404938,
+      "pid": 1210,
+      "field": "GS",
+      "z": 3.07078,
+      "ra": 53.1642186118,
+      "dec": -27.8248074186,
+      "redshift_bin": 0,
+      "m_uv": -16.8116553378,
+      "exposure_s": 8315.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deephst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/",
+        "sha256": "d015145b08be13c2b7626eaf19c26867263f9655e6e1ba0131fce377a8e9dc1e"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-10004721_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/hlsp_jades_jwst_nirspec_goods-s-deephst-10004721_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "bedacadef2c0b46bca917c3f77b03c76830c7595e64ea4421efba871cf0dc7a0"
+      },
+      "header_offset_arcsec": 1.9515609967688835e-07,
+      "header_pid": 1210,
+      "header_target_number": 10004721,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-deephst_20313",
+      "nircam_id": 134521,
+      "pid": 1210,
+      "field": "GS",
+      "z": 2.8432757579,
+      "ra": 53.158319102,
+      "dec": -27.7700627103,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 24947.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deephst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/",
+        "sha256": "d015145b08be13c2b7626eaf19c26867263f9655e6e1ba0131fce377a8e9dc1e"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-00020313_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/hlsp_jades_jwst_nirspec_goods-s-deephst-00020313_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "31916b0fd7f90163bff03770482d931e2af7977271f0574f8bea1c3668a2cd47"
+      },
+      "header_offset_arcsec": 1.7155428540741832e-07,
+      "header_pid": 1210,
+      "header_target_number": 20313,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-deephst_3944",
+      "nircam_id": 100625,
+      "pid": 1210,
+      "field": "GS",
+      "z": 2.92724,
+      "ra": 53.1242986021,
+      "dec": -27.8165390242,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 24947.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deephst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/",
+        "sha256": "d015145b08be13c2b7626eaf19c26867263f9655e6e1ba0131fce377a8e9dc1e"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-00003944_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/hlsp_jades_jwst_nirspec_goods-s-deephst-00003944_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "bd5a71012575979c5171b801e8e3a0601c519a87f4148a0207c72e4c4048d3ba"
+      },
+      "header_offset_arcsec": 5.770480642975395e-08,
+      "header_pid": 1210,
+      "header_target_number": 3944,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_17277",
+      "nircam_id": 246459,
+      "pid": 1180,
+      "field": "GS",
+      "z": 3.2314137052,
+      "ra": 53.0854728,
+      "dec": -27.7341529,
+      "redshift_bin": 0,
+      "m_uv": -18.700325982,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/",
+        "sha256": "f05638bad64d428b26cbb2bf2525cda5991e9b050920f2af9b44f3d2dbc149ab"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00017277_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00017277_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "6169241ca5e6313eece8ceacf3dfb851a05c7da20be929164dbc4234dc1e9d54"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1180,
+      "header_target_number": 17277,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_5052",
+      "nircam_id": 209466,
+      "pid": 1180,
+      "field": "GS",
+      "z": 3.4329043583,
+      "ra": 53.1588231,
+      "dec": -27.7751884,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 2042.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/",
+        "sha256": "f05638bad64d428b26cbb2bf2525cda5991e9b050920f2af9b44f3d2dbc149ab"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00005052_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00005052_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "d2372713b19623dc9c7ffd5038b8c5477c889654afb36c137159920b93913abb"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1180,
+      "header_target_number": 5052,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_5254",
+      "nircam_id": 202469,
+      "pid": 1180,
+      "field": "GS",
+      "z": 3.3205023707,
+      "ra": 53.1968828,
+      "dec": -27.799463,
+      "redshift_bin": 0,
+      "m_uv": -18.7384935569,
+      "exposure_s": 2042.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/",
+        "sha256": "f05638bad64d428b26cbb2bf2525cda5991e9b050920f2af9b44f3d2dbc149ab"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00005254_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00005254_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "34f0e3eed15da9c9bda0d4cf1505ade7d5468c311e60b63e6363d9b9a8c75745"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1180,
+      "header_target_number": 5254,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_10011037",
+      "nircam_id": 306965,
+      "pid": 1180,
+      "field": "GS",
+      "z": 2.8074655975,
+      "ra": 53.1977274543,
+      "dec": -27.8114770031,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10011037_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10011037_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "7743127cb2a57de8f95cff4fe384149a3ea5a72e8c0b09993d075ea671d01265"
+      },
+      "header_offset_arcsec": 1.8773428344090492e-07,
+      "header_pid": 1286,
+      "header_target_number": 10011037,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_114786",
+      "nircam_id": 114786,
+      "pid": 1286,
+      "field": "GS",
+      "z": 2.9923067631,
+      "ra": 53.1780033,
+      "dec": -27.7955355,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00114786_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00114786_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "ab7c93c3e1bce29c8573e6b4f5939d65c0c5e0191dcb62026dbccbbd57b07c7d"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 114786,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_119227",
+      "nircam_id": 119227,
+      "pid": 1286,
+      "field": "GS",
+      "z": 2.8682247874,
+      "ra": 53.1343949,
+      "dec": -27.788842,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 5689.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00119227_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00119227_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "44d91bafd329276e4411845f603f2d67c25c3494ac0a16392a13901e2ab27fe8"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 119227,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_126865",
+      "nircam_id": 126865,
+      "pid": 1286,
+      "field": "GS",
+      "z": 2.849086706,
+      "ra": 53.1953914,
+      "dec": -27.7793495,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 5689.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00126865_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00126865_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "4ced28a12026d9ac2733a1dcf64322cd8448885b35beb3fcc7ef618a7e77b034"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 126865,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_191191",
+      "nircam_id": 191191,
+      "pid": 1286,
+      "field": "GS",
+      "z": 3.4724050673,
+      "ra": 53.1169379,
+      "dec": -27.8366262,
+      "redshift_bin": 0,
+      "m_uv": -18.3523879328,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00191191_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00191191_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "2b7803404d3a70c17074265efaed8f3209101d60ea6d46071bf3beb897780345"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 191191,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_195645",
+      "nircam_id": 195645,
+      "pid": 1180,
+      "field": "GS",
+      "z": 3.09471,
+      "ra": 53.1651963787,
+      "dec": -27.8234644406,
+      "redshift_bin": 0,
+      "m_uv": -17.3017238052,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00195645_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00195645_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "f7315419c85b56e7634a5b5ecae477e61e077086fe676db29cfd12c7e724aced"
+      },
+      "header_offset_arcsec": 1.3433654002832837e-07,
+      "header_pid": 1286,
+      "header_target_number": 195645,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_280764",
+      "nircam_id": 280764,
+      "pid": 1286,
+      "field": "GS",
+      "z": 2.9195628438,
+      "ra": 53.1131315,
+      "dec": -27.8202865,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 5689.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00280764_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00280764_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "4dba42d5fc1696cdec8665958896e3a2770fb9d06f198e07952c69413deb2e39"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 280764,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_46101",
+      "nircam_id": 115813,
+      "pid": 1180,
+      "field": "GS",
+      "z": 3.4686506697,
+      "ra": 53.1200714,
+      "dec": -27.793829,
+      "redshift_bin": 0,
+      "m_uv": -18.6076754537,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00046101_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00046101_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "40f399a447032ab6b9c0495be2f5f9e257380e865ca5b8545ea0ea8ed2ef5db1"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 46101,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_52091",
+      "nircam_id": 208784,
+      "pid": 1180,
+      "field": "GS",
+      "z": 2.8312238318,
+      "ra": 53.1999588,
+      "dec": -27.7776814,
+      "redshift_bin": 0,
+      "m_uv": null,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00052091_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00052091_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "58df27648fe57fc9447363c194b184eb93803bcd49b1abacd313aa1a3ae14ca7"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 52091,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-deephst_10001916",
+      "nircam_id": 113342,
+      "pid": 1210,
+      "field": "GS",
+      "z": 4.2830922751,
+      "ra": 53.1322755609,
+      "dec": -27.7981134251,
+      "redshift_bin": 1,
+      "m_uv": -17.0876507273,
+      "exposure_s": 8315.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deephst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/",
+        "sha256": "d015145b08be13c2b7626eaf19c26867263f9655e6e1ba0131fce377a8e9dc1e"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-10001916_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/hlsp_jades_jwst_nirspec_goods-s-deephst-10001916_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "f1b3479a1a2d0f180dd6287c488d880c8612a4ade3e2f807b44aa21c970ed46d"
+      },
+      "header_offset_arcsec": 9.731815089869824e-08,
+      "header_pid": 1210,
+      "header_target_number": 10001916,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-deephst_18970",
+      "nircam_id": 210435,
+      "pid": 1210,
+      "field": "GS",
+      "z": 3.7255184805,
+      "ra": 53.1564959496,
+      "dec": -27.7722693564,
+      "redshift_bin": 1,
+      "m_uv": -18.768450358,
+      "exposure_s": 8315.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deephst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/",
+        "sha256": "d015145b08be13c2b7626eaf19c26867263f9655e6e1ba0131fce377a8e9dc1e"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-00018970_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/hlsp_jades_jwst_nirspec_goods-s-deephst-00018970_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "1edcf7abcbbf415818d69cda49995ebde97eaaaa0dc3d091065a2af8f5f24f44"
+      },
+      "header_offset_arcsec": 1.1270251781915444e-07,
+      "header_pid": 1210,
+      "header_target_number": 18970,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_37960",
+      "nircam_id": 120672,
+      "pid": 1180,
+      "field": "GS",
+      "z": 4.0532771683,
+      "ra": 53.0928205,
+      "dec": -27.7872208,
+      "redshift_bin": 1,
+      "m_uv": -19.4350820121,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/",
+        "sha256": "f05638bad64d428b26cbb2bf2525cda5991e9b050920f2af9b44f3d2dbc149ab"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00037960_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00037960_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "c533a69a40f1ec22c4ed21b278eb6459cad518619802980759eab21d293b1ec5"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1180,
+      "header_target_number": 37960,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_10000042",
+      "nircam_id": 329422,
+      "pid": 1180,
+      "field": "GS",
+      "z": 3.5599003244,
+      "ra": 53.1677426,
+      "dec": -27.8266154,
+      "redshift_bin": 1,
+      "m_uv": -17.1495757073,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10000042_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10000042_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "964a035ea37811a0bf79e95e8f1a1af184c0ce479b69f15e6453c504f0630087"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 10000042,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_129636",
+      "nircam_id": 129636,
+      "pid": 1286,
+      "field": "GS",
+      "z": 3.5505470109,
+      "ra": 53.1680929,
+      "dec": -27.7753391,
+      "redshift_bin": 1,
+      "m_uv": -18.7160630745,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00129636_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00129636_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "350c55d8230c53ce10e66d3b4e0c968bac8d8b2d31cc7a461e98c3ef01b9053c"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 129636,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_14919",
+      "nircam_id": 14919,
+      "pid": 1286,
+      "field": "GS",
+      "z": 3.6106373246,
+      "ra": 53.0567019,
+      "dec": -27.8889128,
+      "redshift_bin": 1,
+      "m_uv": -18.0769820471,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00014919_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00014919_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "904c637d5008925564da35706940da9e2073f482b1b3798ac5d0c0765c88b531"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 14919,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_170026",
+      "nircam_id": 170026,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.282474,
+      "ra": 53.0397551,
+      "dec": -27.8769024,
+      "redshift_bin": 1,
+      "m_uv": -16.9465605073,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00170026_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00170026_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "7e1ad1b38fb3833959a561b3f2788fee41142f4d7e6284d625f18f720fcac7d5"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 170026,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_183946",
+      "nircam_id": 183946,
+      "pid": 1286,
+      "field": "GS",
+      "z": 3.6643997413,
+      "ra": 53.0953337,
+      "dec": -27.8545828,
+      "redshift_bin": 1,
+      "m_uv": -17.6512709938,
+      "exposure_s": 2844.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00183946_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00183946_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "a123ba0387b879ad51f74c417f4d38a15dc0e336d059cc4990ada012f0836211"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 183946,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_200656",
+      "nircam_id": 200656,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.0426509061,
+      "ra": 53.1843629,
+      "dec": -27.8058129,
+      "redshift_bin": 1,
+      "m_uv": -19.1022300803,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00200656_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00200656_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "bfb4891bb2e4e79a7db0722f29c0c9cd3c6d442c073b57dc3ff771745b8e8bc4"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 200656,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_216543",
+      "nircam_id": 216543,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.123891024,
+      "ra": 53.1760271,
+      "dec": -27.751564,
+      "redshift_bin": 1,
+      "m_uv": -17.9105487772,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00216543_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00216543_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "7873c856cf3e9c3132c349087728d7f2aa143d5975acc86c6e3cbd77429fd035"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 216543,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_289101",
+      "nircam_id": 296853,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.2310224159,
+      "ra": 53.096078,
+      "dec": -27.8287001,
+      "redshift_bin": 1,
+      "m_uv": -18.4292497057,
+      "exposure_s": 2844.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00289101_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00289101_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "85ebf5f29b05565c26362ebb5000634bc97d866518381d58d5fca8b7af6ccd9b"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 289101,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_40883",
+      "nircam_id": 40883,
+      "pid": 1286,
+      "field": "GS",
+      "z": 3.702872637,
+      "ra": 53.0582109,
+      "dec": -27.869723,
+      "redshift_bin": 1,
+      "m_uv": -17.4343565609,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00040883_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00040883_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "bd02a6a7f4fd6a826fb6b1d60953eb3c13e21b27dc14c70fce243f32c813f90c"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 40883,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_53979",
+      "nircam_id": 210277,
+      "pid": 1180,
+      "field": "GS",
+      "z": 4.0289598714,
+      "ra": 53.2011223,
+      "dec": -27.7729034,
+      "redshift_bin": 1,
+      "m_uv": -19.2768605247,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00053979_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00053979_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "62f028ce5bdb314deb0fedb2b938028b8c098a70847bd74947780bd3b8bb95e0"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 53979,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_60148140",
+      "nircam_id": 148140,
+      "pid": 1286,
+      "field": "GS",
+      "z": 3.9154594552,
+      "ra": 53.1320749,
+      "dec": -27.7528914,
+      "redshift_bin": 1,
+      "m_uv": -20.3344563517,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-60148140_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-60148140_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "781f54918ba282e8c51aa699edb8ad64dae84f7200f2aebe73d375c537ff0fe5"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 60148140,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_81117",
+      "nircam_id": 81117,
+      "pid": 1286,
+      "field": "GS",
+      "z": 3.6507885229,
+      "ra": 53.1217034,
+      "dec": -27.8403586,
+      "redshift_bin": 1,
+      "m_uv": -17.8974120419,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00081117_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00081117_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "5ed674294288530fad24904e5b696582d66f71c97b39fb65dca8b055ef8349cb"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 81117,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_94511",
+      "nircam_id": 94511,
+      "pid": 1286,
+      "field": "GS",
+      "z": 3.5583842008,
+      "ra": 53.0959422,
+      "dec": -27.8232698,
+      "redshift_bin": 1,
+      "m_uv": -19.1925175666,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00094511_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00094511_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "3628bbdef10b6502ff6d6977592226544950955ac205f8484c3daa65268b26c1"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 94511,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-deephst_9452",
+      "nircam_id": 203112,
+      "pid": 1210,
+      "field": "GS",
+      "z": 5.120006194,
+      "ra": 53.1158337741,
+      "dec": -27.7975487799,
+      "redshift_bin": 2,
+      "m_uv": -17.9202325825,
+      "exposure_s": 8315.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deephst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/",
+        "sha256": "d015145b08be13c2b7626eaf19c26867263f9655e6e1ba0131fce377a8e9dc1e"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-00009452_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deephst/hlsp_jades_jwst_nirspec_goods-s-deephst-00009452_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "ad6aab6155616d8776c8be5f34c338d923b6e720d6685079c3ac7f407e841ae5"
+      },
+      "header_offset_arcsec": 1.3211309890929672e-07,
+      "header_pid": 1210,
+      "header_target_number": 9452,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_10028337",
+      "nircam_id": 423610,
+      "pid": 1287,
+      "field": "GS",
+      "z": 4.6547051736,
+      "ra": 53.0707691,
+      "dec": -27.8563487,
+      "redshift_bin": 2,
+      "m_uv": -18.7699142027,
+      "exposure_s": 8315.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deepjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deepjwst/",
+        "sha256": "0db8a4f035fcb048c43b78775be5d304db7b282a7326fa766857ee68163a6015"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deepjwst-10028337_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deepjwst/hlsp_jades_jwst_nirspec_goods-s-deepjwst-10028337_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "e504e109e0bead0b6103c4d1bebce4381a9424489008f355a318f1fe560d1c85"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1287,
+      "header_target_number": 10028337,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_9597",
+      "nircam_id": 294315,
+      "pid": 1287,
+      "field": "GS",
+      "z": 4.807851547,
+      "ra": 53.0628965,
+      "dec": -27.8956809,
+      "redshift_bin": 2,
+      "m_uv": -17.0078283775,
+      "exposure_s": 8315.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-deepjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deepjwst/",
+        "sha256": "0db8a4f035fcb048c43b78775be5d304db7b282a7326fa766857ee68163a6015"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deepjwst-00009597_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-deepjwst/hlsp_jades_jwst_nirspec_goods-s-deepjwst-00009597_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "a605e81822c5732dcb8465e8483b044d57df54f4558548a08c990e2086637263"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1287,
+      "header_target_number": 9597,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_16120",
+      "nircam_id": 306568,
+      "pid": 1180,
+      "field": "GS",
+      "z": 5.0631947375,
+      "ra": 53.2107731,
+      "dec": -27.8138175,
+      "redshift_bin": 2,
+      "m_uv": -18.5315718986,
+      "exposure_s": 2042.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/",
+        "sha256": "f05638bad64d428b26cbb2bf2525cda5991e9b050920f2af9b44f3d2dbc149ab"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00016120_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00016120_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "655d51889b801bbf05e6d6fb4a3c52cb5d8c6a10c7521ea4fa3711c0247c35ac"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1180,
+      "header_target_number": 16120,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_9569",
+      "nircam_id": 122654,
+      "pid": 1180,
+      "field": "GS",
+      "z": 4.7561410928,
+      "ra": 53.127392,
+      "dec": -27.7852371,
+      "redshift_bin": 2,
+      "m_uv": -19.0768746358,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/",
+        "sha256": "f05638bad64d428b26cbb2bf2525cda5991e9b050920f2af9b44f3d2dbc149ab"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00009569_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00009569_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "6bd54f7e3beb63f27178f201d812ca1224ce0ba1a9c9a6fb852870c1bb68918b"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1180,
+      "header_target_number": 9569,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_9818",
+      "nircam_id": 123741,
+      "pid": 1180,
+      "field": "GS",
+      "z": 4.3994500777,
+      "ra": 53.1733264,
+      "dec": -27.7838883,
+      "redshift_bin": 2,
+      "m_uv": -19.469671084,
+      "exposure_s": 3063.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/",
+        "sha256": "f05638bad64d428b26cbb2bf2525cda5991e9b050920f2af9b44f3d2dbc149ab"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00009818_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumhst/hlsp_jades_jwst_nirspec_goods-s-mediumhst-00009818_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "34f0b432dd99c4615ccb13612eb31cc473ee86bd007b54a8c9ce7d5c6bae54bb"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1180,
+      "header_target_number": 9818,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_10013204",
+      "nircam_id": 211739,
+      "pid": 1180,
+      "field": "GS",
+      "z": 4.8709282228,
+      "ra": 53.1940683,
+      "dec": -27.769121,
+      "redshift_bin": 2,
+      "m_uv": -18.4216587086,
+      "exposure_s": 6127.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10013204_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-10013204_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "3e3f046b396b27e2e147db5f7eb7bf23b1c0eb9c08b2c346ebf8c0d5264ae35f"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 10013204,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_109426",
+      "nircam_id": 109426,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.943939011,
+      "ra": 53.1683623,
+      "dec": -27.8042025,
+      "redshift_bin": 2,
+      "m_uv": -18.9022338013,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00109426_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00109426_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "9158426d7eb8116cb3f9abab06ff3f5545fcc50a8946fddb042860103618ea35"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 109426,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_125579",
+      "nircam_id": 125579,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.8717005995,
+      "ra": 53.1376917,
+      "dec": -27.7813464,
+      "redshift_bin": 2,
+      "m_uv": -18.9171363158,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00125579_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00125579_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "cce523c1e1bb8ef85e27775b2353377b8ac1a9c5144197b0dcedcf4f0e10e4e7"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 125579,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_138957",
+      "nircam_id": 138957,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.6870580651,
+      "ra": 53.1694798,
+      "dec": -27.765664,
+      "redshift_bin": 2,
+      "m_uv": -18.6247900116,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00138957_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00138957_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "933cc219bb165a149c3e31976cef5ff4a9f25b07667bdbf011e8c44984849ed0"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 138957,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_159717",
+      "nircam_id": 159717,
+      "pid": 1286,
+      "field": "GS",
+      "z": 5.0772366831,
+      "ra": 53.0975283,
+      "dec": -27.9012603,
+      "redshift_bin": 2,
+      "m_uv": -18.9298261165,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00159717_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "704c35190eaaf56164d0883b437e61ed08a510b89c495a1e46bbc231b466014e"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 159717,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_181335",
+      "nircam_id": 181335,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.8077434492,
+      "ra": 53.0955994,
+      "dec": -27.8582392,
+      "redshift_bin": 2,
+      "m_uv": -16.9353628776,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00181335_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00181335_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "e46121247f1e67bba977ce3de7b2ee02f8bfceb2c92ca264ac65d795748a190e"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 181335,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_186158",
+      "nircam_id": 186158,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.3684150823,
+      "ra": 53.0852767,
+      "dec": -27.8504227,
+      "redshift_bin": 2,
+      "m_uv": null,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00186158_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00186158_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "82c2215fc8ebe36f3b93bb105facce5ff5f9aa89281c4d807780982047e4b40d"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 186158,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_35963",
+      "nircam_id": 197269,
+      "pid": 1180,
+      "field": "GS",
+      "z": 4.513933,
+      "ra": 53.1733818,
+      "dec": -27.8183155,
+      "redshift_bin": 2,
+      "m_uv": -19.6152868886,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00035963_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00035963_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "d37da45e3180f34f1e287cb8b3eecea95fc1d1e20c2c2964950837ab965a5087"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 35963,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_42453",
+      "nircam_id": 110023,
+      "pid": 1180,
+      "field": "GS",
+      "z": 4.4543945331,
+      "ra": 53.1173859,
+      "dec": -27.8033791,
+      "redshift_bin": 2,
+      "m_uv": -17.3162663236,
+      "exposure_s": 9190.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00042453_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00042453_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "0f9471060a4b35edbaf952a69a2e86fbb8085de3369f75bafcf1e720c38cfb57"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 42453,
+      "association": "DR4_GOODS_S_MEDIUMJWST_HEADER_1286_CATALOGUE_1180"
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_60311023",
+      "nircam_id": 311023,
+      "pid": 1286,
+      "field": "GS",
+      "z": 4.923545,
+      "ra": 53.2107746,
+      "dec": -27.790673,
+      "redshift_bin": 2,
+      "m_uv": -18.0566221488,
+      "exposure_s": 8534.0,
+      "role": "random_sample",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-60311023_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-60311023_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "c795aa5a4345ae8f9b10a52abae7aefd168d0f56bca4973ce52e4dd731b97ad0"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 60311023,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "field": "GN",
+      "bin": 0,
+      "dr4_id": "goods-n-mediumhst_27286",
+      "nircam_id": 1030279,
+      "pid": 1181,
+      "z": 3.128906494216613,
+      "ra": 189.03140262573416,
+      "dec": 62.26948983012886,
+      "log10_ratio": 0.7127631345168243,
+      "redshift_bin": 0,
+      "role": "sideband_control",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumhst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/",
+        "sha256": "d77c7af57b6d317aa89eef87583949f232253b9cff798139806f5825dcd37014"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00027286_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00027286_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "6f50e785b63e9aedb851b4ee9441b63e32aaf114fe20e19ff431dbf008699249"
+      },
+      "header_offset_arcsec": 4.7610013671044106e-11,
+      "header_pid": 1181,
+      "header_target_number": 27286,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "field": "GN",
+      "bin": 2,
+      "dr4_id": "goods-n-mediumjwst_39092",
+      "nircam_id": 1039092,
+      "pid": 1181,
+      "z": 4.526645644296647,
+      "ra": 189.27679344431587,
+      "dec": 62.15210017036903,
+      "log10_ratio": 0.7637305601644053,
+      "redshift_bin": 2,
+      "role": "sideband_control",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-n-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/",
+        "sha256": "a7f5c795f756b8a3f50bfa6d36adaae7107522891e148d0f30cbdf533ffd1ffe"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00039092_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f170lp-g235m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00039092_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "a12ef6390658f86c11ccec829a5cae40504b391deeff522d18f66473f30098b6"
+      },
+      "header_offset_arcsec": 4.779546952970955e-11,
+      "header_pid": 1181,
+      "header_target_number": 39092,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "field": "GS",
+      "bin": 0,
+      "dr4_id": "goods-s-mediumjwst_175034",
+      "nircam_id": 175034,
+      "pid": 1286,
+      "z": 3.4687789207528192,
+      "ra": 53.0833041,
+      "dec": -27.8669657,
+      "log10_ratio": 0.7343236779947316,
+      "redshift_bin": 0,
+      "role": "sideband_control",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00175034_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00175034_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "2b3f37466023180648d19280f73a69b1a2638dfb92e7380699162da1788ca7ad"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 175034,
+      "association": "CATALOGUE_PID_MATCH"
+    },
+    {
+      "field": "GS",
+      "bin": 2,
+      "dr4_id": "goods-s-mediumjwst_189400",
+      "nircam_id": 189400,
+      "pid": 1286,
+      "z": 4.341632743452085,
+      "ra": 53.085441,
+      "dec": -27.8424629,
+      "log10_ratio": 0.7623031750424607,
+      "redshift_bin": 2,
+      "role": "sideband_control",
+      "status": "ACCEPTED",
+      "listing": {
+        "path": "data/raw/metadata/dr4_goods-s-mediumjwst_g235m_f170lp.html",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/",
+        "sha256": "de700088ec4bcdca79eb3a21c6b1840844aec6aa7ae7e7b0ddfd5b52a7ed9fb0"
+      },
+      "spectrum": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00189400_f170lp-g235m_v1.0_x1d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f170lp-g235m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-00189400_f170lp-g235m_v1.0_x1d.fits",
+        "sha256": "a9f8307b8aad5bdf24a76b3581fee56c0f4f5b00f3f42285f81cee24f3ff5634"
+      },
+      "header_offset_arcsec": 0.0,
+      "header_pid": 1286,
+      "header_target_number": 189400,
+      "association": "CATALOGUE_PID_MATCH"
+    }
+  ],
+  "target_table_sha256": "899dbbee4adba3189884b10f1ff377d79a8347de3b62b8f9b009603e26b51fe0",
+  "catalogue_summary_sha256": "7ae51f1cc1a8a37d6cb86a5efb1b8a13700f122c3f0cff8546d97f2e0472db5e",
+  "script_sha256": "f284d2cfce9bb1879341b0c41ec1588406ab6b04fbe8f8ddf8cd4f49fb89d185",
+  "archive_method_sha256": "0b28438e955fc6b61ba28d7f248957523927c6cbe3f77454868a9957b2b8aed8",
+  "dr4_tier_naming_documentation": "https://archive.stsci.edu/hlsp/jades"
+}
