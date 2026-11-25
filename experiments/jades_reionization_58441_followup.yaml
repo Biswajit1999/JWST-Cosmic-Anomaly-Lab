@@ -7,6 +7,7 @@ commands:
   - python scripts/check_jades_reionization_mmt.py
   - python scripts/audit_jades_58441_flux_scale.py
   - python scripts/check_jades_reionization_deimos.py
+  - python scripts/audit_jades_58441_imaging.py
 inputs:
   primary_target: goods-n-mediumjwst_58441
   modes: [G140M/F070LP, PRISM/CLEAR]
@@ -18,6 +19,7 @@ limits:
   - Formal errors use released diagonal noise.
   - Flux calibration differs across reductions.
   - Literature checks refer to the named coordinate tables.
+  - Directional photometry tests a streak on one released mosaic without modelling its cause.
 outputs:
   - reports/jades_reionization_58441.md
   - results/jades_reionization/exposure_audit.json
@@ -25,7 +27,9 @@ outputs:
   - results/jades_reionization/mmt_literature_check.json
   - results/jades_reionization/deimos_literature_check.json
   - results/jades_reionization/58441_flux_scale.json
+  - results/jades_reionization/58441_optical_ir_context.json
   - figures/jades_reionization_exposure_audit.*
   - figures/jades_reionization_prism_check.*
   - figures/jades_reionization_58441_trace.*
   - figures/jades_reionization_58441_flux_scale.*
+  - figures/jades_58441_optical_ir_context.*

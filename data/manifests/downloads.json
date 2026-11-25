@@ -99748,5 +99748,50 @@
     "version": "author arXiv HTML",
     "kind": "published_literature_table",
     "previous_sha256": null
+  },
+  {
+    "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.2864212&dec=62.2070173&size=5&filters=f775w-clear%2Cf814w-clear%2Cf090w-clear%2Cf115w-clear%2Cf150w-clear&output=fits_weight",
+    "final_url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.2864212&dec=62.2070173&size=5&filters=f775w-clear%2Cf814w-clear%2Cf090w-clear%2Cf115w-clear%2Cf150w-clear&output=fits_weight",
+    "path": "data/raw/images/jades_58441_optical_ir_context.fits",
+    "bytes": 1065600,
+    "sha256": "d46c0b05810991e96e671e4892ef5572040693ace0d636cd52d3452b0e83017b",
+    "published_checksum": null,
+    "accessed_utc": "2026-11-25T23:41:39.207811+00:00",
+    "etag": "\"1795650098.2172508-1065600-2758216265\"",
+    "last_modified": "Wed, 25 Nov 2026 23:41:38 GMT",
+    "survey": "DAWN JWST Archive",
+    "version": "DJA-cutout-live",
+    "kind": "observed_image_cutout",
+    "previous_sha256": null
+  },
+  {
+    "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.28642116251103&dec=62.20701727996561&size=5&filters=f775w-clear%2Cf814w-clear%2Cf090w-clear%2Cf115w-clear%2Cf150w-clear&output=fits_weight",
+    "final_url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.28642116251103&dec=62.20701727996561&size=5&filters=f775w-clear%2Cf814w-clear%2Cf090w-clear%2Cf115w-clear%2Cf150w-clear&output=fits_weight",
+    "path": "data/raw/images/jades_58441_optical_ir_context.fits",
+    "bytes": 1065600,
+    "sha256": "d46c0b05810991e96e671e4892ef5572040693ace0d636cd52d3452b0e83017b",
+    "published_checksum": null,
+    "accessed_utc": "2026-11-25T23:43:59.091559+00:00",
+    "etag": "\"1795650238.1797984-1065600-2840660639\"",
+    "last_modified": "Wed, 25 Nov 2026 23:43:58 GMT",
+    "survey": "DAWN JWST Archive",
+    "version": "DJA-cutout-live",
+    "kind": "observed_image_cutout",
+    "previous_sha256": null
+  },
+  {
+    "url": "https://jwst-docs.stsci.edu/files/216457506/216457511/1/1762454197925/F090W_mean_system_throughput.txt",
+    "final_url": "https://jwst-docs.stsci.edu/files/216457506/216457511/1/1762454197925/F090W_mean_system_throughput.txt",
+    "path": "data/raw/metadata/jwst_nircam_f090w_throughput.txt",
+    "bytes": 12670,
+    "sha256": "47368629ad8e35f5dd2050f1570645ce341335e37848c666c8282c11780e93f1",
+    "published_checksum": null,
+    "accessed_utc": "2026-11-25T23:44:01.104575+00:00",
+    "etag": null,
+    "last_modified": null,
+    "survey": "STScI",
+    "version": "JDox NIRCam throughput v7.0",
+    "kind": "instrument_reference",
+    "previous_sha256": null
   }
 ]

@@ -1,0 +1,604 @@
+{
+  "executed_utc": "2026-11-25T23:46:00.551445+00:00",
+  "script_sha256": "e76c755f106a9758d62c59d31d371910cdc59ce4c15c3b610e27c705047566f1",
+  "input_images": {
+    "path": "data/raw/images/jades_58441_optical_ir_context.fits",
+    "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.28642116251103&dec=62.20701727996561&size=5&filters=f775w-clear%2Cf814w-clear%2Cf090w-clear%2Cf115w-clear%2Cf150w-clear&output=fits_weight",
+    "sha256": "d46c0b05810991e96e671e4892ef5572040693ace0d636cd52d3452b0e83017b"
+  },
+  "throughput_curve": {
+    "path": "data/raw/metadata/jwst_nircam_f090w_throughput.txt",
+    "url": "https://jwst-docs.stsci.edu/files/216457506/216457511/1/1762454197925/F090W_mean_system_throughput.txt",
+    "sha256": "47368629ad8e35f5dd2050f1570645ce341335e37848c666c8282c11780e93f1"
+  },
+  "line_fit_sha256": "d281ff75b0a58ab725c7716cfce3b906413c4ea1069738afeb9c2e54b4043270",
+  "bands": [
+    {
+      "band": "F090W-CLEAR",
+      "apertures": [
+        {
+          "aperture_flux_uJy": 0.07919049663469196,
+          "diagonal_error_uJy": 0.0006946661139090935,
+          "sn": 113.99792655649117,
+          "upper_limit_3sigma_uJy": 0.08127449497641924,
+          "aperture_radius_arcsec": 0.12,
+          "background_uJy_pixel": 0.00020550028420984745,
+          "n_aperture_pixels": 18,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.11783257905393839,
+          "diagonal_error_uJy": 0.0008830647337207186,
+          "sn": 133.43594705391615,
+          "upper_limit_3sigma_uJy": 0.12048177325510054,
+          "aperture_radius_arcsec": 0.15,
+          "background_uJy_pixel": 0.00020550028420984745,
+          "n_aperture_pixels": 28,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.1803252018801868,
+          "diagonal_error_uJy": 0.001221662656614461,
+          "sn": 147.60637963667807,
+          "upper_limit_3sigma_uJy": 0.18399018985003018,
+          "aperture_radius_arcsec": 0.2,
+          "background_uJy_pixel": 0.00020550028420984745,
+          "n_aperture_pixels": 50,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.31137157920747993,
+          "diagonal_error_uJy": 0.0020738210252385573,
+          "sn": 150.14390124223087,
+          "upper_limit_3sigma_uJy": 0.3175930422831956,
+          "aperture_radius_arcsec": 0.3,
+          "background_uJy_pixel": 0.00020550028420984745,
+          "n_aperture_pixels": 116,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        }
+      ],
+      "centres": [
+        {
+          "radius_arcsec": 0.12,
+          "x_pixel": 100.13112580164702,
+          "y_pixel": 99.48540439944172,
+          "east_mas": 5.647529474012141,
+          "north_mas": -1.2821677622298175,
+          "ra": 189.2864245269356,
+          "dec": 62.20701692380786
+        },
+        {
+          "radius_arcsec": 0.15,
+          "x_pixel": 100.08022457029782,
+          "y_pixel": 99.37464475555801,
+          "east_mas": 8.460255780008088,
+          "north_mas": -6.681880881010285,
+          "ra": 189.28642620257168,
+          "dec": 62.2070154238875
+        },
+        {
+          "radius_arcsec": 0.2,
+          "x_pixel": 100.1432839590507,
+          "y_pixel": 99.2784921114955,
+          "east_mas": 5.551315093204148,
+          "north_mas": -11.637047081912815,
+          "ra": 189.28642446961712,
+          "dec": 62.2070140474525
+        },
+        {
+          "radius_arcsec": 0.3,
+          "x_pixel": 100.03670624034828,
+          "y_pixel": 99.2797680245608,
+          "east_mas": 10.865462932237499,
+          "north_mas": -11.307484845284353,
+          "ra": 189.2864276354347,
+          "dec": 62.20701413899745
+        }
+      ],
+      "photfnu": 1e-08,
+      "wcs_grid_mismatch_pixels": 0.0,
+      "streak_control": {
+        "directional_apertures": {
+          "along": [
+            {
+              "offset_arcsec": -0.78,
+              "x_pixel": 108.9320183084439,
+              "y_pixel": 86.5607158362849,
+              "flux_njy": 86.35810151696205,
+              "diagonal_error_njy": 0.8852327593163557
+            },
+            {
+              "offset_arcsec": -0.45,
+              "x_pixel": 105.25580050443361,
+              "y_pixel": 92.04208634533464,
+              "flux_njy": 86.74567244946957,
+              "diagonal_error_njy": 0.8958268635735356
+            },
+            {
+              "offset_arcsec": 0.45,
+              "x_pixel": 95.22975194804192,
+              "y_pixel": 106.99127864274303,
+              "flux_njy": 81.95889050140977,
+              "diagonal_error_njy": 0.8614456657730951
+            },
+            {
+              "offset_arcsec": 0.78,
+              "x_pixel": 91.55353414403163,
+              "y_pixel": 112.47264915179277,
+              "flux_njy": 96.83589994907378,
+              "diagonal_error_njy": 0.9690794500309599
+            }
+          ],
+          "across": [
+            {
+              "offset_arcsec": -0.78,
+              "x_pixel": 113.1987428839917,
+              "y_pixel": 108.20592457624497,
+              "flux_njy": -0.9547961979114917,
+              "diagonal_error_njy": 0.9952818753494856
+            },
+            {
+              "offset_arcsec": -0.45,
+              "x_pixel": 107.71737237494196,
+              "y_pixel": 104.52970677223468,
+              "flux_njy": 1.8824913271237167,
+              "diagonal_error_njy": 0.925177573166609
+            },
+            {
+              "offset_arcsec": 0.45,
+              "x_pixel": 92.76818007753357,
+              "y_pixel": 94.50365821584299,
+              "flux_njy": 9.702716406900437,
+              "diagonal_error_njy": 0.8973061120264648
+            },
+            {
+              "offset_arcsec": 0.78,
+              "x_pixel": 87.28680956848383,
+              "y_pixel": 90.8274404118327,
+              "flux_njy": 0.2063690172508359,
+              "diagonal_error_njy": 0.9670266106997433
+            }
+          ]
+        },
+        "along_pair_means_njy": [
+          91.59700073301792,
+          84.35228147543967
+        ],
+        "target_minus_along_pair_njy": [
+          26.235578320920467,
+          33.48029757849872
+        ]
+      }
+    },
+    {
+      "band": "F115W-CLEAR",
+      "apertures": [
+        {
+          "aperture_flux_uJy": 0.02909661138430238,
+          "diagonal_error_uJy": 0.0008597028159874686,
+          "sn": 33.8449646124301,
+          "upper_limit_3sigma_uJy": 0.03167571983226478,
+          "aperture_radius_arcsec": 0.12,
+          "background_uJy_pixel": -5.25964517146349e-05,
+          "n_aperture_pixels": 18,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.043070892933756114,
+          "diagonal_error_uJy": 0.0010782581528499036,
+          "sn": 39.94488037945,
+          "upper_limit_3sigma_uJy": 0.04630566739230582,
+          "aperture_radius_arcsec": 0.15,
+          "background_uJy_pixel": -5.25964517146349e-05,
+          "n_aperture_pixels": 28,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.055991476140916346,
+          "diagonal_error_uJy": 0.0014633616832045032,
+          "sn": 38.262226477260846,
+          "upper_limit_3sigma_uJy": 0.060381561190529856,
+          "aperture_radius_arcsec": 0.2,
+          "background_uJy_pixel": -5.25964517146349e-05,
+          "n_aperture_pixels": 50,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.0653196512850991,
+          "diagonal_error_uJy": 0.00233825619794598,
+          "sn": 27.935198607611333,
+          "upper_limit_3sigma_uJy": 0.07233441987893705,
+          "aperture_radius_arcsec": 0.3,
+          "background_uJy_pixel": -5.25964517146349e-05,
+          "n_aperture_pixels": 116,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        }
+      ],
+      "centres": [
+        {
+          "radius_arcsec": 0.12,
+          "x_pixel": 100.32791246039051,
+          "y_pixel": 99.70545326830634,
+          "east_mas": -4.7131757615072525,
+          "north_mas": 9.206914795070938,
+          "ra": 189.28641835471228,
+          "dec": 62.20701983744192
+        },
+        {
+          "radius_arcsec": 0.15,
+          "x_pixel": 100.28615883933922,
+          "y_pixel": 99.29634401989266,
+          "east_mas": -1.6209242089314924,
+          "north_mas": -11.10272225010798,
+          "ra": 189.28642019687163,
+          "dec": 62.2070141958761
+        },
+        {
+          "radius_arcsec": 0.2,
+          "x_pixel": 100.4380030289616,
+          "y_pixel": 99.25016711865665,
+          "east_mas": -9.082719713452695,
+          "north_mas": -13.78569562311312,
+          "ra": 189.28641575162789,
+          "dec": 62.20701345060561
+        },
+        {
+          "radius_arcsec": 0.3,
+          "x_pixel": 100.54666047359676,
+          "y_pixel": 99.31337346996558,
+          "east_mas": -14.659680123171391,
+          "north_mas": -10.9028988629742,
+          "ra": 189.28641242924382,
+          "dec": 62.20701425138232
+        }
+      ],
+      "photfnu": 1e-08,
+      "wcs_grid_mismatch_pixels": 3.0973709688765113e-09,
+      "streak_control": {
+        "directional_apertures": {
+          "along": [
+            {
+              "offset_arcsec": -0.78,
+              "x_pixel": 108.9320183084439,
+              "y_pixel": 86.5607158362849,
+              "flux_njy": -4.815194448456169,
+              "diagonal_error_njy": 1.0831722483717705
+            },
+            {
+              "offset_arcsec": -0.45,
+              "x_pixel": 105.25580050443361,
+              "y_pixel": 92.04208634533464,
+              "flux_njy": 1.5032122138654813,
+              "diagonal_error_njy": 1.0913200531963043
+            },
+            {
+              "offset_arcsec": 0.45,
+              "x_pixel": 95.22975194804192,
+              "y_pixel": 106.99127864274303,
+              "flux_njy": -1.6888242959976196,
+              "diagonal_error_njy": 1.0610543572350704
+            },
+            {
+              "offset_arcsec": 0.78,
+              "x_pixel": 91.55353414403163,
+              "y_pixel": 112.47264915179277,
+              "flux_njy": -1.5096695977263153,
+              "diagonal_error_njy": 1.155524493895882
+            }
+          ],
+          "across": [
+            {
+              "offset_arcsec": -0.78,
+              "x_pixel": 113.1987428839917,
+              "y_pixel": 108.20592457624497,
+              "flux_njy": -0.2486332072294317,
+              "diagonal_error_njy": 1.0752844990296329
+            },
+            {
+              "offset_arcsec": -0.45,
+              "x_pixel": 107.71737237494196,
+              "y_pixel": 104.52970677223468,
+              "flux_njy": 1.8702120531816033,
+              "diagonal_error_njy": 1.0888864492353498
+            },
+            {
+              "offset_arcsec": 0.45,
+              "x_pixel": 92.76818007753357,
+              "y_pixel": 94.50365821584299,
+              "flux_njy": 3.000061407219618,
+              "diagonal_error_njy": 1.08641242085384
+            },
+            {
+              "offset_arcsec": 0.78,
+              "x_pixel": 87.28680956848383,
+              "y_pixel": 90.8274404118327,
+              "flux_njy": -2.278202495072037,
+              "diagonal_error_njy": 1.1169977053716929
+            }
+          ]
+        },
+        "along_pair_means_njy": [
+          -3.162432023091242,
+          -0.09280604106606916
+        ],
+        "target_minus_along_pair_njy": [
+          46.233324956847355,
+          43.16369897482218
+        ]
+      }
+    },
+    {
+      "band": "F150W-CLEAR",
+      "apertures": [
+        {
+          "aperture_flux_uJy": 0.028390906732529402,
+          "diagonal_error_uJy": 0.0010180863378614349,
+          "sn": 27.886541324350336,
+          "upper_limit_3sigma_uJy": 0.03144516574611371,
+          "aperture_radius_arcsec": 0.12,
+          "background_uJy_pixel": -6.878779269754887e-05,
+          "n_aperture_pixels": 18,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.04146537724882364,
+          "diagonal_error_uJy": 0.0012727341645572164,
+          "sn": 32.57976284721596,
+          "upper_limit_3sigma_uJy": 0.04528357974249529,
+          "aperture_radius_arcsec": 0.15,
+          "background_uJy_pixel": -6.878779269754887e-05,
+          "n_aperture_pixels": 28,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.053463965961709624,
+          "diagonal_error_uJy": 0.001724596628568267,
+          "sn": 31.000852649291428,
+          "upper_limit_3sigma_uJy": 0.05863775584741442,
+          "aperture_radius_arcsec": 0.2,
+          "background_uJy_pixel": -6.878779269754887e-05,
+          "n_aperture_pixels": 50,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        },
+        {
+          "aperture_flux_uJy": 0.0701925869518891,
+          "diagonal_error_uJy": 0.002736515562945451,
+          "sn": 25.650351820523632,
+          "upper_limit_3sigma_uJy": 0.07840213364072544,
+          "aperture_radius_arcsec": 0.3,
+          "background_uJy_pixel": -6.878779269754887e-05,
+          "n_aperture_pixels": 116,
+          "pixel_scale_arcsec": 0.0499999999999986,
+          "flags": [
+            "PSF_UNMATCHED",
+            "NO_APERTURE_CORRECTION",
+            "BLENDING_UNASSESSED",
+            "DRIZZLE_COVARIANCE_UNMODELLED"
+          ]
+        }
+      ],
+      "centres": [
+        {
+          "radius_arcsec": 0.12,
+          "x_pixel": 100.32901486626061,
+          "y_pixel": 99.6621161631248,
+          "east_mas": -4.661280711769246,
+          "north_mas": 7.0417219129674145,
+          "ra": 189.28641838562802,
+          "dec": 62.207019235999454
+        },
+        {
+          "radius_arcsec": 0.15,
+          "x_pixel": 100.2875317478385,
+          "y_pixel": 99.32068833206255,
+          "east_mas": -1.749468285604524,
+          "north_mas": -9.891410537755235,
+          "ra": 189.28642012029363,
+          "dec": 62.20701453235157
+        },
+        {
+          "radius_arcsec": 0.2,
+          "x_pixel": 100.38072831660652,
+          "y_pixel": 99.22953102832219,
+          "east_mas": -6.174311875152312,
+          "north_mas": -14.672506512696405,
+          "ra": 189.28641748426472,
+          "dec": 62.207013204269316
+        },
+        {
+          "radius_arcsec": 0.3,
+          "x_pixel": 100.34226119662216,
+          "y_pixel": 99.44584337800649,
+          "east_mas": -4.788696826352268,
+          "north_mas": -3.7829440679070374,
+          "ra": 189.28641830972222,
+          "dec": 62.20701622914779
+        }
+      ],
+      "photfnu": 1e-08,
+      "wcs_grid_mismatch_pixels": 3.0973709688765113e-09,
+      "streak_control": {
+        "directional_apertures": {
+          "along": [
+            {
+              "offset_arcsec": -0.78,
+              "x_pixel": 108.9320183084439,
+              "y_pixel": 86.5607158362849,
+              "flux_njy": -1.7575104790739715,
+              "diagonal_error_njy": 1.2760916137193545
+            },
+            {
+              "offset_arcsec": -0.45,
+              "x_pixel": 105.25580050443361,
+              "y_pixel": 92.04208634533464,
+              "flux_njy": -0.08204427780583501,
+              "diagonal_error_njy": 1.279399456362349
+            },
+            {
+              "offset_arcsec": 0.45,
+              "x_pixel": 95.22975194804192,
+              "y_pixel": 106.99127864274303,
+              "flux_njy": 0.6547337029041955,
+              "diagonal_error_njy": 1.2452665567933419
+            },
+            {
+              "offset_arcsec": 0.78,
+              "x_pixel": 91.55353414403163,
+              "y_pixel": 112.47264915179277,
+              "flux_njy": 2.961704023182392,
+              "diagonal_error_njy": 1.3610746192825927
+            }
+          ],
+          "across": [
+            {
+              "offset_arcsec": -0.78,
+              "x_pixel": 113.1987428839917,
+              "y_pixel": 108.20592457624497,
+              "flux_njy": -3.277127181645483,
+              "diagonal_error_njy": 1.2670698362720032
+            },
+            {
+              "offset_arcsec": -0.45,
+              "x_pixel": 107.71737237494196,
+              "y_pixel": 104.52970677223468,
+              "flux_njy": -0.042789900908246636,
+              "diagonal_error_njy": 1.2734492791633625
+            },
+            {
+              "offset_arcsec": 0.45,
+              "x_pixel": 92.76818007753357,
+              "y_pixel": 94.50365821584299,
+              "flux_njy": -2.3486415174556896,
+              "diagonal_error_njy": 1.2867743763890427
+            },
+            {
+              "offset_arcsec": 0.78,
+              "x_pixel": 87.28680956848383,
+              "y_pixel": 90.8274404118327,
+              "flux_njy": 2.022907631180715,
+              "diagonal_error_njy": 1.314032262928426
+            }
+          ]
+        },
+        "along_pair_means_njy": [
+          0.6020967720542103,
+          0.28634471254918026
+        ],
+        "target_minus_along_pair_njy": [
+          40.86328047676943,
+          41.17903253627446
+        ]
+      }
+    }
+  ],
+  "streak_axis": {
+    "major_axis_xy": [
+      -0.5570026975773006,
+      0.8305106831893315
+    ],
+    "moment_eigenvalue_ratio": 6.69441853959502,
+    "axis_fit_annulus_arcsec": [
+      0.3,
+      0.85
+    ],
+    "aperture_radius_arcsec": 0.15
+  },
+  "line_budget": {
+    "wavelength_a": 8478.732176905663,
+    "throughput": 0.2917051734681209,
+    "logarithmic_bandpass": 0.07171596825228066,
+    "records": [
+      {
+        "mode": "PRISM",
+        "reduction": "JADES",
+        "line_equivalent_f090w_njy": 4.655635985806768,
+        "diagonal_error_njy": 0.9065392441358836
+      },
+      {
+        "mode": "PRISM",
+        "reduction": "DAWN",
+        "line_equivalent_f090w_njy": 16.35064709209962,
+        "diagonal_error_njy": 2.067317171964558
+      },
+      {
+        "mode": "G140M",
+        "reduction": "JADES",
+        "line_equivalent_f090w_njy": 5.645767948207281,
+        "diagonal_error_njy": 0.6672333100929944
+      },
+      {
+        "mode": "G140M",
+        "reduction": "DAWN",
+        "line_equivalent_f090w_njy": 9.977478620131452,
+        "diagonal_error_njy": 2.3665928899330595
+      }
+    ]
+  },
+  "scope": "The returned image bands are JWST NIRCam only. Flux errors use diagonal image weights. Centroids are positive-flux first moments with no cross-band astrometric calibration. Apertures do not match PSFs or deblend projected components."
+}

@@ -98,6 +98,40 @@ favoured the narrow Hα model over the tested broad component.
 [DAWN extraction and path loss](https://dawn-cph.github.io/dja/blog/2024/03/01/nirspec-extractions-v2/) ·
 [Flux-scale plot](../figures/jades_reionization_58441_flux_scale.png).
 
+## An F090W streak crosses the target
+
+In the observed DAWN NIRCam cutout, a bright linear streak crosses the
+target in F090W. It is absent at the corresponding locations in F115W
+and F150W. A 0.15″ radius aperture at the target measures
+117.83 ± 0.88 nJy in F090W, 43.07 ± 1.08 nJy in F115W, and
+41.47 ± 1.27 nJy in F150W. The quoted errors use the released diagonal
+weight maps. Both redder bands show a compact peak. The F090W
+flux continues to grow rapidly out to the largest tested radius, 0.30″.
+
+We estimated the streak direction from the F090W image outside the target
+aperture. Four 0.15″ radius controls at offsets of ±0.45″ and ±0.78″
+measure 82–97 nJy along the streak and −1 to 10 nJy perpendicular to it.
+Subtracting the mean of the nearer or farther symmetric pair leaves
+33 or 26 nJy at the target. The two values show how the result varies
+with control placement. Deblending and uncertainty propagation would
+require a spatial model. The cutout alone leaves the origin of the streak
+open.
+
+The measured spectral line at 0.84787 μm contributes an estimated
+4.7–16.4 nJy to F090W, depending on which of the four released spectral
+fits is used. This estimate converts each integrated line flux to a
+photon-weighted equivalent flat flux density using the detector-averaged
+STScI throughput curve. Even the largest value explains only a minority
+of the raw F090W excess over F115W. The directional control explains most
+of the F090W aperture signal and makes the raw colour unsuitable for
+estimating the galaxy's ultraviolet continuum. Testing a link between
+the streak and the spectral continuum would require the exposure geometry
+and separate extractions.
+[STScI filter documentation](https://jwst-docs.stsci.edu/jwst-near-infrared-camera/nircam-instrumentation/nircam-filters) ·
+[Imaging measurements and archive receipts](../results/jades_reionization/58441_optical_ir_context.json).
+
+![Observed JWST images and aperture photometry showing a streak across GOODS-N 58441](../figures/jades_58441_optical_ir_context.png)
+
 ## Literature and the other candidates
 
 The comparable PRISM S/N values for GOODS-N 38147, GOODS-S
