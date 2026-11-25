@@ -1,0 +1,29 @@
+experiment: goods-n-58441-lya-exposure-and-prism-check
+status: executed
+date: 2026-11-25
+commands:
+  - python scripts/audit_jades_reionization_exposures.py
+  - python scripts/check_jades_reionization_prism.py
+  - python scripts/check_jades_reionization_mmt.py
+  - python scripts/audit_jades_58441_flux_scale.py
+inputs:
+  primary_target: goods-n-mediumjwst_58441
+  modes: [G140M/F070LP, PRISM/CLEAR]
+  source_catalogue: JADES DR4 v1.2.1
+  template_velocity_kms: 350
+  comparison_reduction: DAWN JWST Archive v4
+limits:
+  - Intermediate spectra from a given mode can share background exposures.
+  - Formal errors use released diagonal noise.
+  - Flux calibration differs across reductions.
+  - Literature checks refer to the named coordinate tables.
+outputs:
+  - reports/jades_reionization_58441.md
+  - results/jades_reionization/exposure_audit.json
+  - results/jades_reionization/prism_crosscheck.json
+  - results/jades_reionization/mmt_literature_check.json
+  - results/jades_reionization/58441_flux_scale.json
+  - figures/jades_reionization_exposure_audit.*
+  - figures/jades_reionization_prism_check.*
+  - figures/jades_reionization_58441_trace.*
+  - figures/jades_reionization_58441_flux_scale.*

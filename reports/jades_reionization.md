@@ -152,6 +152,10 @@ reference visits. We retain their separate statistics.
 
 ![Observed JWST cutouts and rectified spectra for four targets needing follow-up](../figures/jades_reionization_unmatched.png)
 
+The follow-up recovers the 58441 line in separate G140M and PRISM
+exposures and finds a published MMT counterpart for the 38147 line.
+[Exposure and literature follow-up](jades_reionization_58441.md).
+
 ## Reproduction and credits
 
 Run the four commands recorded in the experiment manifest. Observational

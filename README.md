@@ -32,6 +32,13 @@ show that the sample's sensitivity varies across redshift bins.
 [Reionization pilot](reports/jades_reionization.md) ·
 [Observed JWST cutouts and spectra](figures/jades_reionization_unmatched.png).
 
+The follow-up recovered a line consistent with Lyα in GOODS-N 58441
+using separate G140M and PRISM exposure sets. The line position agrees
+across the 2D traces, and the measured flux depends on the reduction.
+The literature audit also recovered a published MMT detection at
+GOODS-N 38147.
+[Exposure, calibration and identification checks](reports/jades_reionization_58441.md).
+
 ## Infrared rise and fade near JADES 103607 · 25 November 2026
 
 A compact infrared source near **JADES 103607** brightened in five

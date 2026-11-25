@@ -1,0 +1,38 @@
+{
+  "executed_utc": "2026-11-25T22:51:14.629378+00:00",
+  "script_sha256": "b9eb9925a0a2027002ce73bd97c12a04b08eb5b833ce2fa365229798da152771",
+  "crosscheck_sha256": "dd6eaf9b0338b818230bb17ca6e161b91e93caffd320cbc4f02f55cf2523bc5b",
+  "published_table": {
+    "path": "data/raw/metadata/prieto_lyon_2509_18302.html",
+    "url": "https://arxiv.org/html/2509.18302",
+    "sha256": "63b614019ffecf38e70a83177d448993a5cfc2a993eec8a70ef3a4d14873550c"
+  },
+  "emitter_rows": 62,
+  "results": [
+    {
+      "dr4_id": "goods-n-mediumjwst_38147",
+      "matches_within_arcsec_1": 1,
+      "nearest": {
+        "name": "z5-GND-464",
+        "ra": 189.270721,
+        "dec": 62.148424,
+        "line_redshift": "5.8745",
+        "systemic_redshift": "\u2013",
+        "separation_arcsec": 0.07773704634414624
+      }
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_58441",
+      "matches_within_arcsec_1": 0,
+      "nearest": {
+        "name": "z6-GND-35647",
+        "ra": 189.329865,
+        "dec": 62.200844,
+        "line_redshift": "5.3496",
+        "systemic_redshift": "\u2013",
+        "separation_arcsec": 76.24320668559542
+      }
+    }
+  ],
+  "scope": "Published MMT emitter table only. No inference about target allocation or other literature."
+}
