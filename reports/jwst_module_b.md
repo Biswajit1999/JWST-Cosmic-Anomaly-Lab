@@ -418,6 +418,21 @@ event type open.
 [25 November TNS and APT receipts](../results/jwst_cross_detector/module_b_001_release_20261125.json) ·
 [Earlier JADES transient sample](https://arxiv.org/html/2406.05060v4).
 
+#### Joint three-epoch uncertainty analysis
+
+A preprint cross-check brings all three STScI epochs to the October 2025
+grid and an approximately common point-spread function in each filter.
+It uses 168–174 paired control apertures per filter to estimate local
+scatter on the signed contrasts and retain their shared-epoch
+covariance. The jointly registered F200W excess is +37.8 ± 3.8 nJy
+in October and +1.8 ± 4.1 nJy in November relative to October 2025.
+The F200W decline is 36.0 ± 3.7 nJy. The signed rise and fade persist
+across six aperture and smoothing choices in each of the four filters.
+The table above uses pair-specific rather than joint matching.
+[Joint measurements and control samples](../results/jwst_cross_detector/module_b_001_joint_epoch_errors.json) ·
+[Matched F200W images](../figures/jwst_cross_detector/module_b_001_preprint_f200w.png) ·
+[Signed flux differences and scatter](../figures/jwst_cross_detector/module_b_001_joint_epoch_errors.png).
+
 ### Fading at 53.147252°, −27.790612°
 
 This position measured 8–11 nJy in F200W from 2022 through January 2024.
