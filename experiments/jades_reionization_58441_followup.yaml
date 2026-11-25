@@ -8,6 +8,8 @@ commands:
   - python scripts/audit_jades_58441_flux_scale.py
   - python scripts/check_jades_reionization_deimos.py
   - python scripts/audit_jades_58441_imaging.py
+  - python scripts/check_jades_58441_f090w_exposures.py
+  - python scripts/identify_jades_58441_diffraction_spike.py
 inputs:
   primary_target: goods-n-mediumjwst_58441
   modes: [G140M/F070LP, PRISM/CLEAR]
@@ -19,7 +21,9 @@ limits:
   - Formal errors use released diagonal noise.
   - Flux calibration differs across reductions.
   - Literature checks refer to the named coordinate tables.
-  - Directional photometry tests a streak on one released mosaic without modelling its cause.
+  - The native imaging is bounded by the DAWN F090W footprint query.
+  - The SAPPHIRES mosaic and native frames share underlying observations.
+  - Native image errors use diagonal ERR values and omit shared calibration errors.
 outputs:
   - reports/jades_reionization_58441.md
   - results/jades_reionization/exposure_audit.json
@@ -33,3 +37,7 @@ outputs:
   - figures/jades_reionization_58441_trace.*
   - figures/jades_reionization_58441_flux_scale.*
   - figures/jades_58441_optical_ir_context.*
+  - results/jades_reionization/jades_58441_f090w_exposures.json
+  - results/jades_reionization/jades_58441_diffraction_spike.json
+  - figures/jades_58441_f090w_exposures.*
+  - figures/jades_58441_diffraction_spike.*

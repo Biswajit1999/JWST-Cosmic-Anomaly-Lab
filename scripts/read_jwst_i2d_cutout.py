@@ -21,7 +21,7 @@ class MastImageSections:
     """Pin a public S3 object and cache each exact byte range used by a cutout."""
 
     def __init__(self, cache, filename):
-        pattern = re.fullmatch(r"(jw\d{5})-(o\d{3})_t\d+_nircam_clear-f\d+w_i2d\.fits", filename)
+        pattern = re.fullmatch(r"(jw\d{5})-(o\d{3}|c\d{4})_t\d+_nircam_clear-f\d+w_i2d\.fits", filename)
         if not pattern:
             raise ValueError("Expected a NIRCam imaging stage-3 association file")
         program, observation = pattern.groups()

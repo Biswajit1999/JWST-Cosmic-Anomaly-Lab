@@ -37,9 +37,10 @@ show that the sample's sensitivity varies across redshift bins.
 The follow-up recovered a line consistent with Lyα in GOODS-N 58441
 using separate G140M and PRISM exposure sets. The line position agrees
 across the 2D traces, and the measured flux depends on the reduction.
-In a separate image check, a bright streak explains most of the
-F090W aperture flux at 58441. The literature audit also recovered a
-published MMT detection at GOODS-N 38147.
+The F090W excess at 58441 comes from a foreground star's diffraction
+spike in the January 2025 SAPPHIRES imaging. Separate 2023 F090W
+exposures show a compact source at 29–34 nJy. The literature audit
+also recovered a published MMT detection at GOODS-N 38147.
 [Exposure, calibration and identification checks](reports/jades_reionization_58441.md).
 
 The expansion examined all 204 targets in the pilot's eligible JADES roster.

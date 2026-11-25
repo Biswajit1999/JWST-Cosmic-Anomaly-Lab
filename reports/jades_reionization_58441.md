@@ -114,8 +114,8 @@ measure 82–97 nJy along the streak and −1 to 10 nJy perpendicular to it.
 Subtracting the mean of the nearer or farther symmetric pair leaves
 33 or 26 nJy at the target. The two values show how the result varies
 with control placement. Deblending and uncertainty propagation would
-require a spatial model. The cutout alone leaves the origin of the streak
-open.
+require a spatial model. The independent exposure check below identifies
+the origin of the streak.
 
 The measured spectral line at 0.84787 μm contributes an estimated
 4.7–16.4 nJy to F090W, depending on which of the four released spectral
@@ -131,6 +131,60 @@ and separate extractions.
 [Imaging measurements and archive receipts](../results/jades_reionization/58441_optical_ir_context.json).
 
 ![Observed JWST images and aperture photometry showing a streak across GOODS-N 58441](../figures/jades_58441_optical_ir_context.png)
+
+## The streak is a diffraction spike from a Gaia foreground star
+
+The DAWN exposure footprint query found 18 F090W detector exposures
+covering the position from programmes 1181, 3577, and 6434. We read
+the released STScI calibrated science, uncertainty and pixel-quality
+planes from the public archive. The analysis uses the same eight
+off-target sky positions and 0.15″ radius apertures in each exposure.
+We compared the mean flux along the streak with the mean across it.
+Pixels flagged unusable or saturated were masked. A stricter
+additional mask was evaluated, and it reduced the number of usable
+apertures substantially. Quoted errors are formal diagonal errors.
+[DAWN exposure metadata](https://dawn-cph.github.io/dja/general/api_summary/#exposure-metadata) ·
+[STScI science products and flags](https://jwst-docs.stsci.edu/accessing-jwst-data/jwst-science-data-overview).
+
+| Programme | Date | Target flux range (nJy) | Mean along minus mean across (nJy) | Usable contrasts |
+| --- | --- | ---: | ---: | ---: |
+| 1181 (JADES) | 6–7 Feb 2023 | 29.3–34.2 | −5.0 to +5.0 | 6 / 6 |
+| 3577 (CONGRESS) | 17 Feb 2024 | 11.6–27.2 | +3.8 to +19.3 | 4 / 4 |
+| 6434 (SAPPHIRES) | 8 Jan 2025 | 138.4–155.7 | +114.5 to +121.6 | 4 / 8 |
+
+The 2025 contrast is measured across four dithers at different
+detector positions, with formal errors of 2.15–2.22 nJy. Four other
+SAPPHIRES frames lack enough unmasked pixels in one or more control
+apertures, and one also lacks a usable target aperture. The median
+telescope position angles for 2023, 2024 and 2025 are 240.90°,
+228.22° and 271.17° respectively. The detector data place the large
+streak in the SAPPHIRES visit before any DAWN mosaic processing.
+[SAPPHIRES programme](https://www.stsci.edu/jwst-program-info/program/?program=6434) ·
+[Measurements and pinned FITS byte ranges](../results/jades_reionization/jades_58441_f090w_exposures.json).
+
+![Observed F090W detector images and measurements of target and control apertures](../figures/jades_58441_f090w_exposures.png)
+
+The official SAPPHIRES stage-3 mosaic traces the ridge back to a
+bright star 9.59″ away. The peak lies within 0.044″ of Gaia DR3
+1583582586956535168 after propagating its proper motion to the JWST
+exposure date. Gaia gives G = 14.60. Over five cross-sections within
+2″ of the galaxy, the ridge peak is within 0.04″ of the projected
+star–galaxy axis. The six-spoke pattern, matched foreground star,
+and rotation between visits identify the bright ridge as a
+diffraction spike. The SAPPHIRES mosaic shares exposures with the
+2025 detector measurements.
+[Gaia DR3](https://vizier.cfa.harvard.edu/cgi-bin/VizieR-3?-source=I%2F355%2Fgaiadr3) ·
+[NIRCam diffraction geometry](https://jwst-docs.stsci.edu/jwst-near-infrared-camera/nircam-performance/nircam-point-spread-functions) ·
+[Gaia, mosaic, and geometric checks](../results/jades_reionization/jades_58441_diffraction_spike.json).
+
+![Wide observed JWST mosaic showing the foreground star and its diffraction spike through GOODS-N 58441](../figures/jades_58441_diffraction_spike.png)
+
+The reference JADES G140M and PRISM FITS products date to 30 April
+2023. The 2025 spike cannot produce a feature in those exposures.
+The optical check identifies the source of the large imaging excess.
+Calibrating the reported Lyα feature still requires reconciling the
+different spectroscopic continuum levels and flux scales.
+[Spectroscopic product identities and exposure lists](../results/jades_reionization/58441_flux_scale.json).
 
 ## Literature and the other candidates
 
