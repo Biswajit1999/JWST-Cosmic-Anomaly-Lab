@@ -1,5 +1,7 @@
 # JWST GOODS-S transient search in NIRCam Module B
 
+**Biswajit Jana** · Independent research
+
 Updated 25 November 2026 · DAWN JWST Archive mosaics and MAST calibrated exposures
 
 ## A rise and fade at JADES 103607

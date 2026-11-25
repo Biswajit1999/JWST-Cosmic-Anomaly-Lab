@@ -1,5 +1,7 @@
 # GOODS-S NIRCam Module A search, pointing 001
 
+**Biswajit Jana** · Independent research
+
 The October 2025 and October 2026 images of Module A pointing 001 were
 searched over **3.850 arcmin²** of summed short- and long-wavelength
 detector overlap. We independently recovered GO 8060 transient **2510131**.

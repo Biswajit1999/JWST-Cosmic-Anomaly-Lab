@@ -8,5 +8,6 @@ Never merge positional neighbours automatically, especially in cluster lens fiel
 Keep downloads out of Git; use the manifest cache with a finite storage budget.
 Run pytest and ruff before commits. Record actual experiment executions and limitations.
 Author commits as Biswajit Jana using the repository's configured email.
+Credit Biswajit Jana as the project's author on research reports, papers, posters, and citation metadata. Preserve original observation and catalogue credits and disclose AI assistance where applicable.
 Do not claim the research programme complete on the basis of this pilot.
 
