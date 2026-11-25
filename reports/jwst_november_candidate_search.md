@@ -14,7 +14,7 @@ filters. The count includes repeat measurements of the same sky sources.
 [STScI source catalogue format](https://jwst-pipeline.readthedocs.io/en/stable/jwst/source_catalog/main.html).
 
 Candidate selection, measurement, and image rendering use deterministic
-numerical software. Codex assisted with code and research documentation.
+numerical software. [Research record](../docs/research_record.md).
 
 The matched-catalogue screen required mutual nearest positions within
 0.13″ and no catalogued neighbour within 0.28″ of each matched catalogue

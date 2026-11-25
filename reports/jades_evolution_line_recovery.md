@@ -144,4 +144,4 @@ Run `python scripts/download_jades_evolution_sample.py` followed by
 `python scripts/measure_jades_evolution_lines.py` from the repository.
 The analysis uses public JWST/NIRSpec pixels reduced by the JADES team.
 The recovery experiment adds explicitly labelled artificial lines to
-those pixels. Codex assisted with code and research documentation.
+those pixels. [Research record](../docs/research_record.md).

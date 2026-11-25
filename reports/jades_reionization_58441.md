@@ -88,6 +88,11 @@ transmission and projected neighbours need to be modelled before
 inferring a calibrated equivalent width or escape fraction.
 The results support repeatable line emission consistent with
 Lyα in this already catalogued galaxy.
+An earlier project screen flagged the ultraviolet continuum shape
+and a crowded image at this position. The earlier G395H comparison
+favoured the narrow Hα model over the tested broad component.
+[Earlier ultraviolet screen](open_search.md#jades-58441--cal-c4cc096986f550c1) ·
+[Earlier high-resolution comparison](high_resolution_followup.md) ·
 [Oxygen doublet calculation](https://doi.org/10.1046/j.1365-8711.2000.03184.x) ·
 [JADES path-loss calibration](https://doi.org/10.1093/mnras/stag939) ·
 [DAWN extraction and path loss](https://dawn-cph.github.io/dja/blog/2024/03/01/nirspec-extractions-v2/) ·
@@ -114,5 +119,5 @@ status beyond those catalogues remain open.
 The four executed commands and input ledgers are in the experiment
 record. Observations and instrumental calibration are credited to
 the JADES collaboration, the DAWN JWST Archive, STScI and
-NASA/ESA/CSA JWST. Codex assisted with code and research documentation.
+NASA/ESA/CSA JWST. [Research record](../docs/research_record.md) ·
 [Executed experiment](../experiments/jades_reionization_58441_followup.yaml).

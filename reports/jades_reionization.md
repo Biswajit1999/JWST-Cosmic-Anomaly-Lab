@@ -160,6 +160,6 @@ exposures and finds a published MMT counterpart for the 38147 line.
 
 Run the four commands recorded in the experiment manifest. Observational
 inputs are credited to the JADES collaboration, the DAWN JWST Archive,
-and NASA/ESA/CSA JWST. Codex assisted with code and research
-documentation. Artificial signals appear only in the recovery tests.
+and NASA/ESA/CSA JWST. Artificial signals appear only in the recovery tests.
+[Research record](../docs/research_record.md) ·
 [Executed experiment](../experiments/jades_reionization.yaml).

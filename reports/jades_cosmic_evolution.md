@@ -156,5 +156,5 @@ Run `python scripts/analyse_jades_cosmic_evolution.py` followed by
 `python scripts/inspect_jades_cosmic_evolution.py` from the repository.
 The release tables and calibrated spectrum and image pixels come from
 the JADES collaboration, the DAWN JWST Archive, and NASA/ESA/CSA JWST.
-Codex assisted with code and research documentation. Numerical
-measurement and figure rendering use conventional deterministic code.
+Numerical measurement and figure rendering use deterministic code.
+[Research record](../docs/research_record.md).

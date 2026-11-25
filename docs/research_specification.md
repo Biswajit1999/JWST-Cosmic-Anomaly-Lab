@@ -1,4 +1,4 @@
-# CODEX MASTER PROMPT V2
+# Research specification
 ## JWST Cosmic Anomaly Lab — Multi-Survey Astrophysical Discovery and Physical Modelling
 
 **Repository:** `JWST-Cosmic-Anomaly-Lab`  
@@ -940,7 +940,7 @@ Include:
 
 Provide publication-quality figures and machine-readable result tables.
 
-At the end of each Codex execution, report:
+Record the following for each completed analysis:
 
 - Actual GitHub URL and commit SHAs
 - Data sources accessed

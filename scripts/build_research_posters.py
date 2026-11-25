@@ -1,6 +1,6 @@
 """Regenerate two A1 conference posters from verified result files.
 
-Run with Python providing reportlab and pypdf (the Codex bundled runtime has both).
+Run with reportlab and pypdf installed in the Python environment.
 Plots are embedded as PDF pages to preserve vector text and curves. Actual image
 pixels remain raster observations. No generated astronomical imagery is used.
 """

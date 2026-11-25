@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-11-16T08:19:28.954617+00:00",
+  "created_utc": "2026-11-25T23:28:00.893317+00:00",
   "research_snapshot": "2026-11-16",
   "compiler": "Tectonic 0.17.0",
   "prior_analysis_commit": "6c9a7144fcafae72f397d209ad319a01a3400225",
@@ -8,9 +8,9 @@
   "figure_count": 7,
   "input_hash_convention": "Raw bytes for PDFs; canonical UTF-8/LF for text",
   "input_sha256": {
-    "paper/jwst_cosmic_anomaly_lab.tex": "64d8c3f706595ab171dc820297c664db60e360acf31669c15890e43aee623f77",
+    "paper/jwst_cosmic_anomaly_lab.tex": "089299f9f8f9effe98b0b0e0270ba003783b8ac898839eede51d1811aff94295",
     "paper/README.md": "9295e000048534b9db29fa53850c50941137ad3e785c92497ccb3caf153fbb80",
-    "paper/linkedin_draft.md": "dd55c6af95aba304d92f7ac078fd11df316cbdffeb2293f921d39c186ec4e366",
+    "paper/linkedin_draft.md": "d82da2a3486475512ffecdb97286dd67d307e2717b06fd055f707f90a11db9ac",
     "figures/expanded_search.pdf": "9116e2008923fd52c9136afd5efb94a8a0b45fbbb9f1c0d72d4288ab2f80ba86",
     "figures/uv_reduction_images.pdf": "58efd98af1b64a5e7d0c552c80bc88d5685c13c3717dfa266c54f7185524ba54",
     "figures/balmer_synthetic_controls.pdf": "bec3a21dabd38aeca09baee107dd984b6a1b0138e6568eed8b2c001adfff1852",
@@ -21,8 +21,8 @@
   },
   "output": {
     "path": "output/pdf/jwst_cosmic_anomaly_lab.pdf",
-    "bytes": 344177,
-    "sha256": "b50a5a594840f4586ac007e26042714d89b1ad31853043530e3175e7953bc138"
+    "bytes": 344082,
+    "sha256": "86886426da65c58a9e63ad7c152a052f873ee1ddb67976243b501d5c93be6e6a"
   },
   "analysis_summary_sha256": {
     "results/multiwavelength/dja_summary.json": "c0ad576461ba247d87ef79534bd667986a5acae92b283ad8b681e133088673dc",

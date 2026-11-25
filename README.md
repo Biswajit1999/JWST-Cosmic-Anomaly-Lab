@@ -4,6 +4,8 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+[Research record and report index](docs/research_record.md).
+
 ## Early galaxy evolution with JWST · 25 November 2026
 
 The new JADES study compares oxygen and hydrogen emission in two GOODS

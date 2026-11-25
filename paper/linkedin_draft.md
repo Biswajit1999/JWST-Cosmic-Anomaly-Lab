@@ -20,9 +20,9 @@ not been peer reviewed. The published MoM-BH*-1 discovery behind recent
 headlines belongs to Naidu and collaborators; my paper distinguishes their
 findings from this project's measurements.
 
-I used Python, public astronomical archives and AI-assisted development to build
-the workflow. Feedback from astronomers on extraction effects, line modelling
-and the next validation tests would be particularly valuable.
+The project uses Python and public astronomical archives. The repository
+includes the analysis code, archive receipts and a record of how the work was
+prepared. Feedback on extraction effects and line modelling is welcome.
 
 Code, data provenance and paper:
 https://github.com/Biswajit1999/JWST-Cosmic-Anomaly-Lab
