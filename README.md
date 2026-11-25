@@ -4,6 +4,18 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
+## Early galaxy evolution with JWST · 25 November 2026
+
+The new JADES study compares oxygen and hydrogen emission in two GOODS
+fields when the universe was 1.1–2.3 billion years old. Among 509 galaxies
+with both lines detected in the same grating, the median ratio is about
+10% higher in the earliest bin. The uncertainty includes zero change,
+and the fraction of galaxies meeting the double-line cut varies by epoch.
+The report records the selection checks and sets out follow-up studies
+of reionization and early black-hole growth.
+[Research goals and measurements](reports/jades_cosmic_evolution.md) ·
+[Observed NIRCam cutouts and NIRSpec spectra](figures/jades_cosmic_evolution_observed.png).
+
 ## Infrared rise and fade near JADES 103607 · 25 November 2026
 
 A compact infrared source near **JADES 103607** brightened in five

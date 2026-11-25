@@ -1,0 +1,24 @@
+experiment: jades-dr4-same-grating-cosmic-evolution
+status: executed
+date: 2026-11-25
+commands:
+  - python scripts/analyse_jades_cosmic_evolution.py
+  - python scripts/inspect_jades_cosmic_evolution.py
+inputs:
+  catalogue: JADES NIRSpec DR4 v1.2.1
+  grating: G235M/F170LP
+  fields: [GOODS-N, GOODS-S]
+  lines: ["[O III] 5007", H-beta]
+  cosmology: Planck18
+  redshift_bin_edges: [2.8, 3.5, 4.3, 5.2]
+limits:
+  - Published line fits and follow-up illustrations share the input observations.
+  - Grating choice, targeting, line recovery and unmodelled field variance affect comparison.
+  - The measurement is conditional on joint line detection in a targeted sample.
+outputs:
+  - reports/jades_cosmic_evolution.md
+  - results/jades_cosmic_evolution/summary.json
+  - results/jades_cosmic_evolution/observed_targets.csv
+  - results/jades_cosmic_evolution/observed_examples.json
+  - figures/jades_cosmic_evolution.*
+  - figures/jades_cosmic_evolution_observed.*

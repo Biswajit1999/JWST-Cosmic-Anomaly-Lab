@@ -1,0 +1,3286 @@
+{
+  "executed_utc": "2026-11-25T21:18:57.023701+00:00",
+  "catalogue": {
+    "url": "https://jades.herts.ac.uk/DR4/Combined_DR4_external_v1.2.1.fits",
+    "final_url": "https://jades.herts.ac.uk/DR4/Combined_DR4_external_v1.2.1.fits",
+    "path": "data/raw/jades_dr4.fits",
+    "bytes": 94124160,
+    "sha256": "4b4e7fd4306208ee801406c7ed73fdab895a2e67184af7f639a91e5f9c8ab7d4",
+    "published_checksum": null,
+    "accessed_utc": "2026-11-10T23:06:50.703585+00:00",
+    "etag": "\"59c3880-64019e6c08280\"",
+    "last_modified": "Wed, 01 Oct 2025 14:44:10 GMT",
+    "survey": "JADES",
+    "version": "DR4-1.2.1",
+    "kind": "catalogue",
+    "previous_sha256": null
+  },
+  "audit": {
+    "input_records": 5190,
+    "quality_flags": {
+      "A": 2651,
+      "E": 1400,
+      "D": 493,
+      "C": 439,
+      "B": 207
+    },
+    "secure_records": 3297,
+    "secure_records_without_dr5_id": 23,
+    "repeat_dr5_groups": 71,
+    "excluded_discordant_groups": [
+      {
+        "field": "GS",
+        "nircam_id": 110996,
+        "dr4_ids": [
+          "goods-s-deephst_8115",
+          "goods-s-mediumhst_9315"
+        ],
+        "max_separation_arcsec": 0.043071516677093094,
+        "fractional_z_span": 0.011916524446839716
+      },
+      {
+        "field": "GS",
+        "nircam_id": 214121,
+        "dr4_ids": [
+          "goods-s-mediumhst_12618",
+          "goods-s-mediumjwst_214121"
+        ],
+        "max_separation_arcsec": 0.019669272843996676,
+        "fractional_z_span": 0.010006484968973658
+      },
+      {
+        "field": "GS",
+        "nircam_id": 203195,
+        "dr4_ids": [
+          "goods-s-mediumjwst_44874",
+          "goods-s-mediumjwst_203195"
+        ],
+        "max_separation_arcsec": 0.403408939913591,
+        "fractional_z_span": 4.623270393247452e-05
+      },
+      {
+        "field": "GS",
+        "nircam_id": 2967,
+        "dr4_ids": [
+          "goods-s-mediumjwst_164658",
+          "goods-s-mediumjwst_282967"
+        ],
+        "max_separation_arcsec": 0.33533469822604894,
+        "fractional_z_span": 0.0002623467024328323
+      },
+      {
+        "field": "GS",
+        "nircam_id": 257044,
+        "dr4_ids": [
+          "goods-s-mediumjwst_193931",
+          "goods-s-mediumjwst_257044"
+        ],
+        "max_separation_arcsec": 0.33358419237120496,
+        "fractional_z_span": 0.0016648218188587915
+      },
+      {
+        "field": "GS",
+        "nircam_id": 209521,
+        "dr4_ids": [
+          "goods-s-deephst_10011955",
+          "goods-s-deephst_10011974"
+        ],
+        "max_separation_arcsec": 1.552143233078217,
+        "fractional_z_span": 0.0007054430638994246
+      },
+      {
+        "field": "GS",
+        "nircam_id": 176151,
+        "dr4_ids": [
+          "goods-s-deepjwst_20176151",
+          "goods-s-mediumjwst_20176151"
+        ],
+        "max_separation_arcsec": 0.0,
+        "fractional_z_span": 0.011275038941025469
+      }
+    ],
+    "retained_unique_sources": 3196
+  },
+  "target_table_sha256": "899dbbee4adba3189884b10f1ff377d79a8347de3b62b8f9b009603e26b51fe0",
+  "script_sha256": "bcf77a0547eb6cc33d2bbcf37682288f22975be7111d0d90ce7fecf45fe6c318",
+  "bootstrap_draws": 4000,
+  "seed": 1727,
+  "grating_filter": "g235m_f170lp",
+  "assumed_cosmology": {
+    "name": "Planck18",
+    "H0_km_s_Mpc": 67.66,
+    "Omega_m": 0.30966
+  },
+  "time_baseline": [
+    {
+      "z": 2.8,
+      "age_gyr": 2.313218043175658,
+      "lookback_gyr": 11.473667258834046
+    },
+    {
+      "z": 3.5,
+      "age_gyr": 1.7992628726998328,
+      "lookback_gyr": 11.98762242930988
+    },
+    {
+      "z": 4.3,
+      "age_gyr": 1.4094269656905383,
+      "lookback_gyr": 12.377458336319219
+    },
+    {
+      "z": 5.2,
+      "age_gyr": 1.1146125920983285,
+      "lookback_gyr": 12.672272709911377
+    },
+    {
+      "z": 6,
+      "age_gyr": 0.929264949765573,
+      "lookback_gyr": 12.857620352244133
+    },
+    {
+      "z": 8,
+      "age_gyr": 0.6373066474552557,
+      "lookback_gyr": 13.14957865455448
+    },
+    {
+      "z": 10,
+      "age_gyr": 0.4714147827993363,
+      "lookback_gyr": 13.315470519210349
+    },
+    {
+      "z": 14,
+      "age_gyr": 0.29566120793875433,
+      "lookback_gyr": 13.491224094070956
+    }
+  ],
+  "coverage_definition": "Both lines have finite flux/positive errors and nominal G235M labels. Denominator is G235M exposure.",
+  "sample_definition": "Unique secure DR5 counterparts. Repeat groups checked for coordinate and redshift agreement.",
+  "sensitivity_definition": {
+    "common_uv": [
+      -21,
+      -19
+    ],
+    "nominal_nonoverlap_z": [
+      2.9,
+      4.7
+    ]
+  },
+  "bins": [
+    {
+      "case": "primary",
+      "field": "GN",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 229,
+      "exposed_g235m": 221,
+      "fits_available_same_grating": 176,
+      "two_line_detections": 110,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 178
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 19
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 11
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 10
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 2
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.497737556561086,
+        "interval": [
+          0.4324217060708975,
+          0.56313071559882
+        ]
+      },
+      "median_log10_ratio": 0.7133101767554757,
+      "bootstrap95": [
+        0.6733460701264844,
+        0.7388775851601002
+      ],
+      "detected_median_m_uv": -18.90095404130372,
+      "detected_median_exposure_s": 3063.0
+    },
+    {
+      "case": "primary",
+      "field": "GN",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 127,
+      "exposed_g235m": 123,
+      "fits_available_same_grating": 120,
+      "two_line_detections": 71,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 122
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5772357723577236,
+        "interval": [
+          0.4888955661133757,
+          0.6608977284186496
+        ]
+      },
+      "median_log10_ratio": 0.7543091888717519,
+      "bootstrap95": [
+        0.7261749906048369,
+        0.7938827979075144
+      ],
+      "detected_median_m_uv": -18.91616605505962,
+      "detected_median_exposure_s": 3063.0
+    },
+    {
+      "case": "primary",
+      "field": "GN",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 104,
+      "exposed_g235m": 98,
+      "fits_available_same_grating": 53,
+      "two_line_detections": 29,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 55
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 27
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 11
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.29591836734693877,
+        "interval": [
+          0.21463180671461898,
+          0.39260084231463843
+        ]
+      },
+      "median_log10_ratio": 0.7637305601644053,
+      "bootstrap95": [
+        0.7210749993569358,
+        0.8110685935174492
+      ],
+      "detected_median_m_uv": -19.040648448879942,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "primary",
+      "field": "GS",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 357,
+      "exposed_g235m": 304,
+      "fits_available_same_grating": 235,
+      "two_line_detections": 144,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 235
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 21
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 18
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 11
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 10
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 3
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.47368421052631576,
+        "interval": [
+          0.41823501078723846,
+          0.5297901835407309
+        ]
+      },
+      "median_log10_ratio": 0.7339033330228877,
+      "bootstrap95": [
+        0.7043120596451256,
+        0.7511550903803101
+      ],
+      "detected_median_m_uv": -18.33845575618128,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "primary",
+      "field": "GS",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 282,
+      "exposed_g235m": 234,
+      "fits_available_same_grating": 215,
+      "two_line_detections": 132,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 218
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 16
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5641025641025641,
+        "interval": [
+          0.500039137355815,
+          0.6260953059357418
+        ]
+      },
+      "median_log10_ratio": 0.7357477135282431,
+      "bootstrap95": [
+        0.7132479185091906,
+        0.7571134302394896
+      ],
+      "detected_median_m_uv": -18.754474542114867,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "primary",
+      "field": "GS",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 154,
+      "exposed_g235m": 126,
+      "fits_available_same_grating": 54,
+      "two_line_detections": 23,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 60
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 41
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 12
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 12
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.18253968253968253,
+        "interval": [
+          0.12482780083060552,
+          0.2590361766184094
+        ]
+      },
+      "median_log10_ratio": 0.7623031750424607,
+      "bootstrap95": [
+        0.7196517927995957,
+        0.8021800997515021
+      ],
+      "detected_median_m_uv": -18.929826116500834,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "primary",
+      "field": "both",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 586,
+      "exposed_g235m": 525,
+      "fits_available_same_grating": 411,
+      "two_line_detections": 254,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 413
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 37
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 32
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 21
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 11
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.4838095238095238,
+        "interval": [
+          0.4413350156932787,
+          0.5265192443756848
+        ]
+      },
+      "median_log10_ratio": 0.7223245796289414,
+      "bootstrap95": [
+        0.6989095658791988,
+        0.7432176817311034
+      ],
+      "detected_median_m_uv": -18.61682632614486,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "primary",
+      "field": "both",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 409,
+      "exposed_g235m": 357,
+      "fits_available_same_grating": 335,
+      "two_line_detections": 203,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 340
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5686274509803921,
+        "interval": [
+          0.5167905566434589,
+          0.6190031522062457
+        ]
+      },
+      "median_log10_ratio": 0.7434862038113252,
+      "bootstrap95": [
+        0.7271621741708275,
+        0.7577729961402144
+      ],
+      "detected_median_m_uv": -18.78711035884449,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "primary",
+      "field": "both",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 258,
+      "exposed_g235m": 224,
+      "fits_available_same_grating": 107,
+      "two_line_detections": 52,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 115
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 52
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 39
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.23214285714285715,
+        "interval": [
+          0.18165195352020547,
+          0.291666025476597
+        ]
+      },
+      "median_log10_ratio": 0.763016867603433,
+      "bootstrap95": [
+        0.7263090099305094,
+        0.7958064000275287
+      ],
+      "detected_median_m_uv": -18.98012022930945,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "lower_snr",
+      "field": "GN",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 229,
+      "exposed_g235m": 221,
+      "fits_available_same_grating": 176,
+      "two_line_detections": 139,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 178
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 19
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 11
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 10
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 2
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.6289592760180995,
+        "interval": [
+          0.5635735750005005,
+          0.6899383898255959
+        ]
+      },
+      "median_log10_ratio": 0.7114018294882217,
+      "bootstrap95": [
+        0.6718693584391704,
+        0.7367814896344322
+      ],
+      "detected_median_m_uv": -18.65136781537187,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "lower_snr",
+      "field": "GN",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 127,
+      "exposed_g235m": 123,
+      "fits_available_same_grating": 120,
+      "two_line_detections": 95,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 122
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.7723577235772358,
+        "interval": [
+          0.6906730312914691,
+          0.837545428374094
+        ]
+      },
+      "median_log10_ratio": 0.7435028584852688,
+      "bootstrap95": [
+        0.7145086582371981,
+        0.7769171914594305
+      ],
+      "detected_median_m_uv": -18.686201578589753,
+      "detected_median_exposure_s": 3063.0
+    },
+    {
+      "case": "lower_snr",
+      "field": "GN",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 104,
+      "exposed_g235m": 98,
+      "fits_available_same_grating": 53,
+      "two_line_detections": 38,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 55
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 27
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 11
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.3877551020408163,
+        "interval": [
+          0.297264682703566,
+          0.48671327426252564
+        ]
+      },
+      "median_log10_ratio": 0.7572760449259793,
+      "bootstrap95": [
+        0.7210749993569358,
+        0.8100896232678999
+      ],
+      "detected_median_m_uv": -18.9179903724463,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "lower_snr",
+      "field": "GS",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 357,
+      "exposed_g235m": 304,
+      "fits_available_same_grating": 235,
+      "two_line_detections": 187,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 235
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 21
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 18
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 11
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 10
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 3
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.6151315789473685,
+        "interval": [
+          0.5593227569085943,
+          0.66806701790654
+        ]
+      },
+      "median_log10_ratio": 0.7231906128361077,
+      "bootstrap95": [
+        0.6957136765837035,
+        0.7462337375492686
+      ],
+      "detected_median_m_uv": -18.281907063622878,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "lower_snr",
+      "field": "GS",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 282,
+      "exposed_g235m": 234,
+      "fits_available_same_grating": 215,
+      "two_line_detections": 168,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 218
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 16
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.717948717948718,
+        "interval": [
+          0.6571309809523305,
+          0.7717261262389628
+        ]
+      },
+      "median_log10_ratio": 0.7282934333776867,
+      "bootstrap95": [
+        0.7057769112795348,
+        0.7452369771297538
+      ],
+      "detected_median_m_uv": -18.664800502059357,
+      "detected_median_exposure_s": 8424.5
+    },
+    {
+      "case": "lower_snr",
+      "field": "GS",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 154,
+      "exposed_g235m": 126,
+      "fits_available_same_grating": 54,
+      "two_line_detections": 35,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 60
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 41
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 12
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 12
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.2777777777777778,
+        "interval": [
+          0.20703071812371543,
+          0.36167406609059505
+        ]
+      },
+      "median_log10_ratio": 0.7392932569598901,
+      "bootstrap95": [
+        0.6641308870807152,
+        0.8021800997515021
+      ],
+      "detected_median_m_uv": -18.64894348947322,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "lower_snr",
+      "field": "both",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 586,
+      "exposed_g235m": 525,
+      "fits_available_same_grating": 411,
+      "two_line_detections": 326,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 413
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 37
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 32
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 21
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 11
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.6209523809523809,
+        "interval": [
+          0.5787158059164385,
+          0.6614317806271873
+        ]
+      },
+      "median_log10_ratio": 0.7167308879448391,
+      "bootstrap95": [
+        0.6949949478517848,
+        0.7366814172370754
+      ],
+      "detected_median_m_uv": -18.46229278218311,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "lower_snr",
+      "field": "both",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 409,
+      "exposed_g235m": 357,
+      "fits_available_same_grating": 335,
+      "two_line_detections": 263,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 340
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.7366946778711485,
+        "interval": [
+          0.6886624262749115,
+          0.779687304247539
+        ]
+      },
+      "median_log10_ratio": 0.7318502728022327,
+      "bootstrap95": [
+        0.7103546257488258,
+        0.7515137522046884
+      ],
+      "detected_median_m_uv": -18.672722243639164,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "lower_snr",
+      "field": "both",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 258,
+      "exposed_g235m": 224,
+      "fits_available_same_grating": 107,
+      "two_line_detections": 73,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 115
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 52
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 39
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.32589285714285715,
+        "interval": [
+          0.26789735879293547,
+          0.38975932755498616
+        ]
+      },
+      "median_log10_ratio": 0.7508215296875533,
+      "bootstrap95": [
+        0.7210749993569358,
+        0.7933706177028582
+      ],
+      "detected_median_m_uv": -18.802578171556867,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "GN",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 229,
+      "exposed_g235m": 221,
+      "fits_available_same_grating": 176,
+      "two_line_detections": 76,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 178
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 19
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 11
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 10
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 2
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.3438914027149321,
+        "interval": [
+          0.2844131803911272,
+          0.4087039148193877
+        ]
+      },
+      "median_log10_ratio": 0.7151936795479948,
+      "bootstrap95": [
+        0.6732794389318548,
+        0.7674824713811536
+      ],
+      "detected_median_m_uv": -19.144783398840545,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "GN",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 127,
+      "exposed_g235m": 123,
+      "fits_available_same_grating": 120,
+      "two_line_detections": 49,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 122
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.3983739837398374,
+        "interval": [
+          0.3161988195442593,
+          0.48670474028202315
+        ]
+      },
+      "median_log10_ratio": 0.7622936196398854,
+      "bootstrap95": [
+        0.7261749906048369,
+        0.7996422594249833
+      ],
+      "detected_median_m_uv": -19.113188558342614,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "GN",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 104,
+      "exposed_g235m": 98,
+      "fits_available_same_grating": 53,
+      "two_line_detections": 18,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 55
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 27
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 11
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.1836734693877551,
+        "interval": [
+          0.11946063375519513,
+          0.27174997224015385
+        ]
+      },
+      "median_log10_ratio": 0.7957471600248794,
+      "bootstrap95": [
+        0.7278987641822354,
+        0.854039914057072
+      ],
+      "detected_median_m_uv": -19.349656778048832,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "GS",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 357,
+      "exposed_g235m": 304,
+      "fits_available_same_grating": 235,
+      "two_line_detections": 90,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 235
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 21
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 18
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 11
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 10
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 3
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.29605263157894735,
+        "interval": [
+          0.24753781272773168,
+          0.3496574433140308
+        ]
+      },
+      "median_log10_ratio": 0.7516763546256142,
+      "bootstrap95": [
+        0.7202448550439139,
+        0.7632568837170107
+      ],
+      "detected_median_m_uv": -18.755411863796613,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "GS",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 282,
+      "exposed_g235m": 234,
+      "fits_available_same_grating": 215,
+      "two_line_detections": 92,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 218
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 16
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.39316239316239315,
+        "interval": [
+          0.3327875828834131,
+          0.45698834496399215
+        ]
+      },
+      "median_log10_ratio": 0.7511597019100977,
+      "bootstrap95": [
+        0.73333860517215,
+        0.7655047486545811
+      ],
+      "detected_median_m_uv": -19.038208384306564,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "GS",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 154,
+      "exposed_g235m": 126,
+      "fits_available_same_grating": 54,
+      "two_line_detections": 13,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 60
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 41
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 12
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 12
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.10317460317460317,
+        "interval": [
+          0.061292269906747764,
+          0.16853770190452083
+        ]
+      },
+      "median_log10_ratio": 0.798036662132788,
+      "bootstrap95": [
+        0.7381106024052178,
+        0.8235310509195619
+      ],
+      "detected_median_m_uv": -19.265546575885814,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "both",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 586,
+      "exposed_g235m": 525,
+      "fits_available_same_grating": 411,
+      "two_line_detections": 166,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 413
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 37
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 32
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 21
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 11
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.3161904761904762,
+        "interval": [
+          0.27787287221813556,
+          0.35717843327068494
+        ]
+      },
+      "median_log10_ratio": 0.7417809008596328,
+      "bootstrap95": [
+        0.7151936795479948,
+        0.7605667575369047
+      ],
+      "detected_median_m_uv": -18.872572015269398,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "both",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 409,
+      "exposed_g235m": 357,
+      "fits_available_same_grating": 335,
+      "two_line_detections": 141,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 340
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.3949579831932773,
+        "interval": [
+          0.3456258210574353,
+          0.44652666539709857
+        ]
+      },
+      "median_log10_ratio": 0.7530473914837673,
+      "bootstrap95": [
+        0.7387727993827171,
+        0.7671762561107234
+      ],
+      "detected_median_m_uv": -19.05224432675381,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "higher_snr",
+      "field": "both",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 258,
+      "exposed_g235m": 224,
+      "fits_available_same_grating": 107,
+      "two_line_detections": 31,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 115
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 52
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 39
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.13839285714285715,
+        "interval": [
+          0.09923934459344023,
+          0.18973992705224302
+        ]
+      },
+      "median_log10_ratio": 0.798036662132788,
+      "bootstrap95": [
+        0.7381106024052178,
+        0.8235310509195619
+      ],
+      "detected_median_m_uv": -19.28035149022073,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "GN",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 229,
+      "exposed_g235m": 221,
+      "fits_available_same_grating": 176,
+      "two_line_detections": 119,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 178
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 22
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 11
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 3
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5384615384615384,
+        "interval": [
+          0.4726395854627709,
+          0.6029692461520297
+        ]
+      },
+      "median_log10_ratio": 0.7250730133514278,
+      "bootstrap95": [
+        0.6978214880276339,
+        0.756544909123408
+      ],
+      "detected_median_m_uv": -18.826809186817876,
+      "detected_median_exposure_s": 3063.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "GN",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 127,
+      "exposed_g235m": 123,
+      "fits_available_same_grating": 120,
+      "two_line_detections": 75,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 122
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.6097560975609756,
+        "interval": [
+          0.5214756403534317,
+          0.6913885150341832
+        ]
+      },
+      "median_log10_ratio": 0.7680912297716288,
+      "bootstrap95": [
+        0.7234006775114636,
+        0.7865347590756452
+      ],
+      "detected_median_m_uv": -18.858830337192266,
+      "detected_median_exposure_s": 3063.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "GN",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 104,
+      "exposed_g235m": 98,
+      "fits_available_same_grating": 53,
+      "two_line_detections": 29,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 55
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 27
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 11
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.29591836734693877,
+        "interval": [
+          0.21463180671461898,
+          0.39260084231463843
+        ]
+      },
+      "median_log10_ratio": 0.7812514073613498,
+      "bootstrap95": [
+        0.7428497262236736,
+        0.8117128014047533
+      ],
+      "detected_median_m_uv": -19.040648448879942,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "GS",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 357,
+      "exposed_g235m": 304,
+      "fits_available_same_grating": 238,
+      "two_line_detections": 155,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 238
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 21
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 18
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 10
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 9
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 2
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5098684210526315,
+        "interval": [
+          0.4539019866193872,
+          0.565588565507624
+        ]
+      },
+      "median_log10_ratio": 0.7290750123168211,
+      "bootstrap95": [
+        0.7172864655303434,
+        0.7473806502841777
+      ],
+      "detected_median_m_uv": -18.352387932837473,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "GS",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 282,
+      "exposed_g235m": 234,
+      "fits_available_same_grating": 215,
+      "two_line_detections": 140,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 218
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 16
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5982905982905983,
+        "interval": [
+          0.5343787839805411,
+          0.659027362399846
+        ]
+      },
+      "median_log10_ratio": 0.7364277015637613,
+      "bootstrap95": [
+        0.7221718316834418,
+        0.7581416435256931
+      ],
+      "detected_median_m_uv": -18.71606307449112,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "GS",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 154,
+      "exposed_g235m": 126,
+      "fits_available_same_grating": 54,
+      "two_line_detections": 26,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 60
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 40
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 13
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 12
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.20634920634920634,
+        "interval": [
+          0.14488926970077148,
+          0.2851849094395673
+        ]
+      },
+      "median_log10_ratio": 0.7591803486945257,
+      "bootstrap95": [
+        0.6817843822264275,
+        0.7927321330090371
+      ],
+      "detected_median_m_uv": -18.787665384314938,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "both",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 586,
+      "exposed_g235m": 525,
+      "fits_available_same_grating": 414,
+      "two_line_detections": 274,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 416
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 40
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 32
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 16
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g235m_f170lp",
+          "count": 10
+        },
+        {
+          "hb": "g140m_f070lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 6
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5219047619047619,
+        "interval": [
+          0.47917196523648287,
+          0.5643193299643313
+        ]
+      },
+      "median_log10_ratio": 0.728193293450897,
+      "bootstrap95": [
+        0.715757321715403,
+        0.7420563921747119
+      ],
+      "detected_median_m_uv": -18.585155842394084,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "both",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 409,
+      "exposed_g235m": 357,
+      "fits_available_same_grating": 335,
+      "two_line_detections": 215,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 340
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.6022408963585434,
+        "interval": [
+          0.5506414624951024,
+          0.6516634506891514
+        ]
+      },
+      "median_log10_ratio": 0.7407193527886952,
+      "bootstrap95": [
+        0.7252059561154005,
+        0.7628644460080388
+      ],
+      "detected_median_m_uv": -18.74971455390537,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "three_pixel",
+      "field": "both",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 258,
+      "exposed_g235m": 224,
+      "fits_available_same_grating": 107,
+      "two_line_detections": 55,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 115
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 51
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 40
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.24553571428571427,
+        "interval": [
+          0.193774910813017,
+          0.3058771692339453
+        ]
+      },
+      "median_log10_ratio": 0.7671842763666796,
+      "bootstrap95": [
+        0.7457597105009178,
+        0.7897434982139215
+      ],
+      "detected_median_m_uv": -18.958009461797374,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "common_uv_range",
+      "field": "GN",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 34,
+      "exposed_g235m": 33,
+      "fits_available_same_grating": 29,
+      "two_line_detections": 29,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 29
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 3
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.8787878787878788,
+        "interval": [
+          0.7267449482892476,
+          0.9518383869058644
+        ]
+      },
+      "median_log10_ratio": 0.6515943135454086,
+      "bootstrap95": [
+        0.6132014918507603,
+        0.7127631345168243
+      ],
+      "detected_median_m_uv": -19.58439305788768,
+      "detected_median_exposure_s": 3063.0
+    },
+    {
+      "case": "common_uv_range",
+      "field": "GN",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 30,
+      "exposed_g235m": 30,
+      "fits_available_same_grating": 30,
+      "two_line_detections": 26,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 30
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.8666666666666667,
+        "interval": [
+          0.7031867331796371,
+          0.9469034451594525
+        ]
+      },
+      "median_log10_ratio": 0.7683227984465559,
+      "bootstrap95": [
+        0.721286563269019,
+        0.8141219166235453
+      ],
+      "detected_median_m_uv": -19.624702984758,
+      "detected_median_exposure_s": 4595.0
+    },
+    {
+      "case": "common_uv_range",
+      "field": "GN",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 42,
+      "exposed_g235m": 38,
+      "fits_available_same_grating": 17,
+      "two_line_detections": 14,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 18
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 15
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.3684210526315789,
+        "interval": [
+          0.23384219247155957,
+          0.5271604044299099
+        ]
+      },
+      "median_log10_ratio": 0.773313964857541,
+      "bootstrap95": [
+        0.6817083748537698,
+        0.8480329398447937
+      ],
+      "detected_median_m_uv": -19.540166848045683,
+      "detected_median_exposure_s": 7658.5
+    },
+    {
+      "case": "common_uv_range",
+      "field": "GS",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 34,
+      "exposed_g235m": 29,
+      "fits_available_same_grating": 26,
+      "two_line_detections": 24,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 26
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 2
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.8275862068965517,
+        "interval": [
+          0.6545156010980476,
+          0.9240214274710877
+        ]
+      },
+      "median_log10_ratio": 0.7769408968464371,
+      "bootstrap95": [
+        0.7196357752291478,
+        0.8185911896824757
+      ],
+      "detected_median_m_uv": -19.51192335494845,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "common_uv_range",
+      "field": "GS",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 60,
+      "exposed_g235m": 53,
+      "fits_available_same_grating": 52,
+      "two_line_detections": 50,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 53
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.9433962264150944,
+        "interval": [
+          0.8462979168981911,
+          0.9805633385150642
+        ]
+      },
+      "median_log10_ratio": 0.7446102700639794,
+      "bootstrap95": [
+        0.7132479185091906,
+        0.7645672101888121
+      ],
+      "detected_median_m_uv": -19.41673436895064,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "common_uv_range",
+      "field": "GS",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 34,
+      "exposed_g235m": 30,
+      "fits_available_same_grating": 12,
+      "two_line_detections": 11,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 15
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 9
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 4
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.36666666666666664,
+        "interval": [
+          0.21873920806100708,
+          0.5448643634520511
+        ]
+      },
+      "median_log10_ratio": 0.798036662132788,
+      "bootstrap95": [
+        0.6760904677025796,
+        0.8255111113682198
+      ],
+      "detected_median_m_uv": -19.55865464109924,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "common_uv_range",
+      "field": "both",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 68,
+      "exposed_g235m": 62,
+      "fits_available_same_grating": 55,
+      "two_line_detections": 53,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 55
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 3
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 2
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 1
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.8548387096774194,
+        "interval": [
+          0.7465660628844542,
+          0.9217058859468299
+        ]
+      },
+      "median_log10_ratio": 0.7195661046552749,
+      "bootstrap95": [
+        0.666780089746449,
+        0.7739933917650808
+      ],
+      "detected_median_m_uv": -19.518885094471184,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "common_uv_range",
+      "field": "both",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 90,
+      "exposed_g235m": 83,
+      "fits_available_same_grating": 82,
+      "two_line_detections": 76,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 83
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.9156626506024096,
+        "interval": [
+          0.836004705413837,
+          0.95854666367898
+        ]
+      },
+      "median_log10_ratio": 0.7510288170080217,
+      "bootstrap95": [
+        0.7329358144574979,
+        0.7702108624091852
+      ],
+      "detected_median_m_uv": -19.508138060245138,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "common_uv_range",
+      "field": "both",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 76,
+      "exposed_g235m": 68,
+      "fits_available_same_grating": 29,
+      "two_line_detections": 25,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 33
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g395m_f290lp",
+          "count": 19
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g395m_f290lp",
+          "count": 14
+        },
+        {
+          "hb": "g395m_f290lp",
+          "o3": "g235m_f170lp",
+          "count": 1
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.36764705882352944,
+        "interval": [
+          0.26300465135235673,
+          0.4864436436088384
+        ]
+      },
+      "median_log10_ratio": 0.7958064000275287,
+      "bootstrap95": [
+        0.7119572075358533,
+        0.8255111113682198
+      ],
+      "detected_median_m_uv": -19.55584177580873,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "GN",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 216,
+      "exposed_g235m": 208,
+      "fits_available_same_grating": 165,
+      "two_line_detections": 104,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 167
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 19
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 10
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 10
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 2
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5,
+        "interval": [
+          0.4326693796099054,
+          0.5673306203900945
+        ]
+      },
+      "median_log10_ratio": 0.7145055042827717,
+      "bootstrap95": [
+        0.6748227818137985,
+        0.7416302471238059
+      ],
+      "detected_median_m_uv": -18.90095404130372,
+      "detected_median_exposure_s": 3063.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "GN",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 127,
+      "exposed_g235m": 123,
+      "fits_available_same_grating": 120,
+      "two_line_detections": 71,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 122
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 1
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5772357723577236,
+        "interval": [
+          0.4888955661133757,
+          0.6608977284186496
+        ]
+      },
+      "median_log10_ratio": 0.7543091888717519,
+      "bootstrap95": [
+        0.7261749906048369,
+        0.7938827979075144
+      ],
+      "detected_median_m_uv": -18.91616605505962,
+      "detected_median_exposure_s": 3063.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "GN",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 54,
+      "exposed_g235m": 52,
+      "fits_available_same_grating": 48,
+      "two_line_detections": 26,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 50
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 2
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5,
+        "interval": [
+          0.36885862959780547,
+          0.6311413704021945
+        ]
+      },
+      "median_log10_ratio": 0.7803526248609645,
+      "bootstrap95": [
+        0.734722529007535,
+        0.8289604399703074
+      ],
+      "detected_median_m_uv": -18.98012022930945,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "GS",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 261,
+      "exposed_g235m": 230,
+      "fits_available_same_grating": 185,
+      "two_line_detections": 104,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 185
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 16
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 9
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 3
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.45217391304347826,
+        "interval": [
+          0.38916344547441384,
+          0.5167557182575006
+        ]
+      },
+      "median_log10_ratio": 0.7317950294880247,
+      "bootstrap95": [
+        0.687805571794404,
+        0.7516763546256142
+      ],
+      "detected_median_m_uv": -18.33845575618128,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "GS",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 282,
+      "exposed_g235m": 234,
+      "fits_available_same_grating": 215,
+      "two_line_detections": 132,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 218
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 16
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5641025641025641,
+        "interval": [
+          0.500039137355815,
+          0.6260953059357418
+        ]
+      },
+      "median_log10_ratio": 0.7357477135282431,
+      "bootstrap95": [
+        0.7143045495328871,
+        0.7554101938119908
+      ],
+      "detected_median_m_uv": -18.754474542114867,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "GS",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 66,
+      "exposed_g235m": 49,
+      "fits_available_same_grating": 40,
+      "two_line_detections": 17,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 45
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 4
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.3469387755102041,
+        "interval": [
+          0.22924392834538954,
+          0.4868880571302726
+        ]
+      },
+      "median_log10_ratio": 0.7392932569598901,
+      "bootstrap95": [
+        0.6461016292157054,
+        0.8098344205742782
+      ],
+      "detected_median_m_uv": -19.004479144991677,
+      "detected_median_exposure_s": 8534.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "both",
+      "bin": 0,
+      "redshift": [
+        2.8,
+        3.5
+      ],
+      "cosmic_age_gyr": [
+        1.7992628726998328,
+        2.313218043175658
+      ],
+      "midpoint_age_gyr": 2.0296637082968654,
+      "secure_dr5_sources": 477,
+      "exposed_g235m": 438,
+      "fits_available_same_grating": 350,
+      "two_line_detections": 208,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 352
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g235m_f170lp",
+          "count": 35
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 27
+        },
+        {
+          "hb": "g140m_f100lp_ext",
+          "o3": "g140m_f100lp_ext",
+          "count": 19
+        },
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g140m_f100lp_ext",
+          "count": 5
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.4748858447488584,
+        "interval": [
+          0.4285411756313712,
+          0.5216672089355285
+        ]
+      },
+      "median_log10_ratio": 0.7217154998141753,
+      "bootstrap95": [
+        0.6935947906135108,
+        0.7432489175123151
+      ],
+      "detected_median_m_uv": -18.61682632614486,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "both",
+      "bin": 1,
+      "redshift": [
+        3.5,
+        4.3
+      ],
+      "cosmic_age_gyr": [
+        1.4094269656905383,
+        1.7992628726998328
+      ],
+      "midpoint_age_gyr": 1.5846916344426862,
+      "secure_dr5_sources": 409,
+      "exposed_g235m": 357,
+      "fits_available_same_grating": 335,
+      "two_line_detections": 203,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 340
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 17
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.5686274509803921,
+        "interval": [
+          0.5167905566434589,
+          0.6190031522062457
+        ]
+      },
+      "median_log10_ratio": 0.7434862038113252,
+      "bootstrap95": [
+        0.7271621741708275,
+        0.7616314115104721
+      ],
+      "detected_median_m_uv": -18.78711035884449,
+      "detected_median_exposure_s": 6127.0
+    },
+    {
+      "case": "grating_interior",
+      "field": "both",
+      "bin": 2,
+      "redshift": [
+        4.3,
+        5.2
+      ],
+      "cosmic_age_gyr": [
+        1.1146125920983285,
+        1.4094269656905383
+      ],
+      "midpoint_age_gyr": 1.247708390403412,
+      "secure_dr5_sources": 120,
+      "exposed_g235m": 101,
+      "fits_available_same_grating": 88,
+      "two_line_detections": 43,
+      "catalogue_grating_labels": [
+        {
+          "hb": "g235m_f170lp",
+          "o3": "g235m_f170lp",
+          "count": 95
+        },
+        {
+          "hb": null,
+          "o3": null,
+          "count": 6
+        }
+      ],
+      "detection_fraction_in_exposed": {
+        "fraction": 0.42574257425742573,
+        "interval": [
+          0.3337769739633458,
+          0.5231498547099002
+        ]
+      },
+      "median_log10_ratio": 0.7637305601644053,
+      "bootstrap95": [
+        0.734722529007535,
+        0.798036662132788
+      ],
+      "detected_median_m_uv": -18.992299687150563,
+      "detected_median_exposure_s": 6127.0
+    }
+  ],
+  "endpoint_contrasts": [
+    {
+      "case": "primary",
+      "field": "GN",
+      "higher_minus_lower_redshift_dex": 0.050420383408929625,
+      "bootstrap95": [
+        -0.0034423666516976426,
+        0.11193787313648662
+      ]
+    },
+    {
+      "case": "primary",
+      "field": "GS",
+      "higher_minus_lower_redshift_dex": 0.02839984201957302,
+      "bootstrap95": [
+        -0.02755948773249695,
+        0.08422805357651983
+      ]
+    },
+    {
+      "case": "primary",
+      "field": "both",
+      "higher_minus_lower_redshift_dex": 0.04069228797449165,
+      "bootstrap95": [
+        -0.003462730688652687,
+        0.07970187841928114
+      ]
+    },
+    {
+      "case": "lower_snr",
+      "field": "GN",
+      "higher_minus_lower_redshift_dex": 0.045874215437757604,
+      "bootstrap95": [
+        0.003622332377181288,
+        0.11318757047036154
+      ]
+    },
+    {
+      "case": "lower_snr",
+      "field": "GS",
+      "higher_minus_lower_redshift_dex": 0.016102644123782373,
+      "bootstrap95": [
+        -0.06059094953449573,
+        0.08437359676507776
+      ]
+    },
+    {
+      "case": "lower_snr",
+      "field": "both",
+      "higher_minus_lower_redshift_dex": 0.034090641742714256,
+      "bootstrap95": [
+        -0.0016852096173337486,
+        0.08274558521838135
+      ]
+    },
+    {
+      "case": "higher_snr",
+      "field": "GN",
+      "higher_minus_lower_redshift_dex": 0.0805534804768846,
+      "bootstrap95": [
+        -0.009910887483554034,
+        0.15309508994779028
+      ]
+    },
+    {
+      "case": "higher_snr",
+      "field": "GS",
+      "higher_minus_lower_redshift_dex": 0.04636030750717379,
+      "bootstrap95": [
+        -0.022320840040991996,
+        0.0790939877941388
+      ]
+    },
+    {
+      "case": "higher_snr",
+      "field": "both",
+      "higher_minus_lower_redshift_dex": 0.056255761273155236,
+      "bootstrap95": [
+        -0.011817756176503985,
+        0.09284096848673316
+      ]
+    },
+    {
+      "case": "three_pixel",
+      "field": "GN",
+      "higher_minus_lower_redshift_dex": 0.05617839400992197,
+      "bootstrap95": [
+        -0.001378351154227131,
+        0.10539096288497718
+      ]
+    },
+    {
+      "case": "three_pixel",
+      "field": "GS",
+      "higher_minus_lower_redshift_dex": 0.030105336377704517,
+      "bootstrap95": [
+        -0.047310196667662445,
+        0.06366231478181486
+      ]
+    },
+    {
+      "case": "three_pixel",
+      "field": "both",
+      "higher_minus_lower_redshift_dex": 0.038990982915782624,
+      "bootstrap95": [
+        0.012643041660655751,
+        0.06687765770308057
+      ]
+    },
+    {
+      "case": "common_uv_range",
+      "field": "GN",
+      "higher_minus_lower_redshift_dex": 0.12171965131213236,
+      "bootstrap95": [
+        0.0037529689295702218,
+        0.21675966446058803
+      ]
+    },
+    {
+      "case": "common_uv_range",
+      "field": "GS",
+      "higher_minus_lower_redshift_dex": 0.02109576528635093,
+      "bootstrap95": [
+        -0.1032206092797856,
+        0.07972734964927264
+      ]
+    },
+    {
+      "case": "common_uv_range",
+      "field": "both",
+      "higher_minus_lower_redshift_dex": 0.07624029537225374,
+      "bootstrap95": [
+        -0.020708901418828193,
+        0.13443584750328874
+      ]
+    },
+    {
+      "case": "grating_interior",
+      "field": "GN",
+      "higher_minus_lower_redshift_dex": 0.06584712057819275,
+      "bootstrap95": [
+        0.009691087118459688,
+        0.12177328713872916
+      ]
+    },
+    {
+      "case": "grating_interior",
+      "field": "GS",
+      "higher_minus_lower_redshift_dex": 0.00749822747186546,
+      "bootstrap95": [
+        -0.08140799951672939,
+        0.09173960084477985
+      ]
+    },
+    {
+      "case": "grating_interior",
+      "field": "both",
+      "higher_minus_lower_redshift_dex": 0.04201506035023006,
+      "bootstrap95": [
+        0.002504928522037958,
+        0.08941200392166909
+      ]
+    }
+  ],
+  "example_targets": [
+    {
+      "field": "GN",
+      "bin": 0,
+      "dr4_id": "goods-n-mediumhst_27286",
+      "nircam_id": 1030279,
+      "pid": 1181,
+      "z": 3.128906494216613,
+      "ra": 189.03140262573416,
+      "dec": 62.26948983012886,
+      "log10_ratio": 0.7127631345168243
+    },
+    {
+      "field": "GN",
+      "bin": 2,
+      "dr4_id": "goods-n-mediumjwst_39092",
+      "nircam_id": 1039092,
+      "pid": 1181,
+      "z": 4.526645644296647,
+      "ra": 189.27679344431587,
+      "dec": 62.15210017036903,
+      "log10_ratio": 0.7637305601644053
+    },
+    {
+      "field": "GS",
+      "bin": 0,
+      "dr4_id": "goods-s-mediumjwst_175034",
+      "nircam_id": 175034,
+      "pid": 1286,
+      "z": 3.4687789207528192,
+      "ra": 53.0833041,
+      "dec": -27.8669657,
+      "log10_ratio": 0.7343236779947316
+    },
+    {
+      "field": "GS",
+      "bin": 2,
+      "dr4_id": "goods-s-mediumjwst_189400",
+      "nircam_id": 189400,
+      "pid": 1286,
+      "z": 4.341632743452085,
+      "ra": 53.085441,
+      "dec": -27.8424629,
+      "log10_ratio": 0.7623031750424607
+    }
+  ]
+}
