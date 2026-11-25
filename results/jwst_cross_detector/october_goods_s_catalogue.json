@@ -1,0 +1,339 @@
+{
+  "executed_utc": "2026-11-25T11:26:52.014669+00:00",
+  "products": [
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw08060-o001_t001_nircam_clear-f150w_cat.ecsv",
+        "sha256": "285fdc33830b0e1601ab3d8f46c13ab6c65e01ee0df19dcc76ea3156c8237c5e",
+        "bytes": 2872648
+      },
+      "visit": "08060-001",
+      "band": "F150W",
+      "rows": 2636,
+      "usable": 2603,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.7442562580108643
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw08060-o001_t001_nircam_clear-f200w_cat.ecsv",
+        "sha256": "9683a2eac1aa6a472b28dcb90c52f7ca5422021c4ed6414c290a67f43c7f6d6a",
+        "bytes": 3420233
+      },
+      "visit": "08060-001",
+      "band": "F200W",
+      "rows": 3136,
+      "usable": 3108,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 3.117475986480713
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw08060-o001_t001_nircam_clear-f277w_cat.ecsv",
+        "sha256": "18639547aceccda33877c2406331a4f30e5abbaa4b29ccd270fc49bab6b0a022",
+        "bytes": 2039406
+      },
+      "visit": "08060-001",
+      "band": "F277W",
+      "rows": 1851,
+      "usable": 1844,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.1927404403686523
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw08060-o001_t001_nircam_clear-f356w_cat.ecsv",
+        "sha256": "86dc4236c41d54609ad239e900bee03d5aff69310f60a7b7d7e7cdc24a33a98b",
+        "bytes": 2150004
+      },
+      "visit": "08060-001",
+      "band": "F356W",
+      "rows": 1952,
+      "usable": 1938,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.7323734760284424
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw12577-o001_t001_nircam_clear-f150w_cat.ecsv",
+        "sha256": "c3096068fbbc4d2b303e6bdeb141ff968e7087fd725a4d31e4e1eebd97622c2f",
+        "bytes": 3335092
+      },
+      "visit": "12577-001",
+      "band": "F150W",
+      "rows": 3068,
+      "usable": 3048,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.7442562580108643
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw12577-o001_t001_nircam_clear-f200w_cat.ecsv",
+        "sha256": "d8fcde97d9d49e7e813989d1e390b8a91c81443290defe08f2cb2a84a73b8cd0",
+        "bytes": 3996368
+      },
+      "visit": "12577-001",
+      "band": "F200W",
+      "rows": 3683,
+      "usable": 3652,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 3.117475986480713
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw12577-o001_t001_nircam_clear-f277w_cat.ecsv",
+        "sha256": "e907adc8e92db91a249933f0790d523e519b2bcc2a74042aedb6a81885236788",
+        "bytes": 2027665
+      },
+      "visit": "12577-001",
+      "band": "F277W",
+      "rows": 1841,
+      "usable": 1832,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.1927404403686523
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw12577-o001_t001_nircam_clear-f356w_cat.ecsv",
+        "sha256": "4c56ad9e66a1542d97e0cdae7b1d1f305a49fa296e1c714bf1b07d03852dd9e9",
+        "bytes": 2148484
+      },
+      "visit": "12577-001",
+      "band": "F356W",
+      "rows": 1952,
+      "usable": 1934,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.7323734760284424
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o002/jw08060-o002_t002_nircam_clear-f150w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw08060-o002_t002_nircam_clear-f150w_cat.ecsv",
+        "sha256": "08be18f7515d89e1bd130935235db5a755b32afa0154a3fd545d5c0d492f31be",
+        "bytes": 3231773
+      },
+      "visit": "08060-002",
+      "band": "F150W",
+      "rows": 2966,
+      "usable": 2943,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.7442562580108643
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o002/jw08060-o002_t002_nircam_clear-f200w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw08060-o002_t002_nircam_clear-f200w_cat.ecsv",
+        "sha256": "2d22b83e9127e2676182cfb3cb1bd6841efe9f08c5410b92a9ed788bca4befeb",
+        "bytes": 3693319
+      },
+      "visit": "08060-002",
+      "band": "F200W",
+      "rows": 3389,
+      "usable": 3364,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 3.117475986480713
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o002/jw08060-o002_t002_nircam_clear-f277w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw08060-o002_t002_nircam_clear-f277w_cat.ecsv",
+        "sha256": "8b46ad25355fe2f58ab93162cfa90f6eb9d188aa5262dbd37fe7d5596bffb029",
+        "bytes": 2149280
+      },
+      "visit": "08060-002",
+      "band": "F277W",
+      "rows": 1950,
+      "usable": 1944,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.1927404403686523
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o002/jw08060-o002_t002_nircam_clear-f356w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw08060-o002_t002_nircam_clear-f356w_cat.ecsv",
+        "sha256": "580d8aede471c1af0b5be718177c45dbae24fdd646e443fa9cc50afa7ce5059c",
+        "bytes": 2278221
+      },
+      "visit": "08060-002",
+      "band": "F356W",
+      "rows": 2069,
+      "usable": 2056,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.7323734760284424
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o002/jw12577-o002_t002_nircam_clear-f150w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw12577-o002_t002_nircam_clear-f150w_cat.ecsv",
+        "sha256": "725ed7aa4723df8117f61508deee8c5e4e280a43814ceea23012a22fd6407073",
+        "bytes": 3152947
+      },
+      "visit": "12577-002",
+      "band": "F150W",
+      "rows": 2894,
+      "usable": 2874,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.7442562580108643
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o002/jw12577-o002_t002_nircam_clear-f200w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw12577-o002_t002_nircam_clear-f200w_cat.ecsv",
+        "sha256": "c56545185201858bc26595e9769b82e7874d91935b2b2c1241eb3dd56cc6a185",
+        "bytes": 4139333
+      },
+      "visit": "12577-002",
+      "band": "F200W",
+      "rows": 3818,
+      "usable": 3781,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 3.117475986480713
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o002/jw12577-o002_t002_nircam_clear-f277w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw12577-o002_t002_nircam_clear-f277w_cat.ecsv",
+        "sha256": "7fafdbc5f3c4aec2a4bf49a3352eaaf9432b5d738873f02c2983cf2ec04d879f",
+        "bytes": 2205236
+      },
+      "visit": "12577-002",
+      "band": "F277W",
+      "rows": 2002,
+      "usable": 1996,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.1927404403686523
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o002/jw12577-o002_t002_nircam_clear-f356w_cat.ecsv",
+        "path": "data/raw/cross_detector/jw12577-o002_t002_nircam_clear-f356w_cat.ecsv",
+        "sha256": "c973ecf9d27621c53d196f82360276cf50b3ce745696be159c07685f4f0a01b1",
+        "bytes": 2316390
+      },
+      "visit": "12577-002",
+      "band": "F356W",
+      "rows": 2105,
+      "usable": 2088,
+      "calibration_pipeline": "3.0.0",
+      "aperture_pixels": 2.7323734760284424
+    }
+  ],
+  "comparisons": [
+    {
+      "older": "08060-001",
+      "newer": "12577-001",
+      "band": "F150W",
+      "mutual_matches": 1797,
+      "isolated_pairs": 1775,
+      "reference_count": 121,
+      "gain": 1.0037123320554306,
+      "reference_log_ratio_mad": 0.018501440891841397,
+      "normalization": 1.1913675992147108,
+      "shortlist": 52
+    },
+    {
+      "older": "08060-001",
+      "newer": "12577-001",
+      "band": "F200W",
+      "mutual_matches": 2130,
+      "isolated_pairs": 2122,
+      "reference_count": 189,
+      "gain": 1.0028820673723011,
+      "reference_log_ratio_mad": 0.015052174257189677,
+      "normalization": 1.170302443806285,
+      "shortlist": 59
+    },
+    {
+      "older": "08060-001",
+      "newer": "12577-001",
+      "band": "F277W",
+      "mutual_matches": 1588,
+      "isolated_pairs": 1588,
+      "reference_count": 331,
+      "gain": 1.0010196765214996,
+      "reference_log_ratio_mad": 0.019512170580136098,
+      "normalization": 1.1747866687053425,
+      "shortlist": 29
+    },
+    {
+      "older": "08060-001",
+      "newer": "12577-001",
+      "band": "F356W",
+      "mutual_matches": 1669,
+      "isolated_pairs": 1669,
+      "reference_count": 373,
+      "gain": 0.998989407096454,
+      "reference_log_ratio_mad": 0.0164472992464635,
+      "normalization": 1.1106179890189323,
+      "shortlist": 23
+    },
+    {
+      "older": "08060-002",
+      "newer": "12577-002",
+      "band": "F150W",
+      "mutual_matches": 1957,
+      "isolated_pairs": 1938,
+      "reference_count": 153,
+      "gain": 0.9970327971433486,
+      "reference_log_ratio_mad": 0.01698889166665029,
+      "normalization": 1.1157913319811985,
+      "shortlist": 64
+    },
+    {
+      "older": "08060-002",
+      "newer": "12577-002",
+      "band": "F200W",
+      "mutual_matches": 2376,
+      "isolated_pairs": 2357,
+      "reference_count": 221,
+      "gain": 0.9994331469316662,
+      "reference_log_ratio_mad": 0.014302014633060366,
+      "normalization": 1.1676213698911033,
+      "shortlist": 56
+    },
+    {
+      "older": "08060-002",
+      "newer": "12577-002",
+      "band": "F277W",
+      "mutual_matches": 1719,
+      "isolated_pairs": 1719,
+      "reference_count": 344,
+      "gain": 1.0025909579424734,
+      "reference_log_ratio_mad": 0.018734068595864215,
+      "normalization": 1.1637721494843385,
+      "shortlist": 18
+    },
+    {
+      "older": "08060-002",
+      "newer": "12577-002",
+      "band": "F356W",
+      "mutual_matches": 1799,
+      "isolated_pairs": 1799,
+      "reference_count": 397,
+      "gain": 0.9997063256708001,
+      "reference_log_ratio_mad": 0.01563531023917498,
+      "normalization": 1.172096087438456,
+      "shortlist": 17
+    }
+  ],
+  "pair_level_candidates": 4,
+  "matches_sha256": "502c08872bae4340eb7df50145e63487df425b0b60441bfafe44e6b75a2d694c",
+  "residuals_sha256": "dae2b7957506f229c4447c4bb0a094a133e7a5f244d86655e04e8a2f6a7172b6",
+  "script_sha256": "f5d3a03d215d345024af30921e30afc5d54b6ca959fe66c6aa09bf4a1666b844",
+  "gates": {
+    "match_arcsec": 0.13,
+    "isolation_arcsec": 0.28,
+    "fractional_change": 0.18,
+    "ranking_score": 3.0,
+    "at_least_one_band_score": 6.0
+  },
+  "scope": "Mutual catalogue matches in the listed two-visit comparisons. Both epochs need positive measured flux. Ranking gates use empirical scatter and require short- and long-wave agreement. Pair-level entries can duplicate sky positions. Image validation is required."
+}

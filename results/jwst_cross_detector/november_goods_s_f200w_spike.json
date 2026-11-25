@@ -1,0 +1,300 @@
+{
+  "executed_utc": "2026-11-25T17:27:27.496032+00:00",
+  "icrs_deg": [
+    53.19529196824387,
+    -27.779252597124422
+  ],
+  "separation_from_fading_source_arcsec": 0.4502956449152427,
+  "st_sci_catalogue": {
+    "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o003/jw12577-o003_t003_nircam_clear-f200w_cat.ecsv",
+    "path": "data/raw/cross_detector/jw12577-o003_t003_nircam_clear-f200w_cat.ecsv",
+    "sha256": "da43dd59d0eb01a7a023e4104dfa243b438c8055defbe019ae99664586152cc1",
+    "bytes": 3789543
+  },
+  "source_label": 77,
+  "signed_mosaic_photometry": {
+    "F150W": [
+      {
+        "radius_arcsec": 0.12,
+        "flux_njy": 1.2037999629974365,
+        "local_mad_sigma_njy": 2.3802108818292615,
+        "control_median_njy": -0.14641010761260986,
+        "control_count": 326
+      },
+      {
+        "radius_arcsec": 0.18,
+        "flux_njy": 2.810622453689575,
+        "local_mad_sigma_njy": 4.071638195943832,
+        "control_median_njy": -0.15161371231079102,
+        "control_count": 326
+      },
+      {
+        "radius_arcsec": 0.24,
+        "flux_njy": 8.550324440002441,
+        "local_mad_sigma_njy": 6.16513152065277,
+        "control_median_njy": -0.4235236644744873,
+        "control_count": 326
+      }
+    ],
+    "F200W": [
+      {
+        "radius_arcsec": 0.12,
+        "flux_njy": 69.95021057128906,
+        "local_mad_sigma_njy": 2.3049164146900174,
+        "control_median_njy": -0.19039130210876465,
+        "control_count": 329
+      },
+      {
+        "radius_arcsec": 0.18,
+        "flux_njy": 70.75114440917969,
+        "local_mad_sigma_njy": 3.6235076355457303,
+        "control_median_njy": -0.23750782012939453,
+        "control_count": 329
+      },
+      {
+        "radius_arcsec": 0.24,
+        "flux_njy": 74.31228637695312,
+        "local_mad_sigma_njy": 5.117289602422714,
+        "control_median_njy": -0.25208139419555664,
+        "control_count": 329
+      }
+    ],
+    "F277W": [
+      {
+        "radius_arcsec": 0.12,
+        "flux_njy": 0.13631820678710938,
+        "local_mad_sigma_njy": 1.4631869121551513,
+        "control_median_njy": 0.11914348602294922,
+        "control_count": 275
+      },
+      {
+        "radius_arcsec": 0.18,
+        "flux_njy": 3.511746406555176,
+        "local_mad_sigma_njy": 2.785742757797241,
+        "control_median_njy": 0.08550453186035156,
+        "control_count": 275
+      },
+      {
+        "radius_arcsec": 0.24,
+        "flux_njy": 6.366713523864746,
+        "local_mad_sigma_njy": 3.884145306873321,
+        "control_median_njy": -0.06123542785644531,
+        "control_count": 274
+      }
+    ],
+    "F356W": [
+      {
+        "radius_arcsec": 0.12,
+        "flux_njy": 3.5210952758789062,
+        "local_mad_sigma_njy": 1.4894147290706634,
+        "control_median_njy": -0.02738499641418457,
+        "control_count": 274
+      },
+      {
+        "radius_arcsec": 0.18,
+        "flux_njy": 6.254490375518799,
+        "local_mad_sigma_njy": 2.4239905408859252,
+        "control_median_njy": -0.12718677520751953,
+        "control_count": 274
+      },
+      {
+        "radius_arcsec": 0.24,
+        "flux_njy": 8.50555419921875,
+        "local_mad_sigma_njy": 3.7514562151908875,
+        "control_median_njy": -0.20920181274414062,
+        "control_count": 273
+      }
+    ]
+  },
+  "exposures": [
+    {
+      "file": "jw12577003001_03101_00001_nrca3_cal.fits",
+      "upstream_etag": "\"b5ec1b281a7cf86c8fa11a3d0eddddc1-3\"",
+      "date_utc": "2026-11-24T15:38:22.693",
+      "predicted_detector_xy": [
+        548.6294690703232,
+        176.31409877457716
+      ],
+      "brightest_pixel_xy": [
+        548,
+        174
+      ],
+      "brightest_pixel_dq": 4,
+      "brightest_pixel_njy": 4.35691661460777,
+      "saturation_flagged_pixels_within_core": 0,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00001_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00001_nrca3_cal.fits/b5ec1b281a7cf86c8fa11a3d0eddddc1-3-0-23039.bytes",
+          "sha256": "72ff245d5ec370ad8ae204d4d142d18992ef141400c232f0838833311fccab6c",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00001_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00001_nrca3_cal.fits/b5ec1b281a7cf86c8fa11a3d0eddddc1-3-23040-46079.bytes",
+          "sha256": "14a3897490692fd72746a278308ebf4a37cb37e7793072ab27a2a6697f7ce56b",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00001_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00001_nrca3_cal.fits/b5ec1b281a7cf86c8fa11a3d0eddddc1-3-16816320-16839359.bytes",
+          "sha256": "cd4a60afccaeb103ee655caaf5f501a2264eb54124416b46ca0243bc52884f75",
+          "first_byte": 16816320,
+          "last_byte": 16839359
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00001_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00001_nrca3_cal.fits/b5ec1b281a7cf86c8fa11a3d0eddddc1-3-33598080-33621119.bytes",
+          "sha256": "e402c7600aebe71775beea2c7dc6f0d50607a9029de7dd500028983920c9edb2",
+          "first_byte": 33598080,
+          "last_byte": 33621119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00001_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00001_nrca3_cal.fits/b5ec1b281a7cf86c8fa11a3d0eddddc1-3-1249856-1716799.bytes",
+          "sha256": "c56645a8066068af1d79a6e2a553d36995cb8dbc97d1fe5abe54170766964c21",
+          "first_byte": 1249856,
+          "last_byte": 1716799
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00001_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00001_nrca3_cal.fits/b5ec1b281a7cf86c8fa11a3d0eddddc1-3-34813376-35280319.bytes",
+          "sha256": "17c5bf6ed794030159ecb1bd3f839a65ae72c50c8591a20aa4e5c8a8b78615c9",
+          "first_byte": 34813376,
+          "last_byte": 35280319
+        }
+      ],
+      "unmasked_aperture_njy": -3.8324121809655614,
+      "dq_zero_aperture_njy": null
+    },
+    {
+      "file": "jw12577003001_03101_00002_nrca3_cal.fits",
+      "upstream_etag": "\"8d58ff25f3774b601597eee37dcfcfa4-3\"",
+      "date_utc": "2026-11-24T16:02:42.916",
+      "predicted_detector_xy": [
+        555.6465664463915,
+        178.91038913905797
+      ],
+      "brightest_pixel_xy": [
+        551,
+        181
+      ],
+      "brightest_pixel_dq": 4,
+      "brightest_pixel_njy": 4.229313809381741,
+      "saturation_flagged_pixels_within_core": 0,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00002_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00002_nrca3_cal.fits/8d58ff25f3774b601597eee37dcfcfa4-3-0-23039.bytes",
+          "sha256": "dbc00a641988b5b6f8e28d25f12aefe6da89339746ce50ac12092e9fac0ffd3d",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00002_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00002_nrca3_cal.fits/8d58ff25f3774b601597eee37dcfcfa4-3-23040-46079.bytes",
+          "sha256": "78e1da8420db0b5272665c0e1badc8a7ccbd1ba980986623075e843396c197c5",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00002_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00002_nrca3_cal.fits/8d58ff25f3774b601597eee37dcfcfa4-3-16816320-16839359.bytes",
+          "sha256": "cd4a60afccaeb103ee655caaf5f501a2264eb54124416b46ca0243bc52884f75",
+          "first_byte": 16816320,
+          "last_byte": 16839359
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00002_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00002_nrca3_cal.fits/8d58ff25f3774b601597eee37dcfcfa4-3-33598080-33621119.bytes",
+          "sha256": "4033d775820add403bdb3ab465c35be5bea0f65bdad1638faa8aeb8ebc28a73e",
+          "first_byte": 33598080,
+          "last_byte": 33621119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00002_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00002_nrca3_cal.fits/8d58ff25f3774b601597eee37dcfcfa4-3-1274432-1741375.bytes",
+          "sha256": "160e17365a24d20d6dff1cbbb8c5d1ab57756960d02faf3e36306fb8c4eaac1a",
+          "first_byte": 1274432,
+          "last_byte": 1741375
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00002_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00002_nrca3_cal.fits/8d58ff25f3774b601597eee37dcfcfa4-3-34837952-35304895.bytes",
+          "sha256": "08eed963578e34ae61efb36653e5af213c0d06f45f743a259314e7fd50f26961",
+          "first_byte": 34837952,
+          "last_byte": 35304895
+        }
+      ],
+      "unmasked_aperture_njy": -1.0593694563465452,
+      "dq_zero_aperture_njy": null
+    },
+    {
+      "file": "jw12577003001_03101_00003_nrca3_cal.fits",
+      "upstream_etag": "\"449b0be4dfd30299fdbf17f84ba4d3ed-3\"",
+      "date_utc": "2026-11-24T16:27:03.138",
+      "predicted_detector_xy": [
+        553.0934641293204,
+        183.34899886219978
+      ],
+      "brightest_pixel_xy": [
+        553,
+        182
+      ],
+      "brightest_pixel_dq": 2,
+      "brightest_pixel_njy": 163.9580292061339,
+      "saturation_flagged_pixels_within_core": 12,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00003_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00003_nrca3_cal.fits/449b0be4dfd30299fdbf17f84ba4d3ed-3-0-23039.bytes",
+          "sha256": "0f7b71043e6eba4dd69b165b59669a8734a6d09bdae72e39e85d5d0477ab4dda",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00003_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00003_nrca3_cal.fits/449b0be4dfd30299fdbf17f84ba4d3ed-3-23040-46079.bytes",
+          "sha256": "3998c4987d1f0ec4f6a6c55da3bf33bae1d92205adeebbc428f3eae35868b5db",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00003_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00003_nrca3_cal.fits/449b0be4dfd30299fdbf17f84ba4d3ed-3-16816320-16839359.bytes",
+          "sha256": "cd4a60afccaeb103ee655caaf5f501a2264eb54124416b46ca0243bc52884f75",
+          "first_byte": 16816320,
+          "last_byte": 16839359
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00003_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00003_nrca3_cal.fits/449b0be4dfd30299fdbf17f84ba4d3ed-3-33598080-33621119.bytes",
+          "sha256": "22cf09a715234d1f4e38fcfa5d2fd2ca1761f00c767eaae143a83f5ea423a897",
+          "first_byte": 33598080,
+          "last_byte": 33621119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00003_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00003_nrca3_cal.fits/449b0be4dfd30299fdbf17f84ba4d3ed-3-1307200-1774143.bytes",
+          "sha256": "b623a140901d85c709e8db3b047bc8baf9c6ce107eb57b7163e7f7679e98edca",
+          "first_byte": 1307200,
+          "last_byte": 1774143
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577003001/jw12577003001_03101_00003_nrca3_cal.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577003001_03101_00003_nrca3_cal.fits/449b0be4dfd30299fdbf17f84ba4d3ed-3-34870720-35337663.bytes",
+          "sha256": "f73f7325e91dbf70110bad111d4d65140c944455b5b8fa6600cf4ef28da3da9d",
+          "first_byte": 34870720,
+          "last_byte": 35337663
+        }
+      ],
+      "unmasked_aperture_njy": null,
+      "dq_zero_aperture_njy": null
+    }
+  ],
+  "script_sha256": "3c9d7e12e36ec2008dd072e0a74e20d8c88bc75dbc546972f6e444c673eeced7",
+  "vetting_sha256": "5047e2d68b7d95a87f7999bf08ac4f3634e1d1c9d2afcf1843478461b888a928",
+  "scope": "Byte-pinned Science/DQ observations on NRCA3. Native positions use calibrated WCS without local translation. Aperture values null when the aperture has missing or DQ-masked pixels."
+}

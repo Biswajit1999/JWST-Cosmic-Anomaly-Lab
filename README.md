@@ -21,6 +21,12 @@ records searched through 25 November. Its physical cause remains open.
 
 <img src="figures/jwst_cross_detector/module_b_001_november_photometry.png" width="810" alt="Observed JWST images of the October brightening and November fade near JADES 103607, with signed aperture photometry.">
 
+The separate source-catalogue search of 40 public NIRCam products recovered
+both the JADES 103607 fade and the known transient 2510042. The search
+report includes the candidate measurements, observed cutouts, and a
+native detector check that identified a saturation artefact.
+[GOODS-S candidate search](reports/jwst_november_candidate_search.md).
+
 The [additional Module A search](reports/jwst_module_a_pointing1.md)
 covered 3.850 arcmin², recovered known transient 2510131 and traced a
 three-filter false positive to a diffraction spike.

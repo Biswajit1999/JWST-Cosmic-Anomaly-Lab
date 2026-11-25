@@ -1,0 +1,3644 @@
+{
+  "executed_utc": "2026-11-25T17:25:18.188125+00:00",
+  "planned": 2,
+  "candidates": [
+    {
+      "candidate": "GSN-53.187663-27.794316",
+      "icrs_deg": [
+        53.1876628852851,
+        -27.794315826019528
+      ],
+      "sign": 1,
+      "catalogue_bands": 3,
+      "catalogue_rank": 8.802197642553207,
+      "older": "08060-004",
+      "newer": "12577-004",
+      "prior_project_sources_within_1arcsec": {},
+      "plan_matches_within_1arcsec": [
+        {
+          "program": 8060,
+          "catalogue": "MPT_input",
+          "label_field": "[LABEL] - PriorityClass",
+          "matches": [
+            {
+              "ID": 406256,
+              "RA": 53.187794,
+              "DEC": -27.79419,
+              "Redshift": 0.42,
+              "Weight": 46,
+              "[LABEL] - PriorityClass": 13,
+              "separation_arcsec": 0.6160665319,
+              "configurations": []
+            }
+          ]
+        },
+        {
+          "program": 8060,
+          "catalogue": "MPT_input_v3",
+          "label_field": "[LABEL] - Class",
+          "matches": [
+            {
+              "ID": 406256,
+              "RA": 53.187794,
+              "DEC": -27.79419,
+              "Redshift": 0.42,
+              "Weight": 36,
+              "[LABEL] - Class": "laemiri",
+              "separation_arcsec": 0.6160665319,
+              "configurations": []
+            }
+          ]
+        },
+        {
+          "program": 8060,
+          "catalogue": "MPT_input_P2_v0.1",
+          "label_field": "[LABEL] - Class",
+          "matches": [
+            {
+              "ID": 406256,
+              "RA": 53.187794,
+              "DEC": -27.79419,
+              "Redshift": 0.42,
+              "Weight": 36,
+              "[LABEL] - Class": "laemiri",
+              "separation_arcsec": 0.6160665319,
+              "configurations": []
+            }
+          ]
+        },
+        {
+          "program": 12577,
+          "catalogue": "MPT_input",
+          "label_field": "[LABEL] - PriorityClass",
+          "matches": [
+            {
+              "ID": 406256,
+              "RA": 53.187794,
+              "DEC": -27.79419,
+              "Redshift": 0.42,
+              "Weight": 46,
+              "[LABEL] - PriorityClass": 13,
+              "separation_arcsec": 0.6160665319,
+              "configurations": []
+            }
+          ]
+        },
+        {
+          "program": 12577,
+          "catalogue": "MPT_input_v3",
+          "label_field": "[LABEL] - Class",
+          "matches": [
+            {
+              "ID": 406256,
+              "RA": 53.187794,
+              "DEC": -27.79419,
+              "Redshift": 0.42,
+              "Weight": 36,
+              "[LABEL] - Class": "laemiri",
+              "separation_arcsec": 0.6160665319,
+              "configurations": []
+            }
+          ]
+        },
+        {
+          "program": 12577,
+          "catalogue": "MPT_input_P2_v0.1",
+          "label_field": "[LABEL] - Class",
+          "matches": [
+            {
+              "ID": 406256,
+              "RA": 53.187794,
+              "DEC": -27.79419,
+              "Redshift": 0.42,
+              "Weight": 36,
+              "[LABEL] - Class": "laemiri",
+              "separation_arcsec": 0.6160665319,
+              "configurations": []
+            }
+          ]
+        }
+      ],
+      "tns": {
+        "url": "https://www.wis-tns.org/sites/default/files/tns_public_objects/tns_public_objects.csv.zip",
+        "path": "data/raw/cross_detector/tns_public_objects_snapshot_20261125.csv.zip",
+        "sha256": "27a26b5a2a9fac4a2de94f872c2519b2e5bd80c72cb62207e2d3647e09b1100a",
+        "snapshot_label_utc": "2026-11-25 00:00:00",
+        "catalogue_rows": 213805,
+        "radius_arcsec": 5,
+        "matches": 0,
+        "nearest": [
+          {
+            "objid": 152765,
+            "name_prefix": "AT",
+            "name": "2023adss",
+            "ra": 53.183005,
+            "declination": -27.787817,
+            "type": null,
+            "discoverydate": "2023-09-28 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 27.7022773486
+          },
+          {
+            "objid": 152827,
+            "name_prefix": "AT",
+            "name": "2022aewg",
+            "ra": 53.186467,
+            "declination": -27.803368,
+            "type": null,
+            "discoverydate": "2022-09-29 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 32.809598905
+          },
+          {
+            "objid": 152819,
+            "name_prefix": "AT",
+            "name": "2022aevy",
+            "ra": 53.185292,
+            "declination": -27.784958,
+            "type": null,
+            "discoverydate": "2022-09-29 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 34.5240116867
+          }
+        ]
+      },
+      "image_basename": "november_goods_s_prior_visits_GSN-53p187663-27p794316",
+      "bands": {
+        "F150W": {
+          "alignment": {
+            "reference_count": 19,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  1.0783820785613472,
+                  -13.678445287691305
+                ],
+                "old_njy": 1233.845458984375,
+                "new_njy": 1221.92431640625,
+                "new_to_old": 0.9903382206488504,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.010058126696012559,
+                  0.0070109876193778535
+                ],
+                "new_minus_old_variance_arcsec2": 0.0009096821372602225
+              },
+              {
+                "offset_arcsec": [
+                  4.294682278319849,
+                  -7.526880827959026
+                ],
+                "old_njy": 84.77862548828125,
+                "new_njy": 92.6779556274414,
+                "new_to_old": 1.0931759637958751,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004398639360235033,
+                  0.0027612514885695834
+                ],
+                "new_minus_old_variance_arcsec2": -0.0009774088953656735
+              },
+              {
+                "offset_arcsec": [
+                  -0.8576432844000811,
+                  -5.49717681840269
+                ],
+                "old_njy": 540.2312622070312,
+                "new_njy": 540.970703125,
+                "new_to_old": 1.0013687488483134,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005174975428315706,
+                  0.004221312808969256
+                ],
+                "new_minus_old_variance_arcsec2": 0.0015340957530574923
+              },
+              {
+                "offset_arcsec": [
+                  4.606944433636208,
+                  -2.124745540986009
+                ],
+                "old_njy": 106.21704864501953,
+                "new_njy": 103.83290100097656,
+                "new_to_old": 0.9775540021639006,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0060759059597193955,
+                  0.004943946679020454
+                ],
+                "new_minus_old_variance_arcsec2": 4.6519052734332166e-05
+              },
+              {
+                "offset_arcsec": [
+                  5.293921175332199,
+                  -0.9069231352522075
+                ],
+                "old_njy": 133.05087280273438,
+                "new_njy": 126.51892852783203,
+                "new_to_old": 0.9509064154386508,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.006084343793622406,
+                  0.0027099988763898096
+                ],
+                "new_minus_old_variance_arcsec2": 2.2406425178822693e-05
+              },
+              {
+                "offset_arcsec": [
+                  13.006796411646276,
+                  0.7168400723928613
+                ],
+                "old_njy": 78.85038757324219,
+                "new_njy": 85.76528930664062,
+                "new_to_old": 1.0876964837614191,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.011941787142680405,
+                  -0.00680847661195922
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005479279228567397
+              },
+              {
+                "offset_arcsec": [
+                  -2.6063113541716936,
+                  1.872210047063391
+                ],
+                "old_njy": 297.26483154296875,
+                "new_njy": 304.593994140625,
+                "new_to_old": 1.0246553302643095,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.007321512246043202,
+                  0.0036129390884828893
+                ],
+                "new_minus_old_variance_arcsec2": -0.00015865644594752377
+              },
+              {
+                "offset_arcsec": [
+                  -6.072421278183283,
+                  2.309377064506294
+                ],
+                "old_njy": 180.3080291748047,
+                "new_njy": 185.47267150878906,
+                "new_to_old": 1.0286434406588592,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004171729350350761,
+                  0.0067898491862312125
+                ],
+                "new_minus_old_variance_arcsec2": -0.00028362215629689066
+              },
+              {
+                "offset_arcsec": [
+                  0.5163101989919002,
+                  2.5279605732277455
+                ],
+                "old_njy": 98.63284301757812,
+                "new_njy": 100.9422836303711,
+                "new_to_old": 1.0234145193643196,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003983435420678128,
+                  0.006722792228948053
+                ],
+                "new_minus_old_variance_arcsec2": -0.00032634566442561177
+              },
+              {
+                "offset_arcsec": [
+                  12.632081825266644,
+                  3.1524848838604647
+                ],
+                "old_njy": 112.96185302734375,
+                "new_njy": 109.80818176269531,
+                "new_to_old": 0.972081980065562,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005534802561155917,
+                  -0.001713703754125879
+                ],
+                "new_minus_old_variance_arcsec2": -6.93504720364964e-05
+              },
+              {
+                "offset_arcsec": [
+                  9.165971901255055,
+                  3.901914056619727
+                ],
+                "old_njy": 130.65255737304688,
+                "new_njy": 129.43861389160156,
+                "new_to_old": 0.9907086129360699,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005524991714173597,
+                  0.0027838711090888858
+                ],
+                "new_minus_old_variance_arcsec2": -0.00019075876500603342
+              },
+              {
+                "offset_arcsec": [
+                  11.726521574849203,
+                  5.150962677885165
+                ],
+                "old_njy": 237.97283935546875,
+                "new_njy": 235.88531494140625,
+                "new_to_old": 0.9912278879400002,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005876656056783398,
+                  -0.00011991196884162902
+                ],
+                "new_minus_old_variance_arcsec2": -0.00046256050713982134
+              },
+              {
+                "offset_arcsec": [
+                  3.3578958123707707,
+                  5.5881296953280675
+                ],
+                "old_njy": 134.66049194335938,
+                "new_njy": 140.19488525390625,
+                "new_to_old": 1.0410988644900743,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.008372381626216188,
+                  0.0027538646434075863
+                ],
+                "new_minus_old_variance_arcsec2": -0.00012768904880887041
+              },
+              {
+                "offset_arcsec": [
+                  -2.887347293956417,
+                  6.431237514682238
+                ],
+                "old_njy": 188.21267700195312,
+                "new_njy": 198.71331787109375,
+                "new_to_old": 1.055791358140194,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.008759849154359537,
+                  -0.010501389122647753
+                ],
+                "new_minus_old_variance_arcsec2": -0.000194636944630907
+              },
+              {
+                "offset_arcsec": [
+                  10.5086991691154,
+                  6.8059521010618695
+                ],
+                "old_njy": 6627.30078125,
+                "new_njy": 6638.42578125,
+                "new_to_old": 1.001678662304188,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00687601457353839,
+                  0.00017766752504417074
+                ],
+                "new_minus_old_variance_arcsec2": -0.00011036963819306082
+              },
+              {
+                "offset_arcsec": [
+                  -4.8233726569178454,
+                  9.709990145504012
+                ],
+                "old_njy": 354.56585693359375,
+                "new_njy": 360.3384094238281,
+                "new_to_old": 1.0162806214342164,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0060120158428705415,
+                  0.0049698631292448715
+                ],
+                "new_minus_old_variance_arcsec2": -0.00018799528665987058
+              },
+              {
+                "offset_arcsec": [
+                  3.607705536623858,
+                  9.834895007630555
+                ],
+                "old_njy": 582.426513671875,
+                "new_njy": 601.0440673828125,
+                "new_to_old": 1.031965498262715,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004090377231060962,
+                  0.003720627186974565
+                ],
+                "new_minus_old_variance_arcsec2": 0.00128978669510936
+              },
+              {
+                "offset_arcsec": [
+                  1.109608294092983,
+                  11.895825232718527
+                ],
+                "old_njy": 31079.595703125,
+                "new_njy": 31516.134765625,
+                "new_to_old": 1.0140458410936184,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0057813748828774505,
+                  0.005119262532272775
+                ],
+                "new_minus_old_variance_arcsec2": -0.00035980203920117073
+              },
+              {
+                "offset_arcsec": [
+                  4.4508133559780285,
+                  12.176861172503251
+                ],
+                "old_njy": 101.67108154296875,
+                "new_njy": 93.1102294921875,
+                "new_to_old": 0.9157985543100255,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00229871685036509,
+                  0.0016769577463944677
+                ],
+                "new_minus_old_variance_arcsec2": 0.000879048945799172
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.005876656056783398,
+              0.0027838711090888858
+            ],
+            "held_out_reference_radius68_arcsec": 0.004395584340454348,
+            "matched_variance_arcsec2": -0.00012768904880887041,
+            "new_to_old_scale": 1.0140458410936184,
+            "method": "local_shift_gain_and_core_width"
+          },
+          "change": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -2.205660820007324,
+              "local_mad_sigma_njy": 2.209564290046692,
+              "control_median_njy": 0.059856414794921875,
+              "control_count": 339
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -9.642851829528809,
+              "local_mad_sigma_njy": 4.112699421787262,
+              "control_median_njy": -0.1449565887451172,
+              "control_count": 339
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -15.46931266784668,
+              "local_mad_sigma_njy": 6.6208675435066215,
+              "control_median_njy": -0.15075349807739258,
+              "control_count": 339
+            }
+          ],
+          "core": null,
+          "before": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 1224.0738525390625,
+            "local_mad_sigma_njy": 4.936992846679687,
+            "control_median_njy": -1.1598267555236816,
+            "control_count": 339
+          },
+          "after": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 1216.2974853515625,
+            "local_mad_sigma_njy": 5.8069049071311944,
+            "control_median_njy": -0.7097525596618652,
+            "control_count": 339
+          },
+          "products": [
+            {
+              "filename": "jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+              "etag": "\"c8a305ed281612235a47f60bdc421c72-24\"",
+              "object_bytes": 1212275520,
+              "science_array_shape": [
+                4381,
+                9880
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                2316,
+                3375,
+                1956,
+                3015
+              ],
+              "date_utc": "2025-11-18T12:07:14.329",
+              "exposure_start_mjd": 60997.50502769676,
+              "filter": "F150W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.03122621553163594,
+              "header_pixel_area_sr": 2.29186187207803e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-0-23039.bytes",
+                  "sha256": "308b04210f986959f2008d1f2fba37c5355685870ef28aaddb88d2c951315b4e",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-23040-46079.bytes",
+                  "sha256": "689ae16ff494fd07ed1adf203182ddd3fb506719b0c7608635c875a45727f9ef",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-173174400-173197439.bytes",
+                  "sha256": "9b5cb86d4f14254b131ca7a42f4d559bdb6aa32335a0830d6fa6b73d82ed51ac",
+                  "first_byte": 173174400,
+                  "last_byte": 173197439
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-346317120-346340159.bytes",
+                  "sha256": "41ed79642941e761c504966afafac82a9b96868bae56cc46e4f8ffedd41d36e3",
+                  "first_byte": 346317120,
+                  "last_byte": 346340159
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-519459840-519482879.bytes",
+                  "sha256": "78152ff01a3673e9ae32c112301f81c833ed333efa973feebbcefa9d061f731c",
+                  "first_byte": 519459840,
+                  "last_byte": 519482879
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-77335680-119187359.bytes",
+                  "sha256": "f2c14a1f7de59f09cb7b3aa2bfbf8af170143b2ea103a580ca663a8868f93ab7",
+                  "first_byte": 77335680,
+                  "last_byte": 119187359
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-596763840-638615519.bytes",
+                  "sha256": "6b38a93edf724d2ffc92a77d086cc2e4bfbd3a29eb4234980bdf08239c7a0b07",
+                  "first_byte": 596763840,
+                  "last_byte": 638615519
+                }
+              ]
+            },
+            {
+              "filename": "jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+              "etag": "\"70a477310b22acb75f5d10055216f3af-24\"",
+              "object_bytes": 1211993280,
+              "science_array_shape": [
+                4380,
+                9880
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                1041,
+                2100,
+                2731,
+                3790
+              ],
+              "date_utc": "2026-11-24T19:37:09.463",
+              "exposure_start_mjd": 61368.81747137731,
+              "filter": "F150W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.031225991526177405,
+              "header_pixel_area_sr": 2.29182899023696e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-0-23039.bytes",
+                  "sha256": "45cb879843bc0daec3a5c2dd65f2f47d53f74697a493b2d69990d8d514aa0978",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-23040-46079.bytes",
+                  "sha256": "171a8c8150a75e0082af9fef6f9d3bfe5a15cc553ed83ce22a84b049ea665357",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-173134080-173157119.bytes",
+                  "sha256": "199a60255ba386d941f87fbbabd32d7a11983afa26f1863482e11a202b3f9272",
+                  "first_byte": 173134080,
+                  "last_byte": 173157119
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-346236480-346259519.bytes",
+                  "sha256": "59881b1ca8cd5409a593a8f6e8287dcb4cd5b157981717c645c24d5df995286e",
+                  "first_byte": 346236480,
+                  "last_byte": 346259519
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-519338880-519361919.bytes",
+                  "sha256": "c1bca2a8ca4bee9d241cacd036a63b79652c15b285696e1f8e2fbd5811c36905",
+                  "first_byte": 519338880,
+                  "last_byte": 519361919
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-107963680-149815359.bytes",
+                  "sha256": "3b8fcb7198b71aad078ed2a21c2f0137115d9351d009c60b4b382d29926f2161",
+                  "first_byte": 107963680,
+                  "last_byte": 149815359
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-627270880-669122559.bytes",
+                  "sha256": "a12e303299e874af9138f572f68cc5ca7143c7d75cff6ae6e370de728cecf7af",
+                  "first_byte": 627270880,
+                  "last_byte": 669122559
+                }
+              ]
+            }
+          ]
+        },
+        "F200W": {
+          "alignment": {
+            "reference_count": 21,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  1.072393984928769,
+                  -13.683938100065326
+                ],
+                "old_njy": 1685.6334228515625,
+                "new_njy": 1674.301025390625,
+                "new_to_old": 0.9932770688411204,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007135392370330566,
+                  -0.009538735438356555
+                ],
+                "new_minus_old_variance_arcsec2": -0.0008693128086825295
+              },
+              {
+                "offset_arcsec": [
+                  4.288842091447846,
+                  -7.532090750703598
+                ],
+                "old_njy": 80.41622161865234,
+                "new_njy": 83.2086181640625,
+                "new_to_old": 1.0347242942929125,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00500059444539591,
+                  -0.011951532135770526
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005529216140095165
+              },
+              {
+                "offset_arcsec": [
+                  -0.8949480608061999,
+                  -5.471065750409822
+                ],
+                "old_njy": 560.4122314453125,
+                "new_njy": 555.5603637695312,
+                "new_to_old": 0.9913423237332486,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009300264466390144,
+                  -0.01157272929513051
+                ],
+                "new_minus_old_variance_arcsec2": 0.0003804684763294777
+              },
+              {
+                "offset_arcsec": [
+                  4.5698909551242695,
+                  -2.1297070378123344
+                ],
+                "old_njy": 115.47723388671875,
+                "new_njy": 115.72869873046875,
+                "new_to_old": 1.002177614022143,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.010454654300315648,
+                  -0.014189672894665356
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001453687325943787
+              },
+              {
+                "offset_arcsec": [
+                  3.7579720156146,
+                  -1.005511583106638
+                ],
+                "old_njy": 101.8192138671875,
+                "new_njy": 105.26242065429688,
+                "new_to_old": 1.0338168667418772,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007240613703047025,
+                  -0.014116478891149684
+                ],
+                "new_minus_old_variance_arcsec2": -1.2317381177994954e-06
+              },
+              {
+                "offset_arcsec": [
+                  5.288126940075131,
+                  -0.880600977028227
+                ],
+                "old_njy": 126.42623901367188,
+                "new_njy": 130.75656127929688,
+                "new_to_old": 1.0342517684573114,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009091653755432933,
+                  -0.011058684969950891
+                ],
+                "new_minus_old_variance_arcsec2": -5.5532137756627784e-05
+              },
+              {
+                "offset_arcsec": [
+                  13.001356865416994,
+                  0.7120092504715098
+                ],
+                "old_njy": 198.2130584716797,
+                "new_njy": 199.44253540039062,
+                "new_to_old": 1.006202804891821,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009827082156455853,
+                  -0.010091196718037196
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001391393424487455
+              },
+              {
+                "offset_arcsec": [
+                  -2.6124688943843477,
+                  1.867432356696809
+                ],
+                "old_njy": 500.885986328125,
+                "new_njy": 495.2275390625,
+                "new_to_old": 0.9887031232254955,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00836917347497696,
+                  -0.011356936022593318
+                ],
+                "new_minus_old_variance_arcsec2": -0.00011807419404832918
+              },
+              {
+                "offset_arcsec": [
+                  -6.078738213060245,
+                  2.3046194779712463
+                ],
+                "old_njy": 225.1090850830078,
+                "new_njy": 233.99032592773438,
+                "new_to_old": 1.039453053800346,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005780453186118711,
+                  -0.01085622676418709
+                ],
+                "new_minus_old_variance_arcsec2": 0.00015741659812739013
+              },
+              {
+                "offset_arcsec": [
+                  0.5102962575759208,
+                  2.554440690128068
+                ],
+                "old_njy": 98.55560302734375,
+                "new_njy": 101.59613037109375,
+                "new_to_old": 1.0308508826525715,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0049066739360691045,
+                  -0.00329659301593049
+                ],
+                "new_minus_old_variance_arcsec2": -0.0014902192865506037
+              },
+              {
+                "offset_arcsec": [
+                  12.626625047181761,
+                  3.1789937205201215
+                ],
+                "old_njy": 102.44024658203125,
+                "new_njy": 91.86776733398438,
+                "new_to_old": 0.8967936958294929,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007326446131913602,
+                  -0.015384004045930868
+                ],
+                "new_minus_old_variance_arcsec2": 0.00032557279418562535
+              },
+              {
+                "offset_arcsec": [
+                  9.160355728505865,
+                  3.8972297054709832
+                ],
+                "old_njy": 131.18685913085938,
+                "new_njy": 129.02871704101562,
+                "new_to_old": 0.9835490985595516,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.01119933654837317,
+                  -0.011953394118886016
+                ],
+                "new_minus_old_variance_arcsec2": -8.184040946504099e-05
+              },
+              {
+                "offset_arcsec": [
+                  11.721023153113284,
+                  5.146335766255091
+                ],
+                "old_njy": 266.6142883300781,
+                "new_njy": 271.0129699707031,
+                "new_to_old": 1.0164982967273655,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008121930311515622,
+                  -0.012220680132905762
+                ],
+                "new_minus_old_variance_arcsec2": -0.000188270565626307
+              },
+              {
+                "offset_arcsec": [
+                  3.320784894340162,
+                  5.583522887529528
+                ],
+                "old_njy": 160.1722869873047,
+                "new_njy": 162.0734100341797,
+                "new_to_old": 1.0118692383222678,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00788286645937311,
+                  -0.015198896125714675
+                ],
+                "new_minus_old_variance_arcsec2": -4.832272371906466e-05
+              },
+              {
+                "offset_arcsec": [
+                  -2.924745409580374,
+                  6.426669478558801
+                ],
+                "old_njy": 143.7861785888672,
+                "new_njy": 139.79270935058594,
+                "new_to_old": 0.9722263344260653,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008509515773548094,
+                  -0.024089143396194536
+                ],
+                "new_minus_old_variance_arcsec2": -6.960018302271966e-05
+              },
+              {
+                "offset_arcsec": [
+                  10.503144743848779,
+                  6.801401296794033
+                ],
+                "old_njy": 8423.76171875,
+                "new_njy": 8506.8203125,
+                "new_to_old": 1.0098600359937917,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009376187231437787,
+                  -0.013680257791674073
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001866202297733273
+              },
+              {
+                "offset_arcsec": [
+                  5.444265197673144,
+                  8.51892213037218
+                ],
+                "old_njy": 82.07269287109375,
+                "new_njy": 84.27198791503906,
+                "new_to_old": 1.0267969158438557,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0173718847670971,
+                  -0.012456342184541929
+                ],
+                "new_minus_old_variance_arcsec2": 0.001381233766772778
+              },
+              {
+                "offset_arcsec": [
+                  -4.829632152276138,
+                  9.705572888117082
+                ],
+                "old_njy": 384.2705993652344,
+                "new_njy": 389.62677001953125,
+                "new_to_old": 1.013938538787887,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00905040332189988,
+                  -0.011161926712412576
+                ],
+                "new_minus_old_variance_arcsec2": 5.3660569487158465e-05
+              },
+              {
+                "offset_arcsec": [
+                  3.6018337580165865,
+                  9.830483494195493
+                ],
+                "old_njy": 631.6522216796875,
+                "new_njy": 625.2977905273438,
+                "new_to_old": 0.9899399844815774,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009185839876594565,
+                  -0.009118366215486735
+                ],
+                "new_minus_old_variance_arcsec2": -0.00500654853184785
+              },
+              {
+                "offset_arcsec": [
+                  1.1036216364483717,
+                  11.89150849448927
+                ],
+                "old_njy": 38714.609375,
+                "new_njy": 39495.03125,
+                "new_to_old": 1.0201583300877617,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009610796248996446,
+                  -0.010742176851551877
+                ],
+                "new_minus_old_variance_arcsec2": -9.47225527444806e-05
+              },
+              {
+                "offset_arcsec": [
+                  4.444980349045859,
+                  12.141329706646092
+                ],
+                "old_njy": 109.5792236328125,
+                "new_njy": 105.54318237304688,
+                "new_to_old": 0.9631678239180637,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.010016596283236742,
+                  -0.006256029302570888
+                ],
+                "new_minus_old_variance_arcsec2": -0.0025185880417878176
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.00905040332189988,
+              -0.01157272929513051
+            ],
+            "held_out_reference_radius68_arcsec": 0.0037163230343955924,
+            "matched_variance_arcsec2": -9.47225527444806e-05,
+            "new_to_old_scale": 1.0098600359937917,
+            "method": "local_shift_gain_and_core_width"
+          },
+          "change": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 2.9443130493164062,
+              "local_mad_sigma_njy": 1.8975805566787718,
+              "control_median_njy": -0.07648849487304688,
+              "control_count": 339
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 5.209484100341797,
+              "local_mad_sigma_njy": 3.060736994361877,
+              "control_median_njy": 0.11098909378051758,
+              "control_count": 339
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -1.3004608154296875,
+              "local_mad_sigma_njy": 4.720604431772232,
+              "control_median_njy": 0.1796560287475586,
+              "control_count": 339
+            }
+          ],
+          "core": {
+            "amplitude_njy_per_pixel": 0.6048340187330783,
+            "offset_xy_arcsec": [
+              -0.04227632301330976,
+              0.11881212746161145
+            ],
+            "core_sigma_arcsec": 0.05153093785903355,
+            "background_njy_per_pixel": -0.2502240362129859,
+            "icrs_deg": [
+              53.18767246972913,
+              -27.794281837161332
+            ]
+          },
+          "before": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 1270.3482666015625,
+            "local_mad_sigma_njy": 4.529694810962677,
+            "control_median_njy": -0.3552067279815674,
+            "control_count": 339
+          },
+          "after": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 1261.1026611328125,
+            "local_mad_sigma_njy": 4.630718158864974,
+            "control_median_njy": -0.2613716125488281,
+            "control_count": 339
+          },
+          "products": [
+            {
+              "filename": "jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+              "etag": "\"59028259764f163236e97f0114061b55-24\"",
+              "object_bytes": 1214150400,
+              "science_array_shape": [
+                4386,
+                9884
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                2320,
+                3379,
+                1960,
+                3019
+              ],
+              "date_utc": "2025-11-18T10:51:11.197",
+              "exposure_start_mjd": 60997.452213668985,
+              "filter": "F200W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.031227651519602682,
+              "header_pixel_area_sr": 2.29207266686611e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-0-23039.bytes",
+                  "sha256": "7ad2ac0974d333376e825a19753db898c238a567d6c3b8af295a14582b2222d2",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-23040-46079.bytes",
+                  "sha256": "0e9818d0604bcaabdce60d815ccfed926994a1071ea57a552ba909b6079216c4",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-173442240-173465279.bytes",
+                  "sha256": "3b4e4c30a4a3cc39ea90872b39f45c87f94592ef14c039cf457d33e25e44bcc9",
+                  "first_byte": 173442240,
+                  "last_byte": 173465279
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-346852800-346875839.bytes",
+                  "sha256": "55a1a753c02fbd2eb94de9feb3dd66026a2280ae610bae79ab40b87a929da858",
+                  "first_byte": 346852800,
+                  "last_byte": 346875839
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-520263360-520286399.bytes",
+                  "sha256": "aff2cd49701d0a9b39ac1d9278a4bfbee736153ee0e9afb46ff9c1b0937648d5",
+                  "first_byte": 520263360,
+                  "last_byte": 520286399
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-77525120-119393743.bytes",
+                  "sha256": "af74b8da75248af58f7995f24ae63edee90b165670c72ee5ae9b2c0f366b5807",
+                  "first_byte": 77525120,
+                  "last_byte": 119393743
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-597756800-639625423.bytes",
+                  "sha256": "251aeccdb8b24eb256011dcf1844dbc83efb5220998fdaa5a254f506b9bfa2a7",
+                  "first_byte": 597756800,
+                  "last_byte": 639625423
+                }
+              ]
+            },
+            {
+              "filename": "jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+              "etag": "\"0c9e43dc648cde25fbc090f16b79c4ce-24\"",
+              "object_bytes": 1214291520,
+              "science_array_shape": [
+                4387,
+                9883
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                1043,
+                2102,
+                2735,
+                3794
+              ],
+              "date_utc": "2026-11-24T18:20:12.636",
+              "exposure_start_mjd": 61368.76403587963,
+              "filter": "F200W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.031227427490781966,
+              "header_pixel_area_sr": 2.29203978008342e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-0-23039.bytes",
+                  "sha256": "d39d3766169ab32c5bc7a6a4f7afd07e30bff4ff9baeb4d7c6200ffa68a51589",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-23040-46079.bytes",
+                  "sha256": "a9d8fed7d6926d7806a1974abb9a0d13c6a0ac8c4ea79871079f0795f6010eb7",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-173462400-173485439.bytes",
+                  "sha256": "8e7f44b7d1a7230ff24d99921d9c7768bec06065874c8489b67e5da349cdaea5",
+                  "first_byte": 173462400,
+                  "last_byte": 173485439
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-346893120-346916159.bytes",
+                  "sha256": "3dc874d45e524de9be8c4008bf705de270312d014a98ecbe182d0e8f73eab625",
+                  "first_byte": 346893120,
+                  "last_byte": 346916159
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-520323840-520346879.bytes",
+                  "sha256": "c2df6d0ba872b8025c387285a4a6b56acfde7fe7f471432208db8dc642c2056e",
+                  "first_byte": 520323840,
+                  "last_byte": 520346879
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-108154580-150018967.bytes",
+                  "sha256": "bc2beac43434143fb7acd4f7e7118b6cb79827832918db4c0221fa20a19f30b4",
+                  "first_byte": 108154580,
+                  "last_byte": 150018967
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-628446740-670311127.bytes",
+                  "sha256": "b4e49520509faf03420929ef002d98d781241b067e77ed800b3575467d984527",
+                  "first_byte": 628446740,
+                  "last_byte": 670311127
+                }
+              ]
+            }
+          ]
+        },
+        "F277W": {
+          "alignment": {
+            "reference_count": 20,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  0.9331322825730598,
+                  -13.656283533625592
+                ],
+                "old_njy": 2023.7962646484375,
+                "new_njy": 1990.57421875,
+                "new_to_old": 0.9835842933012782,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007455187673336364,
+                  -0.011161786943993796
+                ],
+                "new_minus_old_variance_arcsec2": 0.0013608369312050877
+              },
+              {
+                "offset_arcsec": [
+                  -5.923528279032957,
+                  -12.64980124935315
+                ],
+                "old_njy": 114.10250091552734,
+                "new_njy": 108.06271362304688,
+                "new_to_old": 0.9470670034046681,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01084730797250524,
+                  -0.01046120465861447
+                ],
+                "new_minus_old_variance_arcsec2": -0.0024545210552095933
+              },
+              {
+                "offset_arcsec": [
+                  4.45582027752661,
+                  -12.64980124935315
+                ],
+                "old_njy": 349.31878662109375,
+                "new_njy": 351.5056457519531,
+                "new_to_old": 1.0062603536214372,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0073484518261893485,
+                  -0.0078060954838295015
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005310217453362853
+              },
+              {
+                "offset_arcsec": [
+                  4.267104849225526,
+                  -7.554484685223907
+                ],
+                "old_njy": 83.50843811035156,
+                "new_njy": 79.05818176269531,
+                "new_to_old": 0.9467089021378235,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.001975145128544853,
+                  -0.005664480514273155
+                ],
+                "new_minus_old_variance_arcsec2": -0.0009203467270151979
+              },
+              {
+                "offset_arcsec": [
+                  -0.8911168576707428,
+                  -5.478614973911994
+                ],
+                "old_njy": 475.5512390136719,
+                "new_njy": 474.88677978515625,
+                "new_to_old": 0.9986027599677928,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004002873045993759,
+                  -0.0041935896513501545
+                ],
+                "new_minus_old_variance_arcsec2": -0.001480367351695681
+              },
+              {
+                "offset_arcsec": [
+                  4.581630563060665,
+                  -2.144642407259527
+                ],
+                "old_njy": 114.63127136230469,
+                "new_njy": 114.0635757446289,
+                "new_to_old": 0.9950476374297419,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009379667677694973,
+                  -0.009117255291229677
+                ],
+                "new_minus_old_variance_arcsec2": -0.0017733330653594021
+              },
+              {
+                "offset_arcsec": [
+                  5.336492276264997,
+                  -0.9494446946860015
+                ],
+                "old_njy": 126.16779327392578,
+                "new_njy": 128.04635620117188,
+                "new_to_old": 1.0148894014748082,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004792020247019729,
+                  -0.012241722847889961
+                ],
+                "new_minus_old_variance_arcsec2": -0.00045767050327566536
+              },
+              {
+                "offset_arcsec": [
+                  13.010919693842373,
+                  0.6231838744896905
+                ],
+                "old_njy": 267.9339599609375,
+                "new_njy": 279.6716003417969,
+                "new_to_old": 1.0438079606727368,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00715310019854289,
+                  -0.008438093440450281
+                ],
+                "new_minus_old_variance_arcsec2": 0.0011969510501068682
+              },
+              {
+                "offset_arcsec": [
+                  -2.58955571238049,
+                  1.881286729830244
+                ],
+                "old_njy": 877.7180786132812,
+                "new_njy": 853.7078857421875,
+                "new_to_old": 0.9726447552396007,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007525308392919001,
+                  -0.0068626679894308665
+                ],
+                "new_minus_old_variance_arcsec2": -0.00018402905733480232
+              },
+              {
+                "offset_arcsec": [
+                  -6.049338564567012,
+                  2.3845278719664655
+                ],
+                "old_njy": 212.08572387695312,
+                "new_njy": 213.4931182861328,
+                "new_to_old": 1.0066359695667033,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005402475638974401,
+                  -0.006863993660505198
+                ],
+                "new_minus_old_variance_arcsec2": -8.747017659384293e-06
+              },
+              {
+                "offset_arcsec": [
+                  0.5557014259708937,
+                  2.5103381575005206
+                ],
+                "old_njy": 100.0363540649414,
+                "new_njy": 100.60279846191406,
+                "new_to_old": 1.0056623854624382,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005249050869568075,
+                  -0.009678128598022426
+                ],
+                "new_minus_old_variance_arcsec2": -0.0012144678181944257
+              },
+              {
+                "offset_arcsec": [
+                  12.633488837240208,
+                  3.07648444240377
+                ],
+                "old_njy": 105.09390258789062,
+                "new_njy": 107.15023803710938,
+                "new_to_old": 1.0195666484789545,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005169023721716782,
+                  -0.008622655956476998
+                ],
+                "new_minus_old_variance_arcsec2": 0.0003786386812204374
+              },
+              {
+                "offset_arcsec": [
+                  9.173705985053685,
+                  3.831346155608102
+                ],
+                "old_njy": 135.3136444091797,
+                "new_njy": 134.2016143798828,
+                "new_to_old": 0.9917818337230341,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006603904585325497,
+                  -0.005863261866275187
+                ],
+                "new_minus_old_variance_arcsec2": 0.000257249361355719
+              },
+              {
+                "offset_arcsec": [
+                  11.75281683850182,
+                  5.089449010948655
+                ],
+                "old_njy": 283.8270263671875,
+                "new_njy": 273.30291748046875,
+                "new_to_old": 0.9629206949689714,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005600716128958018,
+                  -0.011218466810355689
+                ],
+                "new_minus_old_variance_arcsec2": 0.0006351486101786354
+              },
+              {
+                "offset_arcsec": [
+                  3.386432850487139,
+                  5.5926901530848765
+                ],
+                "old_njy": 232.775390625,
+                "new_njy": 232.8096160888672,
+                "new_to_old": 1.0001470321401902,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005172230117956424,
+                  -0.00884571736560362
+                ],
+                "new_minus_old_variance_arcsec2": 0.0004904919753171925
+              },
+              {
+                "offset_arcsec": [
+                  -2.8411762834486005,
+                  6.473362151823264
+                ],
+                "old_njy": 85.71299743652344,
+                "new_njy": 85.38790893554688,
+                "new_to_old": 0.9962072438171665,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.010978825596092217,
+                  -0.019994840263441067
+                ],
+                "new_minus_old_variance_arcsec2": 0.00042296498064482496
+              },
+              {
+                "offset_arcsec": [
+                  10.557619125928294,
+                  6.724982722891375
+                ],
+                "old_njy": 9851.6123046875,
+                "new_njy": 10031.66796875,
+                "new_to_old": 1.0182767712018903,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008533907995870527,
+                  -0.010836666129609998
+                ],
+                "new_minus_old_variance_arcsec2": -0.00018038867936789795
+              },
+              {
+                "offset_arcsec": [
+                  -4.728330566459431,
+                  9.744429575708704
+                ],
+                "old_njy": 422.5767822265625,
+                "new_njy": 430.6760559082031,
+                "new_to_old": 1.0191663953683527,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008989183516399423,
+                  -0.0061422904807416304
+                ],
+                "new_minus_old_variance_arcsec2": -5.3867956681426764e-05
+              },
+              {
+                "offset_arcsec": [
+                  3.7009585643222773,
+                  9.807334718475731
+                ],
+                "old_njy": 634.3924560546875,
+                "new_njy": 612.51806640625,
+                "new_to_old": 0.9655191523170449,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.011515820131899576,
+                  -0.015511286361188849
+                ],
+                "new_minus_old_variance_arcsec2": -0.0026223528003541732
+              },
+              {
+                "offset_arcsec": [
+                  1.1847528536411704,
+                  11.883204429787645
+                ],
+                "old_njy": 26525.91015625,
+                "new_njy": 26372.8359375,
+                "new_to_old": 0.9942292566834344,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008762940541526404,
+                  -0.008897554866569766
+                ],
+                "new_minus_old_variance_arcsec2": -0.00044874734134714867
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.006878502391934193,
+              -0.008871636116086693
+            ],
+            "held_out_reference_radius68_arcsec": 0.004096782681190279,
+            "matched_variance_arcsec2": -0.00011712831802466236,
+            "new_to_old_scale": 0.9962072438171665,
+            "method": "local_shift_gain_and_core_width"
+          },
+          "change": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -6.213096618652344,
+              "local_mad_sigma_njy": 1.5707096855163574,
+              "control_median_njy": -0.05313396453857422,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -1.9306755065917969,
+              "local_mad_sigma_njy": 2.762725594139099,
+              "control_median_njy": -0.05220603942871094,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 3.1490554809570312,
+              "local_mad_sigma_njy": 4.038989779472351,
+              "control_median_njy": -0.3235893249511719,
+              "control_count": 329
+            }
+          ],
+          "core": {
+            "amplitude_njy_per_pixel": 10.89268889413204,
+            "offset_xy_arcsec": [
+              -0.1493542992339875,
+              0.0864862672011046
+            ],
+            "core_sigma_arcsec": 0.03889571194779491,
+            "background_njy_per_pixel": -0.7746465447679992,
+            "icrs_deg": [
+              53.18770719108982,
+              -27.794288218641906
+            ]
+          },
+          "before": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 1403.391357421875,
+            "local_mad_sigma_njy": 4.232186765384673,
+            "control_median_njy": 0.14109230041503906,
+            "control_count": 329
+          },
+          "after": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 1420.2686767578125,
+            "local_mad_sigma_njy": 3.727091588115692,
+            "control_median_njy": 0.17025089263916016,
+            "control_count": 329
+          },
+          "products": [
+            {
+              "filename": "jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+              "etag": "\"08b123d99e3245fbec37dd706d5a18c1-6\"",
+              "object_bytes": 287691840,
+              "science_array_shape": [
+                2109,
+                4868
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                1131,
+                1658,
+                945,
+                1472
+              ],
+              "date_utc": "2025-11-18T10:51:11.197",
+              "exposure_start_mjd": 60997.452213668985,
+              "filter": "F277W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.06290514276702767,
+              "header_pixel_area_sr": 9.30083710793845e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-0-23039.bytes",
+                  "sha256": "8edfad025ae55f833326e0fac01a3e3d736a643122f7a552f012899f2920242e",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-23040-46079.bytes",
+                  "sha256": "bef012c5cb312b71486b6d96eda5f78b4c9f48d1b647324dc78102fe1b5cabc8",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-41100480-41123519.bytes",
+                  "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+                  "first_byte": 41100480,
+                  "last_byte": 41123519
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-82172160-82195199.bytes",
+                  "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+                  "first_byte": 82172160,
+                  "last_byte": 82195199
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-123243840-123266879.bytes",
+                  "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+                  "first_byte": 123243840,
+                  "last_byte": 123266879
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-18432720-28694463.bytes",
+                  "sha256": "51f7c6b8bac2f3af0eafa42d9e98cf11688fedf8019c8aedf561f479c3e73f13",
+                  "first_byte": 18432720,
+                  "last_byte": 28694463
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-141647760-151909503.bytes",
+                  "sha256": "a7b63ce0805ccb337521cfd5847f7f011f67f00eba05250a0e696bc6bb450019",
+                  "first_byte": 141647760,
+                  "last_byte": 151909503
+                }
+              ]
+            },
+            {
+              "filename": "jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+              "etag": "\"3e4b9eedcff4975c153b445514e1824d-6\"",
+              "object_bytes": 287691840,
+              "science_array_shape": [
+                2109,
+                4868
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                501,
+                1028,
+                1335,
+                1862
+              ],
+              "date_utc": "2026-11-24T18:20:12.636",
+              "exposure_start_mjd": 61368.76403587963,
+              "filter": "F277W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.06290469162331667,
+              "header_pixel_area_sr": 9.30070370074993e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-0-23039.bytes",
+                  "sha256": "b2e487acdb6b49fd5dacddf9400c0d9fe355501d65c1c39bcd51cbb58797ac41",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-23040-46079.bytes",
+                  "sha256": "f2e18ba7bfe6a47abe56994f854a1ad59dca48113a7785880fe977337b2b4f41",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-41100480-41123519.bytes",
+                  "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+                  "first_byte": 41100480,
+                  "last_byte": 41123519
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-82172160-82195199.bytes",
+                  "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+                  "first_byte": 82172160,
+                  "last_byte": 82195199
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-123243840-123266879.bytes",
+                  "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+                  "first_byte": 123243840,
+                  "last_byte": 123266879
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-26026800-36288543.bytes",
+                  "sha256": "4ee7e23d5263380ba8e62d34dc03b2fafaffb857c810427a3ab4465c50255b30",
+                  "first_byte": 26026800,
+                  "last_byte": 36288543
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-149241840-159503583.bytes",
+                  "sha256": "e653d99d5c9bec5560d2be16b675b57c35622235d5c93180df4da15946405100",
+                  "first_byte": 149241840,
+                  "last_byte": 159503583
+                }
+              ]
+            }
+          ]
+        },
+        "F356W": {
+          "alignment": {
+            "reference_count": 19,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  0.9620976038819347,
+                  -13.661810280563781
+                ],
+                "old_njy": 1610.7451171875,
+                "new_njy": 1608.7371826171875,
+                "new_to_old": 0.9987534125983765,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01844308031540205,
+                  -0.005825468333689717
+                ],
+                "new_minus_old_variance_arcsec2": -0.0008420606733288549
+              },
+              {
+                "offset_arcsec": [
+                  -5.894525056805877,
+                  -12.655333559728874
+                ],
+                "old_njy": 77.91120910644531,
+                "new_njy": 71.02153015136719,
+                "new_to_old": 0.9115701189328845,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.027035430585814618,
+                  -0.00224339772206137
+                ],
+                "new_minus_old_variance_arcsec2": -0.005409469548276957
+              },
+              {
+                "offset_arcsec": [
+                  4.4847661268041135,
+                  -12.655333559728874
+                ],
+                "old_njy": 327.89300537109375,
+                "new_njy": 330.65985107421875,
+                "new_to_old": 1.0084382577786117,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.019762603631660304,
+                  -0.001147798536744119
+                ],
+                "new_minus_old_variance_arcsec2": -0.00029433360636974774
+              },
+              {
+                "offset_arcsec": [
+                  4.233146946595386,
+                  -7.560045160502151
+                ],
+                "old_njy": 75.55207824707031,
+                "new_njy": 79.49202728271484,
+                "new_to_old": 1.0521487843492552,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.014012906361696423,
+                  -0.0011462849597421742
+                ],
+                "new_minus_old_variance_arcsec2": 0.0018864568767357351
+              },
+              {
+                "offset_arcsec": [
+                  -0.9250462476835182,
+                  -5.484186923780153
+                ],
+                "old_njy": 305.4332275390625,
+                "new_njy": 312.3853759765625,
+                "new_to_old": 1.0227615983156608,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.015437902530984812,
+                  0.0007506706715749351
+                ],
+                "new_minus_old_variance_arcsec2": 0.0009955681648654464
+              },
+              {
+                "offset_arcsec": [
+                  4.5476709218562945,
+                  -2.15023278601452
+                ],
+                "old_njy": 109.04391479492188,
+                "new_njy": 106.2082290649414,
+                "new_to_old": 0.9739950116857642,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.013219506575536633,
+                  3.7533915178359495e-05
+                ],
+                "new_minus_old_variance_arcsec2": 4.894660480529722e-06
+              },
+              {
+                "offset_arcsec": [
+                  5.302528462482476,
+                  -0.9550416800230666
+                ],
+                "old_njy": 132.75613403320312,
+                "new_njy": 138.1790771484375,
+                "new_to_old": 1.0408489080728884,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.010867825599632478,
+                  -0.0020429401582071557
+                ],
+                "new_minus_old_variance_arcsec2": -5.0053884104989295e-05
+              },
+              {
+                "offset_arcsec": [
+                  13.039818253900831,
+                  0.5546734012292956
+                ],
+                "old_njy": 338.3310546875,
+                "new_njy": 331.2381286621094,
+                "new_to_old": 0.979035545430667,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01793030557269043,
+                  -0.008110512134164829
+                ],
+                "new_minus_old_variance_arcsec2": 0.0008907633060607906
+              },
+              {
+                "offset_arcsec": [
+                  -2.5605709190402437,
+                  1.8756740973251127
+                ],
+                "old_njy": 1027.7847900390625,
+                "new_njy": 1003.2528076171875,
+                "new_to_old": 0.9761312069806534,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.016071955974651962,
+                  -0.0016299767245503312
+                ],
+                "new_minus_old_variance_arcsec2": 6.995291107561065e-05
+              },
+              {
+                "offset_arcsec": [
+                  -6.020334646910241,
+                  2.3789124577425667
+                ],
+                "old_njy": 218.25894165039062,
+                "new_njy": 215.46469116210938,
+                "new_to_old": 0.9871975440403394,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.016067679065375613,
+                  -0.0010239526996436328
+                ],
+                "new_minus_old_variance_arcsec2": -0.00019000739719155727
+              },
+              {
+                "offset_arcsec": [
+                  0.584668833568844,
+                  2.50472204784693
+                ],
+                "old_njy": 106.83553314208984,
+                "new_njy": 110.61713409423828,
+                "new_to_old": 1.035396471950198,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.027927315571199783,
+                  0.005286730986610148
+                ],
+                "new_minus_old_variance_arcsec2": -0.0015865520453980254
+              },
+              {
+                "offset_arcsec": [
+                  12.662389483587742,
+                  3.070865203316566
+                ],
+                "old_njy": 95.89452362060547,
+                "new_njy": 96.73793029785156,
+                "new_to_old": 1.0087951495601868,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.013655589129760655,
+                  -0.0005222196731550256
+                ],
+                "new_minus_old_variance_arcsec2": 5.16748570130697e-05
+              },
+              {
+                "offset_arcsec": [
+                  9.202625755717746,
+                  3.8257227439427473
+                ],
+                "old_njy": 131.80780029296875,
+                "new_njy": 131.28016662597656,
+                "new_to_old": 0.9959969465705412,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.015678589102333676,
+                  -0.0019376348097936182
+                ],
+                "new_minus_old_variance_arcsec2": -4.3344052372817736e-05
+              },
+              {
+                "offset_arcsec": [
+                  11.781722352857198,
+                  5.0838186449863825
+                ],
+                "old_njy": 191.61378479003906,
+                "new_njy": 190.48983764648438,
+                "new_to_old": 0.9941343095707532,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0181799116138266,
+                  -0.008166950907651214
+                ],
+                "new_minus_old_variance_arcsec2": 0.0020402005231739562
+              },
+              {
+                "offset_arcsec": [
+                  3.415384610917023,
+                  5.587057005403836
+                ],
+                "old_njy": 177.93588256835938,
+                "new_njy": 169.2978515625,
+                "new_to_old": 0.9514542492431743,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.012572333494103395,
+                  0.00313098278664959
+                ],
+                "new_minus_old_variance_arcsec2": -0.00029813950275066337
+              },
+              {
+                "offset_arcsec": [
+                  10.586531246865743,
+                  6.719343316343108
+                ],
+                "old_njy": 9194.462890625,
+                "new_njy": 9213.86328125,
+                "new_to_old": 1.00211000804025,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01619153949151488,
+                  -0.004775390744944214
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001693870675704614
+              },
+              {
+                "offset_arcsec": [
+                  -4.699333950814424,
+                  9.738773478847833
+                ],
+                "old_njy": 414.3746643066406,
+                "new_njy": 417.1650695800781,
+                "new_to_old": 1.0067340151650115,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01810608342200606,
+                  -0.0017722956468207308
+                ],
+                "new_minus_old_variance_arcsec2": -3.068391254019455e-05
+              },
+              {
+                "offset_arcsec": [
+                  3.729908586177932,
+                  9.738773478847833
+                ],
+                "old_njy": 519.0844116210938,
+                "new_njy": 512.0656127929688,
+                "new_to_old": 0.9864785020104815,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01259508014213564,
+                  -0.007835726887155708
+                ],
+                "new_minus_old_variance_arcsec2": 0.001449336920444435
+              },
+              {
+                "offset_arcsec": [
+                  1.2137167840906617,
+                  11.877536510622011
+                ],
+                "old_njy": 16919.705078125,
+                "new_njy": 16546.72265625,
+                "new_to_old": 0.9779557373989208,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.017102419976807566,
+                  -0.0021948911817015297
+                ],
+                "new_minus_old_variance_arcsec2": 0.00030432490051808883
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.016071955974651962,
+              -0.0017722956468207308
+            ],
+            "held_out_reference_radius68_arcsec": 0.005479269968155301,
+            "matched_variance_arcsec2": -3.068391254019455e-05,
+            "new_to_old_scale": 0.9950656280706471,
+            "method": "local_shift_gain_and_core_width"
+          },
+          "change": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -6.495637893676758,
+              "local_mad_sigma_njy": 1.5680826267242431,
+              "control_median_njy": 0.10941791534423828,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -16.37495994567871,
+              "local_mad_sigma_njy": 2.558065271759033,
+              "control_median_njy": 0.2537655830383301,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -24.14301109313965,
+              "local_mad_sigma_njy": 4.00432547006607,
+              "control_median_njy": 0.3430972099304199,
+              "control_count": 329
+            }
+          ],
+          "core": {
+            "amplitude_njy_per_pixel": 25.212364037741178,
+            "offset_xy_arcsec": [
+              -0.013449738685609428,
+              0.07825248474035323
+            ],
+            "core_sigma_arcsec": 0.016533170154235458,
+            "background_njy_per_pixel": -0.48408475222869185,
+            "icrs_deg": [
+              53.18766491378739,
+              -27.79429384360967
+            ]
+          },
+          "before": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 1051.9901123046875,
+            "local_mad_sigma_njy": 3.7198982826232907,
+            "control_median_njy": -0.15688514709472656,
+            "control_count": 329
+          },
+          "after": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 1030.639404296875,
+            "local_mad_sigma_njy": 3.34393548746109,
+            "control_median_njy": 0.21042156219482422,
+            "control_count": 329
+          },
+          "products": [
+            {
+              "filename": "jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+              "etag": "\"bfb5e6b4e714cf46caa4e09cc01f708f-6\"",
+              "object_bytes": 287752320,
+              "science_array_shape": [
+                2109,
+                4869
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                1132,
+                1659,
+                945,
+                1472
+              ],
+              "date_utc": "2025-11-18T12:07:14.329",
+              "exposure_start_mjd": 60997.50502769676,
+              "filter": "F356W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.06290479505218176,
+              "header_pixel_area_sr": 9.30073428549626e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-0-23039.bytes",
+                  "sha256": "fb5ec58abc2d7b121e3f58e20c1b35a57523229e25ee20c76438ccf424911d12",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-23040-46079.bytes",
+                  "sha256": "f74d2b66a8da352c5ffb342b37d8723062e68f6669114e1c0043b67cb9d1c7c8",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-41109120-41132159.bytes",
+                  "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+                  "first_byte": 41109120,
+                  "last_byte": 41132159
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-82189440-82212479.bytes",
+                  "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+                  "first_byte": 82189440,
+                  "last_byte": 82212479
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-123269760-123292799.bytes",
+                  "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+                  "first_byte": 123269760,
+                  "last_byte": 123292799
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-18436500-28700351.bytes",
+                  "sha256": "de0be282c6ecd0e2da8f57e737871175227f114791fe19a5a16435c26ef520b3",
+                  "first_byte": 18436500,
+                  "last_byte": 28700351
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-141677460-151941311.bytes",
+                  "sha256": "d4ee16e47649e108af4505c574707e4eeb6ff4ec58a7ea6f003c0e9e2ab77910",
+                  "first_byte": 141677460,
+                  "last_byte": 151941311
+                }
+              ]
+            },
+            {
+              "filename": "jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+              "etag": "\"a965285bd1a13e1df9edf49484c758cc-6\"",
+              "object_bytes": 287752320,
+              "science_array_shape": [
+                2109,
+                4869
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                502,
+                1029,
+                1335,
+                1862
+              ],
+              "date_utc": "2026-11-24T19:37:09.463",
+              "exposure_start_mjd": 61368.817470636575,
+              "filter": "F356W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.06290434400998139,
+              "header_pixel_area_sr": 9.30060090906242e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-0-23039.bytes",
+                  "sha256": "662ae0ae1f78986a866903d94262ea7c382eaf97d1895277fd6f09c9dd80baf8",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-23040-46079.bytes",
+                  "sha256": "5899327b54016b0b47cfad9f43e1abf3487c26d5fa42ece48117f0909e63de5d",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-41109120-41132159.bytes",
+                  "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+                  "first_byte": 41109120,
+                  "last_byte": 41132159
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-82189440-82212479.bytes",
+                  "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+                  "first_byte": 82189440,
+                  "last_byte": 82212479
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-123269760-123292799.bytes",
+                  "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+                  "first_byte": 123269760,
+                  "last_byte": 123292799
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-26032140-36295991.bytes",
+                  "sha256": "5aabfe385b05527614e4145709483b98ca1e08139d417aafdddf02ca9c0208d8",
+                  "first_byte": 26032140,
+                  "last_byte": 36295991
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-149273100-159536951.bytes",
+                  "sha256": "f614ea9bc097bf9eb9fe63ef9be6b4f88cb57cf7eb23c90db05d74119a681d2e",
+                  "first_byte": 149273100,
+                  "last_byte": 159536951
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "candidate": "GSN-53.184076-27.806633",
+      "icrs_deg": [
+        53.18407594926286,
+        -27.806633191783202
+      ],
+      "sign": 1,
+      "catalogue_bands": 2,
+      "catalogue_rank": 6.1865580340090345,
+      "older": "08060-004",
+      "newer": "12577-004",
+      "prior_project_sources_within_1arcsec": {},
+      "plan_matches_within_1arcsec": [],
+      "tns": {
+        "url": "https://www.wis-tns.org/sites/default/files/tns_public_objects/tns_public_objects.csv.zip",
+        "path": "data/raw/cross_detector/tns_public_objects_snapshot_20261125.csv.zip",
+        "sha256": "27a26b5a2a9fac4a2de94f872c2519b2e5bd80c72cb62207e2d3647e09b1100a",
+        "snapshot_label_utc": "2026-11-25 00:00:00",
+        "catalogue_rows": 213805,
+        "radius_arcsec": 5,
+        "matches": 0,
+        "nearest": [
+          {
+            "objid": 152827,
+            "name_prefix": "AT",
+            "name": "2022aewg",
+            "ra": 53.186467,
+            "declination": -27.803368,
+            "type": null,
+            "discoverydate": "2022-09-29 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 14.0051662778
+          },
+          {
+            "objid": 152803,
+            "name_prefix": "AT",
+            "name": "2022aevi",
+            "ra": 53.172492,
+            "declination": -27.813742,
+            "type": null,
+            "discoverydate": "2022-09-29 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 44.8940738263
+          },
+          {
+            "objid": 152800,
+            "name_prefix": "AT",
+            "name": "2023adub",
+            "ra": 53.176172,
+            "declination": -27.796242,
+            "type": null,
+            "discoverydate": "2023-09-28 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 45.08764036
+          }
+        ]
+      },
+      "image_basename": "november_goods_s_prior_visits_GSN-53p184076-27p806633",
+      "bands": {
+        "F150W": {
+          "alignment": {
+            "reference_count": 10,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.389727780400238,
+                  -12.686852655186053
+                ],
+                "old_njy": 1229.9061279296875,
+                "new_njy": 1201.392578125,
+                "new_to_old": 0.9768164828541146,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.006321817195080077,
+                  0.0073991733765985945
+                ],
+                "new_minus_old_variance_arcsec2": 4.9259741558525805e-05
+              },
+              {
+                "offset_arcsec": [
+                  1.8555153259269497,
+                  -6.597740626517044
+                ],
+                "old_njy": 247.1033935546875,
+                "new_njy": 231.96270751953125,
+                "new_to_old": 0.9387273245528884,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.009184875084151127,
+                  0.006333091837018263
+                ],
+                "new_minus_old_variance_arcsec2": 4.2969486345367965e-06
+              },
+              {
+                "offset_arcsec": [
+                  2.0116464035851296,
+                  -6.160573609074142
+                ],
+                "old_njy": 89.42681884765625,
+                "new_njy": 86.45625305175781,
+                "new_to_old": 0.9667821596007014,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.007846443459628335,
+                  0.007495348773994155
+                ],
+                "new_minus_old_variance_arcsec2": -7.1819617735199674e-06
+              },
+              {
+                "offset_arcsec": [
+                  -5.951038556982035,
+                  -5.379918220783243
+                ],
+                "old_njy": 509.48162841796875,
+                "new_njy": 498.511962890625,
+                "new_to_old": 0.9784689674455848,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004346972591198721,
+                  0.0063984640159909624
+                ],
+                "new_minus_old_variance_arcsec2": 0.00024033751285219233
+              },
+              {
+                "offset_arcsec": [
+                  -11.321947628423416,
+                  -1.78890343464511
+                ],
+                "old_njy": 239.5521240234375,
+                "new_njy": 222.84457397460938,
+                "new_to_old": 0.9302550536049787,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004794660560585686,
+                  0.005754652643970298
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001028073854353424
+              },
+              {
+                "offset_arcsec": [
+                  3.2294688093189308,
+                  0.4906102991643134
+                ],
+                "old_njy": 186.2337188720703,
+                "new_njy": 181.17413330078125,
+                "new_to_old": 0.9728320649883782,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.011162505564868936,
+                  0.008228032795775175
+                ],
+                "new_minus_old_variance_arcsec2": -0.00011288469742410344
+              },
+              {
+                "offset_arcsec": [
+                  -1.1734275806417362,
+                  2.832576464037009
+                ],
+                "old_njy": 117.956298828125,
+                "new_njy": 110.71693420410156,
+                "new_to_old": 0.9386267228122174,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003400736941173259,
+                  0.007321016245865997
+                ],
+                "new_minus_old_variance_arcsec2": 0.00016487677395205565
+              },
+              {
+                "offset_arcsec": [
+                  5.790018482913078,
+                  3.3634221280748196
+                ],
+                "old_njy": 86.494140625,
+                "new_njy": 85.18710327148438,
+                "new_to_old": 0.984888717963193,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004475763370445723,
+                  0.023117379317034108
+                ],
+                "new_minus_old_variance_arcsec2": 0.003317071312585013
+              },
+              {
+                "offset_arcsec": [
+                  -3.858882116362427,
+                  4.268982378492262
+                ],
+                "old_njy": 11688.419921875,
+                "new_njy": 11498.89453125,
+                "new_to_old": 0.9837852000619604,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.007470335170913124,
+                  0.005315283315344999
+                ],
+                "new_minus_old_variance_arcsec2": -0.00014858204559947685
+              },
+              {
+                "offset_arcsec": [
+                  -1.5481421670213675,
+                  4.8935066891249805
+                ],
+                "old_njy": 278.59808349609375,
+                "new_njy": 268.9509582519531,
+                "new_to_old": 0.965372607294781,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.007565581776506949,
+                  0.0075389478562938195
+                ],
+                "new_minus_old_variance_arcsec2": 9.082474435032203e-05
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.0068960761829966,
+              0.007360094811232296
+            ],
+            "held_out_reference_radius68_arcsec": 0.003374628946063907,
+            "matched_variance_arcsec2": 2.67783450965313e-05,
+            "new_to_old_scale": 0.9667821596007014,
+            "method": "local_shift_gain_and_core_width"
+          },
+          "change": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 6.301445484161377,
+              "local_mad_sigma_njy": 2.7693720670223234,
+              "control_median_njy": -0.31110477447509766,
+              "control_count": 339
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 14.992973327636719,
+              "local_mad_sigma_njy": 4.195077792549133,
+              "control_median_njy": -0.07848882675170898,
+              "control_count": 339
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 25.324888229370117,
+              "local_mad_sigma_njy": 6.822543085956573,
+              "control_median_njy": 0.023315906524658203,
+              "control_count": 339
+            }
+          ],
+          "core": null,
+          "before": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 83.5909423828125,
+            "local_mad_sigma_njy": 5.091543224430084,
+            "control_median_njy": -0.6517887115478516,
+            "control_count": 339
+          },
+          "after": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 107.97636413574219,
+            "local_mad_sigma_njy": 5.766960322666168,
+            "control_median_njy": -0.12633132934570312,
+            "control_count": 339
+          },
+          "products": [
+            {
+              "filename": "jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+              "etag": "\"c8a305ed281612235a47f60bdc421c72-24\"",
+              "object_bytes": 1212275520,
+              "science_array_shape": [
+                4381,
+                9880
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                2819,
+                3878,
+                578,
+                1637
+              ],
+              "date_utc": "2025-11-18T12:07:14.329",
+              "exposure_start_mjd": 60997.50502769676,
+              "filter": "F150W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.03122621553163594,
+              "header_pixel_area_sr": 2.29186187207803e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-0-23039.bytes",
+                  "sha256": "308b04210f986959f2008d1f2fba37c5355685870ef28aaddb88d2c951315b4e",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-23040-46079.bytes",
+                  "sha256": "689ae16ff494fd07ed1adf203182ddd3fb506719b0c7608635c875a45727f9ef",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-173174400-173197439.bytes",
+                  "sha256": "9b5cb86d4f14254b131ca7a42f4d559bdb6aa32335a0830d6fa6b73d82ed51ac",
+                  "first_byte": 173174400,
+                  "last_byte": 173197439
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-346317120-346340159.bytes",
+                  "sha256": "41ed79642941e761c504966afafac82a9b96868bae56cc46e4f8ffedd41d36e3",
+                  "first_byte": 346317120,
+                  "last_byte": 346340159
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-519459840-519482879.bytes",
+                  "sha256": "78152ff01a3673e9ae32c112301f81c833ed333efa973feebbcefa9d061f731c",
+                  "first_byte": 519459840,
+                  "last_byte": 519482879
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-22877120-64728799.bytes",
+                  "sha256": "4fe632b124142484de778e03e0927ec051a4177b15f50af850b790df45f4448b",
+                  "first_byte": 22877120,
+                  "last_byte": 64728799
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f150w_i2d.fits/c8a305ed281612235a47f60bdc421c72-24-542305280-584156959.bytes",
+                  "sha256": "687675d282250c5640a8087047ea38c41b18506db5980fb782b6918f0e14fe42",
+                  "first_byte": 542305280,
+                  "last_byte": 584156959
+                }
+              ]
+            },
+            {
+              "filename": "jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+              "etag": "\"70a477310b22acb75f5d10055216f3af-24\"",
+              "object_bytes": 1211993280,
+              "science_array_shape": [
+                4380,
+                9880
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                1220,
+                2279,
+                1275,
+                2334
+              ],
+              "date_utc": "2026-11-24T19:37:09.463",
+              "exposure_start_mjd": 61368.81747137731,
+              "filter": "F150W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.031225991526177405,
+              "header_pixel_area_sr": 2.29182899023696e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-0-23039.bytes",
+                  "sha256": "45cb879843bc0daec3a5c2dd65f2f47d53f74697a493b2d69990d8d514aa0978",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-23040-46079.bytes",
+                  "sha256": "171a8c8150a75e0082af9fef6f9d3bfe5a15cc553ed83ce22a84b049ea665357",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-173134080-173157119.bytes",
+                  "sha256": "199a60255ba386d941f87fbbabd32d7a11983afa26f1863482e11a202b3f9272",
+                  "first_byte": 173134080,
+                  "last_byte": 173157119
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-346236480-346259519.bytes",
+                  "sha256": "59881b1ca8cd5409a593a8f6e8287dcb4cd5b157981717c645c24d5df995286e",
+                  "first_byte": 346236480,
+                  "last_byte": 346259519
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-519338880-519361919.bytes",
+                  "sha256": "c1bca2a8ca4bee9d241cacd036a63b79652c15b285696e1f8e2fbd5811c36905",
+                  "first_byte": 519338880,
+                  "last_byte": 519361919
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-50422560-92274239.bytes",
+                  "sha256": "4cf5fb8353cfdbb4f4560e8a45fe04c47883e315cee664babb58ab3dbcff8c9e",
+                  "first_byte": 50422560,
+                  "last_byte": 92274239
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-569729760-611581439.bytes",
+                  "sha256": "de5367f56ee1a3b8aad3e0d5cc68e61f87eaa7d853c7bfcacd6ed8675066252c",
+                  "first_byte": 569729760,
+                  "last_byte": 611581439
+                }
+              ]
+            }
+          ]
+        },
+        "F200W": {
+          "alignment": {
+            "reference_count": 11,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.395610843889221,
+                  -12.694411164808626
+                ],
+                "old_njy": 1765.703369140625,
+                "new_njy": 1728.873046875,
+                "new_to_old": 0.979141274288019,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008755964176992315,
+                  -0.005507381339016761
+                ],
+                "new_minus_old_variance_arcsec2": -9.111421100784509e-05
+              },
+              {
+                "offset_arcsec": [
+                  1.568870596354891,
+                  -9.60287366436796
+                ],
+                "old_njy": 78.50018310546875,
+                "new_njy": 74.24595642089844,
+                "new_to_old": 0.9458061559059734,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.013308900654698088,
+                  -0.005144833676489426
+                ],
+                "new_minus_old_variance_arcsec2": -0.0011959551819326472
+              },
+              {
+                "offset_arcsec": [
+                  1.8499194600313151,
+                  -6.5737914669665
+                ],
+                "old_njy": 254.80654907226562,
+                "new_njy": 243.75839233398438,
+                "new_to_old": 0.9566410016598597,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005511054246548555,
+                  -0.008348536249517945
+                ],
+                "new_minus_old_variance_arcsec2": 3.1157113914790334e-05
+              },
+              {
+                "offset_arcsec": [
+                  -5.988221071388958,
+                  -5.355913057701995
+                ],
+                "old_njy": 588.6044311523438,
+                "new_njy": 572.02734375,
+                "new_to_old": 0.9718366248621508,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008453104981310591,
+                  -0.0052921902841864335
+                ],
+                "new_minus_old_variance_arcsec2": -0.00021047167453799084
+              },
+              {
+                "offset_arcsec": [
+                  -11.328149481241017,
+                  -1.7647331329476867
+                ],
+                "old_njy": 243.68099975585938,
+                "new_njy": 240.84375,
+                "new_to_old": 0.9883567050418294,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009117671467230623,
+                  -0.009522325865829625
+                ],
+                "new_minus_old_variance_arcsec2": 0.00020018460725406296
+              },
+              {
+                "offset_arcsec": [
+                  3.6923508996878733,
+                  0.32751951886569286
+                ],
+                "old_njy": 278.95257568359375,
+                "new_njy": 248.081787109375,
+                "new_to_old": 0.889333201177413,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.010266844360838131,
+                  -0.006164081236554311
+                ],
+                "new_minus_old_variance_arcsec2": -1.2489881396564317e-05
+              },
+              {
+                "offset_arcsec": [
+                  3.2239361268938334,
+                  0.4836577764637063
+                ],
+                "old_njy": 172.28408813476562,
+                "new_njy": 177.57928466796875,
+                "new_to_old": 1.0307352616862742,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004058634750370396,
+                  -0.004944338202981388
+                ],
+                "new_minus_old_variance_arcsec2": -3.759783623351245e-05
+              },
+              {
+                "offset_arcsec": [
+                  -1.179162737370145,
+                  2.85695929195351
+                ],
+                "old_njy": 227.1383819580078,
+                "new_njy": 216.27757263183594,
+                "new_to_old": 0.9521841741032576,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008312339353141091,
+                  -0.0069935845202108785
+                ],
+                "new_minus_old_variance_arcsec2": 5.7585480875160626e-05
+              },
+              {
+                "offset_arcsec": [
+                  5.722148248462048,
+                  3.356601716267153
+                ],
+                "old_njy": 109.81169128417969,
+                "new_njy": 109.72518157958984,
+                "new_to_old": 0.9992121995064627,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004183748867024158,
+                  -0.0067118753263270495
+                ],
+                "new_minus_old_variance_arcsec2": -0.00039765349946692743
+              },
+              {
+                "offset_arcsec": [
+                  -3.8959684195755786,
+                  4.26220361033563
+                ],
+                "old_njy": 15734.0361328125,
+                "new_njy": 15446.14453125,
+                "new_to_old": 0.9817026223193859,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006400944242005329,
+                  -0.007840158035474349
+                ],
+                "new_minus_old_variance_arcsec2": -8.049214038307901e-06
+              },
+              {
+                "offset_arcsec": [
+                  -1.5538945556053771,
+                  4.917984292247287
+                ],
+                "old_njy": 289.0131530761719,
+                "new_njy": 292.22784423828125,
+                "new_to_old": 1.011122992597026,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005182770424923965,
+                  -0.007167477822626091
+                ],
+                "new_minus_old_variance_arcsec2": -0.00018222011096371248
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.008312339353141091,
+              -0.0067118753263270495
+            ],
+            "held_out_reference_radius68_arcsec": 0.003531175509682117,
+            "matched_variance_arcsec2": -3.759783623351245e-05,
+            "new_to_old_scale": 0.979141274288019,
+            "method": "local_shift_gain_and_core_width"
+          },
+          "change": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 10.421651840209961,
+              "local_mad_sigma_njy": 2.18860649728775,
+              "control_median_njy": -0.18937897682189941,
+              "control_count": 339
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 15.757101058959961,
+              "local_mad_sigma_njy": 3.460213945198059,
+              "control_median_njy": 0.2713584899902344,
+              "control_count": 339
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 19.308223724365234,
+              "local_mad_sigma_njy": 5.650782253074646,
+              "control_median_njy": 0.37441182136535645,
+              "control_count": 339
+            }
+          ],
+          "core": {
+            "amplitude_njy_per_pixel": 0.44157599348471044,
+            "offset_xy_arcsec": [
+              0.029878437526771523,
+              -0.06456647940674533
+            ],
+            "core_sigma_arcsec": 0.08391960176977405,
+            "background_njy_per_pixel": -0.010898077405277191,
+            "icrs_deg": [
+              53.18406858165907,
+              -27.806651848752725
+            ]
+          },
+          "before": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 92.910888671875,
+            "local_mad_sigma_njy": 4.675253733587264,
+            "control_median_njy": 0.045256614685058594,
+            "control_count": 339
+          },
+          "after": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 108.17601776123047,
+            "local_mad_sigma_njy": 4.022657617950439,
+            "control_median_njy": -0.06832528114318848,
+            "control_count": 339
+          },
+          "products": [
+            {
+              "filename": "jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+              "etag": "\"59028259764f163236e97f0114061b55-24\"",
+              "object_bytes": 1214150400,
+              "science_array_shape": [
+                4386,
+                9884
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                2822,
+                3881,
+                583,
+                1642
+              ],
+              "date_utc": "2025-11-18T10:51:11.197",
+              "exposure_start_mjd": 60997.452213668985,
+              "filter": "F200W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.031227651519602682,
+              "header_pixel_area_sr": 2.29207266686611e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-0-23039.bytes",
+                  "sha256": "7ad2ac0974d333376e825a19753db898c238a567d6c3b8af295a14582b2222d2",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-23040-46079.bytes",
+                  "sha256": "0e9818d0604bcaabdce60d815ccfed926994a1071ea57a552ba909b6079216c4",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-173442240-173465279.bytes",
+                  "sha256": "3b4e4c30a4a3cc39ea90872b39f45c87f94592ef14c039cf457d33e25e44bcc9",
+                  "first_byte": 173442240,
+                  "last_byte": 173465279
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-346852800-346875839.bytes",
+                  "sha256": "55a1a753c02fbd2eb94de9feb3dd66026a2280ae610bae79ab40b87a929da858",
+                  "first_byte": 346852800,
+                  "last_byte": 346875839
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-520263360-520286399.bytes",
+                  "sha256": "aff2cd49701d0a9b39ac1d9278a4bfbee736153ee0e9afb46ff9c1b0937648d5",
+                  "first_byte": 520263360,
+                  "last_byte": 520286399
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-23084048-64952671.bytes",
+                  "sha256": "2754a52bfeac6c920f49e7c2e3f4a1c86a8de5794cb17d7a7cc3ccb9c570fed1",
+                  "first_byte": 23084048,
+                  "last_byte": 64952671
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f200w_i2d.fits/59028259764f163236e97f0114061b55-24-543315728-585184351.bytes",
+                  "sha256": "290d615bd4bba6b29e193887e6d03a45baeeb7290fc919c7aedfcb044ac0d018",
+                  "first_byte": 543315728,
+                  "last_byte": 585184351
+                }
+              ]
+            },
+            {
+              "filename": "jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+              "etag": "\"0c9e43dc648cde25fbc090f16b79c4ce-24\"",
+              "object_bytes": 1214291520,
+              "science_array_shape": [
+                4387,
+                9883
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                1222,
+                2281,
+                1280,
+                2339
+              ],
+              "date_utc": "2026-11-24T18:20:12.636",
+              "exposure_start_mjd": 61368.76403587963,
+              "filter": "F200W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.031227427490781966,
+              "header_pixel_area_sr": 2.29203978008342e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-0-23039.bytes",
+                  "sha256": "d39d3766169ab32c5bc7a6a4f7afd07e30bff4ff9baeb4d7c6200ffa68a51589",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-23040-46079.bytes",
+                  "sha256": "a9d8fed7d6926d7806a1974abb9a0d13c6a0ac8c4ea79871079f0795f6010eb7",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-173462400-173485439.bytes",
+                  "sha256": "8e7f44b7d1a7230ff24d99921d9c7768bec06065874c8489b67e5da349cdaea5",
+                  "first_byte": 173462400,
+                  "last_byte": 173485439
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-346893120-346916159.bytes",
+                  "sha256": "3dc874d45e524de9be8c4008bf705de270312d014a98ecbe182d0e8f73eab625",
+                  "first_byte": 346893120,
+                  "last_byte": 346916159
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-520323840-520346879.bytes",
+                  "sha256": "c2df6d0ba872b8025c387285a4a6b56acfde7fe7f471432208db8dc642c2056e",
+                  "first_byte": 520323840,
+                  "last_byte": 520346879
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-50635520-92499907.bytes",
+                  "sha256": "be548b2a4a771a4928196f74258628c69e5661af30fa95541f1c98ad68c1111c",
+                  "first_byte": 50635520,
+                  "last_byte": 92499907
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-570927680-612792067.bytes",
+                  "sha256": "651073bb31aa938b9bbb211a399b00042c7ff768e1e2db52d0dcc2f249aa02d1",
+                  "first_byte": 570927680,
+                  "last_byte": 612792067
+                }
+              ]
+            }
+          ]
+        },
+        "F277W": {
+          "alignment": {
+            "reference_count": 11,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.498801930664775,
+                  -12.647234202096461
+                ],
+                "old_njy": 2557.89697265625,
+                "new_njy": 2551.58984375,
+                "new_to_old": 0.9975342521713452,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0091650716680148,
+                  -0.0086777636759812
+                ],
+                "new_minus_old_variance_arcsec2": 0.00024292176167976277
+              },
+              {
+                "offset_arcsec": [
+                  1.477186632202854,
+                  -9.564882206512106
+                ],
+                "old_njy": 77.15718078613281,
+                "new_njy": 78.19751739501953,
+                "new_to_old": 1.0134833413855588,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007369386429382381,
+                  -0.0065562925625382885
+                ],
+                "new_minus_old_variance_arcsec2": 0.0012307027415159157
+              },
+              {
+                "offset_arcsec": [
+                  1.7917123460379922,
+                  -6.545435353694777
+                ],
+                "old_njy": 247.99795532226562,
+                "new_njy": 247.80784606933594,
+                "new_to_old": 0.9992334241115712,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007917747548513756,
+                  -0.0075079628781225816
+                ],
+                "new_minus_old_variance_arcsec2": 9.78481330264e-05
+              },
+              {
+                "offset_arcsec": [
+                  -6.00852535707344,
+                  -5.287332498354224
+                ],
+                "old_njy": 696.86669921875,
+                "new_njy": 693.2296142578125,
+                "new_to_old": 0.9947808024619127,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006290396880000384,
+                  -0.00914674757451675
+                ],
+                "new_minus_old_variance_arcsec2": 0.0006895244194482647
+              },
+              {
+                "offset_arcsec": [
+                  -11.355462492270792,
+                  -1.6388342178666186
+                ],
+                "old_njy": 244.50294494628906,
+                "new_njy": 253.33895874023438,
+                "new_to_old": 1.0361386804395603,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00775671490945572,
+                  -0.009272487270318597
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006383333257008426
+              },
+              {
+                "offset_arcsec": [
+                  3.6788666290488226,
+                  0.3112252079112393
+                ],
+                "old_njy": 267.5011901855469,
+                "new_njy": 244.65936279296875,
+                "new_to_old": 0.9146103709791559,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009965232183345062,
+                  -0.010904248503372734
+                ],
+                "new_minus_old_variance_arcsec2": -0.0012984847329747468
+              },
+              {
+                "offset_arcsec": [
+                  -1.1648293640123084,
+                  2.890336061359374
+                ],
+                "old_njy": 306.09100341796875,
+                "new_njy": 302.3240966796875,
+                "new_to_old": 0.9876935071719912,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.013804496448193624,
+                  -0.0029008725977315054
+                ],
+                "new_minus_old_variance_arcsec2": 4.595272053019555e-05
+              },
+              {
+                "offset_arcsec": [
+                  5.7547363403607354,
+                  3.330672060728568
+                ],
+                "old_njy": 120.64756774902344,
+                "new_njy": 120.09298706054688,
+                "new_to_old": 0.995403299885579,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0031125419761294324,
+                  -0.018597063347931778
+                ],
+                "new_minus_old_variance_arcsec2": -0.0004903896568672125
+              },
+              {
+                "offset_arcsec": [
+                  -3.806845360227471,
+                  4.337154345001011
+                ],
+                "old_njy": 16390.025390625,
+                "new_njy": 16463.6015625,
+                "new_to_old": 1.0044890822388284,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.010696307934181554,
+                  -0.009536726436659572
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005014870326739539
+              },
+              {
+                "offset_arcsec": [
+                  -1.479355077847447,
+                  4.903300629904259
+                ],
+                "old_njy": 290.9620056152344,
+                "new_njy": 308.6758728027344,
+                "new_to_old": 1.0608803446692097,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005751514157695061,
+                  -0.006702617244860294
+                ],
+                "new_minus_old_variance_arcsec2": -9.022327930634493e-05
+              },
+              {
+                "offset_arcsec": [
+                  -9.090877352657795,
+                  9.684091480198363
+                ],
+                "old_njy": 276.166015625,
+                "new_njy": 277.0694885253906,
+                "new_to_old": 1.0032714847203266,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008964058390947776,
+                  -0.007746599420276161
+                ],
+                "new_minus_old_variance_arcsec2": 0.00021866027174092303
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.007917747548513756,
+              -0.0086777636759812
+            ],
+            "held_out_reference_radius68_arcsec": 0.0033754470180990003,
+            "matched_variance_arcsec2": 4.595272053019555e-05,
+            "new_to_old_scale": 0.9983838381414583,
+            "method": "local_shift_gain_and_core_width"
+          },
+          "change": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 3.372687339782715,
+              "local_mad_sigma_njy": 1.867271820259094,
+              "control_median_njy": -0.053913116455078125,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 5.436478614807129,
+              "local_mad_sigma_njy": 2.8778177750587464,
+              "control_median_njy": -0.016994476318359375,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 8.156476020812988,
+              "local_mad_sigma_njy": 4.027652988624572,
+              "control_median_njy": 0.4078826904296875,
+              "control_count": 329
+            }
+          ],
+          "core": {
+            "amplitude_njy_per_pixel": 1.0231624682696558,
+            "offset_xy_arcsec": [
+              0.09212013806462693,
+              -0.055481466406840825
+            ],
+            "core_sigma_arcsec": 0.0527253954281065,
+            "background_njy_per_pixel": 0.30520765907451397,
+            "icrs_deg": [
+              53.184048677738396,
+              -27.806650810465545
+            ]
+          },
+          "before": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 86.94139862060547,
+            "local_mad_sigma_njy": 3.433394050312042,
+            "control_median_njy": -0.0446476936340332,
+            "control_count": 329
+          },
+          "after": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 102.53985595703125,
+            "local_mad_sigma_njy": 3.969255366325378,
+            "control_median_njy": 0.2057514190673828,
+            "control_count": 329
+          },
+          "products": [
+            {
+              "filename": "jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+              "etag": "\"08b123d99e3245fbec37dd706d5a18c1-6\"",
+              "object_bytes": 287691840,
+              "science_array_shape": [
+                2109,
+                4868
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                1375,
+                1902,
+                259,
+                786
+              ],
+              "date_utc": "2025-11-18T10:51:11.197",
+              "exposure_start_mjd": 60997.452213668985,
+              "filter": "F277W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.06290514276702767,
+              "header_pixel_area_sr": 9.30083710793845e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-0-23039.bytes",
+                  "sha256": "8edfad025ae55f833326e0fac01a3e3d736a643122f7a552f012899f2920242e",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-23040-46079.bytes",
+                  "sha256": "bef012c5cb312b71486b6d96eda5f78b4c9f48d1b647324dc78102fe1b5cabc8",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-41100480-41123519.bytes",
+                  "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+                  "first_byte": 41100480,
+                  "last_byte": 41123519
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-82172160-82195199.bytes",
+                  "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+                  "first_byte": 82172160,
+                  "last_byte": 82195199
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-123243840-123266879.bytes",
+                  "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+                  "first_byte": 123243840,
+                  "last_byte": 123266879
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-5074928-15336671.bytes",
+                  "sha256": "03f3a634dc4dc05735e4d8be66c2d3accd1fc8e8435182c2b14d085b047ed623",
+                  "first_byte": 5074928,
+                  "last_byte": 15336671
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f277w_i2d.fits/08b123d99e3245fbec37dd706d5a18c1-6-128289968-138551711.bytes",
+                  "sha256": "a256c6655552d341816e074776a2b016bb38f0d21ac8d16796f1445f44de21d0",
+                  "first_byte": 128289968,
+                  "last_byte": 138551711
+                }
+              ]
+            },
+            {
+              "filename": "jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+              "etag": "\"3e4b9eedcff4975c153b445514e1824d-6\"",
+              "object_bytes": 287691840,
+              "science_array_shape": [
+                2109,
+                4868
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                584,
+                1111,
+                612,
+                1139
+              ],
+              "date_utc": "2026-11-24T18:20:12.636",
+              "exposure_start_mjd": 61368.76403587963,
+              "filter": "F277W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.06290469162331667,
+              "header_pixel_area_sr": 9.30070370074993e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-0-23039.bytes",
+                  "sha256": "b2e487acdb6b49fd5dacddf9400c0d9fe355501d65c1c39bcd51cbb58797ac41",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-23040-46079.bytes",
+                  "sha256": "f2e18ba7bfe6a47abe56994f854a1ad59dca48113a7785880fe977337b2b4f41",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-41100480-41123519.bytes",
+                  "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+                  "first_byte": 41100480,
+                  "last_byte": 41123519
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-82172160-82195199.bytes",
+                  "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+                  "first_byte": 82172160,
+                  "last_byte": 82195199
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-123243840-123266879.bytes",
+                  "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+                  "first_byte": 123243840,
+                  "last_byte": 123266879
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-11948544-22210287.bytes",
+                  "sha256": "fef004451dfef2ac91ccabb7db5201d98a364970e997865c4da2d067fef9f314",
+                  "first_byte": 11948544,
+                  "last_byte": 22210287
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-135163584-145425327.bytes",
+                  "sha256": "13d0c24456052f24ff235f7240ddcaa1f76f737050d2b23bc4456299df82c749",
+                  "first_byte": 135163584,
+                  "last_byte": 145425327
+                }
+              ]
+            }
+          ]
+        },
+        "F356W": {
+          "alignment": {
+            "reference_count": 10,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.46951941684251,
+                  -12.652396104623401
+                ],
+                "old_njy": 3736.2578125,
+                "new_njy": 3713.58984375,
+                "new_to_old": 0.9939329752154249,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.015513129062303267,
+                  -0.003646405412731528
+                ],
+                "new_minus_old_variance_arcsec2": 0.00031926413567511924
+              },
+              {
+                "offset_arcsec": [
+                  1.8209600883756663,
+                  -6.613535779613952
+                ],
+                "old_njy": 244.0205078125,
+                "new_njy": 240.67010498046875,
+                "new_to_old": 0.98626999483746,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01573495110364011,
+                  -0.0008951268667790353
+                ],
+                "new_minus_old_variance_arcsec2": 0.0010164694115087775
+              },
+              {
+                "offset_arcsec": [
+                  -6.042139293147054,
+                  -5.292535083518135
+                ],
+                "old_njy": 714.3204956054688,
+                "new_njy": 711.6054077148438,
+                "new_to_old": 0.9961990620354192,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.015867384598641475,
+                  -0.00243251339644366
+                ],
+                "new_minus_old_variance_arcsec2": -0.000523800399766872
+              },
+              {
+                "offset_arcsec": [
+                  -11.32614207753032,
+                  -1.7069617655437745
+                ],
+                "old_njy": 243.21490478515625,
+                "new_njy": 242.82489013671875,
+                "new_to_old": 0.9983964196241097,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01762751674073037,
+                  -0.0028422483638626365
+                ],
+                "new_minus_old_variance_arcsec2": 0.00016777053305671013
+              },
+              {
+                "offset_arcsec": [
+                  3.708103939941119,
+                  0.30599167612604167
+                ],
+                "old_njy": 261.7171630859375,
+                "new_njy": 249.85992431640625,
+                "new_to_old": 0.9546944547704813,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01317548128636225,
+                  -0.007631418567007884
+                ],
+                "new_minus_old_variance_arcsec2": 0.001761798720048063
+              },
+              {
+                "offset_arcsec": [
+                  -1.1355652790768762,
+                  2.822183478213312
+                ],
+                "old_njy": 348.57159423828125,
+                "new_njy": 343.01318359375,
+                "new_to_old": 0.984053747533049,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.018357393994766907,
+                  -0.004018972149830866
+                ],
+                "new_minus_old_variance_arcsec2": 0.0009080557534761847
+              },
+              {
+                "offset_arcsec": [
+                  5.783962176663117,
+                  3.325421838630766
+                ],
+                "old_njy": 125.96392822265625,
+                "new_njy": 107.1780776977539,
+                "new_to_old": 0.8508632527583919,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01339346629358993,
+                  -0.00455327057672527
+                ],
+                "new_minus_old_variance_arcsec2": 0.002538836240722991
+              },
+              {
+                "offset_arcsec": [
+                  -3.840471466320692,
+                  4.2689937644134925
+                ],
+                "old_njy": 11090.8115234375,
+                "new_njy": 11044.9853515625,
+                "new_to_old": 0.9958680956954179,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.014891795165714958,
+                  -0.0030022092533631937
+                ],
+                "new_minus_old_variance_arcsec2": -0.00015816259653793265
+              },
+              {
+                "offset_arcsec": [
+                  -1.512994049389967,
+                  4.89804171493531
+                ],
+                "old_njy": 220.5797119140625,
+                "new_njy": 227.17283630371094,
+                "new_to_old": 1.0298899854952077,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01512201589185852,
+                  -0.0027909967505359984
+                ],
+                "new_minus_old_variance_arcsec2": 0.0003000176605507292
+              },
+              {
+                "offset_arcsec": [
+                  -9.061569455651778,
+                  9.678806138901123
+                ],
+                "old_njy": 271.45941162109375,
+                "new_njy": 267.2199401855469,
+                "new_to_old": 0.9843826691797875,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.012099824155064057,
+                  0.00039043067300476714
+                ],
+                "new_minus_old_variance_arcsec2": -0.0003082151081258864
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.015317572477080894,
+              -0.002922228808612915
+            ],
+            "held_out_reference_radius68_arcsec": 0.0028103101105709546,
+            "matched_variance_arcsec2": 0.0003096408981129242,
+            "new_to_old_scale": 0.9901014850264425,
+            "method": "local_shift_gain_and_core_width"
+          },
+          "change": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 0.6646909713745117,
+              "local_mad_sigma_njy": 1.700462070465088,
+              "control_median_njy": 0.0778207778930664,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -1.0527305603027344,
+              "local_mad_sigma_njy": 2.8112498302459716,
+              "control_median_njy": -0.05351591110229492,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -0.8643808364868164,
+              "local_mad_sigma_njy": 4.215705435562134,
+              "control_median_njy": 0.005053520202636719,
+              "control_count": 329
+            }
+          ],
+          "core": {
+            "amplitude_njy_per_pixel": 6.130559330757676,
+            "offset_xy_arcsec": [
+              0.09288690590414483,
+              0.01877848935410708
+            ],
+            "core_sigma_arcsec": 0.01693299584745426,
+            "background_njy_per_pixel": 0.20548150742920643,
+            "icrs_deg": [
+              53.18404637113665,
+              -27.80663028251989
+            ]
+          },
+          "before": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 73.5075454711914,
+            "local_mad_sigma_njy": 3.36146028842926,
+            "control_median_njy": 0.10715961456298828,
+            "control_count": 329
+          },
+          "after": {
+            "radius_arcsec": 0.24,
+            "flux_njy": 70.35440826416016,
+            "local_mad_sigma_njy": 3.919905402374267,
+            "control_median_njy": 0.5832948684692383,
+            "control_count": 329
+          },
+          "products": [
+            {
+              "filename": "jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+              "etag": "\"bfb5e6b4e714cf46caa4e09cc01f708f-6\"",
+              "object_bytes": 287752320,
+              "science_array_shape": [
+                2109,
+                4869
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                1375,
+                1902,
+                259,
+                786
+              ],
+              "date_utc": "2025-11-18T12:07:14.329",
+              "exposure_start_mjd": 60997.50502769676,
+              "filter": "F356W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.06290479505218176,
+              "header_pixel_area_sr": 9.30073428549626e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-0-23039.bytes",
+                  "sha256": "fb5ec58abc2d7b121e3f58e20c1b35a57523229e25ee20c76438ccf424911d12",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-23040-46079.bytes",
+                  "sha256": "f74d2b66a8da352c5ffb342b37d8723062e68f6669114e1c0043b67cb9d1c7c8",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-41109120-41132159.bytes",
+                  "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+                  "first_byte": 41109120,
+                  "last_byte": 41132159
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-82189440-82212479.bytes",
+                  "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+                  "first_byte": 82189440,
+                  "last_byte": 82212479
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-123269760-123292799.bytes",
+                  "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+                  "first_byte": 123269760,
+                  "last_byte": 123292799
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-5075964-15339815.bytes",
+                  "sha256": "5c621588ec54c58cf3c710f84b6e3a6a73b90e0de5f56107dde1a5e1b3606334",
+                  "first_byte": 5075964,
+                  "last_byte": 15339815
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o004/jw08060-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw08060-o004_t004_nircam_clear-f356w_i2d.fits/bfb5e6b4e714cf46caa4e09cc01f708f-6-128316924-138580775.bytes",
+                  "sha256": "cd2d31776f668b86ee03530b17ac89734cd74a99e48ea226f9f6ca9e4609c7bd",
+                  "first_byte": 128316924,
+                  "last_byte": 138580775
+                }
+              ]
+            },
+            {
+              "filename": "jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+              "etag": "\"a965285bd1a13e1df9edf49484c758cc-6\"",
+              "object_bytes": 287752320,
+              "science_array_shape": [
+                2109,
+                4869
+              ],
+              "cutout_bounds_x0_x1_y0_y1": [
+                585,
+                1112,
+                612,
+                1139
+              ],
+              "date_utc": "2026-11-24T19:37:09.463",
+              "exposure_start_mjd": 61368.817470636575,
+              "filter": "F356W",
+              "pipeline_version": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "native_pixel_scale_arcsec": 0.06290434400998139,
+              "header_pixel_area_sr": 9.30060090906242e-14,
+              "ranges": [
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-0-23039.bytes",
+                  "sha256": "662ae0ae1f78986a866903d94262ea7c382eaf97d1895277fd6f09c9dd80baf8",
+                  "first_byte": 0,
+                  "last_byte": 23039
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-23040-46079.bytes",
+                  "sha256": "5899327b54016b0b47cfad9f43e1abf3487c26d5fa42ece48117f0909e63de5d",
+                  "first_byte": 23040,
+                  "last_byte": 46079
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-41109120-41132159.bytes",
+                  "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+                  "first_byte": 41109120,
+                  "last_byte": 41132159
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-82189440-82212479.bytes",
+                  "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+                  "first_byte": 82189440,
+                  "last_byte": 82212479
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-123269760-123292799.bytes",
+                  "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+                  "first_byte": 123269760,
+                  "last_byte": 123292799
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-11950992-22214843.bytes",
+                  "sha256": "b9d16a11d3c7eaf8968fcc2497e37157bc744dcc142478f71a37b2f340a30e59",
+                  "first_byte": 11950992,
+                  "last_byte": 22214843
+                },
+                {
+                  "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+                  "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-135191952-145455803.bytes",
+                  "sha256": "083b38e8be2dab4baa2d11b3fd5eeaccbb77fde775825c3b993d2ada8fbb2411",
+                  "first_byte": 135191952,
+                  "last_byte": 145455803
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "observation_plans": [
+    {
+      "program": 8060,
+      "product": {
+        "url": "https://www.stsci.edu/jwst-program-info/download/jwst/apt/8060/",
+        "path": "data/raw/cross_detector/goods_s_8060_20261125.aptx",
+        "sha256": "7c900b5cbae1ca86b459858f85e7086ff1bec0e13a61f27db1df4a9ff3e2bc69",
+        "bytes": 879609
+      }
+    },
+    {
+      "program": 12577,
+      "product": {
+        "url": "https://www.stsci.edu/jwst-program-info/download/jwst/apt/12577/",
+        "path": "data/raw/cross_detector/goods_s_12577_20261125.aptx",
+        "sha256": "63d7f0f90fb637394bdc8ced0d0d79d2048822dc0ba052d1e75db988fc424b86",
+        "bytes": 940138
+      }
+    }
+  ],
+  "shortlist_sha256": "6f727418c5115601373556650ea7a190d890d4ab74ff8743917f53a44a835675",
+  "script_sha256": "20ec31ddada18b550b98cd6c82437e2afdb3160fe43859e2430ebd21f14ddcb9",
+  "scope": "Image-domain checks of the highest ranked unique sky positions. This scope does not establish completeness, publication priority, or a physical class."
+}

@@ -1,0 +1,39 @@
+experiment: goods-s-october-november-stage3-variability
+status: executed
+date: 2026-11-25
+commands:
+  - python scripts/search_jwst_november_catalogues.py
+  - python scripts/search_jwst_november_catalogues.py --october
+  - python scripts/search_jwst_november_unmatched.py
+  - python scripts/vet_jwst_november_catalogues.py --source october_goods_s_catalogue
+  - python scripts/vet_jwst_november_catalogues.py --source november_goods_s_unmatched
+  - python scripts/vet_jwst_november_catalogues.py
+  - python scripts/audit_jwst_november_f200w_spike.py
+  - python scripts/search_jwst_november_prior_visits.py
+  - python scripts/vet_jwst_november_catalogues.py --source november_goods_s_prior_visits
+  - python scripts/check_jwst_november_prior_visit_lead.py
+inputs:
+  programmes: [8060, 12577]
+  catalogue_filters: [F150W, F200W, F277W, F356W]
+  november_visits: [12577-003, 12577-004]
+  prior_visits: [08060-003, 08060-004, 08060-005, 08060-006]
+  catalogue_flux: aper70_flux
+  source_epoch_data: public MAST STScI source catalogues and science and weight stripes
+limits:
+  - Catalogue uncertainties rank leads. Pixel-domain scatter measures local uncertainty after image matching.
+  - Residuals in different bands can share effects from masking, morphology and the point-spread function.
+  - Unmatched catalogue positions can reflect segmentation or footprint coverage.
+  - Positional matching does not establish either an astrophysical class or completeness.
+  - No machine-learning or generative model is involved in candidate selection, measurement, or image production.
+outputs:
+  - reports/jwst_november_candidate_search.md
+  - results/jwst_cross_detector/november_goods_s_catalogue*
+  - results/jwst_cross_detector/october_goods_s_catalogue*
+  - results/jwst_cross_detector/november_goods_s_unmatched*
+  - figures/jwst_cross_detector/november_goods_s_catalogue_*
+  - figures/jwst_cross_detector/october_goods_s_catalogue_*
+  - figures/jwst_cross_detector/november_goods_s_unmatched_*
+  - results/jwst_cross_detector/november_goods_s_f200w_spike.json
+  - figures/jwst_cross_detector/november_goods_s_f200w_spike.*
+  - results/jwst_cross_detector/november_goods_s_prior_visits*
+  - figures/jwst_cross_detector/november_goods_s_prior_visits_*
