@@ -1,0 +1,31 @@
+experiment: jades-dr4-g140m-reionization-pilot
+status: executed
+date: 2026-11-25
+commands:
+  - python scripts/download_jades_reionization_sample.py
+  - python scripts/measure_jades_reionization.py
+  - python scripts/inspect_jades_reionization.py
+  - python scripts/compare_jades_reionization_dja.py
+inputs:
+  catalogue: JADES DR4 v1.2.1
+  mode: G140M/F070LP
+  redshift_range: [5.5, 9.0]
+  uv_magnitude_range: [-22, -18]
+  literature: Jones et al. 2025
+  comparison_reduction: DAWN JWST Archive v4
+limits:
+  - Targets require a secure optical line anchor and a measured UV magnitude.
+  - Recovery is conditional on usable injected placements and the adopted continuum.
+  - A formal cutoff after an offset search is a screening metric.
+  - Separate extraction reductions can share photons.
+  - The pilot does not infer the intergalactic neutral fraction.
+outputs:
+  - reports/jades_reionization.md
+  - results/jades_reionization/eligible_targets.csv
+  - results/jades_reionization/sample.json
+  - results/jades_reionization/measurements.csv
+  - results/jades_reionization/injections.csv.gz
+  - results/jades_reionization/summary.json
+  - results/jades_reionization/crosschecks.json
+  - results/jades_reionization/dja_comparison.json
+  - figures/jades_reionization_*

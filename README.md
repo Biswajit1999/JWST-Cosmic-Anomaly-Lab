@@ -23,6 +23,15 @@ also documents and corrects contamination of the oxygen continuum window
 in the original spectrum examples.
 [Line recovery and continuum check](reports/jades_evolution_line_recovery.md).
 
+## Lyman-alpha during reionization · 25 November 2026
+
+We searched 93 public JADES G140M spectra from when the universe was
+0.54–1.04 billion years old. The pilot recovered 18 published emitters
+and found four line responses for follow-up. Tests with artificial lines
+show that the sample's sensitivity varies across redshift bins.
+[Reionization pilot](reports/jades_reionization.md) ·
+[Observed JWST cutouts and spectra](figures/jades_reionization_unmatched.png).
+
 ## Infrared rise and fade near JADES 103607 · 25 November 2026
 
 A compact infrared source near **JADES 103607** brightened in five

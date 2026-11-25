@@ -16,8 +16,11 @@
    obscured-accretion models. Treat mass, accretion rate, radiative
    efficiency, duty cycle and seed formation time as uncertain inputs.
 
-Goal 1 has a first measurement below. Goals 2 and 3 describe follow-up
-research. [JADES Lyman-alpha measurements](https://doi.org/10.1093/mnras/stae2670) ·
+Goal 1 has a first measurement below. Goal 2 has a JADES pilot with
+signed Lyα measurements, upper bounds and artificial-line recovery.
+Goal 3 describes follow-up research.
+[Reionization pilot](jades_reionization.md) ·
+[JADES Lyman-alpha measurements](https://doi.org/10.1093/mnras/stae2670) ·
 [JADES intergalactic damping-wing models](https://doi.org/10.1051/0004-6361/202553820) ·
 [Accretion growth scenarios](evolution_and_unknown_objects.md).
 

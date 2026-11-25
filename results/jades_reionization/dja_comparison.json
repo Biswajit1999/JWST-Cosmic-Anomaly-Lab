@@ -1,0 +1,232 @@
+{
+  "executed_utc": "2026-11-25T22:29:33.404659+00:00",
+  "cohort_sha256": "dd6eaf9b0338b818230bb17ca6e161b91e93caffd320cbc4f02f55cf2523bc5b",
+  "script_sha256": "b9bc5d48410a87ff4b977038f85c8b3aaa6e91ff7a66cb75a27f019832f9ddf3",
+  "inventory_sha256": "ff168abd54780217cbe04482629f63ba315441c9c5a3535550e745a5072a17fc",
+  "candidates": [
+    {
+      "dr4_id": "goods-n-mediumjwst_38147",
+      "z": 5.8671617855922875,
+      "jades_measurement": {
+        "fixed": {
+          "offset_kms": 350,
+          "flux": 310.8009003779915,
+          "error": 58.21755665078863,
+          "snr": 5.3386112069645115,
+          "coverage": 0.9219310158310322
+        },
+        "best": {
+          "offset_kms": 350,
+          "flux": 310.8009003779915,
+          "error": 58.21755665078863,
+          "snr": 5.3386112069645115,
+          "coverage": 0.9219310158310322
+        }
+      },
+      "dja": [
+        {
+          "product": {
+            "path": "data/raw/spectra/jades-gdn-v4_g140m-f070lp_1181_38147.spec.fits",
+            "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn-v4/jades-gdn-v4_g140m-f070lp_1181_38147.spec.fits",
+            "sha256": "89d913610e86dbaba57a1019de2d2bdd9254ff7385cb8c9d059cc50f98c31fae"
+          },
+          "dataset": "jw01181098001_15101_00001_nrs2_f070lp_g140m_raw.556.1181_38147.fits",
+          "root": "jades-gdn-v4",
+          "header_separation_arcsec": 0.000118533185275236,
+          "programme": 1181,
+          "archive_redshift": 5.869894250000001,
+          "exposure_s": 3063.666,
+          "fixed": {
+            "offset_kms": 350,
+            "flux": 372.6180471331552,
+            "error": 128.39560069562467,
+            "snr": 2.9021091463755493,
+            "coverage": 0.8906907215633135
+          },
+          "best": {
+            "offset_kms": 350,
+            "flux": 372.6180471331552,
+            "error": 128.39560069562467,
+            "snr": 2.9021091463755493,
+            "coverage": 0.8906907215633135
+          }
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_58441",
+      "z": 5.966401258331361,
+      "jades_measurement": {
+        "fixed": {
+          "offset_kms": 350,
+          "flux": 490.77738744070183,
+          "error": 58.001501964818054,
+          "snr": 8.461459976301862,
+          "coverage": 0.9138135796914059
+        },
+        "best": {
+          "offset_kms": 350,
+          "flux": 490.77738744070183,
+          "error": 58.001501964818054,
+          "snr": 8.461459976301862,
+          "coverage": 0.9138135796914059
+        }
+      },
+      "dja": [
+        {
+          "product": {
+            "path": "data/raw/spectra/jades-gdn09-v4_g140m-f070lp_1181_58441.spec.fits",
+            "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gdn09-v4/jades-gdn09-v4_g140m-f070lp_1181_58441.spec.fits",
+            "sha256": "ea6c25c2aa69809022a329511c7167835bdbd56185fcc3a218290274015f929f"
+          },
+          "dataset": "jw01181009001_29101_00001_nrs2_f070lp_g140m_raw.799.1181_58441.fits",
+          "root": "jades-gdn09-v4",
+          "header_separation_arcsec": 9.571785813882219e-05,
+          "programme": 1181,
+          "archive_redshift": 5.968762525,
+          "exposure_s": 9190.998,
+          "fixed": {
+            "offset_kms": 350,
+            "flux": 867.3259218860463,
+            "error": 205.72405495799606,
+            "snr": 4.215967462157663,
+            "coverage": 0.9209673547497379
+          },
+          "best": {
+            "offset_kms": 350,
+            "flux": 867.3259218860463,
+            "error": 205.72405495799606,
+            "snr": 4.215967462157663,
+            "coverage": 0.9209673547497379
+          }
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20066293",
+      "z": 8.063322460563588,
+      "jades_measurement": {
+        "fixed": {
+          "offset_kms": 350,
+          "flux": 78.44399484067532,
+          "error": 15.155390142690084,
+          "snr": 5.175979905638476,
+          "coverage": 0.9963506390904197
+        },
+        "best": {
+          "offset_kms": 350,
+          "flux": 78.44399484067532,
+          "error": 15.155390142690084,
+          "snr": 5.175979905638476,
+          "coverage": 0.9963506390904197
+        }
+      },
+      "dja": [
+        {
+          "product": {
+            "path": "data/raw/spectra/jades-gds04-v4_g140m-f070lp_1286_20066293.spec.fits",
+            "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds04-v4/jades-gds04-v4_g140m-f070lp_1286_20066293.spec.fits",
+            "sha256": "0bbe7dc26d221b9423d41e31fe00da2ad7d81ca5699d6f77b9f935a23e65869a"
+          },
+          "dataset": "jw01286004001_15101_00001_nrs2_f070lp_g140m_raw.615.1286_20066293.fits",
+          "root": "jades-gds04-v4",
+          "header_separation_arcsec": 4.579998741307464e-11,
+          "programme": 1286,
+          "archive_redshift": 8.064029,
+          "exposure_s": 8534.502,
+          "fixed": {
+            "offset_kms": 350,
+            "flux": 82.47713363793117,
+            "error": 28.001218642889995,
+            "snr": 2.9454837194692445,
+            "coverage": 0.932480823987143
+          },
+          "best": {
+            "offset_kms": 350,
+            "flux": 82.47713363793117,
+            "error": 28.001218642889995,
+            "snr": 2.9454837194692445,
+            "coverage": 0.932480823987143
+          }
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20117085",
+      "z": 7.762091638833999,
+      "jades_measurement": {
+        "fixed": {
+          "offset_kms": 350,
+          "flux": 64.36097800192432,
+          "error": 12.362847506894697,
+          "snr": 5.205999505051771,
+          "coverage": 0.9504367415697629
+        },
+        "best": {
+          "offset_kms": 350,
+          "flux": 64.36097800192432,
+          "error": 12.362847506894697,
+          "snr": 5.205999505051771,
+          "coverage": 0.9504367415697629
+        }
+      },
+      "dja": [
+        {
+          "product": {
+            "path": "data/raw/spectra/jades-gds05-v4_g140m-f070lp_1286_20117085.spec.fits",
+            "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds05-v4/jades-gds05-v4_g140m-f070lp_1286_20117085.spec.fits",
+            "sha256": "0019a4dbf8358e5bd23623404b4d8bb867e94d28eb418c5d5e65d946efe32b4a"
+          },
+          "dataset": "jw01286005001_09101_00001_nrs2_f070lp_g140m_raw.29.1286_20117085.fits",
+          "root": "jades-gds05-v4",
+          "header_separation_arcsec": 4.579998741307464e-11,
+          "programme": 1286,
+          "archive_redshift": 7.7619698875,
+          "exposure_s": 8534.502,
+          "fixed": {
+            "offset_kms": 350,
+            "flux": 69.5009966326059,
+            "error": 23.923127066004525,
+            "snr": 2.905180265140542,
+            "coverage": 0.9221085973563095
+          },
+          "best": {
+            "offset_kms": 350,
+            "flux": 69.5009966326059,
+            "error": 23.923127066004525,
+            "snr": 2.905180265140542,
+            "coverage": 0.9221085973563095
+          }
+        },
+        {
+          "product": {
+            "path": "data/raw/spectra/jades-gds08-v4_g140m-f070lp_1286_20117085.spec.fits",
+            "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/jades-gds08-v4/jades-gds08-v4_g140m-f070lp_1286_20117085.spec.fits",
+            "sha256": "f4846be53b69fdba35b8dba4bc999e7a14dd24e999de8993dfd039f510443fe9"
+          },
+          "dataset": "jw01286008001_23101_00001_nrs2_f070lp_g140m_raw.793.1286_20117085.fits",
+          "root": "jades-gds08-v4",
+          "header_separation_arcsec": 4.579998741307464e-11,
+          "programme": 1286,
+          "archive_redshift": 7.7619698875,
+          "exposure_s": 8534.502,
+          "fixed": {
+            "offset_kms": 350,
+            "flux": 82.43457498843188,
+            "error": 39.58415358683203,
+            "snr": 2.082514529648914,
+            "coverage": 0.9221085973563095
+          },
+          "best": {
+            "offset_kms": 350,
+            "flux": 82.43457498843188,
+            "error": 39.58415358683203,
+            "snr": 2.082514529648914,
+            "coverage": 0.9221085973563095
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Distinct reduction products. Archive dataset names identify one reference exposure per extraction. Inputs can overlap. Fixed offsets were set by the JADES spectra."
+}

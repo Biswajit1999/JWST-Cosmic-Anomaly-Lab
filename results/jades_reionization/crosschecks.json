@@ -1,0 +1,1777 @@
+{
+  "executed_utc": "2026-11-25T22:28:03.906255+00:00",
+  "summary_sha256": "8fb5c081ee6f6e93dc7722046e36f55ee245caa95a18b3af52885646a7294ecf",
+  "script_sha256": "c262b72031b5ac107b1a1ee9fcba228fcd642972f7bd1bea8a8b1e01ded39fdd",
+  "published_table": {
+    "path": "data/raw/metadata/jones_2409_06405.html",
+    "url": "https://arxiv.org/html/2409.06405",
+    "sha256": "0bd1b00e5c6a9d04354968acfea8ef4de5817727d909ce71cf9a4de05d441873"
+  },
+  "literature_matches": [
+    {
+      "dr4_id": "goods-n-mediumhst_2000",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_2347",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_27003",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_761",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_978",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_988",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.16215+62.26381",
+          "field": "GN",
+          "ra": 189.16215,
+          "dec": 62.26381,
+          "z": 6.312,
+          "grating_line_reported": true,
+          "literature_flux": 281.0,
+          "literature_error": 65.0,
+          "separation_arcsec": 0.003446171282475706
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_113",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_24707",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.14972+62.22212",
+          "field": "GN",
+          "ra": 189.14972,
+          "dec": 62.22212,
+          "z": 5.9361,
+          "grating_line_reported": true,
+          "literature_flux": 428.0,
+          "literature_error": 136.0,
+          "separation_arcsec": 0.014324126104221822
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_27376",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_38147",
+      "searched": true,
+      "above_screen": true,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_44099",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_53927",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_54834",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_58441",
+      "searched": true,
+      "above_screen": true,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_5888",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_73449",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_7351",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.10818+62.24715",
+          "field": "GN",
+          "ra": 189.10818,
+          "dec": 62.24715,
+          "z": 6.0478,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.014259294599172499
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_82830",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1066",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1166",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1893",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1972",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38420",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.17514+62.28226",
+          "field": "GN",
+          "ra": 189.17514,
+          "dec": 62.28226,
+          "z": 6.733,
+          "grating_line_reported": true,
+          "literature_flux": 835.0,
+          "literature_error": 82.0,
+          "separation_arcsec": 0.012113651285500106
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38428",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38432",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_896",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_926",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_18533",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_18536",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.15531+62.28647",
+          "field": "GN",
+          "ra": 189.15531,
+          "dec": 62.28647,
+          "z": 6.8089,
+          "grating_line_reported": true,
+          "literature_flux": 461.0,
+          "literature_error": 57.0,
+          "separation_arcsec": 0.008955711471767457
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_2113",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_24819",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_39799",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_44124",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_68438",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_78455",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_89464",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1899",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.19774+62.25696",
+          "field": "GN",
+          "ra": 189.19774,
+          "dec": 62.25696,
+          "z": 8.279,
+          "grating_line_reported": true,
+          "literature_flux": 698.0,
+          "literature_error": 55.0,
+          "separation_arcsec": 0.014456498724621625
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_45131",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_45170",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10016374",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_18976",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_19342",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.16062-27.77161",
+          "field": "GS",
+          "ra": 53.16062,
+          "dec": -27.77161,
+          "z": 5.9734,
+          "grating_line_reported": true,
+          "literature_flux": 236.0,
+          "literature_error": 40.0,
+          "separation_arcsec": 0.010286002706224531
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_22251",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_6002",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.11041-27.80892",
+          "field": "GS",
+          "ra": 53.11041,
+          "dec": -27.80892,
+          "z": 5.9362,
+          "grating_line_reported": true,
+          "literature_flux": 313.0,
+          "literature_error": 47.0,
+          "separation_arcsec": 0.01271064828608202
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_6246",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_9422",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.12175-27.79763",
+          "field": "GS",
+          "ra": 53.12175,
+          "dec": -27.79763,
+          "z": 5.9361,
+          "grating_line_reported": true,
+          "literature_flux": 1044.0,
+          "literature_error": 57.0,
+          "separation_arcsec": 0.02234417656592638
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_159179",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_14137",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_9365",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.16280-27.76084",
+          "field": "GS",
+          "ra": 53.1628,
+          "dec": -27.76084,
+          "z": 5.9155,
+          "grating_line_reported": true,
+          "literature_flux": 530.0,
+          "literature_error": 62.0,
+          "separation_arcsec": 0.007873264365827606
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_167639",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_35867",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_40000170",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13600-27.79849",
+          "field": "GS",
+          "ra": 53.136,
+          "dec": -27.79849,
+          "z": 5.7776,
+          "grating_line_reported": true,
+          "literature_flux": 475.0,
+          "literature_error": 105.0,
+          "separation_arcsec": 0.007316083114379889
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_40649",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_42905",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.14077-27.80218",
+          "field": "GS",
+          "ra": 53.14077,
+          "dec": -27.80218,
+          "z": 5.9161,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.01529835181542347
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_52721",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_86808",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_99671",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10013609",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10013905",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_16625",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.16904-27.77884",
+          "field": "GS",
+          "ra": 53.16904,
+          "dec": -27.77884,
+          "z": 6.6306,
+          "grating_line_reported": true,
+          "literature_flux": 212.0,
+          "literature_error": 34.0,
+          "separation_arcsec": 0.009060153967028445
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_11786",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_3433",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.11776-27.90701",
+          "field": "GS",
+          "ra": 53.11776,
+          "dec": -27.90701,
+          "z": 7.1087,
+          "grating_line_reported": true,
+          "literature_flux": 223.0,
+          "literature_error": 39.0,
+          "separation_arcsec": 0.012402229657230649
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_11547",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_17509",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_116898",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_121233",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_139305",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13742-27.76521",
+          "field": "GS",
+          "ra": 53.13742,
+          "dec": -27.76521,
+          "z": 6.6236,
+          "grating_line_reported": true,
+          "literature_flux": 471.0,
+          "literature_error": 46.0,
+          "separation_arcsec": 0.009066684735003862
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_147779",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20046866",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20087739",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.20042-27.78210",
+          "field": "GS",
+          "ra": 53.20042,
+          "dec": -27.7821,
+          "z": 7.4809,
+          "grating_line_reported": true,
+          "literature_flux": 257.0,
+          "literature_error": 68.0,
+          "separation_arcsec": 0.0038892454001736632
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_207382",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_30056758",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_31803",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_3869",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_45288",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_21842",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.15682-27.76716",
+          "field": "GS",
+          "ra": 53.15682,
+          "dec": -27.76716,
+          "z": 7.9799,
+          "grating_line_reported": true,
+          "literature_flux": 80.0,
+          "literature_error": 19.0,
+          "separation_arcsec": 0.016350118144986166
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_20006347",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.10900-27.90084",
+          "field": "GS",
+          "ra": 53.109,
+          "dec": -27.90084,
+          "z": 8.711,
+          "grating_line_reported": true,
+          "literature_flux": 153.0,
+          "literature_error": 28.0,
+          "separation_arcsec": 0.005768779904849744
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_20062446",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_12637",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13347-27.76037",
+          "field": "GS",
+          "ra": 53.13347,
+          "dec": -27.76037,
+          "z": 7.659,
+          "grating_line_reported": true,
+          "literature_flux": 177.0,
+          "literature_error": 24.0,
+          "separation_arcsec": 0.011260034584818255
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20027503",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.07581-27.87938",
+          "field": "GS",
+          "ra": 53.07581,
+          "dec": -27.87938,
+          "z": 8.1968,
+          "grating_line_reported": true,
+          "literature_flux": 217.0,
+          "literature_error": 36.0,
+          "separation_arcsec": 0.012959999996283908
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20057378",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20062600",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20066293",
+      "searched": true,
+      "above_screen": true,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20117085",
+      "searched": true,
+      "above_screen": true,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20173624",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20175729",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20179485",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20190104",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20190996",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13675-27.83746",
+          "field": "GS",
+          "ra": 53.13675,
+          "dec": -27.83746,
+          "z": 8.2252,
+          "grating_line_reported": true,
+          "literature_flux": 145.0,
+          "literature_error": 39.0,
+          "separation_arcsec": 0.016693819746583453
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20191095",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_217704",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_20198852",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_20213084",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.15891-27.76508",
+          "field": "GS",
+          "ra": 53.15891,
+          "dec": -27.76508,
+          "z": 8.4861,
+          "grating_line_reported": true,
+          "literature_flux": 86.0,
+          "literature_error": 14.0,
+          "separation_arcsec": 0.01840846586733071
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "dr4_id": "goods-s-deephst_9422",
+      "image": {
+        "path": "data/raw/images/jades_lya_goods-s-deephst_9422.fits",
+        "url": "https://grizli-cutout.herokuapp.com/thumb?ra=53.12175498847799&dec=-27.797634364680725&size=3&filters=f150w-clear%2Cf277w-clear%2Cf444w-clear&output=fits_weight",
+        "sha256": "a9481db35ab36aa56d9dc43101331b1d95bb97cd77a044e393f00de1374e2890"
+      },
+      "wcs_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.928594021592289e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3185087538140985e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -9.991319384425878e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3185087538140985e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.4954751823097467e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3185087538140985e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.0030956024489753437,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.045776419658868694,
+            "diagonal_error_uJy": 0.0007331355346838346,
+            "sn": 62.439231892653815,
+            "upper_limit_3sigma_uJy": 0.0479758262629202,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.708728726953268e-05,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.04513061650461168,
+            "diagonal_error_uJy": 0.00041484517092110697,
+            "sn": 108.78906075827113,
+            "upper_limit_3sigma_uJy": 0.046375152017375,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.0790356900542975e-05,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.05368745529136504,
+            "diagonal_error_uJy": 0.0006319498551619676,
+            "sn": 84.95524582026376,
+            "upper_limit_3sigma_uJy": 0.055583304856850944,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.829306944273412e-05,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "spectral_image": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-deephst-00009422_f070lp-g140m_v1.0_s2d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f070lp-g140m/goods-s-deephst/hlsp_jades_jwst_nirspec_goods-s-deephst-00009422_f070lp-g140m_v1.0_s2d.fits",
+        "sha256": "774b733c282b2bfe566631835382c1bd666c65f1041bccc9a083949aec8fb4b0"
+      },
+      "header_offset_arcsec": 1.144999685326866e-11,
+      "extraction_checks": [
+        {
+          "aperture": 5,
+          "nods": 3,
+          "snr": 22.12112185720126
+        },
+        {
+          "aperture": 3,
+          "nods": 3,
+          "snr": 26.891198078596837
+        },
+        {
+          "aperture": 5,
+          "nods": 2,
+          "snr": 15.071581120490867
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_18536",
+      "image": {
+        "path": "data/raw/images/jades_lya_goods-n-mediumjwst_18536.fits",
+        "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.15531434539818&dec=62.286471450819306&size=3&filters=f150w-clear%2Cf277w-clear%2Cf444w-clear&output=fits_weight",
+        "sha256": "08755b74bab92fedef85d25283d22d195479a0268e805ffb02dc132b7ef59ff5"
+      },
+      "wcs_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 3.2831806456670166e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 3.2681929968832515e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -5.841858219355345e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 3.2681929968832515e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -5.181722226552665e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 3.2681929968832515e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.0032547953542399707,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.06309738796233433,
+            "diagonal_error_uJy": 0.0037135103202961014,
+            "sn": 16.991305401112545,
+            "upper_limit_3sigma_uJy": 0.07423791892322264,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 2.81001185066998e-05,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.063686914795544,
+            "diagonal_error_uJy": 0.0023692596582955473,
+            "sn": 26.880512894631636,
+            "upper_limit_3sigma_uJy": 0.07079469377043064,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.7400484648533165e-05,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.08959562584903324,
+            "diagonal_error_uJy": 0.00205828234081667,
+            "sn": 43.52931766080457,
+            "upper_limit_3sigma_uJy": 0.09577047287148326,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -8.716458978597075e-06,
+            "n_aperture_pixels": 111,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "spectral_image": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00018536_f070lp-g140m_v1.0_s2d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f070lp-g140m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00018536_f070lp-g140m_v1.0_s2d.fits",
+        "sha256": "a6d63c3fbd7e196f11150b29f4d17ecaa998062839b00b6951c94b4434ef0f09"
+      },
+      "header_offset_arcsec": 4.7583169010193314e-11,
+      "extraction_checks": [
+        {
+          "aperture": 5,
+          "nods": 3,
+          "snr": 12.94425125989328
+        },
+        {
+          "aperture": 3,
+          "nods": 3,
+          "snr": 16.023012769219847
+        },
+        {
+          "aperture": 5,
+          "nods": 2,
+          "snr": 10.346799890308917
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1899",
+      "image": {
+        "path": "data/raw/images/jades_lya_goods-n-mediumhst_1899.fits",
+        "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.1977397875544&dec=62.256964014476154&size=3&filters=f150w-clear%2Cf277w-clear%2Cf444w-clear&output=fits_weight",
+        "sha256": "df40c386de632a8f166016d34b56908c710db9ddc5016f4c375728ce30736747"
+      },
+      "wcs_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 1.4104984002187848e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.9328878835721342e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -2.8263419517315923e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.9328878835721342e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -3.1652158941142263e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.9328878835721342e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.002255592364855092,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.03643108643547748,
+            "diagonal_error_uJy": 0.0025664754403004883,
+            "sn": 14.194987360257791,
+            "upper_limit_3sigma_uJy": 0.04413051275637895,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 6.646591355092824e-06,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.024708235442103616,
+            "diagonal_error_uJy": 0.0005886337891329408,
+            "sn": 41.97556426126831,
+            "upper_limit_3sigma_uJy": 0.02647413680950244,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.5916505799395964e-06,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.06925268611405044,
+            "diagonal_error_uJy": 0.0010701856242172536,
+            "sn": 64.71091046910921,
+            "upper_limit_3sigma_uJy": 0.0724632429867022,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.443297602236271e-05,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "spectral_image": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001899_f070lp-g140m_v1.0_s2d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f070lp-g140m/goods-n-mediumhst/hlsp_jades_jwst_nirspec_goods-n-mediumhst-00001899_f070lp-g140m_v1.0_s2d.fits",
+        "sha256": "4bf03044d2efa77dcf920b7951170ee8f9ea85b0cfadaa2ec05b4fdffdb3dd58"
+      },
+      "header_offset_arcsec": 4.579998741307464e-11,
+      "extraction_checks": [
+        {
+          "aperture": 5,
+          "nods": 3,
+          "snr": 25.316335090927772
+        },
+        {
+          "aperture": 3,
+          "nods": 3,
+          "snr": 22.84265981719169
+        },
+        {
+          "aperture": 5,
+          "nods": 2,
+          "snr": 19.123505353096093
+        }
+      ]
+    }
+  ],
+  "catalogue_unmatched": [
+    {
+      "dr4_id": "goods-n-mediumjwst_38147",
+      "image": {
+        "path": "data/raw/images/jades_lya_goods-n-mediumjwst_38147.fits",
+        "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.27067632123956&dec=62.14841846860489&size=3&filters=f150w-clear%2Cf277w-clear%2Cf444w-clear&output=fits_weight",
+        "sha256": "4e1aa96bc2f7e72d6034d20316aa0ea1a22b9cdc0c544601511b87994ebf8384"
+      },
+      "wcs_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 9.99999999999999e-09,
+            "display_background_uJy_pixel": -0.00011663967743515957,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.707203829806288e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -7.476072059944272e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.707203829806288e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.6907054232433437e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.707203829806288e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.008701469749988387,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.08272503134816353,
+            "diagonal_error_uJy": 0.003081733078511048,
+            "sn": 26.843671804351228,
+            "upper_limit_3sigma_uJy": 0.09197023058369667,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -0.0001655608229339121,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.10268542588746642,
+            "diagonal_error_uJy": 0.0016848860698685983,
+            "sn": 60.94502632778885,
+            "upper_limit_3sigma_uJy": 0.10774008409707221,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -2.9434936586767438e-05,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.30697244314826094,
+            "diagonal_error_uJy": 0.002538787947698308,
+            "sn": 120.91299055778384,
+            "upper_limit_3sigma_uJy": 0.3145888069913559,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.940379268489778e-05,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "spectral_image": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00038147_f070lp-g140m_v1.0_s2d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f070lp-g140m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00038147_f070lp-g140m_v1.0_s2d.fits",
+        "sha256": "4e296559876f11c5fbb74d8c9c4b33946fcc8b96fb0728b72f125b06fa71a69a"
+      },
+      "header_offset_arcsec": 4.78012827565529e-11,
+      "extraction_checks": [
+        {
+          "aperture": 5,
+          "nods": 3,
+          "snr": 5.3386112069645115
+        },
+        {
+          "aperture": 3,
+          "nods": 3,
+          "snr": 6.09003827980783
+        },
+        {
+          "aperture": 5,
+          "nods": 2,
+          "snr": 2.6052630917217963
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_58441",
+      "image": {
+        "path": "data/raw/images/jades_lya_goods-n-mediumjwst_58441.fits",
+        "url": "https://grizli-cutout.herokuapp.com/thumb?ra=189.28642116251103&dec=62.20701727996561&size=3&filters=f150w-clear%2Cf277w-clear%2Cf444w-clear&output=fits_weight",
+        "sha256": "430242131bc70e668953fb7268f682d327543d7cb1badf02a7032e64d473f55a"
+      },
+      "wcs_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -4.3807141482830045e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7258732126699395e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 6.446425104513764e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7258732126699395e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 7.733560632914305e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.7258732126699395e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.0023111102863463263,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.0701925869518891,
+            "diagonal_error_uJy": 0.002736515562945451,
+            "sn": 25.650351820523632,
+            "upper_limit_3sigma_uJy": 0.07840213364072544,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -6.878779269754887e-05,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.07033492473128718,
+            "diagonal_error_uJy": 0.0015882008891138254,
+            "sn": 44.28591194816181,
+            "upper_limit_3sigma_uJy": 0.07509952739862866,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 3.880482516251504e-05,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.09944722305983304,
+            "diagonal_error_uJy": 0.001665830871899358,
+            "sn": 59.698271137480276,
+            "upper_limit_3sigma_uJy": 0.10444471567553111,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 0.0001260508131235838,
+            "n_aperture_pixels": 116,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "spectral_image": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00058441_f070lp-g140m_v1.0_s2d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-n/spectra/f070lp-g140m/goods-n-mediumjwst/hlsp_jades_jwst_nirspec_goods-n-mediumjwst-00058441_f070lp-g140m_v1.0_s2d.fits",
+        "sha256": "bb514a021b3e20eaea33e1200b8e74347f35f773d9aebc196dbe9d87c0835329"
+      },
+      "header_offset_arcsec": 4.770873468888105e-11,
+      "extraction_checks": [
+        {
+          "aperture": 5,
+          "nods": 3,
+          "snr": 8.461459976301862
+        },
+        {
+          "aperture": 3,
+          "nods": 3,
+          "snr": 8.346367660639633
+        },
+        {
+          "aperture": 5,
+          "nods": 2,
+          "snr": 6.866630702068733
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20066293",
+      "image": {
+        "path": "data/raw/images/jades_lya_goods-s-mediumjwst_20066293.fits",
+        "url": "https://grizli-cutout.herokuapp.com/thumb?ra=53.0460129&dec=-27.853991&size=3&filters=f150w-clear%2Cf277w-clear%2Cf444w-clear&output=fits_weight",
+        "sha256": "d0817fd46852d634a8f256b54094e49091a42daf41bde25f2cf87dfdf3c2f79f"
+      },
+      "wcs_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -7.267242763191462e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3135371475857325e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": 3.7201093800831586e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3135371475857325e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -2.2369934595189987e-06,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.3135371475857325e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.0024549506762518527,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.01623581036168616,
+            "diagonal_error_uJy": 0.0031020554130343075,
+            "sn": 5.233887922654784,
+            "upper_limit_3sigma_uJy": 0.025541976600789083,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -3.6307566333562135e-05,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.024749578224822814,
+            "diagonal_error_uJy": 0.0015351897905113176,
+            "sn": 16.121510433299328,
+            "upper_limit_3sigma_uJy": 0.029355147596356768,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": 1.830670371418819e-06,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.08136702485731803,
+            "diagonal_error_uJy": 0.0023675715531934452,
+            "sn": 34.36729282693398,
+            "upper_limit_3sigma_uJy": 0.08846973951689836,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.0218319948762657e-06,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "spectral_image": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-20066293_f070lp-g140m_v1.0_s2d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f070lp-g140m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-20066293_f070lp-g140m_v1.0_s2d.fits",
+        "sha256": "5494918e1f0bfcc39aeec0f23eb60dd9afe4375497dde631789cf7c4d00ecbcd"
+      },
+      "header_offset_arcsec": 0.0,
+      "extraction_checks": [
+        {
+          "aperture": 5,
+          "nods": 3,
+          "snr": 5.175979905638476
+        },
+        {
+          "aperture": 3,
+          "nods": 3,
+          "snr": 6.353398529357055
+        },
+        {
+          "aperture": 5,
+          "nods": 2,
+          "snr": 4.4750668312908575
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20117085",
+      "image": {
+        "path": "data/raw/images/jades_lya_goods-s-mediumjwst_20117085.fits",
+        "url": "https://grizli-cutout.herokuapp.com/thumb?ra=53.1356328&dec=-27.7918485&size=3&filters=f150w-clear%2Cf277w-clear%2Cf444w-clear&output=fits_weight",
+        "sha256": "9bc763cfe4a1b232b190e474f45908444a844359ebacaa741ff4725fb01ab9f2"
+      },
+      "wcs_diagnostics": {
+        "bands": {
+          "F150W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.086879288777709e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.334720906955998e-09
+          },
+          "F277W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.408176263794303e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.334720906955998e-09
+          },
+          "F444W-CLEAR": {
+            "photfnu_Jy_per_unit": 1e-08,
+            "display_background_uJy_pixel": -1.744997571222484e-05,
+            "valid_fraction": 1.0,
+            "pixel_scale_arcsec": [
+              0.049999999999996804,
+              0.0500000000000004
+            ],
+            "shape": [
+              120,
+              120
+            ],
+            "registration_max_offset_pixels": 2.334720906955998e-09
+          }
+        },
+        "rgb_scale_uJy_pixel": 0.001372310195388276,
+        "apertures": [
+          {
+            "filter": "F150W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.040802749982685786,
+            "diagonal_error_uJy": 0.0009398376655732537,
+            "sn": 43.41467838256744,
+            "upper_limit_3sigma_uJy": 0.043622262979405545,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.1339232441969216e-05,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F277W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.0295097278871981,
+            "diagonal_error_uJy": 0.00042635270475209144,
+            "sn": 69.21435599747615,
+            "upper_limit_3sigma_uJy": 0.030788786001454373,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -1.879972522147e-05,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          },
+          {
+            "filter": "F444W-CLEAR",
+            "status": "MEASURED",
+            "aperture_flux_uJy": 0.037155404450895727,
+            "diagonal_error_uJy": 0.0006592616401419078,
+            "sn": 56.359117819896106,
+            "upper_limit_3sigma_uJy": 0.03913318937132145,
+            "aperture_radius_arcsec": 0.3,
+            "background_uJy_pixel": -2.190808765590191e-05,
+            "n_aperture_pixels": 113,
+            "pixel_scale_arcsec": 0.0499999999999986,
+            "flags": [
+              "PSF_UNMATCHED",
+              "NO_APERTURE_CORRECTION",
+              "BLENDING_UNASSESSED",
+              "DRIZZLE_COVARIANCE_UNMODELLED"
+            ]
+          }
+        ]
+      },
+      "spectral_image": {
+        "path": "data/raw/independent/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-20117085_f070lp-g140m_v1.0_s2d.fits",
+        "url": "https://jades.herts.ac.uk/DR4/goods-s/spectra/f070lp-g140m/goods-s-mediumjwst/hlsp_jades_jwst_nirspec_goods-s-mediumjwst-20117085_f070lp-g140m_v1.0_s2d.fits",
+        "sha256": "cc8768094b866ae91e2c8224e22bc3870eb5e844da5ad4077a92d178f4dde8ab"
+      },
+      "header_offset_arcsec": 0.0,
+      "extraction_checks": [
+        {
+          "aperture": 5,
+          "nods": 3,
+          "snr": 5.205999505051771
+        },
+        {
+          "aperture": 3,
+          "nods": 3,
+          "snr": 5.236509502553007
+        },
+        {
+          "aperture": 5,
+          "nods": 2,
+          "snr": 3.5984757003201593
+        }
+      ]
+    }
+  ],
+  "literature_scope": "0.20 arcsec and normalized redshift agreement within 0.002 in Jones et al. (2025)."
+}
