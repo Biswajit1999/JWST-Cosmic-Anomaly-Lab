@@ -1,0 +1,28 @@
+experiment: jades-dr4-full-eligible-lya-and-ceers-comparison
+status: executed
+date: 2026-11-25
+commands:
+  - python scripts/expand_jades_reionization.py
+  - python scripts/check_ceers_lya_dispersers.py
+inputs:
+  jades_roster: results/jades_reionization/eligible_targets.csv
+  jades_release: DR4 v1.2.1
+  ceers_extraction: DAWN JWST Archive v4
+  ceers_inventory: data/catalogues/observations.csv.gz
+  coordinate_threshold_arcsec: 0.15
+  literature: Jones et al. 2025, Tang et al. 2023, Napolitano et al. 2024
+limits:
+  - The JADES list is complete within the pilot selection cuts.
+  - The CEERS comparison is bounded by the pinned archive snapshot and two-mode selection.
+  - Signed fit errors use released diagonal uncertainties and omit calibration systematics.
+  - The search over four offsets makes the cut a screening threshold.
+outputs:
+  - reports/jades_reionization_full.md
+  - results/jades_reionization_full/archive_sample.json
+  - results/jades_reionization_full/measurements.csv
+  - results/jades_reionization_full/screen_summary.json
+  - results/jades_reionization_full/ceers_crosscheck.json
+  - figures/jades_reionization_full_screen.png
+  - figures/jades_reionization_full_screen.pdf
+  - figures/jwst_ceers_lya_crosscheck.png
+  - figures/jwst_ceers_lya_crosscheck.pdf

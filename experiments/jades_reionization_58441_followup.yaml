@@ -6,6 +6,7 @@ commands:
   - python scripts/check_jades_reionization_prism.py
   - python scripts/check_jades_reionization_mmt.py
   - python scripts/audit_jades_58441_flux_scale.py
+  - python scripts/check_jades_reionization_deimos.py
 inputs:
   primary_target: goods-n-mediumjwst_58441
   modes: [G140M/F070LP, PRISM/CLEAR]
@@ -22,6 +23,7 @@ outputs:
   - results/jades_reionization/exposure_audit.json
   - results/jades_reionization/prism_crosscheck.json
   - results/jades_reionization/mmt_literature_check.json
+  - results/jades_reionization/deimos_literature_check.json
   - results/jades_reionization/58441_flux_scale.json
   - figures/jades_reionization_exposure_audit.*
   - figures/jades_reionization_prism_check.*

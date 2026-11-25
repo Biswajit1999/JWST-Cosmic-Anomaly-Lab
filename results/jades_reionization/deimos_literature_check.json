@@ -1,0 +1,36 @@
+{
+  "executed_utc": "2026-11-25T23:40:23.454688+00:00",
+  "script_sha256": "d970e0a34aeac71b6fd138137ede1a436b1e20a8d779fa2b701ae6de515f3d45",
+  "target_receipt_sha256": "33f350b736708e45793f81281685d5768b00e24bee905f17f64d7b6bd3bb9e38",
+  "published_table": {
+    "path": "data/raw/metadata/tang_2402_06070.html",
+    "url": "https://arxiv.org/html/2402.06070",
+    "sha256": "833c215fd8517d271f21a4341a1f5c2b9a5eb77daf1d5a7effa9ceb822100dd3"
+  },
+  "emitter_rows": 19,
+  "results": [
+    {
+      "dr4_id": "goods-n-mediumjwst_38147",
+      "matches_within_arcsec_1": 0,
+      "nearest": {
+        "name": "DEIMOS-11505",
+        "ra": 189.265076,
+        "dec": 62.199612,
+        "line_redshift": 5.226,
+        "separation_arcsec": 184.536838947716
+      }
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_58441",
+      "matches_within_arcsec_1": 0,
+      "nearest": {
+        "name": "DEIMOS-11505",
+        "ra": 189.265076,
+        "dec": 62.199612,
+        "line_redshift": 5.226,
+        "separation_arcsec": 44.6632792683838
+      }
+    }
+  ],
+  "scope": "Keck/DEIMOS emitter rows in Tang et al. 2024 Table 6 and its continuation. A coordinate miss does not establish coverage or literature priority."
+}

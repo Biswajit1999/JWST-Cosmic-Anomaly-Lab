@@ -27,4 +27,5 @@ Biswajit Jana is responsible for reviewing and approving the work.
 - [Early galaxy evolution](../reports/jades_cosmic_evolution.md)
 - [Spectral line recovery](../reports/jades_evolution_line_recovery.md)
 - [Reionization spectra](../reports/jades_reionization.md)
+- [Full eligible JADES sample and CEERS comparison](../reports/jades_reionization_full.md)
 - [GOODS-N 58441 follow-up](../reports/jades_reionization_58441.md)

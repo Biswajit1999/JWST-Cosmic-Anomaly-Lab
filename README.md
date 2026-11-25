@@ -41,6 +41,12 @@ The literature audit also recovered a published MMT detection at
 GOODS-N 38147.
 [Exposure, calibration and identification checks](reports/jades_reionization_58441.md).
 
+The expansion examined all 204 targets in the pilot's eligible JADES roster.
+All 16 additional line hits match published emitters. Four CEERS objects
+with both G140M and PRISM passed the positional and redshift checks.
+The strongest response belongs to the previously published CEERS 1027.
+[Full-sample results and observed CEERS spectra](reports/jades_reionization_full.md).
+
 ## Infrared rise and fade near JADES 103607 · 25 November 2026
 
 A compact infrared source near **JADES 103607** brightened in five

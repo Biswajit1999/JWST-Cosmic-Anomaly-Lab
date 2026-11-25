@@ -108,15 +108,26 @@ corresponds to +320 km/s relative to the JADES systemic
 redshift, close to our fixed +350 km/s template. The MMT table
 has zero emitters within 1″ of 58441, with the nearest listed
 emitter 76.2″ away. The earlier Jones et al. table also had no
-coordinate match for 58441. The scope of these literature
-checks supports follow-up of the line. Priority and publication
-status beyond those catalogues remain open.
+coordinate match for 58441. A further check of 19 Keck/DEIMOS
+emitter entries in Tang et al. found zero within 1″ of 58441.
+The nearest published entry in that table is 44.7″ away.
 [MMT/Binospec study](https://doi.org/10.1051/0004-6361/202557392) ·
-[Coordinate checks](../results/jades_reionization/mmt_literature_check.json).
+[MMT coordinate checks](../results/jades_reionization/mmt_literature_check.json) ·
+[Tang et al. emitter table](https://doi.org/10.1093/mnras/stae1338) ·
+[Keck coordinate checks](../results/jades_reionization/deimos_literature_check.json).
+
+Cameron et al. list this same JADES tier and target ID in their
+rest-optical abundance study at z = 5.9687. At the fixed
+wavelength of the measured feature, that alternative systemic
+redshift changes the nominal Lyα offset from +350 to about
++251 km/s. Their abundance row documents previous study of the
+galaxy. The coordinate checks cover the named emitter tables,
+so the priority of the Lyα measurement remains open.
+[Cameron et al. abundance catalogue](https://arxiv.org/html/2601.15964).
 
 ## Reproduction and credits
 
-The four executed commands and input ledgers are in the experiment
+The executed commands and input ledgers are in the experiment
 record. Observations and instrumental calibration are credited to
 the JADES collaboration, the DAWN JWST Archive, STScI and
 NASA/ESA/CSA JWST. [Research record](../docs/research_record.md) ·

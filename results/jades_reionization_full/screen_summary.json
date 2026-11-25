@@ -1,0 +1,1896 @@
+{
+  "executed_utc": "2026-11-25T23:40:03.943087+00:00",
+  "script_sha256": "5e388920925b3cdea2cd17b159aa2f35376d672d9a27c1bc57161cde69bfb9d5",
+  "archive_sha256": "199cd9abecb252d2ab416d873231b94d33748975ae498bb8ef8a5fdd3dff8650",
+  "measurement_sha256": "f1be1c1d3dd2adab8e5cf53dc96ac70f35e9eb13b2b0f36ab0016d9d75248672",
+  "counts": [
+    {
+      "cohort": "additional",
+      "bin": 0,
+      "drawn": 78,
+      "spectra": 78,
+      "usable": 71,
+      "formal_candidates": 9,
+      "published_table_recoveries": 9
+    },
+    {
+      "cohort": "additional",
+      "bin": 1,
+      "drawn": 28,
+      "spectra": 28,
+      "usable": 27,
+      "formal_candidates": 5,
+      "published_table_recoveries": 5
+    },
+    {
+      "cohort": "additional",
+      "bin": 2,
+      "drawn": 5,
+      "spectra": 5,
+      "usable": 5,
+      "formal_candidates": 2,
+      "published_table_recoveries": 2
+    },
+    {
+      "cohort": "pilot",
+      "bin": 0,
+      "drawn": 36,
+      "spectra": 36,
+      "usable": 31,
+      "formal_candidates": 7,
+      "published_table_recoveries": 5
+    },
+    {
+      "cohort": "pilot",
+      "bin": 1,
+      "drawn": 36,
+      "spectra": 36,
+      "usable": 33,
+      "formal_candidates": 6,
+      "published_table_recoveries": 6
+    },
+    {
+      "cohort": "pilot",
+      "bin": 2,
+      "drawn": 21,
+      "spectra": 21,
+      "usable": 20,
+      "formal_candidates": 9,
+      "published_table_recoveries": 7
+    }
+  ],
+  "literature_table": {
+    "path": "data/raw/metadata/jones_2409_06405.html",
+    "url": "https://arxiv.org/html/2409.06405",
+    "sha256": "0bd1b00e5c6a9d04354968acfea8ef4de5817727d909ce71cf9a4de05d441873"
+  },
+  "catalogue_matches": [
+    {
+      "dr4_id": "goods-n-mediumhst_1054",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1066",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1075",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.20260+62.27551",
+          "field": "GN",
+          "ra": 189.2026,
+          "dec": 62.27551,
+          "z": 6.907,
+          "grating_line_reported": true,
+          "literature_flux": 298.0,
+          "literature_error": 68.0,
+          "separation_arcsec": 0.0061517874938729
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1076",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1129",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.17975+62.28239",
+          "field": "GN",
+          "ra": 189.17975,
+          "dec": 62.28239,
+          "z": 7.085,
+          "grating_line_reported": true,
+          "literature_flux": 822.0,
+          "literature_error": 100.0,
+          "separation_arcsec": 0.011541445946294943
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1166",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1223",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1893",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1899",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.19774+62.25696",
+          "field": "GN",
+          "ra": 189.19774,
+          "dec": 62.25696,
+          "z": 8.279,
+          "grating_line_reported": true,
+          "literature_flux": 698.0,
+          "literature_error": 55.0,
+          "separation_arcsec": 0.014456498724621625
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1931",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1948",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1967",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_1972",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_2000",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_2347",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_2389",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_27003",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38420",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.17514+62.28226",
+          "field": "GN",
+          "ra": 189.17514,
+          "dec": 62.28226,
+          "z": 6.733,
+          "grating_line_reported": true,
+          "literature_flux": 835.0,
+          "literature_error": 82.0,
+          "separation_arcsec": 0.012113651285500106
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38428",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38432",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_38509",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.09145+62.22810",
+          "field": "GN",
+          "ra": 189.09145,
+          "dec": 62.2281,
+          "z": 6.674,
+          "grating_line_reported": true,
+          "literature_flux": 327.0,
+          "literature_error": 78.0,
+          "separation_arcsec": 0.01255457585182044
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_761",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_896",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_903",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.09179+62.25374",
+          "field": "GN",
+          "ra": 189.09179,
+          "dec": 62.25374,
+          "z": 5.7719,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.0026631345105161755
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_926",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_954",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.15197+62.25964",
+          "field": "GN",
+          "ra": 189.15197,
+          "dec": 62.25964,
+          "z": 6.759,
+          "grating_line_reported": true,
+          "literature_flux": 552.0,
+          "literature_error": 88.0,
+          "separation_arcsec": 0.018709574156362225
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_964",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.13724+62.26064",
+          "field": "GN",
+          "ra": 189.13724,
+          "dec": 62.26064,
+          "z": 5.6,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.015566699387352296
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_978",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumhst_988",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.16215+62.26381",
+          "field": "GN",
+          "ra": 189.16215,
+          "dec": 62.26381,
+          "z": 6.312,
+          "grating_line_reported": true,
+          "literature_flux": 281.0,
+          "literature_error": 65.0,
+          "separation_arcsec": 0.003446171282475706
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_113",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_13041",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.20377+62.26843",
+          "field": "GN",
+          "ra": 189.20377,
+          "dec": 62.26843,
+          "z": 7.0897,
+          "grating_line_reported": true,
+          "literature_flux": 954.0,
+          "literature_error": 41.0,
+          "separation_arcsec": 0.010447687023336594
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_18533",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_18536",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GN+189.15531+62.28647",
+          "field": "GN",
+          "ra": 189.15531,
+          "dec": 62.28647,
+          "z": 6.8089,
+          "grating_line_reported": true,
+          "literature_flux": 461.0,
+          "literature_error": 57.0,
+          "separation_arcsec": 0.008955711471767457
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_2113",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_24707",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.14972+62.22212",
+          "field": "GN",
+          "ra": 189.14972,
+          "dec": 62.22212,
+          "z": 5.9361,
+          "grating_line_reported": true,
+          "literature_flux": 428.0,
+          "literature_error": 136.0,
+          "separation_arcsec": 0.014324126104221822
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_24819",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_27376",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_38147",
+      "searched": true,
+      "above_screen": true,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_39544",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_39799",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_42722",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_44099",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_44124",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_45131",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_45170",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_47468",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_50010",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_53927",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_54834",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_58441",
+      "searched": true,
+      "above_screen": true,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_58561",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_5888",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_61888",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_66336",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_68438",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_73449",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_7351",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GN+189.10818+62.24715",
+          "field": "GN",
+          "ra": 189.10818,
+          "dec": 62.24715,
+          "z": 6.0478,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.014259294599172499
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_73977",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_7424",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_78455",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_78891",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_82830",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_8541",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_89464",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-n-mediumjwst_9104",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10013609",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10013618",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10013620",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10013704",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10013905",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_10016374",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_16625",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.16904-27.77884",
+          "field": "GS",
+          "ra": 53.16904,
+          "dec": -27.77884,
+          "z": 6.6306,
+          "grating_line_reported": true,
+          "literature_flux": 212.0,
+          "literature_error": 34.0,
+          "separation_arcsec": 0.009060153967028445
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_16745",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_17566",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_18846",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13492-27.77271",
+          "field": "GS",
+          "ra": 53.13492,
+          "dec": -27.77271,
+          "z": 6.3343,
+          "grating_line_reported": true,
+          "literature_flux": 813.0,
+          "literature_error": 41.0,
+          "separation_arcsec": 0.011427064507898666
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_18976",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_19342",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.16062-27.77161",
+          "field": "GS",
+          "ra": 53.16062,
+          "dec": -27.77161,
+          "z": 5.9734,
+          "grating_line_reported": true,
+          "literature_flux": 236.0,
+          "literature_error": 40.0,
+          "separation_arcsec": 0.010286002706224531
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_19606",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.17655-27.77111",
+          "field": "GS",
+          "ra": 53.17655,
+          "dec": -27.77111,
+          "z": 5.8889,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.008543394249649849
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_21842",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.15682-27.76716",
+          "field": "GS",
+          "ra": 53.15682,
+          "dec": -27.76716,
+          "z": 7.9799,
+          "grating_line_reported": true,
+          "literature_flux": 80.0,
+          "literature_error": 19.0,
+          "separation_arcsec": 0.016350118144986166
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_22251",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_3334",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_3968",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_4297",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.15579-27.81520",
+          "field": "GS",
+          "ra": 53.15579,
+          "dec": -27.8152,
+          "z": 6.7122,
+          "grating_line_reported": true,
+          "literature_flux": 316.0,
+          "literature_error": 50.0,
+          "separation_arcsec": 0.00813135426042812
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_4404",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_6002",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.11041-27.80892",
+          "field": "GS",
+          "ra": 53.11041,
+          "dec": -27.80892,
+          "z": 5.9362,
+          "grating_line_reported": true,
+          "literature_flux": 313.0,
+          "literature_error": 47.0,
+          "separation_arcsec": 0.01271064828608202
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deephst_6246",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_6384",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deephst_9422",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.12175-27.79763",
+          "field": "GS",
+          "ra": 53.12175,
+          "dec": -27.79763,
+          "z": 5.9361,
+          "grating_line_reported": true,
+          "literature_flux": 1044.0,
+          "literature_error": 57.0,
+          "separation_arcsec": 0.02234417656592638
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_11786",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_12813",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_13271",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_159179",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_176359",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_187918",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.07281-27.84584",
+          "field": "GS",
+          "ra": 53.07281,
+          "dec": -27.84584,
+          "z": 5.9945,
+          "grating_line_reported": true,
+          "literature_flux": 151.0,
+          "literature_error": 44.0,
+          "separation_arcsec": 0.010747854345314913
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_20005936",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.11991-27.90158",
+          "field": "GS",
+          "ra": 53.11991,
+          "dec": -27.90158,
+          "z": 7.9561,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.012118695561910788
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_20006347",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.10900-27.90084",
+          "field": "GS",
+          "ra": 53.109,
+          "dec": -27.90084,
+          "z": 8.711,
+          "grating_line_reported": true,
+          "literature_flux": 153.0,
+          "literature_error": 28.0,
+          "separation_arcsec": 0.005768779904849744
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_20062446",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_3433",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.11776-27.90701",
+          "field": "GS",
+          "ra": 53.11776,
+          "dec": -27.90701,
+          "z": 7.1087,
+          "grating_line_reported": true,
+          "literature_flux": 223.0,
+          "literature_error": 39.0,
+          "separation_arcsec": 0.012402229657230649
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_60318988",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-deepjwst_9366",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.08036-27.89598",
+          "field": "GS",
+          "ra": 53.08036,
+          "dec": -27.89598,
+          "z": 6.4737,
+          "grating_line_reported": true,
+          "literature_flux": 277.0,
+          "literature_error": 30.0,
+          "separation_arcsec": 0.012090362923609158
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_11547",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_12637",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13347-27.76037",
+          "field": "GS",
+          "ra": 53.13347,
+          "dec": -27.76037,
+          "z": 7.659,
+          "grating_line_reported": true,
+          "literature_flux": 177.0,
+          "literature_error": 24.0,
+          "separation_arcsec": 0.011260034584818255
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_13178",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_13556",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_13638",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_13651",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_13887",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.19588-27.76843",
+          "field": "GS",
+          "ra": 53.19588,
+          "dec": -27.76843,
+          "z": 6.048,
+          "grating_line_reported": true,
+          "literature_flux": 247.0,
+          "literature_error": 66.0,
+          "separation_arcsec": 0.017840293971348738
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_14133",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_14137",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_14160",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_15210",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_15265",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_15362",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_16431",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_17509",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_42988",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_58850",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_9319",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.16902-27.80079",
+          "field": "GS",
+          "ra": 53.16902,
+          "dec": -27.80079,
+          "z": 6.2432,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.016324244744891987
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_9365",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.16280-27.76084",
+          "field": "GS",
+          "ra": 53.1628,
+          "dec": -27.76084,
+          "z": 5.9155,
+          "grating_line_reported": true,
+          "literature_flux": 530.0,
+          "literature_error": 62.0,
+          "separation_arcsec": 0.007873264365827606
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_9696",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumhst_9697",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_10012336",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_116257",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_116898",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_120815",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.14022-27.78709",
+          "field": "GS",
+          "ra": 53.14022,
+          "dec": -27.78709,
+          "z": 5.5219,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.00948798283087052
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_121233",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_131737",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_13418",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_139305",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13742-27.76521",
+          "field": "GS",
+          "ra": 53.13742,
+          "dec": -27.76521,
+          "z": 6.6236,
+          "grating_line_reported": true,
+          "literature_flux": 471.0,
+          "literature_error": 46.0,
+          "separation_arcsec": 0.009066684735003862
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_147779",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_160006",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_166539",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_167639",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_171875",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.06316-27.87341",
+          "field": "GS",
+          "ra": 53.06316,
+          "dec": -27.87341,
+          "z": 5.739,
+          "grating_line_reported": true,
+          "literature_flux": 392.0,
+          "literature_error": 90.0,
+          "separation_arcsec": 0.014338608130530978
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_177323",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.06029-27.86354",
+          "field": "GS",
+          "ra": 53.06029,
+          "dec": -27.86354,
+          "z": 7.8854,
+          "grating_line_reported": true,
+          "literature_flux": 79.0,
+          "literature_error": 19.0,
+          "separation_arcsec": 0.01004793688802504
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_193797",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20013405",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20027503",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.07581-27.87938",
+          "field": "GS",
+          "ra": 53.07581,
+          "dec": -27.87938,
+          "z": 8.1968,
+          "grating_line_reported": true,
+          "literature_flux": 217.0,
+          "literature_error": 36.0,
+          "separation_arcsec": 0.012959999996283908
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20042645",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20046866",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20057378",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20062600",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20066293",
+      "searched": true,
+      "above_screen": true,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20085619",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20087739",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.20042-27.78210",
+          "field": "GS",
+          "ra": 53.20042,
+          "dec": -27.7821,
+          "z": 7.4809,
+          "grating_line_reported": true,
+          "literature_flux": 257.0,
+          "literature_error": 68.0,
+          "separation_arcsec": 0.0038892454001736632
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20117085",
+      "searched": true,
+      "above_screen": true,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_201562",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.19404-27.80293",
+          "field": "GS",
+          "ra": 53.19404,
+          "dec": -27.80293,
+          "z": 6.3317,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.010280099352127248
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20173624",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20174121",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20175729",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20179485",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20190104",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20190996",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13675-27.83746",
+          "field": "GS",
+          "ra": 53.13675,
+          "dec": -27.83746,
+          "z": 8.2252,
+          "grating_line_reported": true,
+          "literature_flux": 145.0,
+          "literature_error": 39.0,
+          "separation_arcsec": 0.016693819746583453
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20191095",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_20201124",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_202662",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_207382",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_209277",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_210600",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.16611-27.77204",
+          "field": "GS",
+          "ra": 53.16611,
+          "dec": -27.77204,
+          "z": 6.3067,
+          "grating_line_reported": true,
+          "literature_flux": 530.0,
+          "literature_error": 58.0,
+          "separation_arcsec": 0.015009864090716264
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_215782",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_217704",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_24388",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_27615",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_28043",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_30056758",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_30074749",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.14555-27.78380",
+          "field": "GS",
+          "ra": 53.14555,
+          "dec": -27.7838,
+          "z": 6.8782,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.0170728333233537
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_30085267",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.16577-27.80345",
+          "field": "GS",
+          "ra": 53.16577,
+          "dec": -27.80345,
+          "z": 5.8848,
+          "grating_line_reported": true,
+          "literature_flux": 401.0,
+          "literature_error": 100.0,
+          "separation_arcsec": 0.016800500372865134
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_30091375",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_30099449",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_30141885",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_30148179",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_31017",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.04881-27.87750",
+          "field": "GS",
+          "ra": 53.04881,
+          "dec": -27.8775,
+          "z": 6.0507,
+          "grating_line_reported": true,
+          "literature_flux": 639.0,
+          "literature_error": 84.0,
+          "separation_arcsec": 0.008498919292947429
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_31803",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_32880",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.17350-27.82507",
+          "field": "GS",
+          "ra": 53.1735,
+          "dec": -27.82507,
+          "z": 5.609,
+          "grating_line_reported": true,
+          "literature_flux": 392.0,
+          "literature_error": 128.0,
+          "separation_arcsec": 0.015078735331947955
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_34104",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_35867",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_35868",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_38057",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_3869",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_40000170",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13600-27.79849",
+          "field": "GS",
+          "ra": 53.136,
+          "dec": -27.79849,
+          "z": 5.7776,
+          "grating_line_reported": true,
+          "literature_flux": 475.0,
+          "literature_error": 105.0,
+          "separation_arcsec": 0.007316083114379889
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_40000190",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_40649",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_42905",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.14077-27.80218",
+          "field": "GS",
+          "ra": 53.14077,
+          "dec": -27.80218,
+          "z": 5.9161,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.01529835181542347
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_45288",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_48915",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_51778",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_52721",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_57895",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_60139813",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_60212827",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_6546",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_69932",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_70218",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_79170",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_84518",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.15624-27.83617",
+          "field": "GS",
+          "ra": 53.15624,
+          "dec": -27.83617,
+          "z": 5.7656,
+          "grating_line_reported": true,
+          "literature_flux": 941.0,
+          "literature_error": 170.0,
+          "separation_arcsec": 0.017553983182142224
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_86808",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_90155",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.11357-27.82849",
+          "field": "GS",
+          "ra": 53.11357,
+          "dec": -27.82849,
+          "z": 5.5783,
+          "grating_line_reported": true,
+          "literature_flux": 402.0,
+          "literature_error": 133.0,
+          "separation_arcsec": 0.01935331732545553
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-mediumjwst_91285",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_201127",
+      "searched": true,
+      "above_screen": false,
+      "matches": [
+        {
+          "name": "GS+53.16685-27.80413",
+          "field": "GS",
+          "ra": 53.16685,
+          "dec": -27.80413,
+          "z": 5.8311,
+          "grating_line_reported": false,
+          "literature_flux": null,
+          "literature_error": null,
+          "separation_arcsec": 0.018979161560897073
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_20198852",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_20213084",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.15891-27.76508",
+          "field": "GS",
+          "ra": 53.15891,
+          "dec": -27.76508,
+          "z": 8.4861,
+          "grating_line_reported": true,
+          "literature_flux": 86.0,
+          "literature_error": 14.0,
+          "separation_arcsec": 0.01840846586733071
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_210003",
+      "searched": true,
+      "above_screen": true,
+      "matches": [
+        {
+          "name": "GS+53.13184-27.77377",
+          "field": "GS",
+          "ra": 53.13184,
+          "dec": -27.77377,
+          "z": 5.7789,
+          "grating_line_reported": true,
+          "literature_flux": 364.0,
+          "literature_error": 35.0,
+          "separation_arcsec": 0.01416947835058696
+        }
+      ]
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_99302",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    },
+    {
+      "dr4_id": "goods-s-ultradeep_99671",
+      "searched": true,
+      "above_screen": false,
+      "matches": []
+    }
+  ],
+  "prism_checks": [],
+  "prism_priorities": [],
+  "scope": "Exact DR4 eligible roster of 204. Fixed templates and release-noise significance. PRISM priorities need exposure, 2D trace and literature vetting."
+}
