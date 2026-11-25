@@ -1,6 +1,21 @@
 # JWST GOODS-S transient search in NIRCam Module B
 
-23 November 2026 · DAWN JWST Archive mosaics and MAST calibrated exposures
+Updated 25 November 2026 · DAWN JWST Archive mosaics and MAST calibrated exposures
+
+## A rise and fade at JADES 103607
+
+A compact near-infrared excess near JADES 103607 at
+**RA 53.18866983°, Dec −27.81253940° (ICRS)** was bright on
+9–10 October 2026 and had largely faded by 24 November. The October
+excess is seen in five filters, in the individual NIRCam exposures,
+and in two reductions. The November images are from a separate visit.
+The positive October residual and the component that subsequently
+faded agree in position to 9–21 milliarcseconds in three filters.
+No earlier report of this event was found in the public records
+checked through 25 November 2026. The galaxy was already catalogued,
+and the physical cause of its nearby transient emission remains open.
+[November measurements and FITS receipts](../results/jwst_cross_detector/module_b_001_november_photometry.json) ·
+[Latest archive and registry check](../results/jwst_cross_detector/module_b_001_release_20261125.json).
 
 ## Search
 
@@ -293,6 +308,18 @@ redshift unmeasured.
 [ESO MUSE HUDF DR2](https://www.eso.org/qi/catalog/show/409) ·
 [Redshift provenance receipts](../results/jwst_cross_detector/module_b_001_redshift_context.json).
 
+We located 18 archival NIRCam GRISMR exposures whose direct-image
+footprints contain the position. Eight are F444W observations from
+FRESCO (GO 1895), and ten are F356W observations from GO 4549.
+All precede the October 2026 brightening. No entry among the 1,800
+first-order positions in the corresponding public STScI X1D products
+lies within 0.20″. The nearest is 4.07″ away. The search concerns
+catalogued extraction centers. Dispersed-trace coverage, blending
+and sensitivity for an extraction at the target position are unmeasured.
+[FRESCO archive](https://archive.stsci.edu/hlsp/fresco) ·
+[GO 4549 programme](https://www.stsci.edu/jwst-program-info/program/?program=4549) ·
+[Slitless extraction receipts](../results/jwst_cross_detector/module_b_001_archived_grism.json).
+
 #### Additional visits before the brightening
 
 The DAWN native-exposure footprints show two more visits to this
@@ -312,7 +339,7 @@ returned six untimed entries at calibration level −1 for each of the
 two planned 24 November visits. The position falls inside all six
 planned field polygons for visit 004 but outside those for visit 003.
 Exact coverage requires the observed detector footprints and usable
-pixels. The next light-curve point remains unmeasured.
+pixels. At that time a new light-curve point could not yet be measured.
 [DAWN exposure search](https://dawn-cph.github.io/dja/general/api_summary/#exposure-metadata) ·
 [STScI visit schedule](https://www.stsci.edu/jwst-program-info/visits/?program=12577) ·
 [Footprint checks and epoch photometry](../results/jwst_cross_detector/module_b_001_followup_coverage.json).
@@ -326,6 +353,68 @@ of JADES 103607's brightening. The closest remains AT 2022aewg,
 33.75″ away. This establishes the archive and public registry
 status at the time of the check.
 [24 November archive and registry receipts](../results/jwst_cross_detector/module_b_001_release_20261124.json).
+
+#### The 24 November follow-up
+
+MAST released four public stage-3 NIRCam mosaics from GO 12577
+observation 004. The adjacent observation 003 stage-3 polygons exclude
+the target position. The archived 004 visit is a separate exposure set,
+with a telescope orientation about 65° from October. We used verified
+FITS byte ranges, required positive pixel weight, and registered and
+matched the point-spread functions using nearby sources. The 2025 and
+2026 images were measured at the same position in each filter. The
+October-to-November baseline is **45.83 days** in F200W and F277W and
+**45.78 days** in F150W and F356W, using stage-3 exposure start times.
+[STScI visit status](https://www.stsci.edu/jwst-program-info/visits/?program=12577) ·
+[MAST and public cloud holdings](../results/jwst_cross_detector/module_b_001_release_20261125.json) ·
+[Orientation and foreground measurements](../results/jwst_cross_detector/module_b_001_orientations_and_gaia.json).
+
+| Filter | Oct 2026 − Oct 2025 (nJy) | Nov 2026 − Oct 2025 (nJy) | Nov 2026 − Oct 2026 (nJy) |
+| --- | ---: | ---: | ---: |
+| F150W | +30.3 ± 5.3 | +11.0 ± 5.3 | −18.3 ± 6.1 |
+| F200W | +35.9 ± 4.3 | +1.3 ± 4.0 | −33.1 ± 4.2 |
+| F277W | +27.8 ± 3.6 | +4.1 ± 3.8 | −21.7 ± 3.7 |
+| F356W | +24.4 ± 3.5 | +1.0 ± 3.7 | −24.5 ± 3.7 |
+
+Values use a 0.24″ radius. Errors are the local aperture MAD scaled
+to a Gaussian-equivalent scatter. The estimates share images and
+matching references. November is within 1.1 local scatter of the
+October 2025 baseline in three filters. F150W retains a marginal
+positive residual. In F200W the November baseline excess is 1.3 nJy
+compared with 35.9 nJy in October, with a direct decline of 33.1 nJy
+between the two visits. The observing cadence leaves the dates of the
+onset and peak unresolved.
+
+The fitted centers of the compact October excess and the fading light
+are separated by 9 mas in F150W, 11 mas in F200W and 21 mas in F277W.
+These are point estimates and the fits share the bright October
+epoch. Agreement at that scale and persistence across October
+dithers support a single variable component. The 60″ Gaia DR3 cone
+returned three sources. The nearest is about 26″ away, both at the
+catalogue epoch and after propagating the available proper motions.
+The JPL two-pass small-body search returned no matches within the
+0.05° by 0.05° coordinate box at the F200W and F150W October
+midpoints, using Webb's Earth-centered Horizons ephemeris and a
+predicted visual magnitude cutoff of 28.5. Objects fainter than
+these optical catalogue limits remain outside the checks.
+[Gaia DR3 catalogue](https://cdsarc.cds.unistra.fr/viz-bin/cat/I/355) ·
+[JPL Small-Body Identification API](https://ssd-api.jpl.nasa.gov/doc/sb_ident.html) ·
+[Relative fits and signed photometry](../results/jwst_cross_detector/module_b_001_november_photometry.json).
+
+![November JWST follow-up of JADES 103607 showing the observed fade and the compact negative residual](../figures/jwst_cross_detector/module_b_001_november_photometry.png)
+
+The refreshed public TNS snapshot dated 25 November at 00:00 UTC contains 213,805
+entries, with none within 5″. The public live cone search returned HTTP 403. GO 8060 and GO 12577 public APT downloads
+still identify JADES 103607 as a galaxy entry and show no `trans` label
+within 1″. The earlier JADES transient sample and the variability
+catalogues above were also checked. Searches for the JADES ID and
+event coordinates yielded no earlier public report of the October
+2026 event. These observations support a previously unreported
+photometric event in the records searched. They leave publication
+priority beyond those records, the precise host association and the
+event type open.
+[25 November TNS and APT receipts](../results/jwst_cross_detector/module_b_001_release_20261125.json) ·
+[Earlier JADES transient sample](https://arxiv.org/html/2406.05060v4).
 
 ### Fading at 53.147252°, −27.790612°
 

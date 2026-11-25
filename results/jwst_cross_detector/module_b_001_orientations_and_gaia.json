@@ -1,0 +1,251 @@
+{
+  "executed_utc": "2026-11-25T10:55:54.065610+00:00",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "visit_orientations": {
+    "F150W": {
+      "Oct 2025": {
+        "pa_v3_deg": 301.0614417825232,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-23040-46079.bytes",
+          "sha256": "930ef5afa9a637313c7bd9dda08eeba9e0a7ef52758b593f1534a7252d2b4692",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 60954.45274766397
+      },
+      "Oct 2026": {
+        "pa_v3_deg": 302.9401172859302,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-23040-46079.bytes",
+          "sha256": "1ce411f4af239e0b816f4cc589dc9451efe0601a96a6bce1f466c890571857f3",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 61323.06727557678
+      },
+      "Nov 2026": {
+        "pa_v3_deg": 7.989054674128301,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-23040-46079.bytes",
+          "sha256": "171a8c8150a75e0082af9fef6f9d3bfe5a15cc553ed83ce22a84b049ea665357",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 61368.84232440393
+      }
+    },
+    "F200W": {
+      "Oct 2025": {
+        "pa_v3_deg": 301.0609294427398,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-23040-46079.bytes",
+          "sha256": "61964398b24872e8715fbdf064a99a897b65c178634ae31d6370ff76e257dd6c",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 60954.34535931519
+      },
+      "Oct 2026": {
+        "pa_v3_deg": 302.9406311707808,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-23040-46079.bytes",
+          "sha256": "5d581783742652adf6c23e5272ec3572a326e320f310ec88a64d2b7d64cd205b",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 61322.96139901428
+      },
+      "Nov 2026": {
+        "pa_v3_deg": 7.98894897084984,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-23040-46079.bytes",
+          "sha256": "a9d8fed7d6926d7806a1974abb9a0d13c6a0ac8c4ea79871079f0795f6010eb7",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 61368.789013377704
+      }
+    },
+    "F277W": {
+      "Oct 2025": {
+        "pa_v3_deg": 301.0609294427398,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-23040-46079.bytes",
+          "sha256": "ed22f0dfc2d29145718e7cb637544dd536fc40df6fa88f02767c89c7ae243c5c",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 60954.34535950038
+      },
+      "Oct 2026": {
+        "pa_v3_deg": 302.9406311707808,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-23040-46079.bytes",
+          "sha256": "4fd0b0a95d2a43905e09848673092c3892b350bec1434d6a253fbc382bdfd421",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 61322.96139923033
+      },
+      "Nov 2026": {
+        "pa_v3_deg": 7.98894897084984,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-23040-46079.bytes",
+          "sha256": "f2e18ba7bfe6a47abe56994f854a1ad59dca48113a7785880fe977337b2b4f41",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 61368.78901347029
+      }
+    },
+    "F356W": {
+      "Oct 2025": {
+        "pa_v3_deg": 301.0614417825232,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-23040-46079.bytes",
+          "sha256": "aeefb7dfb862bbde2e038366a09ce656b3d4f72c954fecae2ec97f905e565c85",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 60954.45274778743
+      },
+      "Oct 2026": {
+        "pa_v3_deg": 302.9401172859302,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-23040-46079.bytes",
+          "sha256": "79fd42857e23a213efac367b0dcf735b8461b125bdb3ca4cf43e38e0098f1aaa",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 61323.06727554591
+      },
+      "Nov 2026": {
+        "pa_v3_deg": 7.989054673845366,
+        "science_header": {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-23040-46079.bytes",
+          "sha256": "5899327b54016b0b47cfad9f43e1abf3487c26d5fa42ece48117f0909e63de5d",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        "midpoint_mjd": 61368.84232428048
+      }
+    }
+  },
+  "gaia": {
+    "catalogue": {
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=I%2F355%2Fgaiadr3&-c=53.188669833+-27.812539403&-c.rs=60&-out.max=200&-out=Source%2CRA_ICRS%2CDE_ICRS%2CGmag%2CPlx%2CpmRA%2CpmDE",
+      "path": "data/raw/cross_detector/module_b_001_gaia_dr3.tsv",
+      "sha256": "3af7b32222c819d4eae6685923bf3b90561c77f56b84ff00193a8dd85475de22",
+      "bytes": 2899
+    },
+    "radius_arcsec": 60,
+    "catalogue_epoch_jyear": 2016.0,
+    "propagated_epoch_utc": "2026-10-09T23:04:24.875",
+    "rows": [
+      {
+        "Source": "5057500844910226560",
+        "RA_ICRS": 53.1999349654,
+        "DE_ICRS": -27.8155365105,
+        "Gmag": 21.53621,
+        "Plx": null,
+        "pmRA": null,
+        "pmDE": null,
+        "separation_arcsec_at_catalogue_epoch": 37.4567261027,
+        "separation_arcsec_propagated": null
+      },
+      {
+        "Source": "5057501046772168960",
+        "RA_ICRS": 53.1835021689,
+        "DE_ICRS": -27.8068401432,
+        "Gmag": 19.106592,
+        "Plx": 0.0122,
+        "pmRA": 5.89,
+        "pmDE": -2.553,
+        "separation_arcsec_at_catalogue_epoch": 26.3006699078,
+        "separation_arcsec_propagated": 26.2395415431
+      },
+      {
+        "Source": "5057501115491648640",
+        "RA_ICRS": 53.1768614893,
+        "DE_ICRS": -27.7997191986,
+        "Gmag": 19.752783,
+        "Plx": 2.4139,
+        "pmRA": 25.718,
+        "pmDE": 5.615,
+        "separation_arcsec_at_catalogue_epoch": 59.5310332317,
+        "separation_arcsec_propagated": 59.403494067
+      }
+    ],
+    "limiting_scope": "This cone includes only Gaia DR3 detections selected at catalogue coordinates. The propagation is linear and omits parallax and radial velocity."
+  },
+  "small_body_identification": {
+    "horizons": {
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?COMMAND=%27-170%27&CENTER=%27500%40399%27&EPHEM_TYPE=VECTORS&TLIST=%272461323.46219973639%2C2461323.56807629857%27&OUT_UNITS=KM-S&REF_PLANE=FRAME&REF_SYSTEM=ICRF&VEC_TABLE=2&CSV_FORMAT=YES&OBJ_DATA=NO&format=json",
+      "path": "data/raw/cross_detector/module_b_001_jwst_geocentric_states.json",
+      "sha256": "2b90345a8f1032c86cb6ea3de208c250fbf4119fdd01bbea7ef60ccf9330e801",
+      "bytes": 5374
+    },
+    "field_half_width_degrees": 0.025,
+    "visual_magnitude_limit": 28.5,
+    "searches": [
+      {
+        "utc": "2026-10-09T23:04:24.875",
+        "utc_jd": 2461323.461399014,
+        "geocentric_state_km_km_s": [
+          987639.1316249145,
+          825270.310073346,
+          504689.9446366577,
+          -0.1976460195257811,
+          0.4029548648048423,
+          0.0483101801630107
+        ],
+        "catalogue": {
+          "url": "https://ssd-api.jpl.nasa.gov/sb_ident.api?xobs=987639.131625%2C825270.310073%2C504689.944637%2C-0.197646019526%2C0.402954864805%2C0.048310180163&obs-time=2461323.46139901411&fov-ra-center=03-32-45.28&fov-dec-center=M27-48-45.14&fov-ra-hwidth=0.025&fov-dec-hwidth=0.025&two-pass=true&mag-required=true&vmag-lim=28.5",
+          "path": "data/raw/cross_detector/module_b_001_small_bodies_1.json",
+          "sha256": "edd30b439263cabd7921abd5136206994b0beb513aee4ba0a314465aa2b4321f",
+          "bytes": 181169
+        },
+        "first_pass_rows": 1592,
+        "integrated_matches": []
+      },
+      {
+        "utc": "2026-10-10T01:36:52.610",
+        "utc_jd": 2461323.5672755768,
+        "geocentric_state_km_km_s": [
+          985830.3508925843,
+          828951.5396640803,
+          505128.6703622684,
+          -0.1978130183948523,
+          0.4018855225046632,
+          0.04761074848785801
+        ],
+        "catalogue": {
+          "url": "https://ssd-api.jpl.nasa.gov/sb_ident.api?xobs=985830.350893%2C828951.539664%2C505128.670362%2C-0.197813018395%2C0.401885522505%2C0.0476107484879&obs-time=2461323.56727557676&fov-ra-center=03-32-45.28&fov-dec-center=M27-48-45.14&fov-ra-hwidth=0.025&fov-dec-hwidth=0.025&two-pass=true&mag-required=true&vmag-lim=28.5",
+          "path": "data/raw/cross_detector/module_b_001_small_bodies_2.json",
+          "sha256": "6612cca48c6372094f59ee3bb69cf312ed84eaf843371beb27f1500e222fc5a4",
+          "bytes": 181171
+        },
+        "first_pass_rows": 1592,
+        "integrated_matches": []
+      }
+    ],
+    "scope": "Known small bodies with magnitude parameters at two midpoints. A visual magnitude cut does not set a completeness limit for near-infrared objects."
+  },
+  "november_sha256": "f86baa8e894698489e367c656c87336d87d11a604a8007daebc7c65f385177f0",
+  "script_sha256": "a412750e394f0d5de58aef799eb0f9c55763fe661d95ce5b9ac5220e437bfa43"
+}

@@ -9,6 +9,7 @@ from astropy.time import Time
 from astroquery.mast import Observations
 from check_jwst_transient_precursor import contains
 from download_jwst_cross_detector import OUT, ROOT, download
+from matplotlib.path import Path
 from measure_jwst_module_b_brightening import STORAGE_MIB
 from vet_jwst_field_b_candidate import vet_mosaic
 from vet_jwst_module_b import archive_query
@@ -18,6 +19,21 @@ from cosmic_anomaly_lab.provenance import DownloadCache, text_digest, utcnow, wr
 BANDS = ("F150W", "F200W", "F277W", "F356W")
 EARLIER = ("jw08060004001", "jw05324026001")
 BRIGHT_VISIT = "jw12577001001"
+
+
+def mast_footprint_contains(footprint, sky):
+    """Test the union of the polygon components in a MAST region."""
+    pieces = footprint.strip().split("POLYGON")
+    if pieces[0] or len(pieces) < 2 or not all(p.strip() for p in pieces[1:]):
+        return None
+    for piece in pieces[1:]:
+        corners = np.asarray(piece.split(), dtype=float).reshape(-1, 2)
+        if len(corners) < 3:
+            raise ValueError("A MAST polygon has fewer than three vertices")
+        east, north = sky.spherical_offsets_to(SkyCoord(corners[:, 0], corners[:, 1], unit="deg"))
+        if Path(np.column_stack((east.arcsec, north.arcsec))).contains_point((0, 0)):
+            return True
+    return False
 
 
 def mast_followup(sky):
@@ -33,18 +49,14 @@ def mast_followup(sky):
             if not row["obs_id"].startswith((visit, obs)):
                 continue
             footprint = str(row["s_region"])
-            if footprint.startswith("POLYGON "):
-                points = np.asarray(footprint.split()[1:], dtype=float).reshape(-1, 2)
-                intersects = contains(str(points.tolist()), sky) if len(points) == 4 else None
-            else:
-                intersects = None
+            intersects = mast_footprint_contains(footprint, sky)
             t_min = row["t_min"]
             start = float(t_min) if not np.ma.is_masked(t_min) and np.isfinite(t_min) else None
             rows.append(dict(obs_id=str(row["obs_id"]), filters=str(row["filters"]),
                              start_mjd=start, calibration_level=int(row["calib_level"]),
                              rights=str(row["dataRights"]),
                              data_url=None if np.ma.is_masked(row["dataURL"]) else str(row["dataURL"]),
-                             s_region=footprint, predicted_polygon_contains_position=intersects))
+                             s_region=footprint, archive_polygon_contains_position=intersects))
         if not rows:
             raise ValueError(f"Programme visit missing in MAST result: {visit}")
         visits[visit] = rows

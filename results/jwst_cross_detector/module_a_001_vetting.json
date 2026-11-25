@@ -1,0 +1,2961 @@
+{
+  "executed_utc": "2026-11-25T10:46:37.521131+00:00",
+  "candidates": [
+    {
+      "candidate": "GS-001-A-53.187419-27.756589",
+      "icrs_deg": [
+        53.18741915661706,
+        -27.75658916415381
+      ],
+      "sign": -1,
+      "bands": {
+        "F200W": {
+          "detector": "NRCA2",
+          "older": {
+            "band": "F200W",
+            "detector": "NRCA2",
+            "visit": "jw08060001001",
+            "dateobs": "2025-10-06 07:40:48",
+            "mjd": 60954.32,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 137.57122802734375,
+                "local_mad_sigma_njy": 1.4798000014185904,
+                "control_median_njy": -0.16153261065483093,
+                "control_count": 336
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 186.830078125,
+                "local_mad_sigma_njy": 2.4181635215878483,
+                "control_median_njy": -0.24159395694732666,
+                "control_count": 336
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 223.01089477539062,
+                "local_mad_sigma_njy": 3.320815814781189,
+                "control_median_njy": -0.5954493880271912,
+                "control_count": 336
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.18741947752866,
+              -27.756596169334177
+            ]
+          },
+          "newer": {
+            "band": "F200W",
+            "detector": "NRCA2",
+            "visit": "jw12577001001",
+            "dateobs": "2026-10-09 22:30:43",
+            "mjd": 61322.94,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 58.478546142578125,
+                "local_mad_sigma_njy": 1.3969409318313002,
+                "control_median_njy": -0.10023335367441177,
+                "control_count": 337
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 98.78878784179688,
+                "local_mad_sigma_njy": 2.402719211912155,
+                "control_median_njy": -0.4940645694732666,
+                "control_count": 337
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 135.39195251464844,
+                "local_mad_sigma_njy": 3.17875713340044,
+                "control_median_njy": -0.6626113057136536,
+                "control_count": 337
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.187411723857586,
+              -27.75660043690754
+            ]
+          },
+          "registration": {
+            "reference_count": 28,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.259999999998211,
+                  -13.059999999998706
+                ],
+                "old_njy": 158.95803833007812,
+                "new_njy": 157.67205810546875,
+                "new_to_old": 0.9919099390120868,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003423858384028741,
+                  0.003968221105750652
+                ],
+                "new_minus_old_variance_arcsec2": 0.0017288356327377543
+              },
+              {
+                "offset_arcsec": [
+                  -5.579999999998198,
+                  -12.259999999998712
+                ],
+                "old_njy": 92.492431640625,
+                "new_njy": 96.07313537597656,
+                "new_to_old": 1.0387134781931588,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007376673022589045,
+                  0.0021246969805901045
+                ],
+                "new_minus_old_variance_arcsec2": -0.0010363079999094003
+              },
+              {
+                "offset_arcsec": [
+                  5.240000000001694,
+                  -12.219999999998713
+                ],
+                "old_njy": 94.80226135253906,
+                "new_njy": 101.35725402832031,
+                "new_to_old": 1.0691438430081888,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006926134599274305,
+                  0.0005485611188516468
+                ],
+                "new_minus_old_variance_arcsec2": -0.0004028277612663188
+              },
+              {
+                "offset_arcsec": [
+                  -7.499999999998178,
+                  -8.57999999999875
+                ],
+                "old_njy": 3443.986083984375,
+                "new_njy": 3425.2392578125,
+                "new_to_old": 0.9945566486870973,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0002857741443149618,
+                  0.0019724157994104527
+                ],
+                "new_minus_old_variance_arcsec2": 7.357803110150888e-05
+              },
+              {
+                "offset_arcsec": [
+                  -0.6399999999982473,
+                  -7.279999999998763
+                ],
+                "old_njy": 125.61759948730469,
+                "new_njy": 127.16372680664062,
+                "new_to_old": 1.0123082062198792,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0005574861755148657,
+                  0.004290870334659236
+                ],
+                "new_minus_old_variance_arcsec2": -0.0004460977156210701
+              },
+              {
+                "offset_arcsec": [
+                  -11.079999999998142,
+                  -4.59999999999879
+                ],
+                "old_njy": 177.44314575195312,
+                "new_njy": 172.36822509765625,
+                "new_to_old": 0.9713997368971857,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005455026770585993,
+                  0.005766930640046832
+                ],
+                "new_minus_old_variance_arcsec2": -0.002033200195903009
+              },
+              {
+                "offset_arcsec": [
+                  -6.259999999998191,
+                  -4.279999999998793
+                ],
+                "old_njy": 213.68038940429688,
+                "new_njy": 208.0119171142578,
+                "new_to_old": 0.9734721922501088,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005605364666661982,
+                  0.0053773128216456035
+                ],
+                "new_minus_old_variance_arcsec2": -0.0009269161346123576
+              },
+              {
+                "offset_arcsec": [
+                  -7.599999999998177,
+                  -3.699999999998799
+                ],
+                "old_njy": 94.962158203125,
+                "new_njy": 104.82269287109375,
+                "new_to_old": 1.1038364634350135,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0025380097911231764,
+                  -0.0018245568208814743
+                ],
+                "new_minus_old_variance_arcsec2": 2.730377851949649e-07
+              },
+              {
+                "offset_arcsec": [
+                  -7.37999999999818,
+                  -2.4999999999988107
+                ],
+                "old_njy": 117.62710571289062,
+                "new_njy": 118.16195678710938,
+                "new_to_old": 1.0045470053095096,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0017203084697756462,
+                  -0.00285976317708813
+                ],
+                "new_minus_old_variance_arcsec2": 0.0002515872534657104
+              },
+              {
+                "offset_arcsec": [
+                  -11.699999999998136,
+                  -2.2199999999988136
+                ],
+                "old_njy": 95.8563232421875,
+                "new_njy": 89.49602508544922,
+                "new_to_old": 0.9336475889997516,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0006133807240170349,
+                  0.003302695369514219
+                ],
+                "new_minus_old_variance_arcsec2": 0.00048661375965345244
+              },
+              {
+                "offset_arcsec": [
+                  12.240000000001624,
+                  -0.7399999999988284
+                ],
+                "old_njy": 582.82568359375,
+                "new_njy": 574.7437744140625,
+                "new_to_old": 0.9861332309004405,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0007547794111970908,
+                  0.0041382760951683886
+                ],
+                "new_minus_old_variance_arcsec2": 4.6081190756581004e-05
+              },
+              {
+                "offset_arcsec": [
+                  10.68000000000164,
+                  -0.57999999999883
+                ],
+                "old_njy": 110.61953735351562,
+                "new_njy": 117.57760620117188,
+                "new_to_old": 1.0629009035304477,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0005480492881708224,
+                  0.0025392124143076497
+                ],
+                "new_minus_old_variance_arcsec2": -0.0007329227814131083
+              },
+              {
+                "offset_arcsec": [
+                  -5.479999999998198,
+                  1.7600000000011464
+                ],
+                "old_njy": 118.6220703125,
+                "new_njy": 111.07662963867188,
+                "new_to_old": 0.9363909207287456,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0024784809508987538,
+                  0.00048751222430366446
+                ],
+                "new_minus_old_variance_arcsec2": -0.0008884085928519362
+              },
+              {
+                "offset_arcsec": [
+                  -12.219999999998132,
+                  2.0400000000011436
+                ],
+                "old_njy": 108.56866455078125,
+                "new_njy": 104.4815673828125,
+                "new_to_old": 0.9623547256026431,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002701340061772457,
+                  -0.0006146733041612409
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005012059415463134
+              },
+              {
+                "offset_arcsec": [
+                  10.58000000000164,
+                  2.0400000000011436
+                ],
+                "old_njy": 432.6631164550781,
+                "new_njy": 427.8912658691406,
+                "new_to_old": 0.9889709790262814,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00013843589677518808,
+                  0.004501340946662099
+                ],
+                "new_minus_old_variance_arcsec2": 7.201069062207771e-05
+              },
+              {
+                "offset_arcsec": [
+                  9.48000000000165,
+                  3.1600000000011326
+                ],
+                "old_njy": 79.09934997558594,
+                "new_njy": 82.47193145751953,
+                "new_to_old": 1.042637284414784,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002661438151552599,
+                  0.006127318998515662
+                ],
+                "new_minus_old_variance_arcsec2": -0.00017970122456099046
+              },
+              {
+                "offset_arcsec": [
+                  -12.719999999998127,
+                  3.2600000000011313
+                ],
+                "old_njy": 152.91790771484375,
+                "new_njy": 150.3721923828125,
+                "new_to_old": 0.9833524054175629,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006435932052784664,
+                  0.012115830222662731
+                ],
+                "new_minus_old_variance_arcsec2": 1.0629052074297846e-05
+              },
+              {
+                "offset_arcsec": [
+                  6.120000000001685,
+                  3.780000000001126
+                ],
+                "old_njy": 3385.798583984375,
+                "new_njy": 3366.9375,
+                "new_to_old": 0.9944293543999952,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0010591703372404742,
+                  0.0020593259511820965
+                ],
+                "new_minus_old_variance_arcsec2": 2.8777284518767716e-05
+              },
+              {
+                "offset_arcsec": [
+                  -1.7999999999982357,
+                  4.700000000001117
+                ],
+                "old_njy": 153.1759796142578,
+                "new_njy": 153.22708129882812,
+                "new_to_old": 1.0003336142174446,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0064774822981918155,
+                  0.009621408516353848
+                ],
+                "new_minus_old_variance_arcsec2": 0.00040279484250057077
+              },
+              {
+                "offset_arcsec": [
+                  -12.37999999999813,
+                  6.120000000001102
+                ],
+                "old_njy": 538.6138305664062,
+                "new_njy": 524.107177734375,
+                "new_to_old": 0.9730666908111586,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0013749811174300856,
+                  0.003469539308986448
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006261706961792849
+              },
+              {
+                "offset_arcsec": [
+                  -10.019999999998154,
+                  7.200000000001092
+                ],
+                "old_njy": 174.55996704101562,
+                "new_njy": 178.1732635498047,
+                "new_to_old": 1.0206994568688252,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0007141283920935187,
+                  -0.0032645028694745955
+                ],
+                "new_minus_old_variance_arcsec2": 0.00018395046023555583
+              },
+              {
+                "offset_arcsec": [
+                  -11.079999999998142,
+                  7.280000000001091
+                ],
+                "old_njy": 105.47438049316406,
+                "new_njy": 105.30802917480469,
+                "new_to_old": 0.9984228272535798,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0029850685920336795,
+                  0.0006408239776759346
+                ],
+                "new_minus_old_variance_arcsec2": 0.00032191830729532593
+              },
+              {
+                "offset_arcsec": [
+                  5.54000000000169,
+                  7.780000000001086
+                ],
+                "old_njy": 87.39749145507812,
+                "new_njy": 88.75621795654297,
+                "new_to_old": 1.0155465160251564,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0025154308346504086,
+                  0.0047954018085139116
+                ],
+                "new_minus_old_variance_arcsec2": -7.042857140168593e-05
+              },
+              {
+                "offset_arcsec": [
+                  -10.39999999999815,
+                  7.800000000001086
+                ],
+                "old_njy": 212.96414184570312,
+                "new_njy": 204.29879760742188,
+                "new_to_old": 0.959310782729989,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0008186771632988938,
+                  -0.0027005465153464824
+                ],
+                "new_minus_old_variance_arcsec2": 0.0012374210798182942
+              },
+              {
+                "offset_arcsec": [
+                  -3.4799999999982187,
+                  8.580000000001078
+                ],
+                "old_njy": 123.02603149414062,
+                "new_njy": 123.57481384277344,
+                "new_to_old": 1.0044607010562554,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0017624384477776746,
+                  0.0021286581433502677
+                ],
+                "new_minus_old_variance_arcsec2": -5.532658291819339e-05
+              },
+              {
+                "offset_arcsec": [
+                  -10.699999999998147,
+                  8.680000000001076
+                ],
+                "old_njy": 114.21239471435547,
+                "new_njy": 118.59844970703125,
+                "new_to_old": 1.0384026182416128,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.006625506017217203,
+                  -0.0009376579756609495
+                ],
+                "new_minus_old_variance_arcsec2": 0.00026812109319899417
+              },
+              {
+                "offset_arcsec": [
+                  -1.3599999999982402,
+                  11.040000000001053
+                ],
+                "old_njy": 545.4453125,
+                "new_njy": 550.2196044921875,
+                "new_to_old": 1.0087530168153889,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.001386333968527699,
+                  0.0024343712519184005
+                ],
+                "new_minus_old_variance_arcsec2": -7.481010614406643e-05
+              },
+              {
+                "offset_arcsec": [
+                  3.4800000000017115,
+                  12.720000000001036
+                ],
+                "old_njy": 421.4503173828125,
+                "new_njy": 422.6461181640625,
+                "new_to_old": 1.002837346970518,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002062732121881376,
+                  0.0038350220428211342
+                ],
+                "new_minus_old_variance_arcsec2": -7.748354801284359e-05
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.0006358072838041922,
+              0.002486791833113025
+            ],
+            "held_out_reference_radius68_arcsec": 0.005584086119132055,
+            "matched_variance_arcsec2": -2.7526772566499212e-05,
+            "new_to_old_scale": 0.9993782207355122,
+            "method": "local_translation_gain_and_core_width"
+          },
+          "difference_apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -79.23974609375,
+              "local_mad_sigma_njy": 1.9226397928386925,
+              "control_median_njy": 0.15716879069805145,
+              "control_count": 336
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -87.56275939941406,
+              "local_mad_sigma_njy": 2.9208487647771832,
+              "control_median_njy": -0.10961383581161499,
+              "control_count": 336
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -86.59297180175781,
+              "local_mad_sigma_njy": 4.556960089874267,
+              "control_median_njy": -0.2514854073524475,
+              "control_count": 336
+            }
+          ]
+        },
+        "F356W": {
+          "detector": "NRCALONG",
+          "older": {
+            "band": "F356W",
+            "detector": "NRCALONG",
+            "visit": "jw08060001001",
+            "dateobs": "2025-10-06 10:19:12",
+            "mjd": 60954.43,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 99.66644287109375,
+                "local_mad_sigma_njy": 1.096487994262576,
+                "control_median_njy": -0.07171781361103058,
+                "control_count": 333
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 150.44009399414062,
+                "local_mad_sigma_njy": 2.0758212112069128,
+                "control_median_njy": -0.08608394861221313,
+                "control_count": 331
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 200.73211669921875,
+                "local_mad_sigma_njy": 2.8772696610867974,
+                "control_median_njy": -0.0441153347492218,
+                "control_count": 331
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.18741650167096,
+              -27.756598069127914
+            ]
+          },
+          "newer": {
+            "band": "F356W",
+            "detector": "NRCALONG",
+            "visit": "jw12577001001",
+            "dateobs": "2026-10-10 01:01:55",
+            "mjd": 61323.04,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 51.09932327270508,
+                "local_mad_sigma_njy": 1.0175203902751206,
+                "control_median_njy": 0.1795414537191391,
+                "control_count": 333
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 93.26099395751953,
+                "local_mad_sigma_njy": 1.9918946891069411,
+                "control_median_njy": 0.044806599617004395,
+                "control_count": 333
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 134.1676788330078,
+                "local_mad_sigma_njy": 2.873355804777145,
+                "control_median_njy": 0.03970599174499512,
+                "control_count": 333
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.18740788391996,
+              -27.75663122084258
+            ]
+          },
+          "registration": {
+            "reference_count": 20,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.229999999998212,
+                  -13.029999999998704
+                ],
+                "old_njy": 141.045166015625,
+                "new_njy": 137.02503967285156,
+                "new_to_old": 0.9714975957252723,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.007484959101456641,
+                  0.00026502691776017495
+                ],
+                "new_minus_old_variance_arcsec2": 0.0015701164727811058
+              },
+              {
+                "offset_arcsec": [
+                  -5.589999999998198,
+                  -12.229999999998713
+                ],
+                "old_njy": 82.36880493164062,
+                "new_njy": 85.17816162109375,
+                "new_to_old": 1.0341070468581481,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005328414085474242,
+                  -0.008489814976915153
+                ],
+                "new_minus_old_variance_arcsec2": -0.0019156160383022747
+              },
+              {
+                "offset_arcsec": [
+                  5.250000000001694,
+                  -12.189999999998713
+                ],
+                "old_njy": 101.43499755859375,
+                "new_njy": 98.7408676147461,
+                "new_to_old": 0.973439838234418,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004511510292451165,
+                  -0.0014255016486203636
+                ],
+                "new_minus_old_variance_arcsec2": 0.00045938949469548265
+              },
+              {
+                "offset_arcsec": [
+                  -7.509999999998178,
+                  -8.58999999999875
+                ],
+                "old_njy": 1530.4610595703125,
+                "new_njy": 1538.188720703125,
+                "new_to_old": 1.0050492373422308,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0018021210899635681,
+                  -0.00048457185160240735
+                ],
+                "new_minus_old_variance_arcsec2": -0.00010587464788500145
+              },
+              {
+                "offset_arcsec": [
+                  -0.6299999999982474,
+                  -7.269999999998763
+                ],
+                "old_njy": 114.61046600341797,
+                "new_njy": 115.20272827148438,
+                "new_to_old": 1.0051676106791918,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003047136256405276,
+                  -0.0004165128445384539
+                ],
+                "new_minus_old_variance_arcsec2": -0.00022844750616998928
+              },
+              {
+                "offset_arcsec": [
+                  -11.069999999998142,
+                  -4.58999999999879
+                ],
+                "old_njy": 101.49718475341797,
+                "new_njy": 103.4221420288086,
+                "new_to_old": 1.0189656223477253,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.007844501991476287,
+                  0.0005998185266303281
+                ],
+                "new_minus_old_variance_arcsec2": -0.0017744565625163917
+              },
+              {
+                "offset_arcsec": [
+                  -6.269999999998191,
+                  -4.309999999998793
+                ],
+                "old_njy": 225.57078552246094,
+                "new_njy": 223.41038513183594,
+                "new_to_old": 0.9904225168803613,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00031731300545509433,
+                  -0.00042253353546133077
+                ],
+                "new_minus_old_variance_arcsec2": 0.0015611586381161086
+              },
+              {
+                "offset_arcsec": [
+                  -7.38999999999818,
+                  -2.469999999998811
+                ],
+                "old_njy": 116.06871795654297,
+                "new_njy": 113.02732849121094,
+                "new_to_old": 0.9737966480643755,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0018349747561271414,
+                  -0.005913059912892922
+                ],
+                "new_minus_old_variance_arcsec2": -0.00045414281977677363
+              },
+              {
+                "offset_arcsec": [
+                  -11.709999999998136,
+                  -2.2299999999988134
+                ],
+                "old_njy": 91.22300720214844,
+                "new_njy": 86.63014221191406,
+                "new_to_old": 0.9496523395676194,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0030434835781652705,
+                  0.0006492205000884488
+                ],
+                "new_minus_old_variance_arcsec2": -0.00043770468915921724
+              },
+              {
+                "offset_arcsec": [
+                  -10.189999999998152,
+                  -1.7099999999988187
+                ],
+                "old_njy": 108.72705078125,
+                "new_njy": 108.09996795654297,
+                "new_to_old": 0.9942325040530284,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0056095127736254784,
+                  0.012895845447665427
+                ],
+                "new_minus_old_variance_arcsec2": -0.002643704289163746
+              },
+              {
+                "offset_arcsec": [
+                  -12.709999999998127,
+                  3.2500000000011315
+                ],
+                "old_njy": 135.22743225097656,
+                "new_njy": 137.42784118652344,
+                "new_to_old": 1.0162719124287076,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.000725110063144381,
+                  0.001483325315662868
+                ],
+                "new_minus_old_variance_arcsec2": -3.201150974229544e-05
+              },
+              {
+                "offset_arcsec": [
+                  6.130000000001685,
+                  3.810000000001126
+                ],
+                "old_njy": 2185.97412109375,
+                "new_njy": 2154.98876953125,
+                "new_to_old": 0.9858253804271954,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.001717636935953953,
+                  0.00042169264623343264
+                ],
+                "new_minus_old_variance_arcsec2": 1.4150954929211326e-05
+              },
+              {
+                "offset_arcsec": [
+                  -1.789999999998236,
+                  4.690000000001117
+                ],
+                "old_njy": 143.77894592285156,
+                "new_njy": 140.5019073486328,
+                "new_to_old": 0.9772077994230315,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0027772757108139624,
+                  0.0012878204773002118
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001776096090146482
+              },
+              {
+                "offset_arcsec": [
+                  -12.38999999999813,
+                  6.130000000001103
+                ],
+                "old_njy": 537.7924194335938,
+                "new_njy": 550.3516235351562,
+                "new_to_old": 1.0233532561035166,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0035896822056664425,
+                  -0.003431638174153989
+                ],
+                "new_minus_old_variance_arcsec2": -0.0048934390776940485
+              },
+              {
+                "offset_arcsec": [
+                  -10.029999999998154,
+                  7.2100000000010915
+                ],
+                "old_njy": 232.0728302001953,
+                "new_njy": 232.0791778564453,
+                "new_to_old": 1.0000273520008547,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0033621052462172035,
+                  -0.0020822766316724514
+                ],
+                "new_minus_old_variance_arcsec2": 0.00017735254211131892
+              },
+              {
+                "offset_arcsec": [
+                  -11.069999999998142,
+                  7.290000000001091
+                ],
+                "old_njy": 103.60871124267578,
+                "new_njy": 107.45472717285156,
+                "new_to_old": 1.037120584592231,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004561596268198832,
+                  -0.0010106163797081093
+                ],
+                "new_minus_old_variance_arcsec2": 0.0006403314517841744
+              },
+              {
+                "offset_arcsec": [
+                  -10.38999999999815,
+                  7.810000000001086
+                ],
+                "old_njy": 210.50059509277344,
+                "new_njy": 211.99551391601562,
+                "new_to_old": 1.0071017320525073,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003397809452765691,
+                  -0.0008320406786213388
+                ],
+                "new_minus_old_variance_arcsec2": 0.0008192327873544104
+              },
+              {
+                "offset_arcsec": [
+                  -3.469999999998219,
+                  8.610000000001078
+                ],
+                "old_njy": 116.736328125,
+                "new_njy": 108.8852310180664,
+                "new_to_old": 0.932745039757232,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0031689512719126926,
+                  -0.005303289068813381
+                ],
+                "new_minus_old_variance_arcsec2": 0.0014787106417315033
+              },
+              {
+                "offset_arcsec": [
+                  -10.709999999998146,
+                  8.690000000001078
+                ],
+                "old_njy": 119.68146514892578,
+                "new_njy": 111.5411148071289,
+                "new_to_old": 0.9319831994731397,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0038014552164639106,
+                  0.005224097564522726
+                ],
+                "new_minus_old_variance_arcsec2": 0.0007126774251580295
+              },
+              {
+                "offset_arcsec": [
+                  -1.3899999999982398,
+                  11.050000000001054
+                ],
+                "old_njy": 521.1943969726562,
+                "new_njy": 517.4894409179688,
+                "new_to_old": 0.992891412347854,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003786785159151769,
+                  -0.00015605262538692741
+                ],
+                "new_minus_old_variance_arcsec2": 9.071926637635192e-05
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.0002038985288446433,
+              -0.0004195231899998923
+            ],
+            "held_out_reference_radius68_arcsec": 0.005825490294301545,
+            "matched_variance_arcsec2": -8.930277406542057e-06,
+            "new_to_old_scale": 0.9935619582004412,
+            "method": "local_translation_gain_and_core_width"
+          },
+          "difference_apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -47.216163635253906,
+              "local_mad_sigma_njy": 1.553665749067068,
+              "control_median_njy": 0.15426138043403625,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -54.692779541015625,
+              "local_mad_sigma_njy": 2.6173928099513053,
+              "control_median_njy": -0.026451170444488525,
+              "control_count": 327
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -62.73553466796875,
+              "local_mad_sigma_njy": 3.639011108833551,
+              "control_median_njy": -0.3076724112033844,
+              "control_count": 327
+            }
+          ]
+        },
+        "F444W": {
+          "detector": "NRCALONG",
+          "older": {
+            "band": "F444W",
+            "detector": "NRCALONG",
+            "visit": "jw08060001001",
+            "dateobs": "2025-10-06 09:00:00",
+            "mjd": 60954.38,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 84.300048828125,
+                "local_mad_sigma_njy": 1.3399663236446677,
+                "control_median_njy": -0.02095283940434456,
+                "control_count": 337
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 130.4070587158203,
+                "local_mad_sigma_njy": 2.337983527493477,
+                "control_median_njy": -0.027419745922088623,
+                "control_count": 336
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 169.76683044433594,
+                "local_mad_sigma_njy": 3.2858384993791576,
+                "control_median_njy": -0.07925260066986084,
+                "control_count": 335
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.18741669102667,
+              -27.7565978176469
+            ]
+          },
+          "newer": {
+            "band": "F444W",
+            "detector": "NRCALONG",
+            "visit": "jw12577001001",
+            "dateobs": "2026-10-09 23:45:36",
+            "mjd": 61322.99,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 47.178775787353516,
+                "local_mad_sigma_njy": 1.3203559887796639,
+                "control_median_njy": 0.1714729219675064,
+                "control_count": 337
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 83.53823852539062,
+                "local_mad_sigma_njy": 2.6819190578341483,
+                "control_median_njy": 0.09377175569534302,
+                "control_count": 337
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 119.82850646972656,
+                "local_mad_sigma_njy": 3.9031469447135922,
+                "control_median_njy": -0.01554107666015625,
+                "control_count": 337
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.187415626013774,
+              -27.75663203320971
+            ]
+          },
+          "registration": {
+            "reference_count": 20,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.229999999998212,
+                  -13.029999999998704
+                ],
+                "old_njy": 114.06143951416016,
+                "new_njy": 116.71766662597656,
+                "new_to_old": 1.0232876870845264,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.010922842014568822,
+                  0.0024802845967813666
+                ],
+                "new_minus_old_variance_arcsec2": 0.0009585265234310567
+              },
+              {
+                "offset_arcsec": [
+                  -5.589999999998198,
+                  -12.189999999998713
+                ],
+                "old_njy": 80.08055877685547,
+                "new_njy": 77.66106414794922,
+                "new_to_old": 0.9697867414281139,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.008017031070552108,
+                  -0.0010539705006475525
+                ],
+                "new_minus_old_variance_arcsec2": -0.0018936619626307872
+              },
+              {
+                "offset_arcsec": [
+                  5.250000000001694,
+                  -12.189999999998713
+                ],
+                "old_njy": 94.04017639160156,
+                "new_njy": 86.65067291259766,
+                "new_to_old": 0.921421845826484,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004107575056979457,
+                  0.0005606633683350435
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005989305255804213
+              },
+              {
+                "offset_arcsec": [
+                  -7.509999999998178,
+                  -8.58999999999875
+                ],
+                "old_njy": 1100.2950439453125,
+                "new_njy": 1103.200927734375,
+                "new_to_old": 1.0026410041607048,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00022496739031237136,
+                  0.0004820313006837138
+                ],
+                "new_minus_old_variance_arcsec2": 0.00010527675379184802
+              },
+              {
+                "offset_arcsec": [
+                  -0.6299999999982474,
+                  -7.269999999998763
+                ],
+                "old_njy": 84.4869613647461,
+                "new_njy": 86.69463348388672,
+                "new_to_old": 1.0261303292659525,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003748999144471323,
+                  -0.006979798662783679
+                ],
+                "new_minus_old_variance_arcsec2": -3.884813952147528e-05
+              },
+              {
+                "offset_arcsec": [
+                  -6.229999999998191,
+                  -4.2699999999987925
+                ],
+                "old_njy": 244.8223114013672,
+                "new_njy": 237.1134490966797,
+                "new_to_old": 0.9685124192294328,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0017644257429698393,
+                  0.005946714094660948
+                ],
+                "new_minus_old_variance_arcsec2": -0.0015756547440968147
+              },
+              {
+                "offset_arcsec": [
+                  -7.629999999998177,
+                  -3.7099999999987987
+                ],
+                "old_njy": 77.06312561035156,
+                "new_njy": 73.5550537109375,
+                "new_to_old": 0.954477944261544,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0013522997010412194,
+                  -0.0002365608755627597
+                ],
+                "new_minus_old_variance_arcsec2": 0.001481112972512408
+              },
+              {
+                "offset_arcsec": [
+                  -7.38999999999818,
+                  -2.469999999998811
+                ],
+                "old_njy": 116.00634765625,
+                "new_njy": 109.94788360595703,
+                "new_to_old": 0.9477747194640985,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002919083838321429,
+                  0.0017089106749878583
+                ],
+                "new_minus_old_variance_arcsec2": 8.452413491087749e-05
+              },
+              {
+                "offset_arcsec": [
+                  -11.709999999998136,
+                  -2.189999999998814
+                ],
+                "old_njy": 78.97649383544922,
+                "new_njy": 82.27216339111328,
+                "new_to_old": 1.0417297526847764,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0008999995644065136,
+                  0.0029289782758130344
+                ],
+                "new_minus_old_variance_arcsec2": 0.0006311440549034257
+              },
+              {
+                "offset_arcsec": [
+                  -10.149999999998151,
+                  -1.669999999998819
+                ],
+                "old_njy": 82.0826644897461,
+                "new_njy": 80.16024780273438,
+                "new_to_old": 0.9765795043452583,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005102113068045415,
+                  -0.002472866910863753
+                ],
+                "new_minus_old_variance_arcsec2": 0.002405286925674868
+              },
+              {
+                "offset_arcsec": [
+                  -12.709999999998127,
+                  3.290000000001131
+                ],
+                "old_njy": 114.4423599243164,
+                "new_njy": 112.439208984375,
+                "new_to_old": 0.9824964205451011,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004398347311707776,
+                  -0.0019410737013488538
+                ],
+                "new_minus_old_variance_arcsec2": -0.0007339717613207893
+              },
+              {
+                "offset_arcsec": [
+                  6.130000000001685,
+                  3.7700000000011262
+                ],
+                "old_njy": 1519.79150390625,
+                "new_njy": 1516.597412109375,
+                "new_to_old": 0.9978983355357196,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.001379734926559937,
+                  0.0009780371926813615
+                ],
+                "new_minus_old_variance_arcsec2": -2.2863148338844383e-05
+              },
+              {
+                "offset_arcsec": [
+                  -1.789999999998236,
+                  4.730000000001117
+                ],
+                "old_njy": 93.1803207397461,
+                "new_njy": 98.64330291748047,
+                "new_to_old": 1.058628067969336,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0006239019691855439,
+                  0.0017881935277722725
+                ],
+                "new_minus_old_variance_arcsec2": 3.22263634772741e-05
+              },
+              {
+                "offset_arcsec": [
+                  -12.38999999999813,
+                  6.170000000001102
+                ],
+                "old_njy": 387.7130126953125,
+                "new_njy": 394.7473449707031,
+                "new_to_old": 1.0181431420794707,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002503933745242066,
+                  -0.0035877506200632722
+                ],
+                "new_minus_old_variance_arcsec2": 0.0020296548384764503
+              },
+              {
+                "offset_arcsec": [
+                  -10.069999999998153,
+                  7.170000000001092
+                ],
+                "old_njy": 169.3035125732422,
+                "new_njy": 165.58084106445312,
+                "new_to_old": 0.9780118471719327,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0009542608372394758,
+                  0.004924783887512884
+                ],
+                "new_minus_old_variance_arcsec2": 0.00035715723543771477
+              },
+              {
+                "offset_arcsec": [
+                  -11.109999999998141,
+                  7.290000000001091
+                ],
+                "old_njy": 83.11195373535156,
+                "new_njy": 82.88243103027344,
+                "new_to_old": 0.9972383911728392,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.011219738911050032,
+                  0.003229592223821378
+                ],
+                "new_minus_old_variance_arcsec2": 0.00043782349205468644
+              },
+              {
+                "offset_arcsec": [
+                  -10.429999999998149,
+                  7.770000000001086
+                ],
+                "old_njy": 197.77584838867188,
+                "new_njy": 195.6881561279297,
+                "new_to_old": 0.9894441496383349,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003618945295516568,
+                  0.0043799786297030316
+                ],
+                "new_minus_old_variance_arcsec2": -0.001631642643141194
+              },
+              {
+                "offset_arcsec": [
+                  -3.5099999999982185,
+                  8.490000000001078
+                ],
+                "old_njy": 105.09056854248047,
+                "new_njy": 110.18539428710938,
+                "new_to_old": 1.048480332871826,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007865852682227604,
+                  0.0173071736717247
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005935144726339665
+              },
+              {
+                "offset_arcsec": [
+                  -10.709999999998146,
+                  8.650000000001077
+                ],
+                "old_njy": 112.9686050415039,
+                "new_njy": 104.41776275634766,
+                "new_to_old": 0.9243077996580136,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.000677689688454523,
+                  -0.003670898430359235
+                ],
+                "new_minus_old_variance_arcsec2": 0.0007956926811670331
+              },
+              {
+                "offset_arcsec": [
+                  -1.3899999999982398,
+                  11.050000000001054
+                ],
+                "old_njy": 486.3528137207031,
+                "new_njy": 487.3941345214844,
+                "new_to_old": 1.002141081065852,
+                "new_minus_old_centroid_xy_arcsec": [
+                  2.2068150128888575e-05,
+                  0.00031705928194970465
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005284505072810051
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.00032298505965721626,
+              0.0007693502805082025
+            ],
+            "held_out_reference_radius68_arcsec": 0.005863236274758365,
+            "matched_variance_arcsec2": 5.83752491940758e-05,
+            "new_to_old_scale": 0.9933412704055871,
+            "method": "local_translation_gain_and_core_width"
+          },
+          "difference_apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -35.89449691772461,
+              "local_mad_sigma_njy": 1.7997728880688546,
+              "control_median_njy": 0.07060902565717697,
+              "control_count": 337
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -44.503143310546875,
+              "local_mad_sigma_njy": 3.088847442483902,
+              "control_median_njy": 0.004239082336425781,
+              "control_count": 336
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -46.15400695800781,
+              "local_mad_sigma_njy": 4.356847103047371,
+              "control_median_njy": -0.0322645902633667,
+              "control_count": 335
+            }
+          ]
+        }
+      },
+      "tns": {
+        "url": "https://www.wis-tns.org/sites/default/files/tns_public_objects/tns_public_objects.csv.zip",
+        "path": "data/raw/cross_detector/tns_public_objects_snapshot_20261124.csv.zip",
+        "sha256": "e377e235a147351981469fe00fe135d741a1127679d85c7fd30bd5ed2d2deae7",
+        "snapshot_label_utc": "2026-11-24 00:00:00",
+        "catalogue_rows": 213742,
+        "radius_arcsec": 5,
+        "matches": 0,
+        "nearest": [
+          {
+            "objid": 152784,
+            "name_prefix": "AT",
+            "name": "2023adtl",
+            "ra": 53.187939,
+            "declination": -27.759586,
+            "type": null,
+            "discoverydate": "2023-09-28 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 10.914974536
+          },
+          {
+            "objid": 152777,
+            "name_prefix": "AT",
+            "name": "2023adte",
+            "ra": 53.18811,
+            "declination": -27.76476,
+            "type": null,
+            "discoverydate": "2023-09-28 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 29.4972234616
+          },
+          {
+            "objid": 152779,
+            "name_prefix": "AT",
+            "name": "2023adtg",
+            "ra": 53.193209,
+            "declination": -27.74883,
+            "type": null,
+            "discoverydate": "2023-09-28 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 33.4738215585
+          }
+        ]
+      }
+    },
+    {
+      "candidate": "GS-001-A-53.217024-27.774543",
+      "icrs_deg": [
+        53.2170244020676,
+        -27.7745434900732
+      ],
+      "sign": 1,
+      "bands": {
+        "F200W": {
+          "detector": "NRCA1",
+          "older": {
+            "band": "F200W",
+            "detector": "NRCA1",
+            "visit": "jw08060001001",
+            "dateobs": "2025-10-06 07:40:48",
+            "mjd": 60954.32,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 35.10057067871094,
+                "local_mad_sigma_njy": 3.0088791714951393,
+                "control_median_njy": 0.05187612026929855,
+                "control_count": 251
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 109.1709213256836,
+                "local_mad_sigma_njy": 4.83288910267353,
+                "control_median_njy": -0.14514052867889404,
+                "control_count": 251
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 224.7906494140625,
+                "local_mad_sigma_njy": 7.356370481586456,
+                "control_median_njy": -0.22498703002929688,
+                "control_count": 251
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.21706932125122,
+              -27.774576184647632
+            ]
+          },
+          "newer": {
+            "band": "F200W",
+            "detector": "NRCA1",
+            "visit": "jw12577001001",
+            "dateobs": "2026-10-09 22:30:43",
+            "mjd": 61322.94,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 157.67852783203125,
+                "local_mad_sigma_njy": 3.0616223718523976,
+                "control_median_njy": -0.1983131766319275,
+                "control_count": 333
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 276.0622253417969,
+                "local_mad_sigma_njy": 5.594950891113281,
+                "control_median_njy": -0.27568721771240234,
+                "control_count": 333
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 418.6365661621094,
+                "local_mad_sigma_njy": 8.34135382348895,
+                "control_median_njy": 0.10824939608573914,
+                "control_count": 333
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.21705501868782,
+              -27.774536397575154
+            ]
+          },
+          "registration": {
+            "reference_count": 13,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  10.960000000014443,
+                  -2.620000000016272
+                ],
+                "old_njy": 126.43470764160156,
+                "new_njy": 120.60690307617188,
+                "new_to_old": 0.9539066078125519,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0032014966906278655,
+                  0.0012838756701678208
+                ],
+                "new_minus_old_variance_arcsec2": 0.00035897362597908915
+              },
+              {
+                "offset_arcsec": [
+                  1.3600000000145382,
+                  -1.9800000000162783
+                ],
+                "old_njy": 126.66995239257812,
+                "new_njy": 127.62263488769531,
+                "new_to_old": 1.007520982499185,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.001038874100795735,
+                  -0.0010593835413632118
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001846491405286992
+              },
+              {
+                "offset_arcsec": [
+                  6.720000000014484,
+                  -1.1200000000162869
+                ],
+                "old_njy": 92.8830795288086,
+                "new_njy": 86.71881103515625,
+                "new_to_old": 0.9336341072569581,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0016967714927388225,
+                  0.004780456552193605
+                ],
+                "new_minus_old_variance_arcsec2": 0.00012519756424481565
+              },
+              {
+                "offset_arcsec": [
+                  3.300000000014519,
+                  0.8199999999836937
+                ],
+                "old_njy": 139.86904907226562,
+                "new_njy": 141.8450164794922,
+                "new_to_old": 1.0141272670425152,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009683694263547801,
+                  0.0009365058072008867
+                ],
+                "new_minus_old_variance_arcsec2": 0.0022754515169517535
+              },
+              {
+                "offset_arcsec": [
+                  4.780000000014504,
+                  0.8199999999836937
+                ],
+                "old_njy": 245.7774200439453,
+                "new_njy": 248.42333984375,
+                "new_to_old": 1.0107655121423749,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.001664447598328067,
+                  0.0017995383845365572
+                ],
+                "new_minus_old_variance_arcsec2": 0.00031113627423644003
+              },
+              {
+                "offset_arcsec": [
+                  10.360000000014448,
+                  1.9399999999836823
+                ],
+                "old_njy": 176.6270751953125,
+                "new_njy": 159.21324157714844,
+                "new_to_old": 0.9014090359651372,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0002926565236283469,
+                  0.0018522559267939427
+                ],
+                "new_minus_old_variance_arcsec2": -0.00011914732529018845
+              },
+              {
+                "offset_arcsec": [
+                  10.32000000001445,
+                  2.6199999999836754
+                ],
+                "old_njy": 118.7108383178711,
+                "new_njy": 119.22434997558594,
+                "new_to_old": 1.0043257352487043,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0007995429408219987,
+                  -0.0008237203457117843
+                ],
+                "new_minus_old_variance_arcsec2": -4.505663384949624e-05
+              },
+              {
+                "offset_arcsec": [
+                  11.540000000014436,
+                  3.499999999983667
+                ],
+                "old_njy": 173.44644165039062,
+                "new_njy": 170.24237060546875,
+                "new_to_old": 0.9815270292406448,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0007803425456295436,
+                  0.001239960590120671
+                ],
+                "new_minus_old_variance_arcsec2": -0.0002908527528781323
+              },
+              {
+                "offset_arcsec": [
+                  11.660000000014435,
+                  3.9999999999836615
+                ],
+                "old_njy": 216.2803955078125,
+                "new_njy": 206.14910888671875,
+                "new_to_old": 0.953156703836674,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0013933133537884666,
+                  -0.0015507464855519845
+                ],
+                "new_minus_old_variance_arcsec2": 4.892528055565424e-05
+              },
+              {
+                "offset_arcsec": [
+                  6.0000000000144915,
+                  4.919999999983652
+                ],
+                "old_njy": 133.7437286376953,
+                "new_njy": 138.12559509277344,
+                "new_to_old": 1.032763154577127,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0013821059051861632,
+                  -0.0005767519246447275
+                ],
+                "new_minus_old_variance_arcsec2": 0.00016913818260039628
+              },
+              {
+                "offset_arcsec": [
+                  0.2200000000145497,
+                  7.459999999983627
+                ],
+                "old_njy": 142.97145080566406,
+                "new_njy": 141.59051513671875,
+                "new_to_old": 0.9903411788775762,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002358708591729977,
+                  0.0008063851493561986
+                ],
+                "new_minus_old_variance_arcsec2": -8.743863617814924e-06
+              },
+              {
+                "offset_arcsec": [
+                  3.480000000014517,
+                  9.779999999983604
+                ],
+                "old_njy": 82.76526641845703,
+                "new_njy": 81.60987091064453,
+                "new_to_old": 0.9860400919635675,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0008663594847281935,
+                  -0.0020567895881062476
+                ],
+                "new_minus_old_variance_arcsec2": -9.878797134101015e-05
+              },
+              {
+                "offset_arcsec": [
+                  -5.479999999985393,
+                  11.919999999983583
+                ],
+                "old_njy": 77.30120849609375,
+                "new_njy": 77.22055053710938,
+                "new_to_old": 0.9989565757049135,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002865276661029265,
+                  0.0015025239858643723
+                ],
+                "new_minus_old_variance_arcsec2": -0.0004279969471953442
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.001038874100795735,
+              0.0009365058072008867
+            ],
+            "held_out_reference_radius68_arcsec": 0.00273080474405177,
+            "matched_variance_arcsec2": -8.743863617814924e-06,
+            "new_to_old_scale": 0.7100541489734549,
+            "method": "local_translation_gain_and_core_width"
+          },
+          "difference_apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 122.1366195678711,
+              "local_mad_sigma_njy": 3.237323409551382,
+              "control_median_njy": 0.12555226683616638,
+              "control_count": 251
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 174.7440185546875,
+              "local_mad_sigma_njy": 6.024899885845184,
+              "control_median_njy": -0.1648869514465332,
+              "control_count": 251
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 217.46585083007812,
+              "local_mad_sigma_njy": 8.142446864140034,
+              "control_median_njy": 0.481009304523468,
+              "control_count": 251
+            }
+          ]
+        },
+        "F356W": {
+          "detector": "NRCALONG",
+          "older": {
+            "band": "F356W",
+            "detector": "NRCALONG",
+            "visit": "jw08060001001",
+            "dateobs": "2025-10-06 10:19:12",
+            "mjd": 60954.43,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 6.3151750564575195,
+                "local_mad_sigma_njy": 2.2457950654417274,
+                "control_median_njy": 0.03427909314632416,
+                "control_count": 187
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 26.287857055664062,
+                "local_mad_sigma_njy": 4.286545620596408,
+                "control_median_njy": -0.28796249628067017,
+                "control_count": 187
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 56.439781188964844,
+                "local_mad_sigma_njy": 6.710032011508941,
+                "control_median_njy": -0.6208699941635132,
+                "control_count": 186
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.21704744362421,
+              -27.774582338082205
+            ]
+          },
+          "newer": {
+            "band": "F356W",
+            "detector": "NRCALONG",
+            "visit": "jw12577001001",
+            "dateobs": "2026-10-10 01:01:55",
+            "mjd": 61323.04,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 31.428348541259766,
+                "local_mad_sigma_njy": 2.261704708635807,
+                "control_median_njy": 0.03891301713883877,
+                "control_count": 282
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 50.68816375732422,
+                "local_mad_sigma_njy": 4.553480284157395,
+                "control_median_njy": -0.21731199324131012,
+                "control_count": 281
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 67.81553649902344,
+                "local_mad_sigma_njy": 6.591902912449837,
+                "control_median_njy": 0.04326498508453369,
+                "control_count": 275
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.21705932332305,
+              -27.774527754464007
+            ]
+          },
+          "registration": {
+            "method": "unmatched_common_grid",
+            "reason": "Too few bright local reference sources: 6"
+          },
+          "difference_apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 24.087404251098633,
+              "local_mad_sigma_njy": 2.214804224270582,
+              "control_median_njy": 0.25906339287757874,
+              "control_count": 175
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 22.055683135986328,
+              "local_mad_sigma_njy": 4.212601533079147,
+              "control_median_njy": 0.011194884777069092,
+              "control_count": 174
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 7.272663116455078,
+              "local_mad_sigma_njy": 6.635364528429508,
+              "control_median_njy": 0.5963782668113708,
+              "control_count": 167
+            }
+          ]
+        },
+        "F444W": {
+          "detector": "NRCALONG",
+          "older": {
+            "band": "F444W",
+            "detector": "NRCALONG",
+            "visit": "jw08060001001",
+            "dateobs": "2025-10-06 09:00:00",
+            "mjd": 60954.38,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 7.81071138381958,
+                "local_mad_sigma_njy": 2.4550939762875434,
+                "control_median_njy": 0.0045890286564826965,
+                "control_count": 191
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 23.576717376708984,
+                "local_mad_sigma_njy": 4.302150940132141,
+                "control_median_njy": -0.3398418426513672,
+                "control_count": 191
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 55.7918815612793,
+                "local_mad_sigma_njy": 6.294157505464553,
+                "control_median_njy": -0.6534303724765778,
+                "control_count": 190
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.217076103696876,
+              -27.774564366244785
+            ]
+          },
+          "newer": {
+            "band": "F444W",
+            "detector": "NRCALONG",
+            "visit": "jw12577001001",
+            "dateobs": "2026-10-09 23:45:36",
+            "mjd": 61322.99,
+            "apertures": [
+              {
+                "radius_arcsec": 0.12,
+                "flux_njy": 36.51335144042969,
+                "local_mad_sigma_njy": 2.4465977126419545,
+                "control_median_njy": -0.13847598433494568,
+                "control_count": 293
+              },
+              {
+                "radius_arcsec": 0.18,
+                "flux_njy": 61.409786224365234,
+                "local_mad_sigma_njy": 4.45524222125709,
+                "control_median_njy": -0.16550295054912567,
+                "control_count": 292
+              },
+              {
+                "radius_arcsec": 0.24,
+                "flux_njy": 81.42689514160156,
+                "local_mad_sigma_njy": 6.585845148436725,
+                "control_median_njy": 0.10682367533445358,
+                "control_count": 290
+              }
+            ],
+            "local_centroid_ra_dec": [
+              53.21706079778583,
+              -27.774528687388695
+            ]
+          },
+          "registration": {
+            "method": "unmatched_common_grid",
+            "reason": "Too few bright local reference sources: 6"
+          },
+          "difference_apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 29.11884307861328,
+              "local_mad_sigma_njy": 2.8976081137776375,
+              "control_median_njy": -0.010269902646541595,
+              "control_count": 184
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 38.78438186645508,
+              "local_mad_sigma_njy": 5.067073083758354,
+              "control_median_njy": 0.3831974267959595,
+              "control_count": 183
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 27.299808502197266,
+              "local_mad_sigma_njy": 7.586292915201187,
+              "control_median_njy": -0.05442393571138382,
+              "control_count": 180
+            }
+          ]
+        }
+      },
+      "tns": {
+        "url": "https://www.wis-tns.org/sites/default/files/tns_public_objects/tns_public_objects.csv.zip",
+        "path": "data/raw/cross_detector/tns_public_objects_snapshot_20261124.csv.zip",
+        "sha256": "e377e235a147351981469fe00fe135d741a1127679d85c7fd30bd5ed2d2deae7",
+        "snapshot_label_utc": "2026-11-24 00:00:00",
+        "catalogue_rows": 213742,
+        "radius_arcsec": 5,
+        "matches": 0,
+        "nearest": [
+          {
+            "objid": 152832,
+            "name_prefix": "AT",
+            "name": "2022aewl",
+            "ra": 53.218154,
+            "declination": -27.765116,
+            "type": null,
+            "discoverydate": "2022-09-29 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 34.1291706554
+          },
+          {
+            "objid": 152786,
+            "name_prefix": "AT",
+            "name": "2023adtn",
+            "ra": 53.213225,
+            "declination": -27.758114,
+            "type": null,
+            "discoverydate": "2023-09-28 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 60.3717581795
+          },
+          {
+            "objid": 152797,
+            "name_prefix": "AT",
+            "name": "2023adty",
+            "ra": 53.201735,
+            "declination": -27.764056,
+            "type": null,
+            "discoverydate": "2023-09-28 00:00:00.000",
+            "time_received": "2024-06-06 20:43:04",
+            "separation_arcsec": 61.6229839621
+          }
+        ]
+      }
+    }
+  ],
+  "public_plans": [
+    {
+      "program": 8060,
+      "product": {
+        "url": "https://www.stsci.edu/jwst-program-info/download/jwst/apt/8060/",
+        "path": "data/raw/cross_detector/goods_s_8060_20261123.aptx",
+        "sha256": "7c900b5cbae1ca86b459858f85e7086ff1bec0e13a61f27db1df4a9ff3e2bc69",
+        "bytes": 879609
+      },
+      "radius_arcsec": 1.0,
+      "catalogues": [
+        {
+          "name": "msa_catalog_sample",
+          "rows": 2877,
+          "label_field": null,
+          "csv_sha256": "7bd15028b9c466ce5b8f32ebc543e40b71312daaa7f74c0066570303f49f730b",
+          "positions": {
+            "GS-001-A-53.187419-27.756589": {
+              "nearest": [
+                {
+                  "ID": 208478,
+                  "RA": 53.1852997,
+                  "DEC": -27.778854,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 80.4372446018
+                },
+                {
+                  "ID": 208450,
+                  "RA": 53.183272,
+                  "DEC": -27.77894,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 81.5402547397
+                },
+                {
+                  "ID": 208489,
+                  "RA": 53.1804713,
+                  "DEC": -27.7788397,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 83.1032050472
+                }
+              ],
+              "matches": []
+            },
+            "GS-001-A-53.217024-27.774543": {
+              "nearest": [
+                {
+                  "ID": 208075,
+                  "RA": 53.1870421,
+                  "DEC": -27.7799911,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 97.4912405715
+                },
+                {
+                  "ID": 207435,
+                  "RA": 53.1865972,
+                  "DEC": -27.7819765,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 100.5408575459
+                },
+                {
+                  "ID": 207215,
+                  "RA": 53.1866956,
+                  "DEC": -27.7829389,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 101.2183463063
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "name": "MPT_input",
+          "rows": 18077,
+          "label_field": "[LABEL] - PriorityClass",
+          "csv_sha256": "9b3e32a6cc757181383a11b3ab5b7947524700da065e2c058a06ae765a16a6b0",
+          "positions": {
+            "GS-001-A-53.187419-27.756589": {
+              "nearest": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 100000,
+                  "[LABEL] - PriorityClass": 1,
+                  "separation_arcsec": 0.0157012485
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 0.6421955845
+                },
+                {
+                  "ID": 215023,
+                  "RA": 53.187996,
+                  "DEC": -27.75683,
+                  "Redshift": 0.82,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 2.0319418176
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 100000,
+                  "[LABEL] - PriorityClass": 1,
+                  "separation_arcsec": 0.0157012485,
+                  "configurations": [
+                    {
+                      "plan": "P0.json",
+                      "configuration": "c1",
+                      "role": "primary"
+                    }
+                  ]
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 0.6421955845,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-001-A-53.217024-27.774543": {
+              "nearest": [
+                {
+                  "ID": 10098850,
+                  "RA": 53.2166219,
+                  "DEC": -27.774689,
+                  "Redshift": 0.0,
+                  "Weight": 2,
+                  "[LABEL] - PriorityClass": 36,
+                  "separation_arcsec": 1.3849516904
+                },
+                {
+                  "ID": 209763,
+                  "RA": 53.216003,
+                  "DEC": -27.774315,
+                  "Redshift": 0.2,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 3.3557855609
+                },
+                {
+                  "ID": 10098839,
+                  "RA": 53.2159892,
+                  "DEC": -27.774237,
+                  "Redshift": 0.0,
+                  "Weight": 2,
+                  "[LABEL] - PriorityClass": 36,
+                  "separation_arcsec": 3.4770754063
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "name": "MPT_input_v3",
+          "rows": 14107,
+          "label_field": "[LABEL] - Class",
+          "csv_sha256": "92421da39aad5c39d9fcceb6d1593db2035765d7c34fdbf731bd0bc8e0dba989",
+          "positions": {
+            "GS-001-A-53.187419-27.756589": {
+              "nearest": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0157012485
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.6421955845
+                },
+                {
+                  "ID": 215023,
+                  "RA": 53.187996,
+                  "DEC": -27.75683,
+                  "Redshift": 0.82,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 2.0319418176
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0157012485,
+                  "configurations": []
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.6421955845,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-001-A-53.217024-27.774543": {
+              "nearest": [
+                {
+                  "ID": 209763,
+                  "RA": 53.216003,
+                  "DEC": -27.774315,
+                  "Redshift": 0.2,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 3.3557855609
+                },
+                {
+                  "ID": 209718,
+                  "RA": 53.2155,
+                  "DEC": -27.77432,
+                  "Redshift": 3.44,
+                  "Weight": 4,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 4.9217933646
+                },
+                {
+                  "ID": 130519,
+                  "RA": 53.215355,
+                  "DEC": -27.774067,
+                  "Redshift": 1.84,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 5.5872876007
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "name": "MPT_input_P2_v0.1",
+          "rows": 8386,
+          "label_field": "[LABEL] - Class",
+          "csv_sha256": "caa9ec515e91179dbbd3bb1a7c8c4f94a1ddd6eb2c18ee8032323732e89706b3",
+          "positions": {
+            "GS-001-A-53.187419-27.756589": {
+              "nearest": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0157012485
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.6421955845
+                },
+                {
+                  "ID": 215023,
+                  "RA": 53.187996,
+                  "DEC": -27.75683,
+                  "Redshift": 0.82,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 2.0319418176
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0157012485,
+                  "configurations": []
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.6421955845,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-001-A-53.217024-27.774543": {
+              "nearest": [
+                {
+                  "ID": 209763,
+                  "RA": 53.216003,
+                  "DEC": -27.774315,
+                  "Redshift": 0.2,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 3.3557855609
+                },
+                {
+                  "ID": 209718,
+                  "RA": 53.2155,
+                  "DEC": -27.77432,
+                  "Redshift": 3.44,
+                  "Weight": 4,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 4.9217933646
+                },
+                {
+                  "ID": 130519,
+                  "RA": 53.215355,
+                  "DEC": -27.774067,
+                  "Redshift": 1.84,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 5.5872876007
+                }
+              ],
+              "matches": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "program": 12577,
+      "product": {
+        "url": "https://www.stsci.edu/jwst-program-info/download/jwst/apt/12577/",
+        "path": "data/raw/cross_detector/goods_s_12577_20261123.aptx",
+        "sha256": "63d7f0f90fb637394bdc8ced0d0d79d2048822dc0ba052d1e75db988fc424b86",
+        "bytes": 940138
+      },
+      "radius_arcsec": 1.0,
+      "catalogues": [
+        {
+          "name": "msa_catalog_sample",
+          "rows": 2877,
+          "label_field": null,
+          "csv_sha256": "7bd15028b9c466ce5b8f32ebc543e40b71312daaa7f74c0066570303f49f730b",
+          "positions": {
+            "GS-001-A-53.187419-27.756589": {
+              "nearest": [
+                {
+                  "ID": 208478,
+                  "RA": 53.1852997,
+                  "DEC": -27.778854,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 80.4372446018
+                },
+                {
+                  "ID": 208450,
+                  "RA": 53.183272,
+                  "DEC": -27.77894,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 81.5402547397
+                },
+                {
+                  "ID": 208489,
+                  "RA": 53.1804713,
+                  "DEC": -27.7788397,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 83.1032050472
+                }
+              ],
+              "matches": []
+            },
+            "GS-001-A-53.217024-27.774543": {
+              "nearest": [
+                {
+                  "ID": 208075,
+                  "RA": 53.1870421,
+                  "DEC": -27.7799911,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 97.4912405715
+                },
+                {
+                  "ID": 207435,
+                  "RA": 53.1865972,
+                  "DEC": -27.7819765,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 100.5408575459
+                },
+                {
+                  "ID": 207215,
+                  "RA": 53.1866956,
+                  "DEC": -27.7829389,
+                  "Redshift": 0.0,
+                  "Weight": 1,
+                  "separation_arcsec": 101.2183463063
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "name": "MPT_input",
+          "rows": 18077,
+          "label_field": "[LABEL] - PriorityClass",
+          "csv_sha256": "9b3e32a6cc757181383a11b3ab5b7947524700da065e2c058a06ae765a16a6b0",
+          "positions": {
+            "GS-001-A-53.187419-27.756589": {
+              "nearest": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 100000,
+                  "[LABEL] - PriorityClass": 1,
+                  "separation_arcsec": 0.0157012485
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 0.6421955845
+                },
+                {
+                  "ID": 215023,
+                  "RA": 53.187996,
+                  "DEC": -27.75683,
+                  "Redshift": 0.82,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 2.0319418176
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 100000,
+                  "[LABEL] - PriorityClass": 1,
+                  "separation_arcsec": 0.0157012485,
+                  "configurations": [
+                    {
+                      "plan": "P0.json",
+                      "configuration": "c1",
+                      "role": "primary"
+                    }
+                  ]
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 0.6421955845,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-001-A-53.217024-27.774543": {
+              "nearest": [
+                {
+                  "ID": 10098850,
+                  "RA": 53.2166219,
+                  "DEC": -27.774689,
+                  "Redshift": 0.0,
+                  "Weight": 2,
+                  "[LABEL] - PriorityClass": 36,
+                  "separation_arcsec": 1.3849516904
+                },
+                {
+                  "ID": 209763,
+                  "RA": 53.216003,
+                  "DEC": -27.774315,
+                  "Redshift": 0.2,
+                  "Weight": 3,
+                  "[LABEL] - PriorityClass": 34,
+                  "separation_arcsec": 3.3557855609
+                },
+                {
+                  "ID": 10098839,
+                  "RA": 53.2159892,
+                  "DEC": -27.774237,
+                  "Redshift": 0.0,
+                  "Weight": 2,
+                  "[LABEL] - PriorityClass": 36,
+                  "separation_arcsec": 3.4770754063
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "name": "MPT_input_v3",
+          "rows": 14107,
+          "label_field": "[LABEL] - Class",
+          "csv_sha256": "92421da39aad5c39d9fcceb6d1593db2035765d7c34fdbf731bd0bc8e0dba989",
+          "positions": {
+            "GS-001-A-53.187419-27.756589": {
+              "nearest": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0157012485
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.6421955845
+                },
+                {
+                  "ID": 215023,
+                  "RA": 53.187996,
+                  "DEC": -27.75683,
+                  "Redshift": 0.82,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 2.0319418176
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0157012485,
+                  "configurations": []
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.6421955845,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-001-A-53.217024-27.774543": {
+              "nearest": [
+                {
+                  "ID": 209763,
+                  "RA": 53.216003,
+                  "DEC": -27.774315,
+                  "Redshift": 0.2,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 3.3557855609
+                },
+                {
+                  "ID": 209718,
+                  "RA": 53.2155,
+                  "DEC": -27.77432,
+                  "Redshift": 3.44,
+                  "Weight": 4,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 4.9217933646
+                },
+                {
+                  "ID": 130519,
+                  "RA": 53.215355,
+                  "DEC": -27.774067,
+                  "Redshift": 1.84,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 5.5872876007
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "name": "MPT_input_P2_v0.1",
+          "rows": 8386,
+          "label_field": "[LABEL] - Class",
+          "csv_sha256": "caa9ec515e91179dbbd3bb1a7c8c4f94a1ddd6eb2c18ee8032323732e89706b3",
+          "positions": {
+            "GS-001-A-53.187419-27.756589": {
+              "nearest": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0157012485
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.6421955845
+                },
+                {
+                  "ID": 215023,
+                  "RA": 53.187996,
+                  "DEC": -27.75683,
+                  "Redshift": 0.82,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 2.0319418176
+                }
+              ],
+              "matches": [
+                {
+                  "ID": 2510131,
+                  "RA": 53.1874217,
+                  "DEC": -27.7565929,
+                  "Redshift": 1.63,
+                  "Weight": 12500,
+                  "[LABEL] - Class": "trans",
+                  "separation_arcsec": 0.0157012485,
+                  "configurations": []
+                },
+                {
+                  "ID": 214983,
+                  "RA": 53.187435,
+                  "DEC": -27.756767,
+                  "Redshift": 1.32,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 0.6421955845,
+                  "configurations": []
+                }
+              ]
+            },
+            "GS-001-A-53.217024-27.774543": {
+              "nearest": [
+                {
+                  "ID": 209763,
+                  "RA": 53.216003,
+                  "DEC": -27.774315,
+                  "Redshift": 0.2,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 3.3557855609
+                },
+                {
+                  "ID": 209718,
+                  "RA": 53.2155,
+                  "DEC": -27.77432,
+                  "Redshift": 3.44,
+                  "Weight": 4,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 4.9217933646
+                },
+                {
+                  "ID": 130519,
+                  "RA": 53.215355,
+                  "DEC": -27.774067,
+                  "Redshift": 1.84,
+                  "Weight": 2,
+                  "[LABEL] - Class": "JADES",
+                  "separation_arcsec": 5.5872876007
+                }
+              ],
+              "matches": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "published_catalogues": {
+    "pouliasis_2019": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FMNRAS%2F487%2F4285%2Ftable3&-out.max=unlimited&-out.all=1",
+        "path": "data/raw/cross_detector/goods_s_pouliasis_2019_full.tsv",
+        "sha256": "bf3924abf10140b7d5169223c4fb54546a96acca353cbbe6acbb5df38e7212cd",
+        "bytes": 12644
+      },
+      "rows": 113,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-A-53.187419-27.756589": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.18116,
+              "DEJ2000": -27.76034,
+              "ID": "17472",
+              "Grade": "B",
+              "z": " 2.62",
+              "separation_arcsec": 24.0817075855
+            },
+            {
+              "RAJ2000": 53.17742,
+              "DEJ2000": -27.75976,
+              "ID": "17058",
+              "Grade": "A",
+              "z": " 2.51",
+              "separation_arcsec": 33.8379977718
+            },
+            {
+              "RAJ2000": 53.20216,
+              "DEJ2000": -27.755,
+              "ID": "19429",
+              "Grade": "B",
+              "z": " 2.19",
+              "separation_arcsec": 47.3083649435
+            }
+          ]
+        },
+        "GS-001-A-53.217024-27.774543": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.20908,
+              "DEJ2000": -27.7726,
+              "ID": "19976",
+              "Grade": "A",
+              "z": " 5.00",
+              "separation_arcsec": 26.2544566763
+            },
+            {
+              "RAJ2000": 53.23217,
+              "DEJ2000": -27.77188,
+              "ID": "21288",
+              "Grade": "A",
+              "z": " 0.58",
+              "separation_arcsec": 49.1865746648
+            },
+            {
+              "RAJ2000": 53.20216,
+              "DEJ2000": -27.755,
+              "ID": "19429",
+              "Grade": "B",
+              "z": " 2.19",
+              "separation_arcsec": 84.8065660755
+            }
+          ]
+        }
+      }
+    },
+    "villforth_2010": {
+      "product": {
+        "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJ%2F723%2F737%2Ftable5&-out.max=unlimited",
+        "path": "data/raw/cross_detector/goods_s_villforth_2010_full.tsv",
+        "sha256": "3fb4f09dc8d7de4a432c2de373cb59844073ee83d8dfcd216bc532a0c23b5955",
+        "bytes": 19560
+      },
+      "rows": 155,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-A-53.187419-27.756589": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.162859,
+              "DEJ2000": -27.76716,
+              "GOODS": "J033239.09-274601.8",
+              "Var": " 4.39",
+              "separation_arcsec": 87.0030448501
+            },
+            {
+              "RAJ2000": 53.18304,
+              "DEJ2000": -27.730852,
+              "GOODS": "J033243.93-274351.1",
+              "Var": " 9.75",
+              "separation_arcsec": 93.6984529658
+            },
+            {
+              "RAJ2000": 53.174448,
+              "DEJ2000": -27.780866,
+              "GOODS": "J033241.87-274651.1",
+              "Var": "12.07",
+              "separation_arcsec": 96.6715002338
+            }
+          ]
+        },
+        "GS-001-A-53.217024-27.774543": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.193291,
+              "DEJ2000": -27.805574,
+              "GOODS": "J033246.39-274820.1",
+              "Var": " 1.45",
+              "separation_arcsec": 134.8787964857
+            },
+            {
+              "RAJ2000": 53.174448,
+              "DEJ2000": -27.780866,
+              "GOODS": "J033241.87-274651.1",
+              "Var": "12.07",
+              "separation_arcsec": 137.5088302375
+            },
+            {
+              "RAJ2000": 53.199929,
+              "DEJ2000": -27.81547,
+              "GOODS": "J033247.98-274855.7",
+              "Var": " 1.33",
+              "separation_arcsec": 157.0723847452
+            }
+          ]
+        }
+      }
+    },
+    "sarajedini_2011": {
+      "product": {
+        "url": "https://vizier.idia.ac.za/viz-bin/asu-tsv?-source=J%2FApJ%2F731%2F97%2Ftable1&-out.max=unlimited",
+        "path": "data/raw/cross_detector/goods_s_sarajedini_2011_full.tsv",
+        "sha256": "eee7de4497c43d2e55c89e1e276f2cefd5a48a10d5106bbe247881b67739a6d6",
+        "bytes": 11742
+      },
+      "rows": 85,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-A-53.187419-27.756589": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.162861,
+              "DEJ2000": -27.767162,
+              "Name": "24251",
+              "Signi": " 3.624",
+              "z": " 1.216",
+              "separation_arcsec": 87.0004645374
+            },
+            {
+              "RAJ2000": 53.17445,
+              "DEJ2000": -27.733299,
+              "Name": "26093",
+              "Signi": "12.566",
+              "z": " 0.381",
+              "separation_arcsec": 93.4737746037
+            },
+            {
+              "RAJ2000": 53.158027,
+              "DEJ2000": -27.769194,
+              "Name": "23424",
+              "Signi": " 3.609",
+              "z": " 0.150",
+              "separation_arcsec": 104.0474707561
+            }
+          ]
+        },
+        "GS-001-A-53.217024-27.774543": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.200371,
+              "DEJ2000": -27.789839,
+              "Name": "29365",
+              "Signi": " 5.287",
+              "z": " 0.700",
+              "separation_arcsec": 76.455255492
+            },
+            {
+              "RAJ2000": 53.162861,
+              "DEJ2000": -27.767162,
+              "Name": "24251",
+              "Signi": " 3.624",
+              "z": " 1.216",
+              "separation_arcsec": 174.5635853113
+            },
+            {
+              "RAJ2000": 53.158027,
+              "DEJ2000": -27.769194,
+              "Name": "23424",
+              "Signi": " 3.609",
+              "z": " 0.150",
+              "separation_arcsec": 188.9095257973
+            }
+          ]
+        }
+      }
+    },
+    "lyu_2024": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F966%2F229%2Ftable2&-out.max=unlimited&-out.all=1",
+        "path": "data/raw/cross_detector/goods_s_lyu_2024_full.tsv",
+        "sha256": "4cb9fe13cb4c064e1f7e1bc3ec57220132cf4acacce1c59f3534bec424e4a293",
+        "bytes": 21231
+      },
+      "rows": 217,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-A-53.187419-27.756589": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.1737075,
+              "DEJ2000": -27.759546,
+              "ID": "1516",
+              "JADES": "  1",
+              "Sample": "norm ",
+              "z": " 3.19",
+              "separation_arcsec": 44.9597638088
+            },
+            {
+              "RAJ2000": 53.1949043,
+              "DEJ2000": -27.767255,
+              "ID": "3245",
+              "JADES": "  1",
+              "Sample": "dwarf",
+              "z": " 2.90",
+              "separation_arcsec": 45.1984633581
+            },
+            {
+              "RAJ2000": 53.2011716,
+              "DEJ2000": -27.752876,
+              "ID": "2943",
+              "JADES": "  1",
+              "Sample": "dwarf",
+              "z": " 2.93",
+              "separation_arcsec": 45.8066131371
+            }
+          ]
+        },
+        "GS-001-A-53.217024-27.774543": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.2122804,
+              "DEJ2000": -27.763043,
+              "ID": "1478",
+              "JADES": "  1",
+              "Sample": "dwarf",
+              "z": " 0.42",
+              "separation_arcsec": 44.0734119591
+            },
+            {
+              "RAJ2000": 53.2179975,
+              "DEJ2000": -27.761677,
+              "ID": "1489",
+              "JADES": "  1",
+              "Sample": "norm ",
+              "z": " 1.37",
+              "separation_arcsec": 46.4229667067
+            },
+            {
+              "RAJ2000": 53.2035952,
+              "DEJ2000": -27.767466,
+              "ID": "1422",
+              "JADES": "  0",
+              "Sample": "dwarf",
+              "z": " 0.68",
+              "separation_arcsec": 49.7896960722
+            }
+          ]
+        }
+      }
+    },
+    "luo_2017": {
+      "product": {
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F228%2F2%2Fsources&-out.max=unlimited",
+        "path": "data/raw/cross_detector/goods_s_luo_2017_full.tsv",
+        "sha256": "d7968fdec7551e561ddd33242355e8024315333403a44ba77c8508fdd23268ae",
+        "bytes": 293319
+      },
+      "rows": 1055,
+      "radius_arcsec": 1.0,
+      "positions": {
+        "GS-001-A-53.187419-27.756589": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.183764,
+              "DEJ2000": -27.761462,
+              "OType": "Galaxy",
+              "errPos": " 0.49",
+              "zspec": " 0.496",
+              "zF": " 0.496",
+              "separation_arcsec": 21.0550828946
+            },
+            {
+              "RAJ2000": 53.190101,
+              "DEJ2000": -27.765155,
+              "OType": "Galaxy",
+              "errPos": " 0.56",
+              "zspec": " 0.337",
+              "zF": " 0.337",
+              "separation_arcsec": 31.9986011735
+            },
+            {
+              "RAJ2000": 53.180061,
+              "DEJ2000": -27.749234,
+              "OType": "Galaxy",
+              "errPos": " 0.53",
+              "zspec": " 0.549",
+              "zF": " 0.549",
+              "separation_arcsec": 35.3645212523
+            }
+          ]
+        },
+        "GS-001-A-53.217024-27.774543": {
+          "matches": 0,
+          "nearest": [
+            {
+              "RAJ2000": 53.218191,
+              "DEJ2000": -27.765736,
+              "OType": "AGN   ",
+              "errPos": " 0.40",
+              "zspec": " 1.114",
+              "zF": " 1.114",
+              "separation_arcsec": 31.923980755
+            },
+            {
+              "RAJ2000": 53.208564,
+              "DEJ2000": -27.769343,
+              "OType": "Galaxy",
+              "errPos": " 0.67",
+              "zspec": " 0.147",
+              "zF": " 0.147",
+              "separation_arcsec": 32.8139412627
+            },
+            {
+              "RAJ2000": 53.217963,
+              "DEJ2000": -27.761632,
+              "OType": "Galaxy",
+              "errPos": " 0.47",
+              "zspec": " 1.367",
+              "zF": " 1.367",
+              "separation_arcsec": 46.5774230027
+            }
+          ]
+        }
+      }
+    }
+  },
+  "products_sha256": "339f919616663f94afbad8554390f4112e651eae1e77cf46975d69b08b9f88a2",
+  "matches_sha256": "0bddab7ab002cf9dad38338142878c3bfa998718dfbe5c0c43746453d17ef1a5",
+  "script_sha256": "acd12adab5483e282266645226ebef5b5d38a443c66a13766ed41d208a1f5697",
+  "scope": "Two preselected three-filter leads. Photometry uses mosaics from the same two epochs as the search; local alignment accounts approximately for nearby zero-point, centroid and core-width differences."
+}

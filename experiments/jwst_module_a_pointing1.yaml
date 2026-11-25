@@ -1,0 +1,27 @@
+experiment: goods-s-nircam-module-a-pointing-001
+status: executed
+date: 2026-11-25
+commands:
+  - python scripts/search_jwst_module_a_pointing1.py
+  - python scripts/vet_jwst_module_a_pointing1.py
+inputs:
+  visits: [jw08060001001, jw12577001001]
+  filters: [F200W, F356W, F444W]
+  short_detectors: [NRCA1, NRCA2, NRCA3, NRCA4]
+  long_detector: NRCALONG
+limitations:
+  - The searched area sums detector intersections and does not account for shared coverage.
+  - Shifted controls do not calibrate a global false-alarm probability.
+  - The mosaics share the discovery exposures and are used to check morphology.
+  - Insufficient local references for the diffraction-spike candidate in both long-wavelength bands.
+outputs:
+  - reports/jwst_module_a_pointing1.md
+  - results/jwst_cross_detector/module_a_001_products.json
+  - results/jwst_cross_detector/module_a_001_search.json
+  - results/jwst_cross_detector/module_a_001_peaks.csv
+  - results/jwst_cross_detector/module_a_001_matches.csv
+  - results/jwst_cross_detector/module_a_001_vetting.json
+  - figures/jwst_cross_detector/module_a_001_nrca1_vetting.png
+  - figures/jwst_cross_detector/module_a_001_nrca1_vetting.pdf
+  - figures/jwst_cross_detector/module_a_001_nrca2_vetting.png
+  - figures/jwst_cross_detector/module_a_001_nrca2_vetting.pdf

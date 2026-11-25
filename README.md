@@ -4,28 +4,26 @@ A provenance-first Python research platform for comparing ordinary, unusual, and
 unclassified JWST sources across independent fields. **This is an executed
 research programme in progress, not a completed physical classification.**
 
-## Five-filter GOODS-S brightening · 23 November 2026
+## Infrared rise and fade near JADES 103607 · 25 November 2026
 
-A search across both NIRCam Module B pointings recovered two three-filter
-brightness changes. One source rose from **67 to 107 nJy** in F200W between
-October 2025 and October 2026. It appears in six clean native exposures.
-Two filters held out of the search confirm the brightening, with a weak,
-aperture-dependent signal in F115W. The extra light lies about 30–43 mas
-northwest of the quiescent light centroid in three filters. JADES 103607
-is a candidate for previously unreported variability. The official
-STScI reduction reproduces the brightening and the position offset.
-Measurements of the individual detector images also recover the
-increase in all five filters.
-Public GO 8060 spectroscopy and observing plans already identified the
-other source.
+A compact infrared source near **JADES 103607** brightened in five
+JWST filters in October 2026 and largely returned to its earlier
+brightness 46 days later. In F200W, the excess fell from **35.9 ± 4.3 nJy**
+to **1.3 ± 4.0 nJy** above the October 2025 baseline. The October signal
+appears in individual detector exposures and in two data reductions.
+The fitted positions of the rise and fade agree within 9–21 mas in
+three filters. We found no earlier report of this event in the public
+records searched through 25 November. Its physical cause remains open.
 [Analysis and archive receipts](reports/jwst_module_b.md) ·
-[Position of the extra light](figures/jwst_cross_detector/module_b_001_excess_position.png) ·
-[STScI and DAWN comparison](figures/jwst_cross_detector/module_b_001_mast_comparison.png) ·
-[Individual detector exposures](figures/jwst_cross_detector/module_b_001_native_epoch_flux.png) ·
-[Light curve of the brightening](figures/jwst_cross_detector/module_b_001_lightcurve.png) ·
-[Prior spectra of the fading source](figures/jwst_cross_detector/module_b_002_prior_prism.png)
+[November photometry](results/jwst_cross_detector/module_b_001_november_photometry.json) ·
+[Individual October exposures](figures/jwst_cross_detector/module_b_001_native_epoch_flux.png) ·
+[Position of the extra light](figures/jwst_cross_detector/module_b_001_excess_position.png).
 
-<img src="figures/jwst_cross_detector/module_b_001_six_filter_change.png" width="810" alt="Observed JWST difference images and signed aperture photometry showing the October 2026 brightness change in six filters.">
+<img src="figures/jwst_cross_detector/module_b_001_november_photometry.png" width="810" alt="Observed JWST images of the October brightening and November fade near JADES 103607, with signed aperture photometry.">
+
+The [additional Module A search](reports/jwst_module_a_pointing1.md)
+covered 3.850 arcmin², recovered known transient 2510131 and traced a
+three-filter false positive to a diffraction spike.
 
 ## Fading transient in JWST GOODS-S · 22 November 2026
 

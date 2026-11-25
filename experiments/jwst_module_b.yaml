@@ -1,6 +1,7 @@
 experiment: goods-s-nircam-module-b-epoch-search
 status: executed
 date: 2026-11-23
+last_execution: 2026-11-25
 prior_snapshot: 2c83389
 commands:
   - python scripts/search_jwst_module_b.py
@@ -16,6 +17,9 @@ commands:
   - python scripts/audit_jwst_brightening_redshifts.py
   - python scripts/measure_jwst_brightening_native.py
   - python scripts/check_jwst_brightening_release.py
+  - python scripts/audit_jwst_brightening_grism.py
+  - python scripts/measure_jwst_brightening_november.py
+  - python scripts/audit_jwst_brightening_foregrounds.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
   newer_visits: [jw12577001001, jw12577002001]
@@ -34,6 +38,8 @@ limitations:
   - The measured light-centroid offset uses Gaussian core matching and shares one bright epoch.
   - MAST planned polygons represent field outlines and do not resolve individual detector gaps.
   - The STScI and DAWN mosaics have different processing but share telescope exposures.
+  - The November difference measurements share image data and do not constrain the event onset or peak.
+  - The JPL search covers known small bodies with predicted V magnitude of 28.5 or brighter at two midpoints.
   - Native visit medians require two usable exposures, and dither-pair comparisons share exposures.
 outputs:
   - reports/jwst_module_b.md
@@ -53,4 +59,8 @@ outputs:
   - results/jwst_cross_detector/module_b_001_redshift_context.json
   - results/jwst_cross_detector/module_b_001_native_epoch_flux.json
   - results/jwst_cross_detector/module_b_001_release_20261124.json
+  - results/jwst_cross_detector/module_b_001_release_20261125.json
+  - results/jwst_cross_detector/module_b_001_archived_grism.json
+  - results/jwst_cross_detector/module_b_001_november_photometry.json
+  - results/jwst_cross_detector/module_b_001_orientations_and_gaia.json
   - figures/jwst_cross_detector/module_b_*

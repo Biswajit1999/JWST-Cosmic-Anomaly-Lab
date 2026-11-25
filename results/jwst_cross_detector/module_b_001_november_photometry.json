@@ -1,0 +1,4778 @@
+{
+  "executed_utc": "2026-11-25T10:48:16.820034+00:00",
+  "candidate": "GS-001-B-53.188670-27.812539",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "official_mosaics": [
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+      "etag": "\"5a871e5429b14433c30fb6212c933bb8-24\"",
+      "object_bytes": 1211993280,
+      "science_array_shape": [
+        4380,
+        9880
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        6030,
+        7089,
+        0,
+        901
+      ],
+      "date_utc": "2025-10-06T10:15:59.291",
+      "exposure_start_mjd": 60954.4277703125,
+      "filter": "F150W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.031227823675291713,
+      "header_pixel_area_sr": 2.29209793898346e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-0-23039.bytes",
+          "sha256": "c4061b026335229d1483bc13d8e1bf49a67ae31720f6d5c3ebb6deab97590b18",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-23040-46079.bytes",
+          "sha256": "930ef5afa9a637313c7bd9dda08eeba9e0a7ef52758b593f1534a7252d2b4692",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-173134080-173157119.bytes",
+          "sha256": "199a60255ba386d941f87fbbabd32d7a11983afa26f1863482e11a202b3f9272",
+          "first_byte": 173134080,
+          "last_byte": 173157119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-346236480-346259519.bytes",
+          "sha256": "59881b1ca8cd5409a593a8f6e8287dcb4cd5b157981717c645c24d5df995286e",
+          "first_byte": 346236480,
+          "last_byte": 346259519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-519338880-519361919.bytes",
+          "sha256": "c1bca2a8ca4bee9d241cacd036a63b79652c15b285696e1f8e2fbd5811c36905",
+          "first_byte": 519338880,
+          "last_byte": 519361919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-34560-35642079.bytes",
+          "sha256": "374de5aaf1c03f560b94649d18484895736fc7b914d2642eea9057c42dc2bfc5",
+          "first_byte": 34560,
+          "last_byte": 35642079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f150w_i2d.fits/5a871e5429b14433c30fb6212c933bb8-24-519341760-554949279.bytes",
+          "sha256": "1c381adb0e6307643f81ab9a4045ea85cfa4c40b0eec2e874e534f51abf8e5e9",
+          "first_byte": 519341760,
+          "last_byte": 554949279
+        }
+      ],
+      "epoch": "Oct 2025",
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f150w",
+        "obsid": "354725273",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f150w_i2d.fits",
+        "archive_start_mjd": 60954.42776957176
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+      "etag": "\"62af8abf9619ce07aea2913cc1b6e27b-24\"",
+      "object_bytes": 1211993280,
+      "science_array_shape": [
+        4380,
+        9880
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        5970,
+        7029,
+        0,
+        850
+      ],
+      "date_utc": "2026-10-10T01:01:05.210",
+      "exposure_start_mjd": 61323.04242215278,
+      "filter": "F150W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.031227708194299795,
+      "header_pixel_area_sr": 2.29208098658506e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-0-23039.bytes",
+          "sha256": "f88a65f780005406f5e827c044ab51b1ebd93c5958b63b3e43f5342f5998938e",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-23040-46079.bytes",
+          "sha256": "1ce411f4af239e0b816f4cc589dc9451efe0601a96a6bce1f466c890571857f3",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-173134080-173157119.bytes",
+          "sha256": "199a60255ba386d941f87fbbabd32d7a11983afa26f1863482e11a202b3f9272",
+          "first_byte": 173134080,
+          "last_byte": 173157119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-346236480-346259519.bytes",
+          "sha256": "59881b1ca8cd5409a593a8f6e8287dcb4cd5b157981717c645c24d5df995286e",
+          "first_byte": 346236480,
+          "last_byte": 346259519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-519338880-519361919.bytes",
+          "sha256": "c1bca2a8ca4bee9d241cacd036a63b79652c15b285696e1f8e2fbd5811c36905",
+          "first_byte": 519338880,
+          "last_byte": 519361919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-34560-33626559.bytes",
+          "sha256": "5ad493e151a2032516199a043d0194618873767e421f7b775fb9314ffb77d884",
+          "first_byte": 34560,
+          "last_byte": 33626559
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f150w_i2d.fits/62af8abf9619ce07aea2913cc1b6e27b-24-519341760-552933759.bytes",
+          "sha256": "3f631aa11c10713bbd21a2e9dcddc4d74f143b82b35ef5e6f452f4789b0c7ef7",
+          "first_byte": 519341760,
+          "last_byte": 552933759
+        }
+      ],
+      "epoch": "Oct 2026",
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f150w",
+        "obsid": "454289820",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f150w_i2d.fits",
+        "archive_start_mjd": 61323.04242141204
+      }
+    },
+    {
+      "filename": "jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+      "etag": "\"70a477310b22acb75f5d10055216f3af-24\"",
+      "object_bytes": 1211993280,
+      "science_array_shape": [
+        4380,
+        9880
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        668,
+        1727,
+        661,
+        1720
+      ],
+      "date_utc": "2026-11-24T19:37:09.463",
+      "exposure_start_mjd": 61368.81747137731,
+      "filter": "F150W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.031225991526177405,
+      "header_pixel_area_sr": 2.29182899023696e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-0-23039.bytes",
+          "sha256": "45cb879843bc0daec3a5c2dd65f2f47d53f74697a493b2d69990d8d514aa0978",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-23040-46079.bytes",
+          "sha256": "171a8c8150a75e0082af9fef6f9d3bfe5a15cc553ed83ce22a84b049ea665357",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-173134080-173157119.bytes",
+          "sha256": "199a60255ba386d941f87fbbabd32d7a11983afa26f1863482e11a202b3f9272",
+          "first_byte": 173134080,
+          "last_byte": 173157119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-346236480-346259519.bytes",
+          "sha256": "59881b1ca8cd5409a593a8f6e8287dcb4cd5b157981717c645c24d5df995286e",
+          "first_byte": 346236480,
+          "last_byte": 346259519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-519338880-519361919.bytes",
+          "sha256": "c1bca2a8ca4bee9d241cacd036a63b79652c15b285696e1f8e2fbd5811c36905",
+          "first_byte": 519338880,
+          "last_byte": 519361919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-26157280-68008959.bytes",
+          "sha256": "501cdc0dfae44b9caa74ffbf8b6956a12e04738181b5f7a7529a7a5888d0fd52",
+          "first_byte": 26157280,
+          "last_byte": 68008959
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f150w_i2d.fits/70a477310b22acb75f5d10055216f3af-24-545464480-587316159.bytes",
+          "sha256": "3e6aa53a5c7fb13dc1a519574b87cc181a71cae7a2400372bc0cdcab09fcd86f",
+          "first_byte": 545464480,
+          "last_byte": 587316159
+        }
+      ],
+      "epoch": "Nov 2026",
+      "mast_association": {
+        "data_uri": "mast:JWST/product/jw12577-o004_t004_nircam_clear-f150w_i2d.fits",
+        "obsid": "455422475",
+        "start_mjd": 61368.81747137731,
+        "query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        }
+      }
+    },
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+      "etag": "\"f2641c8d022cfe08102ecb0890e1079f-24\"",
+      "object_bytes": 1214009280,
+      "science_array_shape": [
+        4386,
+        9883
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        6032,
+        7091,
+        0,
+        906
+      ],
+      "date_utc": "2025-10-06T07:41:22.693",
+      "exposure_start_mjd": 60954.32040228009,
+      "filter": "F200W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.03122926144397576,
+      "header_pixel_area_sr": 2.29230900604573e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-0-23039.bytes",
+          "sha256": "35ba904ad62d05be0823ed291dab90f5567669862763342e82065aad4414da2a",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-23040-46079.bytes",
+          "sha256": "61964398b24872e8715fbdf064a99a897b65c178634ae31d6370ff76e257dd6c",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-173422080-173445119.bytes",
+          "sha256": "0253e6b2b22594d5fea05ba127e22a280acd99de53d50ffa94beb7ce8e846f90",
+          "first_byte": 173422080,
+          "last_byte": 173445119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-346812480-346835519.bytes",
+          "sha256": "8819f0d05ac240b8fa9560b0304850fabfad5256ade002ab62ae7ef85c389bbf",
+          "first_byte": 346812480,
+          "last_byte": 346835519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-520202880-520225919.bytes",
+          "sha256": "66e5a5483ee16e12cf49ac501e5843110204b638e5e60ede97c9624743e4ce8e",
+          "first_byte": 520202880,
+          "last_byte": 520225919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-34560-35850551.bytes",
+          "sha256": "5a7ec8bdf967a906ad5d6c4a6a4e50e054d54105c92dfbb0b162420574361934",
+          "first_byte": 34560,
+          "last_byte": 35850551
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f200w_i2d.fits/f2641c8d022cfe08102ecb0890e1079f-24-520205760-556021751.bytes",
+          "sha256": "1b6fdf5574f0a93addeb6792264f05bdc9f9b0d0d784b1fdb7fa0aaa94ac5c6e",
+          "first_byte": 520205760,
+          "last_byte": 556021751
+        }
+      ],
+      "epoch": "Oct 2025",
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f200w",
+        "obsid": "354725250",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f200w_i2d.fits",
+        "archive_start_mjd": 60954.32040153935
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+      "etag": "\"c47609bc349f007e82d4681c2bcaca9e-24\"",
+      "object_bytes": 1214009280,
+      "science_array_shape": [
+        4386,
+        9883
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        5972,
+        7031,
+        0,
+        854
+      ],
+      "date_utc": "2026-10-09T22:28:37.507",
+      "exposure_start_mjd": 61322.93654596065,
+      "filter": "F200W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.03122914605941876,
+      "header_pixel_area_sr": 2.29229206702391e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-0-23039.bytes",
+          "sha256": "c4fa1b77bb4ca3f8c8e203fa9c62d34acc8b9888feff66c3abf268852c6ca660",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-23040-46079.bytes",
+          "sha256": "5d581783742652adf6c23e5272ec3572a326e320f310ec88a64d2b7d64cd205b",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-173422080-173445119.bytes",
+          "sha256": "0253e6b2b22594d5fea05ba127e22a280acd99de53d50ffa94beb7ce8e846f90",
+          "first_byte": 173422080,
+          "last_byte": 173445119
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-346812480-346835519.bytes",
+          "sha256": "8819f0d05ac240b8fa9560b0304850fabfad5256ade002ab62ae7ef85c389bbf",
+          "first_byte": 346812480,
+          "last_byte": 346835519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-520202880-520225919.bytes",
+          "sha256": "66e5a5483ee16e12cf49ac501e5843110204b638e5e60ede97c9624743e4ce8e",
+          "first_byte": 520202880,
+          "last_byte": 520225919
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-34560-33794887.bytes",
+          "sha256": "4a151ec8d10ab0421efeabd054a487a5532d5dbb815386db8971c0b396bebfc0",
+          "first_byte": 34560,
+          "last_byte": 33794887
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f200w_i2d.fits/c47609bc349f007e82d4681c2bcaca9e-24-520205760-553966087.bytes",
+          "sha256": "d65ddd82ad1b201a5e2e21a0382cbb20dc2cbe8c539ad73c1e0a925b70083020",
+          "first_byte": 520205760,
+          "last_byte": 553966087
+        }
+      ],
+      "epoch": "Oct 2026",
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f200w",
+        "obsid": "454289822",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f200w_i2d.fits",
+        "archive_start_mjd": 61322.93654521991
+      }
+    },
+    {
+      "filename": "jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+      "etag": "\"0c9e43dc648cde25fbc090f16b79c4ce-24\"",
+      "object_bytes": 1214291520,
+      "science_array_shape": [
+        4387,
+        9883
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        670,
+        1729,
+        665,
+        1724
+      ],
+      "date_utc": "2026-11-24T18:20:12.636",
+      "exposure_start_mjd": 61368.76403587963,
+      "filter": "F200W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.031227427490781966,
+      "header_pixel_area_sr": 2.29203978008342e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-0-23039.bytes",
+          "sha256": "d39d3766169ab32c5bc7a6a4f7afd07e30bff4ff9baeb4d7c6200ffa68a51589",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-23040-46079.bytes",
+          "sha256": "a9d8fed7d6926d7806a1974abb9a0d13c6a0ac8c4ea79871079f0795f6010eb7",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-173462400-173485439.bytes",
+          "sha256": "8e7f44b7d1a7230ff24d99921d9c7768bec06065874c8489b67e5da349cdaea5",
+          "first_byte": 173462400,
+          "last_byte": 173485439
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-346893120-346916159.bytes",
+          "sha256": "3dc874d45e524de9be8c4008bf705de270312d014a98ecbe182d0e8f73eab625",
+          "first_byte": 346893120,
+          "last_byte": 346916159
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-520323840-520346879.bytes",
+          "sha256": "c2df6d0ba872b8025c387285a4a6b56acfde7fe7f471432208db8dc642c2056e",
+          "first_byte": 520323840,
+          "last_byte": 520346879
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-26323340-68187727.bytes",
+          "sha256": "d0c716e1c35a8a65a7af86da678fd67b2c8f4c9fc33ac9b8a8a9acc2aea51a9c",
+          "first_byte": 26323340,
+          "last_byte": 68187727
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f200w_i2d.fits/0c9e43dc648cde25fbc090f16b79c4ce-24-546615500-588479887.bytes",
+          "sha256": "6c8438a1e41783f7c5f665bc8c2103d65c1ce562521f66319089b9317d55019f",
+          "first_byte": 546615500,
+          "last_byte": 588479887
+        }
+      ],
+      "epoch": "Nov 2026",
+      "mast_association": {
+        "data_uri": "mast:JWST/product/jw12577-o004_t004_nircam_clear-f200w_i2d.fits",
+        "obsid": "455422486",
+        "start_mjd": 61368.76403587963,
+        "query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        }
+      }
+    },
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+      "etag": "\"a4f9454b261092346f7a280bd153332d-6\"",
+      "object_bytes": 287691840,
+      "science_array_shape": [
+        2109,
+        4868
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2966,
+        3493,
+        0,
+        407
+      ],
+      "date_utc": "2025-10-06T07:41:22.757",
+      "exposure_start_mjd": 60954.32040228009,
+      "filter": "F277W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290838543981636,
+      "header_pixel_area_sr": 9.30179602313742e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-0-23039.bytes",
+          "sha256": "cb4cb22fd529a12ae84c437da7c074045d538044fe3e21105c5bf899c2a398e1",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-23040-46079.bytes",
+          "sha256": "ed22f0dfc2d29145718e7cb637544dd536fc40df6fa88f02767c89c7ae243c5c",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-41100480-41123519.bytes",
+          "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+          "first_byte": 41100480,
+          "last_byte": 41123519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-82172160-82195199.bytes",
+          "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+          "first_byte": 82172160,
+          "last_byte": 82195199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-123243840-123266879.bytes",
+          "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+          "first_byte": 123243840,
+          "last_byte": 123266879
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-31680-7956783.bytes",
+          "sha256": "dc14b188f87eb6ea23b9bd3d9bf3c1990e1d4dd9afda24550f6439d292d2a179",
+          "first_byte": 31680,
+          "last_byte": 7956783
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f277w_i2d.fits/a4f9454b261092346f7a280bd153332d-6-123246720-131171823.bytes",
+          "sha256": "854b320a919cf6d736813b03ef5e3bcee5bdd5393c7fd438f9abaca84de1b853",
+          "first_byte": 123246720,
+          "last_byte": 131171823
+        }
+      ],
+      "epoch": "Oct 2025",
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f277w",
+        "obsid": "354725265",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f277w_i2d.fits",
+        "archive_start_mjd": 60954.32040228009
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+      "etag": "\"6028b42e28de076ec77765aa25140b0f-6\"",
+      "object_bytes": 287691840,
+      "science_array_shape": [
+        2109,
+        4868
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2935,
+        3462,
+        0,
+        382
+      ],
+      "date_utc": "2026-10-09T22:28:37.507",
+      "exposure_start_mjd": 61322.93654596065,
+      "filter": "F277W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290815292888688,
+      "header_pixel_area_sr": 9.30172726393379e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-0-23039.bytes",
+          "sha256": "dd3b96249b007dc93ea49e76d63a10614dc6696998596282ba6366a37b6eac12",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-23040-46079.bytes",
+          "sha256": "4fd0b0a95d2a43905e09848673092c3892b350bec1434d6a253fbc382bdfd421",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-41100480-41123519.bytes",
+          "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+          "first_byte": 41100480,
+          "last_byte": 41123519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-82172160-82195199.bytes",
+          "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+          "first_byte": 82172160,
+          "last_byte": 82195199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-123243840-123266879.bytes",
+          "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+          "first_byte": 123243840,
+          "last_byte": 123266879
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-31680-7469983.bytes",
+          "sha256": "044efe2acc1571df61d07ffff85df548aeb853270fa2e726b9b66ff39a4e2836",
+          "first_byte": 31680,
+          "last_byte": 7469983
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f277w_i2d.fits/6028b42e28de076ec77765aa25140b0f-6-123246720-130685023.bytes",
+          "sha256": "7145d5efb44d7324738f765b2489bd57b5cf0d78dc85d8a7b4bf115eeea2d928",
+          "first_byte": 123246720,
+          "last_byte": 130685023
+        }
+      ],
+      "epoch": "Oct 2026",
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f277w",
+        "obsid": "454289821",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f277w_i2d.fits",
+        "archive_start_mjd": 61322.93654521991
+      }
+    },
+    {
+      "filename": "jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+      "etag": "\"3e4b9eedcff4975c153b445514e1824d-6\"",
+      "object_bytes": 287691840,
+      "science_array_shape": [
+        2109,
+        4868
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        307,
+        834,
+        309,
+        836
+      ],
+      "date_utc": "2026-11-24T18:20:12.636",
+      "exposure_start_mjd": 61368.76403587963,
+      "filter": "F277W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290469162331667,
+      "header_pixel_area_sr": 9.30070370074993e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-0-23039.bytes",
+          "sha256": "b2e487acdb6b49fd5dacddf9400c0d9fe355501d65c1c39bcd51cbb58797ac41",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-23040-46079.bytes",
+          "sha256": "f2e18ba7bfe6a47abe56994f854a1ad59dca48113a7785880fe977337b2b4f41",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-41100480-41123519.bytes",
+          "sha256": "a746aa19835c1b5695326f95eab5d0b4a698ee2787e1448e4cc3814e1de51f9d",
+          "first_byte": 41100480,
+          "last_byte": 41123519
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-82172160-82195199.bytes",
+          "sha256": "87db0953b9938b0f5ec91e78e095df5080a803c5b0a54a66b0188eda32fc904c",
+          "first_byte": 82172160,
+          "last_byte": 82195199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-123243840-123266879.bytes",
+          "sha256": "fdfc5db11e2fd7ef6bddc6ad5ff2df3bb583a13a108a706a32711558adf77080",
+          "first_byte": 123243840,
+          "last_byte": 123266879
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-6048528-16310271.bytes",
+          "sha256": "50802e8546e50473be43f69eba50bb747ee7e8323c5106889af4cc26067bb679",
+          "first_byte": 6048528,
+          "last_byte": 16310271
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f277w_i2d.fits/3e4b9eedcff4975c153b445514e1824d-6-129263568-139525311.bytes",
+          "sha256": "2e5727741d4f519c5c797ec7cec60bf475bb7706435c96f4884bbd4ca804f10c",
+          "first_byte": 129263568,
+          "last_byte": 139525311
+        }
+      ],
+      "epoch": "Nov 2026",
+      "mast_association": {
+        "data_uri": "mast:JWST/product/jw12577-o004_t004_nircam_clear-f277w_i2d.fits",
+        "obsid": "455422467",
+        "start_mjd": 61368.76403587963,
+        "query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        }
+      }
+    },
+    {
+      "filename": "jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+      "etag": "\"708e617d4c01a5569b8fd2e868129b68-6\"",
+      "object_bytes": 287752320,
+      "science_array_shape": [
+        2109,
+        4869
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2966,
+        3493,
+        0,
+        407
+      ],
+      "date_utc": "2025-10-06T10:15:59.291",
+      "exposure_start_mjd": 60954.4277703125,
+      "filter": "F356W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290803438730388,
+      "header_pixel_area_sr": 9.30169220836833e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-0-23039.bytes",
+          "sha256": "7d562515f9eb9399c0376998f4ea7691b24a7d4a6172b8a0429fa5da0e86bda3",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-23040-46079.bytes",
+          "sha256": "aeefb7dfb862bbde2e038366a09ce656b3d4f72c954fecae2ec97f905e565c85",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-41109120-41132159.bytes",
+          "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+          "first_byte": 41109120,
+          "last_byte": 41132159
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-82189440-82212479.bytes",
+          "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+          "first_byte": 82189440,
+          "last_byte": 82212479
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-123269760-123292799.bytes",
+          "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+          "first_byte": 123269760,
+          "last_byte": 123292799
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-31680-7958411.bytes",
+          "sha256": "850b34fe62ebabb7d402c756938bc50371d6eb6c004a61c32d60f6e5db98f3c0",
+          "first_byte": 31680,
+          "last_byte": 7958411
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/L3/t/o001/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw08060-o001_t001_nircam_clear-f356w_i2d.fits/708e617d4c01a5569b8fd2e868129b68-6-123272640-131199371.bytes",
+          "sha256": "001e8af1ce3df1827b9ca218fb85ef47e898866286f3bc2cbcd4bae560dd90b0",
+          "first_byte": 123272640,
+          "last_byte": 131199371
+        }
+      ],
+      "epoch": "Oct 2025",
+      "mast_association": {
+        "filename": "jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "8060"
+        },
+        "obs_id": "jw08060-o001_t001_nircam_clear-f356w",
+        "obsid": "354725280",
+        "data_uri": "mast:JWST/product/jw08060-o001_t001_nircam_clear-f356w_i2d.fits",
+        "archive_start_mjd": 60954.42776957176
+      }
+    },
+    {
+      "filename": "jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+      "etag": "\"bf3e1c5ef90af6243319f666232a7e96-6\"",
+      "object_bytes": 287752320,
+      "science_array_shape": [
+        2109,
+        4869
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        2936,
+        3463,
+        0,
+        382
+      ],
+      "date_utc": "2026-10-10T01:01:05.210",
+      "exposure_start_mjd": 61323.04242215278,
+      "filter": "F356W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290780178395844,
+      "header_pixel_area_sr": 9.30162342221895e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-0-23039.bytes",
+          "sha256": "79f0e7dd81400123ae0a401ad79b2151d00f4bf26f035d850e33f91ddc7dcf5b",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-23040-46079.bytes",
+          "sha256": "79fd42857e23a213efac367b0dcf735b8461b125bdb3ca4cf43e38e0098f1aaa",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-41109120-41132159.bytes",
+          "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+          "first_byte": 41109120,
+          "last_byte": 41132159
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-82189440-82212479.bytes",
+          "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+          "first_byte": 82189440,
+          "last_byte": 82212479
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-123269760-123292799.bytes",
+          "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+          "first_byte": 123269760,
+          "last_byte": 123292799
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-31680-7471511.bytes",
+          "sha256": "f42bee8f28010958220d255d078673daa1819abb73dfbe3294f32ae89903eecc",
+          "first_byte": 31680,
+          "last_byte": 7471511
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o001/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o001_t001_nircam_clear-f356w_i2d.fits/bf3e1c5ef90af6243319f666232a7e96-6-123272640-130712471.bytes",
+          "sha256": "b0df9eea76ef49930ca5745c367be9c0e71710a32a7add4ae942204a92295977",
+          "first_byte": 123272640,
+          "last_byte": 130712471
+        }
+      ],
+      "epoch": "Oct 2026",
+      "mast_association": {
+        "filename": "jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+        "collection_query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        },
+        "obs_id": "jw12577-o001_t001_nircam_clear-f356w",
+        "obsid": "454289824",
+        "data_uri": "mast:JWST/product/jw12577-o001_t001_nircam_clear-f356w_i2d.fits",
+        "archive_start_mjd": 61323.04242141204
+      }
+    },
+    {
+      "filename": "jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+      "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+      "etag": "\"a965285bd1a13e1df9edf49484c758cc-6\"",
+      "object_bytes": 287752320,
+      "science_array_shape": [
+        2109,
+        4869
+      ],
+      "cutout_bounds_x0_x1_y0_y1": [
+        308,
+        835,
+        309,
+        836
+      ],
+      "date_utc": "2026-11-24T19:37:09.463",
+      "exposure_start_mjd": 61368.817470636575,
+      "filter": "F356W",
+      "pipeline_version": "3.0.0",
+      "crds_context": "jwst_1584.pmap",
+      "native_pixel_scale_arcsec": 0.06290434400998139,
+      "header_pixel_area_sr": 9.30060090906242e-14,
+      "ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-0-23039.bytes",
+          "sha256": "662ae0ae1f78986a866903d94262ea7c382eaf97d1895277fd6f09c9dd80baf8",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-23040-46079.bytes",
+          "sha256": "5899327b54016b0b47cfad9f43e1abf3487c26d5fa42ece48117f0909e63de5d",
+          "first_byte": 23040,
+          "last_byte": 46079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-41109120-41132159.bytes",
+          "sha256": "831c534198823dfef83319830368a54d923b467b1e36ced4d179ae6e9af557db",
+          "first_byte": 41109120,
+          "last_byte": 41132159
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-82189440-82212479.bytes",
+          "sha256": "37b6bbd8659b9c04a67bb12e56e142e5a3cbbc82393715337cb3626a03c3268a",
+          "first_byte": 82189440,
+          "last_byte": 82212479
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-123269760-123292799.bytes",
+          "sha256": "1e78d9120766db4cc48877c8eee74eeeb2fca7e0a4783953de7f16ab537f81b2",
+          "first_byte": 123269760,
+          "last_byte": 123292799
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-6049764-16313615.bytes",
+          "sha256": "92cc1e009ab05f82d8614e9812565e8305c1b72fd8b8ce100ef9ec7dab75d731",
+          "first_byte": 6049764,
+          "last_byte": 16313615
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/L3/t/o004/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw12577-o004_t004_nircam_clear-f356w_i2d.fits/a965285bd1a13e1df9edf49484c758cc-6-129290724-139554575.bytes",
+          "sha256": "e80affa6e8d686c7ecdcc73d19c580687654a557304a052c7496128ef947b7fa",
+          "first_byte": 129290724,
+          "last_byte": 139554575
+        }
+      ],
+      "epoch": "Nov 2026",
+      "mast_association": {
+        "data_uri": "mast:JWST/product/jw12577-o004_t004_nircam_clear-f356w_i2d.fits",
+        "obsid": "455422492",
+        "start_mjd": 61368.81747063658,
+        "query": {
+          "obs_collection": "JWST",
+          "proposal_id": "12577"
+        }
+      }
+    }
+  ],
+  "bands": {
+    "F150W": {
+      "rise_fade_core_separation_arcsec": 0.009251042510886473,
+      "direct_apertures": {
+        "Oct 2025": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 45.879146575927734,
+            "local_mad_sigma_njy": 1.5206782133102417,
+            "control_median_njy": -0.18748998641967773,
+            "control_count": 338
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 58.328338623046875,
+            "local_mad_sigma_njy": 2.837141488265991,
+            "control_median_njy": -0.1990489959716797,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 66.2101821899414,
+            "local_mad_sigma_njy": 4.244790072870254,
+            "control_median_njy": 0.05323147773742676,
+            "control_count": 337
+          }
+        ],
+        "Oct 2026": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 68.75677490234375,
+            "local_mad_sigma_njy": 1.5896137630462646,
+            "control_median_njy": -0.14991474151611328,
+            "control_count": 338
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 84.30016326904297,
+            "local_mad_sigma_njy": 2.8448671337127682,
+            "control_median_njy": 0.032100677490234375,
+            "control_count": 338
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 93.96377563476562,
+            "local_mad_sigma_njy": 4.284576652050018,
+            "control_median_njy": -0.31238698959350586,
+            "control_count": 337
+          }
+        ],
+        "Nov 2026": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 52.19889450073242,
+            "local_mad_sigma_njy": 1.7936335807800292,
+            "control_median_njy": -0.2370133399963379,
+            "control_count": 339
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 66.40361022949219,
+            "local_mad_sigma_njy": 2.853095780324936,
+            "control_median_njy": -0.7466533184051514,
+            "control_count": 339
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 76.84407043457031,
+            "local_mad_sigma_njy": 4.448496000909805,
+            "control_median_njy": -0.9933187961578369,
+            "control_count": 339
+          }
+        ]
+      },
+      "matched_differences": {
+        "october_2026_minus_2025": {
+          "alignment": {
+            "reference_count": 18,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -3.5567201268391986,
+                  -4.54186247449413
+                ],
+                "old_njy": 91.24360656738281,
+                "new_njy": 87.78276824951172,
+                "new_to_old": 0.9620703471939671,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0031877943655015933,
+                  -0.022375331453380835
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001357374108968655
+              },
+              {
+                "offset_arcsec": [
+                  3.094806315997936,
+                  -3.9797616483388794
+                ],
+                "old_njy": 88.37096405029297,
+                "new_njy": 88.23307800292969,
+                "new_to_old": 0.998439690583382,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004645710193839452,
+                  -0.010542462245445385
+                ],
+                "new_minus_old_variance_arcsec2": 0.00022705535965390506
+              },
+              {
+                "offset_arcsec": [
+                  -5.836351255135494,
+                  -3.0741547617554197
+                ],
+                "old_njy": 117.00370788574219,
+                "new_njy": 121.576416015625,
+                "new_to_old": 1.0390817369168182,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0019236204443172297,
+                  -0.009168497951032716
+                ],
+                "new_minus_old_variance_arcsec2": -0.00016577619252837981
+              },
+              {
+                "offset_arcsec": [
+                  2.5327054898426855,
+                  -2.4808261119248773
+                ],
+                "old_njy": 168.64776611328125,
+                "new_njy": 170.9283447265625,
+                "new_to_old": 1.013522732413481,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0028255264803034585,
+                  -0.010546937333317786
+                ],
+                "new_minus_old_variance_arcsec2": 1.683378238323996e-05
+              },
+              {
+                "offset_arcsec": [
+                  -5.680212136759035,
+                  -0.107511512602707
+                ],
+                "old_njy": 297.61737060546875,
+                "new_njy": 293.9058532714844,
+                "new_to_old": 0.9875292314879548,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0010732904255271228,
+                  -0.010450111369249379
+                ],
+                "new_minus_old_variance_arcsec2": 0.00019196597029928373
+              },
+              {
+                "offset_arcsec": [
+                  3.094806315997936,
+                  0.548272784578419
+                ],
+                "old_njy": 141.17376708984375,
+                "new_njy": 137.80715942382812,
+                "new_to_old": 0.9761527390292483,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004647958404205224,
+                  -0.01219195768944503
+                ],
+                "new_minus_old_variance_arcsec2": 0.001556777249274474
+              },
+              {
+                "offset_arcsec": [
+                  7.466701630538776,
+                  2.172119615693588
+                ],
+                "old_njy": 613.7965087890625,
+                "new_njy": 624.2720336914062,
+                "new_to_old": 1.0170667717270183,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0027092342349352046,
+                  -0.01180486783583761
+                ],
+                "new_minus_old_variance_arcsec2": -7.848319035205949e-05
+              },
+              {
+                "offset_arcsec": [
+                  0.502896950948724,
+                  2.2345752630441713
+                ],
+                "old_njy": 148.11874389648438,
+                "new_njy": 133.9560089111328,
+                "new_to_old": 0.9043825608239734,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0005731337243562364,
+                  -0.010702446316089378
+                ],
+                "new_minus_old_variance_arcsec2": 0.0009383706672876522
+              },
+              {
+                "offset_arcsec": [
+                  -8.86545015163879,
+                  2.39071438142063
+                ],
+                "old_njy": 126.89506530761719,
+                "new_njy": 128.18894958496094,
+                "new_to_old": 1.0101964901015428,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0037864539090984592,
+                  -0.010296960607882231
+                ],
+                "new_minus_old_variance_arcsec2": -0.006513680415307737
+              },
+              {
+                "offset_arcsec": [
+                  1.2523647191557252,
+                  3.952105565185216
+                ],
+                "old_njy": 1529.259765625,
+                "new_njy": 1509.761962890625,
+                "new_to_old": 0.987250169544344,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003543872439381193,
+                  -0.010184562222660482
+                ],
+                "new_minus_old_variance_arcsec2": 0.00017298807472566078
+              },
+              {
+                "offset_arcsec": [
+                  3.2821732580496863,
+                  4.326839449288716
+                ],
+                "old_njy": 229.65435791015625,
+                "new_njy": 231.51333618164062,
+                "new_to_old": 1.0080946788399794,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0019166866138566312,
+                  -0.013788275731799597
+                ],
+                "new_minus_old_variance_arcsec2": 3.704369782685929e-05
+              },
+              {
+                "offset_arcsec": [
+                  -4.930744368552034,
+                  5.700863691001552
+                ],
+                "old_njy": 129.81419372558594,
+                "new_njy": 126.50982666015625,
+                "new_to_old": 0.9745454100927147,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0006714074368698196,
+                  -0.008555907293565012
+                ],
+                "new_minus_old_variance_arcsec2": 0.001961521520924629
+              },
+              {
+                "offset_arcsec": [
+                  1.8456933689862676,
+                  6.419103635533261
+                ],
+                "old_njy": 138.60220336914062,
+                "new_njy": 139.2345733642578,
+                "new_to_old": 1.004562481546076,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002320072210023819,
+                  -0.005623069673493011
+                ],
+                "new_minus_old_variance_arcsec2": -0.00028773221677508634
+              },
+              {
+                "offset_arcsec": [
+                  -0.6213047013617776,
+                  7.949266995622555
+                ],
+                "old_njy": 143.58982849121094,
+                "new_njy": 151.27157592773438,
+                "new_to_old": 1.0534978523008238,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005338391739155456,
+                  -0.005681079622258976
+                ],
+                "new_minus_old_variance_arcsec2": -0.00019010071892274112
+              },
+              {
+                "offset_arcsec": [
+                  -7.21037549684833,
+                  9.073468647933057
+                ],
+                "old_njy": 113.8940200805664,
+                "new_njy": 111.07000732421875,
+                "new_to_old": 0.9752049075592379,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005916625536404464,
+                  -0.004022094343286966
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006072038346900165
+              },
+              {
+                "offset_arcsec": [
+                  0.8151751877016411,
+                  11.009593715801143
+                ],
+                "old_njy": 515.1913452148438,
+                "new_njy": 527.015625,
+                "new_to_old": 1.0229512391754665,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0041610720496848,
+                  -0.014591121222548548
+                ],
+                "new_minus_old_variance_arcsec2": 0.0014956851809547313
+              },
+              {
+                "offset_arcsec": [
+                  -3.21321406641099,
+                  12.321162310163395
+                ],
+                "old_njy": 1217.7025146484375,
+                "new_njy": 1223.151123046875,
+                "new_to_old": 1.0044744987654153,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002156984068825379,
+                  -0.011045978517066114
+                ],
+                "new_minus_old_variance_arcsec2": 3.35443087609486e-05
+              },
+              {
+                "offset_arcsec": [
+                  5.780399152073024,
+                  12.508529252215146
+                ],
+                "old_njy": 98.05099487304688,
+                "new_njy": 99.91500091552734,
+                "new_to_old": 1.0190105775560352,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004912274702521872,
+                  -0.013656630704652162
+                ],
+                "new_minus_old_variance_arcsec2": 0.000666548194356781
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.0027673803576193316,
+              -0.010544699789381586
+            ],
+            "held_out_reference_radius68_arcsec": 0.0039056831053532505,
+            "matched_variance_arcsec2": 3.5294003293903945e-05,
+            "new_to_old_scale": 1.0044744987654153
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 23.821516036987305,
+              "local_mad_sigma_njy": 2.1059167111873625,
+              "control_median_njy": 0.13123679161071777,
+              "control_count": 335
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 27.929832458496094,
+              "local_mad_sigma_njy": 3.355148383784294,
+              "control_median_njy": 0.018725991249084473,
+              "control_count": 334
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 30.307432174682617,
+              "local_mad_sigma_njy": 5.3038980860710145,
+              "control_median_njy": 0.036252498626708984,
+              "control_count": 333
+            }
+          ],
+          "core_sign": 1,
+          "core": {
+            "amplitude_njy_per_pixel": 4.111448134876713,
+            "offset_xy_arcsec": [
+              0.04585943254265371,
+              0.00606223163635147
+            ],
+            "core_sigma_arcsec": 0.02562288238228555,
+            "background_njy_per_pixel": 0.1714933793319073,
+            "icrs_deg": [
+              53.18866089645824,
+              -27.81254953366265
+            ]
+          }
+        },
+        "november_2026_minus_2025": {
+          "alignment": {
+            "reference_count": 20,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -9.24018403574229,
+                  -7.008860544842175
+                ],
+                "old_njy": 119.47808837890625,
+                "new_njy": 116.66510772705078,
+                "new_to_old": 0.9764560959250157,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0024477378419595778,
+                  0.026991365677355945
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005605985507255054
+              },
+              {
+                "offset_arcsec": [
+                  11.74491347405374,
+                  -5.915886716206965
+                ],
+                "old_njy": 1212.080322265625,
+                "new_njy": 1223.045654296875,
+                "new_to_old": 1.0090467041084814,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004652679052742851,
+                  0.02564168843829971
+                ],
+                "new_minus_old_variance_arcsec2": -9.839783913488664e-05
+              },
+              {
+                "offset_arcsec": [
+                  3.094806315997936,
+                  -3.9797616483388794
+                ],
+                "old_njy": 88.37096405029297,
+                "new_njy": 85.0149154663086,
+                "new_to_old": 0.9620231755978762,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.006161885733702775,
+                  0.02417107403431811
+                ],
+                "new_minus_old_variance_arcsec2": -2.692429542530553e-05
+              },
+              {
+                "offset_arcsec": [
+                  4.281463615659021,
+                  -3.167838232781295
+                ],
+                "old_njy": 104.75177001953125,
+                "new_njy": 93.77223205566406,
+                "new_to_old": 0.8951851795743402,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0032005267202092,
+                  0.020336547001471566
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006950490800014947
+              },
+              {
+                "offset_arcsec": [
+                  -5.836351255135494,
+                  -3.0741547617554197
+                ],
+                "old_njy": 117.00370788574219,
+                "new_njy": 121.93592071533203,
+                "new_to_old": 1.0421543292833617,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004516471643212625,
+                  0.02790387917023902
+                ],
+                "new_minus_old_variance_arcsec2": 0.0006747588368542085
+              },
+              {
+                "offset_arcsec": [
+                  2.5327054898426855,
+                  -2.4808261119248773
+                ],
+                "old_njy": 168.64776611328125,
+                "new_njy": 161.53297424316406,
+                "new_to_old": 0.9578127120560959,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0066379692662457,
+                  0.02457426622881607
+                ],
+                "new_minus_old_variance_arcsec2": -5.236921445847206e-05
+              },
+              {
+                "offset_arcsec": [
+                  -5.680212136759035,
+                  -0.107511512602707
+                ],
+                "old_njy": 297.61737060546875,
+                "new_njy": 297.97705078125,
+                "new_to_old": 1.0012085322004207,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005523872850671267,
+                  0.027076515151082146
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001447894760949202
+              },
+              {
+                "offset_arcsec": [
+                  3.094806315997936,
+                  0.548272784578419
+                ],
+                "old_njy": 141.17376708984375,
+                "new_njy": 137.76002502441406,
+                "new_to_old": 0.975818863973098,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.007422075119218293,
+                  0.03027988460800992
+                ],
+                "new_minus_old_variance_arcsec2": 0.0007262383244949861
+              },
+              {
+                "offset_arcsec": [
+                  7.466701630538776,
+                  2.172119615693588
+                ],
+                "old_njy": 613.7965087890625,
+                "new_njy": 610.9735107421875,
+                "new_to_old": 0.9954007590358499,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004381396254014519,
+                  0.027792951863209056
+                ],
+                "new_minus_old_variance_arcsec2": 0.00020071673570536694
+              },
+              {
+                "offset_arcsec": [
+                  0.502896950948724,
+                  2.2345752630441713
+                ],
+                "old_njy": 148.11874389648438,
+                "new_njy": 145.65121459960938,
+                "new_to_old": 0.983340870763801,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0006051695842591437,
+                  0.027233939778855742
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005183581803327956
+              },
+              {
+                "offset_arcsec": [
+                  -8.86545015163879,
+                  2.39071438142063
+                ],
+                "old_njy": 126.89506530761719,
+                "new_njy": 123.47848510742188,
+                "new_to_old": 0.9730755471703104,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0005689608552767562,
+                  0.035071788803924295
+                ],
+                "new_minus_old_variance_arcsec2": -0.01165338944219904
+              },
+              {
+                "offset_arcsec": [
+                  1.2523647191557252,
+                  3.952105565185216
+                ],
+                "old_njy": 1529.259765625,
+                "new_njy": 1530.1572265625,
+                "new_to_old": 1.0005868597066851,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0069688880457515,
+                  0.027215219257197644
+                ],
+                "new_minus_old_variance_arcsec2": -0.0003937541264814573
+              },
+              {
+                "offset_arcsec": [
+                  3.2821732580496863,
+                  4.326839449288716
+                ],
+                "old_njy": 229.65435791015625,
+                "new_njy": 228.15359497070312,
+                "new_to_old": 0.9934651231828997,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0093192589553315,
+                  0.02053765359980401
+                ],
+                "new_minus_old_variance_arcsec2": 0.0004609682930471473
+              },
+              {
+                "offset_arcsec": [
+                  -4.930744368552034,
+                  5.700863691001552
+                ],
+                "old_njy": 129.81419372558594,
+                "new_njy": 128.59121704101562,
+                "new_to_old": 0.9905790218351965,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0006830007885772205,
+                  0.027339811475641202
+                ],
+                "new_minus_old_variance_arcsec2": 0.006431870215343308
+              },
+              {
+                "offset_arcsec": [
+                  1.8456933689862676,
+                  6.419103635533261
+                ],
+                "old_njy": 138.60220336914062,
+                "new_njy": 127.66742706298828,
+                "new_to_old": 0.9211067642479706,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.006831983661723336,
+                  0.028592543723671995
+                ],
+                "new_minus_old_variance_arcsec2": -0.0015419784699246672
+              },
+              {
+                "offset_arcsec": [
+                  -0.6213047013617776,
+                  7.949266995622555
+                ],
+                "old_njy": 143.58982849121094,
+                "new_njy": 139.75326538085938,
+                "new_to_old": 0.9732810941369263,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.006806914056171915,
+                  0.030256217551129103
+                ],
+                "new_minus_old_variance_arcsec2": -0.00043221460029634106
+              },
+              {
+                "offset_arcsec": [
+                  -7.21037549684833,
+                  9.073468647933057
+                ],
+                "old_njy": 113.8940200805664,
+                "new_njy": 119.61946105957031,
+                "new_to_old": 1.0502698998152304,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.012920758931837653,
+                  0.02945249469391662
+                ],
+                "new_minus_old_variance_arcsec2": -0.00058454583751172
+              },
+              {
+                "offset_arcsec": [
+                  0.8151751877016411,
+                  11.009593715801143
+                ],
+                "old_njy": 515.1913452148438,
+                "new_njy": 490.6708068847656,
+                "new_to_old": 0.9524049878596997,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0022995879742250536,
+                  0.022555132475014825
+                ],
+                "new_minus_old_variance_arcsec2": -0.0007489700312366399
+              },
+              {
+                "offset_arcsec": [
+                  -3.21321406641099,
+                  12.321162310163395
+                ],
+                "old_njy": 1217.7025146484375,
+                "new_njy": 1211.3702392578125,
+                "new_to_old": 0.9947998174312277,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00598328625615417,
+                  0.027074584586008792
+                ],
+                "new_minus_old_variance_arcsec2": 9.454182858640008e-06
+              },
+              {
+                "offset_arcsec": [
+                  5.780399152073024,
+                  12.508529252215146
+                ],
+                "old_njy": 98.05099487304688,
+                "new_njy": 105.9742660522461,
+                "new_to_old": 1.0808076571732699,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003537105379025008,
+                  0.02537545158307146
+                ],
+                "new_minus_old_variance_arcsec2": 0.0006885787066098171
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.005088275951707058,
+              0.027145867204139897
+            ],
+            "held_out_reference_radius68_arcsec": 0.004866285411362403,
+            "matched_variance_arcsec2": -0.00012159365761490342,
+            "new_to_old_scale": 0.983340870763801
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 3.4001235961914062,
+              "local_mad_sigma_njy": 2.158787329816818,
+              "control_median_njy": 0.008664250373840332,
+              "control_count": 338
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 9.127497673034668,
+              "local_mad_sigma_njy": 3.399958081769943,
+              "control_median_njy": 0.16007089614868164,
+              "control_count": 337
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 11.025163650512695,
+              "local_mad_sigma_njy": 5.291650025367736,
+              "control_median_njy": 0.43155431747436523,
+              "control_count": 337
+            }
+          ],
+          "core_sign": 1,
+          "core": {
+            "amplitude_njy_per_pixel": 0.8944281218911092,
+            "offset_xy_arcsec": [
+              0.025441735264780017,
+              -0.03713203474385239
+            ],
+            "core_sigma_arcsec": 0.012491576063974042,
+            "background_njy_per_pixel": 0.03643053026331495,
+            "icrs_deg": [
+              53.188675841031525,
+              -27.81255072063117
+            ]
+          }
+        },
+        "november_minus_october_2026": {
+          "alignment": {
+            "reference_count": 17,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  2.975016063439773,
+                  -4.116698675086005
+                ],
+                "old_njy": 84.16913604736328,
+                "new_njy": 81.84733581542969,
+                "new_to_old": 0.9724150639894048,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0005353837671666691,
+                  0.0346473528298438
+                ],
+                "new_minus_old_variance_arcsec2": -0.00011241269437904785
+              },
+              {
+                "offset_arcsec": [
+                  4.192896683017465,
+                  -3.3360059702285105
+                ],
+                "old_njy": 89.0475845336914,
+                "new_njy": 90.66358184814453,
+                "new_to_old": 1.0181475704581489,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.007935869924818498,
+                  0.034706955474409495
+                ],
+                "new_minus_old_variance_arcsec2": 0.0017880881830943745
+              },
+              {
+                "offset_arcsec": [
+                  -5.956108480129968,
+                  -2.8988180555083134
+                ],
+                "old_njy": 122.46818542480469,
+                "new_njy": 120.15270233154297,
+                "new_to_old": 0.9810931868939675,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0012658857596964833,
+                  0.03693024446990033
+                ],
+                "new_minus_old_variance_arcsec2": 0.000977713747332679
+              },
+              {
+                "offset_arcsec": [
+                  2.444145024136677,
+                  -2.5553132653710153
+                ],
+                "old_njy": 172.2096710205078,
+                "new_njy": 162.2010955810547,
+                "new_to_old": 0.9418814554366042,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00271432237145021,
+                  0.03525780901709869
+                ],
+                "new_minus_old_variance_arcsec2": -4.7045148176560114e-05
+              },
+              {
+                "offset_arcsec": [
+                  -5.67505910638127,
+                  0.06781422295016723
+                ],
+                "old_njy": 295.3602294921875,
+                "new_njy": 297.1701965332031,
+                "new_to_old": 1.0061279984923073,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003428350412831589,
+                  0.03743949860142833
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001269507812856831
+              },
+              {
+                "offset_arcsec": [
+                  3.131154604411272,
+                  0.44254672128176475
+                ],
+                "old_njy": 140.4581298828125,
+                "new_njy": 138.40838623046875,
+                "new_to_old": 0.9854067282965115,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0025718183067017773,
+                  0.04278588074662551
+                ],
+                "new_minus_old_variance_arcsec2": 2.4120049768674295e-05
+              },
+              {
+                "offset_arcsec": [
+                  7.534261459807543,
+                  1.910249006413855
+                ],
+                "old_njy": 623.7628173828125,
+                "new_njy": 605.0712890625,
+                "new_to_old": 0.970034237695125,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0006916238477739783,
+                  0.03952284368762736
+                ],
+                "new_minus_old_variance_arcsec2": 0.00059444366794232
+              },
+              {
+                "offset_arcsec": [
+                  0.6017102406729888,
+                  2.191298380162553
+                ],
+                "old_njy": 137.12841796875,
+                "new_njy": 144.447265625,
+                "new_to_old": 1.0533722168217377,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0004924260681516465,
+                  0.037440872959858915
+                ],
+                "new_minus_old_variance_arcsec2": -0.0002456313451532962
+              },
+              {
+                "offset_arcsec": [
+                  -8.79782992581125,
+                  2.69094171127135
+                ],
+                "old_njy": 126.85478210449219,
+                "new_njy": 123.15239715576172,
+                "new_to_old": 0.9708139899236848,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00475237698467711,
+                  0.041148842843815925
+                ],
+                "new_minus_old_variance_arcsec2": -0.005472594182323483
+              },
+              {
+                "offset_arcsec": [
+                  1.3824029455304838,
+                  3.877594622654742
+                ],
+                "old_njy": 1545.26025390625,
+                "new_njy": 1536.20849609375,
+                "new_to_old": 0.9941422438132229,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002462177067309069,
+                  0.03751920541283824
+                ],
+                "new_minus_old_variance_arcsec2": -0.0003295270043957555
+              },
+              {
+                "offset_arcsec": [
+                  3.4122039781599702,
+                  4.22109941279204
+                ],
+                "old_njy": 229.45318603515625,
+                "new_njy": 225.84625244140625,
+                "new_to_old": 0.9842803072117842,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005367017912895703,
+                  0.03554971018565928
+                ],
+                "new_minus_old_variance_arcsec2": 0.0001271396688957453
+              },
+              {
+                "offset_arcsec": [
+                  2.0694125258050793,
+                  6.344583570004426
+                ],
+                "old_njy": 137.0621795654297,
+                "new_njy": 123.54849243164062,
+                "new_to_old": 0.9014046969292648,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00684386754680439,
+                  0.03444499463883393
+                ],
+                "new_minus_old_variance_arcsec2": -0.0009809162018720981
+              },
+              {
+                "offset_arcsec": [
+                  -0.3663487133503048,
+                  7.9684243961080155
+                ],
+                "old_njy": 148.49658203125,
+                "new_njy": 139.44290161132812,
+                "new_to_old": 0.9390310517853091,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0001919223426135406,
+                  0.03564790336091341
+                ],
+                "new_minus_old_variance_arcsec2": -0.00014828184213903353
+              },
+              {
+                "offset_arcsec": [
+                  -6.8929397259589615,
+                  9.311215848462906
+                ],
+                "old_njy": 113.82362365722656,
+                "new_njy": 123.83018493652344,
+                "new_to_old": 1.0879128686803283,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00585039840860389,
+                  0.033339419034211136
+                ],
+                "new_minus_old_variance_arcsec2": 1.986273233637757e-05
+              },
+              {
+                "offset_arcsec": [
+                  1.195036696364685,
+                  10.935056674566496
+                ],
+                "old_njy": 491.59210205078125,
+                "new_njy": 447.729248046875,
+                "new_to_old": 0.9107738838339285,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.010450473512528022,
+                  0.03168278024020636
+                ],
+                "new_minus_old_variance_arcsec2": -0.0012566109197789449
+              },
+              {
+                "offset_arcsec": [
+                  6.1914700074526525,
+                  12.277848126921388
+                ],
+                "old_njy": 102.46856689453125,
+                "new_njy": 105.33926391601562,
+                "new_to_old": 1.0280153915340606,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005760951539883461,
+                  0.04137344922659261
+                ],
+                "new_minus_old_variance_arcsec2": 0.0014351969854038632
+              },
+              {
+                "offset_arcsec": [
+                  -2.8333376606999887,
+                  12.433986667892887
+                ],
+                "old_njy": 1218.80078125,
+                "new_njy": 1208.7451171875,
+                "new_to_old": 0.9917495424870117,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002525220886475662,
+                  0.038166303379889466
+                ],
+                "new_minus_old_variance_arcsec2": -1.765462339858078e-05
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.002525220886475662,
+              0.03693024446990033
+            ],
+            "held_out_reference_radius68_arcsec": 0.005136694957652972,
+            "matched_variance_arcsec2": -4.7045148176560114e-05,
+            "new_to_old_scale": 0.9842803072117842
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -19.784727096557617,
+              "local_mad_sigma_njy": 2.123653776526451,
+              "control_median_njy": 0.17264437675476074,
+              "control_count": 338
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -18.10401725769043,
+              "local_mad_sigma_njy": 3.812726034235954,
+              "control_median_njy": -0.11965060234069824,
+              "control_count": 338
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -18.282684326171875,
+              "local_mad_sigma_njy": 6.119555302619934,
+              "control_median_njy": -0.0628509521484375,
+              "control_count": 337
+            }
+          ],
+          "core_sign": -1,
+          "core": {
+            "amplitude_njy_per_pixel": 4.816558378405582,
+            "offset_xy_arcsec": [
+              0.04386773188285555,
+              -0.004439072297865618
+            ],
+            "core_sigma_arcsec": 0.024212584630329683,
+            "background_njy_per_pixel": 0.14316181390919683,
+            "icrs_deg": [
+              53.188663647295215,
+              -27.81255036056453
+            ]
+          }
+        }
+      }
+    },
+    "F200W": {
+      "rise_fade_core_separation_arcsec": 0.01093381550351764,
+      "direct_apertures": {
+        "Oct 2025": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 43.77980422973633,
+            "local_mad_sigma_njy": 1.4021788445949555,
+            "control_median_njy": 0.08364248275756836,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 56.4661750793457,
+            "local_mad_sigma_njy": 2.4651680614471436,
+            "control_median_njy": 0.19988584518432617,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 60.56740188598633,
+            "local_mad_sigma_njy": 4.159904826307296,
+            "control_median_njy": 0.3312397003173828,
+            "control_count": 337
+          }
+        ],
+        "Oct 2026": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 72.40985107421875,
+            "local_mad_sigma_njy": 1.3493398623704909,
+            "control_median_njy": -0.09197211265563965,
+            "control_count": 338
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 90.72010803222656,
+            "local_mad_sigma_njy": 2.587081334066391,
+            "control_median_njy": -0.18020391464233398,
+            "control_count": 337
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 98.30977630615234,
+            "local_mad_sigma_njy": 3.9294238952636715,
+            "control_median_njy": -0.16196775436401367,
+            "control_count": 336
+          }
+        ],
+        "Nov 2026": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 44.02292251586914,
+            "local_mad_sigma_njy": 1.4933316341400145,
+            "control_median_njy": -0.13794803619384766,
+            "control_count": 339
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 57.11125946044922,
+            "local_mad_sigma_njy": 2.3591772677421567,
+            "control_median_njy": -0.05055069923400879,
+            "control_count": 339
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 64.4337158203125,
+            "local_mad_sigma_njy": 3.5569835221767425,
+            "control_median_njy": 0.02989363670349121,
+            "control_count": 339
+          }
+        ]
+      },
+      "matched_differences": {
+        "october_2026_minus_2025": {
+          "alignment": {
+            "reference_count": 20,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.2829526217288,
+                  -5.481743573077805
+                ],
+                "old_njy": 77.07412719726562,
+                "new_njy": 86.31820678710938,
+                "new_to_old": 1.1199375189314074,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004893277389151785,
+                  -0.006700768049934707
+                ],
+                "new_minus_old_variance_arcsec2": -0.00019407289753063444
+              },
+              {
+                "offset_arcsec": [
+                  -3.627138131405309,
+                  -4.513636468314556
+                ],
+                "old_njy": 84.700927734375,
+                "new_njy": 89.5412368774414,
+                "new_to_old": 1.0571458810728234,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008958662082411806,
+                  -0.017839755722397203
+                ],
+                "new_minus_old_variance_arcsec2": -0.002975556247844579
+              },
+              {
+                "offset_arcsec": [
+                  3.118382340493455,
+                  -4.013968285210943
+                ],
+                "old_njy": 80.81015014648438,
+                "new_njy": 80.15938568115234,
+                "new_to_old": 0.9919469959633488,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0004448010209390646,
+                  -0.01046363810815534
+                ],
+                "new_minus_old_variance_arcsec2": -0.00011919367017624921
+              },
+              {
+                "offset_arcsec": [
+                  4.305094275364534,
+                  -3.170778226223598
+                ],
+                "old_njy": 119.58213806152344,
+                "new_njy": 105.2904281616211,
+                "new_to_old": 0.8804862487694488,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0025900506902837572,
+                  -0.01052324736007832
+                ],
+                "new_minus_old_variance_arcsec2": -0.0009525513484411989
+              },
+              {
+                "offset_arcsec": [
+                  -5.844415693927588,
+                  -3.0770904418916705
+                ],
+                "old_njy": 123.63548278808594,
+                "new_njy": 130.23658752441406,
+                "new_to_old": 1.053391668697914,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002560187419910845,
+                  -0.0075968491412531265
+                ],
+                "new_minus_old_variance_arcsec2": 7.36083998580982e-05
+              },
+              {
+                "offset_arcsec": [
+                  2.525026373057916,
+                  -2.4525052130121554
+                ],
+                "old_njy": 102.05858612060547,
+                "new_njy": 104.15750122070312,
+                "new_to_old": 1.0205657865729916,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0033518533121879553,
+                  -0.009483261802139993
+                ],
+                "new_minus_old_variance_arcsec2": -1.1635871635967254e-05
+              },
+              {
+                "offset_arcsec": [
+                  -5.657040125263733,
+                  -0.07908134326999766
+                ],
+                "old_njy": 293.68353271484375,
+                "new_njy": 293.1927490234375,
+                "new_to_old": 0.998328868878451,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0025925028253343356,
+                  -0.008029810041328304
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005013675345778247
+              },
+              {
+                "offset_arcsec": [
+                  3.149611601937431,
+                  0.5455038856095176
+                ],
+                "old_njy": 139.67523193359375,
+                "new_njy": 139.11732482910156,
+                "new_to_old": 0.9960056833500914,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0005942478779930004,
+                  -0.011812703301447293
+                ],
+                "new_minus_old_variance_arcsec2": -0.0008772101880446664
+              },
+              {
+                "offset_arcsec": [
+                  7.459249681206086,
+                  2.169425480696257
+                ],
+                "old_njy": 800.0703125,
+                "new_njy": 816.800537109375,
+                "new_to_old": 1.0209109428858791,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0012456754122253976,
+                  -0.010916394285413389
+                ],
+                "new_minus_old_variance_arcsec2": -3.933948857236594e-05
+              },
+              {
+                "offset_arcsec": [
+                  0.5263536406434672,
+                  2.2318840035842085
+                ],
+                "old_njy": 156.5889892578125,
+                "new_njy": 157.09976196289062,
+                "new_to_old": 1.0032618685866679,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0019354966823400318,
+                  -0.010977628612008818
+                ],
+                "new_minus_old_variance_arcsec2": 0.00023938917785085861
+              },
+              {
+                "offset_arcsec": [
+                  -8.873654053993237,
+                  2.3568010493601115
+                ],
+                "old_njy": 147.03903198242188,
+                "new_njy": 137.65911865234375,
+                "new_to_old": 0.9362080040679303,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00016577751898058657,
+                  -0.0030858671451076403
+                ],
+                "new_minus_old_variance_arcsec2": -4.8792870806457084e-05
+              },
+              {
+                "offset_arcsec": [
+                  1.2446266538549098,
+                  3.980722644446851
+                ],
+                "old_njy": 1798.7841796875,
+                "new_njy": 1788.641845703125,
+                "new_to_old": 0.9943615614930875,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0024174026928068006,
+                  -0.009773575437879295
+                ],
+                "new_minus_old_variance_arcsec2": 0.00010420177888248623
+              },
+              {
+                "offset_arcsec": [
+                  3.274528647713334,
+                  4.324244520330584
+                ],
+                "old_njy": 321.664794921875,
+                "new_njy": 317.74591064453125,
+                "new_to_old": 0.9878168691780661,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00018586533785195855,
+                  -0.009235867029789612
+                ],
+                "new_minus_old_variance_arcsec2": -0.0002066463172795312
+              },
+              {
+                "offset_arcsec": [
+                  -4.907537850608315,
+                  5.698332023865518
+                ],
+                "old_njy": 124.13473510742188,
+                "new_njy": 117.90616607666016,
+                "new_to_old": 0.949824124364774,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0074380609459635625,
+                  -0.013002585868773111
+                ],
+                "new_minus_old_variance_arcsec2": -0.0012068931614610742
+              },
+              {
+                "offset_arcsec": [
+                  1.8067533598464733,
+                  6.354146514189009
+                ],
+                "old_njy": 133.88629150390625,
+                "new_njy": 135.84158325195312,
+                "new_to_old": 1.0146041220955757,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002739393004621527,
+                  -0.014987197849922917
+                ],
+                "new_minus_old_variance_arcsec2": -0.0019021750654068439
+              },
+              {
+                "offset_arcsec": [
+                  -0.5978997713396601,
+                  7.946838847831772
+                ],
+                "old_njy": 176.93292236328125,
+                "new_njy": 174.82925415039062,
+                "new_to_old": 0.9881103630415862,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0022667107782439935,
+                  -0.010456234665335764
+                ],
+                "new_minus_old_variance_arcsec2": 0.00029163311324992367
+              },
+              {
+                "offset_arcsec": [
+                  -7.187273936018546,
+                  9.102321521258876
+                ],
+                "old_njy": 97.8025894165039,
+                "new_njy": 93.50332641601562,
+                "new_to_old": 0.95604141949474,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0018508312632870838,
+                  -0.013478718329923702
+                ],
+                "new_minus_old_variance_arcsec2": -4.438615623052547e-05
+              },
+              {
+                "offset_arcsec": [
+                  0.8074169936392491,
+                  11.007306469341398
+                ],
+                "old_njy": 553.4834594726562,
+                "new_njy": 558.912841796875,
+                "new_to_old": 1.0098094752992108,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.001396809712046039,
+                  -0.011434204976402091
+                ],
+                "new_minus_old_variance_arcsec2": 0.000706084626479966
+              },
+              {
+                "offset_arcsec": [
+                  -3.221157732633624,
+                  12.350164711432354
+                ],
+                "old_njy": 1743.269287109375,
+                "new_njy": 1771.8294677734375,
+                "new_to_old": 1.0163831146887352,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0012728159088914613,
+                  -0.009816013600329774
+                ],
+                "new_minus_old_variance_arcsec2": -4.365937031292587e-05
+              },
+              {
+                "offset_arcsec": [
+                  5.80409882467537,
+                  12.506311018652234
+                ],
+                "old_njy": 93.46781158447266,
+                "new_njy": 100.66788482666016,
+                "new_to_old": 1.0770326502796137,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005537306232564175,
+                  -0.006765826742676503
+                ],
+                "new_minus_old_variance_arcsec2": -0.0020970450561087327
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.0016661531971930354,
+              -0.010459936386745552
+            ],
+            "held_out_reference_radius68_arcsec": 0.004595144143791335,
+            "matched_variance_arcsec2": -8.399327049135315e-05,
+            "new_to_old_scale": 1.0007953687325595
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 29.661575317382812,
+              "local_mad_sigma_njy": 1.748374080276489,
+              "control_median_njy": -0.016295194625854492,
+              "control_count": 333
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 33.224483489990234,
+              "local_mad_sigma_njy": 3.186931962776184,
+              "control_median_njy": -0.10784435272216797,
+              "control_count": 333
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 35.87987518310547,
+              "local_mad_sigma_njy": 4.299229079532623,
+              "control_median_njy": 0.23568344116210938,
+              "control_count": 333
+            }
+          ],
+          "core_sign": 1,
+          "core": {
+            "amplitude_njy_per_pixel": 3.8180056271949714,
+            "offset_xy_arcsec": [
+              0.04259853074459702,
+              0.010867618986617417
+            ],
+            "core_sigma_arcsec": 0.0323509805056339,
+            "background_njy_per_pixel": 0.26417660917594504,
+            "icrs_deg": [
+              53.188660113995574,
+              -27.812548076623056
+            ]
+          }
+        },
+        "november_2026_minus_2025": {
+          "alignment": {
+            "reference_count": 22,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -9.248405191320945,
+                  -7.011977383832616
+                ],
+                "old_njy": 126.58696746826172,
+                "new_njy": 124.19307708740234,
+                "new_to_old": 0.9810889665126106,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -4.325554185006554e-05,
+                  0.020203749183972698
+                ],
+                "new_minus_old_variance_arcsec2": -4.872964806995183e-05
+              },
+              {
+                "offset_arcsec": [
+                  11.737658499030765,
+                  -5.918953233293465
+                ],
+                "old_njy": 1516.3883056640625,
+                "new_njy": 1529.0792236328125,
+                "new_to_old": 1.0083691742552658,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00030472319177960285,
+                  0.02041177512570309
+                ],
+                "new_minus_old_variance_arcsec2": -0.00014300132219949085
+              },
+              {
+                "offset_arcsec": [
+                  -4.2829526217288,
+                  -5.481743573077805
+                ],
+                "old_njy": 77.07412719726562,
+                "new_njy": 83.69302368164062,
+                "new_to_old": 1.08587702157735,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0022175588862716616,
+                  0.022753224489392126
+                ],
+                "new_minus_old_variance_arcsec2": -0.0004172427300433556
+              },
+              {
+                "offset_arcsec": [
+                  -3.627138131405309,
+                  -4.513636468314556
+                ],
+                "old_njy": 84.700927734375,
+                "new_njy": 86.9243392944336,
+                "new_to_old": 1.0262501441192153,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.014794631326042501,
+                  0.02526630082860238
+                ],
+                "new_minus_old_variance_arcsec2": 0.00016833258156129238
+              },
+              {
+                "offset_arcsec": [
+                  3.118382340493455,
+                  -4.013968285210943
+                ],
+                "old_njy": 80.81015014648438,
+                "new_njy": 83.17503356933594,
+                "new_to_old": 1.029264682945951,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00027123229744166477,
+                  0.020405317024655124
+                ],
+                "new_minus_old_variance_arcsec2": -8.101273893233729e-05
+              },
+              {
+                "offset_arcsec": [
+                  4.305094275364534,
+                  -3.170778226223598
+                ],
+                "old_njy": 119.58213806152344,
+                "new_njy": 104.85678100585938,
+                "new_to_old": 0.876859894844094,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0009980697397671233,
+                  0.01560448465979195
+                ],
+                "new_minus_old_variance_arcsec2": 0.00010479374675801886
+              },
+              {
+                "offset_arcsec": [
+                  -5.844415693927588,
+                  -3.0770904418916705
+                ],
+                "old_njy": 123.63548278808594,
+                "new_njy": 127.3581771850586,
+                "new_to_old": 1.0301102427314774,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0017010568972380808,
+                  0.022171252386850665
+                ],
+                "new_minus_old_variance_arcsec2": 0.00025492522517866264
+              },
+              {
+                "offset_arcsec": [
+                  2.525026373057916,
+                  -2.4525052130121554
+                ],
+                "old_njy": 102.05858612060547,
+                "new_njy": 98.3392333984375,
+                "new_to_old": 0.9635566897059233,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005239729614111066,
+                  0.020824329176136133
+                ],
+                "new_minus_old_variance_arcsec2": 7.715932992845937e-05
+              },
+              {
+                "offset_arcsec": [
+                  -5.657040125263733,
+                  -0.07908134326999766
+                ],
+                "old_njy": 293.68353271484375,
+                "new_njy": 294.03680419921875,
+                "new_to_old": 1.0012028985115689,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003300453226545364,
+                  0.021131441288569745
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006863961925141588
+              },
+              {
+                "offset_arcsec": [
+                  3.149611601937431,
+                  0.5455038856095176
+                ],
+                "old_njy": 139.67523193359375,
+                "new_njy": 137.4595184326172,
+                "new_to_old": 0.9841366756990245,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002121318564030087,
+                  0.021058440773515912
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001435271387894418
+              },
+              {
+                "offset_arcsec": [
+                  7.459249681206086,
+                  2.169425480696257
+                ],
+                "old_njy": 800.0703125,
+                "new_njy": 807.5458374023438,
+                "new_to_old": 1.009343584914412,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.00030090923678065815,
+                  0.021557786154421794
+                ],
+                "new_minus_old_variance_arcsec2": -5.400906791085819e-07
+              },
+              {
+                "offset_arcsec": [
+                  0.5263536406434672,
+                  2.2318840035842085
+                ],
+                "old_njy": 156.5889892578125,
+                "new_njy": 155.89370727539062,
+                "new_to_old": 0.9955598284035339,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003464603917913512,
+                  0.023770378814834223
+                ],
+                "new_minus_old_variance_arcsec2": -0.0015026099977850692
+              },
+              {
+                "offset_arcsec": [
+                  -8.873654053993237,
+                  2.3568010493601115
+                ],
+                "old_njy": 147.03903198242188,
+                "new_njy": 138.5972900390625,
+                "new_to_old": 0.942588428191172,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003078184174259795,
+                  0.030500087416519488
+                ],
+                "new_minus_old_variance_arcsec2": -0.0036945402066151465
+              },
+              {
+                "offset_arcsec": [
+                  1.2446266538549098,
+                  3.980722644446851
+                ],
+                "old_njy": 1798.7841796875,
+                "new_njy": 1791.2628173828125,
+                "new_to_old": 0.9958186410634353,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0009925699831508563,
+                  0.02029452861476854
+                ],
+                "new_minus_old_variance_arcsec2": -0.00031469752646362103
+              },
+              {
+                "offset_arcsec": [
+                  3.274528647713334,
+                  4.324244520330584
+                ],
+                "old_njy": 321.664794921875,
+                "new_njy": 317.32177734375,
+                "new_to_old": 0.9864983123839218,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0017470266279889521,
+                  0.023474636220940603
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006949520203817696
+              },
+              {
+                "offset_arcsec": [
+                  -4.907537850608315,
+                  5.698332023865518
+                ],
+                "old_njy": 124.13473510742188,
+                "new_njy": 120.20606231689453,
+                "new_to_old": 0.9683515432878025,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005282705654003147,
+                  0.02269629900249158
+                ],
+                "new_minus_old_variance_arcsec2": 0.0018973890883899665
+              },
+              {
+                "offset_arcsec": [
+                  1.8067533598464733,
+                  6.354146514189009
+                ],
+                "old_njy": 133.88629150390625,
+                "new_njy": 127.1292724609375,
+                "new_to_old": 0.9495316587899396,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.004789464776373426,
+                  0.0252974773637175
+                ],
+                "new_minus_old_variance_arcsec2": 0.0013100881794114259
+              },
+              {
+                "offset_arcsec": [
+                  -0.5978997713396601,
+                  7.946838847831772
+                ],
+                "old_njy": 176.93292236328125,
+                "new_njy": 172.7696990966797,
+                "new_to_old": 0.9764700474564391,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0021534089647261834,
+                  0.02732284984627948
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005530964336298407
+              },
+              {
+                "offset_arcsec": [
+                  -7.187273936018546,
+                  9.102321521258876
+                ],
+                "old_njy": 97.8025894165039,
+                "new_njy": 103.88468933105469,
+                "new_to_old": 1.0621875141633463,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007126758083369059,
+                  0.027669848009641233
+                ],
+                "new_minus_old_variance_arcsec2": -0.002142571304367579
+              },
+              {
+                "offset_arcsec": [
+                  0.8074169936392491,
+                  11.007306469341398
+                ],
+                "old_njy": 553.4834594726562,
+                "new_njy": 540.54296875,
+                "new_to_old": 0.9766199142879797,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005121925891796407,
+                  0.019940962782817796
+                ],
+                "new_minus_old_variance_arcsec2": -0.00022585329017319605
+              },
+              {
+                "offset_arcsec": [
+                  -3.221157732633624,
+                  12.350164711432354
+                ],
+                "old_njy": 1743.269287109375,
+                "new_njy": 1734.567138671875,
+                "new_to_old": 0.9950081444663494,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0025384441702948927,
+                  0.023230337676522394
+                ],
+                "new_minus_old_variance_arcsec2": -9.828498318680337e-05
+              },
+              {
+                "offset_arcsec": [
+                  5.80409882467537,
+                  12.506311018652234
+                ],
+                "old_njy": 93.46781158447266,
+                "new_njy": 103.25537109375,
+                "new_to_old": 1.1047158304378586,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005534639183444719,
+                  0.02257117016966091
+                ],
+                "new_minus_old_variance_arcsec2": -0.0009852935945314405
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.00028607076711116146,
+              0.02237121127825579
+            ],
+            "held_out_reference_radius68_arcsec": 0.005526229590788038,
+            "matched_variance_arcsec2": -0.00012064315269314711,
+            "new_to_old_scale": 0.9952839864349416
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -1.4637001752853394,
+              "local_mad_sigma_njy": 1.6085454119682312,
+              "control_median_njy": -0.09450221061706543,
+              "control_count": 337
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -1.162647008895874,
+              "local_mad_sigma_njy": 2.790751914167404,
+              "control_median_njy": -0.26540231704711914,
+              "control_count": 337
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 1.327182650566101,
+              "local_mad_sigma_njy": 4.0382050552368165,
+              "control_median_njy": -0.19957828521728516,
+              "control_count": 337
+            }
+          ],
+          "core_sign": 1,
+          "core": {
+            "amplitude_njy_per_pixel": 0.4311152916626534,
+            "offset_xy_arcsec": [
+              -0.006864485520017145,
+              -0.009650917941853347
+            ],
+            "core_sigma_arcsec": 0.02358497045483454,
+            "background_njy_per_pixel": -0.2181223285282329,
+            "icrs_deg": [
+              53.18867353832666,
+              -27.81253911645869
+            ]
+          }
+        },
+        "november_minus_october_2026": {
+          "alignment": {
+            "reference_count": 20,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -4.504763819603773,
+                  -5.344092024000626
+                ],
+                "old_njy": 87.65484619140625,
+                "new_njy": 81.8814697265625,
+                "new_to_old": 0.9341351138505588,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0036711155594385154,
+                  0.02927210614133935
+                ],
+                "new_minus_old_variance_arcsec2": -1.5429057402442572e-05
+              },
+              {
+                "offset_arcsec": [
+                  -3.786493460237142,
+                  -4.375988496158644
+                ],
+                "old_njy": 87.88449096679688,
+                "new_njy": 85.57938385009766,
+                "new_to_old": 0.9737711729186656,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008269673201241522,
+                  0.041750675587495255
+                ],
+                "new_minus_old_variance_arcsec2": 0.0028313519835526223
+              },
+              {
+                "offset_arcsec": [
+                  2.9902312346567292,
+                  -4.094926181623876
+                ],
+                "old_njy": 79.28456115722656,
+                "new_njy": 82.89212799072266,
+                "new_to_old": 1.0455015047171927,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0011244842174785406,
+                  0.03086050626541942
+                ],
+                "new_minus_old_variance_arcsec2": 2.2626705071243126e-05
+              },
+              {
+                "offset_arcsec": [
+                  4.176938784914642,
+                  -3.3141975301384066
+                ],
+                "old_njy": 105.80612182617188,
+                "new_njy": 107.01615905761719,
+                "new_to_old": 1.0114363631381678,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002686114330584292,
+                  0.026034230120238352
+                ],
+                "new_minus_old_variance_arcsec2": 0.000752473900121061
+              },
+              {
+                "offset_arcsec": [
+                  -5.941304538337036,
+                  -2.908218631365963
+                ],
+                "old_njy": 129.48458862304688,
+                "new_njy": 124.20279693603516,
+                "new_to_old": 0.9592091094146503,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.001988484983441966,
+                  0.029107089420205803
+                ],
+                "new_minus_old_variance_arcsec2": 0.00019719915703768007
+              },
+              {
+                "offset_arcsec": [
+                  2.4281066055871916,
+                  -2.5646980247123565
+                ],
+                "old_njy": 101.55467987060547,
+                "new_njy": 94.3282241821289,
+                "new_to_old": 0.9288417264700745,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0009367927973838244,
+                  0.030520441026105464
+                ],
+                "new_minus_old_variance_arcsec2": 0.00014977723764867962
+              },
+              {
+                "offset_arcsec": [
+                  -5.660242223802268,
+                  0.08977939033823829
+                ],
+                "old_njy": 295.6148681640625,
+                "new_njy": 297.9393310546875,
+                "new_to_old": 1.0078631460760457,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00036268433342305853,
+                  0.029300148060923705
+                ],
+                "new_minus_old_variance_arcsec2": -9.962975571015456e-05
+              },
+              {
+                "offset_arcsec": [
+                  3.177606111013242,
+                  0.4332999969918447
+                ],
+                "old_njy": 139.60406494140625,
+                "new_njy": 135.942138671875,
+                "new_to_old": 0.9737692002659936,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003938660766823129,
+                  0.03276018691899678
+                ],
+                "new_minus_old_variance_arcsec2": 0.0008817686297927672
+              },
+              {
+                "offset_arcsec": [
+                  7.51845741327245,
+                  1.9010698617845265
+                ],
+                "old_njy": 812.5311279296875,
+                "new_njy": 796.1063842773438,
+                "new_to_old": 0.9797857053252917,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.001541993057991112,
+                  0.032107747464400364
+                ],
+                "new_minus_old_variance_arcsec2": 0.00031750837449015176
+              },
+              {
+                "offset_arcsec": [
+                  0.5855869880814848,
+                  2.213361322378714
+                ],
+                "old_njy": 156.06402587890625,
+                "new_njy": 155.61727905273438,
+                "new_to_old": 0.9971374131632454,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006546754583133923,
+                  0.03458700737469466
+                ],
+                "new_minus_old_variance_arcsec2": -0.0018170095687851688
+              },
+              {
+                "offset_arcsec": [
+                  -8.783156829744144,
+                  2.6817985132699955
+                ],
+                "old_njy": 132.9763641357422,
+                "new_njy": 136.8231964111328,
+                "new_to_old": 1.028928691955089,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003103390498166072,
+                  0.029131429968427533
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005351503027985396
+              },
+              {
+                "offset_arcsec": [
+                  1.3663156395669538,
+                  3.8997352095873272
+                ],
+                "old_njy": 1839.6005859375,
+                "new_njy": 1802.80712890625,
+                "new_to_old": 0.9799992143335292,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0020093939891448736,
+                  0.030401215728076796
+                ],
+                "new_minus_old_variance_arcsec2": -0.00016859225358475689
+              },
+              {
+                "offset_arcsec": [
+                  3.427439279488592,
+                  4.2120266701815146
+                ],
+                "old_njy": 324.41937255859375,
+                "new_njy": 322.2444152832031,
+                "new_to_old": 0.9932958464895687,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002764114104895316,
+                  0.03244035086077723
+                ],
+                "new_minus_old_variance_arcsec2": -0.00040955441054885654
+              },
+              {
+                "offset_arcsec": [
+                  -4.754596988079124,
+                  5.8359422652712905
+                ],
+                "old_njy": 118.1558837890625,
+                "new_njy": 116.9867935180664,
+                "new_to_old": 0.990105526415568,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008588955239138888,
+                  0.035015045337089865
+                ],
+                "new_minus_old_variance_arcsec2": 0.0018956799296965358
+              },
+              {
+                "offset_arcsec": [
+                  2.0533568528741664,
+                  6.33560860222199
+                ],
+                "old_njy": 135.66738891601562,
+                "new_njy": 128.80352783203125,
+                "new_to_old": 0.9494066987002056,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00526361944534259,
+                  0.04091923669491565
+                ],
+                "new_minus_old_variance_arcsec2": 0.002649230561184464
+              },
+              {
+                "offset_arcsec": [
+                  -0.3512873937010781,
+                  7.959524197311766
+                ],
+                "old_njy": 174.243896484375,
+                "new_njy": 171.97621154785156,
+                "new_to_old": 0.9869855703282738,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.001365485086113566,
+                  0.037687502084189806
+                ],
+                "new_minus_old_variance_arcsec2": 0.00030871961804163246
+              },
+              {
+                "offset_arcsec": [
+                  -6.909408066179018,
+                  9.302377477866774
+                ],
+                "old_njy": 89.09354400634766,
+                "new_njy": 95.11572265625,
+                "new_to_old": 1.067593883676614,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0015433429688192501,
+                  0.03758850606462269
+                ],
+                "new_minus_old_variance_arcsec2": -0.0017140103663867388
+              },
+              {
+                "offset_arcsec": [
+                  1.1789407632104412,
+                  10.957522219015967
+                ],
+                "old_njy": 542.6860961914062,
+                "new_njy": 524.1173706054688,
+                "new_to_old": 0.9657836717832766,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008184755570734711,
+                  0.029844308652901552
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006770764381785355
+              },
+              {
+                "offset_arcsec": [
+                  6.175604132717443,
+                  12.300375499570974
+                ],
+                "old_njy": 101.07755279541016,
+                "new_njy": 104.79295349121094,
+                "new_to_old": 1.0367579209532416,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0015575101175803463,
+                  0.029366470070099362
+                ],
+                "new_minus_old_variance_arcsec2": 0.001004480564732466
+              },
+              {
+                "offset_arcsec": [
+                  -2.81838993239516,
+                  12.42529208380865
+                ],
+                "old_njy": 1779.7578125,
+                "new_njy": 1734.52099609375,
+                "new_to_old": 0.9745825998972824,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0001512160151628623,
+                  0.03300002870594153
+                ],
+                "new_minus_old_variance_arcsec2": -5.608408843965455e-06
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.002347754159864583,
+              0.031484126864909895
+            ],
+            "held_out_reference_radius68_arcsec": 0.006091933103366182,
+            "matched_variance_arcsec2": 8.620197135996138e-05,
+            "new_to_old_scale": 0.9799992143335292
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -29.415281295776367,
+              "local_mad_sigma_njy": 1.7438099544525145,
+              "control_median_njy": -0.09903275966644287,
+              "control_count": 338
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -32.8477783203125,
+              "local_mad_sigma_njy": 3.072396511888504,
+              "control_median_njy": -0.14451730251312256,
+              "control_count": 336
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -33.06732177734375,
+              "local_mad_sigma_njy": 4.188245036029816,
+              "control_median_njy": -0.11642003059387207,
+              "control_count": 335
+            }
+          ],
+          "core_sign": -1,
+          "core": {
+            "amplitude_njy_per_pixel": 3.972452498265672,
+            "offset_xy_arcsec": [
+              0.04646896580693467,
+              -0.0008821566115263643
+            ],
+            "core_sigma_arcsec": 0.031214968785818992,
+            "background_njy_per_pixel": 0.4101641867059452,
+            "icrs_deg": [
+              53.188662266407455,
+              -27.812550443075075
+            ]
+          }
+        }
+      }
+    },
+    "F277W": {
+      "rise_fade_core_separation_arcsec": 0.021218359792508322,
+      "direct_apertures": {
+        "Oct 2025": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 39.44766616821289,
+            "local_mad_sigma_njy": 1.2656598037719726,
+            "control_median_njy": 0.0038013458251953125,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 55.176177978515625,
+            "local_mad_sigma_njy": 2.0847987922668456,
+            "control_median_njy": 0.06072998046875,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 60.51451110839844,
+            "local_mad_sigma_njy": 3.2977739075660706,
+            "control_median_njy": 0.04515981674194336,
+            "control_count": 329
+          }
+        ],
+        "Oct 2026": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 52.457603454589844,
+            "local_mad_sigma_njy": 1.0286377367019652,
+            "control_median_njy": -0.10201835632324219,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 76.37513732910156,
+            "local_mad_sigma_njy": 2.091244842338562,
+            "control_median_njy": -0.04849529266357422,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 87.71819305419922,
+            "local_mad_sigma_njy": 3.3039732290267945,
+            "control_median_njy": 0.13298702239990234,
+            "control_count": 305
+          }
+        ],
+        "Nov 2026": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 42.27128982543945,
+            "local_mad_sigma_njy": 1.3332047656059265,
+            "control_median_njy": -0.11643505096435547,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 61.269317626953125,
+            "local_mad_sigma_njy": 2.643893601322174,
+            "control_median_njy": -0.031197547912597656,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 67.31238555908203,
+            "local_mad_sigma_njy": 3.5583900166511535,
+            "control_median_njy": 0.060074806213378906,
+            "control_count": 329
+          }
+        ]
+      },
+      "matched_differences": {
+        "october_2026_minus_2025": {
+          "alignment": {
+            "reference_count": 17,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  -3.6183070384760954,
+                  -4.469961929628483
+                ],
+                "old_njy": 79.94065856933594,
+                "new_njy": 74.15485382080078,
+                "new_to_old": 0.9276237542687132,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.020475792522383327,
+                  -0.019786341349803272
+                ],
+                "new_minus_old_variance_arcsec2": -0.002582404117090195
+              },
+              {
+                "offset_arcsec": [
+                  3.049981818144439,
+                  -4.0296032315497685
+                ],
+                "old_njy": 86.07635498046875,
+                "new_njy": 85.4383773803711,
+                "new_to_old": 0.9925882363368846,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002672170687431647,
+                  -0.01393410796657018
+                ],
+                "new_minus_old_variance_arcsec2": 0.0002376206494197168
+              },
+              {
+                "offset_arcsec": [
+                  4.24524114150095,
+                  -3.2117942208321555
+                ],
+                "old_njy": 116.46734619140625,
+                "new_njy": 113.87905883789062,
+                "new_to_old": 0.977776712201702,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002601734338470019,
+                  -0.0129255035065034
+                ],
+                "new_minus_old_variance_arcsec2": -0.0012506935999278893
+              },
+              {
+                "offset_arcsec": [
+                  -5.883008914309484,
+                  -3.0230690645127067
+                ],
+                "old_njy": 105.3681411743164,
+                "new_njy": 98.83338928222656,
+                "new_to_old": 0.9379817104177719,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0040862747360785896,
+                  -0.021079771635955796
+                ],
+                "new_minus_old_variance_arcsec2": 0.0007470894922411968
+              },
+              {
+                "offset_arcsec": [
+                  -5.694283757990035,
+                  -0.06637494884133757
+                ],
+                "old_njy": 306.7325134277344,
+                "new_njy": 298.38861083984375,
+                "new_to_old": 0.9727974628621937,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00017474990240911627,
+                  -0.01926607868271648
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005393181249989483
+              },
+              {
+                "offset_arcsec": [
+                  3.1128902035842554,
+                  0.5627089055568261
+                ],
+                "old_njy": 112.40531921386719,
+                "new_njy": 112.97483825683594,
+                "new_to_old": 1.0050666556258352,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.000543095904477868,
+                  -0.019596057150217883
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005453255033178155
+              },
+              {
+                "offset_arcsec": [
+                  7.453568798931585,
+                  2.072510156112419
+                ],
+                "old_njy": 1067.5108642578125,
+                "new_njy": 1102.973388671875,
+                "new_to_old": 1.0332198252977198,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00015638254536542995,
+                  -0.01845140419321677
+                ],
+                "new_minus_old_variance_arcsec2": -0.0008726379069799823
+              },
+              {
+                "offset_arcsec": [
+                  0.5336464005517846,
+                  2.2612353124318676
+                ],
+                "old_njy": 122.91468811035156,
+                "new_njy": 125.16332244873047,
+                "new_to_old": 1.0182942687562295,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0027360913840107706,
+                  -0.024717478455214194
+                ],
+                "new_minus_old_variance_arcsec2": 0.0010605398369051434
+              },
+              {
+                "offset_arcsec": [
+                  -8.839703029980853,
+                  2.512868854191133
+                ],
+                "old_njy": 107.98429107666016,
+                "new_njy": 107.19487762451172,
+                "new_to_old": 0.9926895528573872,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0024868293756620235,
+                  -0.022450971612543613
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006431988774711923
+              },
+              {
+                "offset_arcsec": [
+                  1.288547025829581,
+                  3.9597617193069095
+                ],
+                "old_njy": 1889.447265625,
+                "new_njy": 1889.24365234375,
+                "new_to_old": 0.9998922365895284,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0013038567099942693,
+                  -0.018310085205903572
+                ],
+                "new_minus_old_variance_arcsec2": -0.00017731044321494995
+              },
+              {
+                "offset_arcsec": [
+                  3.3016153599037046,
+                  4.337212031945808
+                ],
+                "old_njy": 328.0989685058594,
+                "new_njy": 328.10223388671875,
+                "new_to_old": 1.0000099524264714,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002695974255453094,
+                  -0.019590714986931677
+                ],
+                "new_minus_old_variance_arcsec2": 0.0009480847221259806
+              },
+              {
+                "offset_arcsec": [
+                  -4.876474747272423,
+                  5.721196511621768
+                ],
+                "old_njy": 90.15699768066406,
+                "new_njy": 95.46406555175781,
+                "new_to_old": 1.0588647360451307,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0015299915402231827,
+                  -0.02406187933407587
+                ],
+                "new_minus_old_variance_arcsec2": 0.0027518413119855204
+              },
+              {
+                "offset_arcsec": [
+                  1.9176308802277446,
+                  6.413188751459748
+                ],
+                "old_njy": 117.93209838867188,
+                "new_njy": 115.58256530761719,
+                "new_to_old": 0.9800772384011072,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0007585936982468927,
+                  -0.016957660696935432
+                ],
+                "new_minus_old_variance_arcsec2": -0.0009113867626470151
+              },
+              {
+                "offset_arcsec": [
+                  -0.5357961519250936,
+                  7.92299000201534
+                ],
+                "old_njy": 176.8012237548828,
+                "new_njy": 173.81436157226562,
+                "new_to_old": 0.9831061000643402,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0012583066603252153,
+                  -0.014495808871959547
+                ],
+                "new_minus_old_variance_arcsec2": 0.00039689568687630104
+              },
+              {
+                "offset_arcsec": [
+                  -6.952451466786362,
+                  9.181157710811668
+                ],
+                "old_njy": 86.15547180175781,
+                "new_njy": 75.1673583984375,
+                "new_to_old": 0.8724618045316522,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.012182827457645429,
+                  -0.017495115003462947
+                ],
+                "new_minus_old_variance_arcsec2": -0.0014068565372840486
+              },
+              {
+                "offset_arcsec": [
+                  0.8481883277508664,
+                  11.068409274006159
+                ],
+                "old_njy": 448.39410400390625,
+                "new_njy": 441.8101806640625,
+                "new_to_old": 0.9853166594273809,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0031281296481254824,
+                  -0.019542380444114903
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005763429324641932
+              },
+              {
+                "offset_arcsec": [
+                  -3.1150399549575645,
+                  12.389485368242301
+                ],
+                "old_njy": 2443.27685546875,
+                "new_njy": 2467.96533203125,
+                "new_to_old": 1.010104657811185,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0004415475969723904,
+                  -0.01900921636217786
+                ],
+                "new_minus_old_variance_arcsec2": -0.0002950881445367157
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.0004415475969723904,
+              -0.01926607868271648
+            ],
+            "held_out_reference_radius68_arcsec": 0.0053511771579952795,
+            "matched_variance_arcsec2": -0.00017731044321494995,
+            "new_to_old_scale": 0.9925882363368846
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 20.27053451538086,
+              "local_mad_sigma_njy": 1.5225940715789794,
+              "control_median_njy": -0.06119823455810547,
+              "control_count": 305
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 24.091733932495117,
+              "local_mad_sigma_njy": 2.501394042778015,
+              "control_median_njy": -0.18332576751708984,
+              "control_count": 305
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 27.822158813476562,
+              "local_mad_sigma_njy": 3.5573755308151243,
+              "control_median_njy": 0.15701007843017578,
+              "control_count": 305
+            }
+          ],
+          "core_sign": 1,
+          "core": {
+            "amplitude_njy_per_pixel": 5.005693247049401,
+            "offset_xy_arcsec": [
+              0.03559358887532425,
+              0.015694034757491614
+            ],
+            "core_sigma_arcsec": 0.05218373322286794,
+            "background_njy_per_pixel": 0.6696976901475695,
+            "icrs_deg": [
+              53.18865985993454,
+              -27.812545643801457
+            ]
+          }
+        },
+        "november_2026_minus_2025": {
+          "alignment": {
+            "reference_count": 18,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  11.668430623399281,
+                  -6.042671565623892
+                ],
+                "old_njy": 2070.91162109375,
+                "new_njy": 2166.669677734375,
+                "new_to_old": 1.046239566993231,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0015487233162175557,
+                  0.023319112351750812
+                ],
+                "new_minus_old_variance_arcsec2": 0.00016362008801379477
+              },
+              {
+                "offset_arcsec": [
+                  -3.6183070384760954,
+                  -4.469961929628483
+                ],
+                "old_njy": 79.94065856933594,
+                "new_njy": 83.47270965576172,
+                "new_to_old": 1.0441834124166276,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009927388247266591,
+                  0.025278933533440434
+                ],
+                "new_minus_old_variance_arcsec2": -0.006046003569474514
+              },
+              {
+                "offset_arcsec": [
+                  3.049981818144439,
+                  -4.0296032315497685
+                ],
+                "old_njy": 86.07635498046875,
+                "new_njy": 89.3455581665039,
+                "new_to_old": 1.0379802698055345,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00453994757354338,
+                  0.027350169024344537
+                ],
+                "new_minus_old_variance_arcsec2": 9.24672437292327e-05
+              },
+              {
+                "offset_arcsec": [
+                  4.24524114150095,
+                  -3.2117942208321555
+                ],
+                "old_njy": 116.46734619140625,
+                "new_njy": 133.39479064941406,
+                "new_to_old": 1.1453406900006866,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005850340114222939,
+                  0.028458156777752448
+                ],
+                "new_minus_old_variance_arcsec2": -0.001220629910766522
+              },
+              {
+                "offset_arcsec": [
+                  -5.883008914309484,
+                  -3.0230690645127067
+                ],
+                "old_njy": 105.3681411743164,
+                "new_njy": 99.15542602539062,
+                "new_to_old": 0.9410380113031723,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0035576423963106334,
+                  0.03126233165377763
+                ],
+                "new_minus_old_variance_arcsec2": 0.0011693211904044553
+              },
+              {
+                "offset_arcsec": [
+                  -5.694283757990035,
+                  -0.06637494884133757
+                ],
+                "old_njy": 306.7325134277344,
+                "new_njy": 298.8030090332031,
+                "new_to_old": 0.9741484712333913,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0018397133647494839,
+                  0.027371699017041125
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005531969363263695
+              },
+              {
+                "offset_arcsec": [
+                  3.1128902035842554,
+                  0.5627089055568261
+                ],
+                "old_njy": 112.40531921386719,
+                "new_njy": 113.18344116210938,
+                "new_to_old": 1.0069224655352982,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006491078868490563,
+                  0.03164047884874856
+                ],
+                "new_minus_old_variance_arcsec2": 0.0003464259273559655
+              },
+              {
+                "offset_arcsec": [
+                  7.453568798931585,
+                  2.072510156112419
+                ],
+                "old_njy": 1067.5108642578125,
+                "new_njy": 1077.88330078125,
+                "new_to_old": 1.009716469284506,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0013813826101722673,
+                  0.02535187367872059
+                ],
+                "new_minus_old_variance_arcsec2": 0.0004929395960763562
+              },
+              {
+                "offset_arcsec": [
+                  0.5336464005517846,
+                  2.2612353124318676
+                ],
+                "old_njy": 122.91468811035156,
+                "new_njy": 128.46340942382812,
+                "new_to_old": 1.0451428661519686,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -9.891036645702251e-06,
+                  0.02415117146498277
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005593288043670413
+              },
+              {
+                "offset_arcsec": [
+                  -8.839703029980853,
+                  2.512868854191133
+                ],
+                "old_njy": 107.98429107666016,
+                "new_njy": 112.67789459228516,
+                "new_to_old": 1.0434656140150322,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0016489707120304238,
+                  0.026822391540037967
+                ],
+                "new_minus_old_variance_arcsec2": 6.426752858562125e-05
+              },
+              {
+                "offset_arcsec": [
+                  1.288547025829581,
+                  3.9597617193069095
+                ],
+                "old_njy": 1889.447265625,
+                "new_njy": 1996.70166015625,
+                "new_to_old": 1.056764957923169,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00015795323067329466,
+                  0.026293614815984707
+                ],
+                "new_minus_old_variance_arcsec2": -0.0013095866796061827
+              },
+              {
+                "offset_arcsec": [
+                  3.3016153599037046,
+                  4.337212031945808
+                ],
+                "old_njy": 328.0989685058594,
+                "new_njy": 339.21795654296875,
+                "new_to_old": 1.0338891282948695,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.005964203787844572,
+                  0.027932093090738845
+                ],
+                "new_minus_old_variance_arcsec2": -0.0011386547221584045
+              },
+              {
+                "offset_arcsec": [
+                  -4.876474747272423,
+                  5.721196511621768
+                ],
+                "old_njy": 90.15699768066406,
+                "new_njy": 85.4148941040039,
+                "new_to_old": 0.9474017136921897,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0049161258445604514,
+                  0.029648647953956025
+                ],
+                "new_minus_old_variance_arcsec2": 0.0038523516685554596
+              },
+              {
+                "offset_arcsec": [
+                  1.9176308802277446,
+                  6.413188751459748
+                ],
+                "old_njy": 117.93209838867188,
+                "new_njy": 124.45719146728516,
+                "new_to_old": 1.0553292374829826,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006486523256312798,
+                  0.02631974495126408
+                ],
+                "new_minus_old_variance_arcsec2": 0.0012516052118319784
+              },
+              {
+                "offset_arcsec": [
+                  -0.5357961519250936,
+                  7.92299000201534
+                ],
+                "old_njy": 176.8012237548828,
+                "new_njy": 177.8987579345703,
+                "new_to_old": 1.006207729541562,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003988381919787491,
+                  0.026170061347329084
+                ],
+                "new_minus_old_variance_arcsec2": 0.0008312749670260026
+              },
+              {
+                "offset_arcsec": [
+                  -6.952451466786362,
+                  9.181157710811668
+                ],
+                "old_njy": 86.15547180175781,
+                "new_njy": 89.8023681640625,
+                "new_to_old": 1.0423292483464792,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0032438306854942617,
+                  0.03659028379890081
+                ],
+                "new_minus_old_variance_arcsec2": -0.0019333081690400093
+              },
+              {
+                "offset_arcsec": [
+                  0.8481883277508664,
+                  11.068409274006159
+                ],
+                "old_njy": 448.39410400390625,
+                "new_njy": 464.5972595214844,
+                "new_to_old": 1.0361359691684013,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004379000400496861,
+                  0.027169294213835717
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005931471195947512
+              },
+              {
+                "offset_arcsec": [
+                  -3.1150399549575645,
+                  12.389485368242301
+                ],
+                "old_njy": 2443.27685546875,
+                "new_njy": 2559.17822265625,
+                "new_to_old": 1.0474368538825551,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0005999495102358638,
+                  0.028044277752424348
+                ],
+                "new_minus_old_variance_arcsec2": -0.0008286799919637556
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.003773012158049062,
+              0.02725973161909013
+            ],
+            "held_out_reference_radius68_arcsec": 0.004449506965845922,
+            "matched_variance_arcsec2": 0.00012804366587151374,
+            "new_to_old_scale": 1.0423292483464792
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 2.5508508682250977,
+              "local_mad_sigma_njy": 1.6569473442077636,
+              "control_median_njy": -0.004726409912109375,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 2.799004554748535,
+              "local_mad_sigma_njy": 2.761443170928955,
+              "control_median_njy": 0.09655475616455078,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 4.129834175109863,
+              "local_mad_sigma_njy": 3.8472561982154843,
+              "control_median_njy": 0.3840298652648926,
+              "control_count": 329
+            }
+          ],
+          "core_sign": 1,
+          "core": {
+            "amplitude_njy_per_pixel": 24.54232588207041,
+            "offset_xy_arcsec": [
+              -0.006065120077387287,
+              0.028125337328493715
+            ],
+            "core_sigma_arcsec": 0.016230699447505433,
+            "background_njy_per_pixel": -0.649539993733634,
+            "icrs_deg": [
+              53.1886632346912,
+              -27.81253394241126
+            ]
+          }
+        },
+        "november_minus_october_2026": {
+          "alignment": {
+            "reference_count": 14,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  2.946745266864417,
+                  -4.1536417021567615
+                ],
+                "old_njy": 83.89533996582031,
+                "new_njy": 85.4947738647461,
+                "new_to_old": 1.0190646333822284,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008235812878234928,
+                  0.04118286364604697
+                ],
+                "new_minus_old_variance_arcsec2": 7.161129615922135e-05
+              },
+              {
+                "offset_arcsec": [
+                  -5.98621244903752,
+                  -2.832570490650137
+                ],
+                "old_njy": 98.71662902832031,
+                "new_njy": 98.79353332519531,
+                "new_to_old": 1.0007790409542139,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009420482503698313,
+                  0.051897308875213766
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005223411671675402
+              },
+              {
+                "offset_arcsec": [
+                  -5.671671684393085,
+                  0.12411269700754637
+                ],
+                "old_njy": 297.1693420410156,
+                "new_njy": 300.1898193359375,
+                "new_to_old": 1.0101641618687065,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002915298876910357,
+                  0.046454210071797813
+                ],
+                "new_minus_old_variance_arcsec2": -4.6874485431963424e-05
+              },
+              {
+                "offset_arcsec": [
+                  3.1354697256510775,
+                  0.43865346165198077
+                ],
+                "old_njy": 114.39319610595703,
+                "new_njy": 113.68425750732422,
+                "new_to_old": 0.993802615690743,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007558256206318562,
+                  0.051265794305097076
+                ],
+                "new_minus_old_variance_arcsec2": 0.0011185526729683634
+              },
+              {
+                "offset_arcsec": [
+                  7.539040430673159,
+                  1.822632826087492
+                ],
+                "old_njy": 1101.8826904296875,
+                "new_njy": 1076.03857421875,
+                "new_to_old": 0.9765454921513838,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0029762890719639036,
+                  0.04428278037008033
+                ],
+                "new_minus_old_variance_arcsec2": 0.001921359457285313
+              },
+              {
+                "offset_arcsec": [
+                  0.6191436084956026,
+                  2.2000817436608133
+                ],
+                "old_njy": 130.0628662109375,
+                "new_njy": 129.3804473876953,
+                "new_to_old": 0.9947531617353762,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004771125751277002,
+                  0.04998142538124592
+                ],
+                "new_minus_old_variance_arcsec2": -0.0007547403782966824
+              },
+              {
+                "offset_arcsec": [
+                  -8.754171177908542,
+                  2.7033469670919086
+                ],
+                "old_njy": 119.77558898925781,
+                "new_njy": 117.47999572753906,
+                "new_to_old": 0.980834214374645,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.007631386729461202,
+                  0.05584009783119483
+                ],
+                "new_minus_old_variance_arcsec2": -0.002369324616368294
+              },
+              {
+                "offset_arcsec": [
+                  1.436949596571132,
+                  3.898601872740759
+                ],
+                "old_njy": 1893.5902099609375,
+                "new_njy": 1996.929931640625,
+                "new_to_old": 1.0545734347041325,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002082983293588605,
+                  0.045721383795043494
+                ],
+                "new_minus_old_variance_arcsec2": -0.0010845074987896938
+              },
+              {
+                "offset_arcsec": [
+                  3.450010490295512,
+                  4.150234484456306
+                ],
+                "old_njy": 339.8240661621094,
+                "new_njy": 336.4245300292969,
+                "new_to_old": 0.9899961878179905,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.006382450692869487,
+                  0.050366332362507975
+                ],
+                "new_minus_old_variance_arcsec2": -0.001382591307241646
+              },
+              {
+                "offset_arcsec": [
+                  -4.665141237530896,
+                  5.911662766465139
+                ],
+                "old_njy": 96.45622253417969,
+                "new_njy": 89.22409057617188,
+                "new_to_old": 0.9250216132458943,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.004196927811333878,
+                  0.05565037153363877
+                ],
+                "new_minus_old_variance_arcsec2": -0.002182449691422058
+              },
+              {
+                "offset_arcsec": [
+                  2.1289392787888874,
+                  6.352019836967347
+                ],
+                "old_njy": 114.91885375976562,
+                "new_njy": 124.10079193115234,
+                "new_to_old": 1.0798993191367996,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.008508397634835602,
+                  0.042987311471346414
+                ],
+                "new_minus_old_variance_arcsec2": 0.0019486992542751842
+              },
+              {
+                "offset_arcsec": [
+                  -0.26157053250881374,
+                  7.924723660189519
+                ],
+                "old_njy": 171.03256225585938,
+                "new_njy": 175.4204559326172,
+                "new_to_old": 1.0256553115902787,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.003997038027865343,
+                  0.04015402200591418
+                ],
+                "new_minus_old_variance_arcsec2": 0.00015238304581846607
+              },
+              {
+                "offset_arcsec": [
+                  1.1853169848555845,
+                  11.007223153704976
+                ],
+                "old_njy": 441.59625244140625,
+                "new_njy": 448.5409851074219,
+                "new_to_old": 1.0157264302575508,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.009795812016430133,
+                  0.045883943549566056
+                ],
+                "new_minus_old_variance_arcsec2": 0.00487954048202105
+              },
+              {
+                "offset_arcsec": [
+                  -2.714988496735402,
+                  12.454110671069374
+                ],
+                "old_njy": 2494.39599609375,
+                "new_njy": 2532.101806640625,
+                "new_to_old": 1.0151162087358714,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.002628009327050163,
+                  0.04717176620404287
+                ],
+                "new_minus_old_variance_arcsec2": -0.0001911511931759046
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.005576788222073244,
+              0.04681298813792034
+            ],
+            "held_out_reference_radius68_arcsec": 0.006709533806987767,
+            "matched_variance_arcsec2": 1.2368405363628963e-05,
+            "new_to_old_scale": 1.0126401853022888
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -15.589778900146484,
+              "local_mad_sigma_njy": 1.3884444030761718,
+              "control_median_njy": 0.02918720245361328,
+              "control_count": 305
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -19.63189697265625,
+              "local_mad_sigma_njy": 2.3923230297088622,
+              "control_median_njy": 0.1709461212158203,
+              "control_count": 305
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -21.70989227294922,
+              "local_mad_sigma_njy": 3.677152020549774,
+              "control_median_njy": 0.02958536148071289,
+              "control_count": 305
+            }
+          ],
+          "core_sign": -1,
+          "core": {
+            "amplitude_njy_per_pixel": 4.981306011626666,
+            "offset_xy_arcsec": [
+              0.04482623702559236,
+              -0.004818664881992293
+            ],
+            "core_sigma_arcsec": 0.047313984705194226,
+            "background_njy_per_pixel": 0.9792071646594923,
+            "icrs_deg": [
+              53.18866347741996,
+              -27.812550593724005
+            ]
+          }
+        }
+      }
+    },
+    "F356W": {
+      "rise_fade_core_separation_arcsec": null,
+      "direct_apertures": {
+        "Oct 2025": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 35.01633071899414,
+            "local_mad_sigma_njy": 0.8642196284294128,
+            "control_median_njy": 0.07619047164916992,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 55.47594451904297,
+            "local_mad_sigma_njy": 1.5899955207824705,
+            "control_median_njy": 0.07619857788085938,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 67.04098510742188,
+            "local_mad_sigma_njy": 2.609162130832672,
+            "control_median_njy": 0.1937103271484375,
+            "control_count": 329
+          }
+        ],
+        "Oct 2026": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 54.99212646484375,
+            "local_mad_sigma_njy": 1.104921415901184,
+            "control_median_njy": -0.011475563049316406,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 76.57170867919922,
+            "local_mad_sigma_njy": 1.8768907012939453,
+            "control_median_njy": -0.0002117156982421875,
+            "control_count": 305
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 91.23265838623047,
+            "local_mad_sigma_njy": 3.1006236082077026,
+            "control_median_njy": 0.02661609649658203,
+            "control_count": 305
+          }
+        ],
+        "Nov 2026": [
+          {
+            "radius_arcsec": 0.12,
+            "flux_njy": 37.52482986450195,
+            "local_mad_sigma_njy": 1.1291184937477112,
+            "control_median_njy": 0.11418724060058594,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.18,
+            "flux_njy": 56.46333312988281,
+            "local_mad_sigma_njy": 2.1196723614692687,
+            "control_median_njy": 0.2096700668334961,
+            "control_count": 329
+          },
+          {
+            "radius_arcsec": 0.24,
+            "flux_njy": 69.1126480102539,
+            "local_mad_sigma_njy": 3.2164913228988645,
+            "control_median_njy": 0.2773714065551758,
+            "control_count": 329
+          }
+        ]
+      },
+      "matched_differences": {
+        "october_2026_minus_2025": {
+          "alignment": {
+            "reference_count": 12,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  3.065916227913209,
+                  -4.0299857630143086
+                ],
+                "old_njy": 82.86880493164062,
+                "new_njy": 82.72065734863281,
+                "new_to_old": 0.9982122635516463,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.015956238098084552,
+                  0.0015523354104585198
+                ],
+                "new_minus_old_variance_arcsec2": -0.0006033168986918436
+              },
+              {
+                "offset_arcsec": [
+                  4.261168881271983,
+                  -3.212181315979358
+                ],
+                "old_njy": 117.45679473876953,
+                "new_njy": 117.80084228515625,
+                "new_to_old": 1.0029291412825618,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.01730189374438661,
+                  0.0024225662677392758
+                ],
+                "new_minus_old_variance_arcsec2": -0.0012819038517112337
+              },
+              {
+                "offset_arcsec": [
+                  -5.678300551922031,
+                  -0.06677959661416355
+                ],
+                "old_njy": 298.68658447265625,
+                "new_njy": 294.82904052734375,
+                "new_to_old": 0.9870849775455327,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.01399260781075646,
+                  -0.0033837293401835803
+                ],
+                "new_minus_old_variance_arcsec2": 0.0002658126593069344
+              },
+              {
+                "offset_arcsec": [
+                  3.1288242623005127,
+                  0.5623007472588754
+                ],
+                "old_njy": 75.35269927978516,
+                "new_njy": 73.08206939697266,
+                "new_to_old": 0.9698666417458831,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.012422107507401551,
+                  0.002572194409562273
+                ],
+                "new_minus_old_variance_arcsec2": 0.0014457761317618698
+              },
+              {
+                "offset_arcsec": [
+                  7.469478635024481,
+                  2.0720935725541687
+                ],
+                "old_njy": 1259.761962890625,
+                "new_njy": 1269.744873046875,
+                "new_to_old": 1.0079244416408186,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.014950568440030208,
+                  -0.001821607223577694
+                ],
+                "new_minus_old_variance_arcsec2": 0.0007419151701753435
+              },
+              {
+                "offset_arcsec": [
+                  0.5495948524210535,
+                  2.2608176757160803
+                ],
+                "old_njy": 80.34552001953125,
+                "new_njy": 79.96452331542969,
+                "new_to_old": 0.9952580218037179,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.012888355399845671,
+                  -0.004406325775851774
+                ],
+                "new_minus_old_variance_arcsec2": 0.0011296111941616217
+              },
+              {
+                "offset_arcsec": [
+                  1.3044912650687002,
+                  3.896426569785981
+                ],
+                "old_njy": 2010.0010986328125,
+                "new_njy": 2001.0263671875,
+                "new_to_old": 0.9955349619204601,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.015201755906681803,
+                  -0.0032018287049877525
+                ],
+                "new_minus_old_variance_arcsec2": 0.000987485483205302
+              },
+              {
+                "offset_arcsec": [
+                  3.254640331075121,
+                  4.273874776109804
+                ],
+                "old_njy": 330.5481262207031,
+                "new_njy": 325.75335693359375,
+                "new_to_old": 0.9854944895863426,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.015975484926787756,
+                  -0.0029239131773679547
+                ],
+                "new_minus_old_variance_arcsec2": 0.0008802041147866532
+              },
+              {
+                "offset_arcsec": [
+                  1.870663574554435,
+                  6.412747945278136
+                ],
+                "old_njy": 112.42539978027344,
+                "new_njy": 112.98410034179688,
+                "new_to_old": 1.0049695225688802,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.012980867583154303,
+                  -0.005883126538672418
+                ],
+                "new_minus_old_variance_arcsec2": 0.0004247191429473957
+              },
+              {
+                "offset_arcsec": [
+                  -0.5198417321631125,
+                  7.92254077057343
+                ],
+                "old_njy": 178.05569458007812,
+                "new_njy": 178.6032257080078,
+                "new_to_old": 1.0030750554157841,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.015069328083082614,
+                  -0.0036679048825174537
+                ],
+                "new_minus_old_variance_arcsec2": 0.00045306179366764836
+              },
+              {
+                "offset_arcsec": [
+                  0.8641350243575731,
+                  11.00503445555132
+                ],
+                "old_njy": 282.4928283691406,
+                "new_njy": 292.51019287109375,
+                "new_to_old": 1.0354605975655538,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.013839737509546276,
+                  0.0037319645906484025
+                ],
+                "new_minus_old_variance_arcsec2": 0.0014286176324560893
+              },
+              {
+                "offset_arcsec": [
+                  -3.099071142042572,
+                  12.389011212072006
+                ],
+                "old_njy": 3627.23046875,
+                "new_njy": 3734.86474609375,
+                "new_to_old": 1.0296739560033643,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.011939431006029956,
+                  -0.004891628939826753
+                ],
+                "new_minus_old_variance_arcsec2": -0.000801717098029401
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              0.014471588125393333,
+              -0.0030628709411778536
+            ],
+            "held_out_reference_radius68_arcsec": 0.004339460791443812,
+            "matched_variance_arcsec2": 0.000597488481921496,
+            "new_to_old_scale": 1.000570702417104
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": 15.231550216674805,
+              "local_mad_sigma_njy": 1.0794496913909912,
+              "control_median_njy": -0.12200927734375,
+              "control_count": 305
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 21.20334243774414,
+              "local_mad_sigma_njy": 2.264174027252197,
+              "control_median_njy": -0.22582626342773438,
+              "control_count": 305
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 24.41853141784668,
+              "local_mad_sigma_njy": 3.4683460919380185,
+              "control_median_njy": -0.11510944366455078,
+              "control_count": 305
+            }
+          ],
+          "core_sign": 1,
+          "core": null
+        },
+        "november_2026_minus_2025": {
+          "alignment": {
+            "reference_count": 13,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  11.684316938973842,
+                  -6.043042863408033
+                ],
+                "old_njy": 2406.216796875,
+                "new_njy": 2431.31201171875,
+                "new_to_old": 1.0104293241059332,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.002294895128577284,
+                  0.01958318952970791
+                ],
+                "new_minus_old_variance_arcsec2": 0.000423315848784335
+              },
+              {
+                "offset_arcsec": [
+                  3.065916227913209,
+                  -4.0299857630143086
+                ],
+                "old_njy": 82.86880493164062,
+                "new_njy": 81.84162902832031,
+                "new_to_old": 0.9876047940576959,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0008132387740274229,
+                  0.017376928442342395
+                ],
+                "new_minus_old_variance_arcsec2": -0.0010801331273538025
+              },
+              {
+                "offset_arcsec": [
+                  4.261168881271983,
+                  -3.212181315979358
+                ],
+                "old_njy": 117.45679473876953,
+                "new_njy": 124.7022476196289,
+                "new_to_old": 1.061686111024685,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.003879054091139684,
+                  0.019899490405190786
+                ],
+                "new_minus_old_variance_arcsec2": -0.0012879412932200697
+              },
+              {
+                "offset_arcsec": [
+                  -5.678300551922031,
+                  -0.06677959661416355
+                ],
+                "old_njy": 298.68658447265625,
+                "new_njy": 297.7489013671875,
+                "new_to_old": 0.9968606453914752,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0008603167007038273,
+                  0.021146897466708503
+                ],
+                "new_minus_old_variance_arcsec2": 0.0005363827371028329
+              },
+              {
+                "offset_arcsec": [
+                  3.1288242623005127,
+                  0.5623007472588754
+                ],
+                "old_njy": 75.35269927978516,
+                "new_njy": 79.4830551147461,
+                "new_to_old": 1.0548136413750075,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0020050941904424056,
+                  0.024575308590437973
+                ],
+                "new_minus_old_variance_arcsec2": -0.0009248547203472429
+              },
+              {
+                "offset_arcsec": [
+                  7.469478635024481,
+                  2.0720935725541687
+                ],
+                "old_njy": 1259.761962890625,
+                "new_njy": 1251.58056640625,
+                "new_to_old": 0.9935056012759726,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0033217820924808655,
+                  0.02060104455434395
+                ],
+                "new_minus_old_variance_arcsec2": 0.0003276212993693732
+              },
+              {
+                "offset_arcsec": [
+                  0.5495948524210535,
+                  2.2608176757160803
+                ],
+                "old_njy": 80.34552001953125,
+                "new_njy": 84.8766098022461,
+                "new_to_old": 1.0563950520404046,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.005467319753593981,
+                  0.02052255310400469
+                ],
+                "new_minus_old_variance_arcsec2": -0.0015072733297696959
+              },
+              {
+                "offset_arcsec": [
+                  1.3044912650687002,
+                  3.896426569785981
+                ],
+                "old_njy": 2010.0010986328125,
+                "new_njy": 1992.3397216796875,
+                "new_to_old": 0.9912132500996451,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0021597018470495936,
+                  0.021140572715016327
+                ],
+                "new_minus_old_variance_arcsec2": -0.00037225808706721486
+              },
+              {
+                "offset_arcsec": [
+                  3.254640331075121,
+                  4.273874776109804
+                ],
+                "old_njy": 330.5481262207031,
+                "new_njy": 335.5882568359375,
+                "new_to_old": 1.0152477966608382,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0017632929801362149,
+                  0.022899232361300953
+                ],
+                "new_minus_old_variance_arcsec2": 8.18495067010927e-05
+              },
+              {
+                "offset_arcsec": [
+                  1.870663574554435,
+                  6.412747945278136
+                ],
+                "old_njy": 112.42539978027344,
+                "new_njy": 117.42949676513672,
+                "new_to_old": 1.0445103775004883,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0004207635063044725,
+                  0.022149810589418804
+                ],
+                "new_minus_old_variance_arcsec2": -0.002262786339273886
+              },
+              {
+                "offset_arcsec": [
+                  -0.5198417321631125,
+                  7.92254077057343
+                ],
+                "old_njy": 178.05569458007812,
+                "new_njy": 180.57232666015625,
+                "new_to_old": 1.0141339600848671,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.0009835956367382666,
+                  0.019517394496029933
+                ],
+                "new_minus_old_variance_arcsec2": -0.0004705488712897785
+              },
+              {
+                "offset_arcsec": [
+                  0.8641350243575731,
+                  11.00503445555132
+                ],
+                "old_njy": 282.4928283691406,
+                "new_njy": 283.67083740234375,
+                "new_to_old": 1.004170049342505,
+                "new_minus_old_centroid_xy_arcsec": [
+                  0.00494424755581533,
+                  0.018087595065677364
+                ],
+                "new_minus_old_variance_arcsec2": -0.00019070712808720407
+              },
+              {
+                "offset_arcsec": [
+                  -3.099071142042572,
+                  12.389011212072006
+                ],
+                "old_njy": 3627.23046875,
+                "new_njy": 3729.967529296875,
+                "new_to_old": 1.0283238303802293,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.0035129157602564118,
+                  0.018133273281666737
+                ],
+                "new_minus_old_variance_arcsec2": -0.00048046834554854936
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.0017632929801362149,
+              0.02052255310400469
+            ],
+            "held_out_reference_radius68_arcsec": 0.0032948661510838594,
+            "matched_variance_arcsec2": -0.0004705488712897785,
+            "new_to_old_scale": 1.0141339600848671
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -0.20885181427001953,
+              "local_mad_sigma_njy": 1.1867561353683471,
+              "control_median_njy": 0.007721900939941406,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": 0.4718761444091797,
+              "local_mad_sigma_njy": 2.0922557933807373,
+              "control_median_njy": 0.13196468353271484,
+              "control_count": 329
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": 1.0428266525268555,
+              "local_mad_sigma_njy": 3.741710081577301,
+              "control_median_njy": 0.006393909454345703,
+              "control_count": 329
+            }
+          ],
+          "core_sign": 1,
+          "core": null
+        },
+        "november_minus_october_2026": {
+          "alignment": {
+            "reference_count": 13,
+            "reference_sources": [
+              {
+                "offset_arcsec": [
+                  2.9142970484201927,
+                  -4.137453638994958
+                ],
+                "old_njy": 82.80057525634766,
+                "new_njy": 81.72249603271484,
+                "new_to_old": 0.9869798099796394,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.016222869202548347,
+                  0.01655671132880507
+                ],
+                "new_minus_old_variance_arcsec2": -0.00041020284455670596
+              },
+              {
+                "offset_arcsec": [
+                  4.172453084099361,
+                  -3.3825600175874566
+                ],
+                "old_njy": 118.14666748046875,
+                "new_njy": 122.93363189697266,
+                "new_to_old": 1.0405171344955224,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.020792751826372437,
+                  0.017783272417275443
+                ],
+                "new_minus_old_variance_arcsec2": 0.0003358471110051116
+              },
+              {
+                "offset_arcsec": [
+                  -5.641163994198155,
+                  0.14027688231421584
+                ],
+                "old_njy": 289.8052978515625,
+                "new_njy": 291.81427001953125,
+                "new_to_old": 1.0069321443840469,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.014309834570305706,
+                  0.024772986638423297
+                ],
+                "new_minus_old_variance_arcsec2": 0.000866956714681527
+              },
+              {
+                "offset_arcsec": [
+                  7.506566578649159,
+                  1.8387875304810937
+                ],
+                "old_njy": 1262.54833984375,
+                "new_njy": 1264.76513671875,
+                "new_to_old": 1.0017558114846314,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01728953658099628,
+                  0.02278878506655206
+                ],
+                "new_minus_old_variance_arcsec2": -0.0008654528414187065
+              },
+              {
+                "offset_arcsec": [
+                  0.6496161841976891,
+                  2.2162343411848444
+                ],
+                "old_njy": 80.57723999023438,
+                "new_njy": 81.87567901611328,
+                "new_to_old": 1.0161142157020553,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.018340561140339807,
+                  0.024828040770221663
+                ],
+                "new_minus_old_variance_arcsec2": -0.0030559272702807908
+              },
+              {
+                "offset_arcsec": [
+                  -8.723646281612119,
+                  2.719496755456512
+                ],
+                "old_njy": 77.85763549804688,
+                "new_njy": 71.26030731201172,
+                "new_to_old": 0.9152642108403015,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.013734367201090378,
+                  0.033621518539545564
+                ],
+                "new_minus_old_variance_arcsec2": 0.0066400597786422134
+              },
+              {
+                "offset_arcsec": [
+                  1.4045098056051903,
+                  3.914744989351722
+                ],
+                "old_njy": 1975.428955078125,
+                "new_njy": 2019.03173828125,
+                "new_to_old": 1.0220725645895985,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.013963330558965904,
+                  0.022031170565729397
+                ],
+                "new_minus_old_variance_arcsec2": -0.0007457969451635654
+              },
+              {
+                "offset_arcsec": [
+                  3.41755946269186,
+                  4.166376196487556
+                ],
+                "old_njy": 335.634765625,
+                "new_njy": 341.3887939453125,
+                "new_to_old": 1.0171437196310629,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01700593504953661,
+                  0.02589655711712697
+                ],
+                "new_minus_old_variance_arcsec2": -0.00029433145860291964
+              },
+              {
+                "offset_arcsec": [
+                  2.0964956252287332,
+                  6.3052414571421425
+                ],
+                "old_njy": 112.60582733154297,
+                "new_njy": 113.55436706542969,
+                "new_to_old": 1.0084235403829853,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.013075586066535192,
+                  0.028145208523449275
+                ],
+                "new_minus_old_variance_arcsec2": 0.0018367056609364038
+              },
+              {
+                "offset_arcsec": [
+                  -0.29400084256168757,
+                  7.940844303525062
+                ],
+                "old_njy": 179.15505981445312,
+                "new_njy": 180.19833374023438,
+                "new_to_old": 1.005823301484545,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.013130417652461476,
+                  0.023388500592295632
+                ],
+                "new_minus_old_variance_arcsec2": -0.0005934609267197405
+              },
+              {
+                "offset_arcsec": [
+                  -6.710596624525448,
+                  9.387723744556107
+                ],
+                "old_njy": 78.89027404785156,
+                "new_njy": 83.14698791503906,
+                "new_to_old": 1.0539573973923015,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.013968485822178738,
+                  0.016413324788395037
+                ],
+                "new_minus_old_variance_arcsec2": 0.0011031055752434987
+              },
+              {
+                "offset_arcsec": [
+                  1.215786400253315,
+                  11.023326590939027
+                ],
+                "old_njy": 297.2978210449219,
+                "new_njy": 295.65283203125,
+                "new_to_old": 0.9944668648835361,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.008151808733087972,
+                  0.014935321559098989
+                ],
+                "new_minus_old_variance_arcsec2": -0.0012460624076282706
+              },
+              {
+                "offset_arcsec": [
+                  -2.6844973103521084,
+                  12.47020603197007
+                ],
+                "old_njy": 3743.475830078125,
+                "new_njy": 3720.621337890625,
+                "new_to_old": 0.9938948471354166,
+                "new_minus_old_centroid_xy_arcsec": [
+                  -0.01474678364302278,
+                  0.023647266708069034
+                ],
+                "new_minus_old_variance_arcsec2": 0.0004752143118060192
+              }
+            ],
+            "old_to_new_xy_arcsec": [
+              -0.014309834570305706,
+              0.023388500592295632
+            ],
+            "held_out_reference_radius68_arcsec": 0.007148943286851401,
+            "matched_variance_arcsec2": -0.00029433145860291964,
+            "new_to_old_scale": 1.006377722934296
+          },
+          "apertures": [
+            {
+              "radius_arcsec": 0.12,
+              "flux_njy": -15.948801040649414,
+              "local_mad_sigma_njy": 1.5262667223930357,
+              "control_median_njy": 0.01911020278930664,
+              "control_count": 305
+            },
+            {
+              "radius_arcsec": 0.18,
+              "flux_njy": -21.500511169433594,
+              "local_mad_sigma_njy": 2.6059801094055173,
+              "control_median_njy": 0.271484375,
+              "control_count": 305
+            },
+            {
+              "radius_arcsec": 0.24,
+              "flux_njy": -24.51239776611328,
+              "local_mad_sigma_njy": 3.6942681993484494,
+              "control_median_njy": 0.5228767395019531,
+              "control_count": 305
+            }
+          ],
+          "core_sign": -1,
+          "core": null
+        }
+      }
+    }
+  },
+  "previous_comparison_sha256": "1115e8f8149d9d1c7c49b82216221fd6f08ba771dd1522d7fc6ca65cdbf7a695",
+  "script_sha256": "f8b7925a531451c5dd7085eaaefb9c719620cd17adcbba476df6339b542c1aed",
+  "storage_cap_mib": 25500,
+  "cutout_reader_sha256": "8b6b28ced66853331b80c7f6a71ce9b343aa18e5b0b7c3b279be09c7ae9cfb76",
+  "pair_registration_sha256": "b1ad10426f45e18be1f85cfd43a59a0aa57d46810ecc89efefe74950f420faa3",
+  "scope": "Four released filters of public GO 12577 observation 004. Identical fixed sky position across epochs with local registration and PSF matching. Error estimates are local aperture scatter, with shared data across comparisons."
+}

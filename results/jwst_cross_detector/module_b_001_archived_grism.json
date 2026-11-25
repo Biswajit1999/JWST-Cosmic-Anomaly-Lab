@@ -1,0 +1,524 @@
+{
+  "executed_utc": "2026-11-24T20:44:37.598526+00:00",
+  "candidate": "GS-001-B-53.188670-27.812539",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "covering_exposure_listing": {
+    "url": "https://grizli-cutout.herokuapp.com/exposures?ra=53.18866983298658&dec=-27.812539402767552&arcmin=0.013&output=csv",
+    "path": "data/raw/cross_detector/module_b_001_release_dawn_20261124T203629Z.csv",
+    "sha256": "74976587f588822a7ee76f07e69b940cede30b1441209d600e90d2188319f36e"
+  },
+  "release_sha256": "755daa481864dc19a3bc984b79ce027040ceaf6236a3a92fccf1c21b17cee8e2",
+  "match_radius_arcsec": 0.2,
+  "products": [
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00001_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw01895001008_03101_00001_nrcalong_x1d.fits",
+        "sha256": "ff849c2933927cc5201ae5da995e525e3546d03421c0dac20c0fd12c3ca4c881",
+        "bytes": 19607040
+      },
+      "visit": "jw01895001008",
+      "filter": "F444W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 59901.84307148148,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 2675,
+            "distance_arcsec": 4.1050309468744475,
+            "icrs_deg": [
+              53.18740910621214,
+              -27.812301005975595
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00002_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw01895001008_03101_00002_nrcalong_x1d.fits",
+        "sha256": "3552e4823ec86690dcd9ed719c09f8f886312192957c4f599df9bd17f7901791",
+        "bytes": 19607040
+      },
+      "visit": "jw01895001008",
+      "filter": "F444W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 59901.85425591435,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 2675,
+            "distance_arcsec": 4.1050309468744475,
+            "icrs_deg": [
+              53.18740910621214,
+              -27.812301005975595
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00003_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw01895001008_03101_00003_nrcalong_x1d.fits",
+        "sha256": "2628f822ee11420c3a2e02b43487144e5f5c82c01f3de89733537e99d2f1a47b",
+        "bytes": 19578240
+      },
+      "visit": "jw01895001008",
+      "filter": "F444W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 59901.86543960648,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 2675,
+            "distance_arcsec": 4.1050309468744475,
+            "icrs_deg": [
+              53.18740910621214,
+              -27.812301005975595
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00004_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw01895001008_03101_00004_nrcalong_x1d.fits",
+        "sha256": "e9d3cf190e88913e4a53f5f557c1d9a7ff89e46522f79a28082ca583411435e1",
+        "bytes": 19578240
+      },
+      "visit": "jw01895001008",
+      "filter": "F444W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 59901.87662403935,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 2675,
+            "distance_arcsec": 4.1050309468744475,
+            "icrs_deg": [
+              53.18740910621214,
+              -27.812301005975595
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00001_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw01895001008_03103_00001_nrcalong_x1d.fits",
+        "sha256": "3e8d5a1d16a8f31a92bd743985995d908e6b9eacb7f224175099a50fc5d39f53",
+        "bytes": 19607040
+      },
+      "visit": "jw01895001008",
+      "filter": "F444W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 59901.88967217592,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 2675,
+            "distance_arcsec": 4.1050309468744475,
+            "icrs_deg": [
+              53.18740910621214,
+              -27.812301005975595
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00002_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw01895001008_03103_00002_nrcalong_x1d.fits",
+        "sha256": "9ade76657062bfb23452795f6022da95a03e18252ab02ce6db3f3df4a7c17ca0",
+        "bytes": 19607040
+      },
+      "visit": "jw01895001008",
+      "filter": "F444W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 59901.900856608794,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 2675,
+            "distance_arcsec": 4.1050309468744475,
+            "icrs_deg": [
+              53.18740910621214,
+              -27.812301005975595
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00003_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw01895001008_03103_00003_nrcalong_x1d.fits",
+        "sha256": "0ea90578280e773a7705f99553217185102b73500f89ab5053cc081a3cc9963f",
+        "bytes": 19578240
+      },
+      "visit": "jw01895001008",
+      "filter": "F444W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 59901.91204030093,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 2675,
+            "distance_arcsec": 4.1050309468744475,
+            "icrs_deg": [
+              53.18740910621214,
+              -27.812301005975595
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00004_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw01895001008_03103_00004_nrcalong_x1d.fits",
+        "sha256": "e2ae01b9b427dc0c73f650fa88b33b393191805b1c2542851321c673960e5f13",
+        "bytes": 19578240
+      },
+      "visit": "jw01895001008",
+      "filter": "F444W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 59901.92322473379,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 2675,
+            "distance_arcsec": 4.1050309468744475,
+            "icrs_deg": [
+              53.18740910621214,
+              -27.812301005975595
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00001_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549003001_02101_00001_nrcalong_x1d.fits",
+        "sha256": "3527058d92b4f5073cb436d70aec7167ec3a8f45ea7c43630036007fa3826c02",
+        "bytes": 15670080
+      },
+      "visit": "jw04549003001",
+      "filter": "F356W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60948.65076804398,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 123,
+            "distance_arcsec": 4.087180744104953,
+            "icrs_deg": [
+              53.18741173468509,
+              -27.81231417138992
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00002_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549003001_02101_00002_nrcalong_x1d.fits",
+        "sha256": "e7f14e678c41b9d543159fd7ca4076775ffe5bb4b060636e6819e7a7d2c87997",
+        "bytes": 15684480
+      },
+      "visit": "jw04549003001",
+      "filter": "F356W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60948.66518210648,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 123,
+            "distance_arcsec": 4.087180744104953,
+            "icrs_deg": [
+              53.18741173468509,
+              -27.81231417138992
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00003_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549003001_02101_00003_nrcalong_x1d.fits",
+        "sha256": "226b1211b27a74d578ef1b80d561cdfd412904f80584af68e0d588021af49038",
+        "bytes": 15822720
+      },
+      "visit": "jw04549003001",
+      "filter": "F356W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60948.67972209491,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 123,
+            "distance_arcsec": 4.087180744104953,
+            "icrs_deg": [
+              53.18741173468509,
+              -27.81231417138992
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00004_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549003001_02101_00004_nrcalong_x1d.fits",
+        "sha256": "7c14d3342364bf0095965c872bf259cc9e68455d828bd62ec406e24ece189e10",
+        "bytes": 15822720
+      },
+      "visit": "jw04549003001",
+      "filter": "F356W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60948.69426133102,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 123,
+            "distance_arcsec": 4.087180744104953,
+            "icrs_deg": [
+              53.18741173468509,
+              -27.81231417138992
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00005_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549003001_02101_00005_nrcalong_x1d.fits",
+        "sha256": "dc7e8e02d9f986ed5f6fd7b034af316b2bdb4b27d8fd731dbd2c4b720ca9f45e",
+        "bytes": 16076160
+      },
+      "visit": "jw04549003001",
+      "filter": "F356W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60948.7088005787,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 123,
+            "distance_arcsec": 4.087180744104953,
+            "icrs_deg": [
+              53.18741173468509,
+              -27.81231417138992
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00006_nrcalong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549003001_02101_00006_nrcalong_x1d.fits",
+        "sha256": "c7d0cd3a1dd613a6840341d8d930901547d70f70dd970da6903aa2987995fae3",
+        "bytes": 16090560
+      },
+      "visit": "jw04549003001",
+      "filter": "F356W",
+      "detector": "NRCALONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60948.72333982639,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 123,
+            "distance_arcsec": 4.087180744104953,
+            "icrs_deg": [
+              53.18741173468509,
+              -27.81231417138992
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00001_nrcblong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549001001_02101_00001_nrcblong_x1d.fits",
+        "sha256": "32ad227ca1a2d6448d158454bbf0eb29b33231794904f4719aa8bd12b23f8f2d",
+        "bytes": 15753600
+      },
+      "visit": "jw04549001001",
+      "filter": "F356W",
+      "detector": "NRCBLONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60953.8763406713,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 108,
+            "distance_arcsec": 4.0665074471911815,
+            "icrs_deg": [
+              53.18742029344531,
+              -27.81230592330303
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00002_nrcblong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549001001_02101_00002_nrcblong_x1d.fits",
+        "sha256": "7278cb1d4b9d482f0f00d42c688fa9d8cf5bf1936b0caeaa92c7db1691fff9b9",
+        "bytes": 15753600
+      },
+      "visit": "jw04549001001",
+      "filter": "F356W",
+      "detector": "NRCBLONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60953.890880659725,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 108,
+            "distance_arcsec": 4.0665074471911815,
+            "icrs_deg": [
+              53.18742029344531,
+              -27.81230592330303
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00003_nrcblong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549001001_02101_00003_nrcblong_x1d.fits",
+        "sha256": "34fe83d3f17eb04a5cea538cb5c91908ed43ed821b921912ddfd959242350e96",
+        "bytes": 15768000
+      },
+      "visit": "jw04549001001",
+      "filter": "F356W",
+      "detector": "NRCBLONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60953.90541990741,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 108,
+            "distance_arcsec": 4.0665074471911815,
+            "icrs_deg": [
+              53.18742029344531,
+              -27.81230592330303
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "product": {
+        "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00004_nrcblong_x1d.fits",
+        "path": "data/raw/cross_detector/jw04549001001_02101_00004_nrcblong_x1d.fits",
+        "sha256": "c2cc6089507f413546c1c6ee369542c81c79b8a3d8ac13d9f36f6cab09e71686",
+        "bytes": 15753600
+      },
+      "visit": "jw04549001001",
+      "filter": "F356W",
+      "detector": "NRCBLONG",
+      "disperser": "GRISMR",
+      "exposure_start_mjd": 60953.91995915509,
+      "orders": [
+        {
+          "order": 1,
+          "valid_positions": 100,
+          "rows_within_match_radius": 0,
+          "nearest": {
+            "source_id": 108,
+            "distance_arcsec": 4.0665074471911815,
+            "icrs_deg": [
+              53.18742029344531,
+              -27.81230592330303
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "order_position_helper_sha256": "39f2452ca4d1aac4a03aff4db607d5e4a2a6fb31fe8284c5f60a15f2e96f0e4c",
+  "script_sha256": "4e871fb5bb4ecb8327b0c3ed4c5b719e7dd42a44fefc94e250ca87c2659993aa",
+  "scope": "Tests geometric direct-image footprints and published extraction positions. Dispersed wavelength coverage, blending, detection completeness and targeted spectrum extraction remain unmeasured."
+}

@@ -1,0 +1,286 @@
+{
+  "executed_utc": "2026-11-24T20:44:08.018244+00:00",
+  "products_sha256": "339f919616663f94afbad8554390f4112e651eae1e77cf46975d69b08b9f88a2",
+  "peaks_sha256": "3aae5da52b0cbcfb55f37fa7a2a6bd84ea5fd712ec2d7865353cba52c3eed2b5",
+  "matches_sha256": "0bddab7ab002cf9dad38338142878c3bfa998718dfbe5c0c43746453d17ef1a5",
+  "ranked_peaks": 1931,
+  "common_area_arcmin2": 3.8499083333332558,
+  "observed": {
+    "pairs": 167,
+    "two_filter": 8,
+    "three_filter": 2
+  },
+  "shifted_trials": [
+    {
+      "radius_arcsec": 3.0,
+      "position_angle_deg": 0,
+      "pairs": 2,
+      "two_filter": 1,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 3.0,
+      "position_angle_deg": 45,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 3.0,
+      "position_angle_deg": 90,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 3.0,
+      "position_angle_deg": 135,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 3.0,
+      "position_angle_deg": 180,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 3.0,
+      "position_angle_deg": 225,
+      "pairs": 3,
+      "two_filter": 1,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 3.0,
+      "position_angle_deg": 270,
+      "pairs": 1,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 3.0,
+      "position_angle_deg": 315,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 6.0,
+      "position_angle_deg": 0,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 6.0,
+      "position_angle_deg": 45,
+      "pairs": 1,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 6.0,
+      "position_angle_deg": 90,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 6.0,
+      "position_angle_deg": 135,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 6.0,
+      "position_angle_deg": 180,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 6.0,
+      "position_angle_deg": 225,
+      "pairs": 2,
+      "two_filter": 1,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 6.0,
+      "position_angle_deg": 270,
+      "pairs": 1,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 6.0,
+      "position_angle_deg": 315,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 9.0,
+      "position_angle_deg": 0,
+      "pairs": 4,
+      "two_filter": 1,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 9.0,
+      "position_angle_deg": 45,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 9.0,
+      "position_angle_deg": 90,
+      "pairs": 1,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 9.0,
+      "position_angle_deg": 135,
+      "pairs": 2,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 9.0,
+      "position_angle_deg": 180,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 9.0,
+      "position_angle_deg": 225,
+      "pairs": 3,
+      "two_filter": 2,
+      "three_filter": 1
+    },
+    {
+      "radius_arcsec": 9.0,
+      "position_angle_deg": 270,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    },
+    {
+      "radius_arcsec": 9.0,
+      "position_angle_deg": 315,
+      "pairs": 0,
+      "two_filter": 0,
+      "three_filter": 0
+    }
+  ],
+  "pair_diagnostics": [
+    {
+      "background": 0.000482100994103254,
+      "flux_scale": 0.9702078607490537,
+      "derivative_x": 0.006154207377730396,
+      "derivative_y": 0.0030365498872200816,
+      "laplacian": 0.2624774304081225,
+      "fit_pixels": 395316,
+      "trial_pixels": 396149,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F444W",
+      "detector": "NRCALONG",
+      "retained_peaks": 390,
+      "field_area_arcmin2": 4.336867555555468,
+      "overlap_with_f444w_arcmin2": null
+    },
+    {
+      "background": -0.0002834159463801291,
+      "flux_scale": 0.9804891716394223,
+      "derivative_x": -0.012919248311469702,
+      "derivative_y": 0.014391590294335666,
+      "laplacian": 0.2628033703533743,
+      "fit_pixels": 390404,
+      "trial_pixels": 391771,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F356W",
+      "detector": "NRCALONG",
+      "retained_peaks": 627,
+      "field_area_arcmin2": 4.25960755555547,
+      "overlap_with_f444w_arcmin2": null
+    },
+    {
+      "background": 2.6476325965705893e-05,
+      "flux_scale": 0.9894583017038603,
+      "derivative_x": 0.03308477260746101,
+      "derivative_y": 0.00235349215493557,
+      "laplacian": 0.26679325749200483,
+      "fit_pixels": 368644,
+      "trial_pixels": 371768,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F200W",
+      "detector": "NRCA1",
+      "retained_peaks": 368,
+      "field_area_arcmin2": 1.014357333333313,
+      "overlap_with_f444w_arcmin2": 0.9358229999999811
+    },
+    {
+      "background": 0.001162535452496023,
+      "flux_scale": 0.9725150939389604,
+      "derivative_x": -0.003495228204875673,
+      "derivative_y": 0.004161235804508846,
+      "laplacian": 0.2613276249523879,
+      "fit_pixels": 361733,
+      "trial_pixels": 362173,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F200W",
+      "detector": "NRCA2",
+      "retained_peaks": 119,
+      "field_area_arcmin2": 0.9930491111110912,
+      "overlap_with_f444w_arcmin2": 0.9367981111110922
+    },
+    {
+      "background": 0.002183820599107424,
+      "flux_scale": 0.9149478562889415,
+      "derivative_x": -0.0039527870786599,
+      "derivative_y": -0.005824950012443172,
+      "laplacian": 0.24980440310910126,
+      "fit_pixels": 388967,
+      "trial_pixels": 389870,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F200W",
+      "detector": "NRCA3",
+      "retained_peaks": 220,
+      "field_area_arcmin2": 1.0647802222222007,
+      "overlap_with_f444w_arcmin2": 0.9928493333333134
+    },
+    {
+      "background": 0.0013793976046110401,
+      "flux_scale": 0.9558289580282904,
+      "derivative_x": 0.00692064590343759,
+      "derivative_y": 0.01078745973962684,
+      "laplacian": 0.2579294832090167,
+      "fit_pixels": 378014,
+      "trial_pixels": 378911,
+      "displaced_or_psf_residuals_possible": true,
+      "band": "F200W",
+      "detector": "NRCA4",
+      "retained_peaks": 207,
+      "field_area_arcmin2": 1.0388344444444235,
+      "overlap_with_f444w_arcmin2": 0.9844378888888691
+    }
+  ],
+  "fixed_gates": {
+    "minimum_ranking_score": 4.5,
+    "match_radius_arcsec": 0.14,
+    "aperture_radius_arcsec": 0.24,
+    "minimum_fractional_change": 0.18
+  },
+  "search_method_sha256": "ce799b3116c29164d5816d4b110cf019d5613aac00472699c2c7692f351af8f5",
+  "diagnostic_method_sha256": "333c165ae9a5ca1888ab980ed6f968cd4c6f833ab635d50f622f0930e38bb671",
+  "shifted_control_sha256": "dfaf280dabe154b042e9e0fc203b160809e35b2a41e685e24e3cfdd91f0ea962",
+  "script_sha256": "0b7c70ad6fa521ab0bd5356f30f5a36e7c730e19640e9e03b6f03ae321f1d98b",
+  "scope": "Visits 001 of GO 8060 and 12577. Areas are sums across short-wave detector intersections. Shifted matches check incidental overlap without calibrating a global false-alarm rate."
+}
