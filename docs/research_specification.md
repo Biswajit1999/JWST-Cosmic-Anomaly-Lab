@@ -555,6 +555,18 @@ those limits by injecting and recovering a signal on the historical
 images. Report gaps and whether independent observations cover the
 event itself.
 
+For each candidate, publish three outcomes with the archive products and
+measurements that support them.
+
+1. **Event verification.** Reproduce the signal in independent exposures
+   and check for overlap from another observatory during the event.
+2. **Historical activity.** Compare earlier epochs from independent
+   surveys and report signed measurements, local sensitivity limits,
+   coverage gaps and unresolved blends.
+3. **Physical classification.** Identify the measurements that distinguish
+   plausible source classes, including a spectrum of the variable source
+   or a secure same-object counterpart when available.
+
 Use leave-one-survey-out validation where sample sizes permit.
 
 Report whether physical conclusions remain stable after changing fields, templates, selection thresholds, and model priors.

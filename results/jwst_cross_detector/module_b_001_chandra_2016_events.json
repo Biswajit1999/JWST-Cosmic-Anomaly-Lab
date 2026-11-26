@@ -1,0 +1,215 @@
+{
+  "executed_utc": "2026-11-26T19:24:40.084586+00:00",
+  "script_sha256": "1621e16315bb7ca8d192eddf2478c7d81b95d82cee5acf3a7104972f186190e3",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "position_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "input_observing_journal": {
+    "path": "data/raw/cross_detector/luo2017-cdfs-data-products03.tar.gz",
+    "url": "https://zenodo.org/records/8021940/files/luo2017-cdfs-data-products03.tar.gz?download=1",
+    "sha256": "b9dfec4162a952d1ab0730e6163f9c74a23bf4aac85cdc703abcee356268d478"
+  },
+  "campaign_year": 2016,
+  "aperture_arcsec": 1.5,
+  "background_annulus_arcsec": [
+    8,
+    20
+  ],
+  "energy_ev": [
+    500,
+    6000
+  ],
+  "duration_s": 10000,
+  "minimum_gti_s": 5000,
+  "chip_edge_guard_arcsec": 8,
+  "observations": [
+    {
+      "obsid": 18730,
+      "journal_start": "2016 Feb 02 10:11",
+      "survey_clean_exposure_ks": 29.1,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_18730_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/0/18730/primary/",
+        "sha256": "7e76f466cfa0acd8db4322aa6d3e89d6f10295aa39e3112407ffadc6eedfb3e2"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf18730_000N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/0/18730/primary/acisf18730_000N002_fov1.fits.gz",
+        "sha256": "f9aca0b9302864015d529645024addb74aee26ca0961f48a2b81ebdd7e29afb1"
+      },
+      "chip": 2,
+      "edge_margin_arcsec": 43.08648945421463,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf18730N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/0/18730/primary/acisf18730N002_evt2.fits.gz",
+        "sha256": "a982d0e26b873223e9f6a60406b194c077080397c3451d34cdf5ad483f8f3fa2"
+      },
+      "status": "measured",
+      "start_utc": "2016-02-02T10:27:02.140",
+      "end_utc": "2016-02-02T18:48:21.440",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 19,
+        "background_expected": 0.12723214285714285,
+        "signed_excess": -0.12723214285714285,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 30079.300231456757
+      },
+      "windows": [
+        {
+          "start_utc": "2016-02-02T10:27:02.140",
+          "end_utc": "2016-02-02T13:13:42.140",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2016-02-02T13:13:42.140",
+          "end_utc": "2016-02-02T16:00:22.140",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2016-02-02T16:00:22.140",
+          "end_utc": "2016-02-02T18:47:02.140",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2016-02-02T18:47:02.140",
+          "end_utc": "2016-02-02T18:48:21.440",
+          "good_time_s": 79.30023145675659
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 16185,
+      "journal_start": "2016 Mar 24 09:19",
+      "survey_clean_exposure_ks": 48.4,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16185_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/5/16185/primary/",
+        "sha256": "6c7edfb3daca70f1b60c6192900317c4afc3fff67d2b3259c39d3042b1d53977"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16185_002N003_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/5/16185/primary/acisf16185_002N003_fov1.fits.gz",
+        "sha256": "8acf15bdcfb527e050ff68c1abc72a1e1a6ab5c55983f0ab6dd4816deedf3a89"
+      },
+      "chip": 3,
+      "edge_margin_arcsec": 89.94474644810617,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16185N003_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/5/16185/primary/acisf16185N003_evt2.fits.gz",
+        "sha256": "0bfcafda56c06bd5a87db33054215b28d0bb35b8060859fc69f1c1030bb76616"
+      },
+      "status": "measured",
+      "start_utc": "2016-03-24T09:34:59.710",
+      "end_utc": "2016-03-24T23:12:52.164",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 41,
+        "background_expected": 0.2745535714285714,
+        "signed_excess": -0.2745535714285714,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 49069.31320774555
+      },
+      "windows": [
+        {
+          "start_utc": "2016-03-24T09:34:59.710",
+          "end_utc": "2016-03-24T12:21:39.710",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2016-03-24T12:21:39.710",
+          "end_utc": "2016-03-24T15:08:19.710",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2016-03-24T15:08:19.710",
+          "end_utc": "2016-03-24T17:54:59.710",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.859039664268
+        },
+        {
+          "start_utc": "2016-03-24T17:54:59.710",
+          "end_utc": "2016-03-24T20:41:39.710",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2016-03-24T20:41:39.710",
+          "end_utc": "2016-03-24T23:12:52.164",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9072.454168081284
+        }
+      ],
+      "excluded_short_or_gap_windows": [],
+      "source_events_utc": []
+    }
+  ],
+  "number_of_tests": 10,
+  "best_trial": {
+    "obsid": 18730,
+    "kind": "10 ks",
+    "start_utc": "2016-02-02T10:27:02.140",
+    "end_utc": "2016-02-02T13:13:42.140",
+    "source_counts": 0,
+    "annulus_counts": 5,
+    "background_expected": 0.033482142857142856,
+    "signed_excess": -0.033482142857142856,
+    "binomial_background_tail": 1.0,
+    "upper95_aperture_counts": 2.9957322735539895,
+    "good_time_s": 10000.0
+  },
+  "best_bonferroni_p": 1.0,
+  "scope": "Fixed unbarycentred windows in ACIS GTIs and a spatial background from the same chip. Count bounds retain background. A time-varying PSF, detector response and full effective area model are needed for flux limits. Other years and gaps are outside a campaign result."
+}

@@ -1,0 +1,1827 @@
+{
+  "executed_utc": "2026-11-26T19:26:40.163583+00:00",
+  "script_sha256": "1621e16315bb7ca8d192eddf2478c7d81b95d82cee5acf3a7104972f186190e3",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "position_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "input_observing_journal": {
+    "path": "data/raw/cross_detector/luo2017-cdfs-data-products03.tar.gz",
+    "url": "https://zenodo.org/records/8021940/files/luo2017-cdfs-data-products03.tar.gz?download=1",
+    "sha256": "b9dfec4162a952d1ab0730e6163f9c74a23bf4aac85cdc703abcee356268d478"
+  },
+  "campaign_year": 2015,
+  "aperture_arcsec": 1.5,
+  "background_annulus_arcsec": [
+    8,
+    20
+  ],
+  "energy_ev": [
+    500,
+    6000
+  ],
+  "duration_s": 10000,
+  "minimum_gti_s": 5000,
+  "chip_edge_guard_arcsec": 8,
+  "observations": [
+    {
+      "obsid": 17573,
+      "journal_start": "2015 Jan 04 04:02",
+      "survey_clean_exposure_ks": 39.0,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_17573_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/17573/primary/",
+        "sha256": "7079c41cd5b8ae37abf846420eb7adf05624ea046ca9cc4437486ef54b101004"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf17573_000N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/17573/primary/acisf17573_000N002_fov1.fits.gz",
+        "sha256": "8a2b04647c92ddf68a8738ac2f55fdf134b36362663988a35b15172d88c6b1d2"
+      },
+      "chip": 2,
+      "edge_margin_arcsec": 108.28692722985154,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf17573N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/17573/primary/acisf17573N002_evt2.fits.gz",
+        "sha256": "6856e2551725d717b7900b0e9e0159ad6640af1048168f7a5441796cd5dd9ef9"
+      },
+      "status": "measured",
+      "start_utc": "2015-01-04T04:26:35.889",
+      "end_utc": "2015-01-04T15:34:47.384",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 34,
+        "background_expected": 0.22767857142857142,
+        "signed_excess": -0.22767857142857142,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 40082.071895599365
+      },
+      "windows": [
+        {
+          "start_utc": "2015-01-04T04:26:35.889",
+          "end_utc": "2015-01-04T07:13:15.889",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.85893958807
+        },
+        {
+          "start_utc": "2015-01-04T07:13:15.889",
+          "end_utc": "2015-01-04T09:59:55.889",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-01-04T09:59:55.889",
+          "end_utc": "2015-01-04T12:46:35.889",
+          "source_counts": 0,
+          "annulus_counts": 11,
+          "background_expected": 0.07366071428571429,
+          "signed_excess": -0.07366071428571429,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.859029650688
+        },
+        {
+          "start_utc": "2015-01-04T12:46:35.889",
+          "end_utc": "2015-01-04T15:33:15.889",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.858999669552
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-01-04T15:33:15.889",
+          "end_utc": "2015-01-04T15:34:47.384",
+          "good_time_s": 91.4949266910553
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 17633,
+      "journal_start": "2015 Mar 16 14:51",
+      "survey_clean_exposure_ks": 35.5,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_17633_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/17633/primary/",
+        "sha256": "30cd06c55ba498f6a614cf21cc9285ecd65f159c0d15513e9fb7786aff6ed9ae"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf17633_001N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/17633/primary/acisf17633_001N002_fov1.fits.gz",
+        "sha256": "96b4a923e1b83b6b4efb4ac78b16688d9ea1d446a94265b6b5eb6c4ea9fd530c"
+      },
+      "chip": 3,
+      "edge_margin_arcsec": 84.24636194339114,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf17633N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/17633/primary/acisf17633N002_evt2.fits.gz",
+        "sha256": "ed9553b4eb5b6866cb5b21f4f46a61397af7d29a6bb34e06d4ae9b64480a5446"
+      },
+      "status": "measured",
+      "start_utc": "2015-03-16T15:09:05.588",
+      "end_utc": "2015-03-17T01:08:56.153",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 43,
+        "background_expected": 0.28794642857142855,
+        "signed_excess": -0.28794642857142855,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 35990.565222263336
+      },
+      "windows": [
+        {
+          "start_utc": "2015-03-16T15:09:05.588",
+          "end_utc": "2015-03-16T17:55:45.588",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-16T17:55:45.588",
+          "end_utc": "2015-03-16T20:42:25.588",
+          "source_counts": 0,
+          "annulus_counts": 16,
+          "background_expected": 0.10714285714285714,
+          "signed_excess": -0.10714285714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-16T20:42:25.588",
+          "end_utc": "2015-03-16T23:29:05.588",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-16T23:29:05.588",
+          "end_utc": "2015-03-17T01:08:56.153",
+          "source_counts": 0,
+          "annulus_counts": 11,
+          "background_expected": 0.07366071428571429,
+          "signed_excess": -0.07366071428571429,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 5990.565222263336
+        }
+      ],
+      "excluded_short_or_gap_windows": [],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 17634,
+      "journal_start": "2015 Mar 19 04:47",
+      "survey_clean_exposure_ks": 8.8,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_17634_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/4/17634/primary/",
+        "sha256": "a495f34c12b245ed58b4196726ea6eab00afef3e6cf8547b53616a60e4b88139"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf17634_002N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/4/17634/primary/acisf17634_002N002_fov1.fits.gz",
+        "sha256": "795af650075e8498562aa126629cab83d1a4f95f5e4727183630a965f42ae009"
+      },
+      "chip": 3,
+      "edge_margin_arcsec": 76.44104850694946,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf17634N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/4/17634/primary/acisf17634N002_evt2.fits.gz",
+        "sha256": "0939e95b8f4ee30e3bfe03f9a06580fa4009f5f9ea9a775a6aa40aa8ec136d36"
+      },
+      "status": "measured",
+      "start_utc": "2015-03-19T05:06:28.403",
+      "end_utc": "2015-03-19T07:43:04.503",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 4,
+        "background_expected": 0.026785714285714284,
+        "signed_excess": -0.026785714285714284,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 9396.10007238388
+      },
+      "windows": [
+        {
+          "start_utc": "2015-03-19T05:06:28.403",
+          "end_utc": "2015-03-19T07:43:04.503",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9396.10007238388
+        }
+      ],
+      "excluded_short_or_gap_windows": [],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 16453,
+      "journal_start": "2015 Mar 21 20:27",
+      "survey_clean_exposure_ks": 69.8,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16453_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/16453/primary/",
+        "sha256": "485ebebc8c07504f790f0efac09c27113181de97403df6921f12d13507d76f0d"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16453_002N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/16453/primary/acisf16453_002N002_fov1.fits.gz",
+        "sha256": "9570dedb9d801579671b992e24c3b74b47d4d0fd2b35f03bd64283359c6400dc"
+      },
+      "chip": 3,
+      "edge_margin_arcsec": 85.53491908475216,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16453N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/16453/primary/acisf16453N002_evt2.fits.gz",
+        "sha256": "b65008bdc8c4050e57508e54b81fc0c4f614ba35dc5149e161dfd397bcffbaa0"
+      },
+      "status": "measured",
+      "start_utc": "2015-03-21T21:01:58.153",
+      "end_utc": "2015-03-22T16:48:48.254",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 46,
+        "background_expected": 0.30803571428571425,
+        "signed_excess": -0.30803571428571425,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 71206.95955753326
+      },
+      "windows": [
+        {
+          "start_utc": "2015-03-21T21:01:58.153",
+          "end_utc": "2015-03-21T23:48:38.153",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-21T23:48:38.153",
+          "end_utc": "2015-03-22T02:35:18.153",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-22T02:35:18.153",
+          "end_utc": "2015-03-22T05:21:58.153",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-22T05:21:58.153",
+          "end_utc": "2015-03-22T08:08:38.153",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-22T08:08:38.153",
+          "end_utc": "2015-03-22T10:55:18.153",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.859009742737
+        },
+        {
+          "start_utc": "2015-03-22T10:55:18.153",
+          "end_utc": "2015-03-22T13:41:58.153",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-22T13:41:58.153",
+          "end_utc": "2015-03-22T16:28:38.153",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-03-22T16:28:38.153",
+          "end_utc": "2015-03-22T16:48:48.254",
+          "good_time_s": 1210.1005477905273
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 16451,
+      "journal_start": "2015 Mar 24 21:13",
+      "survey_clean_exposure_ks": 112.1,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16451_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16451/primary/",
+        "sha256": "bd5e55a49a4e5ece531f44a688b85731ec5eff76eba9a432e49162210e671950"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16451_000N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16451/primary/acisf16451_000N002_fov1.fits.gz",
+        "sha256": "fc20488517b7b63ce5247f6c97b5eb9883a7f7647bda32d4b0f4c0a2eb2ef734"
+      },
+      "chip": 3,
+      "edge_margin_arcsec": 104.85012204125007,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16451N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16451/primary/acisf16451N002_evt2.fits.gz",
+        "sha256": "79e2d37b34824cab8760732bb1a94fa34257a381d16112f0ec9f84184f6ad6fb"
+      },
+      "status": "measured",
+      "start_utc": "2015-03-24T21:33:25.025",
+      "end_utc": "2015-03-26T05:14:54.132",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 76,
+        "background_expected": 0.5089285714285714,
+        "signed_excess": -0.5089285714285714,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 114085.96521556377
+      },
+      "windows": [
+        {
+          "start_utc": "2015-03-24T21:33:25.025",
+          "end_utc": "2015-03-25T00:20:05.025",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T00:20:05.025",
+          "end_utc": "2015-03-25T03:06:45.025",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T03:06:45.025",
+          "end_utc": "2015-03-25T05:53:25.025",
+          "source_counts": 0,
+          "annulus_counts": 3,
+          "background_expected": 0.020089285714285712,
+          "signed_excess": -0.020089285714285712,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T05:53:25.025",
+          "end_utc": "2015-03-25T08:40:05.025",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T08:40:05.025",
+          "end_utc": "2015-03-25T11:26:45.025",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T11:26:45.025",
+          "end_utc": "2015-03-25T14:13:25.025",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T14:13:25.025",
+          "end_utc": "2015-03-25T17:00:05.025",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T17:00:05.025",
+          "end_utc": "2015-03-25T19:46:45.025",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T19:46:45.025",
+          "end_utc": "2015-03-25T22:33:25.025",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-25T22:33:25.025",
+          "end_utc": "2015-03-26T01:20:05.025",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-03-26T01:20:05.025",
+          "end_utc": "2015-03-26T04:06:45.025",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-03-26T04:06:45.025",
+          "end_utc": "2015-03-26T05:14:54.132",
+          "good_time_s": 4085.965215563774
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 16461,
+      "journal_start": "2015 May 19 01:43",
+      "survey_clean_exposure_ks": 127.1,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16461_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16461/primary/",
+        "sha256": "e786b8bc421e624b1a19fb993811d527c95d5a87b736b4feff074dae27b66f18"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16461_000N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16461/primary/acisf16461_000N002_fov1.fits.gz",
+        "sha256": "b4768284fe6a8492748139af90e50b6c13e77c633a6d34ea50591088f8c87e16"
+      },
+      "chip": 3,
+      "edge_margin_arcsec": 34.406726540071375,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16461N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16461/primary/acisf16461N002_evt2.fits.gz",
+        "sha256": "0701f64740225b5cd3f6bf56cd75b416b17bec0b44531b9a7856b071926c19ee"
+      },
+      "status": "measured",
+      "start_utc": "2015-05-19T02:10:29.301",
+      "end_utc": "2015-05-20T14:35:21.886",
+      "observation": {
+        "source_counts": 3,
+        "annulus_counts": 89,
+        "background_expected": 0.5959821428571428,
+        "signed_excess": 2.404017857142857,
+        "binomial_background_tail": 0.02384413294139253,
+        "upper95_aperture_counts": 7.753656527932725,
+        "good_time_s": 131080.02157962322
+      },
+      "windows": [
+        {
+          "start_utc": "2015-05-19T02:10:29.301",
+          "end_utc": "2015-05-19T04:57:09.301",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-19T04:57:09.301",
+          "end_utc": "2015-05-19T07:43:49.301",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-19T07:43:49.301",
+          "end_utc": "2015-05-19T10:30:29.301",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-19T10:30:29.301",
+          "end_utc": "2015-05-19T13:17:09.301",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-19T13:17:09.301",
+          "end_utc": "2015-05-19T16:03:49.301",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-19T16:03:49.301",
+          "end_utc": "2015-05-19T18:50:29.301",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-19T18:50:29.301",
+          "end_utc": "2015-05-19T21:37:09.301",
+          "source_counts": 1,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": 0.9464285714285714,
+          "binomial_background_tail": 0.05829852842603153,
+          "upper95_aperture_counts": 4.743864518390577,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-19T21:37:09.301",
+          "end_utc": "2015-05-20T00:23:49.301",
+          "source_counts": 0,
+          "annulus_counts": 3,
+          "background_expected": 0.020089285714285712,
+          "signed_excess": -0.020089285714285712,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-20T00:23:49.301",
+          "end_utc": "2015-05-20T03:10:29.301",
+          "source_counts": 2,
+          "annulus_counts": 11,
+          "background_expected": 0.07366071428571429,
+          "signed_excess": 1.9263392857142858,
+          "binomial_background_tail": 0.003287087133303763,
+          "upper95_aperture_counts": 6.295793621871988,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-20T03:10:29.301",
+          "end_utc": "2015-05-20T05:57:09.301",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-20T05:57:09.301",
+          "end_utc": "2015-05-20T08:43:49.301",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9987.43613910675
+        },
+        {
+          "start_utc": "2015-05-20T08:43:49.301",
+          "end_utc": "2015-05-20T11:30:29.301",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-20T11:30:29.301",
+          "end_utc": "2015-05-20T14:17:09.301",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-05-20T14:17:09.301",
+          "end_utc": "2015-05-20T14:35:21.886",
+          "good_time_s": 1092.5854405164719
+        }
+      ],
+      "source_events_utc": [
+        "2015-05-19T18:59:17.968",
+        "2015-05-20T02:12:01.469",
+        "2015-05-20T02:12:04.610"
+      ]
+    },
+    {
+      "obsid": 16191,
+      "journal_start": "2015 May 25 07:08",
+      "survey_clean_exposure_ks": 83.7,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16191_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16191/primary/",
+        "sha256": "f7461ba90e7014602b1b5be54399042a8062238f743f5114f5f9a2486b5b2bfa"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16191_001N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16191/primary/acisf16191_001N002_fov1.fits.gz",
+        "sha256": "481107a8c687ae7013ef9439fbcfa1887f41e77cbe40ec6c996821f19668b94c"
+      },
+      "chip": 3,
+      "edge_margin_arcsec": 31.070675878533955,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16191N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/16191/primary/acisf16191N002_evt2.fits.gz",
+        "sha256": "0a5932368aeeb3901323bd565eb4e1efa68e2fc4c67f30999a2f5e69cadd8338"
+      },
+      "status": "measured",
+      "start_utc": "2015-05-25T07:27:08.903",
+      "end_utc": "2015-05-26T07:01:22.104",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 44,
+        "background_expected": 0.29464285714285715,
+        "signed_excess": -0.29464285714285715,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 84843.7777121067
+      },
+      "windows": [
+        {
+          "start_utc": "2015-05-25T07:27:08.903",
+          "end_utc": "2015-05-25T10:13:48.903",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-25T10:13:48.903",
+          "end_utc": "2015-05-25T13:00:28.903",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-25T13:00:28.903",
+          "end_utc": "2015-05-25T15:47:08.903",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-25T15:47:08.903",
+          "end_utc": "2015-05-25T18:33:48.903",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-25T18:33:48.903",
+          "end_utc": "2015-05-25T21:20:28.903",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-05-25T21:20:28.903",
+          "end_utc": "2015-05-26T00:07:08.903",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.859019875526
+        },
+        {
+          "start_utc": "2015-05-26T00:07:08.903",
+          "end_utc": "2015-05-26T02:53:48.903",
+          "source_counts": 0,
+          "annulus_counts": 2,
+          "background_expected": 0.013392857142857142,
+          "signed_excess": -0.013392857142857142,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.859009861946
+        },
+        {
+          "start_utc": "2015-05-26T02:53:48.903",
+          "end_utc": "2015-05-26T05:40:28.903",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.859029650688
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-05-26T05:40:28.903",
+          "end_utc": "2015-05-26T07:01:22.104",
+          "good_time_s": 4853.200652718544
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 16460,
+      "journal_start": "2015 Jun 16 07:09",
+      "survey_clean_exposure_ks": 21.4,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16460_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/0/16460/primary/",
+        "sha256": "2c49b9513421a747cf71adc4822efee5a982b54939a9587ecc4e7a928046d6aa"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16460_000N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/0/16460/primary/acisf16460_000N002_fov1.fits.gz",
+        "sha256": "deb6ddef1126ac64e6ad25596e45a19c6debc0dfbb370208e3ad660ba5d49dd1"
+      },
+      "chip": 1,
+      "edge_margin_arcsec": 106.47743897323274,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16460N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/0/16460/primary/acisf16460N002_evt2.fits.gz",
+        "sha256": "19eb2c2fec3e9db37cabf97d2c86544cc63744edc47b63ba7b01dac559ae0f3a"
+      },
+      "status": "measured",
+      "start_utc": "2015-06-16T07:27:21.035",
+      "end_utc": "2015-06-16T13:29:25.835",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 18,
+        "background_expected": 0.12053571428571427,
+        "signed_excess": -0.12053571428571427,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 21721.659196972847
+      },
+      "windows": [
+        {
+          "start_utc": "2015-06-16T07:27:21.035",
+          "end_utc": "2015-06-16T10:14:01.035",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-06-16T10:14:01.035",
+          "end_utc": "2015-06-16T13:00:41.035",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.859029769897
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-06-16T13:00:41.035",
+          "end_utc": "2015-06-16T13:29:25.835",
+          "good_time_s": 1724.8001672029495
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 16459,
+      "journal_start": "2015 Jun 20 05:44",
+      "survey_clean_exposure_ks": 72.1,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16459_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/16459/primary/",
+        "sha256": "44b77ecd44967d8173ee82c4ec3aeaf0c766ee5021af4672aca2f958db0a0f64"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16459_000N003_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/16459/primary/acisf16459_000N003_fov1.fits.gz",
+        "sha256": "cfe23b09f29e861fb09fcaf36b8cb8670b518d8ad297b8b0cf79442e1bf12769"
+      },
+      "chip": 1,
+      "edge_margin_arcsec": 107.99659320308383,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16459N003_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/16459/primary/acisf16459N003_evt2.fits.gz",
+        "sha256": "5fb2bcdcaf1e5a9f7a117acbd5faee2511c03b0dfb220e26c4ef44c5f8a669b1"
+      },
+      "status": "measured",
+      "start_utc": "2015-06-20T06:03:23.345",
+      "end_utc": "2015-06-21T02:21:16.267",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 59,
+        "background_expected": 0.3950892857142857,
+        "signed_excess": -0.3950892857142857,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 73069.78143274784
+      },
+      "windows": [
+        {
+          "start_utc": "2015-06-20T06:03:23.345",
+          "end_utc": "2015-06-20T08:50:03.345",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-06-20T08:50:03.345",
+          "end_utc": "2015-06-20T11:36:43.345",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-06-20T11:36:43.345",
+          "end_utc": "2015-06-20T14:23:23.345",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-06-20T14:23:23.345",
+          "end_utc": "2015-06-20T17:10:03.345",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-06-20T17:10:03.345",
+          "end_utc": "2015-06-20T19:56:43.345",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.859039783478
+        },
+        {
+          "start_utc": "2015-06-20T19:56:43.345",
+          "end_utc": "2015-06-20T22:43:23.345",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-06-20T22:43:23.345",
+          "end_utc": "2015-06-21T01:30:03.345",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-06-21T01:30:03.345",
+          "end_utc": "2015-06-21T02:21:16.267",
+          "good_time_s": 3072.922392964363
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 17552,
+      "journal_start": "2015 Oct 10 07:45",
+      "survey_clean_exposure_ks": 45.9,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_17552_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/2/17552/primary/",
+        "sha256": "810c4f43041471bb0e5cc1133160144f3af71b2c12bdff4d7649e74eeffde1fa"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf17552_000N003_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/2/17552/primary/acisf17552_000N003_fov1.fits.gz",
+        "sha256": "6c48e4755f4e4a72e2bd1dbe928e8a65fe89b265dd696381e5ffd13725bfeb88"
+      },
+      "chip": 0,
+      "edge_margin_arcsec": 96.17290386734105,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf17552N003_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/2/17552/primary/acisf17552N003_evt2.fits.gz",
+        "sha256": "97199eea28846249cafde61797b19ce99be06323bbe8b37898b659cd50092eb9"
+      },
+      "status": "measured",
+      "start_utc": "2015-10-10T08:09:33.001",
+      "end_utc": "2015-10-10T22:12:29.502",
+      "observation": {
+        "source_counts": 1,
+        "annulus_counts": 41,
+        "background_expected": 0.2745535714285714,
+        "signed_excess": 0.7254464285714286,
+        "binomial_background_tail": 0.24445240231330245,
+        "upper95_aperture_counts": 4.743864518390577,
+        "good_time_s": 50576.50038909912
+      },
+      "windows": [
+        {
+          "start_utc": "2015-10-10T08:09:33.001",
+          "end_utc": "2015-10-10T10:56:13.001",
+          "source_counts": 1,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": 0.9598214285714286,
+          "binomial_background_tail": 0.04564422722209443,
+          "upper95_aperture_counts": 4.743864518390577,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-10T10:56:13.001",
+          "end_utc": "2015-10-10T13:42:53.001",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-10T13:42:53.001",
+          "end_utc": "2015-10-10T16:29:33.001",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-10T16:29:33.001",
+          "end_utc": "2015-10-10T19:16:13.001",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-10T19:16:13.001",
+          "end_utc": "2015-10-10T22:02:53.001",
+          "source_counts": 0,
+          "annulus_counts": 12,
+          "background_expected": 0.08035714285714285,
+          "signed_excess": -0.08035714285714285,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-10-10T22:02:53.001",
+          "end_utc": "2015-10-10T22:12:29.502",
+          "good_time_s": 576.5003890991211
+        }
+      ],
+      "source_events_utc": [
+        "2015-10-10T10:49:32.217"
+      ]
+    },
+    {
+      "obsid": 16455,
+      "journal_start": "2015 Oct 27 09:52",
+      "survey_clean_exposure_ks": 89.1,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16455_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/5/16455/primary/",
+        "sha256": "5bb06c8965c166123da4d5015ab03cf810ff04ac11d176cced784308831a0573"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16455_000N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/5/16455/primary/acisf16455_000N002_fov1.fits.gz",
+        "sha256": "77cc26722276ee16c8236ab2bf66deceb18452e0510745a20c17a871dcc1a019"
+      },
+      "chip": 0,
+      "edge_margin_arcsec": 101.57435685310864,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16455N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/5/16455/primary/acisf16455N002_evt2.fits.gz",
+        "sha256": "7ae8e9b718b0741eb184a3fc757740125df187176f6f93c57a0ccf26a35e57ea"
+      },
+      "status": "measured",
+      "start_utc": "2015-10-27T10:11:20.211",
+      "end_utc": "2015-10-28T11:24:31.523",
+      "observation": {
+        "source_counts": 1,
+        "annulus_counts": 76,
+        "background_expected": 0.5089285714285714,
+        "signed_excess": 0.4910714285714286,
+        "binomial_background_tail": 0.4018455290436153,
+        "upper95_aperture_counts": 4.743864518390577,
+        "good_time_s": 90781.88908278942
+      },
+      "windows": [
+        {
+          "start_utc": "2015-10-27T10:11:20.211",
+          "end_utc": "2015-10-27T12:58:00.211",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-27T12:58:00.211",
+          "end_utc": "2015-10-27T15:44:40.211",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-27T15:44:40.211",
+          "end_utc": "2015-10-27T18:31:20.211",
+          "source_counts": 1,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": 0.9598214285714286,
+          "binomial_background_tail": 0.04564422722209443,
+          "upper95_aperture_counts": 4.743864518390577,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-27T18:31:20.211",
+          "end_utc": "2015-10-27T21:18:00.211",
+          "source_counts": 0,
+          "annulus_counts": 11,
+          "background_expected": 0.07366071428571429,
+          "signed_excess": -0.07366071428571429,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-27T21:18:00.211",
+          "end_utc": "2015-10-28T00:04:40.211",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-28T00:04:40.211",
+          "end_utc": "2015-10-28T02:51:20.211",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.858939766884
+        },
+        {
+          "start_utc": "2015-10-28T02:51:20.211",
+          "end_utc": "2015-10-28T05:38:00.211",
+          "source_counts": 0,
+          "annulus_counts": 15,
+          "background_expected": 0.10044642857142856,
+          "signed_excess": -0.10044642857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-28T05:38:00.211",
+          "end_utc": "2015-10-28T08:24:40.211",
+          "source_counts": 0,
+          "annulus_counts": 13,
+          "background_expected": 0.08705357142857142,
+          "signed_excess": -0.08705357142857142,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9993.717879533768
+        },
+        {
+          "start_utc": "2015-10-28T08:24:40.211",
+          "end_utc": "2015-10-28T11:11:20.211",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-10-28T11:11:20.211",
+          "end_utc": "2015-10-28T11:24:31.523",
+          "good_time_s": 791.3122634887695
+        }
+      ],
+      "source_events_utc": [
+        "2015-10-27T16:23:53.530"
+      ]
+    },
+    {
+      "obsid": 16458,
+      "journal_start": "2015 Oct 30 23:25",
+      "survey_clean_exposure_ks": 96.4,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16458_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/8/16458/primary/",
+        "sha256": "64e690d2176b49e05942ec19f4fc66381527435c4a7ce6bc3743932a73f319e3"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16458_000N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/8/16458/primary/acisf16458_000N002_fov1.fits.gz",
+        "sha256": "66d4f629b89e7e57fd834e867ad9eb6dcda2b89e72d10ed9ee2fb22f9c78055a"
+      },
+      "chip": 0,
+      "edge_margin_arcsec": 101.48089546914417,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16458N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/8/16458/primary/acisf16458N002_evt2.fits.gz",
+        "sha256": "8b9a67a141d10ed2358d85e6c1f5110b3a0b6c444e9a3cbf603dbbdc1bbf6ab0"
+      },
+      "status": "measured",
+      "start_utc": "2015-10-30T23:41:39.512",
+      "end_utc": "2015-11-01T02:49:11.178",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 88,
+        "background_expected": 0.5892857142857143,
+        "signed_excess": -0.5892857142857143,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 97648.52468419075
+      },
+      "windows": [
+        {
+          "start_utc": "2015-10-30T23:41:39.512",
+          "end_utc": "2015-10-31T02:28:19.512",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-31T02:28:19.512",
+          "end_utc": "2015-10-31T05:14:59.512",
+          "source_counts": 0,
+          "annulus_counts": 11,
+          "background_expected": 0.07366071428571429,
+          "signed_excess": -0.07366071428571429,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-31T05:14:59.512",
+          "end_utc": "2015-10-31T08:01:39.512",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-31T08:01:39.512",
+          "end_utc": "2015-10-31T10:48:19.512",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-31T10:48:19.512",
+          "end_utc": "2015-10-31T13:34:59.512",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.858949780464
+        },
+        {
+          "start_utc": "2015-10-31T13:34:59.512",
+          "end_utc": "2015-10-31T16:21:39.512",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-31T16:21:39.512",
+          "end_utc": "2015-10-31T19:08:19.512",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-31T19:08:19.512",
+          "end_utc": "2015-10-31T21:54:59.512",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-10-31T21:54:59.512",
+          "end_utc": "2015-11-01T00:41:39.512",
+          "source_counts": 0,
+          "annulus_counts": 15,
+          "background_expected": 0.10044642857142856,
+          "signed_excess": -0.10044642857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-01T00:41:39.512",
+          "end_utc": "2015-11-01T02:49:11.178",
+          "source_counts": 0,
+          "annulus_counts": 9,
+          "background_expected": 0.06026785714285714,
+          "signed_excess": -0.06026785714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 7651.665734410286
+        }
+      ],
+      "excluded_short_or_gap_windows": [],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 17677,
+      "journal_start": "2015 Nov 15 15:54",
+      "survey_clean_exposure_ks": 108.2,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_17677_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/7/17677/primary/",
+        "sha256": "cb7ca452eb97220f34d53575d9479a7dcd64198f25fe023aefb2dd218daaf026"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf17677_000N003_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/7/17677/primary/acisf17677_000N003_fov1.fits.gz",
+        "sha256": "9d4b75a75acdd0965afef3f44f01271c2c27c5b123f68516259c08ad6a61e1a4"
+      },
+      "chip": 2,
+      "edge_margin_arcsec": 40.399994142003465,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf17677N003_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/7/17677/primary/acisf17677N003_evt2.fits.gz",
+        "sha256": "3e4a74ee53f4ba702d52b9074545c67995a41d8eea36d6800f47cd2cbd7d3c3f"
+      },
+      "status": "measured",
+      "start_utc": "2015-11-15T16:09:56.701",
+      "end_utc": "2015-11-16T22:46:18.542",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 98,
+        "background_expected": 0.65625,
+        "signed_excess": -0.65625,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 110172.41814649105
+      },
+      "windows": [
+        {
+          "start_utc": "2015-11-15T16:09:56.701",
+          "end_utc": "2015-11-15T18:56:36.701",
+          "source_counts": 0,
+          "annulus_counts": 12,
+          "background_expected": 0.08035714285714285,
+          "signed_excess": -0.08035714285714285,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-15T18:56:36.701",
+          "end_utc": "2015-11-15T21:43:16.701",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9996.858949780464
+        },
+        {
+          "start_utc": "2015-11-15T21:43:16.701",
+          "end_utc": "2015-11-16T00:29:56.701",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-16T00:29:56.701",
+          "end_utc": "2015-11-16T03:16:36.701",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-16T03:16:36.701",
+          "end_utc": "2015-11-16T06:03:16.701",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-16T06:03:16.701",
+          "end_utc": "2015-11-16T08:49:56.701",
+          "source_counts": 0,
+          "annulus_counts": 16,
+          "background_expected": 0.10714285714285714,
+          "signed_excess": -0.10714285714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-16T08:49:56.701",
+          "end_utc": "2015-11-16T11:36:36.701",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 9993.717899441719
+        },
+        {
+          "start_utc": "2015-11-16T11:36:36.701",
+          "end_utc": "2015-11-16T14:23:16.701",
+          "source_counts": 0,
+          "annulus_counts": 4,
+          "background_expected": 0.026785714285714284,
+          "signed_excess": -0.026785714285714284,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-16T14:23:16.701",
+          "end_utc": "2015-11-16T17:09:56.701",
+          "source_counts": 0,
+          "annulus_counts": 16,
+          "background_expected": 0.10714285714285714,
+          "signed_excess": -0.10714285714285714,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-16T17:09:56.701",
+          "end_utc": "2015-11-16T19:56:36.701",
+          "source_counts": 0,
+          "annulus_counts": 6,
+          "background_expected": 0.040178571428571425,
+          "signed_excess": -0.040178571428571425,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-16T19:56:36.701",
+          "end_utc": "2015-11-16T22:43:16.701",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-11-16T22:43:16.701",
+          "end_utc": "2015-11-16T22:46:18.542",
+          "good_time_s": 181.8412972688675
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 18709,
+      "journal_start": "2015 Nov 22 20:15",
+      "survey_clean_exposure_ks": 16.9,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_18709_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/18709/primary/",
+        "sha256": "5f101a2b8519787081b4b091f0a8e45a2e7a62f60b3031d746217ed705c6a8a6"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf18709_001N003_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/18709/primary/acisf18709_001N003_fov1.fits.gz",
+        "sha256": "922acb6e7dbb2bc8ab956ac3dc749a052226e74e1633cb7a89bfc47ee435fa58"
+      },
+      "chip": 2,
+      "edge_margin_arcsec": 36.75562978582787,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf18709N003_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/18709/primary/acisf18709N003_evt2.fits.gz",
+        "sha256": "f070ad86f0be3c0b3bf07bf529899cf5e69b925948e55c5123a0f1705047a8c5"
+      },
+      "status": "measured",
+      "start_utc": "2015-11-22T20:34:50.902",
+      "end_utc": "2015-11-23T01:19:35.002",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 8,
+        "background_expected": 0.05357142857142857,
+        "signed_excess": -0.05357142857142857,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 17084.10013151169
+      },
+      "windows": [
+        {
+          "start_utc": "2015-11-22T20:34:50.902",
+          "end_utc": "2015-11-22T23:21:30.902",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-11-22T23:21:30.902",
+          "end_utc": "2015-11-23T01:19:35.002",
+          "source_counts": 0,
+          "annulus_counts": 3,
+          "background_expected": 0.020089285714285712,
+          "signed_excess": -0.020089285714285712,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 7084.100131511688
+        }
+      ],
+      "excluded_short_or_gap_windows": [],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 18719,
+      "journal_start": "2015 Dec 10 06:59",
+      "survey_clean_exposure_ks": 34.5,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_18719_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/18719/primary/",
+        "sha256": "9f60c15dd6e125240bbb27944506145a576d9fdcf837aeeca294dae33042c207"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf18719_001N002_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/18719/primary/acisf18719_001N002_fov1.fits.gz",
+        "sha256": "dac55627d5f4df0cef0f054f5aa933422a9905df76dc5d01b31ca3607199b89a"
+      },
+      "chip": 2,
+      "edge_margin_arcsec": 62.29413766771107,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf18719N002_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/18719/primary/acisf18719N002_evt2.fits.gz",
+        "sha256": "82e73ce55b8dbdcd5364dcf74b7fb76925ebfc6ebb01137119ce5ccfe0abd6ad"
+      },
+      "status": "measured",
+      "start_utc": "2015-12-10T07:20:36.731",
+      "end_utc": "2015-12-10T17:03:51.137",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 26,
+        "background_expected": 0.17410714285714285,
+        "signed_excess": -0.17410714285714285,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 34994.40631222725
+      },
+      "windows": [
+        {
+          "start_utc": "2015-12-10T07:20:36.731",
+          "end_utc": "2015-12-10T10:07:16.731",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-12-10T10:07:16.731",
+          "end_utc": "2015-12-10T12:53:56.731",
+          "source_counts": 0,
+          "annulus_counts": 7,
+          "background_expected": 0.046875,
+          "signed_excess": -0.046875,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-12-10T12:53:56.731",
+          "end_utc": "2015-12-10T15:40:36.731",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        }
+      ],
+      "excluded_short_or_gap_windows": [
+        {
+          "start_utc": "2015-12-10T15:40:36.731",
+          "end_utc": "2015-12-10T17:03:51.137",
+          "good_time_s": 4994.406312227249
+        }
+      ],
+      "source_events_utc": []
+    },
+    {
+      "obsid": 16452,
+      "journal_start": "2015 Dec 12 21:49",
+      "survey_clean_exposure_ks": 27.7,
+      "primary_archive_listing": {
+        "path": "data/raw/metadata/chandra_evt_16452_listing.html",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/2/16452/primary/",
+        "sha256": "5793e320e3d1ca6efd5b5a6f540fa254e39b4e78ea7e3084261d8ee54a4fc89b"
+      },
+      "footprint_product": {
+        "path": "data/raw/cross_detector/acisf16452_000N003_fov1.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/2/16452/primary/acisf16452_000N003_fov1.fits.gz",
+        "sha256": "ed776d30c808b26f8c67f683c4ff274558321e56203b7435519c9d65e6f37397"
+      },
+      "chip": 2,
+      "edge_margin_arcsec": 137.4196011436461,
+      "event_product": {
+        "path": "data/raw/cross_detector/acisf16452N003_evt2.fits.gz",
+        "url": "https://cxc.cfa.harvard.edu/cdaftp/byobsid/2/16452/primary/acisf16452N003_evt2.fits.gz",
+        "sha256": "767ffef0a3848c0a1bfe14d7aa9818ceb76db943744b3a7043279e68b064a2ad"
+      },
+      "status": "measured",
+      "start_utc": "2015-12-12T22:05:52.214",
+      "end_utc": "2015-12-13T05:53:50.563",
+      "observation": {
+        "source_counts": 0,
+        "annulus_counts": 23,
+        "background_expected": 0.15401785714285712,
+        "signed_excess": -0.15401785714285712,
+        "binomial_background_tail": 1.0,
+        "upper95_aperture_counts": 2.9957322735539895,
+        "good_time_s": 28078.348300218582
+      },
+      "windows": [
+        {
+          "start_utc": "2015-12-12T22:05:52.214",
+          "end_utc": "2015-12-13T00:52:32.214",
+          "source_counts": 0,
+          "annulus_counts": 8,
+          "background_expected": 0.05357142857142857,
+          "signed_excess": -0.05357142857142857,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-12-13T00:52:32.214",
+          "end_utc": "2015-12-13T03:39:12.214",
+          "source_counts": 0,
+          "annulus_counts": 10,
+          "background_expected": 0.06696428571428571,
+          "signed_excess": -0.06696428571428571,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 10000.0
+        },
+        {
+          "start_utc": "2015-12-13T03:39:12.214",
+          "end_utc": "2015-12-13T05:53:50.563",
+          "source_counts": 0,
+          "annulus_counts": 5,
+          "background_expected": 0.033482142857142856,
+          "signed_excess": -0.033482142857142856,
+          "binomial_background_tail": 1.0,
+          "upper95_aperture_counts": 2.9957322735539895,
+          "good_time_s": 8078.348300218582
+        }
+      ],
+      "excluded_short_or_gap_windows": [],
+      "source_events_utc": []
+    }
+  ],
+  "number_of_tests": 116,
+  "best_trial": {
+    "obsid": 16461,
+    "kind": "10 ks",
+    "start_utc": "2015-05-20T00:23:49.301",
+    "end_utc": "2015-05-20T03:10:29.301",
+    "source_counts": 2,
+    "annulus_counts": 11,
+    "background_expected": 0.07366071428571429,
+    "signed_excess": 1.9263392857142858,
+    "binomial_background_tail": 0.003287087133303763,
+    "upper95_aperture_counts": 6.295793621871988,
+    "good_time_s": 10000.0
+  },
+  "best_bonferroni_p": 0.3813021074632365,
+  "scope": "Fixed unbarycentred windows in ACIS GTIs and a spatial background from the same chip. Count bounds retain background. A time-varying PSF, detector response and full effective area model are needed for flux limits. Other years and gaps are outside a campaign result."
+}

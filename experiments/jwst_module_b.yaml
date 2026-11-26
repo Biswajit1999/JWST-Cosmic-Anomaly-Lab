@@ -33,6 +33,13 @@ commands:
   - python scripts/measure_jades_103607_chandra_epochs.py
   - python scripts/measure_jades_103607_spitzer_epochs.py
   - python scripts/check_jades_103607_independent_2026.py
+  - python scripts/measure_jades_103607_spitzer_neighbor.py
+  - python scripts/measure_jades_103607_chandra_events.py --year 2000
+  - python scripts/measure_jades_103607_chandra_events.py --year 2007
+  - python scripts/measure_jades_103607_chandra_events.py --year 2015
+  - python scripts/measure_jades_103607_chandra_events.py --year 2016
+  - python scripts/check_jades_103607_rapidxmm.py
+  - python scripts/check_jades_103607_vista_video.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
   newer_visits: [jw12577001001, jw12577002001]
@@ -59,6 +66,10 @@ limitations:
   - The ACS measurements use preliminary GOODS v0.5 images and finite apertures without PSF matching.
   - Spitzer same-channel differences use common 2004 references and remain affected by source blending.
   - The separate Chandra groups summarize sampled pointings and do not constrain all short flares.
+  - Chandra event counts use fixed windows and a local background. Count bounds omit effective area and point-spread corrections.
+  - Spitzer matching uses a local linear image model and fixed artificial point sources to test sensitivity.
+  - RapidXMM limits use wide apertures at nearby sky cells and can include unrelated emission.
+  - VISTA pawprint polygons do not qualify local coverage in every image. The H-band pilot samples three blocks and omits per-pixel confidence weighting.
 outputs:
   - reports/jwst_module_b.md
   - results/jwst_cross_detector/module_b_products.json
@@ -94,4 +105,11 @@ outputs:
   - results/jwst_cross_detector/module_b_001_chandra_epochs.json
   - results/jwst_cross_detector/module_b_001_spitzer_epochs.json
   - results/jwst_cross_detector/module_b_001_independent_2026_coverage.json
+  - results/jwst_cross_detector/module_b_001_spitzer_neighbor.json
+  - results/jwst_cross_detector/module_b_001_chandra_2000_events.json
+  - results/jwst_cross_detector/module_b_001_chandra_2007_events.json
+  - results/jwst_cross_detector/module_b_001_chandra_2015_events.json
+  - results/jwst_cross_detector/module_b_001_chandra_2016_events.json
+  - results/jwst_cross_detector/module_b_001_rapidxmm.json
+  - results/jwst_cross_detector/module_b_001_vista_video_coverage.json
   - figures/jwst_cross_detector/module_b_*

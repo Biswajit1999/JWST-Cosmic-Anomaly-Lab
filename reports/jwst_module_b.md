@@ -709,6 +709,46 @@ repeat episodes comparable to the JWST excess unresolved.
 
 ![Observed Spitzer images and same-band differences at the target from 2004 through 2012](../figures/jwst_cross_detector/module_b_001_spitzer_epochs.png)
 
+**February 2006 Spitzer neighbour test.** We matched the 2004 and
+2011 reference images separately to the February 2006 image in
+the 4.5-micron channel, allowing small shifts and differences in
+image width and background. With a 1.93-arcsec point-spread template
+and a 7.2-arcsec region masked around the target during matching, the
+residual amplitudes are +247 ± 163 nJy against 2004 and +391 ± 212 nJy
+against 2011. Across all 12 settings the residual reaches at most
+2.15 times the local scatter. It extends towards the brighter
+neighbour, and both comparisons share the 2006 observations. The
+residual remains ambiguous.
+
+As a sensitivity check, we injected a 25 nJy Gaussian point source
+into the resampled 2006 image and reran the measurement. Adding the
+recovered increment to the observed local control measurements would
+put fewer than 2% above a three-scatter threshold at the 1.93-arcsec
+width. A 1,000 nJy injection would put 93–99% above that threshold.
+These fractions use a fixed source shape and a spatial sample from
+the same images. They estimate sensitivity in the Spitzer band.
+[IRAC point-spread reference](https://irsa.ipac.caltech.edu/data/SPITZER/docs/irac/calibrationfiles/psfprf/) ·
+[Image matching, controls and simulated injections](../results/jwst_cross_detector/module_b_001_spitzer_neighbor.json).
+
+![Observed Spitzer 4.5-micron matched differences show residual light near the target and its neighbour](../figures/jwst_cross_detector/module_b_001_spitzer_neighbor.png)
+
+**VISTA VIDEO, November 2010 to August 2018.** ESO publishes
+568 individual pawprint images from 227 observing blocks with
+footprints covering the position in Z, Y, J, H and Ks. In H alone,
+103 pawprints come from 39 blocks. We measured three released
+H-band cutouts from the first, middle and last blocks, using a
+1.0-arcsec radius aperture and 80 local controls in each image.
+The signed aperture fluxes are −0.77 ± 1.65 µJy on 18 December
+2010, +1.55 ± 2.39 µJy on 14 January 2014 and −0.22 ± 1.23 µJy
+on 10 September 2014. These errors describe local spatial scatter.
+Five times that scatter ranges from 6.13 to 11.93 µJy, far above
+the scale of the JWST near-infrared excess. The pilot uses finite
+apertures without PSF matching or confidence-map weighting.
+[ESO VIDEO DR5 calibration and reduction](https://www.eso.org/rm/api/v1/public/releaseDescriptions/189) ·
+[Footprint inventory and H-band pilot](../results/jwst_cross_detector/module_b_001_vista_video_coverage.json).
+
+![Three observed VISTA H-band cutouts centered on the transient position](../figures/jwst_cross_detector/module_b_001_vista_video_coverage.png)
+
 **Chandra 7 Ms Deep Field South, 1999 to 2016.** At the transient
 position, a 1.5-arcsec radius gives 13 counts in 0.5–2 keV and 30
 in 2–7 keV. The 8–20 arcsec annulus predicts 11.6 and 25.2 counts
@@ -749,11 +789,58 @@ fall between pointings.
 
 ![Separate Chandra count images and aperture bounds for 2000, 2007 and 2010](../figures/jwst_cross_detector/module_b_001_chandra_epochs.png)
 
-The historical record now includes distinct optical, infrared and
-X-ray observing windows. Cadence and sensitivity gaps leave the
+**Chandra event lists, 2000, 2007, 2015 and 2016.** We examined
+the calibrated 0.5–6 keV photons from 39 individual ACIS pointings.
+Thirty-five have the target and background apertures far enough from
+detector edges. For each usable pointing we tested its full on-chip
+good time and fixed 10 ks windows with at least 5 ks of good time.
+These tests use the same 1.5-arcsec source aperture and 8–20 arcsec
+background annulus throughout.
+
+| Chandra group | Usable pointings | Tested 10 ks windows |
+| --- | ---: | ---: |
+| 2000 | 7 of 9 | 65 |
+| 2007 | 10 of 12 | 89 |
+| 2015 | 16 of 16 | 100 |
+| 2016 | 2 of 2 | 8 |
+
+The strongest window has two photons on 20 May 2015 and about
+0.074 expected background counts. Its one-sided binomial probability
+is 0.00329 under the local background model. The Bonferroni-adjusted
+value is 0.98 across the 297 full-pointing and shorter-window tests.
+The search gives no statistically significant flare. The count bounds
+include background and omit the aperture's time-dependent PSF fraction
+and effective area. The results apply to the observed intervals and
+leave shorter, fainter and unsampled activity open.
+[Chandra survey observing journal](https://arxiv.org/abs/1611.03501) ·
+[2000 event measurements](../results/jwst_cross_detector/module_b_001_chandra_2000_events.json) ·
+[2007 event measurements](../results/jwst_cross_detector/module_b_001_chandra_2007_events.json) ·
+[2015 event measurements](../results/jwst_cross_detector/module_b_001_chandra_2015_events.json) ·
+[2016 event measurements](../results/jwst_cross_detector/module_b_001_chandra_2016_events.json).
+
+![Chandra full-pointing and 10 ks aperture photon counts in 2015 at the transient position](../figures/jwst_cross_detector/module_b_001_chandra_2015_events.png)
+
+**XMM-Newton, July 2001 to August 2025.** The ESA RapidXMM query
+returns 34 distinct pointed observations through August 2019 and
+seven slews between August 2005 and August 2025. It provides 96
+quality-flag-zero pointed detector measurements and seven slew
+measurements in the 0.2–2 keV band. The deepest pointed soft-band
+99.87% upper count rates are 2.60 × 10⁻⁴ counts/s (MOS1),
+2.22 × 10⁻⁴ counts/s (MOS2) and 5.79 × 10⁻⁴ counts/s (pn).
+The slews provide only 1.7–19.7 seconds of effective soft-band
+exposure and upper rates of 0.39–4.52 counts/s. These archive
+limits refer to detector rates from 15-arcsec pointed or 30-arcsec
+slew apertures centered on the archive's nearest sky cell. Nearby
+emission can contribute inside those apertures.
+[RapidXMM aperture photometry methods](https://doi.org/10.1093/mnras/stac272) ·
+[Observation rows, flags and rate limits](../results/jwst_cross_detector/module_b_001_rapidxmm.json).
+
+![XMM-Newton soft-band archival limits for pointed observations and slews at the target](../figures/jwst_cross_detector/module_b_001_rapidxmm.png)
+
+The historical record samples distinct optical, infrared and X-ray
+observing windows. The measured flux and count-rate sensitivities
+apply to those windows. Gaps in cadence and sensitivity leave the
 historical frequency and physical class of the JWST event open.
-The shorter X-ray flares and the crowded Spitzer residual require
-time-resolved event lists or spatial modelling to test more closely.
 
 #### Independent observations during the 2026 event
 
@@ -764,8 +851,8 @@ published footprints all miss the transient. The closest edge is
 22.94 arcsec away. The other result was a COS spectrum whose
 aperture also missed the position. The Chandra and XMM-Newton
 pointing logs returned no pointing centers within 0.5 degrees in
-the tested date window. This search covers these three archives
-and excludes XMM slew footprints.
+the tested date window. The separate RapidXMM positional query also
+returned zero pointed or slew observations overlapping this interval.
 [HST programme 18004](https://www.stsci.edu/hst-program-info/visits/?program=18004) ·
 [Chandra observation archive](https://heasarc.gsfc.nasa.gov/W3Browse/chandra/chanmaster.html) ·
 [XMM-Newton Science Archive](https://www.cosmos.esa.int/web/xmm-newton/xsa) ·
