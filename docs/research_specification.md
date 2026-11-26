@@ -538,6 +538,23 @@ Where possible:
 - Check whether source ranking is stable across data-processing variants.
 - Evaluate whether anomaly detection generalises to surveys excluded from training.
 
+**Historical observations.** For each discovery candidate, search public
+observations from earlier years and decades where the field has coverage.
+Start with independent surveys in bands relevant to the claimed signal.
+Record observation windows, data products, actual coverage at the source
+position, angular resolution, source blending and local sensitivity.
+Compare like bands within each instrument where possible. Use a stated
+spectral or light-curve model when transferring a measurement between
+different filters or cadences.
+
+For transient candidates, document separately the evidence that the event
+occurred, earlier activity at the position, and evidence for a physical
+classification. A historical image can constrain recurrence only over
+the dates and amplitudes it was sensitive to. Where practical, test
+those limits by injecting and recovering a signal on the historical
+images. Report gaps and whether independent observations cover the
+event itself.
+
 Use leave-one-survey-out validation where sample sizes permit.
 
 Report whether physical conclusions remain stable after changing fields, templates, selection thresholds, and model priors.
