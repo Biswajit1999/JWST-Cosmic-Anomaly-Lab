@@ -1,0 +1,412 @@
+{
+  "executed_utc": "2026-11-26T11:28:07.955166+00:00",
+  "script_sha256": "c29a2ca29194ebc72faec442049ad24afbd7072e0be3c14c7a8925127e8215f6",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "position_source_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "chandra": {
+    "product": {
+      "path": "data/raw/cross_detector/luo2017-cdfs-data-products03.tar.gz",
+      "url": "https://zenodo.org/records/8021940/files/luo2017-cdfs-data-products03.tar.gz?download=1",
+      "sha256": "b9dfec4162a952d1ab0730e6163f9c74a23bf4aac85cdc703abcee356268d478"
+    },
+    "bands": {
+      "0p5to2": {
+        "archive_members": [
+          "CDFS-7Ms-0p5to2-asca-im-bin1-01.fits.gz",
+          "CDFS-7Ms-0p5to2-bin1-02.emap.fits.gz"
+        ],
+        "background_annulus_arcsec": [
+          8,
+          20
+        ],
+        "background_annulus_counts": 1689,
+        "background_annulus_pixels": 4362,
+        "center_exposure_cm2_s": 1554381056.0,
+        "radii_arcsec": {
+          "1.0": {
+            "observed_counts": 6,
+            "expected_background_counts": 4.646492434662998,
+            "aperture_pixels": 12,
+            "signed_net_counts": 1.3535075653370017,
+            "local_background_binomial_tail": 0.32283694141554964,
+            "counts_upper95_no_background_subtraction": 11.842395652420288
+          },
+          "1.5": {
+            "observed_counts": 13,
+            "expected_background_counts": 11.616231086657496,
+            "aperture_pixels": 30,
+            "signed_net_counts": 1.3837689133425037,
+            "local_background_binomial_tail": 0.3811628379151319,
+            "counts_upper95_no_background_subtraction": 20.668569075713695
+          },
+          "2.0": {
+            "observed_counts": 18,
+            "expected_background_counts": 19.36038514442916,
+            "aperture_pixels": 50,
+            "signed_net_counts": -1.3603851444291593,
+            "local_background_binomial_tail": 0.6519687477570681,
+            "counts_upper95_no_background_subtraction": 26.691770311484678
+          },
+          "3.0": {
+            "observed_counts": 46,
+            "expected_background_counts": 44.91609353507565,
+            "aperture_pixels": 116,
+            "signed_net_counts": 1.0839064649243468,
+            "local_background_binomial_tail": 0.45710397923122253,
+            "counts_upper95_no_background_subtraction": 58.81582557117277
+          }
+        },
+        "observation_start": "1999-10-15T17:38:50",
+        "observation_end": "2016-03-24T23:32:55"
+      },
+      "2to7": {
+        "archive_members": [
+          "CDFS-7Ms-2to7-asca-im-bin1-01.fits.gz",
+          "CDFS-7Ms-2to7-bin1-02.emap.fits.gz"
+        ],
+        "background_annulus_arcsec": [
+          8,
+          20
+        ],
+        "background_annulus_counts": 3671,
+        "background_annulus_pixels": 4362,
+        "center_exposure_cm2_s": 1915598336.0,
+        "radii_arcsec": {
+          "1.0": {
+            "observed_counts": 13,
+            "expected_background_counts": 10.099037138927098,
+            "aperture_pixels": 12,
+            "signed_net_counts": 2.9009628610729017,
+            "local_background_binomial_tail": 0.21843975691729708,
+            "counts_upper95_no_background_subtraction": 20.668569075713695
+          },
+          "1.5": {
+            "observed_counts": 30,
+            "expected_background_counts": 25.247592847317744,
+            "aperture_pixels": 30,
+            "signed_net_counts": 4.752407152682256,
+            "local_background_binomial_tail": 0.19697703967499888,
+            "counts_upper95_no_background_subtraction": 40.69050759444955
+          },
+          "2.0": {
+            "observed_counts": 45,
+            "expected_background_counts": 42.079321412196244,
+            "aperture_pixels": 50,
+            "signed_net_counts": 2.9206785878037564,
+            "local_background_binomial_tail": 0.3476334097553286,
+            "counts_upper95_no_background_subtraction": 57.69489485413342
+          },
+          "3.0": {
+            "observed_counts": 87,
+            "expected_background_counts": 97.62402567629528,
+            "aperture_pixels": 116,
+            "signed_net_counts": -10.624025676295275,
+            "local_background_binomial_tail": 0.8683529555436005,
+            "counts_upper95_no_background_subtraction": 103.97735850043516
+          }
+        },
+        "observation_start": "1999-10-15T17:38:50",
+        "observation_end": "2016-03-24T23:32:55"
+      },
+      "0p5to7": {
+        "archive_members": [
+          "CDFS-7Ms-0p5to7-asca-im-bin1-01.fits.gz",
+          "CDFS-7Ms-0p5to7-bin1-02.emap.fits.gz"
+        ],
+        "background_annulus_arcsec": [
+          8,
+          20
+        ],
+        "background_annulus_counts": 5360,
+        "background_annulus_pixels": 4362,
+        "center_exposure_cm2_s": 1682348032.0,
+        "radii_arcsec": {
+          "1.0": {
+            "observed_counts": 19,
+            "expected_background_counts": 14.745529573590096,
+            "aperture_pixels": 12,
+            "signed_net_counts": 4.254470426409904,
+            "local_background_binomial_tail": 0.16350724188609245,
+            "counts_upper95_no_background_subtraction": 27.87923963944351
+          },
+          "1.5": {
+            "observed_counts": 43,
+            "expected_background_counts": 36.86382393397524,
+            "aperture_pixels": 30,
+            "signed_net_counts": 6.13617606602476,
+            "local_background_binomial_tail": 0.17650434390494096,
+            "counts_upper95_no_background_subtraction": 55.44900141134224
+          },
+          "2.0": {
+            "observed_counts": 63,
+            "expected_background_counts": 61.4397065566254,
+            "aperture_pixels": 50,
+            "signed_net_counts": 1.5602934433745972,
+            "local_background_binomial_tail": 0.4387022399750379,
+            "counts_upper95_no_background_subtraction": 77.70236042574102
+          },
+          "3.0": {
+            "observed_counts": 133,
+            "expected_background_counts": 142.54011921137092,
+            "aperture_pixels": 116,
+            "signed_net_counts": -9.540119211370921,
+            "local_background_binomial_tail": 0.7960996832689403,
+            "counts_upper95_no_background_subtraction": 153.5919002064802
+          }
+        },
+        "observation_start": "1999-10-15T17:38:50",
+        "observation_end": "2016-03-24T23:32:55"
+      }
+    }
+  },
+  "spitzer": {
+    "observation_window_utc": [
+      "2004-08-12",
+      "2004-08-18"
+    ],
+    "channels": {
+      "1": {
+        "products": [
+          {
+            "path": "data/raw/cross_detector/s_irac_1_s2_v0.30_sci.fits",
+            "url": "https://irsa.ipac.caltech.edu/data/SPITZER/GOODS/images/DR2/South/s_irac_1_s2_v0.30_sci.fits",
+            "sha256": "005573094497fe53dfaf5bf7ee7d768ccc1c1da5297ef866c5c3273fec6e7998"
+          },
+          {
+            "path": "data/raw/cross_detector/s_irac_1_s2_v0.30_exp.fits",
+            "url": "https://irsa.ipac.caltech.edu/data/SPITZER/GOODS/images/DR2/South/s_irac_1_s2_v0.30_exp.fits",
+            "sha256": "86f485cb7e73af42af9fb9acc132550fa86c4cdcaabdac086b9a654b7909245a"
+          }
+        ],
+        "calibration_njy_per_dn_second": 3922.0,
+        "center_exposure_map_value": 57685.56640625,
+        "exposure_header_unit": "sec",
+        "target_blended_aperture_njy": 23.895937723267707,
+        "control_aperture_count": 96,
+        "control_aperture_njy": [
+          -89.72454150297563,
+          -131.76588653895305,
+          417.39726288893144,
+          -79.94996342161903,
+          103.5127084707783,
+          -68.9116509303276,
+          2976.154518482974,
+          252.38290494546527,
+          70.59913287271047,
+          -16.919859987392556,
+          28.015819835931097,
+          286.1627454206173,
+          -62.85580596153159,
+          191.34974342392525,
+          638.2020331676358,
+          -80.60100508359028,
+          -93.87271979240177,
+          68.11847863292496,
+          51.567915196865215,
+          -28.10650693552452,
+          5662.796135255667,
+          12.949844113645668,
+          1939.7567958050931,
+          153.5355239795681,
+          169.4099777790325,
+          154.01197628524096,
+          -7.789614097528101,
+          -47.28658233844908,
+          -44.40606690949062,
+          2100.8645548062486,
+          55.30974015334755,
+          -71.21893387889213,
+          753.2035988156276,
+          1988.0770492608426,
+          3.9321114840422524,
+          -13.536946510958273,
+          4.04765364486957,
+          -56.603129597904626,
+          -12.363563471648376,
+          -35.38448791403789,
+          -115.7163454317888,
+          -228.4417164031329,
+          146.85740504119894,
+          65.66283418223611,
+          145.31883367513365,
+          -76.68800690949092,
+          -14.69370860260824,
+          -25.433555976720527,
+          147.6662126944284,
+          431.44843882802525,
+          820.6322632939191,
+          -37.120162854218506,
+          41.002502455201466,
+          -95.00052325055003,
+          -35.68476849672152,
+          56.52180306694936,
+          -106.5000747293816,
+          97.34028076476534,
+          -89.56080525997095,
+          -79.56375559915614,
+          1404.6519196807858,
+          1000.1294313020189,
+          -139.96733521723945,
+          -100.29496323665808,
+          522.6545100046278,
+          77.36519946411136,
+          8342.319554072805,
+          -104.5351451262959,
+          -92.25822846947995,
+          2.6944751522969455,
+          6.212591072486248,
+          -105.0383422748273,
+          -1.0156136586965658,
+          55.48705678725673,
+          -210.1498061792954,
+          2862.6415033601224,
+          206.62421408943192,
+          -36.78004090873583,
+          -112.71619528630981,
+          -127.1354673114256,
+          -18.71647753300931,
+          -34.71560643808334,
+          -71.33152435126249,
+          19.901064201738336,
+          986.8040074133605,
+          3250.5885524774203,
+          -38.15238307872278,
+          1100.7410720683838,
+          2542.0613203546745,
+          -80.30168320663506,
+          445.617563596149,
+          -0.36635828207363375,
+          -15.246181286181127,
+          89.63821257367181,
+          -101.59875955223106,
+          107.95096216068487
+        ],
+        "control_scatter_njy": 138.81962744543463,
+        "five_times_control_scatter_njy": 694.0981372271732
+      },
+      "2": {
+        "products": [
+          {
+            "path": "data/raw/cross_detector/s_irac_2_s2_v0.30_sci.fits",
+            "url": "https://irsa.ipac.caltech.edu/data/SPITZER/GOODS/images/DR2/South/s_irac_2_s2_v0.30_sci.fits",
+            "sha256": "8d8cffa2a0476f5f350695613b37a921ed431eefa6fa1ea57912d7abad86b462"
+          },
+          {
+            "path": "data/raw/cross_detector/s_irac_2_s2_v0.30_exp.fits",
+            "url": "https://irsa.ipac.caltech.edu/data/SPITZER/GOODS/images/DR2/South/s_irac_2_s2_v0.30_exp.fits",
+            "sha256": "ceec5e332eaf6574ee7a16790c2c16022c59272265a9426ae7f5df5a1fdb6cbd"
+          }
+        ],
+        "calibration_njy_per_dn_second": 4808.0,
+        "center_exposure_map_value": 90981.796875,
+        "exposure_header_unit": "sec",
+        "target_blended_aperture_njy": -32.55724424505024,
+        "control_aperture_count": 96,
+        "control_aperture_njy": [
+          36.74284918920603,
+          -92.8143936583474,
+          424.79679475328885,
+          -88.35315200430341,
+          347.14222424820764,
+          -91.15250741166528,
+          1886.3292920617387,
+          243.7749376790016,
+          101.89833680869197,
+          -44.0252395690477,
+          26.683887474995572,
+          210.6708009763388,
+          -45.032569801056525,
+          205.85197437467286,
+          365.1601811897708,
+          -71.71768564474769,
+          -193.30924433632754,
+          71.84122405946255,
+          0.3349448179360479,
+          -69.93144510345883,
+          3215.6873902069055,
+          -11.452613839763217,
+          2289.2830706356326,
+          91.48990201416018,
+          122.92189825591049,
+          20.845506670011673,
+          -33.89756653737277,
+          -59.591510583879426,
+          -61.81623847116862,
+          1360.9609916386544,
+          57.5988033337635,
+          -155.4023095931625,
+          586.3341797712492,
+          2266.202586838219,
+          53.910736127523705,
+          40.8453620847431,
+          -6.9978052151273005,
+          -32.051504228962585,
+          17.287249175831676,
+          4.643031573679764,
+          -136.0818167203979,
+          -275.7250345214652,
+          106.00999511880218,
+          -57.04800030589104,
+          -27.23081218675361,
+          -25.394895608711522,
+          3.841860534157604,
+          17.438157069584122,
+          198.03991897657397,
+          396.64117206446826,
+          1073.2478729294962,
+          -54.882668624282815,
+          -78.41759681963595,
+          -66.57574012712575,
+          -113.1710779373534,
+          81.06874843841797,
+          17.316102607932407,
+          90.28219849185552,
+          -165.49063716758974,
+          -95.00908027897822,
+          1389.1270479357117,
+          879.1524856066098,
+          -90.84814493723388,
+          -118.97723867010791,
+          482.97342949412996,
+          -107.74789962216164,
+          9908.513799415436,
+          -58.5049914221745,
+          -85.76880699861795,
+          -75.98654006888682,
+          -25.742516410769895,
+          -46.59969386900775,
+          -57.189444563991856,
+          -32.509585889631126,
+          -294.8173606628261,
+          2830.2116587371565,
+          110.31069280664087,
+          -205.33299142564647,
+          -70.38426841574255,
+          -81.79631086633344,
+          -50.41568681025092,
+          -100.75423586380202,
+          -77.32303974646493,
+          -17.50923101195076,
+          545.9317577094189,
+          1783.4394751524087,
+          -80.68140205158852,
+          1039.207973151002,
+          3020.6588703051675,
+          -64.77719258284196,
+          567.1374552376801,
+          -3.6091736713424325,
+          42.060196895414265,
+          19.3143275208422,
+          83.87222252436914,
+          35.73062094481429
+        ],
+        "control_scatter_njy": 127.31228768079548,
+        "five_times_control_scatter_njy": 636.5614384039774
+      }
+    }
+  },
+  "scope": "Chandra counts use the full 7 Ms stack and have no PSF or spectral flux correction. IRAC uses blended apertures and empirical spatial scatter from one legacy observing epoch."
+}

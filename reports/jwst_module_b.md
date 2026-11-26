@@ -604,6 +604,80 @@ analysis.
 
 ![Measured spectral apertures with empirical error bars and native FRESCO detector pixels around the predicted Paschen beta wavelength](../figures/jwst_cross_detector/module_b_001_grism_host_lines.png)
 
+#### Historical cross-survey comparison
+
+The aim is to test for activity at the transient position in observations
+from years or decades before the JWST event. This requires three checks.
+
+- Establish which images actually cover the position and record dates,
+  bandpasses and local depth. A catalogue can miss a variable source
+  that is faint in its combined image.
+- Compare separate epochs within each band with matched control
+  apertures and check the images for blends. Measure how much of a
+  repeat flare the historical data could recover before using a
+  nondetection to limit recurrence.
+- Use contemporaneous observations for independent confirmation of the
+  2026 event. Use older surveys to test recurrence and persistent
+  emission, and require additional evidence to identify the source class.
+
+**HST F160W, October 2010 to February 2012.** The target has
+positive central weight in ten of the 13 public CANDELS epoch mosaics
+checked. The three wide mosaics have zero weight at this position.
+We projected the observed pixels onto a common local sky grid using
+the drizzled-image TAN coordinates and calibrated each mosaic using
+its own FITS reference keywords. We measured a 0.24-arcsec aperture
+relative to the median of the other covering epochs. The uncertainty
+is the scaled median absolute deviation from 60 local difference
+apertures per epoch. We also repeated the target measurement at
+one-pixel offsets to gauge its dependence on the aperture center.
+
+The largest positive difference is +20.9 ± 14.3 nJy in the February
+2012 mosaic. All ten centered differences fall within 1.5 times their
+local control scatter. That scatter ranges from 12.6 to 23.9 nJy,
+so five times the scatter is 63 to 119 nJy. The October 2026 JWST
+F150W aperture excess was +30.3 ± 5.3 nJy. Its scale is below this
+historical F160W benchmark, and the filters and point-spread functions
+differ. The HST data do not establish whether a similarly faint
+episode recurred. The HST epochs share reference images, and their
+PSF differences were left unmodelled.
+[MAST CANDELS epoch mosaics](https://archive.stsci.edu/hlsp/candels/goods-s-images) ·
+[HST measurements and FITS range receipts](../results/jwst_cross_detector/module_b_001_hst_f160w_history.json).
+
+![Hubble F160W epoch photometry with empirical error bars and three observed CANDELS cutouts](../figures/jwst_cross_detector/module_b_001_hst_f160w_history.png)
+
+**Spitzer IRAC, August 2004.** The GOODS-S epoch-2 exposure maps
+place the target on both 3.6 and 4.5 micron images, with about 57.7
+and 91.0 ks of coverage. In the 1.8-arcsec aperture, five times
+the local spatial scatter is 694 nJy at 3.6 microns and 637 nJy
+at 4.5 microns. These are blended-aperture benchmarks, with no
+aperture correction or model for the nearby resolved emission.
+The 3.6 micron benchmark is far above the +24.4 ± 3.5 nJy JWST
+F356W excess. The checked Spitzer epoch cannot resolve comparable
+variability at this position.
+[IRSA GOODS-S epoch-2 documentation](https://irsa.ipac.caltech.edu/data/SPITZER/GOODS/docs/goods_dr2.html).
+
+**Chandra 7 Ms Deep Field South, 1999 to 2016.** At the transient
+position, a 1.5-arcsec radius gives 13 counts in 0.5–2 keV and 30
+in 2–7 keV. The 8–20 arcsec annulus predicts 11.6 and 25.2 counts
+in those apertures, respectively. The one-sided background
+probabilities are 0.38 and 0.20 under a locally uniform count
+background. The conservative 95% Poisson upper bounds are 20.7
+and 40.7 expected counts in the aperture without subtracting
+background or correcting for the PSF. The local exposure maps
+were sampled at the target. These merged images probe persistent
+X-ray emission, while short flares require separate observing
+intervals and a local response calculation.
+[Chandra survey paper](https://arxiv.org/abs/1611.03501) ·
+[Released Chandra images](https://zenodo.org/records/8021940) ·
+[Chandra and Spitzer measurements](../results/jwst_cross_detector/module_b_001_chandra_spitzer_history.json).
+
+![Observed soft and hard Chandra count images and 2004 Spitzer IRAC cutout](../figures/jwst_cross_detector/module_b_001_chandra_spitzer_history.png)
+
+The historical search continues with optical HST epochs, independently
+dated Spitzer observations, and separate Chandra exposure groups.
+Cadence and sensitivity gaps leave the historical frequency and
+physical class of the JWST event open.
+
 ### Fading at 53.147252°, −27.790612°
 
 This position measured 8–11 nJy in F200W from 2022 through January 2024.

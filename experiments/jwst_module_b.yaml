@@ -27,6 +27,8 @@ commands:
   - python scripts/check_jades_103607_followup.py
   - python scripts/audit_jades_103607_grism_host_coverage.py
   - python scripts/measure_jades_103607_grism_host_lines.py
+  - python scripts/measure_jades_103607_hst_history.py
+  - python scripts/check_jades_103607_chandra_spitzer_history.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
   newer_visits: [jw12577001001, jw12577002001]
@@ -48,6 +50,8 @@ limitations:
   - The November difference measurements share image data and do not constrain the event onset or peak.
   - The JPL search covers known small bodies with predicted V magnitude of 28.5 or brighter at two midpoints.
   - Native visit medians require two usable exposures, and dither-pair comparisons share exposures.
+  - The CANDELS F160W measurements use finite apertures and shared leave-one-out image references. They do not constrain unsampled dates.
+  - The IRAC apertures include neighbouring light and the Chandra count limits use merged exposures with no PSF correction.
 outputs:
   - reports/jwst_module_b.md
   - results/jwst_cross_detector/module_b_products.json
@@ -77,4 +81,6 @@ outputs:
   - results/jwst_cross_detector/module_b_001_followup_20261126.json
   - results/jwst_cross_detector/module_b_001_grism_host_coverage.json
   - results/jwst_cross_detector/module_b_001_grism_host_lines.json
+  - results/jwst_cross_detector/module_b_001_hst_f160w_history.json
+  - results/jwst_cross_detector/module_b_001_chandra_spitzer_history.json
   - figures/jwst_cross_detector/module_b_*
