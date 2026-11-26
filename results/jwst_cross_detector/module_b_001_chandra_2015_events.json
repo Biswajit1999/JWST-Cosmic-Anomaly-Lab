@@ -1,6 +1,6 @@
 {
-  "executed_utc": "2026-11-26T19:26:40.163583+00:00",
-  "script_sha256": "1621e16315bb7ca8d192eddf2478c7d81b95d82cee5acf3a7104972f186190e3",
+  "executed_utc": "2026-11-26T19:47:43.573345+00:00",
+  "script_sha256": "12d5e96e3665e1ed9544820487f3c495a672ae834a48fa3e831f62ca195fb115",
   "position_icrs_deg": [
     53.18866983298658,
     -27.812539402767552
@@ -27,6 +27,8 @@
   "observations": [
     {
       "obsid": 17573,
+      "journal_id": "17573",
+      "observation_interval": null,
       "journal_start": "2015 Jan 04 04:02",
       "survey_clean_exposure_ks": 39.0,
       "primary_archive_listing": {
@@ -115,6 +117,8 @@
     },
     {
       "obsid": 17633,
+      "journal_id": "17633",
+      "observation_interval": null,
       "journal_start": "2015 Mar 16 14:51",
       "survey_clean_exposure_ks": 35.5,
       "primary_archive_listing": {
@@ -197,6 +201,8 @@
     },
     {
       "obsid": 17634,
+      "journal_id": "17634",
+      "observation_interval": null,
       "journal_start": "2015 Mar 19 04:47",
       "survey_clean_exposure_ks": 8.8,
       "primary_archive_listing": {
@@ -246,6 +252,8 @@
     },
     {
       "obsid": 16453,
+      "journal_id": "16453",
+      "observation_interval": null,
       "journal_start": "2015 Mar 21 20:27",
       "survey_clean_exposure_ks": 69.8,
       "primary_archive_listing": {
@@ -367,6 +375,8 @@
     },
     {
       "obsid": 16451,
+      "journal_id": "16451",
+      "observation_interval": null,
       "journal_start": "2015 Mar 24 21:13",
       "survey_clean_exposure_ks": 112.1,
       "primary_archive_listing": {
@@ -532,6 +542,8 @@
     },
     {
       "obsid": 16461,
+      "journal_id": "16461",
+      "observation_interval": null,
       "journal_start": "2015 May 19 01:43",
       "survey_clean_exposure_ks": 127.1,
       "primary_archive_listing": {
@@ -723,6 +735,8 @@
     },
     {
       "obsid": 16191,
+      "journal_id": "16191",
+      "observation_interval": null,
       "journal_start": "2015 May 25 07:08",
       "survey_clean_exposure_ks": 83.7,
       "primary_archive_listing": {
@@ -855,6 +869,8 @@
     },
     {
       "obsid": 16460,
+      "journal_id": "16460",
+      "observation_interval": null,
       "journal_start": "2015 Jun 16 07:09",
       "survey_clean_exposure_ks": 21.4,
       "primary_archive_listing": {
@@ -921,6 +937,8 @@
     },
     {
       "obsid": 16459,
+      "journal_id": "16459",
+      "observation_interval": null,
       "journal_start": "2015 Jun 20 05:44",
       "survey_clean_exposure_ks": 72.1,
       "primary_archive_listing": {
@@ -1042,6 +1060,8 @@
     },
     {
       "obsid": 17552,
+      "journal_id": "17552",
+      "observation_interval": null,
       "journal_start": "2015 Oct 10 07:45",
       "survey_clean_exposure_ks": 45.9,
       "primary_archive_listing": {
@@ -1143,6 +1163,8 @@
     },
     {
       "obsid": 16455,
+      "journal_id": "16455",
+      "observation_interval": null,
       "journal_start": "2015 Oct 27 09:52",
       "survey_clean_exposure_ks": 89.1,
       "primary_archive_listing": {
@@ -1288,6 +1310,8 @@
     },
     {
       "obsid": 16458,
+      "journal_id": "16458",
+      "observation_interval": null,
       "journal_start": "2015 Oct 30 23:25",
       "survey_clean_exposure_ks": 96.4,
       "primary_archive_listing": {
@@ -1436,6 +1460,8 @@
     },
     {
       "obsid": 17677,
+      "journal_id": "17677",
+      "observation_interval": null,
       "journal_start": "2015 Nov 15 15:54",
       "survey_clean_exposure_ks": 108.2,
       "primary_archive_listing": {
@@ -1601,6 +1627,8 @@
     },
     {
       "obsid": 18709,
+      "journal_id": "18709",
+      "observation_interval": null,
       "journal_start": "2015 Nov 22 20:15",
       "survey_clean_exposure_ks": 16.9,
       "primary_archive_listing": {
@@ -1661,6 +1689,8 @@
     },
     {
       "obsid": 18719,
+      "journal_id": "18719",
+      "observation_interval": null,
       "journal_start": "2015 Dec 10 06:59",
       "survey_clean_exposure_ks": 34.5,
       "primary_archive_listing": {
@@ -1738,6 +1768,8 @@
     },
     {
       "obsid": 16452,
+      "journal_id": "16452",
+      "observation_interval": null,
       "journal_start": "2015 Dec 12 21:49",
       "survey_clean_exposure_ks": 27.7,
       "primary_archive_listing": {
@@ -1811,6 +1843,7 @@
   "number_of_tests": 116,
   "best_trial": {
     "obsid": 16461,
+    "journal_id": "16461",
     "kind": "10 ks",
     "start_utc": "2015-05-20T00:23:49.301",
     "end_utc": "2015-05-20T03:10:29.301",

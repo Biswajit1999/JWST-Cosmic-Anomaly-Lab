@@ -48,6 +48,28 @@ def test_download_budget_checksum_and_cache(tmp_path):
     assert not (cache.raw / "y").exists()
 
 
+def test_post_download_reuses_the_recorded_query(tmp_path):
+    cache = DownloadCache(tmp_path, budget_bytes=10)
+    cache.session.post = Mock(return_value=response(b"[1]"))
+    cache.session.get = Mock()
+    url = "https://example.org/catalogue"
+    metadata = dict(survey="test", version="1", kind="synthetic_test")
+    request_a = {"search": [["band", "i"]]}
+    request_b = {"search": [["band", "z"]]}
+    first = cache.fetch(url, "i.json", json_payload=request_a, **metadata)
+    assert first.read_bytes() == b"[1]"
+    assert cache.fetch(url, "i.json", json_payload=request_a, **metadata) == first
+    cache.session.post.assert_called_once_with(
+        url, json=request_a, stream=True, timeout=(20, 90)
+    )
+    cache.session.post.return_value = response(b"[2]")
+    second = cache.fetch(url, "z.json", json_payload=request_b, **metadata)
+    assert second.read_bytes() == b"[2]"
+    records = json.loads(cache.manifest.read_text())
+    assert [record["request_json"] for record in records] == [request_a, request_b]
+    cache.session.get.assert_not_called()
+
+
 def test_failed_checksum_leaves_no_committed_file(tmp_path):
     cache = DownloadCache(tmp_path)
     cache.session.get = Mock(return_value=response(b"abc"))

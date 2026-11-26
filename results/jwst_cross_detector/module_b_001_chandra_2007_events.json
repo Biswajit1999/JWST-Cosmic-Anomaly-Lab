@@ -1,6 +1,6 @@
 {
-  "executed_utc": "2026-11-26T19:24:21.604156+00:00",
-  "script_sha256": "1621e16315bb7ca8d192eddf2478c7d81b95d82cee5acf3a7104972f186190e3",
+  "executed_utc": "2026-11-26T19:46:59.929160+00:00",
+  "script_sha256": "12d5e96e3665e1ed9544820487f3c495a672ae834a48fa3e831f62ca195fb115",
   "position_icrs_deg": [
     53.18866983298658,
     -27.812539402767552
@@ -27,6 +27,8 @@
   "observations": [
     {
       "obsid": 8591,
+      "journal_id": "8591",
+      "observation_interval": null,
       "journal_start": "2007 Sep 20 05:26",
       "survey_clean_exposure_ks": 45.4,
       "primary_archive_listing": {
@@ -45,6 +47,8 @@
     },
     {
       "obsid": 9593,
+      "journal_id": "9593",
+      "observation_interval": null,
       "journal_start": "2007 Sep 22 20:34",
       "survey_clean_exposure_ks": 43.4,
       "primary_archive_listing": {
@@ -63,6 +67,8 @@
     },
     {
       "obsid": 9718,
+      "journal_id": "9718",
+      "observation_interval": null,
       "journal_start": "2007 Oct 03 13:56",
       "survey_clean_exposure_ks": 49.3,
       "primary_archive_listing": {
@@ -165,6 +171,8 @@
     },
     {
       "obsid": 8593,
+      "journal_id": "8593",
+      "observation_interval": null,
       "journal_start": "2007 Oct 06 02:04",
       "survey_clean_exposure_ks": 48.0,
       "primary_archive_listing": {
@@ -266,6 +274,8 @@
     },
     {
       "obsid": 8597,
+      "journal_id": "8597",
+      "observation_interval": null,
       "journal_start": "2007 Oct 17 07:07",
       "survey_clean_exposure_ks": 59.3,
       "primary_archive_listing": {
@@ -376,6 +386,8 @@
     },
     {
       "obsid": 8595,
+      "journal_id": "8595",
+      "observation_interval": null,
       "journal_start": "2007 Oct 19 14:16",
       "survey_clean_exposure_ks": 114.4,
       "primary_archive_listing": {
@@ -548,6 +560,8 @@
     },
     {
       "obsid": 8592,
+      "journal_id": "8592",
+      "observation_interval": null,
       "journal_start": "2007 Oct 22 12:14",
       "survey_clean_exposure_ks": 86.6,
       "primary_archive_listing": {
@@ -688,6 +702,8 @@
     },
     {
       "obsid": 8596,
+      "journal_id": "8596",
+      "observation_interval": null,
       "journal_start": "2007 Oct 24 13:20",
       "survey_clean_exposure_ks": 115.1,
       "primary_archive_listing": {
@@ -860,6 +876,8 @@
     },
     {
       "obsid": 9575,
+      "journal_id": "9575",
+      "observation_interval": null,
       "journal_start": "2007 Oct 27 05:43",
       "survey_clean_exposure_ks": 107.7,
       "primary_archive_listing": {
@@ -1025,6 +1043,8 @@
     },
     {
       "obsid": 9578,
+      "journal_id": "9578",
+      "observation_interval": null,
       "journal_start": "2007 Oct 30 22:35",
       "survey_clean_exposure_ks": 38.0,
       "primary_archive_listing": {
@@ -1107,6 +1127,8 @@
     },
     {
       "obsid": 8594,
+      "journal_id": "8594",
+      "observation_interval": null,
       "journal_start": "2007 Nov 01 11:51",
       "survey_clean_exposure_ks": 140.9,
       "primary_archive_listing": {
@@ -1305,6 +1327,8 @@
     },
     {
       "obsid": 9596,
+      "journal_id": "9596",
+      "observation_interval": null,
       "journal_start": "2007 Nov 04 04:11",
       "survey_clean_exposure_ks": 111.8,
       "primary_archive_listing": {
@@ -1475,6 +1499,7 @@
   "number_of_tests": 99,
   "best_trial": {
     "obsid": 9718,
+    "journal_id": "9718",
     "kind": "whole pointing",
     "source_counts": 2,
     "annulus_counts": 47,

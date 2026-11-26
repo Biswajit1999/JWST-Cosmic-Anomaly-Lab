@@ -789,34 +789,49 @@ fall between pointings.
 
 ![Separate Chandra count images and aperture bounds for 2000, 2007 and 2010](../figures/jwst_cross_detector/module_b_001_chandra_epochs.png)
 
-**Chandra event lists, 2000, 2007, 2015 and 2016.** We examined
-the calibrated 0.5–6 keV photons from 39 individual ACIS pointings.
-Thirty-five have the target and background apertures far enough from
-detector edges. For each usable pointing we tested its full on-chip
-good time and fixed 10 ks windows with at least 5 ks of good time.
-These tests use the same 1.5-arcsec source aperture and 8–20 arcsec
-background annulus throughout.
+**Chandra event lists, October 1999 to March 2016.** We screened
+all 102 observing intervals in the published 7 Ms CDF-S journal.
+The two 1999 intervals share a public ObsID 1431 event file.
+We split their good times and photons at 1 November 1999 and
+use the separately released chip footprints. The 1.5-arcsec
+source aperture and 8–20 arcsec background annulus have
+sufficient detector-edge clearance in 91 intervals. The
+0.5–6 keV test uses full pointings and fixed 10 ks windows
+with at least 5 ks of chip good time.
 
-| Chandra group | Usable pointings | Tested 10 ks windows |
+| Chandra group | Usable intervals | Tested 10 ks windows |
 | --- | ---: | ---: |
+| 1999 | 2 of 2 | 12 |
 | 2000 | 7 of 9 | 65 |
 | 2007 | 10 of 12 | 89 |
+| 2010 | 27 of 31 | 180 |
+| 2014 | 27 of 30 | 172 |
 | 2015 | 16 of 16 | 100 |
 | 2016 | 2 of 2 | 8 |
 
-The strongest window has two photons on 20 May 2015 and about
-0.074 expected background counts. Its one-sided binomial probability
-is 0.00329 under the local background model. The Bonferroni-adjusted
-value is 0.98 across the 297 full-pointing and shorter-window tests.
-The search gives no statistically significant flare. The count bounds
-include background and omit the aperture's time-dependent PSF fraction
-and effective area. The results apply to the observed intervals and
-leave shorter, fainter and unsampled activity open.
+The strongest window still has two photons on 20 May 2015 and
+about 0.074 expected background counts. Its one-sided binomial
+probability is 0.00329 under the local background model. The
+Bonferroni-adjusted value is 1.0 across the 717 full-interval and
+shorter-window tests. No flare reaches statistical significance.
+
+The 626 shorter windows contain 6.16 Ms of chip good time, or
+1.19% of the calendar span from the first to last measured
+observation. The median conservative 95% upper count rate is
+3.00 × 10⁻⁴ counts/s within the aperture. This bound retains
+background and omits the time-dependent PSF fraction and detector
+response. It applies to emission sustained across the sampled
+windows. The sparse sampling leaves brief or unsampled activity
+open.
 [Chandra survey observing journal](https://arxiv.org/abs/1611.03501) ·
-[2000 event measurements](../results/jwst_cross_detector/module_b_001_chandra_2000_events.json) ·
-[2007 event measurements](../results/jwst_cross_detector/module_b_001_chandra_2007_events.json) ·
-[2015 event measurements](../results/jwst_cross_detector/module_b_001_chandra_2015_events.json) ·
-[2016 event measurements](../results/jwst_cross_detector/module_b_001_chandra_2016_events.json).
+[Combined coverage and trial accounting](../results/jwst_cross_detector/module_b_001_chandra_full_history.json) ·
+[1999](../results/jwst_cross_detector/module_b_001_chandra_1999_events.json) ·
+[2000](../results/jwst_cross_detector/module_b_001_chandra_2000_events.json) ·
+[2007](../results/jwst_cross_detector/module_b_001_chandra_2007_events.json) ·
+[2010](../results/jwst_cross_detector/module_b_001_chandra_2010_events.json) ·
+[2014](../results/jwst_cross_detector/module_b_001_chandra_2014_events.json) ·
+[2015](../results/jwst_cross_detector/module_b_001_chandra_2015_events.json) ·
+[2016](../results/jwst_cross_detector/module_b_001_chandra_2016_events.json).
 
 ![Chandra full-pointing and 10 ks aperture photon counts in 2015 at the transient position](../figures/jwst_cross_detector/module_b_001_chandra_2015_events.png)
 
@@ -837,8 +852,24 @@ emission can contribute inside those apertures.
 
 ![XMM-Newton soft-band archival limits for pointed observations and slews at the target](../figures/jwst_cross_detector/module_b_001_rapidxmm.png)
 
-The historical record samples distinct optical, infrared and X-ray
-observing windows. The measured flux and count-rate sensitivities
+**MeerKAT MIGHTEE, December 2019 to October 2020.** In the
+CDFS-DEEP 5.5-arcsec continuum image, the transient position
+measures −0.71 µJy/beam at an effective 1.232 GHz. The released
+local RMS is 1.29 µJy/beam. The scatter of 148 nearby samples
+is 1.35 µJy/beam, giving a five-scatter point-source benchmark
+of 6.75 µJy/beam. The nearest catalogue source is 14.15 arcsec
+away. A bright persistent radio source is therefore unsupported
+at the transient position in this coadd. The radio beam blends
+subarcsecond components, and a short radio flare could be diluted
+in the combined data.
+[MIGHTEE release paper and observing log](https://arxiv.org/abs/2411.04958) ·
+[SARAO released images and catalogue](https://doi.org/10.48479/7msw-r692) ·
+[Local measurement, sensitivity and FITS receipts](../results/jwst_cross_detector/module_b_001_meerkat.json).
+
+![Observed MeerKAT intensity and local signal-to-noise maps with the JWST position marked](../figures/jwst_cross_detector/module_b_001_meerkat.png)
+
+The historical record samples distinct optical, infrared, X-ray
+and radio observing windows. The measured flux and count-rate sensitivities
 apply to those windows. Gaps in cadence and sensitivity leave the
 historical frequency and physical class of the JWST event open.
 
@@ -857,6 +888,38 @@ returned zero pointed or slew observations overlapping this interval.
 [Chandra observation archive](https://heasarc.gsfc.nasa.gov/W3Browse/chandra/chanmaster.html) ·
 [XMM-Newton Science Archive](https://www.cosmos.esa.int/web/xmm-newton/xsa) ·
 [Observation IDs, footprints and query receipts](../results/jwst_cross_detector/module_b_001_independent_2026_coverage.json).
+
+**Blanco/DECam.** The NOIRLab query screened 374 individual
+calibrated-detector footprints from 1 October through 26 November
+2026. The four corners in each public metadata record were ordered
+around the detector perimeter before testing whether the footprint
+contains the transient position. Seventy-four distinct exposures
+cover that position geometrically on nine nights. The dates include
+28 and 29 October and five nights from 6 to 17 November, between the
+two JWST visits. Eleven exposures are from 25 November, one day
+after the JWST fade was measured. No exposure found in this search
+coincides with the 9–10 October JWST bright visit.
+
+The archive lists future release dates from 23 March to 17 May
+2028 for all 74 images. The recorded exposure-level depth reaches
+24.4 mag in the deepest image with a published value. The depth
+at the transient position and the presence of an optical excess
+remain unmeasured. The dated detector footprints establish
+independent observing opportunities during the interval.
+[NOIRLab Astro Data Archive](https://astroarchive.noirlab.edu/) ·
+[Detector corners, filters, depth metadata and release dates](../results/jwst_cross_detector/module_b_001_decam_2026_coverage.json).
+
+**Vera C. Rubin Observatory.** The public Fink difference-alert
+search returns zero objects within 5 arcsec for the same
+October–November date window. Four objects appear within
+120 arcsec. The closest reported position is 26.22 arcsec away
+and first alerted on 30 October. These records demonstrate
+alert activity in the surrounding field. Target pixel coverage,
+local sensitivity and forced photometry remain unknown from
+this query.
+[Rubin public alert products](https://prompt-products.lsst.io/products/alerts/index.html) ·
+[Fink position and time search](https://doc.lsst.fink-broker.org/services/api/conesearch/) ·
+[Target and surrounding-field alert receipts](../results/jwst_cross_detector/module_b_001_rubin_2026_alerts.json).
 
 ### Fading at 53.147252°, −27.790612°
 

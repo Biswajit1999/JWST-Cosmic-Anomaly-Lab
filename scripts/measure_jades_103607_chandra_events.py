@@ -13,6 +13,8 @@ from astropy.time import Time, TimeDelta
 from astropy.wcs import WCS, FITSFixedWarning
 from download_jwst_cross_detector import OUT, ROOT
 from inspect_jades_cosmic_evolution import receipt
+from matplotlib.cm import ScalarMappable
+from matplotlib.colors import Normalize
 from matplotlib.figure import Figure
 from matplotlib.path import Path as Polygon
 from scipy.stats import binom, chi2
@@ -30,6 +32,10 @@ EDGE_GUARD = 8
 WINDOW = 10000
 MINIMUM_GOOD_TIME = 5000
 ENERGY_EV = (500, 6000)
+CAMPAIGNS = (1999, 2000, 2007, 2010, 2014, 2015, 2016)
+# The public ObsID 1431 event file combines two observations 39 days apart.
+# The journal and chip GTIs place them on opposite sides of this date.
+OBI_SPLIT_UTC = "1999-11-01"
 
 
 def search_observations(year):
@@ -39,16 +45,22 @@ def search_observations(year):
     with tarfile.open(JOURNAL, "r:gz") as bundle:
         text = bundle.extractfile("./tbl01.txt").read().decode("ascii")
     matches = re.findall(
-        r"^\s*(\d+)\s+(\d{4} \w{3} \d{2}), (\d{2}:\d{2})\s+([\d.]+)", text, re.MULTILINE
+        r"^\s*(\d+(?:-\d+)?)\s+(\d{4} \w{3} \d{2}), (\d{2}:\d{2})\s+([\d.]+)", text, re.MULTILINE
     )
     return [
-        dict(obsid=int(number), journal_start=f"{date} {start}", survey_clean_exposure_ks=float(ks))
+        dict(
+            obsid=int(number.split("-")[0]),
+            journal_id=number,
+            observation_interval=int(number.split("-")[1]) if "-" in number else None,
+            journal_start=f"{date} {start}",
+            survey_clean_exposure_ks=float(ks),
+        )
         for number, date, start, ks in matches
         if date[:4] == str(year)
     ], prior
 
 
-def download_paths(cache, obsid):
+def download_paths(cache, obsid, interval):
     folder = f"{CXC}/{obsid % 10}/{obsid}/primary/"
     key = f"chandra_evt_{obsid}"
     listing = cache.fetch(
@@ -61,7 +73,8 @@ def download_paths(cache, obsid):
     html = listing.read_text(encoding="utf-8", errors="replace")
     names = {}
     for product in ("fov1", "evt2"):
-        pattern = rf"acisf{obsid:05d}(?:_\d+)?N\d+_{product}\.fits\.gz"
+        suffix = rf"_{interval:03d}" if interval is not None and product == "fov1" else r"(?:_\d+)?"
+        pattern = rf"acisf{obsid:05d}{suffix}N\d+_{product}\.fits\.gz"
         found = sorted(set(re.findall(pattern, html)))
         if len(found) != 1:
             raise ValueError(f"Expected one {product} for observation {obsid}, got {found}")
@@ -140,7 +153,7 @@ def statistic(target, background, good_seconds):
     )
 
 
-def windows(path, sky, chip, obsid, expected_pos):
+def windows(path, sky, chip, obsid, expected_pos, interval):
     with fits.open(path, memmap=False) as h:
         events = h["EVENTS"]
         hdr = events.header
@@ -172,6 +185,17 @@ def windows(path, sky, chip, obsid, expected_pos):
         target = time[use & (r <= RADIUS)]
         bg = time[use & (r >= BG[0]) & (r <= BG[1])]
         mjdref = Time(hdr["MJDREF"], format="mjd", scale="tt")
+        if interval is not None:
+            split = float((Time(OBI_SPLIT_UTC, scale="utc").tt - mjdref).sec)
+            if np.any((starts < split) & (ends > split)):
+                raise ValueError("ACIS good time crosses the ObsID 1431 interval boundary")
+            first_interval = interval == 0
+            keep = (starts < split) == first_interval
+            starts, ends = starts[keep], ends[keep]
+            target = target[(target < split) == first_interval]
+            bg = bg[(bg < split) == first_interval]
+            if len(starts) == 0 or not np.all((target >= starts[0]) & (target <= ends[-1])):
+                raise ValueError("Photon times disagree with the ObsID 1431 interval")
 
         def utc(seconds):
             return (mjdref + TimeDelta(float(seconds), format="sec")).utc.isot
@@ -200,7 +224,8 @@ def windows(path, sky, chip, obsid, expected_pos):
 
 def analyze(cache, row, sky):
     obsid = row["obsid"]
-    urls, listing = download_paths(cache, obsid)
+    interval = row["observation_interval"]
+    urls, listing = download_paths(cache, obsid, interval)
     fov, meta = fetch_product(cache, urls["fov1"], "observed_detector_footprint")
     chip, margin, coords = footprint(fov, sky, obsid)
     row.update(
@@ -214,7 +239,9 @@ def analyze(cache, row, sky):
         return
     event, event_meta = fetch_product(cache, urls["evt2"], "observed_calibrated_photon_events")
     row.update(
-        event_product=event_meta, status="measured", **windows(event, sky, chip, obsid, coords)
+        event_product=event_meta,
+        status="measured",
+        **windows(event, sky, chip, obsid, coords, interval),
     )
 
 
@@ -255,12 +282,18 @@ def plot(rows, year, path):
     axes[0].set(ylabel="Full observation counts")
     axes[0].legend(ncols=3, frameon=False, fontsize=8)
     if len(rows) <= 17:
-        axes[1].set_xticks(range(len(rows)), [r["obsid"] for r in rows], rotation=35)
+        axes[1].set_xticks(range(len(rows)), [r["journal_id"] for r in rows], rotation=35)
     axes[1].set(
         ylabel="10 ks counts",
         xlabel="Chandra observation ID"
         if len(rows) <= 17
         else "Chandra observations in time order",
+    )
+    fig.colorbar(
+        ScalarMappable(norm=Normalize(5, 10), cmap="viridis"),
+        ax=axes,
+        shrink=0.65,
+        label="Window good time (ks)",
     )
     fig.suptitle(f"JADES 103607 · {year} Chandra photons in a 1.5″ aperture", fontsize=13)
     save_figure(fig, path)
@@ -268,9 +301,7 @@ def plot(rows, year, path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--year", type=int, choices=(2000, 2007, 2010, 2014, 2015, 2016), default=2007
-    )
+    parser.add_argument("--year", type=int, choices=CAMPAIGNS, default=2007)
     year = parser.parse_args().year
     source = json.loads(SOURCE.read_text())["icrs_deg"]
     sky = SkyCoord(*source, unit="deg")
@@ -281,13 +312,17 @@ def main():
     for row in rows:
         analyze(cache, row, sky)
         print(
-            row["obsid"], row["status"], row.get("observation", {}).get("source_counts"), flush=True
+            row["journal_id"],
+            row["status"],
+            row.get("observation", {}).get("source_counts"),
+            flush=True,
         )
     good = [r for r in rows if r["status"] == "measured"]
     matches = []
     for visit in good:
-        matches.extend(dict(obsid=visit["obsid"], kind="10 ks", **w) for w in visit["windows"])
-        matches.append(dict(obsid=visit["obsid"], kind="whole pointing", **visit["observation"]))
+        identity = dict(obsid=visit["obsid"], journal_id=visit["journal_id"])
+        matches.extend(dict(**identity, kind="10 ks", **w) for w in visit["windows"])
+        matches.append(dict(**identity, kind="whole pointing", **visit["observation"]))
     if not matches:
         raise ValueError("No useful exposure at the target")
     strongest = min(matches, key=lambda w: w["binomial_background_tail"])

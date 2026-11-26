@@ -1,0 +1,101 @@
+{
+  "executed_utc": "2026-11-26T19:50:00.428814+00:00",
+  "script_sha256": "f9bb2afb276adad5839d112da22738c0fbe19f848769c900ff95fdf77c3b2664",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "position_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "search_window_utc": [
+    "2026-10-01",
+    "2026-11-27"
+  ],
+  "target": {
+    "radius_arcsec": 5,
+    "query": {
+      "ra": "53.1886698330",
+      "dec": "-27.8125394028",
+      "radius": "5",
+      "startdate": "2026-10-01 00:00:00",
+      "stopdate": "2026-11-27 00:00:00",
+      "kind": "across",
+      "columns": "r:diaObjectId,r:ra,r:dec,r:midpointMjdTai,r:psfFlux,r:psfFluxErr,f:firstDiaSourceMjdTaiFink",
+      "output-format": "json"
+    },
+    "archive": {
+      "path": "data/raw/metadata/module_b_001_rubin_2026_alerts_5arcsec.json",
+      "url": "https://api.lsst.fink-portal.org/api/v1/conesearch?ra=53.1886698330&dec=-27.8125394028&radius=5&startdate=2026-10-01+00%3A00%3A00&stopdate=2026-11-27+00%3A00%3A00&kind=across&columns=r%3AdiaObjectId%2Cr%3Ara%2Cr%3Adec%2Cr%3AmidpointMjdTai%2Cr%3ApsfFlux%2Cr%3ApsfFluxErr%2Cf%3AfirstDiaSourceMjdTaiFink&output-format=json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "objects": []
+  },
+  "surrounding_field": {
+    "radius_arcsec": 120,
+    "query": {
+      "ra": "53.1886698330",
+      "dec": "-27.8125394028",
+      "radius": "120",
+      "startdate": "2026-10-01 00:00:00",
+      "stopdate": "2026-11-27 00:00:00",
+      "kind": "across",
+      "columns": "r:diaObjectId,r:ra,r:dec,r:midpointMjdTai,r:psfFlux,r:psfFluxErr,f:firstDiaSourceMjdTaiFink",
+      "output-format": "json"
+    },
+    "archive": {
+      "path": "data/raw/metadata/module_b_001_rubin_2026_alerts_120arcsec.json",
+      "url": "https://api.lsst.fink-portal.org/api/v1/conesearch?ra=53.1886698330&dec=-27.8125394028&radius=120&startdate=2026-10-01+00%3A00%3A00&stopdate=2026-11-27+00%3A00%3A00&kind=across&columns=r%3AdiaObjectId%2Cr%3Ara%2Cr%3Adec%2Cr%3AmidpointMjdTai%2Cr%3ApsfFlux%2Cr%3ApsfFluxErr%2Cf%3AfirstDiaSourceMjdTaiFink&output-format=json",
+      "sha256": "dc1f3628721006fb44697451fe018e118f2d42b960381adee4afa71fc3ad2477"
+    },
+    "objects": [
+      {
+        "dia_object_id": "171141216797196385",
+        "position_icrs_deg": [
+          53.1835279066,
+          -27.8068504234
+        ],
+        "separation_arcsec": 26.22055598919834,
+        "first_alert_utc": "2026-10-30T03:15:42.869",
+        "latest_alert_utc": "2026-10-30T03:15:42.869",
+        "latest_psf_flux_njy": -546.43604,
+        "latest_psf_flux_error_njy": 528.11304
+      },
+      {
+        "dia_object_id": "171194008142872713",
+        "position_icrs_deg": [
+          53.1801755409,
+          -27.8206339434
+        ],
+        "separation_arcsec": 39.75725001016888,
+        "first_alert_utc": "2026-11-11T05:39:57.427",
+        "latest_alert_utc": "2026-11-14T06:24:54.237",
+        "latest_psf_flux_njy": 720.28796,
+        "latest_psf_flux_error_njy": 108.9523
+      },
+      {
+        "dia_object_id": "171141252780130335",
+        "position_icrs_deg": [
+          53.1741635272,
+          -27.8097870979
+        ],
+        "separation_arcsec": 47.24122221069789,
+        "first_alert_utc": "2026-10-30T07:11:26.749",
+        "latest_alert_utc": "2026-10-30T07:11:26.749",
+        "latest_psf_flux_njy": 4089.52,
+        "latest_psf_flux_error_njy": 252.1585
+      },
+      {
+        "dia_object_id": "171207220669710340",
+        "position_icrs_deg": [
+          53.2003647001,
+          -27.789924154
+        ],
+        "separation_arcsec": 89.52840654667384,
+        "first_alert_utc": "2026-11-14T06:33:20.935",
+        "latest_alert_utc": "2026-11-14T06:33:20.935",
+        "latest_psf_flux_njy": 2002.2067,
+        "latest_psf_flux_error_njy": 349.2199
+      }
+    ]
+  },
+  "scope": "Fink groups objects by diaObjectId and returns the latest alert record for objects active across the requested dates. Nearby alerts indicate operation in the field. The registry cannot establish target pixel coverage or a sensitivity limit."
+}

@@ -20,6 +20,9 @@ def end_of_block(size):
 class MastImageSections:
     """Pin a public S3 object and cache each exact byte range used by a cutout."""
 
+    range_survey = "MAST JWST public S3"
+    range_cache_prefix = "cross_detector/mast_stripes"
+
     def __init__(self, cache, filename):
         pattern = re.fullmatch(r"(jw\d{5})-(o\d{3}|c\d{4})_t\d+_nircam_clear-f\d+w_i2d\.fits", filename)
         if not pattern:
@@ -40,7 +43,7 @@ class MastImageSections:
         end = stop-1
         extent = f"bytes {start}-{end}/{self.size}"
         validator = self.etag[1:-1]
-        name = f"cross_detector/mast_stripes/{self.filename}/{validator}-{start}-{end}.bytes"
+        name = f"{self.range_cache_prefix}/{self.filename}/{validator}-{start}-{end}.bytes"
         session = self.cache.session
         old_headers = session.headers.copy()
         old_hooks = session.hooks["response"]
@@ -56,7 +59,7 @@ class MastImageSections:
                                 "Accept-Encoding": "identity"})
         session.hooks["response"] = [*old_hooks, require_range]
         try:
-            path = self.cache.fetch(self.url, name, survey="MAST JWST public S3",
+            path = self.cache.fetch(self.url, name, survey=self.range_survey,
                                     version=f"{self.etag} {extent}", kind="observed_fits_byte_range")
         finally:
             session.headers = old_headers

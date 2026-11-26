@@ -1,6 +1,6 @@
 {
-  "executed_utc": "2026-11-26T19:29:54.749972+00:00",
-  "script_sha256": "1621e16315bb7ca8d192eddf2478c7d81b95d82cee5acf3a7104972f186190e3",
+  "executed_utc": "2026-11-26T19:46:48.377854+00:00",
+  "script_sha256": "12d5e96e3665e1ed9544820487f3c495a672ae834a48fa3e831f62ca195fb115",
   "position_icrs_deg": [
     53.18866983298658,
     -27.812539402767552
@@ -27,6 +27,8 @@
   "observations": [
     {
       "obsid": 441,
+      "journal_id": "441",
+      "observation_interval": null,
       "journal_start": "2000 May 27 01:18",
       "survey_clean_exposure_ks": 53.5,
       "primary_archive_listing": {
@@ -45,6 +47,8 @@
     },
     {
       "obsid": 582,
+      "journal_id": "582",
+      "observation_interval": null,
       "journal_start": "2000 Jun 03 02:38",
       "survey_clean_exposure_ks": 127.6,
       "primary_archive_listing": {
@@ -63,6 +67,8 @@
     },
     {
       "obsid": 2406,
+      "journal_id": "2406",
+      "observation_interval": null,
       "journal_start": "2000 Dec 10 23:35",
       "survey_clean_exposure_ks": 28.7,
       "primary_archive_listing": {
@@ -140,6 +146,8 @@
     },
     {
       "obsid": 2405,
+      "journal_id": "2405",
+      "observation_interval": null,
       "journal_start": "2000 Dec 11 08:14",
       "survey_clean_exposure_ks": 56.3,
       "primary_archive_listing": {
@@ -250,6 +258,8 @@
     },
     {
       "obsid": 2312,
+      "journal_id": "2312",
+      "observation_interval": null,
       "journal_start": "2000 Dec 13 03:28",
       "survey_clean_exposure_ks": 123.7,
       "primary_archive_listing": {
@@ -433,6 +443,8 @@
     },
     {
       "obsid": 1672,
+      "journal_id": "1672",
+      "observation_interval": null,
       "journal_start": "2000 Dec 16 05:07",
       "survey_clean_exposure_ks": 95.0,
       "primary_archive_listing": {
@@ -583,6 +595,8 @@
     },
     {
       "obsid": 2409,
+      "journal_id": "2409",
+      "observation_interval": null,
       "journal_start": "2000 Dec 19 03:55",
       "survey_clean_exposure_ks": 68.5,
       "primary_archive_listing": {
@@ -698,6 +712,8 @@
     },
     {
       "obsid": 2313,
+      "journal_id": "2313",
+      "observation_interval": null,
       "journal_start": "2000 Dec 21 02:08",
       "survey_clean_exposure_ks": 130.4,
       "primary_archive_listing": {
@@ -885,6 +901,8 @@
     },
     {
       "obsid": 2239,
+      "journal_id": "2239",
+      "observation_interval": null,
       "journal_start": "2000 Dec 23 17:28",
       "survey_clean_exposure_ks": 128.9,
       "primary_archive_listing": {
@@ -1076,6 +1094,7 @@
   "number_of_tests": 72,
   "best_trial": {
     "obsid": 2239,
+    "journal_id": "2239",
     "kind": "10 ks",
     "start_utc": "2000-12-24T02:07:04.277",
     "end_utc": "2000-12-24T04:53:44.277",

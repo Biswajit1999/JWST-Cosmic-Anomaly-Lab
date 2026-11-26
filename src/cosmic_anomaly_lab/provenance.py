@@ -70,14 +70,27 @@ class DownloadCache:
             ),
         )
 
-    def fetch(self, url, filename, *, survey, version, kind, checksum=None, refresh=False):
+    def fetch(
+        self,
+        url,
+        filename,
+        *,
+        survey,
+        version,
+        kind,
+        checksum=None,
+        refresh=False,
+        json_payload=None,
+    ):
         path = (self.raw / filename).resolve()
         if not path.is_relative_to(self.raw) or path == self.raw:
             raise ValueError("Download path must remain inside data/raw")
         records = [
             r
             for r in self.records
-            if r["url"] == url and r["path"] == path.relative_to(self.root).as_posix()
+            if r["url"] == url
+            and r["path"] == path.relative_to(self.root).as_posix()
+            and r.get("request_json") == json_payload
         ]
         if path.exists() and not refresh and records:
             if digest(path) != records[-1]["sha256"]:
@@ -90,7 +103,12 @@ class DownloadCache:
         part.unlink(missing_ok=True)
         used = sum(p.stat().st_size for p in self.raw.rglob("*") if p.is_file())
         available = self.budget - used
-        with self.session.get(url, stream=True, timeout=(20, 90)) as response:
+        response = (
+            self.session.get(url, stream=True, timeout=(20, 90))
+            if json_payload is None
+            else self.session.post(url, json=json_payload, stream=True, timeout=(20, 90))
+        )
+        with response:
             response.raise_for_status()
             length = int(response.headers.get("Content-Length", "0"))
             if length > available:
@@ -122,6 +140,8 @@ class DownloadCache:
                     kind=kind,
                     previous_sha256=records[-1]["sha256"] if records else None,
                 )
+                if json_payload is not None:
+                    record["request_json"] = json_payload
                 part.replace(path)
                 self.records.append(record)
                 write_json(self.manifest, self.records)

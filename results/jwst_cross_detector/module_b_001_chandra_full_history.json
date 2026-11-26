@@ -1,0 +1,158 @@
+{
+  "executed_utc": "2026-11-26T19:48:09.410282+00:00",
+  "script_sha256": "dd8b9d716b6c659d8b26acb778724a06dfef3592b6fd7d67cb952f4f27eaf0ed",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "position_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "inputs": {
+    "1999": {
+      "path": "module_b_001_chandra_1999_events.json",
+      "sha256": "8236028c76acfff7b14bda3b78a86eb6ba30c3884b14f22cc21309e50e6666bc"
+    },
+    "2000": {
+      "path": "module_b_001_chandra_2000_events.json",
+      "sha256": "9417f09cd6c11c177f976fee25e5380351c23f58e4a62c0f23cb4ef6116a4e6f"
+    },
+    "2007": {
+      "path": "module_b_001_chandra_2007_events.json",
+      "sha256": "992412adb9bdebfae0e5f04e68f68f9a80875008427dff6e1219acb6414ab261"
+    },
+    "2010": {
+      "path": "module_b_001_chandra_2010_events.json",
+      "sha256": "60b6a910c2f47e5971af18dca7c7528135db9fa3dd53802e90111ee9681f7dc1"
+    },
+    "2014": {
+      "path": "module_b_001_chandra_2014_events.json",
+      "sha256": "03a2e50883828b87ca7e3c7a9a5f517d7fab81444531d7b258abb03103118f06"
+    },
+    "2015": {
+      "path": "module_b_001_chandra_2015_events.json",
+      "sha256": "1264f189843b4ad181a3ac9b71318702ee0c5053da966099bc5376675d8f6944"
+    },
+    "2016": {
+      "path": "module_b_001_chandra_2016_events.json",
+      "sha256": "e81a4d953a73c8bd8fa0dbdbf069be3b9279d9ae9242fe7c4eded50fd93c6090"
+    }
+  },
+  "campaigns": [
+    {
+      "year": 1999,
+      "journal_intervals": 2,
+      "usable_intervals": 2,
+      "short_windows": 12,
+      "full_acis_good_time_s": 124733.6827289164,
+      "short_window_good_time_s": 119410.14439229667,
+      "excluded_journal_ids": [],
+      "individual_photon_count": 2
+    },
+    {
+      "year": 2000,
+      "journal_intervals": 9,
+      "usable_intervals": 7,
+      "short_windows": 65,
+      "full_acis_good_time_s": 646821.668099314,
+      "short_window_good_time_s": 641559.3861785978,
+      "excluded_journal_ids": [
+        "441",
+        "582"
+      ],
+      "individual_photon_count": 3
+    },
+    {
+      "year": 2007,
+      "journal_intervals": 12,
+      "usable_intervals": 10,
+      "short_windows": 89,
+      "full_acis_good_time_s": 887483.0534904599,
+      "short_window_good_time_s": 880370.2223898768,
+      "excluded_journal_ids": [
+        "8591",
+        "9593"
+      ],
+      "individual_photon_count": 9
+    },
+    {
+      "year": 2010,
+      "journal_intervals": 31,
+      "usable_intervals": 27,
+      "short_windows": 180,
+      "full_acis_good_time_s": 1803306.9550292492,
+      "short_window_good_time_s": 1772087.7979217172,
+      "excluded_journal_ids": [
+        "12049",
+        "12050",
+        "12222",
+        "12219"
+      ],
+      "individual_photon_count": 6
+    },
+    {
+      "year": 2014,
+      "journal_intervals": 30,
+      "usable_intervals": 27,
+      "short_windows": 172,
+      "full_acis_good_time_s": 1717992.3357010484,
+      "short_window_good_time_s": 1681444.9201904535,
+      "excluded_journal_ids": [
+        "16186",
+        "16187",
+        "16188"
+      ],
+      "individual_photon_count": 5
+    },
+    {
+      "year": 2015,
+      "journal_intervals": 16,
+      "usable_intervals": 16,
+      "short_windows": 100,
+      "full_acis_good_time_s": 1010813.0889313221,
+      "short_window_good_time_s": 988137.9593257904,
+      "excluded_journal_ids": [],
+      "individual_photon_count": 5
+    },
+    {
+      "year": 2016,
+      "journal_intervals": 2,
+      "usable_intervals": 2,
+      "short_windows": 8,
+      "full_acis_good_time_s": 79148.61343920231,
+      "short_window_good_time_s": 79069.31320774555,
+      "excluded_journal_ids": [],
+      "individual_photon_count": 0
+    }
+  ],
+  "journal_intervals_examined": 102,
+  "usable_intervals": 91,
+  "combined_number_of_tests": 717,
+  "best_trial": {
+    "year": 2015,
+    "obsid": 16461,
+    "journal_id": "16461",
+    "kind": "10 ks",
+    "start_utc": "2015-05-20T00:23:49.301",
+    "end_utc": "2015-05-20T03:10:29.301",
+    "source_counts": 2,
+    "annulus_counts": 11,
+    "background_expected": 0.07366071428571429,
+    "signed_excess": 1.9263392857142858,
+    "binomial_background_tail": 0.003287087133303763,
+    "upper95_aperture_counts": 6.295793621871988,
+    "good_time_s": 10000.0
+  },
+  "best_bonferroni_p": 1.0,
+  "measured_time_span_utc": [
+    "1999-10-15T18:04:02.335",
+    "2016-03-24T23:12:52.164"
+  ],
+  "short_window_good_time_s": 6162079.743606478,
+  "short_window_fraction_of_calendar": 0.011876406290134691,
+  "short_window_95_aperture_count_rate_quantiles_per_s": {
+    "minimum": 0.00029957322735539897,
+    "median": 0.00029957322735539897,
+    "90_percentile": 0.0003228636073196818,
+    "maximum": 0.0006295793621871989
+  },
+  "scope": "Summed chip good time across nonoverlapping pointings for included windows. The calendar fraction describes sampled live time. It is not a flare recovery or recurrence probability. Count-rate bounds retain background, exclude response and aperture-fraction corrections and do not apply to short events diluted in a window. The p-value corrects for all full-interval and 10 ks tests at one position."
+}
