@@ -1,12 +1,13 @@
 {
-  "executed_utc": "2026-11-26T11:27:41.384724+00:00",
-  "script_sha256": "4da66ea6253be378784d87147c254bd540de5e794d5d499d596357f61e6f3c64",
+  "executed_utc": "2026-11-26T19:56:28.319793+00:00",
+  "script_sha256": "d3955bc76d5a7097a6f3766c27d681a6f155c451d8ac0cb43f894646e4e636a0",
   "position_icrs_deg": [
     53.18866983298658,
     -27.812539402767552
   ],
   "position_source_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
   "survey": "HST CANDELS GOODS-S individual epoch mosaics",
+  "band": "F160W",
   "aperture_radius_arcsec": 0.24,
   "sky_annulus_arcsec": [
     0.48,

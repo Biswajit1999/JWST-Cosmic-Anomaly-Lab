@@ -665,6 +665,49 @@ PSF differences were left unmodelled.
 
 ![Hubble F160W epoch photometry with empirical error bars and three observed CANDELS cutouts](../figures/jwst_cross_detector/module_b_001_hst_f160w_history.png)
 
+**HST F125W and the paired-epoch check.** Ten CANDELS F125W
+epochs cover the position, the same nominal epochs measured in
+F160W. We measure each band against its own median reference,
+excluding the tested epoch. The largest F125W positive residual
+is +18.5 ± 16.5 nJy in January 2011. The February 2012 F160W
+residual of +20.9 ± 14.3 nJy has an F125W measurement of
+−2.8 ± 16.8 nJy.
+
+For each paired epoch we take the smaller of the two signed
+residuals in units of its band's scatter. The target's highest
+paired score is 0.88 in January 2011. Across the same ten
+epochs, 28 of 58 spatial controls reach or exceed that score.
+This rank describes the observed neighbourhood with the same
+shared references. The paired record supplies no convincing
+earlier brightening in both bands.
+[Observed F125W photometry and archive receipts](../results/jwst_cross_detector/module_b_001_hst_f125w_history.json).
+
+![Observed Hubble F125W images and signed epoch photometry with local error bars](../figures/jwst_cross_detector/module_b_001_hst_f125w_history.png)
+
+**Recovery at the scale of the JWST signal.** We use nine
+archived WFC3 empirical PSFs per band and vary their orientation
+and subpixel position. Each trial adds one artificial point
+source to a single drizzled epoch difference. The observing
+data, local background and leave-one-out reference come from
+the public CANDELS images. A recovery must clear five times the
+local scatter using the same fixed aperture measurement as the
+observed search.
+
+A 30 nJy model source clears the threshold in 0.59% of nearby
+control trials in F125W and 0.32% in F160W. No 30 nJy placement
+at the actual target reaches it. On the flux grid tested,
+pooled recovery first exceeds 90% at 125 nJy in F125W and
+200 nJy in F160W. These fluxes describe the injected models in
+the HST bands. The tests omit source shot noise, injection
+into native detector exposures and colour conversion to JWST.
+Shared images and multiple placements limit the independence
+of the fractions. The analysis leaves a repeat flare near
+30 nJy largely unconstrained in these Hubble data.
+[STScI WFC3 empirical PSFs](https://www.stsci.edu/hst/instrumentation/wfc3/data-analysis/psf) ·
+[Artificial-source trials and paired-epoch scores](../results/jwst_cross_detector/module_b_001_hst_injection_recovery.json).
+
+![Recovery of artificial sources in observed HST F125W and F160W differences](../figures/jwst_cross_detector/module_b_001_hst_injection_recovery.png)
+
 **Spitzer IRAC, August 2004.** The GOODS-S epoch-2 exposure maps
 place the target on both 3.6 and 4.5 micron images, with about 57.7
 and 91.0 ks of coverage. In the 1.8-arcsec aperture, five times
@@ -748,6 +791,36 @@ apertures without PSF matching or confidence-map weighting.
 [Footprint inventory and H-band pilot](../results/jwst_cross_detector/module_b_001_vista_video_coverage.json).
 
 ![Three observed VISTA H-band cutouts centered on the transient position](../figures/jwst_cross_detector/module_b_001_vista_video_coverage.png)
+
+**Euclid DR1 H band, August 2024 and January 2025.** The IRSA
+position query returned 34 H-band visit stacks. We inspected the
+science, noise and data-quality images in each stack. Thirty-three
+visits have usable pixels and local control measurements, including
+18 in August and 15 in January. One nominally covering visit has
+masked pixels in the target aperture. The published science images
+already use calibrated flux density units. We accounted for
+pixel area when putting them on a common local sky grid.
+
+The 0.75-arcsec aperture comparison of the two campaign medians
+gives +72.8 ± 50.7 nJy in January minus August. The scatter for
+individual visits ranges from 73 to 247 nJy. The largest positive
+visit is 6 August 2024, with +330 ± 110 nJy relative to the other
+visit stacks. Across aperture radii of 0.60–0.90 arcsec and three
+reference choices, the score ranges from 1.89 to 3.65 times its local
+scatter. Seven control sites cover all 33 tested visits, and one of
+them reaches a score at least as high as the target peak. Among
+39 sites that cover the peak visit and at least 80% of the whole
+scan, seven reach that score. These ranks describe the sampled
+controls. The result leaves the excess ambiguous, with unmatched
+PSFs and unresolved light as possible contributors.
+
+This work has made use of the Data Release (DR1) data from the
+Euclid mission of the European Space Agency (ESA).
+[Euclid DR1 near-infrared processing](https://arxiv.org/abs/2611.16119) ·
+[IRSA Euclid DR1 stacked NIR data](https://doi.org/10.26131/IRSA682) ·
+[Visit photometry and FITS byte-range receipts](../results/jwst_cross_detector/module_b_001_euclid_dr1_h_history.json).
+
+![Observed Euclid visit photometry, H-band campaign cutouts and signed image differences](../figures/jwst_cross_detector/module_b_001_euclid_dr1_h_history.png)
 
 **Chandra 7 Ms Deep Field South, 1999 to 2016.** At the transient
 position, a 1.5-arcsec radius gives 13 counts in 0.5–2 keV and 30
@@ -920,6 +993,16 @@ this query.
 [Rubin public alert products](https://prompt-products.lsst.io/products/alerts/index.html) ·
 [Fink position and time search](https://doc.lsst.fink-broker.org/services/api/conesearch/) ·
 [Target and surrounding-field alert receipts](../results/jwst_cross_detector/module_b_001_rubin_2026_alerts.json).
+
+The timeline summarizes the dates behind the historical comparison
+and the search for independent evidence during the 2026 event.
+The available Euclid H-band visits contribute to the earlier baseline.
+The October–November 2026 records keep unreleased DECam footprints,
+nearby Rubin alerts and off-target HST footprints distinct from the
+two measured JWST visits.
+[Timeline source and date ledger](../results/jwst_cross_detector/module_b_001_cross_survey_timeline.json).
+
+![Historical and contemporaneous survey records near JADES 103607](../figures/jwst_cross_detector/module_b_001_cross_survey_timeline.png)
 
 ### Fading at 53.147252°, −27.790612°
 

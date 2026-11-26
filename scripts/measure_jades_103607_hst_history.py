@@ -1,5 +1,6 @@
 """Measure historical F160W variability at JADES 103607 in CANDELS epochs."""
 
+import argparse
 import json
 import re
 from io import BytesIO
@@ -53,9 +54,9 @@ GRID = np.arange(-70, 71)
 class CandelsSections(MastImageSections):
     """Read the primary image of a released CANDELS mosaic without fetching its full FITS."""
 
-    def __init__(self, cache, epoch, product):
+    def __init__(self, cache, epoch, product, band="F160W"):
         self.cache = cache
-        self.filename = f"hlsp_candels_hst_wfc3_{epoch}_f160w_v0.5_{product}.fits"
+        self.filename = f"hlsp_candels_hst_wfc3_{epoch}_{band.lower()}_v0.5_{product}.fits"
         self.url = f"{BASE}/{epoch}/v0.5/{self.filename}"
         with cache.session.head(self.url, timeout=(15, 40)) as response:
             response.raise_for_status()
@@ -83,8 +84,8 @@ def positions(header, grid):
     return np.asarray(x), np.asarray(y)
 
 
-def read_epoch(cache, epoch, grid):
-    raw = {k: CandelsSections(cache, epoch, k) for k in ("wht", "drz")}
+def read_epoch(cache, epoch, grid, band="F160W"):
+    raw = {k: CandelsSections(cache, epoch, k, band) for k in ("wht", "drz")}
     wht_h, wht_start = raw["wht"].primary()
     x, y = positions(wht_h, grid)
     m = len(GRID) // 2
@@ -142,22 +143,29 @@ def aperture(data, x, y):
     return float(core.sum() - len(core) * np.nanmedian(sky))
 
 
+def control_centers():
+    n = len(GRID) // 2
+    return [
+        (x, y)
+        for x in range(14, len(GRID) - 14, 15)
+        for y in range(14, len(GRID) - 14, 15)
+        if np.hypot(x - n, y - n) > 16
+    ]
+
+
+def difference(image_stack, index):
+    reference = np.ma.median(
+        np.ma.masked_invalid(np.delete(image_stack, index, axis=0)), axis=0
+    ).filled(np.nan)
+    return image_stack[index] - reference
+
+
 def measure(records, images):
     center = len(GRID) // 2
     image_stack = np.array(images)
     for i, (record, sample) in enumerate(zip(records, images, strict=True)):
-        comparison = np.ma.median(
-            np.ma.masked_invalid(np.delete(image_stack, i, axis=0)), axis=0
-        ).filled(np.nan)
-        diff = sample - comparison
-        controls = np.asarray(
-            [
-                aperture(diff, x, y)
-                for x in range(14, len(GRID) - 14, 15)
-                for y in range(14, len(GRID) - 14, 15)
-                if np.hypot(x - center, y - center) > 16
-            ]
-        )
+        diff = difference(image_stack, i)
+        controls = np.asarray([aperture(diff, x, y) for x, y in control_centers()])
         controls = controls[np.isfinite(controls)]
         target = aperture(diff, center, center)
         flux = aperture(sample, center, center)
@@ -188,7 +196,7 @@ def epoch_start(record):
     return record["header_start_date"]
 
 
-def figure(records, images):
+def figure(records, images, band, tag):
     fig = Figure(figsize=(10, 5.6), layout="constrained")
     layout = fig.add_gridspec(2, 3, height_ratios=[1.4, 1])
     timeline = fig.add_subplot(layout[0, :])
@@ -204,7 +212,7 @@ def figure(records, images):
         color="#2e697c",
     )
     timeline.axhline(0, color=".53", lw=0.7)
-    timeline.set(xlabel="HST epoch start year", ylabel="F160W aperture excess (nJy)")
+    timeline.set(xlabel="HST epoch start year", ylabel=f"{band} aperture excess (nJy)")
     center = len(GRID) // 2
     selection = [0, len(records) // 2, len(records) - 1]
     lim = np.nanpercentile(
@@ -224,32 +232,42 @@ def figure(records, images):
         ax.set(title=epoch_start(records[i]), xlabel="East offset (arcsec)")
     stamps[0].set_ylabel("North offset (arcsec)")
     fig.suptitle("JADES 103607 · historical HST/CANDELS observations", fontsize=13)
-    save_figure(fig, FIGURES / STEM)
+    save_figure(fig, FIGURES / tag)
 
 
-def main():
-    position = json.loads(SOURCE.read_text())["icrs_deg"]
-    sky = SkyCoord(*position, unit="deg")
+def load_series(cache, sky, band):
     east, north = np.meshgrid(*(GRID * SCALE / 3600,) * 2)
     grid = sky.spherical_offsets_by(east * sky.ra.unit, north * sky.dec.unit)
-    cache = DownloadCache(ROOT, 32_000 * 1024**2)
     coverage, images = [], []
     for epoch in EPOCHS:
-        row, image = read_epoch(cache, epoch, grid)
+        row, image = read_epoch(cache, epoch, grid, band)
         coverage.append(row)
         if image is not None:
             images.append(image)
-        print(epoch, row["header_start_date"], row["center_weight"], flush=True)
-    records = [r for r in coverage if r["center_weight"] > 0]
+        print(band, epoch, row["header_start_date"], row["center_weight"], flush=True)
+    return coverage, np.asarray(images)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--band", choices=("F160W", "F125W"), default="F160W")
+    band = parser.parse_args().band
+    tag = STEM.replace("f160w", band.lower())
+    position = json.loads(SOURCE.read_text())["icrs_deg"]
+    sky = SkyCoord(*position, unit="deg")
+    cache = DownloadCache(ROOT, 32_000 * 1024**2)
+    coverage, images = load_series(cache, sky, band)
+    records = [record for record in coverage if record["center_weight"] > 0]
     measure(records, images)
     write_json(
-        OUT / f"{STEM}.json",
+        OUT / f"{tag}.json",
         dict(
             executed_utc=utcnow(),
             script_sha256=text_digest(__file__),
             position_icrs_deg=position,
             position_source_sha256=text_digest(SOURCE),
             survey="HST CANDELS GOODS-S individual epoch mosaics",
+            band=band,
             aperture_radius_arcsec=RADIUS,
             sky_annulus_arcsec=ANNULUS,
             coverage=coverage,
@@ -257,7 +275,7 @@ def main():
             "references, filter differences relative to JWST and gaps in cadence limit recurrence conclusions.",
         ),
     )
-    figure(records, images)
+    figure(records, images, band, tag)
 
 
 if __name__ == "__main__":
