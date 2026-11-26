@@ -620,6 +620,26 @@ from years or decades before the JWST event. This requires three checks.
   2026 event. Use older surveys to test recurrence and persistent
   emission, and require additional evidence to identify the source class.
 
+**HST F850LP, August 2002 to February 2003.** Five public GOODS-S
+ACS epoch tiles cover the transient position. We used the corrected
+science-image WCS and the paired weight arrays on their native pixel
+indices. The legacy weight headers can retain a different WCS, so
+the matching of zero-weight regions to missing science pixels was
+verified for each tile. Differential photometry uses a 0.20-arcsec
+aperture and a median reference formed from the other four epochs.
+Each measurement has 85–94 nearby control apertures.
+
+The largest positive excess was +15.7 ± 20.2 nJy on 22 September 2002.
+All five differences are smaller than their local control scatter,
+which runs from 18.8 to 27.7 nJy. This constrains only optical variation
+visible at the sampled dates and depth. The optical band differs from
+the near-infrared discovery bands, and the epoch reductions have
+unmatched PSFs.
+[MAST GOODS v0.5 tiles](https://archive.stsci.edu/pub/hlsp/goods/v05/) ·
+[ACS measurements and file receipts](../results/jwst_cross_detector/module_b_001_hst_acs_goods_epochs.json).
+
+![Five original GOODS-S Hubble optical epochs and signed difference photometry](../figures/jwst_cross_detector/module_b_001_hst_acs_goods_epochs.png)
+
 **HST F160W, October 2010 to February 2012.** The target has
 positive central weight in ten of the 13 public CANDELS epoch mosaics
 checked. The three wide mosaics have zero weight at this position.
@@ -656,6 +676,39 @@ F356W excess. The checked Spitzer epoch cannot resolve comparable
 variability at this position.
 [IRSA GOODS-S epoch-2 documentation](https://irsa.ipac.caltech.edu/data/SPITZER/GOODS/docs/goods_dr2.html).
 
+**Same-band Spitzer comparisons, 2004 to 2012.** The SIMPLE
+exposure maps cover the position at 3.6 microns in August 2005
+and at 4.5 microns in February 2006. Positive weights in the
+S-CANDELS archive give 4.5-micron coverage on 25 September 2011
+and 3.6-micron coverage from 30 March to 1 April 2012. Each
+S-CANDELS mosaic here combines three independently dated
+observation requests ordered by start time and selected for
+usable target coverage. We compared each observed epoch with the
+August 2004 GOODS image in the same IRAC channel. The differential
+measurements use a 1.8-arcsec radius and 75–78 adjacent control
+apertures.
+
+| IRAC channel | Later epoch | Signed difference from 2004 (nJy) |
+| --- | --- | ---: |
+| 3.6 microns | August 2005 | +50 ± 152 |
+| 3.6 microns | March–April 2012 | +5 ± 194 |
+| 4.5 microns | February 2006 | +516 ± 241 |
+| 4.5 microns | September 2011 | −156 ± 165 |
+
+The February 2006 residual is about 2.1 times its control scatter.
+It overlaps structured difference light from a brighter neighbour
+in the observed cutout, so it remains an ambiguous fluctuation.
+The other differences are within the local scatter. The
+comparisons share a 2004 reference within each channel. They
+include the effects of crowding and use the released astrometry
+and calibration without matching PSFs. The noise levels leave
+repeat episodes comparable to the JWST excess unresolved.
+[SIMPLE observing dates and calibration](https://arxiv.org/abs/1011.2764) ·
+[S-CANDELS release](https://irsa.ipac.caltech.edu/data/SPITZER/S-CANDELS/overview.html) ·
+[Archive query, coverage and forced photometry](../results/jwst_cross_detector/module_b_001_spitzer_epochs.json).
+
+![Observed Spitzer images and same-band differences at the target from 2004 through 2012](../figures/jwst_cross_detector/module_b_001_spitzer_epochs.png)
+
 **Chandra 7 Ms Deep Field South, 1999 to 2016.** At the transient
 position, a 1.5-arcsec radius gives 13 counts in 0.5–2 keV and 30
 in 2–7 keV. The 8–20 arcsec annulus predicts 11.6 and 25.2 counts
@@ -673,10 +726,50 @@ intervals and a local response calculation.
 
 ![Observed soft and hard Chandra count images and 2004 Spitzer IRAC cutout](../figures/jwst_cross_detector/module_b_001_chandra_spitzer_history.png)
 
-The historical search continues with optical HST epochs, independently
-dated Spitzer observations, and separate Chandra exposure groups.
-Cadence and sensitivity gaps leave the historical frequency and
-physical class of the JWST event open.
+**Separate Chandra observing groups.** The Chandra Data Archive
+also provides independent 0.5–6 keV images for the 2000, 2007 and
+2010 observing groups. The aperture has coverage in every group.
+The table compares the 1.5-arcsec aperture with the local 8–20 arcsec
+background annulus. The Poisson bounds conservatively retain the
+background counts and omit correction for the PSF.
+
+| Chandra group | Pointings | Counts | Expected background | 95% upper bound on aperture counts |
+| --- | ---: | ---: | ---: | ---: |
+| 2000 | 9 | 4 | 3.69 | 9.15 |
+| 2007 | 12 | 7 | 4.70 | 13.15 |
+| 2010 | 31 | 6 | 9.92 | 11.84 |
+
+The most positive aperture is in 2007. Its one-sided background
+probability is 0.20, consistent with a chance fluctuation. These
+observing groups constrain activity averaged over their sampled
+pointings. A shorter flare could be diluted in a merged image or
+fall between pointings.
+[Chandra Data Archive](https://cxc.harvard.edu/cda/Contrib/CDFS.html) ·
+[Window dates, exposure maps and aperture counts](../results/jwst_cross_detector/module_b_001_chandra_epochs.json).
+
+![Separate Chandra count images and aperture bounds for 2000, 2007 and 2010](../figures/jwst_cross_detector/module_b_001_chandra_epochs.png)
+
+The historical record now includes distinct optical, infrared and
+X-ray observing windows. Cadence and sensitivity gaps leave the
+historical frequency and physical class of the JWST event open.
+The shorter X-ray flares and the crowded Spitzer residual require
+time-resolved event lists or spatial modelling to test more closely.
+
+#### Independent observations during the 2026 event
+
+A MAST query from 1 October through 26 November 2026 returned 19
+HST catalogue products in a 4-arcmin position search. The Hubble
+images from 25–26 October fall between the two JWST visits. Their
+published footprints all miss the transient. The closest edge is
+22.94 arcsec away. The other result was a COS spectrum whose
+aperture also missed the position. The Chandra and XMM-Newton
+pointing logs returned no pointing centers within 0.5 degrees in
+the tested date window. This search covers these three archives
+and excludes XMM slew footprints.
+[HST programme 18004](https://www.stsci.edu/hst-program-info/visits/?program=18004) ·
+[Chandra observation archive](https://heasarc.gsfc.nasa.gov/W3Browse/chandra/chanmaster.html) ·
+[XMM-Newton Science Archive](https://www.cosmos.esa.int/web/xmm-newton/xsa) ·
+[Observation IDs, footprints and query receipts](../results/jwst_cross_detector/module_b_001_independent_2026_coverage.json).
 
 ### Fading at 53.147252°, −27.790612°
 

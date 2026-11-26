@@ -1,0 +1,438 @@
+{
+  "executed_utc": "2026-11-26T11:37:20.946749+00:00",
+  "script_sha256": "3da6e163aaa036b700ccf774c13cb28418db31e665d33b7abe74c2c041c0abb5",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "position_source_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "epochs": [
+    {
+      "group": 2000,
+      "header_utc": [
+        "2000-05-27T01:18:05",
+        "2000-12-25T06:43:14"
+      ],
+      "full_band_kev": [
+        0.5,
+        6.0
+      ],
+      "pointing_count": 9,
+      "nominal_ontime_s": 835752.24760189,
+      "central_exposure_map_value": 436071801.32751554,
+      "exposure_bunit": null,
+      "exposure_to_counts_sampling_shift_dy_dx_pix": [
+        -0.5,
+        0.5
+      ],
+      "background_annulus_arcsec": [
+        8,
+        20
+      ],
+      "background_pixels": 4356,
+      "background_counts": 554,
+      "apertures": {
+        "1.5": {
+          "counts": 4,
+          "pixels": 29,
+          "expected_background": 3.6882460973370064,
+          "signed_excess": 0.31175390266299363,
+          "local_background_p": 0.5043008752251481,
+          "upper95_counts": 9.153519026637573
+        },
+        "2.0": {
+          "counts": 6,
+          "pixels": 52,
+          "expected_background": 6.613406795224977,
+          "signed_excess": -0.6134067952249769,
+          "local_background_p": 0.6475541543144853,
+          "upper95_counts": 11.842395652420288
+        },
+        "3.0": {
+          "counts": 17,
+          "pixels": 118,
+          "expected_background": 15.007346189164371,
+          "signed_excess": 1.9926538108356286,
+          "local_background_p": 0.3404154922475699,
+          "upper95_counts": 25.499230082855323
+        }
+      },
+      "archive_url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+      "archive_etag": "\"e4a6400-48ea755ae1fc0\"",
+      "tar_members": {
+        "acismCDFS_2000_expmap.fits": {
+          "offset": 130746368,
+          "bytes": 87131520
+        },
+        "acismCDFS_2000_full_img2.fits": {
+          "offset": 217878528,
+          "bytes": 21876480
+        }
+      },
+      "ranges": [
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-0-511.bytes",
+          "sha256": "92110ddd1b5dd8e37b1853fa32e94589ffe2a17512c088f5fb1b4ffdf7d5bbaa",
+          "first_byte": 0,
+          "last_byte": 511
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-10240-10751.bytes",
+          "sha256": "0340cdac9acb82e0bbd037afb10a5db16578d86617f6b4d92a95a1f88d6bda40",
+          "first_byte": 10240,
+          "last_byte": 10751
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-3495936-3496447.bytes",
+          "sha256": "0ae18cadcf289dd9ef8b8d98bacdff18dc27db160d90f257e98f62765626d0e3",
+          "first_byte": 3495936,
+          "last_byte": 3496447
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-3854336-3854847.bytes",
+          "sha256": "16176c89050b00d0672f180dc651d370df3b2c4102a6da199be812a17ad3e48d",
+          "first_byte": 3854336,
+          "last_byte": 3854847
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-4019200-4019711.bytes",
+          "sha256": "fe6e4ee3d494da0ec2985d512187ee3d40c256bfd16f523a5145cb51f650e564",
+          "first_byte": 4019200,
+          "last_byte": 4019711
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-130745856-130746367.bytes",
+          "sha256": "b170e17b994ddaa9dab81edfcb4e90efcb2a38a80a734e84184b711d8cd60b86",
+          "first_byte": 130745856,
+          "last_byte": 130746367
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-217878016-217878527.bytes",
+          "sha256": "d1c29ce6466dc1004b7380e013baaa183fc79ba8a1cffc97e121beed28c9df9c",
+          "first_byte": 217878016,
+          "last_byte": 217878527
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-217878528-218051327.bytes",
+          "sha256": "53e67eb4274ca7eaedcb65b4d7c392793c5a48b93556e20242829e3590fdfa99",
+          "first_byte": 217878528,
+          "last_byte": 218051327
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-228127728-228715127.bytes",
+          "sha256": "bebb7a4899fd6ae1d658074c65ca30f1213df21cd610dc2e282c21ef5401f77e",
+          "first_byte": 228127728,
+          "last_byte": 228715127
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-130746368-130919167.bytes",
+          "sha256": "3379a62b8b83e3ffec46d05268ed69c7827f6d98b7d094099fa5f9bf913251ea",
+          "first_byte": 130746368,
+          "last_byte": 130919167
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2000/CDFS2000merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2000merge.tar/e4a6400-48ea755ae1fc0-171466688-173816287.bytes",
+          "sha256": "4b563d0ae8062c094cd0ec9bdbc14660f1b6c99e63c98eca5f0786ce34ecc25f",
+          "first_byte": 171466688,
+          "last_byte": 173816287
+        }
+      ]
+    },
+    {
+      "group": 2007,
+      "header_utc": [
+        "2007-09-20T05:26:12",
+        "2007-11-05T12:15:10"
+      ],
+      "full_band_kev": [
+        0.5,
+        6.0
+      ],
+      "pointing_count": 12,
+      "nominal_ontime_s": 980562.44035078,
+      "central_exposure_map_value": 529932917.2715291,
+      "exposure_bunit": null,
+      "exposure_to_counts_sampling_shift_dy_dx_pix": [
+        -0.5,
+        0.5
+      ],
+      "background_annulus_arcsec": [
+        8,
+        20
+      ],
+      "background_pixels": 4356,
+      "background_counts": 706,
+      "apertures": {
+        "1.5": {
+          "counts": 7,
+          "pixels": 29,
+          "expected_background": 4.700183654729109,
+          "signed_excess": 2.299816345270891,
+          "local_background_p": 0.19691128043660866,
+          "upper95_counts": 13.148113802432116
+        },
+        "2.0": {
+          "counts": 13,
+          "pixels": 52,
+          "expected_background": 8.42791551882461,
+          "signed_excess": 4.57208448117539,
+          "local_background_p": 0.08857298476252584,
+          "upper95_counts": 20.668569075713695
+        },
+        "3.0": {
+          "counts": 20,
+          "pixels": 118,
+          "expected_background": 19.124885215794308,
+          "signed_excess": 0.8751147842056923,
+          "local_background_p": 0.4530490738374091,
+          "upper95_counts": 29.062018840434014
+        }
+      },
+      "archive_url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+      "archive_etag": "\"d6b2200-48ea779ccf340\"",
+      "tar_members": {
+        "acismCDFS_2007_expmap.fits": {
+          "offset": 116114944,
+          "bytes": 87131520
+        },
+        "acismCDFS_2007_full_img2.fits": {
+          "offset": 203247104,
+          "bytes": 21876480
+        }
+      },
+      "ranges": [
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-0-511.bytes",
+          "sha256": "cbd6527969241b22b427707af8ecc46ee7e8de019d8dd60afde01d530edafc08",
+          "first_byte": 0,
+          "last_byte": 511
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-10240-10751.bytes",
+          "sha256": "0d513e38e1512a3d651ac874896cefea90d3e3e1a7420234003f069273eae714",
+          "first_byte": 10240,
+          "last_byte": 10751
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-3877376-3877887.bytes",
+          "sha256": "d12a86efc71497b7df3375c365ed428abb9db097e5f43639eb23ae4d307b5b61",
+          "first_byte": 3877376,
+          "last_byte": 3877887
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-4277248-4277759.bytes",
+          "sha256": "ffd58ab99e0ab8fcb1f6aa2d7bb8101840e8e22aca7a13b7881a17773cf3e40d",
+          "first_byte": 4277248,
+          "last_byte": 4277759
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-4594176-4594687.bytes",
+          "sha256": "3ac57a04465f8dc24fddddcab31de4874a2ff66288146465e07f2a6315b9dc1d",
+          "first_byte": 4594176,
+          "last_byte": 4594687
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-116114432-116114943.bytes",
+          "sha256": "8d03472248e2ed0558949563a5df67aef06fbca7194d9dbcf1e3373cac6a6f5a",
+          "first_byte": 116114432,
+          "last_byte": 116114943
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-203246592-203247103.bytes",
+          "sha256": "f0e225061dc49ccb51a32ce03090960ec6508551a8ff36a3eee2e50e11dddb3b",
+          "first_byte": 203246592,
+          "last_byte": 203247103
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-203247104-203419903.bytes",
+          "sha256": "c68aefedd2b7dd7021a787b5f42b26a2f2d0d214acfea0a5333f1d35a78c3df4",
+          "first_byte": 203247104,
+          "last_byte": 203419903
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-213496304-214083703.bytes",
+          "sha256": "2d564dc84ab8e2f47794bd5970fa118f60ae19389ede206112c0a41db8167476",
+          "first_byte": 213496304,
+          "last_byte": 214083703
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-116114944-116287743.bytes",
+          "sha256": "c00992eb5ca0a7e8be6247191a75cd0ecc477b50acec1f8feaac53c73b35dc9a",
+          "first_byte": 116114944,
+          "last_byte": 116287743
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2007/CDFS2007merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2007merge.tar/d6b2200-48ea779ccf340-156835264-159184863.bytes",
+          "sha256": "89e3c776010345acbf78c7b4fd22b6e882dd9974346ee76f8922b3445fa2ce90",
+          "first_byte": 156835264,
+          "last_byte": 159184863
+        }
+      ]
+    },
+    {
+      "group": 2010,
+      "header_utc": [
+        "2010-03-18T01:39:05",
+        "2010-07-23T10:23:26"
+      ],
+      "full_band_kev": [
+        0.5,
+        6.0
+      ],
+      "pointing_count": 31,
+      "nominal_ontime_s": 1986587.3926811,
+      "central_exposure_map_value": 1002513898.2482033,
+      "exposure_bunit": null,
+      "exposure_to_counts_sampling_shift_dy_dx_pix": [
+        -0.5,
+        0.5
+      ],
+      "background_annulus_arcsec": [
+        8,
+        20
+      ],
+      "background_pixels": 4356,
+      "background_counts": 1490,
+      "apertures": {
+        "1.5": {
+          "counts": 6,
+          "pixels": 29,
+          "expected_background": 9.919651056014692,
+          "signed_excess": -3.9196510560146915,
+          "local_background_p": 0.9294309227044592,
+          "upper95_counts": 11.842395652420288
+        },
+        "2.0": {
+          "counts": 16,
+          "pixels": 52,
+          "expected_background": 17.786960514233243,
+          "signed_excess": -1.7869605142332432,
+          "local_background_p": 0.6959358246263055,
+          "upper95_counts": 24.301183683647082
+        },
+        "3.0": {
+          "counts": 34,
+          "pixels": 118,
+          "expected_background": 40.362718089990814,
+          "signed_excess": -6.362718089990814,
+          "local_background_p": 0.8588562554975965,
+          "upper95_counts": 45.26561271744033
+        }
+      },
+      "archive_url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+      "archive_etag": "\"147a5800-48f3976ddd540\"",
+      "tar_members": {
+        "acismCDFS_2010N002_expmap.fits": {
+          "offset": 234540544,
+          "bytes": 87131520
+        },
+        "acismCDFS_2010N002_full_img2.fits": {
+          "offset": 321672704,
+          "bytes": 21882240
+        }
+      },
+      "ranges": [
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-0-511.bytes",
+          "sha256": "002e521dbd2f05d9333c806be09d12d999ea2037788befa0a86bdf90384dd302",
+          "first_byte": 0,
+          "last_byte": 511
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-10752-11263.bytes",
+          "sha256": "d6d16753668f6852cb4d5e7fc412428c4f429fd64136427951092d09f92e54a7",
+          "first_byte": 10752,
+          "last_byte": 11263
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-4764672-4765183.bytes",
+          "sha256": "c165f7b18ab6d36a76025c8bab8d4d4764e66634a4c028d8b0adbecb1fc49682",
+          "first_byte": 4764672,
+          "last_byte": 4765183
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-5251584-5252095.bytes",
+          "sha256": "08dc8613bfea39e7f738110531458f209256f8668e147e12ddec3c54c454d824",
+          "first_byte": 5251584,
+          "last_byte": 5252095
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-5602304-5602815.bytes",
+          "sha256": "3149e30f38d8df9fa8b60f253105bad496d3ce23d44937ceb1c5ef36de0dc885",
+          "first_byte": 5602304,
+          "last_byte": 5602815
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-234540032-234540543.bytes",
+          "sha256": "3d4384fab3efea712e3b57e8fcb652da3e81fe04cf3da6090210aa25f0cca363",
+          "first_byte": 234540032,
+          "last_byte": 234540543
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-321672192-321672703.bytes",
+          "sha256": "3210002bd35a551c426c0073e54b909b77096efe0fba04d2efd816a6acb16788",
+          "first_byte": 321672192,
+          "last_byte": 321672703
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-321672704-321845503.bytes",
+          "sha256": "0717a1fe2fdc3e79d21c6895d8a06ed9118828e2ae7474dc49179f148eedff9f",
+          "first_byte": 321672704,
+          "last_byte": 321845503
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-331927664-332515063.bytes",
+          "sha256": "9d4110d65cf1545324b6f29290546eac8ae2e1052f2e6f3efc8f93e9c1335c63",
+          "first_byte": 331927664,
+          "last_byte": 332515063
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-234540544-234713343.bytes",
+          "sha256": "3f87dde0ef422e7ee77f73eea8b1cfe6607b75ed7c68f97673f7b62aa54a0012",
+          "first_byte": 234540544,
+          "last_byte": 234713343
+        },
+        {
+          "url": "https://cxc.cfa.harvard.edu/cdaftp/arcftp/cdfs2010/CDFS2010N002merge.tar",
+          "path": "data/raw/cross_detector/mast_stripes/CDFS2010N002merge.tar/147a5800-48f3976ddd540-275260864-277610463.bytes",
+          "sha256": "924db0afe97ab82afee5bc90a3cda2c14a5c3d2037ecc705ba9c2da0afee5e35",
+          "first_byte": 275260864,
+          "last_byte": 277610463
+        }
+      ]
+    }
+  ],
+  "scope": "Counts and local annular background in public, disjoint 0.5\u20136 keV count images. The upper bound is on aperture counts without background subtraction or PSF correction. Exposure-map values verify coverage in the released maps and are not flux calibration."
+}
