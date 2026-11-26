@@ -1,0 +1,5190 @@
+{
+  "executed_utc": "2026-11-26T10:50:27.279603+00:00",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "script_sha256": "9ef462eae7ca1b4da46fa6e0ccc1f344ae363edb5b0139a9ba53d462e06b6d45",
+  "input_sha256": {
+    "module_b_001_native_epoch_flux.json": "a27bbae33083bff57f0166f75bd2e27bc75aaed9d829fa476ca367bd802a9e05",
+    "module_b_001_six_filter_change.json": "e11e4d84b17423f1c35747230610b650e79294e7570ba9d12cb82edd55c85a34",
+    "module_b_products.json": "5a7b48bffb394186ec3460ce0672502939fbae759c54b567caea57ffdd1db183",
+    "module_b_001_release_20261125.json": "e95baac0edf36379c15e22bb16031ffb6cbdf4b63be3a92cba0f61abaf3c8c4c",
+    "module_b_001_mast_comparison.json": "1115e8f8149d9d1c7c49b82216221fd6f08ba771dd1522d7fc6ca65cdbf7a695"
+  },
+  "native_aperture_script_sha256": "64cc007bb559bff1f29b15e8d48c431202cd0c21a7eaeb548b1fa5171432d712",
+  "epoch_labels": [
+    "Oct 2025",
+    "Oct 2026",
+    "Nov 2026"
+  ],
+  "aperture_radii_arcsec": [
+    0.12,
+    0.18,
+    0.24
+  ],
+  "bands": {
+    "F150W": {
+      "inventory": [
+        {
+          "visit": "jw08060001001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_06101_00001_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_06101_00001_nrcb4_cal.fits",
+              "sha256": "cab23e1e83dbf98e7e55f46f964439c005e23e4c11bf208a9246a1a969ef6f59",
+              "file": "jw08060001001_06101_00001_nrcb4_cal.fits",
+              "expstart_mjd": 60954.43
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_06101_00002_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_06101_00002_nrcb4_cal.fits",
+              "sha256": "ac8c9d142239d1b4c0c6dba6d52abc2af6af9dd5467b9cb49bf584450590b1da",
+              "file": "jw08060001001_06101_00002_nrcb4_cal.fits",
+              "expstart_mjd": 60954.445
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_06101_00003_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_06101_00003_nrcb4_cal.fits",
+              "sha256": "8ce62f0e428448357ec1641fbdd0eb2615404ab318caf259d473af0cab61ed17",
+              "file": "jw08060001001_06101_00003_nrcb4_cal.fits",
+              "expstart_mjd": 60954.46
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw08060001001_06101_00001_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 60954.42776957176,
+              "start_utc": "2025-10-06T10:15:59.291"
+            },
+            {
+              "filename": "jw08060001001_06101_00002_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 60954.44479400463,
+              "start_utc": "2025-10-06T10:40:30.202"
+            },
+            {
+              "filename": "jw08060001001_06101_00003_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 60954.46181917824,
+              "start_utc": "2025-10-06T11:05:01.177"
+            }
+          ]
+        },
+        {
+          "visit": "jw12577001001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00001_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00001_nrcb4_cal.fits",
+              "sha256": "fdd3b54093760f00d9f70ad7ad0962c49cd9f1a3d91ea5d21050f1d69279439f",
+              "file": "jw12577001001_02105_00001_nrcb4_cal.fits",
+              "expstart_mjd": 61323.043
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00002_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00002_nrcb4_cal.fits",
+              "sha256": "c134e4e70cb649d5e1648e62d9f9e2e18a15a011aa48e9494685ad7e155cb03b",
+              "file": "jw12577001001_02105_00002_nrcb4_cal.fits",
+              "expstart_mjd": 61323.06
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00003_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00003_nrcb4_cal.fits",
+              "sha256": "f0adbb714a1fd3e603fb049876a65650d8914e5eb0ad1b2a61a9c34b2667b716",
+              "file": "jw12577001001_02105_00003_nrcb4_cal.fits",
+              "expstart_mjd": 61323.08
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw12577001001_02105_00001_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 61323.042421412036,
+              "start_utc": "2026-10-10T01:01:05.210"
+            },
+            {
+              "filename": "jw12577001001_02105_00002_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 61323.05932212963,
+              "start_utc": "2026-10-10T01:25:25.432"
+            },
+            {
+              "filename": "jw12577001001_02105_00003_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 61323.0762228588,
+              "start_utc": "2026-10-10T01:49:45.655"
+            }
+          ]
+        },
+        {
+          "visit": "jw12577004001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00001_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00001_nrca1_cal.fits",
+              "sha256": "aac9b486c6e9dea4fbcf2f59101458fef54d9485e2c021a6e0a014d28edce6bd",
+              "bytes": 117573120,
+              "file": "jw12577004001_04101_00001_nrca1_cal.fits",
+              "expstart_mjd": 61368.81747137731
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00002_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00002_nrca1_cal.fits",
+              "sha256": "1f52a3c21193147bd0379a3acb0f8fe84dfb1669b25feaa8aef32a60cca92db5",
+              "bytes": 117573120,
+              "file": "jw12577004001_04101_00002_nrca1_cal.fits",
+              "expstart_mjd": 61368.83437136574
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00003_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00003_nrca1_cal.fits",
+              "sha256": "7fb8fe039577c2bf1ce7f6bd26ed83eac21c2ee0378a8814e66407ef4ce2a16b",
+              "bytes": 117573120,
+              "file": "jw12577004001_04101_00003_nrca1_cal.fits",
+              "expstart_mjd": 61368.85127208333
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw12577004001_04101_00001_nrca1_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCA1",
+              "exposure_start_mjd": 61368.81747137731,
+              "start_utc": "2026-11-24T19:37:09.527"
+            },
+            {
+              "filename": "jw12577004001_04101_00002_nrca1_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCA1",
+              "exposure_start_mjd": 61368.83437136574,
+              "start_utc": "2026-11-24T20:01:29.686"
+            },
+            {
+              "filename": "jw12577004001_04101_00003_nrca1_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCA1",
+              "exposure_start_mjd": 61368.85127208333,
+              "start_utc": "2026-11-24T20:25:49.908"
+            }
+          ]
+        }
+      ],
+      "native_frames": [
+        {
+          "file": "jw08060001001_06101_00001_nrcb4_cal.fits",
+          "mjd": 60954.43,
+          "usable_reference_count": 23,
+          "offset_pixels_xy": [
+            0.13037423400470516,
+            -0.3080071673470002
+          ],
+          "forced_center_pixels_xy": [
+            941.1673116700722,
+            246.2374043875721
+          ],
+          "reference_residual_rms_pixels": 0.2879104083404458,
+          "unmasked_peak_pixels_xy": [
+            942,
+            247
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.03537312342914426,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 14
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 2
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.188667508894575,
+            -27.812548622735736
+          ],
+          "clean_centroid_offset_arcsec": 0.033938924371655826,
+          "aperture_photometry": {
+            "aperture_gain": 1.0040967360045245,
+            "reference_count": 13,
+            "reference_gain_mad": 0.011035263147585763,
+            "usable_area_fraction": [
+              0.9783050847457627,
+              0.9807257943080862,
+              0.9872023052801084
+            ],
+            "zero_dq_area_fraction": [
+              0.8027118644067797,
+              0.8843547658485168,
+              0.932960420374608
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              48.53124248236418,
+              59.959662187844515,
+              66.63570784777403
+            ],
+            "calibrated_aperture_flux_njy": [
+              48.33323398249299,
+              59.715025492896665,
+              66.36383274477028
+            ]
+          }
+        },
+        {
+          "file": "jw08060001001_06101_00002_nrcb4_cal.fits",
+          "mjd": 60954.445,
+          "usable_reference_count": 20,
+          "offset_pixels_xy": [
+            0.07774506407207582,
+            -0.3893889683660632
+          ],
+          "forced_center_pixels_xy": [
+            948.1473174706284,
+            248.68537779385443
+          ],
+          "reference_residual_rms_pixels": 0.279070301816103,
+          "unmasked_peak_pixels_xy": [
+            949,
+            249
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.028473181169468773,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 23
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 2
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18866845312772,
+            -27.812547594120172
+          ],
+          "clean_centroid_offset_arcsec": 0.029754553817455964,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": 11,
+            "reference_gain_mad": 0.01811440402990582,
+            "usable_area_fraction": [
+              0.9996605566870332,
+              0.9713596623454929,
+              0.9783014070181386
+            ],
+            "zero_dq_area_fraction": [
+              0.9996605566870332,
+              0.967138981006934,
+              0.9487201220545856
+            ],
+            "zero_dq_aperture_flux_njy": [
+              46.88292867690325,
+              55.12913240492344,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              46.88292867690325,
+              55.10055594146252,
+              67.27319000661373
+            ],
+            "calibrated_aperture_flux_njy": [
+              46.88292867690325,
+              55.10055594146252,
+              67.27319000661373
+            ]
+          }
+        },
+        {
+          "file": "jw08060001001_06101_00003_nrcb4_cal.fits",
+          "mjd": 60954.46,
+          "usable_reference_count": 21,
+          "offset_pixels_xy": [
+            0.0750821464719138,
+            -0.27340089381371513
+          ],
+          "forced_center_pixels_xy": [
+            945.561601728129,
+            253.25303929757806
+          ],
+          "reference_residual_rms_pixels": 0.29410353838661324,
+          "unmasked_peak_pixels_xy": [
+            947,
+            253
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.04575398310321374,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 20
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 2
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.188669129458354,
+            -27.812551304619383
+          ],
+          "clean_centroid_offset_arcsec": 0.04281072590871265,
+          "aperture_photometry": {
+            "aperture_gain": 0.9980459230724732,
+            "reference_count": 14,
+            "reference_gain_mad": 0.006596095394221575,
+            "usable_area_fraction": [
+              0.9406377204884667,
+              0.971049457177322,
+              0.9797543413807709
+            ],
+            "zero_dq_area_fraction": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02105_00001_nrcb4_cal.fits",
+          "mjd": 61323.043,
+          "usable_reference_count": 22,
+          "offset_pixels_xy": [
+            0.23540044285840622,
+            -0.5920730759359003
+          ],
+          "forced_center_pixels_xy": [
+            880.9499924246011,
+            195.52674545370527
+          ],
+          "reference_residual_rms_pixels": 0.43312166414122333,
+          "unmasked_peak_pixels_xy": [
+            882,
+            196
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.036081227781542824,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 5
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 1
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.188665746886805,
+            -27.812545774805475
+          ],
+          "clean_centroid_offset_arcsec": 0.026285076335005125,
+          "aperture_photometry": {
+            "aperture_gain": 0.9893855210653586,
+            "reference_count": 12,
+            "reference_gain_mad": 0.05482105691691543,
+            "usable_area_fraction": [
+              0.993550577053632,
+              0.9903614457831326,
+              0.9945762711864407
+            ],
+            "zero_dq_area_fraction": [
+              0.993550577053632,
+              0.9620481927710843,
+              0.9325423728813559
+            ],
+            "zero_dq_aperture_flux_njy": [
+              73.03454333695309,
+              84.89496159447813,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              72.32535388320684,
+              84.67319285869598,
+              93.21414947509766
+            ],
+            "calibrated_aperture_flux_njy": [
+              73.10128594294342,
+              85.58159691635764,
+              94.21418394593623
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02105_00002_nrcb4_cal.fits",
+          "mjd": 61323.06,
+          "usable_reference_count": 19,
+          "offset_pixels_xy": [
+            0.32982391561165514,
+            -0.4395471111400866
+          ],
+          "forced_center_pixels_xy": [
+            888.0760512198012,
+            198.19670503868548
+          ],
+          "reference_residual_rms_pixels": 0.32824257162855597,
+          "unmasked_peak_pixels_xy": [
+            889,
+            199
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.038355321110775074,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 4
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 84.27899932861328,
+          "clean_centroid_ra_dec": [
+            53.188662871557526,
+            -27.81254860849582
+          ],
+          "clean_centroid_offset_arcsec": 0.03972289449900969,
+          "aperture_photometry": {
+            "aperture_gain": 0.9979971619125825,
+            "reference_count": 11,
+            "reference_gain_mad": 0.0536467376422275,
+            "usable_area_fraction": [
+              1.0,
+              0.9957735849056604,
+              0.994579945799458
+            ],
+            "zero_dq_area_fraction": [
+              0.8265582655826558,
+              0.9180377358490566,
+              0.9404640921409214
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              72.77204566448927,
+              85.79959231987596,
+              89.63862050324678
+            ],
+            "calibrated_aperture_flux_njy": [
+              72.91808878997954,
+              85.97177987505279,
+              89.81851244091864
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02105_00003_nrcb4_cal.fits",
+          "mjd": 61323.08,
+          "usable_reference_count": 19,
+          "offset_pixels_xy": [
+            0.11080566676469061,
+            -0.5639266313236249
+          ],
+          "forced_center_pixels_xy": [
+            885.2736639588068,
+            202.52074200155994
+          ],
+          "reference_residual_rms_pixels": 0.3805260748816789,
+          "unmasked_peak_pixels_xy": [
+            887,
+            203
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.05612771882720491,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 8
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.188664313808324,
+            -27.81254842863957
+          ],
+          "clean_centroid_offset_arcsec": 0.03682552971794556,
+          "aperture_photometry": {
+            "aperture_gain": 0.9933145143845121,
+            "reference_count": 12,
+            "reference_gain_mad": 0.04584240237093182,
+            "usable_area_fraction": [
+              0.9782829996606719,
+              0.9807286961758507,
+              0.9721986777419902
+            ],
+            "zero_dq_area_fraction": [
+              0.9782829996606719,
+              0.9807286961758507,
+              0.9653331073063232
+            ],
+            "zero_dq_aperture_flux_njy": [
+              69.70317200841168,
+              83.95550868974813,
+              95.27994951030264
+            ],
+            "raw_aperture_flux_njy": [
+              68.87504120916128,
+              82.57600659132004,
+              93.11638318002224
+            ],
+            "calibrated_aperture_flux_njy": [
+              69.33860344509147,
+              83.13178293029036,
+              93.7431013355523
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_04101_00001_nrca1_cal.fits",
+          "mjd": 61368.81747137731,
+          "usable_reference_count": 22,
+          "offset_pixels_xy": [
+            0.5406791422390143,
+            -0.14925159661561338
+          ],
+          "forced_center_pixels_xy": [
+            1184.3897595835035,
+            1171.0757949629442
+          ],
+          "reference_residual_rms_pixels": 0.413921954554068,
+          "unmasked_peak_pixels_xy": [
+            1185,
+            1170
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.03862153510562225,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 6
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18866894427142,
+            -27.81254875173756
+          ],
+          "clean_centroid_offset_arcsec": 0.033712942805483676,
+          "aperture_photometry": {
+            "aperture_gain": 1.0022454918018808,
+            "reference_count": 13,
+            "reference_gain_mad": 0.05551237109896661,
+            "usable_area_fraction": [
+              0.9352445193929174,
+              0.9712488769092543,
+              0.9784566186989817
+            ],
+            "zero_dq_area_fraction": [
+              0.9352445193929174,
+              0.9712488769092543,
+              0.9784566186989817
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_04101_00002_nrca1_cal.fits",
+          "mjd": 61368.83437136574,
+          "usable_reference_count": 17,
+          "offset_pixels_xy": [
+            0.44899540267806515,
+            -0.38119390918473073
+          ],
+          "forced_center_pixels_xy": [
+            1191.3942915410735,
+            1173.465821664798
+          ],
+          "reference_residual_rms_pixels": 0.30637105923114777,
+          "unmasked_peak_pixels_xy": [
+            1191,
+            1172
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.04739941226525565,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 9
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.1886704159039,
+            -27.81254756246661
+          ],
+          "clean_centroid_offset_arcsec": 0.029384217418201054,
+          "aperture_photometry": {
+            "aperture_gain": 1.023565657911081,
+            "reference_count": 13,
+            "reference_gain_mad": 0.08214285634130764,
+            "usable_area_fraction": [
+              1.0,
+              0.983680191645456,
+              0.9784548055882848
+            ],
+            "zero_dq_area_fraction": [
+              0.8972371967654986,
+              0.864949842790837,
+              0.8748527183975762
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              54.20174106955528,
+              70.0863959454,
+              81.20325811952353
+            ],
+            "calibrated_aperture_flux_njy": [
+              52.953848784035586,
+              68.47278960925097,
+              79.33370711679133
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_04101_00003_nrca1_cal.fits",
+          "mjd": 61368.85127208333,
+          "usable_reference_count": 20,
+          "offset_pixels_xy": [
+            0.3673166967257657,
+            -0.16752023492085755
+          ],
+          "forced_center_pixels_xy": [
+            1188.6925616712933,
+            1178.1650589391738
+          ],
+          "reference_residual_rms_pixels": 0.35892977640269036,
+          "unmasked_peak_pixels_xy": [
+            1190,
+            1177
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.0546842283202897,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 4
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.188658977666265,
+            -27.812539630783537
+          ],
+          "clean_centroid_offset_arcsec": 0.03470953703170907,
+          "aperture_photometry": {
+            "aperture_gain": 0.9862067719611808,
+            "reference_count": 13,
+            "reference_gain_mad": 0.03365934306019499,
+            "usable_area_fraction": [
+              0.9784366576819407,
+              0.9904220293325352,
+              0.9838411041912136
+            ],
+            "zero_dq_area_fraction": [
+              0.616576819407008,
+              0.6863214606405268,
+              0.7001346574650732
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              47.224307753145695,
+              64.08270800113678,
+              72.34225396066904
+            ],
+            "calibrated_aperture_flux_njy": [
+              47.88479363129393,
+              64.97897786049599,
+              73.35404300338406
+            ]
+          }
+        }
+      ],
+      "contrasts": {
+        "rise": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 47.60808132969812,
+            "median_newer_njy": 72.91808878997954,
+            "difference_njy": 25.310007460281412,
+            "local_difference_mad_njy": 2.191481650599075,
+            "matched_background_count": 232,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 24.76805196045043
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 24.584854807486543
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 21.005369462598473
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 26.218357266040172
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 26.035160113076287
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 22.455674768188217
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 24.61826830357313
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 57.407790717179594,
+            "median_newer_njy": 85.58159691635764,
+            "difference_njy": 28.173806199178046,
+            "local_difference_mad_njy": 3.860226320871879,
+            "matched_background_count": 230,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 25.866571423460975
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 26.256754382156124
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 23.41675743739369
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 30.481040974895123
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 30.871223933590272
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 28.03122698882784
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 27.143083794042468
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 66.818511375692,
+            "median_newer_njy": 93.7431013355523,
+            "difference_njy": 26.9245899598603,
+            "local_difference_mad_njy": 5.673761468828948,
+            "matched_background_count": 232,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 27.85035120116595
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 23.45467969614836
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 27.37926859078202
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 26.940993939322496
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 22.545322434304907
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 26.469911328938565
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 26.16193425282836
+          }
+        ],
+        "november_minus_baseline": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 47.60808132969812,
+            "median_newer_njy": 50.41932120766476,
+            "difference_njy": 2.811239877966635,
+            "local_difference_mad_njy": 2.6248930502288306,
+            "matched_background_count": 245,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 4.620614801542594
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -0.44844035119906067
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 6.070920107132338
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 1.0018649543906832
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 3.005938831716776
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 57.407790717179594,
+            "median_newer_njy": 66.72588373487348,
+            "difference_njy": 9.318093017693883,
+            "local_difference_mad_njy": 3.9641424699542296,
+            "matched_background_count": 244,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 8.757764116354302
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 5.263952367599323
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 13.37223366778845
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 9.878421919033471
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 9.554442908614874
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 66.818511375692,
+            "median_newer_njy": 76.3438750600877,
+            "difference_njy": 9.5253636843957,
+            "local_difference_mad_njy": 6.164936455973258,
+            "matched_background_count": 246,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 12.969874372021053
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 6.990210258613786
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 12.0605171101776
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 6.080852996770332
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 9.818307112902403
+          }
+        ],
+        "fade": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 72.91808878997954,
+            "median_newer_njy": 50.41932120766476,
+            "difference_njy": -22.498767582314777,
+            "local_difference_mad_njy": 2.2842125146666525,
+            "matched_background_count": 238,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": -20.147437158907834
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -25.21649231164949
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": -19.96424000594395
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -25.033295158685604
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 2,
+                "excess_njy": -16.38475466105588
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 3,
+                "excess_njy": -21.453809813797534
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -21.612329471856356
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 85.58159691635764,
+            "median_newer_njy": 66.72588373487348,
+            "difference_njy": -18.855713181484163,
+            "local_difference_mad_njy": 4.005278309428498,
+            "matched_background_count": 238,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": -17.108807307106673
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -20.602619055861652
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": -17.498990265801822
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -20.9928020145568
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 2,
+                "excess_njy": -14.65899332103939
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 3,
+                "excess_njy": -18.15280506979437
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -17.588640885427594
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 93.7431013355523,
+            "median_newer_njy": 76.3438750600877,
+            "difference_njy": -17.3992262754646,
+            "local_difference_mad_njy": 6.399396456932144,
+            "matched_background_count": 239,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": -14.880476829144897
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -20.860140942552164
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": -10.484805324127308
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -16.464469437534575
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 2,
+                "excess_njy": -14.409394218760966
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 3,
+                "excess_njy": -20.389058332168233
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -16.343627139925957
+          }
+        ]
+      },
+      "calibration": {
+        "method": "local_reference_sources",
+        "radius_arcsec": 0.24,
+        "trial_counts": {
+          "0.24": [
+            13,
+            11,
+            14,
+            12,
+            11,
+            12,
+            13,
+            13,
+            13
+          ]
+        }
+      },
+      "fade_zero_dq_core_fits": [
+        {
+          "fixed_sigma_arcsec": 0.04083628377141197,
+          "fit_radius_arcsec": 0.18,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 5.073845305803159,
+              "without_brightest_pixel_njy_per_pixel": 4.275483058722408,
+              "background_njy_per_pixel": 4.865318710331795,
+              "usable_pixels": 100
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 8.18633973045099,
+              "without_brightest_pixel_njy_per_pixel": 7.012176557446843,
+              "background_njy_per_pixel": 4.92582567974569,
+              "usable_pixels": 95
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.655078864221424,
+              "without_brightest_pixel_njy_per_pixel": 4.2305111570427085,
+              "background_njy_per_pixel": 5.012067699139429,
+              "usable_pixels": 101
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 3.057202127923955,
+              "without_brightest_pixel_njy_per_pixel": 2.738460037267345,
+              "background_njy_per_pixel": 4.528777437115902,
+              "usable_pixels": 102
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 3.038983227389304,
+              "without_brightest_pixel_njy_per_pixel": 2.7973737928252933,
+              "background_njy_per_pixel": 4.575748029750588,
+              "usable_pixels": 93
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.2584626931071816,
+              "without_brightest_pixel_njy_per_pixel": 2.0708835565732073,
+              "background_njy_per_pixel": 5.0526941642091865,
+              "usable_pixels": 72
+            }
+          ],
+          "older_median_njy_per_pixel": 5.073845305803159,
+          "newer_median_njy_per_pixel": 3.038983227389304,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        },
+        {
+          "fixed_sigma_arcsec": 0.048042686789896434,
+          "fit_radius_arcsec": 0.18,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.656206246969859,
+              "without_brightest_pixel_njy_per_pixel": 3.9688835668131306,
+              "background_njy_per_pixel": 4.722549166802401,
+              "usable_pixels": 100
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 6.739125928885006,
+              "without_brightest_pixel_njy_per_pixel": 5.735704910010752,
+              "background_njy_per_pixel": 4.780461154492476,
+              "usable_pixels": 95
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.269715630827979,
+              "without_brightest_pixel_njy_per_pixel": 3.8494932170286034,
+              "background_njy_per_pixel": 4.883984004325201,
+              "usable_pixels": 101
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.8083262957400943,
+              "without_brightest_pixel_njy_per_pixel": 2.5294522770164276,
+              "background_njy_per_pixel": 4.448426471112947,
+              "usable_pixels": 102
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.786476808762053,
+              "without_brightest_pixel_njy_per_pixel": 2.5662309250146516,
+              "background_njy_per_pixel": 4.491148023321879,
+              "usable_pixels": 93
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.0643552799099063,
+              "without_brightest_pixel_njy_per_pixel": 1.8755511977425225,
+              "background_njy_per_pixel": 5.001622272428551,
+              "usable_pixels": 72
+            }
+          ],
+          "older_median_njy_per_pixel": 4.656206246969859,
+          "newer_median_njy_per_pixel": 2.786476808762053,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        },
+        {
+          "fixed_sigma_arcsec": 0.0552490898083809,
+          "fit_radius_arcsec": 0.18,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.327031994155587,
+              "without_brightest_pixel_njy_per_pixel": 3.710964857786227,
+              "background_njy_per_pixel": 4.572961885576806,
+              "usable_pixels": 100
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 5.785627889435455,
+              "without_brightest_pixel_njy_per_pixel": 4.893686776602684,
+              "background_njy_per_pixel": 4.62595424098876,
+              "usable_pixels": 95
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 3.9721421074633936,
+              "without_brightest_pixel_njy_per_pixel": 3.566410922928685,
+              "background_njy_per_pixel": 4.748134155897578,
+              "usable_pixels": 101
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.6240531774944187,
+              "without_brightest_pixel_njy_per_pixel": 2.3699837578610987,
+              "background_njy_per_pixel": 4.359614206748351,
+              "usable_pixels": 102
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.6005771575335217,
+              "without_brightest_pixel_njy_per_pixel": 2.3957562766903613,
+              "background_njy_per_pixel": 4.400962616295999,
+              "usable_pixels": 93
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 1.919345122953617,
+              "without_brightest_pixel_njy_per_pixel": 1.733735431923256,
+              "background_njy_per_pixel": 4.943811441033779,
+              "usable_pixels": 72
+            }
+          ],
+          "older_median_njy_per_pixel": 4.327031994155587,
+          "newer_median_njy_per_pixel": 2.6005771575335217,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        }
+      ]
+    },
+    "F200W": {
+      "inventory": [
+        {
+          "visit": "jw08060001001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_02101_00001_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_02101_00001_nrcb4_cal.fits",
+              "sha256": "1632d737a28e51f99451bc44140b6df55a82d861efdb50ff101fae326443ed6a",
+              "file": "jw08060001001_02101_00001_nrcb4_cal.fits",
+              "expstart_mjd": 60954.32
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_02101_00002_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_02101_00002_nrcb4_cal.fits",
+              "sha256": "d0bdf00aea5c7b606a55387408459f0b52fd0adf30a4d8666d1b1ed80637e88f",
+              "file": "jw08060001001_02101_00002_nrcb4_cal.fits",
+              "expstart_mjd": 60954.336
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_02101_00003_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_02101_00003_nrcb4_cal.fits",
+              "sha256": "a5ba35ae76b00abc2499b41e0780fc307f5cb3d6e99540e52ca5d6c177252e52",
+              "file": "jw08060001001_02101_00003_nrcb4_cal.fits",
+              "expstart_mjd": 60954.355
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw08060001001_02101_00001_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 60954.3205259838,
+              "start_utc": "2025-10-06T07:41:33.445"
+            },
+            {
+              "filename": "jw08060001001_02101_00002_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 60954.337426701386,
+              "start_utc": "2025-10-06T08:05:53.667"
+            },
+            {
+              "filename": "jw08060001001_02101_00003_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 60954.354327430556,
+              "start_utc": "2025-10-06T08:30:13.890"
+            }
+          ]
+        },
+        {
+          "visit": "jw12577001001",
+          "products": [
+            {
+              "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00001_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00001_nrcb4_cal.fits",
+              "sha256": "532cf5dda4e0c8e7c87f84df9ed460218590bd93edfa6405a69614ed3d262ac8",
+              "file": "jw12577001001_02101_00001_nrcb4_cal.fits",
+              "expstart_mjd": 61322.938
+            },
+            {
+              "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00002_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00002_nrcb4_cal.fits",
+              "sha256": "65a2f1faba847f733c00ee76f3b50e92a80a4e600cb62e05c920507e098c3e9d",
+              "file": "jw12577001001_02101_00002_nrcb4_cal.fits",
+              "expstart_mjd": 61322.953
+            },
+            {
+              "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00003_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00003_nrcb4_cal.fits",
+              "sha256": "bfc528d63cbb8ec43232c5fef9e16490faf635f7e3db0f20e449a333175a4c1c",
+              "file": "jw12577001001_02101_00003_nrcb4_cal.fits",
+              "expstart_mjd": 61322.97
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw12577001001_02101_00001_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 61322.936545219905,
+              "start_utc": "2026-10-09T22:28:37.507"
+            },
+            {
+              "filename": "jw12577001001_02101_00002_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 61322.9534459375,
+              "start_utc": "2026-10-09T22:52:57.729"
+            },
+            {
+              "filename": "jw12577001001_02101_00003_nrcb4_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCB4",
+              "exposure_start_mjd": 61322.970345925925,
+              "start_utc": "2026-10-09T23:17:17.888"
+            }
+          ]
+        },
+        {
+          "visit": "jw12577004001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00001_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00001_nrca1_cal.fits",
+              "sha256": "6c82f2991700d99d1b5d7927c63e634e9a5d9bcc81b534f0e080c1ab8cb70107",
+              "bytes": 117573120,
+              "file": "jw12577004001_02101_00001_nrca1_cal.fits",
+              "expstart_mjd": 61368.76403587963
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00002_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00002_nrca1_cal.fits",
+              "sha256": "4807a01557016bbe6c27bd176717086ec48983f54b373553d6cdfbb0cafaa0e6",
+              "bytes": 117573120,
+              "file": "jw12577004001_02101_00002_nrca1_cal.fits",
+              "expstart_mjd": 61368.78106030093
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00003_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00003_nrca1_cal.fits",
+              "sha256": "0d3f72c2c4c0b289fb2d6285b266f0989e4461ad560b431f43e1df337ed3ade3",
+              "bytes": 117573120,
+              "file": "jw12577004001_02101_00003_nrca1_cal.fits",
+              "expstart_mjd": 61368.79808547454
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw12577004001_02101_00001_nrca1_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCA1",
+              "exposure_start_mjd": 61368.76403587963,
+              "start_utc": "2026-11-24T18:20:12.700"
+            },
+            {
+              "filename": "jw12577004001_02101_00002_nrca1_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCA1",
+              "exposure_start_mjd": 61368.78106030093,
+              "start_utc": "2026-11-24T18:44:43.610"
+            },
+            {
+              "filename": "jw12577004001_02101_00003_nrca1_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCA1",
+              "exposure_start_mjd": 61368.79808547454,
+              "start_utc": "2026-11-24T19:09:14.585"
+            }
+          ]
+        }
+      ],
+      "native_frames": [
+        {
+          "file": "jw08060001001_02101_00001_nrcb4_cal.fits",
+          "mjd": 60954.32,
+          "usable_reference_count": 22,
+          "offset_pixels_xy": [
+            0.0817361129999199,
+            -0.23347394629760743
+          ],
+          "forced_center_pixels_xy": [
+            939.9523720662514,
+            244.689962165254
+          ],
+          "reference_residual_rms_pixels": 0.28859537262173385,
+          "unmasked_peak_pixels_xy": [
+            941,
+            244
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.03929760008471037,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 11
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18866907165356,
+            -27.812550674207607
+          ],
+          "clean_centroid_offset_arcsec": 0.04055820357450062,
+          "aperture_photometry": {
+            "aperture_gain": 0.988820693494476,
+            "reference_count": 13,
+            "reference_gain_mad": 0.0165744398250899,
+            "usable_area_fraction": [
+              0.998645903859174,
+              0.9903381642512077,
+              0.9837357052096569
+            ],
+            "zero_dq_area_fraction": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              47.95249414816499,
+              59.77443911880255,
+              61.66390735283494
+            ],
+            "calibrated_aperture_flux_njy": [
+              48.494630486242826,
+              60.45023077698816,
+              62.36106076513803
+            ]
+          }
+        },
+        {
+          "file": "jw08060001001_02101_00002_nrcb4_cal.fits",
+          "mjd": 60954.336,
+          "usable_reference_count": 20,
+          "offset_pixels_xy": [
+            0.004202775380051094,
+            -0.43680443300723937
+          ],
+          "forced_center_pixels_xy": [
+            946.9332315029079,
+            246.96485233107774
+          ],
+          "reference_residual_rms_pixels": 0.36865366982798997,
+          "unmasked_peak_pixels_xy": [
+            948,
+            247
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.033437090484773974,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 14
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 4
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18866646389715,
+            -27.812550467840516
+          ],
+          "clean_centroid_offset_arcsec": 0.0411713463050184,
+          "aperture_photometry": {
+            "aperture_gain": 1.0015902964361463,
+            "reference_count": 17,
+            "reference_gain_mad": 0.018906115109188087,
+            "usable_area_fraction": [
+              0.976271186440678,
+              0.9807083647324792,
+              0.9789937320006776
+            ],
+            "zero_dq_area_fraction": [
+              0.976271186440678,
+              0.9614167294649586,
+              0.9681517872268338
+            ],
+            "zero_dq_aperture_flux_njy": [
+              44.917423756524826,
+              56.15355762965795,
+              62.98836053165631
+            ],
+            "raw_aperture_flux_njy": [
+              45.354998763650656,
+              56.69640068337321,
+              64.18422164022923
+            ],
+            "calibrated_aperture_flux_njy": [
+              45.28298539336153,
+              56.60637975937873,
+              64.08231176820424
+            ]
+          }
+        },
+        {
+          "file": "jw08060001001_02101_00003_nrcb4_cal.fits",
+          "mjd": 60954.355,
+          "usable_reference_count": 20,
+          "offset_pixels_xy": [
+            0.051105717779478255,
+            -0.21383901390606752
+          ],
+          "forced_center_pixels_xy": [
+            944.3993029656746,
+            251.6331139448623
+          ],
+          "reference_residual_rms_pixels": 0.29309445048946975,
+          "unmasked_peak_pixels_xy": [
+            946,
+            252
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.051445807829307695,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 14
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.188667706705665,
+            -27.812552009344394
+          ],
+          "clean_centroid_offset_arcsec": 0.045794531867084896,
+          "aperture_photometry": {
+            "aperture_gain": 1.00936924853221,
+            "reference_count": 13,
+            "reference_gain_mad": 0.013890847873854702,
+            "usable_area_fraction": [
+              0.9350033852403521,
+              0.9651898734177216,
+              0.9782922072415839
+            ],
+            "zero_dq_area_fraction": [
+              0.9350033852403521,
+              0.9651898734177216,
+              0.9732892393792928
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02101_00001_nrcb4_cal.fits",
+          "mjd": 61322.938,
+          "usable_reference_count": 19,
+          "offset_pixels_xy": [
+            0.1100475053426635,
+            -0.5047114604583385
+          ],
+          "forced_center_pixels_xy": [
+            879.7125597766235,
+            193.87346687979505
+          ],
+          "reference_residual_rms_pixels": 0.3564099676160356,
+          "unmasked_peak_pixels_xy": [
+            881,
+            194
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.040526177601811354,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 9
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 88.1429214477539,
+          "clean_centroid_ra_dec": [
+            53.188664212908975,
+            -27.812548810674077
+          ],
+          "clean_centroid_offset_arcsec": 0.03818422904409482,
+          "aperture_photometry": {
+            "aperture_gain": 1.003115450748024,
+            "reference_count": 17,
+            "reference_gain_mad": 0.03477099729477762,
+            "usable_area_fraction": [
+              1.0,
+              0.990362897154043,
+              0.989144262573149
+            ],
+            "zero_dq_area_fraction": [
+              0.7861741782446628,
+              0.7762385182954374,
+              0.807310660673395
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              76.17657034099102,
+              89.06186537444592,
+              96.31865524873137
+            ],
+            "calibrated_aperture_flux_njy": [
+              75.93998306394951,
+              88.78525927203336,
+              96.0195111907672
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02101_00002_nrcb4_cal.fits",
+          "mjd": 61322.953,
+          "usable_reference_count": 20,
+          "offset_pixels_xy": [
+            0.2112206536303063,
+            -0.43681532779943666
+          ],
+          "forced_center_pixels_xy": [
+            886.819063750434,
+            196.5218612070454
+          ],
+          "reference_residual_rms_pixels": 0.36816408780323995,
+          "unmasked_peak_pixels_xy": [
+            888,
+            197
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.03991266636515243,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 21
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 2
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 87.90069580078125,
+          "clean_centroid_ra_dec": [
+            53.18866573365063,
+            -27.81254633739305
+          ],
+          "clean_centroid_offset_arcsec": 0.028083837132577682,
+          "aperture_photometry": {
+            "aperture_gain": 1.003575740008693,
+            "reference_count": 16,
+            "reference_gain_mad": 0.03100456493499441,
+            "usable_area_fraction": [
+              1.0,
+              1.0,
+              0.9967799339039064
+            ],
+            "zero_dq_area_fraction": [
+              0.8716468590831918,
+              0.8207831325301205,
+              0.8557749343275993
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              76.63805624470115,
+              89.47775411605835,
+              95.19072417914867
+            ],
+            "calibrated_aperture_flux_njy": [
+              76.3649948772549,
+              89.15894490961219,
+              94.85155966237697
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02101_00003_nrcb4_cal.fits",
+          "mjd": 61322.97,
+          "usable_reference_count": 18,
+          "offset_pixels_xy": [
+            0.3538562650068542,
+            -0.4569486870778139
+          ],
+          "forced_center_pixels_xy": [
+            884.3781447262573,
+            200.94956675324187
+          ],
+          "reference_residual_rms_pixels": 0.3299205271211169,
+          "unmasked_peak_pixels_xy": [
+            885,
+            201
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.019544924613277417,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 1
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 0
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 89.36750793457031,
+          "clean_centroid_ra_dec": [
+            53.18866657170268,
+            -27.812546146435913
+          ],
+          "clean_centroid_offset_arcsec": 0.026332020966886752,
+          "aperture_photometry": {
+            "aperture_gain": 1.0081301147650374,
+            "reference_count": 13,
+            "reference_gain_mad": 0.042702827004829476,
+            "usable_area_fraction": [
+              1.0,
+              0.9837324898328061,
+              0.9836509953409572
+            ],
+            "zero_dq_area_fraction": [
+              1.0,
+              0.9242355776472361,
+              0.8276154171961033
+            ],
+            "zero_dq_aperture_flux_njy": [
+              73.92022801379935,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              75.76329373568296,
+              93.7175608240068,
+              104.62196480855346
+            ],
+            "calibrated_aperture_flux_njy": [
+              75.15229693673116,
+              92.96177095736232,
+              103.77823584105258
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_02101_00001_nrca1_cal.fits",
+          "mjd": 61368.76403587963,
+          "usable_reference_count": 19,
+          "offset_pixels_xy": [
+            0.4698200118666591,
+            -0.00912260530481035
+          ],
+          "forced_center_pixels_xy": [
+            1187.0917271548344,
+            1175.5624849442045
+          ],
+          "reference_residual_rms_pixels": 0.3965972430372798,
+          "unmasked_peak_pixels_xy": [
+            1188,
+            1175
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.033362942776398806,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 11
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 1
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18866574108384,
+            -27.812546747241235
+          ],
+          "clean_centroid_offset_arcsec": 0.02944383955661684,
+          "aperture_photometry": {
+            "aperture_gain": 1.0136026356041432,
+            "reference_count": 13,
+            "reference_gain_mad": 0.03984056827509657,
+            "usable_area_fraction": [
+              0.9838111298482294,
+              0.9690026954177897,
+              0.9730707733737272
+            ],
+            "zero_dq_area_fraction": [
+              0.9086003372681282,
+              0.8740640910452231,
+              0.901624168980897
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              41.01603203639388,
+              49.60661042481661,
+              52.213887341320515
+            ],
+            "calibrated_aperture_flux_njy": [
+              40.46559331601073,
+              48.940885394649065,
+              51.51317242796945
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_02101_00002_nrca1_cal.fits",
+          "mjd": 61368.78106030093,
+          "usable_reference_count": 11,
+          "offset_pixels_xy": [
+            0.2259276144498017,
+            -0.14817274196502694
+          ],
+          "forced_center_pixels_xy": [
+            1193.9512075144019,
+            1178.0354994712447
+          ],
+          "reference_residual_rms_pixels": 0.39583320368111885,
+          "unmasked_peak_pixels_xy": [
+            1194,
+            1177
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.0323732728533528,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 10
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 2
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18866671107579,
+            -27.812549897191772
+          ],
+          "clean_centroid_offset_arcsec": 0.03900099483753168,
+          "aperture_photometry": {
+            "aperture_gain": 1.009833067335237,
+            "reference_count": 15,
+            "reference_gain_mad": 0.07028997846601927,
+            "usable_area_fraction": [
+              0.9996629592180654,
+              0.9904177272046714,
+              0.9946109801279892
+            ],
+            "zero_dq_area_fraction": [
+              0.9996629592180654,
+              0.9904177272046714,
+              0.9929269114179858
+            ],
+            "zero_dq_aperture_flux_njy": [
+              44.12568576148385,
+              58.55884632310356,
+              66.01845798276022
+            ],
+            "raw_aperture_flux_njy": [
+              44.771345779299736,
+              59.60696321725845,
+              67.50778084993362
+            ],
+            "calibrated_aperture_flux_njy": [
+              44.33539287581764,
+              59.02655116508536,
+              66.85043601124511
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_02101_00003_nrca1_cal.fits",
+          "mjd": 61368.79808547454,
+          "usable_reference_count": 17,
+          "offset_pixels_xy": [
+            0.34575466461205906,
+            -0.14851482260746707
+          ],
+          "forced_center_pixels_xy": [
+            1191.4505889687678,
+            1182.5217696959037
+          ],
+          "reference_residual_rms_pixels": 0.34300955457299276,
+          "unmasked_peak_pixels_xy": [
+            1192,
+            1182
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.023661780607645136,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 16
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 1
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18866787098435,
+            -27.812546151508045
+          ],
+          "clean_centroid_offset_arcsec": 0.025045084521318355,
+          "aperture_photometry": {
+            "aperture_gain": 1.007534223082806,
+            "reference_count": 15,
+            "reference_gain_mad": 0.028903394068438917,
+            "usable_area_fraction": [
+              0.9784366576819407,
+              0.9904148569716938,
+              0.9946114338637703
+            ],
+            "zero_dq_area_fraction": [
+              0.9046495956873315,
+              0.9137337127452448,
+              0.9067946451124022
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              45.49162093177438,
+              58.93274197727442,
+              69.13821210712194
+            ],
+            "calibrated_aperture_flux_njy": [
+              45.151439910975185,
+              58.49204982531986,
+              68.62120464312973
+            ]
+          }
+        }
+      ],
+      "contrasts": {
+        "rise": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 46.88880793980218,
+            "median_newer_njy": 75.93998306394951,
+            "difference_njy": 29.051175124147335,
+            "local_difference_mad_njy": 2.1657680967474215,
+            "matched_background_count": 226,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 27.445352577706686
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 27.870364391012075
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 26.657666450488335
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 30.656997670587984
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 31.082009483893373
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 29.869311543369633
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 29.5228238850832
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 58.528305268183445,
+            "median_newer_njy": 89.15894490961219,
+            "difference_njy": 30.630639641428743,
+            "local_difference_mad_njy": 3.748358709514077,
+            "matched_background_count": 228,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 28.3350284950452
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 28.70871413262403
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 32.51154018037416
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 32.178879512654625
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 32.552565150233455
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 36.355391197983586
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 31.24233421497047
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 63.22168626667113,
+            "median_newer_njy": 96.0195111907672,
+            "difference_njy": 32.797824924096076,
+            "local_difference_mad_njy": 5.524124591412221,
+            "matched_background_count": 231,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 33.65845042562918
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 32.49049889723894
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 41.41717507591455
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 31.93719942256297
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 30.769247894172736
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 39.69592407284834
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 33.39459075219929
+          }
+        ],
+        "november_minus_baseline": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 46.88880793980218,
+            "median_newer_njy": 44.33539287581764,
+            "difference_njy": -2.553415063984538,
+            "local_difference_mad_njy": 1.900486351247796,
+            "matched_background_count": 233,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -8.029037170232094
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": -4.159237610425187
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -3.3431905752676414
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -4.817392077350796
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": -0.9475925175438888
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -0.13154548238634334
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -1.8824006766080856
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 58.528305268183445,
+            "median_newer_njy": 58.49204982531986,
+            "difference_njy": -0.03625544286358462,
+            "local_difference_mad_njy": 3.566690802762305,
+            "matched_background_count": 236,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -11.509345382339092
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": -1.4236796119027986
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -1.9581809516682966
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -7.665494364729668
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 2.4201714057066255
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 1.8856700659411274
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 0.6973220761865377
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 63.22168626667113,
+            "median_newer_njy": 66.85043601124511,
+            "difference_njy": 3.6287497445739803,
+            "local_difference_mad_njy": 5.456212691064977,
+            "matched_background_count": 239,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -10.847888337168577
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 4.48937524610708
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 6.260143877991702
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -12.569139340234784
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 2.768124243040873
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 4.538892874925494
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 4.583716353401542
+          }
+        ],
+        "fade": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 75.93998306394951,
+            "median_newer_njy": 44.33539287581764,
+            "difference_njy": -31.604590188131873,
+            "local_difference_mad_njy": 2.099393331996337,
+            "matched_background_count": 230,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -35.47438974793878
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": -31.604590188131873
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -30.788543152974327
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -35.89940156124417
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": -32.02960200143726
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -31.213554966279716
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 1,
+                "excess_njy": -34.68670362072043
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 2,
+                "excess_njy": -30.816904060913522
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 3,
+                "excess_njy": -30.000857025755977
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -31.405224561691284
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 89.15894490961219,
+            "median_newer_njy": 58.49204982531986,
+            "difference_njy": -30.666895084292328,
+            "local_difference_mad_njy": 3.6584347748955803,
+            "matched_background_count": 234,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -39.84437387738429
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": -29.758708106948
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -30.293209446713497
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -40.21805951496312
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": -30.13239374452683
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -30.666895084292328
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 1,
+                "excess_njy": -44.020885562713254
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 2,
+                "excess_njy": -33.93521979227696
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 3,
+                "excess_njy": -34.46972113204246
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -30.54501213878393
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 96.0195111907672,
+            "median_newer_njy": 66.85043601124511,
+            "difference_njy": -29.169075179522096,
+            "local_difference_mad_njy": 5.633552467552651,
+            "matched_background_count": 233,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -44.50633876279775
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": -29.169075179522096
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -27.398306547637475
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -43.33838723440752
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": -28.001123651131863
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -26.23035501924724
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 1,
+                "excess_njy": -52.265063413083126
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 2,
+                "excess_njy": -36.92779982980747
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 3,
+                "excess_njy": -35.15703119792285
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -28.81087439879775
+          }
+        ]
+      },
+      "calibration": {
+        "method": "local_reference_sources",
+        "radius_arcsec": 0.24,
+        "trial_counts": {
+          "0.24": [
+            13,
+            17,
+            13,
+            17,
+            16,
+            13,
+            13,
+            15,
+            15
+          ]
+        }
+      },
+      "fade_zero_dq_core_fits": [
+        {
+          "fixed_sigma_arcsec": 0.044077158792608706,
+          "fit_radius_arcsec": 0.2,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.58529302470459,
+              "without_brightest_pixel_njy_per_pixel": 3.8475512778231193,
+              "background_njy_per_pixel": 4.053220042191601,
+              "usable_pixels": 103
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.7217554199608855,
+              "without_brightest_pixel_njy_per_pixel": 4.15940192275572,
+              "background_njy_per_pixel": 4.120927607325723,
+              "usable_pixels": 107
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.971478631347953,
+              "without_brightest_pixel_njy_per_pixel": 4.489966180942578,
+              "background_njy_per_pixel": 4.023506848842671,
+              "usable_pixels": 112
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.2857136757319583,
+              "without_brightest_pixel_njy_per_pixel": 2.1161486927191073,
+              "background_njy_per_pixel": 3.589101151300905,
+              "usable_pixels": 113
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.383518544129757,
+              "without_brightest_pixel_njy_per_pixel": 2.1470597192590155,
+              "background_njy_per_pixel": 3.5470320424949735,
+              "usable_pixels": 132
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.5778000007341584,
+              "without_brightest_pixel_njy_per_pixel": 2.43127540801703,
+              "background_njy_per_pixel": 3.5634840587957988,
+              "usable_pixels": 113
+            }
+          ],
+          "older_median_njy_per_pixel": 4.7217554199608855,
+          "newer_median_njy_per_pixel": 2.383518544129757,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        },
+        {
+          "fixed_sigma_arcsec": 0.05185548093248083,
+          "fit_radius_arcsec": 0.2,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.174829553574816,
+              "without_brightest_pixel_njy_per_pixel": 3.559490213030698,
+              "background_njy_per_pixel": 3.9395316590229505,
+              "usable_pixels": 103
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.2948169657515285,
+              "without_brightest_pixel_njy_per_pixel": 3.804610630888477,
+              "background_njy_per_pixel": 4.002859402305482,
+              "usable_pixels": 107
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.457208025820012,
+              "without_brightest_pixel_njy_per_pixel": 4.0179452537232265,
+              "background_njy_per_pixel": 3.89217935557066,
+              "usable_pixels": 112
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.113955476705461,
+              "without_brightest_pixel_njy_per_pixel": 1.967288228002693,
+              "background_njy_per_pixel": 3.5253563011495133,
+              "usable_pixels": 113
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.1725374160883115,
+              "without_brightest_pixel_njy_per_pixel": 1.9706555972407964,
+              "background_njy_per_pixel": 3.4878112265620125,
+              "usable_pixels": 132
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.3374986871521233,
+              "without_brightest_pixel_njy_per_pixel": 2.1972160705576167,
+              "background_njy_per_pixel": 3.498902364263356,
+              "usable_pixels": 113
+            }
+          ],
+          "older_median_njy_per_pixel": 4.2948169657515285,
+          "newer_median_njy_per_pixel": 2.1725374160883115,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        },
+        {
+          "fixed_sigma_arcsec": 0.05963380307235295,
+          "fit_radius_arcsec": 0.2,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 3.870665632176652,
+              "without_brightest_pixel_njy_per_pixel": 3.3306469818295485,
+              "background_njy_per_pixel": 3.8200017190480495,
+              "usable_pixels": 103
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 3.9736140520199883,
+              "without_brightest_pixel_njy_per_pixel": 3.530665162844387,
+              "background_njy_per_pixel": 3.8800641644496965,
+              "usable_pixels": 107
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 4.079583376482771,
+              "without_brightest_pixel_njy_per_pixel": 3.670578779188983,
+              "background_njy_per_pixel": 3.7555350170128468,
+              "usable_pixels": 112
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 1.9829304828673129,
+              "without_brightest_pixel_njy_per_pixel": 1.8488303249043632,
+              "background_njy_per_pixel": 3.4574712105274834,
+              "usable_pixels": 113
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.0099469520286637,
+              "without_brightest_pixel_njy_per_pixel": 1.829323355906707,
+              "background_njy_per_pixel": 3.4249616470275637,
+              "usable_pixels": 132
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 2.1636276853375223,
+              "without_brightest_pixel_njy_per_pixel": 2.027606033614635,
+              "background_njy_per_pixel": 3.4291479980061284,
+              "usable_pixels": 113
+            }
+          ],
+          "older_median_njy_per_pixel": 3.9736140520199883,
+          "newer_median_njy_per_pixel": 2.0099469520286637,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        }
+      ]
+    },
+    "F277W": {
+      "inventory": [
+        {
+          "visit": "jw08060001001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_02101_00001_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_02101_00001_nrcblong_cal.fits",
+              "sha256": "14b5700c489324090748762b5cbd0b5e3e92024d82964b466deb1b456edf4e66",
+              "file": "jw08060001001_02101_00001_nrcblong_cal.fits",
+              "expstart_mjd": 60954.32
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_02101_00002_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_02101_00002_nrcblong_cal.fits",
+              "sha256": "4f6d16de714c3bcf282f7ae65dc01fa24de48f412ca77cf67b46974201e33ce1",
+              "file": "jw08060001001_02101_00002_nrcblong_cal.fits",
+              "expstart_mjd": 60954.336
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_02101_00003_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_02101_00003_nrcblong_cal.fits",
+              "sha256": "1924966ad67273d484e0250289aec842c25f401dca68b46ca77771d2ea46a405",
+              "file": "jw08060001001_02101_00003_nrcblong_cal.fits",
+              "expstart_mjd": 60954.355
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw08060001001_02101_00001_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 60954.3205259838,
+              "start_utc": "2025-10-06T07:41:33.445"
+            },
+            {
+              "filename": "jw08060001001_02101_00002_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 60954.337426701386,
+              "start_utc": "2025-10-06T08:05:53.667"
+            },
+            {
+              "filename": "jw08060001001_02101_00003_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 60954.354327430556,
+              "start_utc": "2025-10-06T08:30:13.890"
+            }
+          ]
+        },
+        {
+          "visit": "jw12577001001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02101_00001_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00001_nrcblong_cal.fits",
+              "sha256": "6ae4d5a6e209fe5d8112354203baee04dc05478b27667215405e087999f33afd",
+              "file": "jw12577001001_02101_00001_nrcblong_cal.fits",
+              "expstart_mjd": 61322.938
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02101_00002_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00002_nrcblong_cal.fits",
+              "sha256": "10fa8a45ce1c8af1f3318cea7a92110d822dfdbfabbb26bdac0e21f3c73c821e",
+              "file": "jw12577001001_02101_00002_nrcblong_cal.fits",
+              "expstart_mjd": 61322.953
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02101_00003_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00003_nrcblong_cal.fits",
+              "sha256": "97553f7dc9bde9f63429d40bb4df292f879856e5977847db30fc7db58e0d72ae",
+              "file": "jw12577001001_02101_00003_nrcblong_cal.fits",
+              "expstart_mjd": 61322.97
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw12577001001_02101_00001_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 61322.936545219905,
+              "start_utc": "2026-10-09T22:28:37.507"
+            },
+            {
+              "filename": "jw12577001001_02101_00002_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 61322.9534459375,
+              "start_utc": "2026-10-09T22:52:57.729"
+            },
+            {
+              "filename": "jw12577001001_02101_00003_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 61322.970345925925,
+              "start_utc": "2026-10-09T23:17:17.888"
+            }
+          ]
+        },
+        {
+          "visit": "jw12577004001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00001_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00001_nrcalong_cal.fits",
+              "sha256": "beb36c4347f5986c11f0242d9f16e1a8b051fcfeec92d6ced6b7145ada04a5c5",
+              "bytes": 117576000,
+              "file": "jw12577004001_02101_00001_nrcalong_cal.fits",
+              "expstart_mjd": 61368.76403587963
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00002_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00002_nrcalong_cal.fits",
+              "sha256": "332338bc87360a9d8efdbe0560a9ba11b6b0b8ad2b6ae9ff686717378d01eb5b",
+              "bytes": 117576000,
+              "file": "jw12577004001_02101_00002_nrcalong_cal.fits",
+              "expstart_mjd": 61368.78106030093
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00003_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00003_nrcalong_cal.fits",
+              "sha256": "a0a00be2712d64c2d9cb021b5af1983471edb72f760422ae41ee8789384c063b",
+              "bytes": 117576000,
+              "file": "jw12577004001_02101_00003_nrcalong_cal.fits",
+              "expstart_mjd": 61368.79808547454
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw12577004001_02101_00001_nrcalong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCALONG",
+              "exposure_start_mjd": 61368.76403587963,
+              "start_utc": "2026-11-24T18:20:12.700"
+            },
+            {
+              "filename": "jw12577004001_02101_00002_nrcalong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCALONG",
+              "exposure_start_mjd": 61368.78106030093,
+              "start_utc": "2026-11-24T18:44:43.610"
+            },
+            {
+              "filename": "jw12577004001_02101_00003_nrcalong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCALONG",
+              "exposure_start_mjd": 61368.79808547454,
+              "start_utc": "2026-11-24T19:09:14.585"
+            }
+          ]
+        }
+      ],
+      "native_frames": [
+        {
+          "file": "jw08060001001_02101_00001_nrcblong_cal.fits",
+          "mjd": 60954.32,
+          "usable_reference_count": 34,
+          "offset_pixels_xy": [
+            -0.0015548826870315224,
+            -0.07718938819918719
+          ],
+          "forced_center_pixels_xy": [
+            429.5080501163736,
+            101.75656550018304
+          ],
+          "reference_residual_rms_pixels": 0.35174072534037465,
+          "unmasked_peak_pixels_xy": [
+            430,
+            101
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.056856790817155986,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": 3.1786591312408445,
+              "control_median_njy": -0.3574495315551758,
+              "control_count": 45
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 22
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 51.88404083251953,
+          "clean_centroid_ra_dec": [
+            53.18867140122194,
+            -27.812552844093187
+          ],
+          "clean_centroid_offset_arcsec": 0.04797671981725828,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "zero_dq_area_fraction": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              39.69438414275646,
+              56.79262663424015,
+              63.70714594423771
+            ],
+            "calibrated_aperture_flux_njy": [
+              39.69438414275646,
+              56.79262663424015,
+              63.70714594423771
+            ]
+          }
+        },
+        {
+          "file": "jw08060001001_02101_00002_nrcblong_cal.fits",
+          "mjd": 60954.336,
+          "usable_reference_count": 36,
+          "offset_pixels_xy": [
+            -0.09390734460157546,
+            -0.170227655507027
+          ],
+          "forced_center_pixels_xy": [
+            432.8871220965893,
+            102.87833965522194
+          ],
+          "reference_residual_rms_pixels": 0.3968456152466942,
+          "unmasked_peak_pixels_xy": [
+            434,
+            102
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.08932180056138561,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": 51.479408264160156,
+              "local_mad_sigma_njy": 3.0902723178863525,
+              "control_median_njy": -1.0619659423828125,
+              "control_count": 46
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 14
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 52.513153076171875,
+          "clean_centroid_ra_dec": [
+            53.18867286018064,
+            -27.812555285011705
+          ],
+          "clean_centroid_offset_arcsec": 0.05716282415399497,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              0.9957575757575757,
+              0.9463917525773196
+            ],
+            "zero_dq_area_fraction": [
+              1.0,
+              0.9860606060606061,
+              0.9243986254295533
+            ],
+            "zero_dq_aperture_flux_njy": [
+              37.51486837863922,
+              52.89354810118675,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              37.6166632771492,
+              53.21631073951721,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              37.6166632771492,
+              53.21631073951721,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw08060001001_02101_00003_nrcblong_cal.fits",
+          "mjd": 60954.355,
+          "usable_reference_count": 38,
+          "offset_pixels_xy": [
+            -0.06051320996908771,
+            -0.10063224071734567
+          ],
+          "forced_center_pixels_xy": [
+            431.65190740287255,
+            105.13430969335388
+          ],
+          "reference_residual_rms_pixels": 0.33853558543597784,
+          "unmasked_peak_pixels_xy": [
+            432,
+            105
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.023506784615360318,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": 2.94371764383316,
+              "control_median_njy": -0.7639269828796387,
+              "control_count": 48
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 23
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18867031195694,
+            -27.81255283672416
+          ],
+          "clean_centroid_offset_arcsec": 0.047742576194318986,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              0.9050894085281981,
+              0.9228432563791008,
+              0.9560741249142073
+            ],
+            "zero_dq_area_fraction": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02101_00001_nrcblong_cal.fits",
+          "mjd": 61322.938,
+          "usable_reference_count": 34,
+          "offset_pixels_xy": [
+            -0.052708423845786,
+            -0.1448630277266698
+          ],
+          "forced_center_pixels_xy": [
+            399.8111974700829,
+            76.87049001661454
+          ],
+          "reference_residual_rms_pixels": 0.42477575258395917,
+          "unmasked_peak_pixels_xy": [
+            400,
+            77
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.0144246593913443,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": 75.01068115234375,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 29
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 9
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 75.01068115234375,
+          "clean_centroid_ra_dec": [
+            53.18866940483364,
+            -27.812549025380264
+          ],
+          "clean_centroid_offset_arcsec": 0.03419197333508126,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              0.9987775061124694,
+              0.9546547578151838
+            ],
+            "zero_dq_area_fraction": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              58.56079013645649,
+              78.68205241858959,
+              86.19460262358189
+            ],
+            "calibrated_aperture_flux_njy": [
+              58.56079013645649,
+              78.68205241858959,
+              86.19460262358189
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02101_00002_nrcblong_cal.fits",
+          "mjd": 61322.953,
+          "usable_reference_count": 32,
+          "offset_pixels_xy": [
+            -0.0830858461301176,
+            -0.0970023564000968
+          ],
+          "forced_center_pixels_xy": [
+            403.22595962206276,
+            78.18333209211328
+          ],
+          "reference_residual_rms_pixels": 0.35228593147615,
+          "unmasked_peak_pixels_xy": [
+            404,
+            78
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.05011595668917913,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": 74.56671142578125,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 35
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 10
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 74.64010620117188,
+          "clean_centroid_ra_dec": [
+            53.18866945319571,
+            -27.81255335779499
+          ],
+          "clean_centroid_offset_arcsec": 0.049561095829692765,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              0.9810860280658938,
+              0.9571917808219178
+            ],
+            "zero_dq_area_fraction": [
+              1.0,
+              0.9810860280658938,
+              0.9571917808219178
+            ],
+            "zero_dq_aperture_flux_njy": [
+              56.44567313790321,
+              77.6353817731142,
+              88.75219067931175
+            ],
+            "raw_aperture_flux_njy": [
+              56.477283507585526,
+              77.70482094585896,
+              88.87288874387741
+            ],
+            "calibrated_aperture_flux_njy": [
+              56.477283507585526,
+              77.70482094585896,
+              88.87288874387741
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02101_00003_nrcblong_cal.fits",
+          "mjd": 61322.97,
+          "usable_reference_count": 30,
+          "offset_pixels_xy": [
+            0.008154819579090145,
+            -0.1923649518526247
+          ],
+          "forced_center_pixels_xy": [
+            402.0473156949933,
+            80.27553878404929
+          ],
+          "reference_residual_rms_pixels": 0.3948361549751562,
+          "unmasked_peak_pixels_xy": [
+            403,
+            80
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.06248184049896389,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 30
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 13
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.188665128526765,
+            -27.81255034619366
+          ],
+          "clean_centroid_offset_arcsec": 0.04157815203723471,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              0.9122085048010974,
+              0.9366240097501524,
+              0.916095890410959
+            ],
+            "zero_dq_area_fraction": [
+              0.9122085048010974,
+              0.9012797074954296,
+              0.8941780821917809
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_02101_00001_nrcalong_cal.fits",
+          "mjd": 61368.76403587963,
+          "usable_reference_count": 38,
+          "offset_pixels_xy": [
+            0.2778680150750006,
+            0.017219706433650117
+          ],
+          "forced_center_pixels_xy": [
+            555.1036019623722,
+            555.7472098524643
+          ],
+          "reference_residual_rms_pixels": 0.3692674975662388,
+          "unmasked_peak_pixels_xy": [
+            555,
+            555
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.04745294901613608,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": 57.08043670654297,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 23
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": 66.87491607666016,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 5
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 57.512184143066406,
+          "clean_centroid_ra_dec": [
+            53.18867164643301,
+            -27.812552987798963
+          ],
+          "clean_centroid_offset_arcsec": 0.048842435469043086,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              1.0,
+              0.9948577305450805
+            ],
+            "zero_dq_area_fraction": [
+              1.0,
+              1.0,
+              0.9948577305450805
+            ],
+            "zero_dq_aperture_flux_njy": [
+              42.52417948842049,
+              60.422810293734074,
+              66.96328558027744
+            ],
+            "raw_aperture_flux_njy": [
+              42.564491882920265,
+              60.51421823352575,
+              67.12376098334789
+            ],
+            "calibrated_aperture_flux_njy": [
+              42.564491882920265,
+              60.51421823352575,
+              67.12376098334789
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_02101_00002_nrcalong_cal.fits",
+          "mjd": 61368.78106030093,
+          "usable_reference_count": 30,
+          "offset_pixels_xy": [
+            0.18294579536797073,
+            0.028337856336150935
+          ],
+          "forced_center_pixels_xy": [
+            558.5111589067872,
+            557.0479283720969
+          ],
+          "reference_residual_rms_pixels": 0.4202324579194499,
+          "unmasked_peak_pixels_xy": [
+            559,
+            556
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.07273958704946464,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 15
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 6
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 53.03248596191406,
+          "clean_centroid_ra_dec": [
+            53.18866813020711,
+            -27.81255473455304
+          ],
+          "clean_centroid_offset_arcsec": 0.054991824806885845,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              0.9124487004103967,
+              0.9513381995133819,
+              0.9562692176289717
+            ],
+            "zero_dq_area_fraction": [
+              0.9124487004103967,
+              0.9482968369829684,
+              0.8964810386060813
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_02101_00003_nrcalong_cal.fits",
+          "mjd": 61368.79808547454,
+          "usable_reference_count": 36,
+          "offset_pixels_xy": [
+            0.2212422876099822,
+            0.06767837914708252
+          ],
+          "forced_center_pixels_xy": [
+            557.2562449558286,
+            559.2992383848333
+          ],
+          "reference_residual_rms_pixels": 0.36102092433513483,
+          "unmasked_peak_pixels_xy": [
+            557,
+            559
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.02478213343920981,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 16
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 6
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 55.93442916870117,
+          "clean_centroid_ra_dec": [
+            53.18867276990056,
+            -27.812551606691983
+          ],
+          "clean_centroid_offset_arcsec": 0.044565382126798746,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              0.9835566382460414,
+              0.9640780020526856
+            ],
+            "zero_dq_area_fraction": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              43.63968613743782,
+              60.46583889424801,
+              68.92087630927563
+            ],
+            "calibrated_aperture_flux_njy": [
+              43.63968613743782,
+              60.46583889424801,
+              68.92087630927563
+            ]
+          }
+        }
+      ],
+      "contrasts": {
+        "rise": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 38.65552370995283,
+            "median_newer_njy": 57.51903682202101,
+            "difference_njy": 18.863513112068176,
+            "local_difference_mad_njy": 1.8649110419064758,
+            "matched_background_count": 133,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 18.866405993700027
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 16.782899364829063
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 20.94412685930729
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 18.860620230436325
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 18.863513112068176
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 55.00446868687868,
+            "median_newer_njy": 78.19343668222427,
+            "difference_njy": 23.188967995345592,
+            "local_difference_mad_njy": 2.2911633243720977,
+            "matched_background_count": 122,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 21.88942578434944
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 20.912194311618805
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 25.46574167907238
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 24.488510206341743
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 23.188967995345592
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": null,
+            "median_newer_njy": 87.53374568372965,
+            "difference_njy": null,
+            "local_difference_mad_njy": 3.605956544548273,
+            "matched_background_count": 106,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 22.487456679344177
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 25.165742799639702
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": null
+          }
+        ],
+        "november_minus_baseline": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 38.65552370995283,
+            "median_newer_njy": 43.10208901017904,
+            "difference_njy": 4.4465653002262115,
+            "local_difference_mad_njy": 1.8703667062561957,
+            "matched_background_count": 158,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 2.870107740163803
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 3.9453019946813583
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 4.947828605771065
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 6.02302286028862
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 4.4465653002262115
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 55.00446868687868,
+            "median_newer_njy": 60.49002856388688,
+            "difference_njy": 5.4855598770082,
+            "local_difference_mad_njy": 3.0956308996751902,
+            "matched_background_count": 133,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 3.7215915992856026
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 3.6732122600078583
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 7.297907494008541
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 7.249528154730797
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 5.4855598770082
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": null,
+            "median_newer_njy": 68.02231864631176,
+            "difference_njy": null,
+            "local_difference_mad_njy": 4.69601478469111,
+            "matched_background_count": 118,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 3.4166150391101837
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": 5.213730365037918
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": null
+          }
+        ],
+        "fade": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 57.51903682202101,
+            "median_newer_njy": 43.10208901017904,
+            "difference_njy": -14.416947811841965,
+            "local_difference_mad_njy": 1.4925434469111263,
+            "matched_background_count": 140,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -15.996298253536224
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -14.92110399901867
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -13.91279162466526
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -12.837597370147705
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -14.416947811841965
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 78.19343668222427,
+            "median_newer_njy": 60.49002856388688,
+            "difference_njy": -17.703408118337393,
+            "local_difference_mad_njy": 3.4517137546174226,
+            "matched_background_count": 130,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -18.16783418506384
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -18.216213524341583
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -17.190602712333202
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -17.238982051610947
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -17.703408118337393
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 87.53374568372965,
+            "median_newer_njy": 68.02231864631176,
+            "difference_njy": -19.51142703741789,
+            "local_difference_mad_njy": 4.957620760325342,
+            "matched_background_count": 119,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -19.070841640233994
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -17.27372631430626
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -21.749127760529518
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -19.952012434601784
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -19.51142703741789
+          }
+        ]
+      },
+      "calibration": {
+        "method": "pipeline_calibration",
+        "radius_arcsec": null,
+        "trial_counts": {
+          "0.24": [
+            8,
+            10,
+            8,
+            6,
+            7,
+            5,
+            6,
+            4,
+            3
+          ],
+          "0.18": [
+            7,
+            10,
+            10,
+            5,
+            7,
+            2,
+            5,
+            7,
+            4
+          ],
+          "0.12": [
+            9,
+            12,
+            10,
+            7,
+            6,
+            8,
+            9,
+            9,
+            4
+          ]
+        }
+      },
+      "fade_zero_dq_core_fits": [
+        {
+          "fixed_sigma_arcsec": 0.06014899770060375,
+          "fit_radius_arcsec": 0.23,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 10.417290131490473,
+              "without_brightest_pixel_njy_per_pixel": 9.635835483079465,
+              "background_njy_per_pixel": 9.78531475735445,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 9.906064062088609,
+              "without_brightest_pixel_njy_per_pixel": 7.672319488904371,
+              "background_njy_per_pixel": 9.864756531059264,
+              "usable_pixels": 40
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 11.51454333970213,
+              "without_brightest_pixel_njy_per_pixel": 10.167161082814472,
+              "background_njy_per_pixel": 9.605663645973536,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 7.400047057238756,
+              "without_brightest_pixel_njy_per_pixel": 6.620211835189877,
+              "background_njy_per_pixel": 8.88477684182914,
+              "usable_pixels": 41
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 7.374747564561889,
+              "without_brightest_pixel_njy_per_pixel": 6.531107721695123,
+              "background_njy_per_pixel": 8.901768177464882,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 6.865285674292753,
+              "without_brightest_pixel_njy_per_pixel": 6.029847752101276,
+              "background_njy_per_pixel": 9.11464803483336,
+              "usable_pixels": 37
+            }
+          ],
+          "older_median_njy_per_pixel": 10.417290131490473,
+          "newer_median_njy_per_pixel": 7.374747564561889,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        },
+        {
+          "fixed_sigma_arcsec": 0.07076352670659265,
+          "fit_radius_arcsec": 0.23,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 9.65900395315981,
+              "without_brightest_pixel_njy_per_pixel": 8.612008825613557,
+              "background_njy_per_pixel": 9.366733859749138,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 9.050988567413425,
+              "without_brightest_pixel_njy_per_pixel": 7.048578558362374,
+              "background_njy_per_pixel": 9.505378453933517,
+              "usable_pixels": 40
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 10.61301368451942,
+              "without_brightest_pixel_njy_per_pixel": 9.369800835940202,
+              "background_njy_per_pixel": 9.177629745547577,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 6.8719195294097055,
+              "without_brightest_pixel_njy_per_pixel": 6.148377884322872,
+              "background_njy_per_pixel": 8.595386397537915,
+              "usable_pixels": 41
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 6.648557328372768,
+              "without_brightest_pixel_njy_per_pixel": 5.901158460592961,
+              "background_njy_per_pixel": 8.627397094267632,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 6.396367730123074,
+              "without_brightest_pixel_njy_per_pixel": 5.537870996151108,
+              "background_njy_per_pixel": 8.833816611980758,
+              "usable_pixels": 37
+            }
+          ],
+          "older_median_njy_per_pixel": 9.65900395315981,
+          "newer_median_njy_per_pixel": 6.648557328372768,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        },
+        {
+          "fixed_sigma_arcsec": 0.08137805571258154,
+          "fit_radius_arcsec": 0.23,
+          "exposures": [
+            {
+              "fitted_core_amplitude_njy_per_pixel": 9.214327051155475,
+              "without_brightest_pixel_njy_per_pixel": 8.064253470185996,
+              "background_njy_per_pixel": 8.905852852332393,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 8.510975530080948,
+              "without_brightest_pixel_njy_per_pixel": 6.63514474112483,
+              "background_njy_per_pixel": 9.113734711358362,
+              "usable_pixels": 40
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 9.992972954639,
+              "without_brightest_pixel_njy_per_pixel": 8.787359527535175,
+              "background_njy_per_pixel": 8.716327708622973,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 6.564755020030866,
+              "without_brightest_pixel_njy_per_pixel": 5.855327495574767,
+              "background_njy_per_pixel": 8.269931778192202,
+              "usable_pixels": 41
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 6.2185795246045545,
+              "without_brightest_pixel_njy_per_pixel": 5.517845734145904,
+              "background_njy_per_pixel": 8.328809116965209,
+              "usable_pixels": 38
+            },
+            {
+              "fitted_core_amplitude_njy_per_pixel": 6.111316771955571,
+              "without_brightest_pixel_njy_per_pixel": 5.241988848483061,
+              "background_njy_per_pixel": 8.529271438059274,
+              "usable_pixels": 37
+            }
+          ],
+          "older_median_njy_per_pixel": 9.214327051155475,
+          "newer_median_njy_per_pixel": 6.2185795246045545,
+          "all_newer_amplitudes_above_all_older": false,
+          "all_newer_amplitudes_above_all_older_without_brightest_pixel": false,
+          "fitted_core_amplitude_njy_per_pixel_all_november_below_all_october": true,
+          "without_brightest_pixel_njy_per_pixel_all_november_below_all_october": true
+        }
+      ]
+    },
+    "F356W": {
+      "inventory": [
+        {
+          "visit": "jw08060001001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_06101_00001_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_06101_00001_nrcblong_cal.fits",
+              "sha256": "bcd1a6572e15f6866ea556fb2dc446a5a67c7b744ebc337059645d0130a865ce",
+              "file": "jw08060001001_06101_00001_nrcblong_cal.fits",
+              "expstart_mjd": 60954.43
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_06101_00002_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_06101_00002_nrcblong_cal.fits",
+              "sha256": "39141afed6396acd26f3b68970254edeae58fa2aca49e1c01f40ffe33cbd43b9",
+              "file": "jw08060001001_06101_00002_nrcblong_cal.fits",
+              "expstart_mjd": 60954.445
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw08060/jw08060001001/jw08060001001_06101_00003_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw08060001001_06101_00003_nrcblong_cal.fits",
+              "sha256": "7c328a58706c32354078955e5ac8e4dde6d6f6aa9de4d61aa2af797ee11a058b",
+              "file": "jw08060001001_06101_00003_nrcblong_cal.fits",
+              "expstart_mjd": 60954.46
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw08060001001_06101_00001_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 60954.42776957176,
+              "start_utc": "2025-10-06T10:15:59.291"
+            },
+            {
+              "filename": "jw08060001001_06101_00002_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 60954.44479400463,
+              "start_utc": "2025-10-06T10:40:30.202"
+            },
+            {
+              "filename": "jw08060001001_06101_00003_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 60954.46181917824,
+              "start_utc": "2025-10-06T11:05:01.177"
+            }
+          ]
+        },
+        {
+          "visit": "jw12577001001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00001_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00001_nrcblong_cal.fits",
+              "sha256": "7ce2577de6da7f29d2abe3fb76e368bbcf2505c93f80b9afca0019ef1ac7c8f2",
+              "file": "jw12577001001_02105_00001_nrcblong_cal.fits",
+              "expstart_mjd": 61323.043
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00002_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00002_nrcblong_cal.fits",
+              "sha256": "6fd9b2b14af13f5e84e9c8bbf5a32834c5af6cbf391c15c204befa9085c73d1e",
+              "file": "jw12577001001_02105_00002_nrcblong_cal.fits",
+              "expstart_mjd": 61323.06
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00003_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00003_nrcblong_cal.fits",
+              "sha256": "cc7a2591dbce8b34cc324a83c243da6d852e166e2f800796cd85664e6b97cfcc",
+              "file": "jw12577001001_02105_00003_nrcblong_cal.fits",
+              "expstart_mjd": 61323.08
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw12577001001_02105_00001_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 61323.042421412036,
+              "start_utc": "2026-10-10T01:01:05.210"
+            },
+            {
+              "filename": "jw12577001001_02105_00002_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 61323.05932212963,
+              "start_utc": "2026-10-10T01:25:25.432"
+            },
+            {
+              "filename": "jw12577001001_02105_00003_nrcblong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCBLONG",
+              "exposure_start_mjd": 61323.076222118056,
+              "start_utc": "2026-10-10T01:49:45.591"
+            }
+          ]
+        },
+        {
+          "visit": "jw12577004001",
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00001_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00001_nrcalong_cal.fits",
+              "sha256": "e2e2e367a62838f11c03db14f83ed5cd2bf2c839358d882dee1f48386fa2888f",
+              "bytes": 117576000,
+              "file": "jw12577004001_04101_00001_nrcalong_cal.fits",
+              "expstart_mjd": 61368.817470636575
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00002_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00002_nrcalong_cal.fits",
+              "sha256": "759ca7f2c995ffbe31b0d8a93ccf5ad58e35430e7e8d7c716ad1319f88a2d16d",
+              "bytes": 117576000,
+              "file": "jw12577004001_04101_00002_nrcalong_cal.fits",
+              "expstart_mjd": 61368.83437136574
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00003_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00003_nrcalong_cal.fits",
+              "sha256": "bf46c9d0bc70552b7d96126cf13b3dcaaad1689ab61eda89266bfd80b29afa83",
+              "bytes": 117576000,
+              "file": "jw12577004001_04101_00003_nrcalong_cal.fits",
+              "expstart_mjd": 61368.85127208333
+            }
+          ],
+          "fits_headers": [
+            {
+              "filename": "jw12577004001_04101_00001_nrcalong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCALONG",
+              "exposure_start_mjd": 61368.817470636575,
+              "start_utc": "2026-11-24T19:37:09.463"
+            },
+            {
+              "filename": "jw12577004001_04101_00002_nrcalong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCALONG",
+              "exposure_start_mjd": 61368.83437136574,
+              "start_utc": "2026-11-24T20:01:29.686"
+            },
+            {
+              "filename": "jw12577004001_04101_00003_nrcalong_cal.fits",
+              "calibration_pipeline": "3.0.0",
+              "crds_context": "jwst_1584.pmap",
+              "detector": "NRCALONG",
+              "exposure_start_mjd": 61368.85127208333,
+              "start_utc": "2026-11-24T20:25:49.908"
+            }
+          ]
+        }
+      ],
+      "native_frames": [
+        {
+          "file": "jw08060001001_06101_00001_nrcblong_cal.fits",
+          "mjd": 60954.43,
+          "usable_reference_count": 27,
+          "offset_pixels_xy": [
+            -0.004366059016717827,
+            -0.13045450095505373
+          ],
+          "forced_center_pixels_xy": [
+            429.586996807353,
+            101.6872576228396
+          ],
+          "reference_residual_rms_pixels": 0.36166887001650067,
+          "unmasked_peak_pixels_xy": [
+            430,
+            101
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.050517191226860485,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": 1.934816782093048,
+              "control_median_njy": -0.6764769554138184,
+              "control_count": 49
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 18
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 53.927486419677734,
+          "clean_centroid_ra_dec": [
+            53.188671283710306,
+            -27.81255434001891
+          ],
+          "clean_centroid_offset_arcsec": 0.05323613438590651,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              1.0,
+              0.9993153029784321
+            ],
+            "zero_dq_area_fraction": [
+              0.9058663028649386,
+              0.921808185705559,
+              0.9397466621020198
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              41.401308953762054,
+              57.64498834311962,
+              67.5223101824522
+            ],
+            "calibrated_aperture_flux_njy": [
+              41.401308953762054,
+              57.64498834311962,
+              67.5223101824522
+            ]
+          }
+        },
+        {
+          "file": "jw08060001001_06101_00002_nrcblong_cal.fits",
+          "mjd": 60954.445,
+          "usable_reference_count": 27,
+          "offset_pixels_xy": [
+            -0.04284463184779952,
+            -0.15065219755456383
+          ],
+          "forced_center_pixels_xy": [
+            433.0072992240248,
+            102.90717701153268
+          ],
+          "reference_residual_rms_pixels": 0.37549723164023263,
+          "unmasked_peak_pixels_xy": [
+            434,
+            102
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.08472654928938358,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": 51.212738037109375,
+              "local_mad_sigma_njy": 2.2524455812454223,
+              "control_median_njy": -0.21039581298828125,
+              "control_count": 49
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 15
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 50.60789489746094,
+          "clean_centroid_ra_dec": [
+            53.188672141696145,
+            -27.812554549962876
+          ],
+          "clean_centroid_offset_arcsec": 0.05425844229983634,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              0.9920876445526476,
+              0.9445205479452055
+            ],
+            "zero_dq_area_fraction": [
+              1.0,
+              0.9920876445526476,
+              0.9017123287671233
+            ],
+            "zero_dq_aperture_flux_njy": [
+              36.46084822714329,
+              55.18790999054909,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              36.34993959963322,
+              54.938900262117386,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              36.34993959963322,
+              54.938900262117386,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw08060001001_06101_00003_nrcblong_cal.fits",
+          "mjd": 60954.46,
+          "usable_reference_count": 30,
+          "offset_pixels_xy": [
+            -0.002010920336090294,
+            -0.0970112479069698
+          ],
+          "forced_center_pixels_xy": [
+            431.7784507704863,
+            105.15047202551497
+          ],
+          "reference_residual_rms_pixels": 0.321322087953237,
+          "unmasked_peak_pixels_xy": [
+            432,
+            105
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.01687358028462888,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": 2.219820494413376,
+              "control_median_njy": -1.1222035884857178,
+              "control_count": 54
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 18
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18867645750338,
+            -27.812550678236448
+          ],
+          "clean_centroid_offset_arcsec": 0.04497202852608108,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              0.8995873452544704,
+              0.9219987812309567,
+              0.9561793906196508
+            ],
+            "zero_dq_area_fraction": [
+              0.8885832187070152,
+              0.8263254113345521,
+              0.8349880178021225
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              63.7833394035697
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              63.7833394035697
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02105_00001_nrcblong_cal.fits",
+          "mjd": 61323.043,
+          "usable_reference_count": 29,
+          "offset_pixels_xy": [
+            0.005542335034135704,
+            -0.24463199595510332
+          ],
+          "forced_center_pixels_xy": [
+            399.92427515740235,
+            76.8104035224132
+          ],
+          "reference_residual_rms_pixels": 0.34871486862111545,
+          "unmasked_peak_pixels_xy": [
+            400,
+            77
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.012862847949828414,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 32
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 12
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 74.55607604980469,
+          "clean_centroid_ra_dec": [
+            53.18866956334475,
+            -27.812548103154526
+          ],
+          "clean_centroid_offset_arcsec": 0.030901678833454634,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              0.9987775061124694,
+              0.9551216169921206
+            ],
+            "zero_dq_area_fraction": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              57.35077182948589,
+              81.0331582725048,
+              93.41081577539444
+            ],
+            "calibrated_aperture_flux_njy": [
+              57.35077182948589,
+              81.0331582725048,
+              93.41081577539444
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02105_00002_nrcblong_cal.fits",
+          "mjd": 61323.06,
+          "usable_reference_count": 26,
+          "offset_pixels_xy": [
+            0.04100236305436056,
+            -0.21549434782214405
+          ],
+          "forced_center_pixels_xy": [
+            403.4178193334202,
+            78.07368801873466
+          ],
+          "reference_residual_rms_pixels": 0.3891072940534627,
+          "unmasked_peak_pixels_xy": [
+            404,
+            78
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.03697231951531584,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": 2.2171524320125577,
+              "control_median_njy": 0.05703330039978027,
+              "control_count": 46
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 14
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 65.94862365722656,
+          "clean_centroid_ra_dec": [
+            53.18867073027274,
+            -27.812553799138254
+          ],
+          "clean_centroid_offset_arcsec": 0.05117162143394538,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              0.9871794871794872,
+              0.9558219178082191
+            ],
+            "zero_dq_area_fraction": [
+              0.7240437158469946,
+              0.7234432234432234,
+              0.7267123287671233
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              52.42124854028225,
+              70.22973768413067,
+              80.35985531657934
+            ],
+            "calibrated_aperture_flux_njy": [
+              52.42124854028225,
+              70.22973768413067,
+              80.35985531657934
+            ]
+          }
+        },
+        {
+          "file": "jw12577001001_02105_00003_nrcblong_cal.fits",
+          "mjd": 61323.08,
+          "usable_reference_count": 25,
+          "offset_pixels_xy": [
+            0.10644006604093192,
+            -0.2606793399604044
+          ],
+          "forced_center_pixels_xy": [
+            402.2134822568479,
+            80.21653063534522
+          ],
+          "reference_residual_rms_pixels": 0.37993007413863866,
+          "unmasked_peak_pixels_xy": [
+            403,
+            80
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.051397296688303104,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 36
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 12
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": null,
+          "clean_centroid_ra_dec": [
+            53.18866775598801,
+            -27.812550811209043
+          ],
+          "clean_centroid_offset_arcsec": 0.04104438668209852,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              0.9120879120879121,
+              0.9390986601705238,
+              0.917723688721289
+            ],
+            "zero_dq_area_fraction": [
+              0.9120879120879121,
+              0.8611449451887941,
+              0.7946520397668838
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_04101_00001_nrcalong_cal.fits",
+          "mjd": 61368.817470636575,
+          "usable_reference_count": 28,
+          "offset_pixels_xy": [
+            0.2105931227330018,
+            0.0743483483469447
+          ],
+          "forced_center_pixels_xy": [
+            555.7936010849986,
+            555.5563942445928
+          ],
+          "reference_residual_rms_pixels": 0.3572310394728689,
+          "unmasked_peak_pixels_xy": [
+            556,
+            555
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.03733018454284107,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 39
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 11
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 52.914695739746094,
+          "clean_centroid_ra_dec": [
+            53.18866450977435,
+            -27.812554730716638
+          ],
+          "clean_centroid_offset_arcsec": 0.057250889928482054,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              1.0,
+              1.0,
+              0.9662000682826903
+            ],
+            "zero_dq_area_fraction": [
+              0.745578231292517,
+              0.702801461632156,
+              0.6835097302833731
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              41.8296672552824,
+              58.612583205103874,
+              69.80910228192806
+            ],
+            "calibrated_aperture_flux_njy": [
+              41.8296672552824,
+              58.612583205103874,
+              69.80910228192806
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_04101_00002_nrcalong_cal.fits",
+          "mjd": 61368.83437136574,
+          "usable_reference_count": 25,
+          "offset_pixels_xy": [
+            0.20416125291694698,
+            -0.02666658077862394
+          ],
+          "forced_center_pixels_xy": [
+            559.2860469531277,
+            556.7497770049537
+          ],
+          "reference_residual_rms_pixels": 0.3593468540669227,
+          "unmasked_peak_pixels_xy": [
+            559,
+            556
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.05048005890626718,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 26
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 5
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 57.18405532836914,
+          "clean_centroid_ra_dec": [
+            53.18866981049904,
+            -27.81255400296687
+          ],
+          "clean_centroid_offset_arcsec": 0.05212057216303468,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              0.9123287671232877,
+              0.9382192610539067,
+              0.9562692176289717
+            ],
+            "zero_dq_area_fraction": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "zero_dq_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "raw_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ],
+            "calibrated_aperture_flux_njy": [
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        {
+          "file": "jw12577004001_04101_00003_nrcalong_cal.fits",
+          "mjd": 61368.85127208333,
+          "usable_reference_count": 29,
+          "offset_pixels_xy": [
+            0.22271750607683316,
+            0.015793529779898563
+          ],
+          "forced_center_pixels_xy": [
+            558.0116301813908,
+            559.0036467622934
+          ],
+          "reference_residual_rms_pixels": 0.3351421673892688,
+          "unmasked_peak_pixels_xy": [
+            558,
+            558
+          ],
+          "unmasked_peak_dq": 0,
+          "unmasked_peak_distance_arcsec": 0.06313800586441946,
+          "apertures_dq_zero_only": [
+            {
+              "radius_arcsec": 0.16,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 22
+            },
+            {
+              "radius_arcsec": 0.22,
+              "flux_njy": null,
+              "local_mad_sigma_njy": null,
+              "control_median_njy": null,
+              "control_count": 8
+            }
+          ],
+          "diagnostic_flux_including_flagged_pixels_njy": 50.48524475097656,
+          "clean_centroid_ra_dec": [
+            53.18866977447059,
+            -27.812555289780395
+          ],
+          "clean_centroid_offset_arcsec": 0.056716798168437214,
+          "aperture_photometry": {
+            "aperture_gain": 1.0,
+            "reference_count": null,
+            "reference_gain_mad": null,
+            "usable_area_fraction": [
+              0.9876712328767123,
+              0.9613059250302297,
+              0.9781046869654465
+            ],
+            "zero_dq_area_fraction": [
+              0.9876712328767123,
+              0.9613059250302297,
+              0.9565514881970578
+            ],
+            "zero_dq_aperture_flux_njy": [
+              37.84133976697922,
+              51.69655245542526,
+              62.16286078095436
+            ],
+            "raw_aperture_flux_njy": [
+              38.055731043219566,
+              52.1693432033062,
+              62.61926395446062
+            ],
+            "calibrated_aperture_flux_njy": [
+              38.055731043219566,
+              52.1693432033062,
+              62.61926395446062
+            ]
+          }
+        }
+      ],
+      "contrasts": {
+        "rise": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 38.875624276697636,
+            "median_newer_njy": 54.88601018488407,
+            "difference_njy": 16.010385908186436,
+            "local_difference_mad_njy": 1.6234187806360423,
+            "matched_background_count": 139,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 15.949462875723839
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 11.019939586520195
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 21.000832229852676
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 16.071308940649033
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 16.010385908186436
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 56.291944302618504,
+            "median_newer_njy": 75.63144797831774,
+            "difference_njy": 19.339503675699234,
+            "local_difference_mad_njy": 2.7534038567125796,
+            "matched_background_count": 117,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 23.388169929385185
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 12.584749341011047
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 26.09425801038742
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 2,
+                "excess_njy": 15.290837422013283
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 19.339503675699234
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 65.65282479301095,
+            "median_newer_njy": 86.88533554598689,
+            "difference_njy": 21.23251075297594,
+            "local_difference_mad_njy": 3.99373667473644,
+            "matched_background_count": 107,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 25.888505592942238
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 2,
+                "excess_njy": 12.83754513412714
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 1,
+                "excess_njy": 29.62747637182474
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 2,
+                "excess_njy": 16.576515913009644
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 21.23251075297594
+          }
+        ],
+        "november_minus_baseline": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 38.875624276697636,
+            "median_newer_njy": 39.942699149250984,
+            "difference_njy": 1.0670748725533485,
+            "local_difference_mad_njy": 1.5456230215653777,
+            "matched_background_count": 167,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 0.4283583015203476
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -3.345577910542488
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 5.479727655649185
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": 1.7057914435863495
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 1.0670748725533485
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 56.291944302618504,
+            "median_newer_njy": 55.390963204205036,
+            "difference_njy": -0.9009810984134674,
+            "local_difference_mad_njy": 2.8065549860883503,
+            "matched_background_count": 136,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 0.9675948619842529
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -5.475645139813423
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": 3.6736829429864883
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -2.7695570588111877
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -0.9009810984134674
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 65.65282479301095,
+            "median_newer_njy": 66.21418311819434,
+            "difference_njy": 0.5613583251833916,
+            "local_difference_mad_njy": 4.420527419529855,
+            "matched_background_count": 117,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": 2.2867920994758606
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -4.903046227991581
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 1,
+                "excess_njy": 6.025762878358364
+              },
+              {
+                "older_dither": 3,
+                "newer_dither": 3,
+                "excess_njy": -1.1640754491090775
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": 0.5613583251833916
+          }
+        ],
+        "fade": [
+          {
+            "radius_arcsec": 0.12,
+            "median_older_njy": 54.88601018488407,
+            "median_newer_njy": 39.942699149250984,
+            "difference_njy": -14.943311035633087,
+            "local_difference_mad_njy": 1.4517335200566797,
+            "matched_background_count": 142,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -15.521104574203491
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -19.295040786266327
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -10.591581284999847
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -14.365517497062683
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -14.943311035633087
+          },
+          {
+            "radius_arcsec": 0.18,
+            "median_older_njy": 75.63144797831774,
+            "median_newer_njy": 55.390963204205036,
+            "difference_njy": -20.2404847741127,
+            "local_difference_mad_njy": 3.2305404383942484,
+            "matched_background_count": 133,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -22.420575067400932
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -28.86381506919861
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -11.617154479026794
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -18.06039448082447
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -20.2404847741127
+          },
+          {
+            "radius_arcsec": 0.24,
+            "median_older_njy": 86.88533554598689,
+            "median_newer_njy": 66.21418311819434,
+            "difference_njy": -20.67115242779255,
+            "local_difference_mad_njy": 4.522044754873216,
+            "matched_background_count": 118,
+            "paired_dither_differences": [
+              {
+                "older_dither": 1,
+                "newer_dither": 1,
+                "excess_njy": -23.601713493466377
+              },
+              {
+                "older_dither": 1,
+                "newer_dither": 3,
+                "excess_njy": -30.79155182093382
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 1,
+                "excess_njy": -10.55075303465128
+              },
+              {
+                "older_dither": 2,
+                "newer_dither": 3,
+                "excess_njy": -17.74059136211872
+              }
+            ],
+            "zero_dq_difference_njy": null,
+            "unscaled_difference_njy": -20.67115242779255
+          }
+        ]
+      },
+      "calibration": {
+        "method": "pipeline_calibration",
+        "radius_arcsec": null,
+        "trial_counts": {
+          "0.24": [
+            4,
+            6,
+            6,
+            3,
+            4,
+            3,
+            4,
+            4,
+            1
+          ],
+          "0.18": [
+            4,
+            7,
+            7,
+            5,
+            4,
+            2,
+            4,
+            6,
+            2
+          ],
+          "0.12": [
+            6,
+            9,
+            7,
+            5,
+            6,
+            4,
+            7,
+            8,
+            3
+          ]
+        }
+      }
+    }
+  },
+  "scope": "Calibrated native SCI pixels. Local reference positions and sky control apertures are fixed across visits. Aperture differences have no total flux or cross-detector PSF correction. Both the archived stage-3 and native analyses include the same November photons."
+}

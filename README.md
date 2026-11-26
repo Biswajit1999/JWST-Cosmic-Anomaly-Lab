@@ -49,19 +49,21 @@ with both G140M and PRISM passed the positional and redshift checks.
 The strongest response belongs to the previously published CEERS 1027.
 [Full-sample results and observed CEERS spectra](reports/jades_reionization_full.md).
 
-## Infrared rise and fade near JADES 103607 · 25 November 2026
+## Infrared rise and fade near JADES 103607 · 26 November 2026
 
 A compact infrared source near **JADES 103607** brightened in five
 JWST filters in October 2026 and largely returned to its earlier
 brightness 46 days later. In F200W, the excess fell from **35.9 ± 4.3 nJy**
 to **1.3 ± 4.0 nJy** above the October 2025 baseline. The October signal
 appears in individual detector exposures and in two data reductions.
-The fitted positions of the rise and fade agree within 9–21 mas in
-three filters. We found no earlier report of this event in the public
-records searched through 25 November. Its physical cause remains open.
+The November fade also appears on the original pixels of a different
+NIRCam module. The fitted positions of the rise and fade agree within
+9–21 mas in three filters. We found no earlier report of the event
+in the public records checked through 26 November. Its physical cause
+remains open.
 [Analysis and archive receipts](reports/jwst_module_b.md) ·
 [November photometry](results/jwst_cross_detector/module_b_001_november_photometry.json) ·
-[Individual October exposures](figures/jwst_cross_detector/module_b_001_native_epoch_flux.png) ·
+[Native detector images across three visits](figures/jwst_cross_detector/module_b_001_native_november_fade.png) ·
 [Position of the extra light](figures/jwst_cross_detector/module_b_001_excess_position.png).
 
 <img src="figures/jwst_cross_detector/module_b_001_november_photometry.png" width="810" alt="Observed JWST images of the October brightening and November fade near JADES 103607, with signed aperture photometry.">

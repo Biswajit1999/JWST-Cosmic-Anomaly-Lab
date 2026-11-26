@@ -2,7 +2,7 @@
 
 **Biswajit Jana** · Independent research
 
-Updated 25 November 2026 · DAWN JWST Archive mosaics and MAST calibrated exposures
+Updated 26 November 2026 · DAWN JWST Archive mosaics and MAST calibrated exposures
 
 ## A rise and fade at JADES 103607
 
@@ -10,14 +10,17 @@ A compact near-infrared excess near JADES 103607 at
 **RA 53.18866983°, Dec −27.81253940° (ICRS)** was bright on
 9–10 October 2026 and had largely faded by 24 November. The October
 excess is seen in five filters, in the individual NIRCam exposures,
-and in two reductions. The November images are from a separate visit.
-The positive October residual and the component that subsequently
-faded agree in position to 9–21 milliarcseconds in three filters.
-No earlier report of this event was found in the public records
-checked through 25 November 2026. The galaxy was already catalogued,
-and the physical cause of its nearby transient emission remains open.
-[November measurements and FITS receipts](../results/jwst_cross_detector/module_b_001_november_photometry.json) ·
-[Latest archive and registry check](../results/jwst_cross_detector/module_b_001_release_20261125.json).
+and in two reductions. The November visit used a different NIRCam module, and the decline
+appears on the individual calibrated detector frames in all four
+reobserved filters. The positive October residual and the component
+that subsequently faded agree in position to 9–21 milliarcseconds
+in three filters. No earlier report of the October 2026 transient
+was found in the public records checked through 26 November.
+JADES 103607 was already catalogued. The event's physical cause and
+secure host association remain open.
+[November mosaics and FITS receipts](../results/jwst_cross_detector/module_b_001_november_photometry.json) ·
+[Native November measurements](../results/jwst_cross_detector/module_b_001_native_november_fade.json) ·
+[26 November priority check](../results/jwst_cross_detector/module_b_001_priority_20261126.json).
 
 ## Search
 
@@ -322,6 +325,35 @@ and sensitivity for an extraction at the target position are unmeasured.
 [GO 4549 programme](https://www.stsci.edu/jwst-program-info/program/?program=4549) ·
 [Slitless extraction receipts](../results/jwst_cross_detector/module_b_001_archived_grism.json).
 
+#### Optical host spectroscopy
+
+A MUSE-Wide DR1 pointing covers the sky position. Its archived
+TDOSE spectrum for CANDELS 10658, 0.209″ from the brightening,
+comes from October 2015 observations. The extraction precedes
+the event and the seeing was about 1.3″. The 3D-HST master table
+also records GOODS-S 21067, 0.221″ away, with best redshift
+2.2459 from photometry and no usable grism redshift.
+[3D-HST master catalogue](https://doi.org/10.3847/0067-0049/225/2/27) ·
+[MUSE-Wide observing log](https://musewide.aip.de/dr1/candels-cdfs-26/quality_control/) ·
+[Released CANDELS 10658 spectrum](https://doi.org/10.17876/musewide/dr.1/10658).
+
+We fit signed model amplitudes for six ultraviolet line complexes
+in the released spectrum. The fits use a local linear continuum,
+a 3 Å observed FWHM for the screen, and the released uncertainties.
+Expected wavelengths are converted from vacuum to air. None of
+the 751 tested redshifts from 1.85 to 2.60 reaches both formal
+S/N thresholds of 5 and 3.5 for two distinct complexes. The highest
+single response is C III] at z = 1.918 with formal S/N 4.14.
+At that redshift the second response is 0.70. Fixed fits at each of
+the four catalogue photometric estimates give no line above S/N 2
+for the nominal width. The survey's blind emission catalogue yielded
+zero entries within 8″ of the transient position. These checks leave
+the host redshift unresolved.
+[MUSE-Wide extraction and calibration](https://doi.org/10.1051/0004-6361/201834656) ·
+[Catalogue checks and signed fits](../results/jwst_cross_detector/module_b_001_optical_host.json).
+
+![Released MUSE spectrum and line search around the candidate host photometric redshift](../figures/jwst_cross_detector/module_b_001_optical_host.png)
+
 #### Additional visits before the brightening
 
 The DAWN native-exposure footprints show two more visits to this
@@ -432,6 +464,55 @@ The table above uses pair-specific rather than joint matching.
 [Joint measurements and control samples](../results/jwst_cross_detector/module_b_001_joint_epoch_errors.json) ·
 [Matched F200W images](../figures/jwst_cross_detector/module_b_001_preprint_f200w.png) ·
 [Signed flux differences and scatter](../figures/jwst_cross_detector/module_b_001_joint_epoch_errors.png).
+
+#### Native-pixel check of the fade
+
+We measured 12 calibrated November detector exposures and the 24
+corresponding October exposures, using the released FITS files and
+the same reference positions and local sky apertures in each visit.
+The October visits place the target on NRCB4 and NRCBLONG. In
+November it falls on NRCA1 and NRCALONG. Photometry integrates the
+original detector pixels at a fixed sky position. We used local
+flux-scale references in F150W and F200W and the pipeline calibration
+in both long-wavelength bands. The uncertainties below are robust
+scatters of differences in matched sky apertures.
+[Archive products and native-pixel fits](../results/jwst_cross_detector/module_b_001_native_november_fade.json).
+
+| Filter | Nov 2026 − Oct 2026, 0.24″ (nJy) | Pairs with a decline / usable pairs |
+| --- | ---: | ---: |
+| F150W | −17.4 ± 6.4 | 6 / 6 |
+| F200W | −29.2 ± 5.6 | 9 / 9 |
+| F277W | −19.5 ± 5.0 | 4 / 4 |
+| F356W | −20.7 ± 4.5 | 4 / 4 |
+
+The decline has the same sign at all three tested aperture radii
+in all four bands. A separate fit to the zero-flag detector pixels
+in F150W, F200W and F277W puts every November core amplitude below
+every October core amplitude. This ordering persists after excluding
+the brightest pixel from each fit, and at all three tested fixed
+core widths. The differences between pairs share exposures.
+The stage-3 and native-pixel analyses share the November observation.
+The photometry uses finite apertures and leaves cross-detector
+point-spread-function differences as a source of calibration uncertainty.
+In the 2025 F277W data, too few dither apertures passed the mask to
+measure a baseline difference at 0.24″.
+
+![Native F200W images from three epochs and four-band signed flux differences](../figures/jwst_cross_detector/module_b_001_native_november_fade.png)
+
+#### Updated publication and registry search
+
+The public TNS snapshot dated 26 November 2026 at 00:00 UTC
+contains 213,849 entries. None lies within 5″ of the transient.
+We also joined all 83 published JADES Transient Survey II names to
+unique TNS positions. The nearest is AT 2022aewg at 33.75″.
+The source ID, coordinates, date, and JWST programme searches found
+no earlier public report of this October 2026 event. The published
+survey covers earlier observations and supplies a positional
+cross-check. The registry timestamp and search terms delimit the
+priority assessment.
+[JADES Transient Survey II](https://arxiv.org/abs/2607.12018) ·
+[Transient Name Server](https://www.wis-tns.org/) ·
+[Search terms, catalogue joins and receipts](../results/jwst_cross_detector/module_b_001_priority_20261126.json).
 
 ### Fading at 53.147252°, −27.790612°
 

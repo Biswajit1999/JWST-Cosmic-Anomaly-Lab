@@ -1,0 +1,306 @@
+{
+  "executed_utc": "2026-11-26T10:52:24.913394+00:00",
+  "script_sha256": "f859794fe479e2b6e574d0859fb07c95a35c7f707ec555271bddcf6f4805adca",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "target_input_sha256": "a27bbae33083bff57f0166f75bd2e27bc75aaed9d829fa476ca367bd802a9e05",
+  "prior_registry_sha256": "ffa92975dd68fcad7b32d97cdba83127ac4c35f647877f9e9951b8bbb19b7a11",
+  "tns": {
+    "url": "https://www.wis-tns.org/sites/default/files/tns_public_objects/tns_public_objects.csv.zip",
+    "path": "data/raw/cross_detector/tns_public_objects_verified_20261126.csv.zip",
+    "sha256": "e229ecb0e16a92eec888a14a217f4e6110707a188ef69075c191ebab8d5af944",
+    "snapshot_label_utc": "2026-11-26 00:00:00",
+    "catalogue_rows": 213849,
+    "radius_arcsec": 5,
+    "matches": 0,
+    "nearest": [
+      {
+        "objid": 152827,
+        "name_prefix": "AT",
+        "name": "2022aewg",
+        "ra": 53.186467,
+        "declination": -27.803368,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 33.753921957
+      },
+      {
+        "objid": 152803,
+        "name_prefix": "AT",
+        "name": "2022aevi",
+        "ra": 53.172492,
+        "declination": -27.813742,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 51.6935519314
+      },
+      {
+        "objid": 152829,
+        "name_prefix": "AT",
+        "name": "2022aewi",
+        "ra": 53.19805,
+        "declination": -27.797108,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 63.0741031684
+      }
+    ]
+  },
+  "jts_ii": {
+    "table": {
+      "path": "data/raw/metadata/jts2_2607_12018.html",
+      "url": "https://arxiv.org/html/2607.12018",
+      "sha256": "bc7ada2ff0347fc175431f6019558b8861ad6f3825cf8f306cbdcf4202090064"
+    },
+    "source_count": 83,
+    "tns_names": [
+      "2023adss",
+      "2023adst",
+      "2023adsu",
+      "2023adsv",
+      "2023adsw",
+      "2023adsx",
+      "2023adsy",
+      "2023adsz",
+      "2023adta",
+      "2023adtb",
+      "2023adtc",
+      "2023adtd",
+      "2023adte",
+      "2023adtf",
+      "2023adtg",
+      "2023adth",
+      "2023adti",
+      "2023adtj",
+      "2023adtk",
+      "2023adtl",
+      "2023adtm",
+      "2023adtn",
+      "2023adto",
+      "2023adtp",
+      "2023adtq",
+      "2023adtr",
+      "2023adts",
+      "2023adtt",
+      "2023adtu",
+      "2023adtv",
+      "2023adtw",
+      "2023adtx",
+      "2023adty",
+      "2023adtz",
+      "2023adua",
+      "2023adub",
+      "2022aevg",
+      "2022aevh",
+      "2022aevi",
+      "2022aevj",
+      "2022aevk",
+      "2022aevl",
+      "2022aevm",
+      "2022aevn",
+      "2022aevo",
+      "2022aevp",
+      "2022aevq",
+      "2022aevr",
+      "2022aevs",
+      "2022aevt",
+      "2022aevu",
+      "2022aevv",
+      "2022aevw",
+      "2022aevx",
+      "2022aevy",
+      "2022aevz",
+      "2022aewa",
+      "2022aewb",
+      "2022aewc",
+      "2022aeiu",
+      "2022aeis",
+      "2022aewd",
+      "2022aeit",
+      "2022aewe",
+      "2022aewf",
+      "2022aewg",
+      "2022aewh",
+      "2022aewi",
+      "2022aewj",
+      "2022aewk",
+      "2022aewl",
+      "2022aewm",
+      "2022aeiv",
+      "2022aewn",
+      "2022aewo",
+      "2022aewp",
+      "2022aeiw",
+      "2022aewq",
+      "2022aewr",
+      "2022aews",
+      "2022aewt",
+      "2022aewu",
+      "2022aewv"
+    ],
+    "radius_arcsec": 5.0,
+    "matches": 0,
+    "nearest": [
+      {
+        "objid": 152827,
+        "name_prefix": "AT",
+        "name": "2022aewg",
+        "ra": 53.186467,
+        "declination": -27.803368,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 33.753921957
+      },
+      {
+        "objid": 152803,
+        "name_prefix": "AT",
+        "name": "2022aevi",
+        "ra": 53.172492,
+        "declination": -27.813742,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 51.6935519314
+      },
+      {
+        "objid": 152829,
+        "name_prefix": "AT",
+        "name": "2022aewi",
+        "ra": 53.19805,
+        "declination": -27.797108,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 63.0741031684
+      },
+      {
+        "objid": 152800,
+        "name_prefix": "AT",
+        "name": "2023adub",
+        "ra": 53.176172,
+        "declination": -27.796242,
+        "type": null,
+        "discoverydate": "2023-09-28 00:00:00.000",
+        "time_received": "2024-06-06 20:43:04",
+        "separation_arcsec": 70.8949708358
+      },
+      {
+        "objid": 124056,
+        "name_prefix": "AT",
+        "name": "2022aeiv",
+        "ra": 53.176258,
+        "declination": -27.796075,
+        "type": null,
+        "discoverydate": "2022-09-29 00:00:00.000",
+        "time_received": "2023-01-26 18:05:47",
+        "separation_arcsec": 71.2410256772
+      }
+    ]
+  },
+  "prior_apt_catalogue_matches": [
+    {
+      "program": 8060,
+      "catalogue": "MPT_input",
+      "entry": {
+        "ID": 103607,
+        "RA": 53.188675,
+        "DEC": -27.812553,
+        "Redshift": 2.48,
+        "Weight": 3,
+        "[LABEL] - PriorityClass": 31,
+        "separation_arcsec": 0.0516409518,
+        "configurations": []
+      }
+    },
+    {
+      "program": 8060,
+      "catalogue": "MPT_input_v3",
+      "entry": {
+        "ID": 103607,
+        "RA": 53.188675,
+        "DEC": -27.812553,
+        "Redshift": 2.48,
+        "Weight": 3,
+        "[LABEL] - Class": "JADES",
+        "separation_arcsec": 0.0516409518,
+        "configurations": []
+      }
+    },
+    {
+      "program": 8060,
+      "catalogue": "MPT_input_P2_v0.1",
+      "entry": {
+        "ID": 103607,
+        "RA": 53.188675,
+        "DEC": -27.812553,
+        "Redshift": 2.48,
+        "Weight": 3,
+        "[LABEL] - Class": "JADES",
+        "separation_arcsec": 0.0516409518,
+        "configurations": []
+      }
+    },
+    {
+      "program": 12577,
+      "catalogue": "MPT_input",
+      "entry": {
+        "ID": 103607,
+        "RA": 53.188675,
+        "DEC": -27.812553,
+        "Redshift": 2.48,
+        "Weight": 3,
+        "[LABEL] - PriorityClass": 31,
+        "separation_arcsec": 0.0516409518,
+        "configurations": []
+      }
+    },
+    {
+      "program": 12577,
+      "catalogue": "MPT_input_v3",
+      "entry": {
+        "ID": 103607,
+        "RA": 53.188675,
+        "DEC": -27.812553,
+        "Redshift": 2.48,
+        "Weight": 3,
+        "[LABEL] - Class": "JADES",
+        "separation_arcsec": 0.0516409518,
+        "configurations": []
+      }
+    },
+    {
+      "program": 12577,
+      "catalogue": "MPT_input_P2_v0.1",
+      "entry": {
+        "ID": 103607,
+        "RA": 53.188675,
+        "DEC": -27.812553,
+        "Redshift": 2.48,
+        "Weight": 3,
+        "[LABEL] - Class": "JADES",
+        "separation_arcsec": 0.0516409518,
+        "configurations": []
+      }
+    }
+  ],
+  "public_web_search": {
+    "checked_utc_date": "2026-11-26",
+    "queries": [
+      "\"JADES 103607\" \"October 2026\" transient GOODS-S JWST paper",
+      "JADES \"103607\" galaxy redshift 53.18867 transient JWST NIRSpec",
+      "\"53.1886698\" \"27.8125394\" transient JWST JADES public TNS",
+      "\"12577\" \"transient\" JWST \"October\" \"2026\" JADES transient discovery DeCoursey Egami publication",
+      "\"October 2026\" \"GOODS-S\" transient \"JWST\" JADES 2026 observing programme 12577 transient reports",
+      "\"03:32:45.28\" \"27:48:45\" JADES transient GOODS-S ATel 2026",
+      "\"53.18867\" \"-27.81255\" JWST GOODS-S transient supernova"
+    ],
+    "outcome": "No earlier public report matching the position and October 2026 event was located in the results screened."
+  },
+  "scope": "JTS II reclassifies a pre-October 2026 sample. Its comparison checks for prior reports at the same sky position. The daily TNS catalogue has its own timestamp. Literature and catalogue coverage cannot exhaust unindexed or unpublished work."
+}

@@ -28,7 +28,7 @@ from scipy.ndimage import maximum_filter
 from search_jwst_cross_detector import window
 from vet_jwst_field_b_candidate import FIGURES, vet_mosaic
 
-from cosmic_anomaly_lab.provenance import DownloadCache, text_digest, utcnow, write_json
+from cosmic_anomaly_lab.provenance import DownloadCache, digest, text_digest, utcnow, write_json
 from cosmic_anomaly_lab.visual_evidence import save_figure
 
 CACHE_MIB = 15700
@@ -126,13 +126,18 @@ def native_alignment(product, receipt, center):
     return frames, rows
 
 
-def tns_catalogue(cache):
+def tns_catalogue(cache, snapshot_name=None):
     day = datetime.now(timezone.utc).strftime("%Y%m%d")
     url = "https://www.wis-tns.org/sites/default/files/tns_public_objects/tns_public_objects.csv.zip"
     original = cache.session.headers["User-Agent"]
     cache.session.headers["User-Agent"] = 'tns_marker{"tns_id":0,"type":"guest","name":"JWST Cosmic Anomaly Lab"}'
     try:
-        receipt = download(cache, url, f"tns_public_objects_snapshot_{day}.csv.zip", "public_tns_daily_catalogue")
+        if snapshot_name is None:
+            receipt = download(cache, url, f"tns_public_objects_snapshot_{day}.csv.zip", "public_tns_daily_catalogue")
+        else:
+            path = cache.fetch(url, "cross_detector/"+snapshot_name, survey="Transient Name Server",
+                               version="Public Objects daily catalogue", kind="public_tns_daily_catalogue")
+            receipt = dict(url=url, path=path.relative_to(ROOT).as_posix(), sha256=digest(path))
     finally:
         cache.session.headers["User-Agent"] = original
     with ZipFile(verified_path(receipt)) as archive, archive.open("tns_public_objects.csv") as stream:

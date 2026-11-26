@@ -1,7 +1,7 @@
 experiment: goods-s-nircam-module-b-epoch-search
 status: executed
 date: 2026-11-23
-last_execution: 2026-11-25
+last_execution: 2026-11-26
 prior_snapshot: 2c83389
 commands:
   - python scripts/search_jwst_module_b.py
@@ -21,6 +21,9 @@ commands:
   - python scripts/measure_jwst_brightening_november.py
   - python scripts/audit_jwst_brightening_foregrounds.py
   - python scripts/measure_jwst_brightening_joint_errors.py
+  - python scripts/measure_jwst_brightening_native_fade.py
+  - python scripts/audit_jades_103607_optical_host.py
+  - python scripts/check_jades_103607_priority.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
   newer_visits: [jw12577001001, jw12577002001]
@@ -65,4 +68,7 @@ outputs:
   - results/jwst_cross_detector/module_b_001_november_photometry.json
   - results/jwst_cross_detector/module_b_001_orientations_and_gaia.json
   - results/jwst_cross_detector/module_b_001_joint_epoch_errors.json
+  - results/jwst_cross_detector/module_b_001_native_november_fade.json
+  - results/jwst_cross_detector/module_b_001_optical_host.json
+  - results/jwst_cross_detector/module_b_001_priority_20261126.json
   - figures/jwst_cross_detector/module_b_*

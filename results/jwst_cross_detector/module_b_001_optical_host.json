@@ -1,0 +1,6776 @@
+{
+  "executed_utc": "2026-11-26T10:46:38.831967+00:00",
+  "script_sha256": "c724fbf1e890a61833f5815cca30e4b858585d2108263ef431474c9e99845ecc",
+  "target_input_sha256": "a27bbae33083bff57f0166f75bd2e27bc75aaed9d829fa476ca367bd802a9e05",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "catalogues": {
+    "three_d_hst": {
+      "product": {
+        "path": "data/raw/metadata/jades_103607_three_d_hst.tsv",
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F225%2F27%2F3dhst_sp&-c=53.18866983+-27.81253940&-c.rs=8&-out.max=100",
+        "sha256": "a9d3e90c98edc72a47ae05795d7cbe8d0c0bdd2b5612c58f82046a6e03909a99"
+      },
+      "radius_arcsec": 8,
+      "parsed_rows": 20,
+      "nearby_rows": [
+        {
+          "ID": "21067",
+          "RAJ2000": 53.18864822,
+          "DEJ2000": -27.81248093,
+          "GrismID": "                     ",
+          "Field": "goodss",
+          "JHmag": "26.7684",
+          "zspec": "         ",
+          "zS14": "  2.24590",
+          "zpk": "        ",
+          "Use": "-1",
+          "n_zbest": "3",
+          "zbest": "  2.24590",
+          "rfzbest": "  2.24600",
+          "n_rfzbest": "3",
+          "DM": " 44.99",
+          "SFR": "    3.5",
+          "LIR": " 2.6919e+10",
+          "LUV": " 2.2399e+09",
+          "z": " 2.25",
+          "logAge": " 8.30",
+          "logMass": " 8.150",
+          "Sp": "Sp",
+          "SimbadName": null,
+          "separation_arcsec": 0.2214656976
+        },
+        {
+          "ID": "21155",
+          "RAJ2000": 53.18796539,
+          "DEJ2000": -27.81228447,
+          "GrismID": "goodss-08-G141_21155 ",
+          "Field": "goodss",
+          "JHmag": "25.4473",
+          "zspec": "         ",
+          "zS14": "  0.50230",
+          "zpk": " 0.46305",
+          "Use": "-1",
+          "n_zbest": "3",
+          "zbest": "  0.50230",
+          "rfzbest": "  0.50230",
+          "n_rfzbest": "3",
+          "DM": " 41.83",
+          "SFR": "    0.2",
+          "LIR": " 1.9062e+09",
+          "LUV": " 1.1098e+08",
+          "z": " 0.50",
+          "logAge": " 9.10",
+          "logMass": " 7.890",
+          "Sp": "Sp",
+          "SimbadName": null,
+          "separation_arcsec": 2.4235288621
+        },
+        {
+          "ID": "20991",
+          "RAJ2000": 53.18931961,
+          "DEJ2000": -27.81291008,
+          "GrismID": "                     ",
+          "Field": "goodss",
+          "JHmag": "26.8714",
+          "zspec": "         ",
+          "zS14": "  0.87980",
+          "zpk": "        ",
+          "Use": "-1",
+          "n_zbest": "3",
+          "zbest": "  0.87980",
+          "rfzbest": "  0.87980",
+          "n_rfzbest": "3",
+          "DM": " 43.07",
+          "SFR": "    0.1",
+          "LIR": " 4.0861e+08",
+          "LUV": " 2.1401e+08",
+          "z": " 0.88",
+          "logAge": " 8.00",
+          "logMass": " 7.320",
+          "Sp": "Sp",
+          "SimbadName": null,
+          "separation_arcsec": 2.4619808055
+        },
+        {
+          "ID": "20980",
+          "RAJ2000": 53.18799591,
+          "DEJ2000": -27.81313515,
+          "GrismID": "goodss-08-G141_20980 ",
+          "Field": "goodss",
+          "JHmag": "25.7655",
+          "zspec": "         ",
+          "zS14": "  0.35530",
+          "zpk": " 0.35218",
+          "Use": "-1",
+          "n_zbest": "3",
+          "zbest": "  0.35530",
+          "rfzbest": "  0.35530",
+          "n_rfzbest": "3",
+          "DM": " 41.05",
+          "SFR": "    0.1",
+          "LIR": " 4.9379e+08",
+          "LUV": " 9.9600e+07",
+          "z": " 0.36",
+          "logAge": " 9.20",
+          "logMass": " 7.340",
+          "Sp": "Sp",
+          "SimbadName": null,
+          "separation_arcsec": 3.0338689749
+        },
+        {
+          "ID": "20917",
+          "RAJ2000": 53.18890381,
+          "DEJ2000": -27.81340599,
+          "GrismID": "goodss-08-G141_20917 ",
+          "Field": "goodss",
+          "JHmag": "25.9785",
+          "zspec": "         ",
+          "zS14": "  1.36550",
+          "zpk": " 1.48704",
+          "Use": "-1",
+          "n_zbest": "3",
+          "zbest": "  1.36550",
+          "rfzbest": "  1.36500",
+          "n_rfzbest": "3",
+          "DM": " 44.00",
+          "SFR": "    0.6",
+          "LIR": " 3.6017e+08",
+          "LUV": " 2.1558e+09",
+          "z": " 1.37",
+          "logAge": " 8.70",
+          "logMass": " 8.210",
+          "Sp": "Sp",
+          "SimbadName": null,
+          "separation_arcsec": 3.207437272
+        },
+        {
+          "ID": "21036",
+          "RAJ2000": 53.18761444,
+          "DEJ2000": -27.81266975,
+          "GrismID": "                     ",
+          "Field": "goodss",
+          "JHmag": "26.9254",
+          "zspec": "         ",
+          "zS14": "  1.54380",
+          "zpk": "        ",
+          "Use": "-1",
+          "n_zbest": "3",
+          "zbest": "  1.54380",
+          "rfzbest": "  1.54400",
+          "n_rfzbest": "3",
+          "DM": " 44.25",
+          "SFR": "    4.8",
+          "LIR": " 4.0675e+10",
+          "LUV": " 1.6144e+09",
+          "z": " 1.54",
+          "logAge": " 8.10",
+          "logMass": " 7.990",
+          "Sp": "Sp",
+          "SimbadName": null,
+          "separation_arcsec": 3.3931042611
+        }
+      ]
+    },
+    "muse_photometric": {
+      "product": {
+        "path": "data/raw/metadata/jades_103607_muse_photometric.tsv",
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F624%2FA141%2Fphotcat&-c=53.18866983+-27.81253940&-c.rs=8&-out.max=100",
+        "sha256": "11988377ad78e74b4854e8012b986e75fd6e6ee6dd47869696e7807bc5ab5ebb"
+      },
+      "radius_arcsec": 8,
+      "parsed_rows": 19,
+      "nearby_rows": [
+        {
+          "GuoId": "10658",
+          "RAJ2000": 53.1886538,
+          "DEJ2000": -27.8124831,
+          "Field": "candels-cdfs-26",
+          "F435Wmag": "27.34",
+          "F606Wmag": "27.00",
+          "F775Wmag": "27.48",
+          "F814Wmag": "27.13",
+          "F850LPmag": "27.13",
+          "F105Wmag": "27.01",
+          "F125Wmag": "26.92",
+          "F160Wmag": "26.45",
+          "Em-cp": "         ",
+          "Em-sep": null,
+          "separation_arcsec": 0.2090201638
+        },
+        {
+          "GuoId": "10695",
+          "RAJ2000": 53.1879705,
+          "DEJ2000": -27.8122916,
+          "Field": "candels-cdfs-26",
+          "F435Wmag": "27.16",
+          "F606Wmag": "26.37",
+          "F775Wmag": "25.86",
+          "F814Wmag": "25.79",
+          "F850LPmag": "25.68",
+          "F105Wmag": "25.54",
+          "F125Wmag": "25.40",
+          "F160Wmag": "25.35",
+          "Em-cp": "         ",
+          "Em-sep": null,
+          "separation_arcsec": 2.3988140768
+        },
+        {
+          "GuoId": "10613",
+          "RAJ2000": 53.1893166,
+          "DEJ2000": -27.8129183,
+          "Field": "candels-cdfs-26",
+          "F435Wmag": "27.72",
+          "F606Wmag": "27.32",
+          "F775Wmag": "26.85",
+          "F814Wmag": "26.92",
+          "F850LPmag": "26.68",
+          "F105Wmag": "26.81",
+          "F125Wmag": "26.82",
+          "F160Wmag": "26.86",
+          "Em-cp": "         ",
+          "Em-sep": null,
+          "separation_arcsec": 2.4701488447
+        },
+        {
+          "GuoId": "10597",
+          "RAJ2000": 53.1880036,
+          "DEJ2000": -27.8131426,
+          "Field": "candels-cdfs-26",
+          "F435Wmag": "26.73",
+          "F606Wmag": "26.11",
+          "F775Wmag": "25.89",
+          "F814Wmag": "25.95",
+          "F850LPmag": "25.84",
+          "F105Wmag": "25.83",
+          "F125Wmag": "25.81",
+          "F160Wmag": "25.76",
+          "Em-cp": "         ",
+          "Em-sep": null,
+          "separation_arcsec": 3.0357264139
+        },
+        {
+          "GuoId": "10570",
+          "RAJ2000": 53.1889124,
+          "DEJ2000": -27.8134106,
+          "Field": "candels-cdfs-26",
+          "F435Wmag": "26.18",
+          "F606Wmag": "26.26",
+          "F775Wmag": "26.44",
+          "F814Wmag": "26.54",
+          "F850LPmag": "26.53",
+          "F105Wmag": "26.52",
+          "F125Wmag": "26.41",
+          "F160Wmag": "25.55",
+          "Em-cp": "         ",
+          "Em-sep": null,
+          "separation_arcsec": 3.2300125622
+        },
+        {
+          "GuoId": "10581",
+          "RAJ2000": 53.1877217,
+          "DEJ2000": -27.8132082,
+          "Field": "candels-cdfs-26",
+          "F435Wmag": "27.65",
+          "F606Wmag": "27.68",
+          "F775Wmag": "27.51",
+          "F814Wmag": "27.29",
+          "F850LPmag": "27.08",
+          "F105Wmag": "26.70",
+          "F125Wmag": "26.80",
+          "F160Wmag": "26.66",
+          "Em-cp": "         ",
+          "Em-sep": null,
+          "separation_arcsec": 3.8614785684
+        }
+      ]
+    },
+    "muse_emission": {
+      "product": {
+        "path": "data/raw/metadata/jades_103607_muse_emission.tsv",
+        "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F624%2FA141%2Femobj&-c=53.18866983+-27.81253940&-c.rs=8&-out.max=100",
+        "sha256": "44939b4d4a28d15da88700f334b2836b20471ecea2eb5a9155c34ed8716cefcf"
+      },
+      "radius_arcsec": 8,
+      "parsed_rows": 0,
+      "nearby_rows": []
+    }
+  },
+  "spectrum": {
+    "path": "data/raw/spectra/musewide_10658.fits",
+    "url": "https://musewide.aip.de/files/dr1/photometric_catalog_spectra/candels-cdfs-26/tdose_spectrum_candels-cdfs-26_10658.fits",
+    "sha256": "58a7e085c575e36981759afc02cada77e7fee5e1874b7437b9a6d8e8f7f976bd"
+  },
+  "spectrum_listing": {
+    "path": "data/raw/metadata/musewide_10658.html",
+    "url": "https://musewide.aip.de/dr1/photometric_catalog/10658/",
+    "sha256": "8d7973c83734b180d4fbe6f30ca61cf0abb505dc1f09ebf5ec8e057a5fe0daa4"
+  },
+  "fits_units": {
+    "wave": "ANGSTROMS",
+    "flux": null,
+    "fluxerror": null
+  },
+  "wavelength_range_air_a": [
+    4750.1083984375,
+    9351.3583984375
+  ],
+  "rest_vacuum_lines_a": {
+    "C IV": [
+      1548.2,
+      1550.77
+    ],
+    "He II": [
+      1640.42
+    ],
+    "O III]": [
+      1660.81,
+      1666.15
+    ],
+    "C III]": [
+      1906.68,
+      1908.73
+    ],
+    "C II]": [
+      2326.0
+    ],
+    "Mg II": [
+      2796.35,
+      2803.53
+    ]
+  },
+  "sigma_a": [
+    1.25,
+    2.1
+  ],
+  "local_continuum_window_padding_air_a": 15,
+  "template_minimum_coverage": 0.98,
+  "fixed_photometric_redshift_fits": {
+    "2.2459": {
+      "C IV": [
+        {
+          "centre_air_a": 5028.07104833671,
+          "sigma_a": 1.25,
+          "flux_native_integral": 489.37601056006963,
+          "error_native_integral": 467.32131614825164,
+          "signed_snr": 1.0471938549552946,
+          "used_bins": 30
+        },
+        {
+          "centre_air_a": 5028.07104833671,
+          "sigma_a": 2.1,
+          "flux_native_integral": 637.1087661104099,
+          "error_native_integral": 659.1601829349656,
+          "signed_snr": 0.9665461940884081,
+          "used_bins": 30
+        }
+      ],
+      "He II": [
+        {
+          "centre_air_a": 5323.158384552781,
+          "sigma_a": 1.25,
+          "flux_native_integral": 31.75532311835685,
+          "error_native_integral": 279.9117207581877,
+          "signed_snr": 0.11344763639172467,
+          "used_bins": 24
+        },
+        {
+          "centre_air_a": 5323.158384552781,
+          "sigma_a": 2.1,
+          "flux_native_integral": -226.0893968057733,
+          "error_native_integral": 380.95225795945714,
+          "signed_snr": -0.5934848582255545,
+          "used_bins": 24
+        }
+      ],
+      "O III]": [
+        {
+          "centre_air_a": 5397.988875879773,
+          "sigma_a": 1.25,
+          "flux_native_integral": -93.47515420015218,
+          "error_native_integral": 384.0575662261018,
+          "signed_snr": -0.24338839387718667,
+          "used_bins": 38
+        },
+        {
+          "centre_air_a": 5397.988875879773,
+          "sigma_a": 2.1,
+          "flux_native_integral": -195.21176668282794,
+          "error_native_integral": 534.6989069478618,
+          "signed_snr": -0.3650872746254986,
+          "used_bins": 38
+        }
+      ],
+      "C III]": [
+        {
+          "centre_air_a": 6190.506682580688,
+          "sigma_a": 1.25,
+          "flux_native_integral": 361.8717892145091,
+          "error_native_integral": 318.2676724778287,
+          "signed_snr": 1.1370045421113826,
+          "used_bins": 29
+        },
+        {
+          "centre_air_a": 6190.506682580688,
+          "sigma_a": 2.1,
+          "flux_native_integral": 391.47456701564533,
+          "error_native_integral": 430.53948195136786,
+          "signed_snr": 0.909265197331809,
+          "used_bins": 29
+        }
+      ],
+      "C II]": [
+        {
+          "centre_air_a": 7547.885086151,
+          "sigma_a": 1.25,
+          "flux_native_integral": 93.2562859504177,
+          "error_native_integral": 158.8987660467086,
+          "signed_snr": 0.5868911903507472,
+          "used_bins": 24
+        },
+        {
+          "centre_air_a": 7547.885086151,
+          "sigma_a": 2.1,
+          "flux_native_integral": 138.21749678207348,
+          "error_native_integral": 218.26426261098092,
+          "signed_snr": 0.633257571022622,
+          "used_bins": 24
+        }
+      ],
+      "Mg II": [
+        {
+          "centre_air_a": 9085.831227667393,
+          "sigma_a": 1.25,
+          "flux_native_integral": -421.7034484839787,
+          "error_native_integral": 317.70845742263225,
+          "signed_snr": -1.3273283686087303,
+          "used_bins": 42
+        },
+        {
+          "centre_air_a": 9085.831227667393,
+          "sigma_a": 2.1,
+          "flux_native_integral": -629.2099321850541,
+          "error_native_integral": 440.5084685267118,
+          "signed_snr": -1.4283719318483423,
+          "used_bins": 42
+        }
+      ]
+    },
+    "2.263": {
+      "C IV": [
+        {
+          "centre_air_a": 5054.560197762992,
+          "sigma_a": 1.25,
+          "flux_native_integral": -301.85697605840426,
+          "error_native_integral": 459.34002054190404,
+          "signed_snr": -0.6571536608159899,
+          "used_bins": 30
+        },
+        {
+          "centre_air_a": 5054.560197762992,
+          "sigma_a": 2.1,
+          "flux_native_integral": -202.496598028229,
+          "error_native_integral": 649.311759040069,
+          "signed_snr": -0.31186343880110284,
+          "used_bins": 30
+        }
+      ],
+      "He II": [
+        {
+          "centre_air_a": 5351.202086885731,
+          "sigma_a": 1.25,
+          "flux_native_integral": 243.00832444734962,
+          "error_native_integral": 275.73003868397984,
+          "signed_snr": 0.8813269878290871,
+          "used_bins": 24
+        },
+        {
+          "centre_air_a": 5351.202086885731,
+          "sigma_a": 2.1,
+          "flux_native_integral": 224.88800027145493,
+          "error_native_integral": 374.79938666244755,
+          "signed_snr": 0.6000223273417306,
+          "used_bins": 24
+        }
+      ],
+      "O III]": [
+        {
+          "centre_air_a": 5426.426794012145,
+          "sigma_a": 1.25,
+          "flux_native_integral": 235.62903446802275,
+          "error_native_integral": 384.41807174500434,
+          "signed_snr": 0.6129499411888272,
+          "used_bins": 38
+        },
+        {
+          "centre_air_a": 5426.426794012145,
+          "sigma_a": 2.1,
+          "flux_native_integral": 330.70145941542194,
+          "error_native_integral": 533.641906049253,
+          "signed_snr": 0.6197066903229664,
+          "used_bins": 38
+        }
+      ],
+      "C III]": [
+        {
+          "centre_air_a": 6223.119686011338,
+          "sigma_a": 1.25,
+          "flux_native_integral": 376.7136569553494,
+          "error_native_integral": 318.30743839089416,
+          "signed_snr": 1.1834899581979925,
+          "used_bins": 30
+        },
+        {
+          "centre_air_a": 6223.119686011338,
+          "sigma_a": 2.1,
+          "flux_native_integral": 640.8413039293624,
+          "error_native_integral": 441.5623215242088,
+          "signed_snr": 1.4513043180796577,
+          "used_bins": 30
+        }
+      ],
+      "C II]": [
+        {
+          "centre_air_a": 7587.648957064021,
+          "sigma_a": 1.25,
+          "flux_native_integral": -118.50985795641105,
+          "error_native_integral": 229.92573165249306,
+          "signed_snr": -0.5154266862811397,
+          "used_bins": 24
+        },
+        {
+          "centre_air_a": 7587.648957064021,
+          "sigma_a": 2.1,
+          "flux_native_integral": -129.73483407137746,
+          "error_native_integral": 312.54999683865054,
+          "signed_snr": -0.4150850596180016,
+          "used_bins": 24
+        }
+      ],
+      "Mg II": [
+        {
+          "centre_air_a": 9133.697243609487,
+          "sigma_a": 1.25,
+          "flux_native_integral": -180.14360145770567,
+          "error_native_integral": 314.52235883499924,
+          "signed_snr": -0.5727529264531884,
+          "used_bins": 43
+        },
+        {
+          "centre_air_a": 9133.697243609487,
+          "sigma_a": 2.1,
+          "flux_native_integral": -131.08219070265918,
+          "error_native_integral": 433.6565588641454,
+          "signed_snr": -0.3022718970191437,
+          "used_bins": 43
+        }
+      ]
+    },
+    "2.47": {
+      "C IV": [
+        {
+          "centre_air_a": 5375.218169915138,
+          "sigma_a": 1.25,
+          "flux_native_integral": 129.35235080201994,
+          "error_native_integral": 401.95180277140105,
+          "signed_snr": 0.321810599952914,
+          "used_bins": 31
+        },
+        {
+          "centre_air_a": 5375.218169915138,
+          "sigma_a": 2.1,
+          "flux_native_integral": -179.23974085935197,
+          "error_native_integral": 569.0461644040105,
+          "signed_snr": -0.31498277656801077,
+          "used_bins": 31
+        }
+      ],
+      "He II": [
+        {
+          "centre_air_a": 5690.6783426806915,
+          "sigma_a": 1.25,
+          "flux_native_integral": -178.21585402081894,
+          "error_native_integral": 266.2519062695007,
+          "signed_snr": -0.6693505279185814,
+          "used_bins": 24
+        },
+        {
+          "centre_air_a": 5690.6783426806915,
+          "sigma_a": 2.1,
+          "flux_native_integral": -247.92321691692464,
+          "error_native_integral": 361.93566014097746,
+          "signed_snr": -0.6849925117087279,
+          "used_bins": 24
+        }
+      ],
+      "O III]": [
+        {
+          "centre_air_a": 5770.675138450142,
+          "sigma_a": 1.25,
+          "flux_native_integral": -0.0705754863871988,
+          "error_native_integral": 374.9236076901191,
+          "signed_snr": -0.00018823964386241226,
+          "used_bins": 38
+        },
+        {
+          "centre_air_a": 5770.675138450142,
+          "sigma_a": 2.1,
+          "flux_native_integral": -67.40412680893431,
+          "error_native_integral": 521.5738675260882,
+          "signed_snr": -0.12923217784787286,
+          "used_bins": 38
+        }
+      ],
+      "C III]": [
+        {
+          "centre_air_a": 6617.908559381457,
+          "sigma_a": 1.25,
+          "flux_native_integral": -52.266069700808345,
+          "error_native_integral": 250.59566632190501,
+          "signed_snr": -0.20856733265957392,
+          "used_bins": 30
+        },
+        {
+          "centre_air_a": 6617.908559381457,
+          "sigma_a": 2.1,
+          "flux_native_integral": 5.98893049078162,
+          "error_native_integral": 347.4013691794947,
+          "signed_snr": 0.01723922535172068,
+          "used_bins": 30
+        }
+      ],
+      "C II]": [
+        {
+          "centre_air_a": 8069.000987914637,
+          "sigma_a": 1.25,
+          "flux_native_integral": 5.635991823329231,
+          "error_native_integral": 177.6961349507139,
+          "signed_snr": 0.03171701975899723,
+          "used_bins": 24
+        },
+        {
+          "centre_air_a": 8069.000987914637,
+          "sigma_a": 2.1,
+          "flux_native_integral": 42.509039535043605,
+          "error_native_integral": 243.80864653698112,
+          "signed_snr": 0.17435410982684652,
+          "used_bins": 24
+        }
+      ],
+      "Mg II": [
+        null,
+        null
+      ]
+    },
+    "2.4858": {
+      "C IV": [
+        {
+          "centre_air_a": 5399.693502044939,
+          "sigma_a": 1.25,
+          "flux_native_integral": 783.3701201613967,
+          "error_native_integral": 393.48092317151344,
+          "signed_snr": 1.990871917874238,
+          "used_bins": 31
+        },
+        {
+          "centre_air_a": 5399.693502044939,
+          "sigma_a": 2.1,
+          "flux_native_integral": 836.3267258553643,
+          "error_native_integral": 558.1580191098942,
+          "signed_snr": 1.4983690948113069,
+          "used_bins": 31
+        }
+      ],
+      "He II": [
+        {
+          "centre_air_a": 5716.59004702114,
+          "sigma_a": 1.25,
+          "flux_native_integral": -157.73790823000485,
+          "error_native_integral": 263.9610091619189,
+          "signed_snr": -0.5975803348033318,
+          "used_bins": 24
+        },
+        {
+          "centre_air_a": 5716.59004702114,
+          "sigma_a": 2.1,
+          "flux_native_integral": -249.79316329281204,
+          "error_native_integral": 359.6209636159539,
+          "signed_snr": -0.6946012289749909,
+          "used_bins": 24
+        }
+      ],
+      "O III]": [
+        {
+          "centre_air_a": 5796.951089353399,
+          "sigma_a": 1.25,
+          "flux_native_integral": 139.70071212670962,
+          "error_native_integral": 372.12039286776337,
+          "signed_snr": 0.3754180496534992,
+          "used_bins": 38
+        },
+        {
+          "centre_air_a": 5796.951089353399,
+          "sigma_a": 2.1,
+          "flux_native_integral": 148.9718545731669,
+          "error_native_integral": 518.3129509151894,
+          "signed_snr": 0.2874168093043519,
+          "used_bins": 38
+        }
+      ],
+      "C III]": [
+        {
+          "centre_air_a": 6648.04219474292,
+          "sigma_a": 1.25,
+          "flux_native_integral": -129.59662436217883,
+          "error_native_integral": 247.2458381736432,
+          "signed_snr": -0.52416099425367,
+          "used_bins": 30
+        },
+        {
+          "centre_air_a": 6648.04219474292,
+          "sigma_a": 2.1,
+          "flux_native_integral": 20.90086935244061,
+          "error_native_integral": 340.22304254124924,
+          "signed_snr": 0.06143284474891659,
+          "used_bins": 30
+        }
+      ],
+      "C II]": [
+        {
+          "centre_air_a": 8105.741861179268,
+          "sigma_a": 1.25,
+          "flux_native_integral": -291.4380822615361,
+          "error_native_integral": 195.08661161642803,
+          "signed_snr": -1.493890738307305,
+          "used_bins": 24
+        },
+        {
+          "centre_air_a": 8105.741861179268,
+          "sigma_a": 2.1,
+          "flux_native_integral": -335.01348551722117,
+          "error_native_integral": 269.19943310712813,
+          "signed_snr": -1.2444806500907537,
+          "used_bins": 24
+        }
+      ],
+      "Mg II": [
+        null,
+        null
+      ]
+    }
+  },
+  "screen_hits": [],
+  "screen_rows": [
+    {
+      "z": 1.85,
+      "usable_complexes": 3,
+      "max_snr": 0.7837902268168804,
+      "max_ion": "C II]",
+      "second_snr": -0.21160453068902613,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.851,
+      "usable_complexes": 3,
+      "max_snr": 0.34667075514062007,
+      "max_ion": "Mg II",
+      "second_snr": 0.27969730733011944,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.852,
+      "usable_complexes": 3,
+      "max_snr": 0.2859638689320886,
+      "max_ion": "C III]",
+      "second_snr": -0.3563334505478799,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.853,
+      "usable_complexes": 3,
+      "max_snr": 0.6203349149549041,
+      "max_ion": "C III]",
+      "second_snr": 0.3916584331110466,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.854,
+      "usable_complexes": 3,
+      "max_snr": 0.625634055877895,
+      "max_ion": "Mg II",
+      "second_snr": 0.28520503695405536,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.855,
+      "usable_complexes": 3,
+      "max_snr": 0.5708859332043813,
+      "max_ion": "Mg II",
+      "second_snr": 0.2320847019969044,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.856,
+      "usable_complexes": 3,
+      "max_snr": 0.48719560483957314,
+      "max_ion": "C III]",
+      "second_snr": -0.33584569272244175,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.857,
+      "usable_complexes": 3,
+      "max_snr": 0.7813732441848625,
+      "max_ion": "C III]",
+      "second_snr": -1.3781771362555684,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.858,
+      "usable_complexes": 3,
+      "max_snr": 0.7644302251240469,
+      "max_ion": "Mg II",
+      "second_snr": -0.46959189570427695,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.859,
+      "usable_complexes": 3,
+      "max_snr": 1.5248249894247374,
+      "max_ion": "Mg II",
+      "second_snr": 0.8151983428904961,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.86,
+      "usable_complexes": 3,
+      "max_snr": 1.4760578458851057,
+      "max_ion": "Mg II",
+      "second_snr": 0.7077112620023877,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.861,
+      "usable_complexes": 3,
+      "max_snr": 1.294158469394376,
+      "max_ion": "C II]",
+      "second_snr": -0.12687532204737278,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.862,
+      "usable_complexes": 3,
+      "max_snr": 0.7573874834709317,
+      "max_ion": "C II]",
+      "second_snr": 0.2331810722625594,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.863,
+      "usable_complexes": 3,
+      "max_snr": 0.24862147164312462,
+      "max_ion": "Mg II",
+      "second_snr": -0.7167719105424992,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.864,
+      "usable_complexes": 3,
+      "max_snr": -0.1324402690647699,
+      "max_ion": "C III]",
+      "second_snr": -0.8593967614194126,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.865,
+      "usable_complexes": 3,
+      "max_snr": 0.1639195830127462,
+      "max_ion": "C III]",
+      "second_snr": -0.34287980326590106,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.866,
+      "usable_complexes": 3,
+      "max_snr": 0.39511632556112736,
+      "max_ion": "C III]",
+      "second_snr": -0.3509175526111028,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.867,
+      "usable_complexes": 3,
+      "max_snr": 1.1136485054696739,
+      "max_ion": "C III]",
+      "second_snr": 1.101739147271555,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.868,
+      "usable_complexes": 3,
+      "max_snr": 0.6112459305334912,
+      "max_ion": "C III]",
+      "second_snr": 0.25540530245161863,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.869,
+      "usable_complexes": 3,
+      "max_snr": 0.5482664121594713,
+      "max_ion": "C II]",
+      "second_snr": 0.13022779103837154,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.87,
+      "usable_complexes": 4,
+      "max_snr": 1.758846603954519,
+      "max_ion": "Mg II",
+      "second_snr": 0.7139589289690318,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.871,
+      "usable_complexes": 4,
+      "max_snr": 0.30755858874865816,
+      "max_ion": "O III]",
+      "second_snr": 0.29417100355826287,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.872,
+      "usable_complexes": 4,
+      "max_snr": 1.1510133098285973,
+      "max_ion": "Mg II",
+      "second_snr": -0.20533403777829523,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.873,
+      "usable_complexes": 4,
+      "max_snr": -0.03225736500752343,
+      "max_ion": "C II]",
+      "second_snr": -0.7795225765711636,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.874,
+      "usable_complexes": 4,
+      "max_snr": -0.18173680632152797,
+      "max_ion": "O III]",
+      "second_snr": -0.4164107415737518,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.875,
+      "usable_complexes": 4,
+      "max_snr": 0.8230235301070695,
+      "max_ion": "C III]",
+      "second_snr": 0.27584751325103624,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.876,
+      "usable_complexes": 4,
+      "max_snr": 2.0337640165714843,
+      "max_ion": "C II]",
+      "second_snr": -0.11043060870214724,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.877,
+      "usable_complexes": 4,
+      "max_snr": 1.1652235907487654,
+      "max_ion": "Mg II",
+      "second_snr": 0.9787464477526218,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.878,
+      "usable_complexes": 4,
+      "max_snr": 1.8349759992148618,
+      "max_ion": "C III]",
+      "second_snr": 1.4023268398680502,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.879,
+      "usable_complexes": 4,
+      "max_snr": 2.7132483871804496,
+      "max_ion": "C III]",
+      "second_snr": 1.2079998087755828,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.88,
+      "usable_complexes": 4,
+      "max_snr": 0.5319993004307167,
+      "max_ion": "C II]",
+      "second_snr": 0.47515438824706335,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.881,
+      "usable_complexes": 4,
+      "max_snr": 0.7721534390790483,
+      "max_ion": "C III]",
+      "second_snr": 0.27235275642550033,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.882,
+      "usable_complexes": 4,
+      "max_snr": 2.2764069322340306,
+      "max_ion": "C III]",
+      "second_snr": 0.9226449360759449,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.883,
+      "usable_complexes": 4,
+      "max_snr": 1.045093898420216,
+      "max_ion": "O III]",
+      "second_snr": 0.6612253643038303,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.884,
+      "usable_complexes": 4,
+      "max_snr": 0.21542108971233206,
+      "max_ion": "Mg II",
+      "second_snr": 0.06855875787294055,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.885,
+      "usable_complexes": 4,
+      "max_snr": 1.143356264855757,
+      "max_ion": "Mg II",
+      "second_snr": 0.34788774080249757,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.886,
+      "usable_complexes": 4,
+      "max_snr": 1.1931252786428592,
+      "max_ion": "Mg II",
+      "second_snr": -0.11287185774994708,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.887,
+      "usable_complexes": 4,
+      "max_snr": 0.5769228596014945,
+      "max_ion": "C II]",
+      "second_snr": -0.5318040161862155,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.888,
+      "usable_complexes": 4,
+      "max_snr": 0.2498850304193234,
+      "max_ion": "O III]",
+      "second_snr": -0.09695434358749244,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.889,
+      "usable_complexes": 4,
+      "max_snr": 0.0024830298079110617,
+      "max_ion": "O III]",
+      "second_snr": -0.7696797339572569,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.89,
+      "usable_complexes": 4,
+      "max_snr": 0.2001962266191711,
+      "max_ion": "Mg II",
+      "second_snr": -0.22324331810134193,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.891,
+      "usable_complexes": 4,
+      "max_snr": 1.4251674152060236,
+      "max_ion": "C III]",
+      "second_snr": 0.702639383551901,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.892,
+      "usable_complexes": 4,
+      "max_snr": 1.2330491061982485,
+      "max_ion": "O III]",
+      "second_snr": 1.2032534541203286,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.893,
+      "usable_complexes": 4,
+      "max_snr": 1.0165206381758936,
+      "max_ion": "C II]",
+      "second_snr": 0.51763134943703,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.894,
+      "usable_complexes": 4,
+      "max_snr": 2.1904710429139826,
+      "max_ion": "Mg II",
+      "second_snr": 1.3640257146925294,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.895,
+      "usable_complexes": 4,
+      "max_snr": -0.38646597556809315,
+      "max_ion": "C II]",
+      "second_snr": -0.45089621209280173,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.896,
+      "usable_complexes": 4,
+      "max_snr": 1.1658291431596361,
+      "max_ion": "C II]",
+      "second_snr": 0.47874422333524635,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.897,
+      "usable_complexes": 4,
+      "max_snr": 0.9407887802860552,
+      "max_ion": "O III]",
+      "second_snr": 0.7578723290282643,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.898,
+      "usable_complexes": 4,
+      "max_snr": 0.9802564336043191,
+      "max_ion": "O III]",
+      "second_snr": 0.4497612104254376,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.899,
+      "usable_complexes": 4,
+      "max_snr": 0.05238860602278604,
+      "max_ion": "C III]",
+      "second_snr": -0.4908728357889992,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.9,
+      "usable_complexes": 4,
+      "max_snr": 0.9853091708034888,
+      "max_ion": "C III]",
+      "second_snr": -1.0541854137264748,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.901,
+      "usable_complexes": 4,
+      "max_snr": 1.1913780508397083,
+      "max_ion": "Mg II",
+      "second_snr": 0.5152598822587413,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.902,
+      "usable_complexes": 4,
+      "max_snr": 1.2805792867443149,
+      "max_ion": "Mg II",
+      "second_snr": 1.0931180381057781,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.903,
+      "usable_complexes": 4,
+      "max_snr": 1.3913869350159027,
+      "max_ion": "C II]",
+      "second_snr": 1.2910764492131221,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.904,
+      "usable_complexes": 4,
+      "max_snr": 0.7019666554617315,
+      "max_ion": "C II]",
+      "second_snr": -0.15910980239382094,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.905,
+      "usable_complexes": 4,
+      "max_snr": -0.08159150702477337,
+      "max_ion": "C III]",
+      "second_snr": -0.08903868989995065,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.906,
+      "usable_complexes": 5,
+      "max_snr": 0.10586797630981964,
+      "max_ion": "Mg II",
+      "second_snr": 0.10164971615570649,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.907,
+      "usable_complexes": 5,
+      "max_snr": 0.9457968729131342,
+      "max_ion": "C II]",
+      "second_snr": 0.48769662940875713,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.908,
+      "usable_complexes": 5,
+      "max_snr": 0.5412436940922689,
+      "max_ion": "O III]",
+      "second_snr": -0.20591480693386774,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.909,
+      "usable_complexes": 5,
+      "max_snr": 1.505505955104991,
+      "max_ion": "C II]",
+      "second_snr": -0.17415206064792912,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.91,
+      "usable_complexes": 5,
+      "max_snr": 1.3125449347004396,
+      "max_ion": "C II]",
+      "second_snr": 1.0543758395702931,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.911,
+      "usable_complexes": 5,
+      "max_snr": 0.9006384486247272,
+      "max_ion": "O III]",
+      "second_snr": 0.4182969528263792,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.912,
+      "usable_complexes": 5,
+      "max_snr": 0.4696558050835159,
+      "max_ion": "O III]",
+      "second_snr": 0.14417756588507244,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.913,
+      "usable_complexes": 5,
+      "max_snr": 0.6204525805332286,
+      "max_ion": "He II",
+      "second_snr": 0.20232239671254815,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.914,
+      "usable_complexes": 5,
+      "max_snr": 2.0728899937402048,
+      "max_ion": "He II",
+      "second_snr": 1.7637912021639481,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.915,
+      "usable_complexes": 5,
+      "max_snr": 1.5622726171641248,
+      "max_ion": "He II",
+      "second_snr": 1.0939313304080798,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.916,
+      "usable_complexes": 5,
+      "max_snr": 0.6205451996167932,
+      "max_ion": "He II",
+      "second_snr": 0.5125980028208406,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.917,
+      "usable_complexes": 5,
+      "max_snr": 2.4211114481310316,
+      "max_ion": "C III]",
+      "second_snr": 0.8027312439790574,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.918,
+      "usable_complexes": 5,
+      "max_snr": 4.139703521045827,
+      "max_ion": "C III]",
+      "second_snr": 0.698154056587178,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.919,
+      "usable_complexes": 5,
+      "max_snr": 0.7845695358014484,
+      "max_ion": "C III]",
+      "second_snr": 0.654008429568576,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.92,
+      "usable_complexes": 5,
+      "max_snr": 0.976378115316969,
+      "max_ion": "O III]",
+      "second_snr": 0.5959219954510004,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.921,
+      "usable_complexes": 5,
+      "max_snr": 0.9416393178652038,
+      "max_ion": "C III]",
+      "second_snr": -0.1246795701354486,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.922,
+      "usable_complexes": 5,
+      "max_snr": 0.6596066200856712,
+      "max_ion": "Mg II",
+      "second_snr": 0.47052374653110635,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.923,
+      "usable_complexes": 5,
+      "max_snr": 0.5161621291564725,
+      "max_ion": "Mg II",
+      "second_snr": -0.02507308459013393,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.924,
+      "usable_complexes": 5,
+      "max_snr": 0.15721694344233114,
+      "max_ion": "Mg II",
+      "second_snr": -0.17757889151198256,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.925,
+      "usable_complexes": 5,
+      "max_snr": 0.2185093866252995,
+      "max_ion": "Mg II",
+      "second_snr": -0.03828790756674851,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.926,
+      "usable_complexes": 5,
+      "max_snr": 0.6614206910427372,
+      "max_ion": "O III]",
+      "second_snr": 0.3487232902345451,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.927,
+      "usable_complexes": 5,
+      "max_snr": 1.8769307508865942,
+      "max_ion": "He II",
+      "second_snr": 0.9394131846961591,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.928,
+      "usable_complexes": 5,
+      "max_snr": 1.6072775025496935,
+      "max_ion": "He II",
+      "second_snr": 1.5622452930670536,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.929,
+      "usable_complexes": 5,
+      "max_snr": 1.6687478968507936,
+      "max_ion": "O III]",
+      "second_snr": 0.9645991114884884,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.93,
+      "usable_complexes": 5,
+      "max_snr": 2.225381689424477,
+      "max_ion": "C III]",
+      "second_snr": 0.7275457671747564,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.931,
+      "usable_complexes": 5,
+      "max_snr": 2.815629247692145,
+      "max_ion": "C III]",
+      "second_snr": 0.9055061891302884,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.932,
+      "usable_complexes": 5,
+      "max_snr": 1.702873136466739,
+      "max_ion": "C III]",
+      "second_snr": -0.4446093943886728,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.933,
+      "usable_complexes": 5,
+      "max_snr": 1.6005996807373755,
+      "max_ion": "Mg II",
+      "second_snr": 1.2930025647494703,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.934,
+      "usable_complexes": 5,
+      "max_snr": 0.3339074256281699,
+      "max_ion": "He II",
+      "second_snr": 0.05955175472740802,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.935,
+      "usable_complexes": 5,
+      "max_snr": 0.39255557981719336,
+      "max_ion": "C II]",
+      "second_snr": -0.22984714967423897,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.936,
+      "usable_complexes": 5,
+      "max_snr": 1.1775335043343718,
+      "max_ion": "O III]",
+      "second_snr": -0.14468865301203906,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.937,
+      "usable_complexes": 5,
+      "max_snr": 1.0290872478204762,
+      "max_ion": "O III]",
+      "second_snr": 0.6167225098311158,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.938,
+      "usable_complexes": 5,
+      "max_snr": 0.911590695583818,
+      "max_ion": "O III]",
+      "second_snr": 0.6911178331694556,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.939,
+      "usable_complexes": 5,
+      "max_snr": 1.240792883314903,
+      "max_ion": "O III]",
+      "second_snr": -0.3586595181945198,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.94,
+      "usable_complexes": 5,
+      "max_snr": 0.6774167854126495,
+      "max_ion": "O III]",
+      "second_snr": -0.3163021917691774,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.941,
+      "usable_complexes": 5,
+      "max_snr": 0.8680156558845616,
+      "max_ion": "Mg II",
+      "second_snr": 0.42921547104934654,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.942,
+      "usable_complexes": 5,
+      "max_snr": 1.9607882073727716,
+      "max_ion": "C II]",
+      "second_snr": 0.5402396633855168,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.943,
+      "usable_complexes": 5,
+      "max_snr": 1.176365185592365,
+      "max_ion": "He II",
+      "second_snr": 0.6900059927861534,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.944,
+      "usable_complexes": 5,
+      "max_snr": 1.1325139036392873,
+      "max_ion": "C II]",
+      "second_snr": 0.9385637146171443,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.945,
+      "usable_complexes": 5,
+      "max_snr": 0.5792277754053843,
+      "max_ion": "O III]",
+      "second_snr": 0.5760038382160011,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.946,
+      "usable_complexes": 5,
+      "max_snr": 1.3211722361885418,
+      "max_ion": "O III]",
+      "second_snr": 0.10221601843529059,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.947,
+      "usable_complexes": 5,
+      "max_snr": 0.8292399756385177,
+      "max_ion": "C III]",
+      "second_snr": 0.6416253772774761,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.948,
+      "usable_complexes": 5,
+      "max_snr": 0.9138785884865911,
+      "max_ion": "C III]",
+      "second_snr": 0.4434611022733212,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.949,
+      "usable_complexes": 5,
+      "max_snr": 0.566105419928021,
+      "max_ion": "C III]",
+      "second_snr": 0.3155732167239204,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.95,
+      "usable_complexes": 5,
+      "max_snr": 0.4189386456946743,
+      "max_ion": "C III]",
+      "second_snr": 0.2323067696472103,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.951,
+      "usable_complexes": 5,
+      "max_snr": 1.2193157189364598,
+      "max_ion": "C II]",
+      "second_snr": 0.6965717665807162,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.952,
+      "usable_complexes": 5,
+      "max_snr": 0.42473097441269375,
+      "max_ion": "C II]",
+      "second_snr": 0.22771260907541152,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.953,
+      "usable_complexes": 5,
+      "max_snr": 1.2144380607925087,
+      "max_ion": "C II]",
+      "second_snr": 0.9055906580702597,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.954,
+      "usable_complexes": 5,
+      "max_snr": 1.0147671081321423,
+      "max_ion": "C II]",
+      "second_snr": 0.681953229683691,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.955,
+      "usable_complexes": 5,
+      "max_snr": 0.6390482938765949,
+      "max_ion": "C III]",
+      "second_snr": 0.5629562954026264,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.956,
+      "usable_complexes": 5,
+      "max_snr": 0.4262129208173581,
+      "max_ion": "O III]",
+      "second_snr": 0.03650149051283908,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.957,
+      "usable_complexes": 5,
+      "max_snr": 0.7944033642275696,
+      "max_ion": "He II",
+      "second_snr": 0.45865210824281094,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.958,
+      "usable_complexes": 5,
+      "max_snr": 0.6357713173429747,
+      "max_ion": "O III]",
+      "second_snr": 0.4359738354345152,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.959,
+      "usable_complexes": 5,
+      "max_snr": 1.0961111011471105,
+      "max_ion": "C II]",
+      "second_snr": 0.7919833241555585,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.96,
+      "usable_complexes": 5,
+      "max_snr": 0.5714114387479187,
+      "max_ion": "Mg II",
+      "second_snr": 0.15809620670902463,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.961,
+      "usable_complexes": 5,
+      "max_snr": 0.9116693877010775,
+      "max_ion": "Mg II",
+      "second_snr": 0.16443932694784996,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.962,
+      "usable_complexes": 5,
+      "max_snr": 0.922589896361672,
+      "max_ion": "He II",
+      "second_snr": 0.4327226902609586,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.963,
+      "usable_complexes": 5,
+      "max_snr": 0.9710012447161751,
+      "max_ion": "He II",
+      "second_snr": 0.7079815126674361,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.964,
+      "usable_complexes": 5,
+      "max_snr": 1.2036871332091894,
+      "max_ion": "He II",
+      "second_snr": 0.5017921222228401,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.965,
+      "usable_complexes": 5,
+      "max_snr": 1.38373237740198,
+      "max_ion": "He II",
+      "second_snr": 1.186475561014935,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.966,
+      "usable_complexes": 5,
+      "max_snr": 0.32808679938189506,
+      "max_ion": "Mg II",
+      "second_snr": 0.27987385297065714,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.967,
+      "usable_complexes": 5,
+      "max_snr": 0.8459035508870493,
+      "max_ion": "O III]",
+      "second_snr": -0.4768727510613753,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.968,
+      "usable_complexes": 5,
+      "max_snr": 1.2462560273732195,
+      "max_ion": "O III]",
+      "second_snr": -0.7678511484242247,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.969,
+      "usable_complexes": 5,
+      "max_snr": 0.9371899060808261,
+      "max_ion": "O III]",
+      "second_snr": 0.14526473722688832,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.97,
+      "usable_complexes": 5,
+      "max_snr": 0.9069544731712007,
+      "max_ion": "C II]",
+      "second_snr": 0.7111523310442748,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.971,
+      "usable_complexes": 5,
+      "max_snr": 0.8609055726215278,
+      "max_ion": "C II]",
+      "second_snr": -0.183066817222891,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.972,
+      "usable_complexes": 5,
+      "max_snr": 0.3127807496191221,
+      "max_ion": "Mg II",
+      "second_snr": 0.23591032335127282,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.973,
+      "usable_complexes": 5,
+      "max_snr": 0.6568927825326478,
+      "max_ion": "He II",
+      "second_snr": 0.6083705112721228,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.974,
+      "usable_complexes": 5,
+      "max_snr": 1.4416943266227649,
+      "max_ion": "C III]",
+      "second_snr": 1.2481540524852128,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.975,
+      "usable_complexes": 5,
+      "max_snr": 1.9075643656535033,
+      "max_ion": "C III]",
+      "second_snr": 1.6227787510044407,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.976,
+      "usable_complexes": 5,
+      "max_snr": 1.7550905610145466,
+      "max_ion": "C III]",
+      "second_snr": 1.2583742862233165,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.977,
+      "usable_complexes": 5,
+      "max_snr": 1.0840907426909436,
+      "max_ion": "C III]",
+      "second_snr": 1.0448112897526187,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.978,
+      "usable_complexes": 5,
+      "max_snr": 0.827639571300086,
+      "max_ion": "Mg II",
+      "second_snr": 0.781665019911645,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.979,
+      "usable_complexes": 5,
+      "max_snr": 1.309392282285699,
+      "max_ion": "Mg II",
+      "second_snr": 0.6342024720119205,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.98,
+      "usable_complexes": 5,
+      "max_snr": 1.0622211856197055,
+      "max_ion": "C II]",
+      "second_snr": 0.5630074412680381,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.981,
+      "usable_complexes": 5,
+      "max_snr": 1.4237063882242673,
+      "max_ion": "C II]",
+      "second_snr": 1.024743872630313,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.982,
+      "usable_complexes": 5,
+      "max_snr": 0.9659819165515948,
+      "max_ion": "He II",
+      "second_snr": 0.2599809485179247,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.983,
+      "usable_complexes": 5,
+      "max_snr": 0.2502323679423003,
+      "max_ion": "He II",
+      "second_snr": -0.010127187930532409,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.984,
+      "usable_complexes": 5,
+      "max_snr": 1.273568875666297,
+      "max_ion": "Mg II",
+      "second_snr": 1.06756097774678,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.985,
+      "usable_complexes": 5,
+      "max_snr": 0.5796687237137973,
+      "max_ion": "C II]",
+      "second_snr": 0.182536915056996,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.986,
+      "usable_complexes": 5,
+      "max_snr": 0.6014356529755485,
+      "max_ion": "C II]",
+      "second_snr": 0.17966093065776742,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.987,
+      "usable_complexes": 5,
+      "max_snr": 0.9807308760271508,
+      "max_ion": "Mg II",
+      "second_snr": 0.33915602020730284,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.988,
+      "usable_complexes": 5,
+      "max_snr": 0.566767627390731,
+      "max_ion": "Mg II",
+      "second_snr": -0.03246356993092386,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.989,
+      "usable_complexes": 5,
+      "max_snr": 0.9124148393076086,
+      "max_ion": "C II]",
+      "second_snr": 0.33424128151673077,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.99,
+      "usable_complexes": 5,
+      "max_snr": 0.9952227620334521,
+      "max_ion": "O III]",
+      "second_snr": 0.8206160129977259,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.991,
+      "usable_complexes": 5,
+      "max_snr": 1.0018847949168757,
+      "max_ion": "O III]",
+      "second_snr": 0.54778854211921,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.992,
+      "usable_complexes": 5,
+      "max_snr": 1.3780355805372564,
+      "max_ion": "He II",
+      "second_snr": 0.9185577668515372,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.993,
+      "usable_complexes": 5,
+      "max_snr": 1.417133132380577,
+      "max_ion": "C II]",
+      "second_snr": 0.9774791554521648,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.994,
+      "usable_complexes": 5,
+      "max_snr": 0.9807241978031301,
+      "max_ion": "C III]",
+      "second_snr": 0.35775893838509404,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 1.995,
+      "usable_complexes": 5,
+      "max_snr": 0.49638378399730215,
+      "max_ion": "C III]",
+      "second_snr": 0.43877192764675643,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 1.996,
+      "usable_complexes": 5,
+      "max_snr": 0.8711181134930713,
+      "max_ion": "Mg II",
+      "second_snr": 0.33620424554208445,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 1.997,
+      "usable_complexes": 5,
+      "max_snr": -0.16973743474268857,
+      "max_ion": "Mg II",
+      "second_snr": -0.1952264349951618,
+      "second_ion": "He II"
+    },
+    {
+      "z": 1.998,
+      "usable_complexes": 5,
+      "max_snr": 1.6615995321350123,
+      "max_ion": "Mg II",
+      "second_snr": -0.05074527482521036,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 1.999,
+      "usable_complexes": 5,
+      "max_snr": 0.7852323538151494,
+      "max_ion": "O III]",
+      "second_snr": 0.43779146890597903,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.0,
+      "usable_complexes": 5,
+      "max_snr": 0.4845877577943887,
+      "max_ion": "O III]",
+      "second_snr": 0.09695646141453039,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.001,
+      "usable_complexes": 5,
+      "max_snr": 0.7831409562815551,
+      "max_ion": "Mg II",
+      "second_snr": 0.5258572595636984,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.002,
+      "usable_complexes": 5,
+      "max_snr": 0.8247605117850311,
+      "max_ion": "C II]",
+      "second_snr": 0.33481253920318543,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.003,
+      "usable_complexes": 5,
+      "max_snr": 2.9510906584036865,
+      "max_ion": "C II]",
+      "second_snr": 0.07164053149535489,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.004,
+      "usable_complexes": 5,
+      "max_snr": 1.3235509991178596,
+      "max_ion": "C II]",
+      "second_snr": 0.5517750915356796,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.005,
+      "usable_complexes": 5,
+      "max_snr": 1.7698109607876455,
+      "max_ion": "C II]",
+      "second_snr": 1.0594192860320342,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.006,
+      "usable_complexes": 5,
+      "max_snr": 0.4800443874576281,
+      "max_ion": "He II",
+      "second_snr": 0.13434624699343445,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.007,
+      "usable_complexes": 5,
+      "max_snr": 0.02183162147222557,
+      "max_ion": "O III]",
+      "second_snr": 0.00433501442590833,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.008,
+      "usable_complexes": 5,
+      "max_snr": 0.6546494825132314,
+      "max_ion": "O III]",
+      "second_snr": 0.2187101510042956,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.009,
+      "usable_complexes": 5,
+      "max_snr": 1.765666345264424,
+      "max_ion": "Mg II",
+      "second_snr": 1.7366599648771557,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.01,
+      "usable_complexes": 5,
+      "max_snr": 1.0996468761430922,
+      "max_ion": "C III]",
+      "second_snr": 0.4210841261108272,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.011,
+      "usable_complexes": 5,
+      "max_snr": 0.7660979689342404,
+      "max_ion": "C II]",
+      "second_snr": 0.6633183839479718,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.012,
+      "usable_complexes": 5,
+      "max_snr": 0.918640623425541,
+      "max_ion": "C III]",
+      "second_snr": 0.5886896405913471,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.013,
+      "usable_complexes": 5,
+      "max_snr": 2.6036344631705792,
+      "max_ion": "C III]",
+      "second_snr": 0.6195956180421077,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.014,
+      "usable_complexes": 5,
+      "max_snr": 2.163966103880089,
+      "max_ion": "C III]",
+      "second_snr": 0.8280168399031792,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.015,
+      "usable_complexes": 5,
+      "max_snr": 1.3110153844966006,
+      "max_ion": "Mg II",
+      "second_snr": 0.4444573805668805,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.016,
+      "usable_complexes": 5,
+      "max_snr": 0.6435225867981114,
+      "max_ion": "He II",
+      "second_snr": -0.043361433403187384,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.017,
+      "usable_complexes": 5,
+      "max_snr": 0.943621279797431,
+      "max_ion": "C III]",
+      "second_snr": 0.7685970940898238,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.018,
+      "usable_complexes": 5,
+      "max_snr": 0.02521339926761365,
+      "max_ion": "O III]",
+      "second_snr": -0.0362720695044289,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.019,
+      "usable_complexes": 5,
+      "max_snr": 0.22975051401244515,
+      "max_ion": "O III]",
+      "second_snr": -0.051938682390768695,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.02,
+      "usable_complexes": 5,
+      "max_snr": 1.1319563035614821,
+      "max_ion": "Mg II",
+      "second_snr": 0.9107930107697655,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.021,
+      "usable_complexes": 5,
+      "max_snr": 1.1580033216426955,
+      "max_ion": "O III]",
+      "second_snr": 0.08675526182432654,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.022,
+      "usable_complexes": 5,
+      "max_snr": 0.6601284997721579,
+      "max_ion": "O III]",
+      "second_snr": 0.5329892582434737,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.023,
+      "usable_complexes": 5,
+      "max_snr": 0.5091558646457293,
+      "max_ion": "C II]",
+      "second_snr": -0.43964709570171756,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.024,
+      "usable_complexes": 5,
+      "max_snr": 0.26635194355788694,
+      "max_ion": "Mg II",
+      "second_snr": -0.1375431366299388,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.025,
+      "usable_complexes": 5,
+      "max_snr": 0.8946617371327693,
+      "max_ion": "C III]",
+      "second_snr": 0.49857995287873924,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.026,
+      "usable_complexes": 5,
+      "max_snr": 1.4035773679588937,
+      "max_ion": "C II]",
+      "second_snr": 0.4177375915734658,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.027,
+      "usable_complexes": 5,
+      "max_snr": 0.8302382367683225,
+      "max_ion": "He II",
+      "second_snr": 0.2563128542479665,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.028,
+      "usable_complexes": 5,
+      "max_snr": 1.0147986530653212,
+      "max_ion": "C III]",
+      "second_snr": 0.9235460480773038,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.029,
+      "usable_complexes": 5,
+      "max_snr": 1.0701870535270277,
+      "max_ion": "He II",
+      "second_snr": 0.6235839901879201,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.03,
+      "usable_complexes": 5,
+      "max_snr": 0.9226938365896447,
+      "max_ion": "O III]",
+      "second_snr": 0.7275590807802308,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.031,
+      "usable_complexes": 5,
+      "max_snr": 0.968817087695271,
+      "max_ion": "O III]",
+      "second_snr": 0.1547642364142994,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.032,
+      "usable_complexes": 5,
+      "max_snr": 0.5914422744470872,
+      "max_ion": "Mg II",
+      "second_snr": 0.3047916492009596,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.033,
+      "usable_complexes": 5,
+      "max_snr": 1.4190713708824034,
+      "max_ion": "C II]",
+      "second_snr": 1.0833140558588814,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.034,
+      "usable_complexes": 5,
+      "max_snr": 0.5984060286093575,
+      "max_ion": "C III]",
+      "second_snr": 0.5637261161612791,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.035,
+      "usable_complexes": 5,
+      "max_snr": 0.39798252366421516,
+      "max_ion": "C III]",
+      "second_snr": -0.7579786028409287,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.036,
+      "usable_complexes": 5,
+      "max_snr": 2.766310121566105,
+      "max_ion": "C II]",
+      "second_snr": 0.6161346950534367,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.037,
+      "usable_complexes": 5,
+      "max_snr": 1.639755557505755,
+      "max_ion": "C III]",
+      "second_snr": 1.00847332147173,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.038,
+      "usable_complexes": 5,
+      "max_snr": 1.3880942528455753,
+      "max_ion": "C III]",
+      "second_snr": 0.3142406195001693,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.039,
+      "usable_complexes": 5,
+      "max_snr": 1.6334999169543527,
+      "max_ion": "O III]",
+      "second_snr": 1.0039382021559924,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.04,
+      "usable_complexes": 5,
+      "max_snr": 1.9580945937773404,
+      "max_ion": "O III]",
+      "second_snr": 0.5152297363081352,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.041,
+      "usable_complexes": 5,
+      "max_snr": 1.1855695371955128,
+      "max_ion": "O III]",
+      "second_snr": 0.4013535171381254,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.042,
+      "usable_complexes": 5,
+      "max_snr": -0.11044319926829506,
+      "max_ion": "He II",
+      "second_snr": -0.3007816105395347,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.043,
+      "usable_complexes": 5,
+      "max_snr": 1.952603614788661,
+      "max_ion": "C II]",
+      "second_snr": -0.398159225064645,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.044,
+      "usable_complexes": 5,
+      "max_snr": 1.1045388782221184,
+      "max_ion": "C II]",
+      "second_snr": 0.08404630823629859,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.045,
+      "usable_complexes": 5,
+      "max_snr": 0.5762461146430061,
+      "max_ion": "Mg II",
+      "second_snr": 0.42491212726420874,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.046,
+      "usable_complexes": 5,
+      "max_snr": 0.9688492872190259,
+      "max_ion": "He II",
+      "second_snr": -0.41445069120287886,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.047,
+      "usable_complexes": 5,
+      "max_snr": 1.0092999132723888,
+      "max_ion": "Mg II",
+      "second_snr": 0.20218576525417115,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.048,
+      "usable_complexes": 5,
+      "max_snr": 0.31337983865505725,
+      "max_ion": "He II",
+      "second_snr": 0.15473464505569293,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.049,
+      "usable_complexes": 5,
+      "max_snr": 1.8315109409783326,
+      "max_ion": "C II]",
+      "second_snr": 1.8059333838652347,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.05,
+      "usable_complexes": 5,
+      "max_snr": 1.8893445253623395,
+      "max_ion": "O III]",
+      "second_snr": 1.455977352285481,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.051,
+      "usable_complexes": 5,
+      "max_snr": 1.316935680054875,
+      "max_ion": "C III]",
+      "second_snr": 1.0175176817366165,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.052,
+      "usable_complexes": 5,
+      "max_snr": 0.4054933383385147,
+      "max_ion": "He II",
+      "second_snr": 0.3309718923556845,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.053,
+      "usable_complexes": 5,
+      "max_snr": 1.0338132450544961,
+      "max_ion": "C III]",
+      "second_snr": 0.7947207097537381,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.054,
+      "usable_complexes": 5,
+      "max_snr": 1.9375659230725082,
+      "max_ion": "C III]",
+      "second_snr": 0.12837558784167144,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.055,
+      "usable_complexes": 5,
+      "max_snr": 0.8327108934158874,
+      "max_ion": "Mg II",
+      "second_snr": 0.32492910426905997,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.056,
+      "usable_complexes": 5,
+      "max_snr": -0.11304079312232387,
+      "max_ion": "He II",
+      "second_snr": -0.4546625070207679,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.057,
+      "usable_complexes": 5,
+      "max_snr": 0.9229007937544177,
+      "max_ion": "Mg II",
+      "second_snr": 0.2622729280229025,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.058,
+      "usable_complexes": 5,
+      "max_snr": 0.6953699038800364,
+      "max_ion": "He II",
+      "second_snr": 0.48284626972553535,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.059,
+      "usable_complexes": 5,
+      "max_snr": 0.351647590384514,
+      "max_ion": "O III]",
+      "second_snr": -0.051276043243938356,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.06,
+      "usable_complexes": 5,
+      "max_snr": 0.5727928337460348,
+      "max_ion": "Mg II",
+      "second_snr": 0.4471277998730961,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.061,
+      "usable_complexes": 5,
+      "max_snr": 0.9463519861837094,
+      "max_ion": "C II]",
+      "second_snr": -0.028543543812192883,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.062,
+      "usable_complexes": 5,
+      "max_snr": 0.18569788328510753,
+      "max_ion": "C II]",
+      "second_snr": -0.44635222099616123,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.063,
+      "usable_complexes": 5,
+      "max_snr": 0.28747099720755875,
+      "max_ion": "Mg II",
+      "second_snr": -0.08394943086967016,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.064,
+      "usable_complexes": 5,
+      "max_snr": 0.7585989305067523,
+      "max_ion": "C II]",
+      "second_snr": 0.1090201776262099,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.065,
+      "usable_complexes": 5,
+      "max_snr": 0.9765141593893684,
+      "max_ion": "Mg II",
+      "second_snr": 0.5696677026065461,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.066,
+      "usable_complexes": 5,
+      "max_snr": 0.9006261724642132,
+      "max_ion": "Mg II",
+      "second_snr": 0.34896348388847737,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.067,
+      "usable_complexes": 5,
+      "max_snr": 0.7631949947023613,
+      "max_ion": "Mg II",
+      "second_snr": 0.5767452933522349,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.068,
+      "usable_complexes": 5,
+      "max_snr": 1.6772006347149897,
+      "max_ion": "C II]",
+      "second_snr": 1.5492952232984287,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.069,
+      "usable_complexes": 5,
+      "max_snr": 1.6410479587737559,
+      "max_ion": "He II",
+      "second_snr": 0.7581412330855599,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.07,
+      "usable_complexes": 5,
+      "max_snr": 0.6748921354303119,
+      "max_ion": "He II",
+      "second_snr": 0.45141172083059355,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.071,
+      "usable_complexes": 5,
+      "max_snr": 2.159018151515908,
+      "max_ion": "C III]",
+      "second_snr": 0.2207490394171254,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.072,
+      "usable_complexes": 5,
+      "max_snr": 1.6901180489490504,
+      "max_ion": "C III]",
+      "second_snr": 0.5163989847498212,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.073,
+      "usable_complexes": 5,
+      "max_snr": 0.5360577856667599,
+      "max_ion": "Mg II",
+      "second_snr": -0.6669411988499051,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.074,
+      "usable_complexes": 5,
+      "max_snr": 1.2613555906565384,
+      "max_ion": "O III]",
+      "second_snr": 0.6728680887733524,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.075,
+      "usable_complexes": 5,
+      "max_snr": 2.157963741060321,
+      "max_ion": "O III]",
+      "second_snr": 0.5782566213873174,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.076,
+      "usable_complexes": 5,
+      "max_snr": 1.8964840966210061,
+      "max_ion": "O III]",
+      "second_snr": 1.0151747519587628,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.077,
+      "usable_complexes": 5,
+      "max_snr": 1.039805558691491,
+      "max_ion": "O III]",
+      "second_snr": 0.4554246592764805,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.078,
+      "usable_complexes": 5,
+      "max_snr": 0.18054063928854178,
+      "max_ion": "He II",
+      "second_snr": -0.006046816818906512,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.079,
+      "usable_complexes": 6,
+      "max_snr": 0.8303472812860069,
+      "max_ion": "Mg II",
+      "second_snr": 0.24112474187772967,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.08,
+      "usable_complexes": 6,
+      "max_snr": 0.5337826304651657,
+      "max_ion": "Mg II",
+      "second_snr": 0.1869774729490056,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.081,
+      "usable_complexes": 6,
+      "max_snr": 1.4949698228060166,
+      "max_ion": "C II]",
+      "second_snr": 0.8851825938220521,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.082,
+      "usable_complexes": 6,
+      "max_snr": 2.2467055754161476,
+      "max_ion": "C II]",
+      "second_snr": 1.0308041181968568,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.083,
+      "usable_complexes": 6,
+      "max_snr": 1.5268724538906564,
+      "max_ion": "C II]",
+      "second_snr": 1.271088114113855,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.084,
+      "usable_complexes": 6,
+      "max_snr": 0.5938621294536889,
+      "max_ion": "O III]",
+      "second_snr": 0.5330678699108247,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.085,
+      "usable_complexes": 6,
+      "max_snr": 1.3983863996065409,
+      "max_ion": "O III]",
+      "second_snr": 0.57577702700441,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.086,
+      "usable_complexes": 6,
+      "max_snr": 1.4158185686374127,
+      "max_ion": "O III]",
+      "second_snr": 1.3649047720190683,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.087,
+      "usable_complexes": 6,
+      "max_snr": 2.3887127304642233,
+      "max_ion": "He II",
+      "second_snr": 1.243685263998854,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.088,
+      "usable_complexes": 6,
+      "max_snr": 2.2324638833535144,
+      "max_ion": "He II",
+      "second_snr": 1.8939478455189185,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.089,
+      "usable_complexes": 6,
+      "max_snr": 1.284371530173106,
+      "max_ion": "C IV",
+      "second_snr": 1.0088241870297066,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.09,
+      "usable_complexes": 6,
+      "max_snr": 0.29069241169683696,
+      "max_ion": "C IV",
+      "second_snr": 0.09782583879938364,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.091,
+      "usable_complexes": 6,
+      "max_snr": 0.6318265205234262,
+      "max_ion": "C II]",
+      "second_snr": -0.0688037856445507,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.092,
+      "usable_complexes": 6,
+      "max_snr": -0.03172033997241903,
+      "max_ion": "He II",
+      "second_snr": -0.10436782963009857,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.093,
+      "usable_complexes": 6,
+      "max_snr": 0.29397581533881056,
+      "max_ion": "C II]",
+      "second_snr": 0.1965586496898835,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.094,
+      "usable_complexes": 6,
+      "max_snr": 1.1397917347531281,
+      "max_ion": "C II]",
+      "second_snr": 0.4418091040914851,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.095,
+      "usable_complexes": 6,
+      "max_snr": 1.9106510400322636,
+      "max_ion": "C II]",
+      "second_snr": 1.2049472553153493,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.096,
+      "usable_complexes": 6,
+      "max_snr": 1.007913470572348,
+      "max_ion": "O III]",
+      "second_snr": 0.7531303281834921,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.097,
+      "usable_complexes": 6,
+      "max_snr": 1.451531108630244,
+      "max_ion": "O III]",
+      "second_snr": 0.6588935830113178,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.098,
+      "usable_complexes": 6,
+      "max_snr": 0.8052931575727345,
+      "max_ion": "O III]",
+      "second_snr": 0.46919268139326903,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.099,
+      "usable_complexes": 6,
+      "max_snr": 1.4668309574482006,
+      "max_ion": "Mg II",
+      "second_snr": 0.5171833045247878,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.1,
+      "usable_complexes": 6,
+      "max_snr": 0.9090083635428147,
+      "max_ion": "C III]",
+      "second_snr": 0.6472094097902348,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.101,
+      "usable_complexes": 6,
+      "max_snr": 1.266298805225762,
+      "max_ion": "C III]",
+      "second_snr": 0.32808432621724465,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.102,
+      "usable_complexes": 6,
+      "max_snr": 1.5279384116697323,
+      "max_ion": "C IV",
+      "second_snr": 0.46334571537693914,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.103,
+      "usable_complexes": 6,
+      "max_snr": 1.2908336142725039,
+      "max_ion": "Mg II",
+      "second_snr": 0.8099745887936657,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.104,
+      "usable_complexes": 6,
+      "max_snr": 0.4187689731493593,
+      "max_ion": "C III]",
+      "second_snr": -0.36836159770830273,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.105,
+      "usable_complexes": 6,
+      "max_snr": 0.323511467309587,
+      "max_ion": "C III]",
+      "second_snr": -0.9529158657118505,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.106,
+      "usable_complexes": 6,
+      "max_snr": 0.026287860299254246,
+      "max_ion": "O III]",
+      "second_snr": -0.12631135839672838,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.107,
+      "usable_complexes": 6,
+      "max_snr": 1.1126208261846569,
+      "max_ion": "Mg II",
+      "second_snr": 0.9203018094089889,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.108,
+      "usable_complexes": 6,
+      "max_snr": 0.7309454692751532,
+      "max_ion": "C II]",
+      "second_snr": 0.6283831471204036,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.109,
+      "usable_complexes": 6,
+      "max_snr": 0.7699875692393965,
+      "max_ion": "Mg II",
+      "second_snr": -0.23465301133740227,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.11,
+      "usable_complexes": 6,
+      "max_snr": 0.4452359304991976,
+      "max_ion": "Mg II",
+      "second_snr": -0.45756452783116014,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.111,
+      "usable_complexes": 6,
+      "max_snr": 0.5774685863223594,
+      "max_ion": "C II]",
+      "second_snr": -0.6602437749510872,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.112,
+      "usable_complexes": 6,
+      "max_snr": 0.42930338830926196,
+      "max_ion": "C IV",
+      "second_snr": 0.13344246746485744,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.113,
+      "usable_complexes": 6,
+      "max_snr": 1.406102807236303,
+      "max_ion": "C IV",
+      "second_snr": 1.3404588418618508,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.114,
+      "usable_complexes": 6,
+      "max_snr": 2.0503982017485143,
+      "max_ion": "C II]",
+      "second_snr": 1.2329568860586415,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.115,
+      "usable_complexes": 6,
+      "max_snr": 1.6142096796632595,
+      "max_ion": "C II]",
+      "second_snr": 1.2849594754994789,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.116,
+      "usable_complexes": 6,
+      "max_snr": 2.132067501914352,
+      "max_ion": "Mg II",
+      "second_snr": 1.5947471308913523,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.117,
+      "usable_complexes": 6,
+      "max_snr": 1.2083304132380066,
+      "max_ion": "O III]",
+      "second_snr": 1.1307370586789773,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.118,
+      "usable_complexes": 6,
+      "max_snr": 1.5232952300698173,
+      "max_ion": "O III]",
+      "second_snr": 1.322583101078956,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.119,
+      "usable_complexes": 6,
+      "max_snr": 1.1718382998591446,
+      "max_ion": "C III]",
+      "second_snr": 1.0337398791722177,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.12,
+      "usable_complexes": 6,
+      "max_snr": 1.1401788621360502,
+      "max_ion": "C II]",
+      "second_snr": 0.25469914145092326,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.121,
+      "usable_complexes": 6,
+      "max_snr": -0.18088813710410365,
+      "max_ion": "C IV",
+      "second_snr": -0.24812502988172472,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.122,
+      "usable_complexes": 6,
+      "max_snr": 0.7626818902182995,
+      "max_ion": "C II]",
+      "second_snr": 0.6148482689980035,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.123,
+      "usable_complexes": 6,
+      "max_snr": 1.6207563394968683,
+      "max_ion": "He II",
+      "second_snr": 0.775542259309586,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.124,
+      "usable_complexes": 6,
+      "max_snr": 1.453122113411243,
+      "max_ion": "He II",
+      "second_snr": 1.0973304750544413,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.125,
+      "usable_complexes": 6,
+      "max_snr": 0.9007658418531268,
+      "max_ion": "He II",
+      "second_snr": 0.4907186057794916,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.126,
+      "usable_complexes": 6,
+      "max_snr": 0.620705025730404,
+      "max_ion": "C II]",
+      "second_snr": 0.367517628009565,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.127,
+      "usable_complexes": 6,
+      "max_snr": 1.3105961838656655,
+      "max_ion": "C III]",
+      "second_snr": 0.7096192797874957,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.128,
+      "usable_complexes": 6,
+      "max_snr": 1.8896926233231581,
+      "max_ion": "C III]",
+      "second_snr": 1.5215149242896353,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.129,
+      "usable_complexes": 6,
+      "max_snr": 1.724450945599713,
+      "max_ion": "O III]",
+      "second_snr": 1.1770446498681697,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.13,
+      "usable_complexes": 6,
+      "max_snr": 0.537735573169744,
+      "max_ion": "O III]",
+      "second_snr": 0.4362451395305481,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.131,
+      "usable_complexes": 6,
+      "max_snr": 0.6561640269869393,
+      "max_ion": "Mg II",
+      "second_snr": 0.5133974338209092,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.132,
+      "usable_complexes": 6,
+      "max_snr": 1.5131708858641117,
+      "max_ion": "C II]",
+      "second_snr": 0.8662581622581436,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.133,
+      "usable_complexes": 6,
+      "max_snr": 1.4467874173565058,
+      "max_ion": "C IV",
+      "second_snr": 1.3153878982085625,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.134,
+      "usable_complexes": 6,
+      "max_snr": 1.2813969727566705,
+      "max_ion": "C IV",
+      "second_snr": 0.8420714572634056,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.135,
+      "usable_complexes": 6,
+      "max_snr": 1.341927681790043,
+      "max_ion": "He II",
+      "second_snr": 0.7644375813957791,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.136,
+      "usable_complexes": 6,
+      "max_snr": 1.6855180002246126,
+      "max_ion": "He II",
+      "second_snr": 1.341657558114731,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.137,
+      "usable_complexes": 6,
+      "max_snr": 1.0540652670108646,
+      "max_ion": "He II",
+      "second_snr": 0.8200287885452933,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.138,
+      "usable_complexes": 6,
+      "max_snr": 0.8123293112825647,
+      "max_ion": "C II]",
+      "second_snr": 0.3958984759564175,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.139,
+      "usable_complexes": 6,
+      "max_snr": 0.40158339256146247,
+      "max_ion": "He II",
+      "second_snr": 0.3939827854891888,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.14,
+      "usable_complexes": 6,
+      "max_snr": 0.9864387333161849,
+      "max_ion": "He II",
+      "second_snr": 0.7001402069896596,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.141,
+      "usable_complexes": 6,
+      "max_snr": 1.6635984831901707,
+      "max_ion": "C II]",
+      "second_snr": 1.0691761792063579,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.142,
+      "usable_complexes": 6,
+      "max_snr": 1.2287910068649042,
+      "max_ion": "O III]",
+      "second_snr": 0.341844772550298,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.143,
+      "usable_complexes": 6,
+      "max_snr": 1.8919302534915194,
+      "max_ion": "C III]",
+      "second_snr": 0.6088401060314135,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.144,
+      "usable_complexes": 6,
+      "max_snr": 0.5588751564726068,
+      "max_ion": "C II]",
+      "second_snr": 0.33031119154944427,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.145,
+      "usable_complexes": 6,
+      "max_snr": 0.6078033590820536,
+      "max_ion": "He II",
+      "second_snr": 0.3056222009627408,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.146,
+      "usable_complexes": 6,
+      "max_snr": 0.820131302311088,
+      "max_ion": "O III]",
+      "second_snr": 0.700373221212114,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.147,
+      "usable_complexes": 6,
+      "max_snr": 0.7534722158377377,
+      "max_ion": "C III]",
+      "second_snr": -0.19760717742891287,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.148,
+      "usable_complexes": 6,
+      "max_snr": 0.04778836897332814,
+      "max_ion": "C IV",
+      "second_snr": -0.02283652116126643,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.149,
+      "usable_complexes": 6,
+      "max_snr": 1.1675893117629124,
+      "max_ion": "Mg II",
+      "second_snr": 0.42925699803496287,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.15,
+      "usable_complexes": 6,
+      "max_snr": 0.6404912303038005,
+      "max_ion": "Mg II",
+      "second_snr": 0.5885452831045058,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.151,
+      "usable_complexes": 6,
+      "max_snr": 0.46296912228559733,
+      "max_ion": "O III]",
+      "second_snr": 0.41515872559545514,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.152,
+      "usable_complexes": 6,
+      "max_snr": 1.0422852153086115,
+      "max_ion": "O III]",
+      "second_snr": 0.7605593778796701,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.153,
+      "usable_complexes": 6,
+      "max_snr": 0.7049466392658087,
+      "max_ion": "He II",
+      "second_snr": 0.5404634054680398,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.154,
+      "usable_complexes": 6,
+      "max_snr": 1.302469207892031,
+      "max_ion": "C IV",
+      "second_snr": 0.04087246122897308,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.155,
+      "usable_complexes": 6,
+      "max_snr": 1.032282712939645,
+      "max_ion": "C IV",
+      "second_snr": 0.45107031887379745,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.156,
+      "usable_complexes": 6,
+      "max_snr": 1.2945595521632762,
+      "max_ion": "O III]",
+      "second_snr": 1.278409980811466,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.157,
+      "usable_complexes": 6,
+      "max_snr": 1.5776817502319707,
+      "max_ion": "Mg II",
+      "second_snr": 0.6776064985014745,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.158,
+      "usable_complexes": 6,
+      "max_snr": 1.247788911360665,
+      "max_ion": "C II]",
+      "second_snr": 0.2528024159604877,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.159,
+      "usable_complexes": 6,
+      "max_snr": 0.19351690340459063,
+      "max_ion": "C IV",
+      "second_snr": 0.14756437601965877,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.16,
+      "usable_complexes": 6,
+      "max_snr": 0.6956059950653507,
+      "max_ion": "C IV",
+      "second_snr": 0.5490187710704741,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.161,
+      "usable_complexes": 6,
+      "max_snr": 1.6282274069235287,
+      "max_ion": "C III]",
+      "second_snr": 0.4693114408850082,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.162,
+      "usable_complexes": 6,
+      "max_snr": 1.2499457280867579,
+      "max_ion": "C III]",
+      "second_snr": 1.0814378708754753,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.163,
+      "usable_complexes": 6,
+      "max_snr": 0.3507341917948008,
+      "max_ion": "O III]",
+      "second_snr": 0.13860524382628958,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.164,
+      "usable_complexes": 6,
+      "max_snr": 0.634843150948106,
+      "max_ion": "Mg II",
+      "second_snr": 0.3737459739576721,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.165,
+      "usable_complexes": 6,
+      "max_snr": 2.4196283942834147,
+      "max_ion": "C II]",
+      "second_snr": 2.361309241448687,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.166,
+      "usable_complexes": 6,
+      "max_snr": 0.8736767092462853,
+      "max_ion": "Mg II",
+      "second_snr": 0.7822749823970545,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.167,
+      "usable_complexes": 6,
+      "max_snr": 1.501088131911921,
+      "max_ion": "He II",
+      "second_snr": 0.9567653384254367,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.168,
+      "usable_complexes": 6,
+      "max_snr": 1.0037181113169193,
+      "max_ion": "He II",
+      "second_snr": 0.7217572130772868,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.169,
+      "usable_complexes": 6,
+      "max_snr": -0.011130347700505559,
+      "max_ion": "Mg II",
+      "second_snr": -0.21008342219734708,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.17,
+      "usable_complexes": 6,
+      "max_snr": 0.7589895845090968,
+      "max_ion": "C IV",
+      "second_snr": 0.30699539252471697,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.171,
+      "usable_complexes": 6,
+      "max_snr": 1.7395130965877685,
+      "max_ion": "C III]",
+      "second_snr": 0.2940628922465416,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.172,
+      "usable_complexes": 6,
+      "max_snr": 1.1509964406524442,
+      "max_ion": "Mg II",
+      "second_snr": -0.04378689273946961,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.173,
+      "usable_complexes": 6,
+      "max_snr": 1.8052029636635742,
+      "max_ion": "Mg II",
+      "second_snr": 0.7284624477301385,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.174,
+      "usable_complexes": 6,
+      "max_snr": 2.154871012559672,
+      "max_ion": "C III]",
+      "second_snr": 0.886230338616171,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.175,
+      "usable_complexes": 6,
+      "max_snr": 2.5105565897277113,
+      "max_ion": "C III]",
+      "second_snr": 1.459400122251046,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.176,
+      "usable_complexes": 6,
+      "max_snr": 0.601207421246887,
+      "max_ion": "C II]",
+      "second_snr": 0.49412104694963666,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.177,
+      "usable_complexes": 6,
+      "max_snr": 1.1579624827488697,
+      "max_ion": "O III]",
+      "second_snr": 0.601906782070515,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.178,
+      "usable_complexes": 6,
+      "max_snr": 1.5735868463426037,
+      "max_ion": "O III]",
+      "second_snr": 1.2424402123874148,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.179,
+      "usable_complexes": 6,
+      "max_snr": 1.2027650419083382,
+      "max_ion": "He II",
+      "second_snr": 0.47225318480274514,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.18,
+      "usable_complexes": 6,
+      "max_snr": 1.4534760017784834,
+      "max_ion": "He II",
+      "second_snr": 1.2942354080481497,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.181,
+      "usable_complexes": 6,
+      "max_snr": 1.318182331844282,
+      "max_ion": "He II",
+      "second_snr": 0.9174326644652248,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.182,
+      "usable_complexes": 6,
+      "max_snr": 0.8368664482861535,
+      "max_ion": "C II]",
+      "second_snr": -0.1049574597084738,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.183,
+      "usable_complexes": 6,
+      "max_snr": 1.953010105118473,
+      "max_ion": "Mg II",
+      "second_snr": 0.9634572352102617,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.184,
+      "usable_complexes": 6,
+      "max_snr": 1.2961706463178735,
+      "max_ion": "Mg II",
+      "second_snr": 0.9864780487292589,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.185,
+      "usable_complexes": 6,
+      "max_snr": 0.3840013344898452,
+      "max_ion": "C II]",
+      "second_snr": 0.32683046356136347,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.186,
+      "usable_complexes": 6,
+      "max_snr": 0.4922061234461119,
+      "max_ion": "C IV",
+      "second_snr": -0.018663080673484905,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.187,
+      "usable_complexes": 6,
+      "max_snr": 0.9365602496111953,
+      "max_ion": "C III]",
+      "second_snr": 0.9013390815433974,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.188,
+      "usable_complexes": 6,
+      "max_snr": 2.0986269470845818,
+      "max_ion": "O III]",
+      "second_snr": 1.093525376179391,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.189,
+      "usable_complexes": 6,
+      "max_snr": 1.5765761185940343,
+      "max_ion": "O III]",
+      "second_snr": 1.128226027125342,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.19,
+      "usable_complexes": 6,
+      "max_snr": 2.0557447423363358,
+      "max_ion": "Mg II",
+      "second_snr": 1.2246558467245345,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.191,
+      "usable_complexes": 6,
+      "max_snr": 1.2132175405682826,
+      "max_ion": "C II]",
+      "second_snr": 0.5577990040413734,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.192,
+      "usable_complexes": 6,
+      "max_snr": 0.7335112572631658,
+      "max_ion": "Mg II",
+      "second_snr": 0.4038827357577039,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.193,
+      "usable_complexes": 6,
+      "max_snr": 1.3650619721059771,
+      "max_ion": "C II]",
+      "second_snr": 0.44003395151816554,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.194,
+      "usable_complexes": 6,
+      "max_snr": 1.2012276259970416,
+      "max_ion": "C II]",
+      "second_snr": 0.08079753947002412,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.195,
+      "usable_complexes": 6,
+      "max_snr": 1.667794498846016,
+      "max_ion": "Mg II",
+      "second_snr": 1.100215638644788,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.196,
+      "usable_complexes": 6,
+      "max_snr": 0.8119218299518481,
+      "max_ion": "C III]",
+      "second_snr": 0.5505671792847295,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.197,
+      "usable_complexes": 6,
+      "max_snr": 1.3026316114602947,
+      "max_ion": "Mg II",
+      "second_snr": 1.1504382773567652,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.198,
+      "usable_complexes": 6,
+      "max_snr": 0.5050508709876373,
+      "max_ion": "Mg II",
+      "second_snr": 0.2916053447873678,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.199,
+      "usable_complexes": 6,
+      "max_snr": 1.0733877979051765,
+      "max_ion": "O III]",
+      "second_snr": 0.794719272198038,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.2,
+      "usable_complexes": 6,
+      "max_snr": 1.7280290988373654,
+      "max_ion": "O III]",
+      "second_snr": 1.0341664759857105,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.201,
+      "usable_complexes": 6,
+      "max_snr": 1.3477163843563702,
+      "max_ion": "He II",
+      "second_snr": 1.1919646132705966,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.202,
+      "usable_complexes": 6,
+      "max_snr": 1.2750803733392886,
+      "max_ion": "C II]",
+      "second_snr": 1.2674348018933301,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.203,
+      "usable_complexes": 6,
+      "max_snr": 1.4499905913275588,
+      "max_ion": "O III]",
+      "second_snr": 0.6304117131981969,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.204,
+      "usable_complexes": 6,
+      "max_snr": 0.8460920691234084,
+      "max_ion": "Mg II",
+      "second_snr": 0.7739803422197528,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.205,
+      "usable_complexes": 6,
+      "max_snr": 0.6764274152448132,
+      "max_ion": "C IV",
+      "second_snr": 0.6148794948493335,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.206,
+      "usable_complexes": 6,
+      "max_snr": 1.0510623226567901,
+      "max_ion": "Mg II",
+      "second_snr": 0.9001102049223472,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.207,
+      "usable_complexes": 6,
+      "max_snr": 1.8973735846263342,
+      "max_ion": "C II]",
+      "second_snr": 0.6474064999155534,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.208,
+      "usable_complexes": 6,
+      "max_snr": 2.34061720521911,
+      "max_ion": "C II]",
+      "second_snr": 0.6341062917287849,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.209,
+      "usable_complexes": 6,
+      "max_snr": 0.4939572749068624,
+      "max_ion": "C II]",
+      "second_snr": 0.3096007967546928,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.21,
+      "usable_complexes": 6,
+      "max_snr": 0.4464380075197524,
+      "max_ion": "C III]",
+      "second_snr": 0.25766343559682997,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.211,
+      "usable_complexes": 6,
+      "max_snr": 0.7291599838541457,
+      "max_ion": "O III]",
+      "second_snr": 0.09739666024761513,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.212,
+      "usable_complexes": 6,
+      "max_snr": 1.1822993132268322,
+      "max_ion": "O III]",
+      "second_snr": 0.22069838088429033,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.213,
+      "usable_complexes": 6,
+      "max_snr": 1.0636164697357358,
+      "max_ion": "O III]",
+      "second_snr": 0.2687210854480025,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.214,
+      "usable_complexes": 6,
+      "max_snr": 0.44940527580884193,
+      "max_ion": "O III]",
+      "second_snr": 0.38641833706066714,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.215,
+      "usable_complexes": 6,
+      "max_snr": 0.514550422572495,
+      "max_ion": "C III]",
+      "second_snr": 0.26626514126504985,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.216,
+      "usable_complexes": 6,
+      "max_snr": 0.6058337796070916,
+      "max_ion": "C III]",
+      "second_snr": 0.16827984976812238,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.217,
+      "usable_complexes": 6,
+      "max_snr": 0.6352117295889872,
+      "max_ion": "He II",
+      "second_snr": 0.6240742760026818,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.218,
+      "usable_complexes": 6,
+      "max_snr": 0.336939488558069,
+      "max_ion": "O III]",
+      "second_snr": 0.2748750168865985,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.219,
+      "usable_complexes": 6,
+      "max_snr": 0.7469501690406957,
+      "max_ion": "O III]",
+      "second_snr": 0.32974986620845154,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.22,
+      "usable_complexes": 6,
+      "max_snr": 0.4035914126900146,
+      "max_ion": "O III]",
+      "second_snr": 0.36693128072095904,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.221,
+      "usable_complexes": 6,
+      "max_snr": 0.9758287675479923,
+      "max_ion": "Mg II",
+      "second_snr": 0.8407708646281173,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.222,
+      "usable_complexes": 6,
+      "max_snr": 1.1773776941799323,
+      "max_ion": "C IV",
+      "second_snr": 0.8518146936884723,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.223,
+      "usable_complexes": 6,
+      "max_snr": 1.392532895689104,
+      "max_ion": "He II",
+      "second_snr": 0.28930326160215053,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.224,
+      "usable_complexes": 6,
+      "max_snr": 0.6731096224328478,
+      "max_ion": "He II",
+      "second_snr": -0.35213593688543315,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.225,
+      "usable_complexes": 6,
+      "max_snr": 0.4161393095065159,
+      "max_ion": "C III]",
+      "second_snr": -0.09994708165125601,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.226,
+      "usable_complexes": 6,
+      "max_snr": 0.7743644283584878,
+      "max_ion": "C III]",
+      "second_snr": 0.27807574121881673,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.227,
+      "usable_complexes": 6,
+      "max_snr": 1.5544500618672137,
+      "max_ion": "He II",
+      "second_snr": 0.7842782021687628,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.228,
+      "usable_complexes": 6,
+      "max_snr": 1.5215651761305944,
+      "max_ion": "He II",
+      "second_snr": 1.3265680188278248,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.229,
+      "usable_complexes": 6,
+      "max_snr": 1.991590733442373,
+      "max_ion": "C II]",
+      "second_snr": 1.6612775307184073,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.23,
+      "usable_complexes": 6,
+      "max_snr": 1.3980375124565376,
+      "max_ion": "O III]",
+      "second_snr": 1.0761732462473008,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.231,
+      "usable_complexes": 6,
+      "max_snr": 0.11866960487707678,
+      "max_ion": "C IV",
+      "second_snr": -0.04907872215616496,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.232,
+      "usable_complexes": 6,
+      "max_snr": 0.6590004301613659,
+      "max_ion": "Mg II",
+      "second_snr": -0.48824091373292666,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.233,
+      "usable_complexes": 6,
+      "max_snr": 1.2108996609991391,
+      "max_ion": "C II]",
+      "second_snr": 0.6330886903158978,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.234,
+      "usable_complexes": 6,
+      "max_snr": 0.6003855636649964,
+      "max_ion": "C IV",
+      "second_snr": 0.5422788283278417,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.235,
+      "usable_complexes": 6,
+      "max_snr": 0.544064089169878,
+      "max_ion": "He II",
+      "second_snr": 0.27567409035987167,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.236,
+      "usable_complexes": 6,
+      "max_snr": 0.27324231542433985,
+      "max_ion": "C III]",
+      "second_snr": 0.24381186441992486,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.237,
+      "usable_complexes": 6,
+      "max_snr": 1.2475153014966651,
+      "max_ion": "C II]",
+      "second_snr": 0.5188875819346646,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.238,
+      "usable_complexes": 6,
+      "max_snr": 1.7566821722833663,
+      "max_ion": "He II",
+      "second_snr": 1.111933110846886,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.239,
+      "usable_complexes": 6,
+      "max_snr": 1.6182873966300966,
+      "max_ion": "He II",
+      "second_snr": 1.545323027738635,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.24,
+      "usable_complexes": 6,
+      "max_snr": 1.6415708231326467,
+      "max_ion": "O III]",
+      "second_snr": 0.7717708030485713,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.241,
+      "usable_complexes": 6,
+      "max_snr": 0.861453517524561,
+      "max_ion": "Mg II",
+      "second_snr": 0.308290856318792,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.242,
+      "usable_complexes": 6,
+      "max_snr": 1.4600015651178906,
+      "max_ion": "C III]",
+      "second_snr": 0.9577495261116553,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.243,
+      "usable_complexes": 6,
+      "max_snr": 1.5780214643997712,
+      "max_ion": "C III]",
+      "second_snr": 1.019995509661817,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.244,
+      "usable_complexes": 6,
+      "max_snr": 0.13657649013971082,
+      "max_ion": "O III]",
+      "second_snr": -0.2674142376895617,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.245,
+      "usable_complexes": 6,
+      "max_snr": 1.0669821134926962,
+      "max_ion": "O III]",
+      "second_snr": 0.5977913063950487,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.246,
+      "usable_complexes": 6,
+      "max_snr": 1.2485630382035318,
+      "max_ion": "C III]",
+      "second_snr": 1.0678150516299678,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.247,
+      "usable_complexes": 6,
+      "max_snr": 0.8633675278179755,
+      "max_ion": "C IV",
+      "second_snr": 0.8631756626345187,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.248,
+      "usable_complexes": 6,
+      "max_snr": 1.0604796629430635,
+      "max_ion": "C II]",
+      "second_snr": 0.7221305326952868,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.249,
+      "usable_complexes": 6,
+      "max_snr": 1.8512496920898749,
+      "max_ion": "Mg II",
+      "second_snr": 0.7343023329524779,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.25,
+      "usable_complexes": 6,
+      "max_snr": 1.1781668992305137,
+      "max_ion": "He II",
+      "second_snr": 0.6744278773345285,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.251,
+      "usable_complexes": 6,
+      "max_snr": 1.2232514639711234,
+      "max_ion": "He II",
+      "second_snr": 0.3949253259319982,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.252,
+      "usable_complexes": 6,
+      "max_snr": 0.9351058613223421,
+      "max_ion": "He II",
+      "second_snr": 0.19178237300541845,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.253,
+      "usable_complexes": 6,
+      "max_snr": 1.3676814380185027,
+      "max_ion": "He II",
+      "second_snr": -0.32149037608916486,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.254,
+      "usable_complexes": 6,
+      "max_snr": 1.0778926085289378,
+      "max_ion": "He II",
+      "second_snr": 0.2967512031311392,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.255,
+      "usable_complexes": 6,
+      "max_snr": 1.1786162877504083,
+      "max_ion": "O III]",
+      "second_snr": 0.5182167532066086,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.256,
+      "usable_complexes": 6,
+      "max_snr": 1.9498654478932742,
+      "max_ion": "C II]",
+      "second_snr": -0.11690560651167164,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.257,
+      "usable_complexes": 6,
+      "max_snr": 0.7206867279479163,
+      "max_ion": "Mg II",
+      "second_snr": 0.6631385239706887,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.258,
+      "usable_complexes": 6,
+      "max_snr": 1.5713456188234436,
+      "max_ion": "C III]",
+      "second_snr": 1.4083298886599918,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.259,
+      "usable_complexes": 6,
+      "max_snr": 0.678979668643675,
+      "max_ion": "C III]",
+      "second_snr": 0.6692512256261537,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.26,
+      "usable_complexes": 6,
+      "max_snr": 0.11863612201217653,
+      "max_ion": "C IV",
+      "second_snr": -0.19206677864263455,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.261,
+      "usable_complexes": 6,
+      "max_snr": 1.0011486200299216,
+      "max_ion": "C III]",
+      "second_snr": -0.24190513761984792,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.262,
+      "usable_complexes": 6,
+      "max_snr": 1.5089024071789048,
+      "max_ion": "C III]",
+      "second_snr": 0.649583452564365,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.263,
+      "usable_complexes": 6,
+      "max_snr": 1.1834899581979925,
+      "max_ion": "C III]",
+      "second_snr": 0.8813269878290871,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.264,
+      "usable_complexes": 6,
+      "max_snr": 0.7955472672970313,
+      "max_ion": "Mg II",
+      "second_snr": 0.7290982697787308,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.265,
+      "usable_complexes": 6,
+      "max_snr": 1.755708308667138,
+      "max_ion": "C IV",
+      "second_snr": 0.6006565961545791,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.266,
+      "usable_complexes": 6,
+      "max_snr": 1.8771868323230392,
+      "max_ion": "C IV",
+      "second_snr": 1.0494483891759743,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.267,
+      "usable_complexes": 6,
+      "max_snr": 1.1289127301576323,
+      "max_ion": "C IV",
+      "second_snr": 1.103781969972872,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.268,
+      "usable_complexes": 6,
+      "max_snr": 1.2950597150261094,
+      "max_ion": "O III]",
+      "second_snr": 0.7670812552194016,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.269,
+      "usable_complexes": 6,
+      "max_snr": 2.339180748693982,
+      "max_ion": "C II]",
+      "second_snr": 1.5564783594192753,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.27,
+      "usable_complexes": 6,
+      "max_snr": 1.5417766778485928,
+      "max_ion": "He II",
+      "second_snr": 0.9393167322062493,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.271,
+      "usable_complexes": 6,
+      "max_snr": 1.9326066363237069,
+      "max_ion": "C IV",
+      "second_snr": 1.0435627932968867,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.272,
+      "usable_complexes": 6,
+      "max_snr": 1.5974504434273145,
+      "max_ion": "C IV",
+      "second_snr": 1.5193051902002186,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.273,
+      "usable_complexes": 6,
+      "max_snr": 0.8046935628567504,
+      "max_ion": "C III]",
+      "second_snr": 0.35929356754954245,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.274,
+      "usable_complexes": 6,
+      "max_snr": 0.4230260627558688,
+      "max_ion": "C III]",
+      "second_snr": 0.3171492766111824,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.275,
+      "usable_complexes": 6,
+      "max_snr": -0.5124069308282524,
+      "max_ion": "He II",
+      "second_snr": -0.5136324581494488,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.276,
+      "usable_complexes": 6,
+      "max_snr": 1.2222794365456224,
+      "max_ion": "C II]",
+      "second_snr": 0.026038180129503142,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.277,
+      "usable_complexes": 6,
+      "max_snr": 0.9394124094257817,
+      "max_ion": "C II]",
+      "second_snr": 0.6258988086007098,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.278,
+      "usable_complexes": 6,
+      "max_snr": 0.5844521725527769,
+      "max_ion": "O III]",
+      "second_snr": 0.3517368025179927,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.279,
+      "usable_complexes": 6,
+      "max_snr": 0.9664344970633001,
+      "max_ion": "O III]",
+      "second_snr": 0.366869735577019,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.28,
+      "usable_complexes": 6,
+      "max_snr": 1.3302106325631697,
+      "max_ion": "Mg II",
+      "second_snr": 1.2471042487375918,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.281,
+      "usable_complexes": 6,
+      "max_snr": 0.8425856055012806,
+      "max_ion": "Mg II",
+      "second_snr": 0.4802615105890461,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.282,
+      "usable_complexes": 6,
+      "max_snr": 0.6510461830965882,
+      "max_ion": "C IV",
+      "second_snr": 0.022926574197557243,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.283,
+      "usable_complexes": 6,
+      "max_snr": 1.45836822117407,
+      "max_ion": "C II]",
+      "second_snr": 0.1045858650238209,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.284,
+      "usable_complexes": 6,
+      "max_snr": 0.972926051506798,
+      "max_ion": "O III]",
+      "second_snr": 0.5877004735931054,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.285,
+      "usable_complexes": 6,
+      "max_snr": 0.5337073966657807,
+      "max_ion": "O III]",
+      "second_snr": 0.2306165052765567,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.286,
+      "usable_complexes": 6,
+      "max_snr": 0.5946692456635658,
+      "max_ion": "C III]",
+      "second_snr": 0.36800164420003223,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.287,
+      "usable_complexes": 6,
+      "max_snr": 1.409454793008984,
+      "max_ion": "Mg II",
+      "second_snr": 0.4647244470210615,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.288,
+      "usable_complexes": 6,
+      "max_snr": 0.790573439924643,
+      "max_ion": "Mg II",
+      "second_snr": -0.01334070881298079,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.289,
+      "usable_complexes": 6,
+      "max_snr": 1.3165993772959226,
+      "max_ion": "He II",
+      "second_snr": 0.6803080142695492,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.29,
+      "usable_complexes": 6,
+      "max_snr": 1.7494682699767334,
+      "max_ion": "He II",
+      "second_snr": 0.624101548368448,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.291,
+      "usable_complexes": 6,
+      "max_snr": 1.2239915711897815,
+      "max_ion": "C II]",
+      "second_snr": 0.7379311228473324,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.292,
+      "usable_complexes": 6,
+      "max_snr": 0.7675516449103358,
+      "max_ion": "C II]",
+      "second_snr": 0.3914434844565185,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.293,
+      "usable_complexes": 6,
+      "max_snr": 0.8495004907324508,
+      "max_ion": "C IV",
+      "second_snr": 0.14643730788529627,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.294,
+      "usable_complexes": 6,
+      "max_snr": 1.3801235555967677,
+      "max_ion": "O III]",
+      "second_snr": 0.739415457445367,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.295,
+      "usable_complexes": 6,
+      "max_snr": 1.7380948032930776,
+      "max_ion": "Mg II",
+      "second_snr": 1.610266006116831,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.296,
+      "usable_complexes": 6,
+      "max_snr": 2.211118472698629,
+      "max_ion": "Mg II",
+      "second_snr": 1.022190607934346,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.297,
+      "usable_complexes": 6,
+      "max_snr": 0.762476844469314,
+      "max_ion": "O III]",
+      "second_snr": 0.4945241219612162,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.298,
+      "usable_complexes": 6,
+      "max_snr": 0.9842543817755579,
+      "max_ion": "O III]",
+      "second_snr": 0.9565181538626704,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.299,
+      "usable_complexes": 6,
+      "max_snr": 1.3697730772517993,
+      "max_ion": "C IV",
+      "second_snr": 0.5148996700871405,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.3,
+      "usable_complexes": 6,
+      "max_snr": 0.8711609127682414,
+      "max_ion": "C IV",
+      "second_snr": -0.2848962803720191,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.301,
+      "usable_complexes": 6,
+      "max_snr": 0.433428749738457,
+      "max_ion": "O III]",
+      "second_snr": 0.2390069488812638,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.302,
+      "usable_complexes": 6,
+      "max_snr": 1.0833468048488653,
+      "max_ion": "Mg II",
+      "second_snr": 0.4758561953202849,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.303,
+      "usable_complexes": 6,
+      "max_snr": 1.638741949723798,
+      "max_ion": "C IV",
+      "second_snr": 0.733775949429595,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.304,
+      "usable_complexes": 6,
+      "max_snr": 2.349210744556491,
+      "max_ion": "Mg II",
+      "second_snr": 1.8755511310647541,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.305,
+      "usable_complexes": 6,
+      "max_snr": 1.4722127200070483,
+      "max_ion": "C IV",
+      "second_snr": 0.9524003194818307,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.306,
+      "usable_complexes": 6,
+      "max_snr": 2.5438238518244236,
+      "max_ion": "C II]",
+      "second_snr": 0.9065836904496398,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.307,
+      "usable_complexes": 6,
+      "max_snr": 0.9395332109305691,
+      "max_ion": "C II]",
+      "second_snr": -0.3867536131027651,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.308,
+      "usable_complexes": 6,
+      "max_snr": 1.0882390718916863,
+      "max_ion": "O III]",
+      "second_snr": 0.315501586997183,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.309,
+      "usable_complexes": 6,
+      "max_snr": 1.7534734284271616,
+      "max_ion": "O III]",
+      "second_snr": 1.3327276473225351,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.31,
+      "usable_complexes": 6,
+      "max_snr": 1.2082810126183687,
+      "max_ion": "Mg II",
+      "second_snr": 0.7459859650290789,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.311,
+      "usable_complexes": 6,
+      "max_snr": 1.8156900138179513,
+      "max_ion": "C III]",
+      "second_snr": 1.0240510829046636,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.312,
+      "usable_complexes": 6,
+      "max_snr": 2.0886431102954015,
+      "max_ion": "C III]",
+      "second_snr": 1.2487858857239345,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.313,
+      "usable_complexes": 6,
+      "max_snr": 1.3195343017522614,
+      "max_ion": "Mg II",
+      "second_snr": 0.7357308150719509,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.314,
+      "usable_complexes": 6,
+      "max_snr": 0.1809276767503071,
+      "max_ion": "He II",
+      "second_snr": -0.05287245136437783,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.315,
+      "usable_complexes": 6,
+      "max_snr": 0.16560818202159988,
+      "max_ion": "C IV",
+      "second_snr": -0.13390150027243752,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.316,
+      "usable_complexes": 6,
+      "max_snr": 0.5803091401175273,
+      "max_ion": "C II]",
+      "second_snr": 0.1031609642740309,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.317,
+      "usable_complexes": 6,
+      "max_snr": 1.0428879104898983,
+      "max_ion": "C II]",
+      "second_snr": -0.05186724201219226,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.318,
+      "usable_complexes": 6,
+      "max_snr": 0.7805558955417347,
+      "max_ion": "C II]",
+      "second_snr": 0.5001397448887397,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.319,
+      "usable_complexes": 6,
+      "max_snr": 2.394714174481155,
+      "max_ion": "Mg II",
+      "second_snr": 1.1923253830265295,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.32,
+      "usable_complexes": 6,
+      "max_snr": 2.5382493775192705,
+      "max_ion": "Mg II",
+      "second_snr": 1.2622179536816038,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.321,
+      "usable_complexes": 6,
+      "max_snr": 1.4079346864137798,
+      "max_ion": "C IV",
+      "second_snr": 1.3075586621867716,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.322,
+      "usable_complexes": 6,
+      "max_snr": 1.867088277794198,
+      "max_ion": "C IV",
+      "second_snr": 1.7205004640002544,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.323,
+      "usable_complexes": 6,
+      "max_snr": 0.9985968482357064,
+      "max_ion": "O III]",
+      "second_snr": 0.8948237313673008,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.324,
+      "usable_complexes": 6,
+      "max_snr": 2.2533968644897078,
+      "max_ion": "C III]",
+      "second_snr": 1.49683367715068,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.325,
+      "usable_complexes": 6,
+      "max_snr": 2.593677900588958,
+      "max_ion": "C II]",
+      "second_snr": 2.303991815456005,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.326,
+      "usable_complexes": 6,
+      "max_snr": 1.7391020752532727,
+      "max_ion": "C III]",
+      "second_snr": 0.8291505935086262,
+      "second_ion": "Mg II"
+    },
+    {
+      "z": 2.327,
+      "usable_complexes": 6,
+      "max_snr": 1.143461342106069,
+      "max_ion": "C III]",
+      "second_snr": 0.9403820905891396,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.328,
+      "usable_complexes": 6,
+      "max_snr": 3.5984159619808844,
+      "max_ion": "Mg II",
+      "second_snr": 1.372347030020397,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.329,
+      "usable_complexes": 6,
+      "max_snr": 1.8568221972526315,
+      "max_ion": "C III]",
+      "second_snr": 1.0822029235182995,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.33,
+      "usable_complexes": 6,
+      "max_snr": 1.0736158483844713,
+      "max_ion": "Mg II",
+      "second_snr": 0.8673315535070257,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.331,
+      "usable_complexes": 6,
+      "max_snr": 1.552196313274732,
+      "max_ion": "Mg II",
+      "second_snr": -0.177141162762691,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.332,
+      "usable_complexes": 5,
+      "max_snr": 0.2612333858658891,
+      "max_ion": "C II]",
+      "second_snr": -0.3695289083121005,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.333,
+      "usable_complexes": 5,
+      "max_snr": 0.2527780167202138,
+      "max_ion": "C III]",
+      "second_snr": 0.17315432515363888,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.334,
+      "usable_complexes": 5,
+      "max_snr": 1.4511319826516509,
+      "max_ion": "C II]",
+      "second_snr": 0.10748730190357368,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.335,
+      "usable_complexes": 5,
+      "max_snr": 1.0509948885652116,
+      "max_ion": "He II",
+      "second_snr": 0.9064359118349646,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.336,
+      "usable_complexes": 5,
+      "max_snr": 1.5877118463593496,
+      "max_ion": "He II",
+      "second_snr": 0.743122122569506,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.337,
+      "usable_complexes": 5,
+      "max_snr": 0.9598675281118416,
+      "max_ion": "He II",
+      "second_snr": 0.7901392226538961,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.338,
+      "usable_complexes": 5,
+      "max_snr": 1.2663332583725744,
+      "max_ion": "O III]",
+      "second_snr": 0.347767624728193,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.339,
+      "usable_complexes": 5,
+      "max_snr": 2.0472871371350756,
+      "max_ion": "O III]",
+      "second_snr": 0.6779471538574062,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.34,
+      "usable_complexes": 5,
+      "max_snr": 0.7657979354016055,
+      "max_ion": "O III]",
+      "second_snr": 0.6944366639533596,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.341,
+      "usable_complexes": 5,
+      "max_snr": 0.32520828127025847,
+      "max_ion": "C IV",
+      "second_snr": 0.2555000193030934,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.342,
+      "usable_complexes": 5,
+      "max_snr": 0.8453072197783581,
+      "max_ion": "O III]",
+      "second_snr": 0.41579393178053153,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.343,
+      "usable_complexes": 5,
+      "max_snr": 0.7605884027923149,
+      "max_ion": "C II]",
+      "second_snr": 0.7353704464795952,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.344,
+      "usable_complexes": 5,
+      "max_snr": 1.921996947398254,
+      "max_ion": "C II]",
+      "second_snr": 1.280761056997064,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.345,
+      "usable_complexes": 5,
+      "max_snr": 0.9225494175386431,
+      "max_ion": "He II",
+      "second_snr": 0.8502465123225402,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.346,
+      "usable_complexes": 5,
+      "max_snr": 1.4231635183011455,
+      "max_ion": "C III]",
+      "second_snr": 1.2074078924608025,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.347,
+      "usable_complexes": 5,
+      "max_snr": 0.5670262485593283,
+      "max_ion": "He II",
+      "second_snr": -0.012671572585333416,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.348,
+      "usable_complexes": 5,
+      "max_snr": 0.9429848565963972,
+      "max_ion": "O III]",
+      "second_snr": 0.1859558147374855,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.349,
+      "usable_complexes": 5,
+      "max_snr": 2.4783564903814894,
+      "max_ion": "O III]",
+      "second_snr": 1.6031741641990707,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.35,
+      "usable_complexes": 5,
+      "max_snr": 1.7854599066675527,
+      "max_ion": "He II",
+      "second_snr": 1.6435838400383207,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.351,
+      "usable_complexes": 5,
+      "max_snr": 1.2206418526715597,
+      "max_ion": "C IV",
+      "second_snr": 0.8768230105943404,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.352,
+      "usable_complexes": 5,
+      "max_snr": 0.20362806725471544,
+      "max_ion": "C II]",
+      "second_snr": -0.3538242017538363,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.353,
+      "usable_complexes": 5,
+      "max_snr": 1.8560249116885574,
+      "max_ion": "O III]",
+      "second_snr": 1.4763869620151822,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.354,
+      "usable_complexes": 5,
+      "max_snr": 3.0718962628048243,
+      "max_ion": "O III]",
+      "second_snr": 1.8792722325715443,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.355,
+      "usable_complexes": 5,
+      "max_snr": 1.2795077334576603,
+      "max_ion": "O III]",
+      "second_snr": 0.5293668080306859,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.356,
+      "usable_complexes": 5,
+      "max_snr": 0.13296720356138536,
+      "max_ion": "C III]",
+      "second_snr": 0.022226063197170028,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.357,
+      "usable_complexes": 5,
+      "max_snr": 0.6770578809288769,
+      "max_ion": "C II]",
+      "second_snr": 0.35513565599830704,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.358,
+      "usable_complexes": 5,
+      "max_snr": 0.5351569743670339,
+      "max_ion": "C III]",
+      "second_snr": 0.15222595843308642,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.359,
+      "usable_complexes": 5,
+      "max_snr": 0.29517390096950696,
+      "max_ion": "C IV",
+      "second_snr": -0.16185491572061442,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.36,
+      "usable_complexes": 5,
+      "max_snr": 0.3135048000932098,
+      "max_ion": "He II",
+      "second_snr": 0.2782310905319556,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.361,
+      "usable_complexes": 5,
+      "max_snr": 1.1278710733133759,
+      "max_ion": "He II",
+      "second_snr": 0.2031679332317485,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.362,
+      "usable_complexes": 5,
+      "max_snr": 0.7886334943418616,
+      "max_ion": "He II",
+      "second_snr": 0.13312782240767734,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.363,
+      "usable_complexes": 5,
+      "max_snr": 1.3041078470933498,
+      "max_ion": "He II",
+      "second_snr": 1.057254167479804,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.364,
+      "usable_complexes": 5,
+      "max_snr": 2.283255528313631,
+      "max_ion": "C IV",
+      "second_snr": 1.4327127594741917,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.365,
+      "usable_complexes": 5,
+      "max_snr": 2.4276699795017103,
+      "max_ion": "O III]",
+      "second_snr": 1.6089599770869905,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.366,
+      "usable_complexes": 5,
+      "max_snr": 1.8747876020373386,
+      "max_ion": "O III]",
+      "second_snr": 0.9106920159057712,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.367,
+      "usable_complexes": 5,
+      "max_snr": 1.078407318727065,
+      "max_ion": "C II]",
+      "second_snr": 0.9854373148671005,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.368,
+      "usable_complexes": 5,
+      "max_snr": 0.6048483865127553,
+      "max_ion": "C II]",
+      "second_snr": 0.15994899571839188,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.369,
+      "usable_complexes": 5,
+      "max_snr": 1.2088129315181997,
+      "max_ion": "C III]",
+      "second_snr": 1.101640007474705,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.37,
+      "usable_complexes": 5,
+      "max_snr": 1.203296368296444,
+      "max_ion": "C IV",
+      "second_snr": 0.9696430405843036,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.371,
+      "usable_complexes": 5,
+      "max_snr": 0.5841163749837454,
+      "max_ion": "He II",
+      "second_snr": 0.3916125686226177,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.372,
+      "usable_complexes": 5,
+      "max_snr": 1.5830576944869288,
+      "max_ion": "C II]",
+      "second_snr": 0.35580309777114705,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.373,
+      "usable_complexes": 5,
+      "max_snr": 0.8585375624888518,
+      "max_ion": "He II",
+      "second_snr": 0.5132708122725406,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.374,
+      "usable_complexes": 5,
+      "max_snr": 1.0491683168943313,
+      "max_ion": "He II",
+      "second_snr": 0.5278835133698037,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.375,
+      "usable_complexes": 5,
+      "max_snr": 0.3211352204572778,
+      "max_ion": "O III]",
+      "second_snr": 0.2981976489501702,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.376,
+      "usable_complexes": 5,
+      "max_snr": 0.11980652759495584,
+      "max_ion": "O III]",
+      "second_snr": 0.015123006647893223,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.377,
+      "usable_complexes": 5,
+      "max_snr": 0.04604575131601899,
+      "max_ion": "O III]",
+      "second_snr": -0.5688232780628324,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.378,
+      "usable_complexes": 5,
+      "max_snr": 1.0908885045884185,
+      "max_ion": "C II]",
+      "second_snr": -0.34406933726817246,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.379,
+      "usable_complexes": 5,
+      "max_snr": 1.4122675455569704,
+      "max_ion": "C II]",
+      "second_snr": 0.0003076482800341287,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.38,
+      "usable_complexes": 5,
+      "max_snr": 0.5921169424367715,
+      "max_ion": "C IV",
+      "second_snr": 0.32863559447520013,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.381,
+      "usable_complexes": 5,
+      "max_snr": 0.8869609793161781,
+      "max_ion": "He II",
+      "second_snr": 0.5190795794892737,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.382,
+      "usable_complexes": 5,
+      "max_snr": 1.1923643119373715,
+      "max_ion": "He II",
+      "second_snr": 0.6946778233461529,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.383,
+      "usable_complexes": 5,
+      "max_snr": 0.5893903156454329,
+      "max_ion": "O III]",
+      "second_snr": 0.2784482456835513,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.384,
+      "usable_complexes": 5,
+      "max_snr": 1.5751182714539775,
+      "max_ion": "C III]",
+      "second_snr": 1.27649075627754,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.385,
+      "usable_complexes": 5,
+      "max_snr": 1.6325541325257866,
+      "max_ion": "C III]",
+      "second_snr": 1.5139744473527819,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.386,
+      "usable_complexes": 5,
+      "max_snr": 1.585146627328879,
+      "max_ion": "C IV",
+      "second_snr": 0.6872176623078744,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.387,
+      "usable_complexes": 5,
+      "max_snr": 0.141440772645507,
+      "max_ion": "C IV",
+      "second_snr": -0.5766134899532341,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.388,
+      "usable_complexes": 5,
+      "max_snr": 1.2797590585841077,
+      "max_ion": "C II]",
+      "second_snr": -0.19667092290727842,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.389,
+      "usable_complexes": 5,
+      "max_snr": 1.2012891776803174,
+      "max_ion": "C II]",
+      "second_snr": 0.34676971215052776,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.39,
+      "usable_complexes": 5,
+      "max_snr": 1.5788976868810332,
+      "max_ion": "He II",
+      "second_snr": 0.21336100558260562,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.391,
+      "usable_complexes": 5,
+      "max_snr": 2.6982273180851872,
+      "max_ion": "He II",
+      "second_snr": 1.2438779913235956,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.392,
+      "usable_complexes": 5,
+      "max_snr": 1.5678055247298723,
+      "max_ion": "C IV",
+      "second_snr": 1.0959361622902126,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.393,
+      "usable_complexes": 5,
+      "max_snr": 0.9516395381021412,
+      "max_ion": "C II]",
+      "second_snr": 0.5915705911409793,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.394,
+      "usable_complexes": 5,
+      "max_snr": 1.294711620837328,
+      "max_ion": "C II]",
+      "second_snr": 0.7391578695018811,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.395,
+      "usable_complexes": 5,
+      "max_snr": 2.786366134501487,
+      "max_ion": "He II",
+      "second_snr": 0.634813463009421,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.396,
+      "usable_complexes": 5,
+      "max_snr": 1.6702038163401416,
+      "max_ion": "He II",
+      "second_snr": 0.49170329297461096,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.397,
+      "usable_complexes": 5,
+      "max_snr": 0.5795940458799286,
+      "max_ion": "C III]",
+      "second_snr": 0.494817029418317,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.398,
+      "usable_complexes": 5,
+      "max_snr": 0.6807377089512205,
+      "max_ion": "C II]",
+      "second_snr": 0.4906938831238086,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.399,
+      "usable_complexes": 5,
+      "max_snr": 0.6693015634772497,
+      "max_ion": "C III]",
+      "second_snr": 0.3226060871502148,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.4,
+      "usable_complexes": 5,
+      "max_snr": 2.22412889105664,
+      "max_ion": "C III]",
+      "second_snr": 0.15295153632746192,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.401,
+      "usable_complexes": 5,
+      "max_snr": 2.0062608583010317,
+      "max_ion": "C III]",
+      "second_snr": -0.08376387211202621,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.402,
+      "usable_complexes": 5,
+      "max_snr": 0.4416524968039671,
+      "max_ion": "C III]",
+      "second_snr": -0.24389168661289234,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.403,
+      "usable_complexes": 5,
+      "max_snr": 0.6819169723740423,
+      "max_ion": "O III]",
+      "second_snr": 0.6006784148953876,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.404,
+      "usable_complexes": 5,
+      "max_snr": 1.2641826547668304,
+      "max_ion": "O III]",
+      "second_snr": 0.5544380314136116,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.405,
+      "usable_complexes": 5,
+      "max_snr": 1.1062313467502265,
+      "max_ion": "O III]",
+      "second_snr": 0.5924530780433874,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.406,
+      "usable_complexes": 5,
+      "max_snr": 2.439361825432385,
+      "max_ion": "He II",
+      "second_snr": 0.5767144844466563,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.407,
+      "usable_complexes": 5,
+      "max_snr": 3.2347251533710715,
+      "max_ion": "He II",
+      "second_snr": 1.1352015245868643,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.408,
+      "usable_complexes": 5,
+      "max_snr": 2.4689104257302783,
+      "max_ion": "He II",
+      "second_snr": 1.1491502517351002,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.409,
+      "usable_complexes": 5,
+      "max_snr": 1.812054848964012,
+      "max_ion": "He II",
+      "second_snr": 1.262324659356424,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.41,
+      "usable_complexes": 5,
+      "max_snr": 1.2693612009593374,
+      "max_ion": "C II]",
+      "second_snr": 1.025893661426112,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.411,
+      "usable_complexes": 5,
+      "max_snr": 1.4188627288344497,
+      "max_ion": "C II]",
+      "second_snr": -0.03563163973419419,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.412,
+      "usable_complexes": 5,
+      "max_snr": 0.6121697116459012,
+      "max_ion": "C II]",
+      "second_snr": 0.45326035191143516,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.413,
+      "usable_complexes": 5,
+      "max_snr": 0.5017298371160335,
+      "max_ion": "C III]",
+      "second_snr": 0.26158861536194206,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.414,
+      "usable_complexes": 5,
+      "max_snr": 1.720871193520849,
+      "max_ion": "C IV",
+      "second_snr": 1.1577222318986495,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.415,
+      "usable_complexes": 5,
+      "max_snr": 1.9245998705659721,
+      "max_ion": "C IV",
+      "second_snr": 1.2063963816494194,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.416,
+      "usable_complexes": 5,
+      "max_snr": 0.8195847596849468,
+      "max_ion": "C III]",
+      "second_snr": 0.3877720603448185,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.417,
+      "usable_complexes": 5,
+      "max_snr": 0.41199213005206253,
+      "max_ion": "O III]",
+      "second_snr": 0.24902944356077397,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.418,
+      "usable_complexes": 5,
+      "max_snr": 1.0413216218119414,
+      "max_ion": "C II]",
+      "second_snr": 0.0950135877016428,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.419,
+      "usable_complexes": 5,
+      "max_snr": 0.6083338692722335,
+      "max_ion": "O III]",
+      "second_snr": 0.511073456366172,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.42,
+      "usable_complexes": 5,
+      "max_snr": 0.9532130401119061,
+      "max_ion": "O III]",
+      "second_snr": 0.08105224890022887,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.421,
+      "usable_complexes": 5,
+      "max_snr": 0.8648443171141658,
+      "max_ion": "C IV",
+      "second_snr": 0.7637384624032131,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.422,
+      "usable_complexes": 5,
+      "max_snr": 0.48511760182740543,
+      "max_ion": "C II]",
+      "second_snr": 0.4596886253935107,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.423,
+      "usable_complexes": 5,
+      "max_snr": 0.11667166894734193,
+      "max_ion": "C III]",
+      "second_snr": -0.608637243289351,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.424,
+      "usable_complexes": 5,
+      "max_snr": 0.06999644016716401,
+      "max_ion": "C III]",
+      "second_snr": -0.5263302852895895,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.425,
+      "usable_complexes": 5,
+      "max_snr": 0.6311547257909943,
+      "max_ion": "O III]",
+      "second_snr": 0.5800504041627514,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.426,
+      "usable_complexes": 5,
+      "max_snr": 1.6210660068749427,
+      "max_ion": "C II]",
+      "second_snr": 1.1491549879329384,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.427,
+      "usable_complexes": 5,
+      "max_snr": 1.513803281099695,
+      "max_ion": "C IV",
+      "second_snr": 1.2955322541868841,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.428,
+      "usable_complexes": 5,
+      "max_snr": 0.8106426263312563,
+      "max_ion": "He II",
+      "second_snr": 0.47481433548109403,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.429,
+      "usable_complexes": 5,
+      "max_snr": 0.37395417970058126,
+      "max_ion": "C IV",
+      "second_snr": 0.24804301990442498,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.43,
+      "usable_complexes": 5,
+      "max_snr": 1.438422907683448,
+      "max_ion": "C IV",
+      "second_snr": -0.16778690392421763,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.431,
+      "usable_complexes": 5,
+      "max_snr": 1.4490086131913782,
+      "max_ion": "C IV",
+      "second_snr": 0.6398849732342502,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.432,
+      "usable_complexes": 5,
+      "max_snr": 0.7082462839331264,
+      "max_ion": "C II]",
+      "second_snr": 0.4315328373225007,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.433,
+      "usable_complexes": 5,
+      "max_snr": 0.7227799072055758,
+      "max_ion": "C II]",
+      "second_snr": 0.47780664308473997,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.434,
+      "usable_complexes": 5,
+      "max_snr": 0.8490448031002096,
+      "max_ion": "C IV",
+      "second_snr": 0.5491315057836829,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.435,
+      "usable_complexes": 5,
+      "max_snr": 0.49489973657527886,
+      "max_ion": "C IV",
+      "second_snr": 0.18893380615323335,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.436,
+      "usable_complexes": 5,
+      "max_snr": 1.4814714233185409,
+      "max_ion": "O III]",
+      "second_snr": 0.16972704474358635,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.437,
+      "usable_complexes": 5,
+      "max_snr": 1.411600554877009,
+      "max_ion": "C II]",
+      "second_snr": 1.3889977678926706,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.438,
+      "usable_complexes": 5,
+      "max_snr": 2.0149658068205407,
+      "max_ion": "C II]",
+      "second_snr": 1.6063607856348547,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.439,
+      "usable_complexes": 5,
+      "max_snr": 2.0756621888238036,
+      "max_ion": "C III]",
+      "second_snr": 1.5758327087623156,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.44,
+      "usable_complexes": 5,
+      "max_snr": 0.8864282828881255,
+      "max_ion": "C IV",
+      "second_snr": 0.40100952702028375,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.441,
+      "usable_complexes": 5,
+      "max_snr": 0.5766440653260301,
+      "max_ion": "C III]",
+      "second_snr": 0.2519105289984503,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.442,
+      "usable_complexes": 5,
+      "max_snr": 1.9573446519497248,
+      "max_ion": "C III]",
+      "second_snr": -0.2603373469515786,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.443,
+      "usable_complexes": 5,
+      "max_snr": 1.1455865675001107,
+      "max_ion": "C III]",
+      "second_snr": 0.049860995539917415,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.444,
+      "usable_complexes": 5,
+      "max_snr": 0.2173339118613698,
+      "max_ion": "He II",
+      "second_snr": -0.6336235543040526,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.445,
+      "usable_complexes": 5,
+      "max_snr": 1.2438055485123658,
+      "max_ion": "C II]",
+      "second_snr": 0.33059589048445165,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.446,
+      "usable_complexes": 5,
+      "max_snr": 0.9471510670740615,
+      "max_ion": "C II]",
+      "second_snr": 0.26714910939896513,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.447,
+      "usable_complexes": 5,
+      "max_snr": 1.8830336982953149,
+      "max_ion": "O III]",
+      "second_snr": 0.9580842620399028,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.448,
+      "usable_complexes": 5,
+      "max_snr": 2.1315618741476974,
+      "max_ion": "O III]",
+      "second_snr": 0.6183344865859677,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.449,
+      "usable_complexes": 5,
+      "max_snr": 0.016324736313327533,
+      "max_ion": "C III]",
+      "second_snr": -0.2108103495393148,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.45,
+      "usable_complexes": 5,
+      "max_snr": 0.49965466304838424,
+      "max_ion": "C II]",
+      "second_snr": 0.17353985313475043,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.451,
+      "usable_complexes": 5,
+      "max_snr": 1.5822303417540908,
+      "max_ion": "C II]",
+      "second_snr": -0.11909815727493217,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.452,
+      "usable_complexes": 5,
+      "max_snr": 1.2773439724081626,
+      "max_ion": "C II]",
+      "second_snr": 0.7763676941404228,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.453,
+      "usable_complexes": 5,
+      "max_snr": 1.8083819925066127,
+      "max_ion": "O III]",
+      "second_snr": 0.3273299180807046,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.454,
+      "usable_complexes": 5,
+      "max_snr": 0.5101979322300084,
+      "max_ion": "O III]",
+      "second_snr": -0.6484998260511311,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.455,
+      "usable_complexes": 5,
+      "max_snr": -0.240656477904953,
+      "max_ion": "C III]",
+      "second_snr": -0.6231549102262725,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.456,
+      "usable_complexes": 5,
+      "max_snr": 0.5894328438246493,
+      "max_ion": "He II",
+      "second_snr": 0.5099852877458583,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.457,
+      "usable_complexes": 5,
+      "max_snr": 1.7775759113561034,
+      "max_ion": "He II",
+      "second_snr": 1.6007513659230954,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.458,
+      "usable_complexes": 5,
+      "max_snr": 1.6348311057973324,
+      "max_ion": "C IV",
+      "second_snr": 1.1600181341346374,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.459,
+      "usable_complexes": 5,
+      "max_snr": 1.9667961155424631,
+      "max_ion": "O III]",
+      "second_snr": 1.4696999845564924,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.46,
+      "usable_complexes": 5,
+      "max_snr": 2.007719125605299,
+      "max_ion": "C III]",
+      "second_snr": 1.2975214885657262,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.461,
+      "usable_complexes": 5,
+      "max_snr": 0.8702553332140989,
+      "max_ion": "C III]",
+      "second_snr": 0.2881207480831583,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.462,
+      "usable_complexes": 5,
+      "max_snr": 1.340487565102223,
+      "max_ion": "He II",
+      "second_snr": 1.0041839704225104,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.463,
+      "usable_complexes": 5,
+      "max_snr": 1.0137100590399857,
+      "max_ion": "He II",
+      "second_snr": -0.007630801899684958,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.464,
+      "usable_complexes": 5,
+      "max_snr": 0.8272543330649325,
+      "max_ion": "O III]",
+      "second_snr": 0.7168920822895142,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.465,
+      "usable_complexes": 5,
+      "max_snr": 0.9175711759014458,
+      "max_ion": "O III]",
+      "second_snr": 0.758933527845729,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.466,
+      "usable_complexes": 5,
+      "max_snr": -0.20032049914370517,
+      "max_ion": "O III]",
+      "second_snr": -0.40900477840160165,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.467,
+      "usable_complexes": 5,
+      "max_snr": -0.19502855430417818,
+      "max_ion": "He II",
+      "second_snr": -1.171952774750378,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.468,
+      "usable_complexes": 5,
+      "max_snr": 0.7478512244380318,
+      "max_ion": "C II]",
+      "second_snr": -0.10532086214447034,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.469,
+      "usable_complexes": 5,
+      "max_snr": 1.199192930567566,
+      "max_ion": "C II]",
+      "second_snr": -0.10211189799638622,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.47,
+      "usable_complexes": 5,
+      "max_snr": 0.321810599952914,
+      "max_ion": "C IV",
+      "second_snr": 0.03171701975899723,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.471,
+      "usable_complexes": 5,
+      "max_snr": 0.6429473119684909,
+      "max_ion": "C III]",
+      "second_snr": -0.014346000383727844,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.472,
+      "usable_complexes": 5,
+      "max_snr": 2.131074785547383,
+      "max_ion": "C III]",
+      "second_snr": -0.08856835523769951,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.473,
+      "usable_complexes": 5,
+      "max_snr": 2.271069526809984,
+      "max_ion": "C III]",
+      "second_snr": -0.11506273358198077,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.474,
+      "usable_complexes": 5,
+      "max_snr": 2.715123141169811,
+      "max_ion": "C III]",
+      "second_snr": 0.2810710855500798,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.475,
+      "usable_complexes": 5,
+      "max_snr": 1.6130406275499327,
+      "max_ion": "C III]",
+      "second_snr": 0.8429524221754519,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.476,
+      "usable_complexes": 5,
+      "max_snr": 2.05280653925399,
+      "max_ion": "O III]",
+      "second_snr": 1.1458454795228454,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.477,
+      "usable_complexes": 5,
+      "max_snr": 1.747018361871569,
+      "max_ion": "O III]",
+      "second_snr": 0.47444099158635045,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.478,
+      "usable_complexes": 5,
+      "max_snr": 0.8255936929041079,
+      "max_ion": "C II]",
+      "second_snr": 0.5618929378976983,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.479,
+      "usable_complexes": 5,
+      "max_snr": 1.2685287266540812,
+      "max_ion": "He II",
+      "second_snr": 1.058549820189936,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.48,
+      "usable_complexes": 5,
+      "max_snr": 1.5357770146537388,
+      "max_ion": "C IV",
+      "second_snr": 1.5156768336234114,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.481,
+      "usable_complexes": 5,
+      "max_snr": 1.4712552441754805,
+      "max_ion": "He II",
+      "second_snr": 1.0187180439582844,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.482,
+      "usable_complexes": 5,
+      "max_snr": 0.8978388161807979,
+      "max_ion": "He II",
+      "second_snr": 0.3745921751757214,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.483,
+      "usable_complexes": 5,
+      "max_snr": -0.06655563780417587,
+      "max_ion": "He II",
+      "second_snr": -0.22831403302340508,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.484,
+      "usable_complexes": 5,
+      "max_snr": 0.23439353680570368,
+      "max_ion": "C III]",
+      "second_snr": 0.1317324516780723,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.485,
+      "usable_complexes": 5,
+      "max_snr": 0.5891174004729783,
+      "max_ion": "C IV",
+      "second_snr": -0.005549657649300222,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.486,
+      "usable_complexes": 5,
+      "max_snr": 2.10919974690127,
+      "max_ion": "C IV",
+      "second_snr": 0.4839388213316205,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.487,
+      "usable_complexes": 5,
+      "max_snr": 1.1703460478038872,
+      "max_ion": "O III]",
+      "second_snr": 1.1531705886785524,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.488,
+      "usable_complexes": 5,
+      "max_snr": 2.7090045908550535,
+      "max_ion": "C II]",
+      "second_snr": 1.126729633452716,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.489,
+      "usable_complexes": 5,
+      "max_snr": 0.6224589146896293,
+      "max_ion": "C II]",
+      "second_snr": 0.37704492100087883,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.49,
+      "usable_complexes": 5,
+      "max_snr": 1.0733063530215452,
+      "max_ion": "He II",
+      "second_snr": 1.0016270458035197,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.491,
+      "usable_complexes": 5,
+      "max_snr": 0.8112672930577903,
+      "max_ion": "C III]",
+      "second_snr": 0.38508961614274023,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.492,
+      "usable_complexes": 5,
+      "max_snr": -0.13393421746464376,
+      "max_ion": "C IV",
+      "second_snr": -0.392913143879404,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.493,
+      "usable_complexes": 5,
+      "max_snr": 0.35425856771696485,
+      "max_ion": "O III]",
+      "second_snr": 0.2225995029979506,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.494,
+      "usable_complexes": 5,
+      "max_snr": 1.1027068909140392,
+      "max_ion": "O III]",
+      "second_snr": 0.2135861493488655,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.495,
+      "usable_complexes": 5,
+      "max_snr": 0.5783678151716084,
+      "max_ion": "O III]",
+      "second_snr": -0.28307321096924193,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.496,
+      "usable_complexes": 5,
+      "max_snr": 0.7078293593391666,
+      "max_ion": "He II",
+      "second_snr": 0.5295250304297558,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.497,
+      "usable_complexes": 5,
+      "max_snr": 0.683709686387221,
+      "max_ion": "C III]",
+      "second_snr": 0.5719645413550626,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.498,
+      "usable_complexes": 5,
+      "max_snr": 1.0255528342030056,
+      "max_ion": "C II]",
+      "second_snr": 0.049618339745045155,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.499,
+      "usable_complexes": 5,
+      "max_snr": 0.8630188507826844,
+      "max_ion": "C II]",
+      "second_snr": 0.7474318078814806,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.5,
+      "usable_complexes": 5,
+      "max_snr": 0.9979534610190559,
+      "max_ion": "C IV",
+      "second_snr": 0.2456640503459991,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.501,
+      "usable_complexes": 5,
+      "max_snr": 1.8297044508384777,
+      "max_ion": "He II",
+      "second_snr": 0.9135565609914289,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.502,
+      "usable_complexes": 5,
+      "max_snr": 2.793455146916372,
+      "max_ion": "He II",
+      "second_snr": 1.2852111395223125,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.503,
+      "usable_complexes": 5,
+      "max_snr": 1.4180384806378306,
+      "max_ion": "He II",
+      "second_snr": 0.868565060223462,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.504,
+      "usable_complexes": 5,
+      "max_snr": 0.79100503236806,
+      "max_ion": "C III]",
+      "second_snr": 0.17167874305763978,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.505,
+      "usable_complexes": 5,
+      "max_snr": 1.2850408758398169,
+      "max_ion": "C III]",
+      "second_snr": 1.1411642124310117,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.506,
+      "usable_complexes": 5,
+      "max_snr": 1.4544465653818364,
+      "max_ion": "O III]",
+      "second_snr": 0.8974663379763421,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.507,
+      "usable_complexes": 5,
+      "max_snr": 1.8064510276546712,
+      "max_ion": "He II",
+      "second_snr": 0.38294069384993323,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.508,
+      "usable_complexes": 5,
+      "max_snr": 1.00440381276378,
+      "max_ion": "C II]",
+      "second_snr": 0.2217372300531673,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.509,
+      "usable_complexes": 5,
+      "max_snr": 1.2850876671620408,
+      "max_ion": "C III]",
+      "second_snr": 0.4687072100870236,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.51,
+      "usable_complexes": 5,
+      "max_snr": 0.9294252727497293,
+      "max_ion": "C III]",
+      "second_snr": 0.30152326328307144,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.511,
+      "usable_complexes": 5,
+      "max_snr": 1.087459196639928,
+      "max_ion": "C IV",
+      "second_snr": -0.13511397331813985,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.512,
+      "usable_complexes": 5,
+      "max_snr": 0.9698380000828557,
+      "max_ion": "C IV",
+      "second_snr": -0.2857277200380107,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.513,
+      "usable_complexes": 5,
+      "max_snr": 0.875960776491109,
+      "max_ion": "C II]",
+      "second_snr": 0.5504849372222053,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.514,
+      "usable_complexes": 5,
+      "max_snr": 1.362435619448098,
+      "max_ion": "O III]",
+      "second_snr": 0.5304705869085313,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.515,
+      "usable_complexes": 5,
+      "max_snr": 1.3392460109481545,
+      "max_ion": "O III]",
+      "second_snr": 0.6154650460266942,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.516,
+      "usable_complexes": 5,
+      "max_snr": 0.06708929387882782,
+      "max_ion": "C IV",
+      "second_snr": -0.13477663215275215,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.517,
+      "usable_complexes": 5,
+      "max_snr": 0.924137518297464,
+      "max_ion": "C IV",
+      "second_snr": 0.47335239940114077,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.518,
+      "usable_complexes": 5,
+      "max_snr": 0.5626752195355416,
+      "max_ion": "C IV",
+      "second_snr": 0.39355064072672113,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.519,
+      "usable_complexes": 5,
+      "max_snr": 0.6708570719740038,
+      "max_ion": "He II",
+      "second_snr": 0.5734520444248232,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.52,
+      "usable_complexes": 5,
+      "max_snr": 1.4603368502620115,
+      "max_ion": "He II",
+      "second_snr": -0.4503652053780592,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.521,
+      "usable_complexes": 5,
+      "max_snr": 0.0017996492225812082,
+      "max_ion": "He II",
+      "second_snr": -0.12837477321633772,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.522,
+      "usable_complexes": 5,
+      "max_snr": 0.44838293836288184,
+      "max_ion": "C II]",
+      "second_snr": 0.0011519114069874744,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.523,
+      "usable_complexes": 5,
+      "max_snr": 0.6693628265408559,
+      "max_ion": "C II]",
+      "second_snr": 0.22222333571412956,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.524,
+      "usable_complexes": 5,
+      "max_snr": 0.8818078936639473,
+      "max_ion": "O III]",
+      "second_snr": 0.3217866833317843,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.525,
+      "usable_complexes": 5,
+      "max_snr": 1.087174308833698,
+      "max_ion": "O III]",
+      "second_snr": 0.7394033451616926,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.526,
+      "usable_complexes": 5,
+      "max_snr": 1.5247077499403023,
+      "max_ion": "O III]",
+      "second_snr": 0.9663158769184015,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.527,
+      "usable_complexes": 5,
+      "max_snr": 0.6791703876926649,
+      "max_ion": "C III]",
+      "second_snr": 0.6192369823182756,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.528,
+      "usable_complexes": 5,
+      "max_snr": 1.2660758006969512,
+      "max_ion": "C IV",
+      "second_snr": 0.812539371265567,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.529,
+      "usable_complexes": 5,
+      "max_snr": 1.7756699364558362,
+      "max_ion": "C III]",
+      "second_snr": 1.420629103819543,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.53,
+      "usable_complexes": 5,
+      "max_snr": 1.7508187448873085,
+      "max_ion": "He II",
+      "second_snr": 1.53315890927112,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.531,
+      "usable_complexes": 5,
+      "max_snr": 1.7422796641488814,
+      "max_ion": "He II",
+      "second_snr": 0.48146319602299437,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.532,
+      "usable_complexes": 5,
+      "max_snr": 0.16999841980872807,
+      "max_ion": "He II",
+      "second_snr": -0.4036767783202029,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.533,
+      "usable_complexes": 5,
+      "max_snr": -0.014307354075417065,
+      "max_ion": "C III]",
+      "second_snr": -0.3184478495524325,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.534,
+      "usable_complexes": 5,
+      "max_snr": 0.49388433228441103,
+      "max_ion": "He II",
+      "second_snr": 0.05088647203072297,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.535,
+      "usable_complexes": 5,
+      "max_snr": 0.9565376028016684,
+      "max_ion": "C II]",
+      "second_snr": 0.9401157469131962,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.536,
+      "usable_complexes": 5,
+      "max_snr": 0.5156876060965564,
+      "max_ion": "C II]",
+      "second_snr": -0.18416925790460031,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.537,
+      "usable_complexes": 5,
+      "max_snr": 0.6062099092124598,
+      "max_ion": "C II]",
+      "second_snr": 0.12062244224881608,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.538,
+      "usable_complexes": 5,
+      "max_snr": 0.0038037540919822017,
+      "max_ion": "O III]",
+      "second_snr": -0.35086006707633005,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.539,
+      "usable_complexes": 5,
+      "max_snr": 0.28039537426126565,
+      "max_ion": "O III]",
+      "second_snr": -0.29575716383950806,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.54,
+      "usable_complexes": 5,
+      "max_snr": 1.293564704976307,
+      "max_ion": "C II]",
+      "second_snr": 0.1491101104194145,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.541,
+      "usable_complexes": 5,
+      "max_snr": 0.06297340687302261,
+      "max_ion": "O III]",
+      "second_snr": 0.03575884758579975,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.542,
+      "usable_complexes": 5,
+      "max_snr": 1.2668078787980521,
+      "max_ion": "C III]",
+      "second_snr": 0.16525538376616858,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.543,
+      "usable_complexes": 5,
+      "max_snr": 1.1820383179683434,
+      "max_ion": "C III]",
+      "second_snr": 0.548017827469138,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.544,
+      "usable_complexes": 5,
+      "max_snr": 1.8063755461883952,
+      "max_ion": "C IV",
+      "second_snr": 0.2620353621595954,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.545,
+      "usable_complexes": 5,
+      "max_snr": 1.0782286829165153,
+      "max_ion": "C IV",
+      "second_snr": 0.5536376083887744,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.546,
+      "usable_complexes": 5,
+      "max_snr": 1.73582070983862,
+      "max_ion": "C III]",
+      "second_snr": 0.8676722103254395,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.547,
+      "usable_complexes": 5,
+      "max_snr": 0.9325160752336412,
+      "max_ion": "C II]",
+      "second_snr": 0.9107345509858054,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.548,
+      "usable_complexes": 5,
+      "max_snr": 1.2236063943493107,
+      "max_ion": "C IV",
+      "second_snr": 1.1334998105575265,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.549,
+      "usable_complexes": 5,
+      "max_snr": 2.309224646990227,
+      "max_ion": "He II",
+      "second_snr": 1.0995604986867495,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.55,
+      "usable_complexes": 5,
+      "max_snr": 1.9058968420077678,
+      "max_ion": "He II",
+      "second_snr": 0.725235339814453,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.551,
+      "usable_complexes": 5,
+      "max_snr": 0.2863057711565049,
+      "max_ion": "O III]",
+      "second_snr": 0.2505428643610234,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.552,
+      "usable_complexes": 5,
+      "max_snr": 0.8340383879565435,
+      "max_ion": "O III]",
+      "second_snr": 0.3221165109534218,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.553,
+      "usable_complexes": 5,
+      "max_snr": 0.31507905437934275,
+      "max_ion": "C III]",
+      "second_snr": 0.07792840154337571,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.554,
+      "usable_complexes": 5,
+      "max_snr": 0.2532120398354376,
+      "max_ion": "He II",
+      "second_snr": -0.049837606030031595,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.555,
+      "usable_complexes": 5,
+      "max_snr": 0.244365937992279,
+      "max_ion": "C II]",
+      "second_snr": -0.03684857659766095,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.556,
+      "usable_complexes": 5,
+      "max_snr": 0.32424009135186116,
+      "max_ion": "C II]",
+      "second_snr": -0.4139658108954791,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.557,
+      "usable_complexes": 5,
+      "max_snr": 0.4520879394214359,
+      "max_ion": "C III]",
+      "second_snr": 0.12111354146282323,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.558,
+      "usable_complexes": 5,
+      "max_snr": 0.4133326377743552,
+      "max_ion": "C III]",
+      "second_snr": 0.040698923759083315,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.559,
+      "usable_complexes": 5,
+      "max_snr": 0.8918495335384661,
+      "max_ion": "C II]",
+      "second_snr": -0.08892013694360364,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.56,
+      "usable_complexes": 5,
+      "max_snr": 0.5713700805404166,
+      "max_ion": "C II]",
+      "second_snr": -0.1328473510704962,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.561,
+      "usable_complexes": 5,
+      "max_snr": 0.6107869941669225,
+      "max_ion": "C IV",
+      "second_snr": 0.42950467207562637,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.562,
+      "usable_complexes": 5,
+      "max_snr": 0.776598896494654,
+      "max_ion": "C IV",
+      "second_snr": 0.335363028089154,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.563,
+      "usable_complexes": 5,
+      "max_snr": 0.8001257419179773,
+      "max_ion": "O III]",
+      "second_snr": 0.5661019638765131,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.564,
+      "usable_complexes": 5,
+      "max_snr": 1.078304988129931,
+      "max_ion": "C II]",
+      "second_snr": 0.5236751967330708,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.565,
+      "usable_complexes": 5,
+      "max_snr": 1.1504693332066869,
+      "max_ion": "C IV",
+      "second_snr": 0.49436477911393517,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.566,
+      "usable_complexes": 5,
+      "max_snr": 0.7224324464162873,
+      "max_ion": "O III]",
+      "second_snr": 0.49120398396002124,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.567,
+      "usable_complexes": 5,
+      "max_snr": 0.5773485792388274,
+      "max_ion": "O III]",
+      "second_snr": 0.5393900296486479,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.568,
+      "usable_complexes": 5,
+      "max_snr": 1.430958439306729,
+      "max_ion": "He II",
+      "second_snr": 0.6897834173595317,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.569,
+      "usable_complexes": 5,
+      "max_snr": 2.30581721122016,
+      "max_ion": "He II",
+      "second_snr": 1.2472786927402548,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.57,
+      "usable_complexes": 5,
+      "max_snr": 2.266352328980958,
+      "max_ion": "He II",
+      "second_snr": 0.7696840192564499,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.571,
+      "usable_complexes": 5,
+      "max_snr": 0.7997846566516189,
+      "max_ion": "C III]",
+      "second_snr": 0.17065115684590004,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.572,
+      "usable_complexes": 5,
+      "max_snr": 1.1109982359815478,
+      "max_ion": "C III]",
+      "second_snr": -0.11380744097160632,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.573,
+      "usable_complexes": 5,
+      "max_snr": 0.8433649666353397,
+      "max_ion": "C II]",
+      "second_snr": 0.3377034255436022,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.574,
+      "usable_complexes": 5,
+      "max_snr": 0.9876228184934406,
+      "max_ion": "He II",
+      "second_snr": 0.9872811749391218,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.575,
+      "usable_complexes": 5,
+      "max_snr": 0.9077648469756807,
+      "max_ion": "C IV",
+      "second_snr": 0.45601113425040946,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.576,
+      "usable_complexes": 5,
+      "max_snr": 0.8472474067433032,
+      "max_ion": "C IV",
+      "second_snr": 0.24984442688434838,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.577,
+      "usable_complexes": 5,
+      "max_snr": 0.5391403945573015,
+      "max_ion": "C IV",
+      "second_snr": 0.48849674093188544,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.578,
+      "usable_complexes": 5,
+      "max_snr": 1.729004728635802,
+      "max_ion": "O III]",
+      "second_snr": 0.18294720196917025,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.579,
+      "usable_complexes": 5,
+      "max_snr": 1.5738997379118096,
+      "max_ion": "O III]",
+      "second_snr": 0.6201525178319185,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.58,
+      "usable_complexes": 5,
+      "max_snr": 1.7597491054673564,
+      "max_ion": "O III]",
+      "second_snr": 0.7640002348725953,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.581,
+      "usable_complexes": 5,
+      "max_snr": 0.8024111528919687,
+      "max_ion": "O III]",
+      "second_snr": 0.36204011872784925,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.582,
+      "usable_complexes": 5,
+      "max_snr": 0.15215705685401032,
+      "max_ion": "C II]",
+      "second_snr": 0.06318932019902629,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.583,
+      "usable_complexes": 5,
+      "max_snr": 0.2275326049275253,
+      "max_ion": "He II",
+      "second_snr": 0.12802108880759974,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.584,
+      "usable_complexes": 5,
+      "max_snr": 1.0027872127900699,
+      "max_ion": "C II]",
+      "second_snr": 0.6933668670102506,
+      "second_ion": "C IV"
+    },
+    {
+      "z": 2.585,
+      "usable_complexes": 5,
+      "max_snr": 1.4153911594168032,
+      "max_ion": "C III]",
+      "second_snr": 0.8663511976624217,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.586,
+      "usable_complexes": 5,
+      "max_snr": 1.0283262016460966,
+      "max_ion": "C III]",
+      "second_snr": 0.39911436037960635,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.587,
+      "usable_complexes": 5,
+      "max_snr": 1.076935755967587,
+      "max_ion": "C IV",
+      "second_snr": 0.7459776560919081,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.588,
+      "usable_complexes": 5,
+      "max_snr": 2.052841998021491,
+      "max_ion": "C II]",
+      "second_snr": 0.9197548163289361,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.589,
+      "usable_complexes": 5,
+      "max_snr": 1.1154261555784384,
+      "max_ion": "C II]",
+      "second_snr": 1.0730619963541408,
+      "second_ion": "C III]"
+    },
+    {
+      "z": 2.59,
+      "usable_complexes": 5,
+      "max_snr": 1.2806110061435676,
+      "max_ion": "C II]",
+      "second_snr": 0.39158794527284013,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.591,
+      "usable_complexes": 5,
+      "max_snr": 2.2897669116105503,
+      "max_ion": "C IV",
+      "second_snr": 0.9984762754161995,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.592,
+      "usable_complexes": 5,
+      "max_snr": 3.476797956244322,
+      "max_ion": "C IV",
+      "second_snr": 0.7208334932610304,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.593,
+      "usable_complexes": 5,
+      "max_snr": 2.672568321636068,
+      "max_ion": "C IV",
+      "second_snr": -0.21834834860557495,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.594,
+      "usable_complexes": 5,
+      "max_snr": 0.18709815348265477,
+      "max_ion": "C IV",
+      "second_snr": -0.11875405044351843,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.595,
+      "usable_complexes": 5,
+      "max_snr": 0.9710023068291693,
+      "max_ion": "O III]",
+      "second_snr": -0.1079301465014076,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.596,
+      "usable_complexes": 5,
+      "max_snr": 1.3157452870605528,
+      "max_ion": "O III]",
+      "second_snr": -0.05734657378473433,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.597,
+      "usable_complexes": 5,
+      "max_snr": 1.7825645429146628,
+      "max_ion": "C IV",
+      "second_snr": 0.7468623472550303,
+      "second_ion": "O III]"
+    },
+    {
+      "z": 2.598,
+      "usable_complexes": 5,
+      "max_snr": 1.1369008160641734,
+      "max_ion": "C IV",
+      "second_snr": -0.07955673664093503,
+      "second_ion": "C II]"
+    },
+    {
+      "z": 2.599,
+      "usable_complexes": 5,
+      "max_snr": 1.004976737245284,
+      "max_ion": "C III]",
+      "second_snr": -0.04131517811569066,
+      "second_ion": "He II"
+    },
+    {
+      "z": 2.6,
+      "usable_complexes": 5,
+      "max_snr": 1.4366730005726371,
+      "max_ion": "C III]",
+      "second_snr": 0.1800636516020617,
+      "second_ion": "O III]"
+    }
+  ],
+  "scope": "Nearby host continuum extraction from 2015. Coordinates differ from the near-infrared transient. The spectrum has native flux units and formal diagonal errors. Line selection and bounds are limited to the listed complexes, widths and trial redshifts. This search is not a global false-alarm calibration."
+}
