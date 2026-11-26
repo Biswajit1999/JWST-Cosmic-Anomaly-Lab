@@ -62,10 +62,11 @@ def dispersed_trace(reference, order, x0, y0, velocity):
     wave = np.polynomial.polynomial.polyval(t, [float(p(x0, y0)) for p in reference["displ"][j]])
     x_models, y_models = reference["dispx"][j], reference["dispy"][j]
     if len(x_models) != 1 or x_models[0].n_inputs != 1:
-        raise ValueError("Expected the NRCALONG GRISMR single along-dispersion polynomial")
+        raise ValueError("Expected a GRISMR single along-dispersion polynomial")
     x = x0 + x_models[0](t)
     y = y0 + np.polynomial.polynomial.polyval(t, [float(p(x0, y0)) for p in y_models])
-    if not (np.all(np.diff(x) > 0) and np.all(np.diff(wave) > 0)):
+    dx = np.diff(x)
+    if not ((np.all(dx > 0) or np.all(dx < 0)) and np.all(np.diff(wave) > 0)):
         raise ValueError("Expected monotone dispersion and wavelength across the reference trace")
     return x, y, wave/(1+velocity/C_M_S)
 
@@ -86,6 +87,8 @@ def validate_pointing(record, transform, dispersion, velocity):
             wave = r["WAVELENGTH"][:int(r["N_ALONGDISP"])]
             k = np.arange(len(wave), dtype=float)+int(r["EXTRACT2D_XSTART"])-1
             x, _, model_wave = dispersed_trace(dispersion, 1, x0, y0, velocity)
+            if x[0] > x[-1]:
+                x, model_wave = x[::-1], model_wave[::-1]
             expected = np.interp(k, x, model_wave, left=np.nan, right=np.nan)
             valid = np.isfinite(wave+expected) & (wave > 0)
             wavelength_errors.extend(abs(wave[valid]-expected[valid]))

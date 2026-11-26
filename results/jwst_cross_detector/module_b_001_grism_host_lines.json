@@ -1,0 +1,3813 @@
+{
+  "executed_utc": "2026-11-26T11:12:43.523195+00:00",
+  "script_sha256": "34bfa9bee984515d82fb2ec028e787f1f589a6e13088efa96bb31b86e275d5d9",
+  "geometry_sha256": "d6314d9cfc31dec73fa48ae648d330aeaea386b794d5aa4cd56fd51aa51e745a",
+  "calibration_flats": {
+    "jwst_nircam_flat_0761.fits": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_flat_0761.fits",
+      "path": "data/raw/cross_detector/jwst_nircam_flat_0761.fits",
+      "sha256": "06bdc15c679c562051585f110b0869039a8ad352c68564eaaa449765b3ea09a2",
+      "bytes": 50356800
+    },
+    "jwst_nircam_flat_0762.fits": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_flat_0762.fits",
+      "path": "data/raw/cross_detector/jwst_nircam_flat_0762.fits",
+      "sha256": "e040490397b98b1558c0c1d48f30ff8d3258d8d6bf972e2c76aa2ddab5687e62",
+      "bytes": 50356800
+    },
+    "jwst_nircam_flat_0743.fits": {
+      "url": "https://jwst-crds.stsci.edu/unchecked_get/references/jwst/jwst_nircam_flat_0743.fits",
+      "path": "data/raw/cross_detector/jwst_nircam_flat_0743.fits",
+      "sha256": "951453dfbe38ed9428636f43d601c1c7d1ed343e0a08e4e7a32ea074dfa00f65",
+      "bytes": 50356800
+    }
+  },
+  "control_offsets_pix": [
+    -34,
+    -28,
+    -21,
+    -14,
+    14,
+    21,
+    28,
+    34
+  ],
+  "allowed_rate_dq_bits": 4,
+  "exposures": [
+    {
+      "file": "jw01895001008_03101_00001_nrcalong_rate.fits",
+      "filter": "F444W",
+      "group": "jw01895001008_03101",
+      "flat": "jwst_nircam_flat_0761.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00001_nrcalong_rate.fits/072cbf427375c9fc0d175d1c14995f80-2-0-23039.bytes",
+          "sha256": "699904b195be77c6b3962122adbb9a962f1cffdf897024bdfdfc4e93ab88703a",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00001_nrcalong_rate.fits/072cbf427375c9fc0d175d1c14995f80-2-20160-43199.bytes",
+          "sha256": "8ea0b7218b68325ebbda7702cb974e5624a0c862ade0db54d8f7e2120910319a",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00001_nrcalong_rate.fits/072cbf427375c9fc0d175d1c14995f80-2-10339648-11175231.bytes",
+          "sha256": "5b20657932bb5de188cecc8df665e6ba46791db2ed89f29fe6ea76c4f897d9bb",
+          "first_byte": 10339648,
+          "last_byte": 11175231
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00001_nrcalong_rate.fits/072cbf427375c9fc0d175d1c14995f80-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00001_nrcalong_rate.fits/072cbf427375c9fc0d175d1c14995f80-2-33586560-33609599.bytes",
+          "sha256": "d7f797a70377a78d716f86d23607998fceb3875e7ff41a85c51eee3ec1bd77b1",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00001_nrcalong_rate.fits/072cbf427375c9fc0d175d1c14995f80-2-43903168-44738751.bytes",
+          "sha256": "f013951c142174dba07fa7e70ab6f852a4a6c2a195c55f930aa845c5a02659fb",
+          "first_byte": 43903168,
+          "last_byte": 44738751
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "Pa beta",
+          "wavelength_um": 4.161763144,
+          "xy_pix": [
+            405.17391193687496,
+            1310.239443297919
+          ],
+          "aperture_mdn_s": [
+            -4.216584592631648,
+            -285.87458152344146,
+            129.19744996486705,
+            -187.561768476665,
+            339.3205186049676,
+            85.89521064192535,
+            30.212701421627333,
+            -29.20759757124572,
+            50.687801304070874
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa beta",
+          "wavelength_um": 4.18368808,
+          "xy_pix": [
+            427.7286991667566,
+            1310.1778709542211
+          ],
+          "aperture_mdn_s": [
+            -35.85153649220767,
+            83.32874450468178,
+            -117.91539152043534,
+            -22.141001950800433,
+            -29.24682251662799,
+            -26.92405717135662,
+            75.79826527022524,
+            90.27893598118713,
+            -30.09390250753985
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa beta",
+          "wavelength_um": 4.4490952,
+          "xy_pix": [
+            700.3863275904109,
+            1309.462901082793
+          ],
+          "aperture_mdn_s": [
+            -127.70833414240887,
+            61.288238603462425,
+            126.53690479517208,
+            -89.25291397016355,
+            -69.86995373233133,
+            -31.705047319577517,
+            -1.8108745555829517,
+            141.7010512977137,
+            -208.95555768758766
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa beta",
+          "wavelength_um": 4.4693533279999995,
+          "xy_pix": [
+            721.1743380998798,
+            1309.4106151889118
+          ],
+          "aperture_mdn_s": [
+            -224.49266143847515,
+            -5.5416812166600025,
+            46.02672436408877,
+            22.59680449880512,
+            -54.97086581848222,
+            -122.42394211465447,
+            27.691279635963767,
+            65.27960138361051,
+            -44.68612213948921
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw01895001008_03101_00002_nrcalong_rate.fits",
+      "filter": "F444W",
+      "group": "jw01895001008_03101",
+      "flat": "jwst_nircam_flat_0761.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00002_nrcalong_rate.fits/27ecb7c05049c8d1cf22a2f4600a6664-2-0-23039.bytes",
+          "sha256": "188d943fe78af92890612b6c5de049a21215b46e854472bf5a21f54aaeb8ad6c",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00002_nrcalong_rate.fits/27ecb7c05049c8d1cf22a2f4600a6664-2-20160-43199.bytes",
+          "sha256": "1174c34e1c3058347803f7ff040271843d61ff6b2c2b0788936e4d10282bd00d",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00002_nrcalong_rate.fits/27ecb7c05049c8d1cf22a2f4600a6664-2-11126080-11961663.bytes",
+          "sha256": "37f321ef7bc8d9ecf131c719f3c03b2e232f17dfb7b1156719be00214f8e5bb8",
+          "first_byte": 11126080,
+          "last_byte": 11961663
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00002_nrcalong_rate.fits/27ecb7c05049c8d1cf22a2f4600a6664-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00002_nrcalong_rate.fits/27ecb7c05049c8d1cf22a2f4600a6664-2-33586560-33609599.bytes",
+          "sha256": "b4e6b9808bcd74751a7866e24ad93f558906e7def716ed27db413af77d2541b3",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00002_nrcalong_rate.fits/27ecb7c05049c8d1cf22a2f4600a6664-2-44689600-45525183.bytes",
+          "sha256": "e6746c4708b128ef2f96e30d50ba1980f6414e555065b08936846a1a24c390dc",
+          "first_byte": 44689600,
+          "last_byte": 45525183
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "Pa beta",
+          "wavelength_um": 4.161763144,
+          "xy_pix": [
+            400.99672620139626,
+            1405.8336968096799
+          ],
+          "aperture_mdn_s": [
+            4.203095279808833,
+            115.96565512586824,
+            -230.85838055956916,
+            -58.989768806160654,
+            41.17008734871512,
+            98.94836221604014,
+            -162.84844547533618,
+            165.79317490538273,
+            -159.375687599452
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa beta",
+          "wavelength_um": 4.18368808,
+          "xy_pix": [
+            423.5538229442362,
+            1405.7691017327704
+          ],
+          "aperture_mdn_s": [
+            65.03043830797384,
+            -2.432146450921241,
+            -175.14921714935335,
+            -217.90577290424284,
+            297.59314015140944,
+            -8.716195751708323,
+            -18.759171085843512,
+            -62.298877318956436,
+            -76.5742661483665
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa beta",
+          "wavelength_um": 4.4490952,
+          "xy_pix": [
+            696.2512941543547,
+            1405.0256877416011
+          ],
+          "aperture_mdn_s": [
+            -56.693744501080545,
+            2.7307805475624907,
+            146.3560975397366,
+            34.392259287767196,
+            11.971149449531621,
+            36.130269084146235,
+            -97.53435182667583,
+            198.9877558211719,
+            -61.0895141573382
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa beta",
+          "wavelength_um": 4.4693533279999995,
+          "xy_pix": [
+            717.0430526217898,
+            1404.9718475862635
+          ],
+          "aperture_mdn_s": [
+            -173.97778589888296,
+            -261.7281471003675,
+            -29.351371542727815,
+            145.91523363239398,
+            -396.98406655104424,
+            -79.11410678930092,
+            -83.39882034571703,
+            -3.87022504849846,
+            41.25673978650617
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw01895001008_03101_00003_nrcalong_rate.fits",
+      "filter": "F444W",
+      "group": "jw01895001008_03101",
+      "flat": "jwst_nircam_flat_0761.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00003_nrcalong_rate.fits/d6beb075b5e7ad1002221a1b51a0b59a-2-0-23039.bytes",
+          "sha256": "49d93c72baae88e0f2358508a4a79acea343d79a9dcdbfcb4862ecea090cdd4c",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00003_nrcalong_rate.fits/d6beb075b5e7ad1002221a1b51a0b59a-2-20160-43199.bytes",
+          "sha256": "dd973b4f3d015641502e82e16cdd43a11e3407bdb601e9c62295ace6d2701275",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00003_nrcalong_rate.fits/d6beb075b5e7ad1002221a1b51a0b59a-2-11158848-11994431.bytes",
+          "sha256": "cd4372228493b5b26325b9e36db317c9e4949bf5c0d1a501f0d51a748c0486ef",
+          "first_byte": 11158848,
+          "last_byte": 11994431
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00003_nrcalong_rate.fits/d6beb075b5e7ad1002221a1b51a0b59a-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00003_nrcalong_rate.fits/d6beb075b5e7ad1002221a1b51a0b59a-2-33586560-33609599.bytes",
+          "sha256": "aeaaa39c6832122e489a4d6bedf34c2768c6c4970c3c6600c5c4bfc832549af8",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00003_nrcalong_rate.fits/d6beb075b5e7ad1002221a1b51a0b59a-2-44722368-45557951.bytes",
+          "sha256": "4276a5e33809c1dcba3cb01ccf20534fa08b4ba935396838625d55a78d2125b5",
+          "first_byte": 44722368,
+          "last_byte": 45557951
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "Pa beta",
+          "wavelength_um": 4.161763144,
+          "xy_pix": [
+            496.86033942746957,
+            1410.0341654339536
+          ],
+          "aperture_mdn_s": [
+            -44.118424033687525,
+            2.135896718950661,
+            202.76315326885276,
+            -64.66075017253999,
+            -206.20982517426313,
+            40.24119216964833,
+            -172.44924172147677,
+            -60.968748191328054,
+            222.3302424076617
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa beta",
+          "wavelength_um": 4.18368808,
+          "xy_pix": [
+            519.3872314732188,
+            1409.9707443912157
+          ],
+          "aperture_mdn_s": [
+            -4.251544365703635,
+            37.11505479062425,
+            214.87848128115806,
+            88.25870128259798,
+            123.65410554262738,
+            71.35689543837816,
+            7.520274787439093,
+            6.950370429774224,
+            -88.39808356356785
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa beta",
+          "wavelength_um": 4.4490952,
+          "xy_pix": [
+            791.7418600040365,
+            1409.2382380671888
+          ],
+          "aperture_mdn_s": [
+            -41.003451643993394,
+            -20.09970006622818,
+            141.17533414091105,
+            -235.91453640187106,
+            -16.097315455765315,
+            259.67751011523364,
+            -82.33708664533084,
+            -14.426325481579552,
+            58.11759066775276
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa beta",
+          "wavelength_um": 4.4693533279999995,
+          "xy_pix": [
+            812.5089092154611,
+            1409.184981690452
+          ],
+          "aperture_mdn_s": [
+            -34.819869935662645,
+            118.85087393445514,
+            114.24651207224996,
+            null,
+            -56.85161168381484,
+            302.8154255479161,
+            -125.78101701018402,
+            177.35007646096253,
+            -13.31991383068773
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw01895001008_03101_00004_nrcalong_rate.fits",
+      "filter": "F444W",
+      "group": "jw01895001008_03101",
+      "flat": "jwst_nircam_flat_0761.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00004_nrcalong_rate.fits/693428a95ca1b61f75f05f740632ee7f-2-0-23039.bytes",
+          "sha256": "8f68414a9c05f32f5eb1103f253973242ef92df78fb8cdb5486957c4c4a50a23",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00004_nrcalong_rate.fits/693428a95ca1b61f75f05f740632ee7f-2-20160-43199.bytes",
+          "sha256": "dbd2362b1511c615f9ecd172dd91c2db13ba4d13ad64edb40abf95e7ce93d368",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00004_nrcalong_rate.fits/693428a95ca1b61f75f05f740632ee7f-2-10380608-11207999.bytes",
+          "sha256": "8d89b7acb48c0a72d57fbdc636ec0886e50a53c21113cb192af138659cb64714",
+          "first_byte": 10380608,
+          "last_byte": 11207999
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00004_nrcalong_rate.fits/693428a95ca1b61f75f05f740632ee7f-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00004_nrcalong_rate.fits/693428a95ca1b61f75f05f740632ee7f-2-33586560-33609599.bytes",
+          "sha256": "e7a460c09c632d0687659f1897bd0af93f8f63ea277fdc3985ebb866156cdfa0",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03101_00004_nrcalong_rate.fits/693428a95ca1b61f75f05f740632ee7f-2-43944128-44771519.bytes",
+          "sha256": "6d3e4c31bf2090c20729a6123ced9052b06ae2e3d40f39ce2f419bb78af1144d",
+          "first_byte": 43944128,
+          "last_byte": 44771519
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "Pa beta",
+          "wavelength_um": 4.161763144,
+          "xy_pix": [
+            500.9683887846306,
+            1314.4505757219772
+          ],
+          "aperture_mdn_s": [
+            3.7433076316794045,
+            93.72189102345313,
+            -42.0832328867274,
+            121.52400835522084,
+            114.00440225932176,
+            77.03466066581572,
+            90.12682319134011,
+            6.611908638079006,
+            -88.0257140096161
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa beta",
+          "wavelength_um": 4.18368808,
+          "xy_pix": [
+            523.4934734305616,
+            1314.3897809952146
+          ],
+          "aperture_mdn_s": [
+            167.28879399185098,
+            75.16779009684588,
+            138.73739710121507,
+            -52.31751071395784,
+            97.83014330508199,
+            111.91262324020138,
+            -221.29255322391225,
+            216.50405699879755,
+            -68.5376221737546
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa beta",
+          "wavelength_um": 4.4490952,
+          "xy_pix": [
+            795.8189426632377,
+            1313.6810759493094
+          ],
+          "aperture_mdn_s": [
+            139.8283888903729,
+            268.80362542608304,
+            -298.3866234321156,
+            316.12969088947756,
+            -121.59039439669186,
+            -57.48058909170523,
+            -258.8812361803185,
+            215.447054851642,
+            69.61734053646978
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa beta",
+          "wavelength_um": 4.4693533279999995,
+          "xy_pix": [
+            816.5833988067653,
+            1313.629031161277
+          ],
+          "aperture_mdn_s": [
+            -186.2041719246336,
+            245.07022301334214,
+            -229.8131336148041,
+            -13.667335138477732,
+            -130.03330561958163,
+            -94.62967434425973,
+            3.312132714652763,
+            -159.33807917346743,
+            121.38910606706385
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw01895001008_03103_00001_nrcalong_rate.fits",
+      "filter": "F444W",
+      "group": "jw01895001008_03103",
+      "flat": "jwst_nircam_flat_0761.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00001_nrcalong_rate.fits/42e74c6da4e9b259dba11db18b020310-2-0-23039.bytes",
+          "sha256": "becc711aba0d6a202de42138f6e1f657c16cb30f444e27d4a8743d1f31021608",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00001_nrcalong_rate.fits/42e74c6da4e9b259dba11db18b020310-2-20160-43199.bytes",
+          "sha256": "627d7cadfc6dabb7f94e26ac3cf2b9619c0a61062bbb04d0cb39c58a5260d23e",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00001_nrcalong_rate.fits/42e74c6da4e9b259dba11db18b020310-2-10339648-11175231.bytes",
+          "sha256": "dc5f986e4b5c0c4e40f25d407cefb1633990c2b305758ba61fe969f5764d9b8b",
+          "first_byte": 10339648,
+          "last_byte": 11175231
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00001_nrcalong_rate.fits/42e74c6da4e9b259dba11db18b020310-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00001_nrcalong_rate.fits/42e74c6da4e9b259dba11db18b020310-2-33586560-33609599.bytes",
+          "sha256": "3cffe5b5cfe873c085942707d2f3bb08372d424c42ecb2c7bd8da8a4c2fda44b",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00001_nrcalong_rate.fits/42e74c6da4e9b259dba11db18b020310-2-43903168-44738751.bytes",
+          "sha256": "54a1b15b0797ab57095b585ae49a61ea9a11251c67e82276424338f71828ff39",
+          "first_byte": 43903168,
+          "last_byte": 44738751
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "Pa beta",
+          "wavelength_um": 4.161763144,
+          "xy_pix": [
+            405.18762481316037,
+            1310.2361220239568
+          ],
+          "aperture_mdn_s": [
+            109.41060311664495,
+            -144.21559057725088,
+            17.75233281042414,
+            93.80482030503096,
+            -68.40415008001351,
+            9.192704785383961,
+            -35.983030900653134,
+            101.98642529170351,
+            115.57179214335439
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa beta",
+          "wavelength_um": 4.18368808,
+          "xy_pix": [
+            427.74240888803837,
+            1310.1745499015162
+          ],
+          "aperture_mdn_s": [
+            -219.91933456776772,
+            69.58671970126971,
+            169.87826880921415,
+            -34.7227268474083,
+            11.180233059743694,
+            -25.684576803541443,
+            -93.2808061290246,
+            -44.212662861969726,
+            -45.83393475155394
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa beta",
+          "wavelength_um": 4.4490952,
+          "xy_pix": [
+            700.4000026086073,
+            1309.4595819016358
+          ],
+          "aperture_mdn_s": [
+            84.13145993835634,
+            -213.2123448999062,
+            236.87293742314637,
+            -93.87319535082995,
+            145.66950803897353,
+            1.9107691832021025,
+            -21.00910619940891,
+            80.16017025064903,
+            -138.39376065301386
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa beta",
+          "wavelength_um": 4.4693533279999995,
+          "xy_pix": [
+            721.188010699496,
+            1309.4072960897174
+          ],
+          "aperture_mdn_s": [
+            -64.54619171061806,
+            135.64331986633235,
+            -124.89666892011908,
+            -81.92571219321958,
+            233.60764459549299,
+            -12.349741577769976,
+            -118.32274221927683,
+            6.58472742681971,
+            -10.612902470957032
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw01895001008_03103_00002_nrcalong_rate.fits",
+      "filter": "F444W",
+      "group": "jw01895001008_03103",
+      "flat": "jwst_nircam_flat_0761.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00002_nrcalong_rate.fits/ecdd0818da509af7de8fcfda155d1745-2-0-23039.bytes",
+          "sha256": "d061ded3c6972d9d5311b1f53057673dea0a626d04ef0ee973dac0631dd1817b",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00002_nrcalong_rate.fits/ecdd0818da509af7de8fcfda155d1745-2-20160-43199.bytes",
+          "sha256": "4108ef77d0d850f897601c14e0e374a757c3b97025f08b446b1c1dd7acee38a4",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00002_nrcalong_rate.fits/ecdd0818da509af7de8fcfda155d1745-2-11126080-11961663.bytes",
+          "sha256": "9cb007647328b3ad2262aef09c77eabb08636edb220eba28b2abe938eaf33076",
+          "first_byte": 11126080,
+          "last_byte": 11961663
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00002_nrcalong_rate.fits/ecdd0818da509af7de8fcfda155d1745-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00002_nrcalong_rate.fits/ecdd0818da509af7de8fcfda155d1745-2-33586560-33609599.bytes",
+          "sha256": "bd873ce6d43ffc3841daf117f35de46dec0d326c750a0b7e669a9c0d22a1ca0f",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00002_nrcalong_rate.fits/ecdd0818da509af7de8fcfda155d1745-2-44689600-45525183.bytes",
+          "sha256": "f0f6d0400465cb1cef4b231807cfaf9f4e5ee08a41ab78b569b6963e2096c0a8",
+          "first_byte": 44689600,
+          "last_byte": 45525183
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "Pa beta",
+          "wavelength_um": 4.161763144,
+          "xy_pix": [
+            401.00156074553684,
+            1405.8312347732467
+          ],
+          "aperture_mdn_s": [
+            -32.110722827221494,
+            -189.0359676303861,
+            24.215306574201094,
+            76.33957766434055,
+            -91.69758683185752,
+            -32.70687522527858,
+            -96.37028510507116,
+            -37.173522219859926,
+            104.50193039711952
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa beta",
+          "wavelength_um": 4.18368808,
+          "xy_pix": [
+            423.55865716673753,
+            1405.7666398335991
+          ],
+          "aperture_mdn_s": [
+            -20.630299711029547,
+            -493.76705345780806,
+            100.75545873325679,
+            -119.20365499376581,
+            13.042187529865394,
+            -275.7474468940679,
+            152.78105923889765,
+            -105.98989270741477,
+            -35.89748451720627
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa beta",
+          "wavelength_um": 4.4490952,
+          "xy_pix": [
+            696.2561253611372,
+            1405.0232271114269
+          ],
+          "aperture_mdn_s": [
+            -194.00301503056116,
+            132.03179721850873,
+            159.5647626690675,
+            -68.22772374198676,
+            237.98215682724194,
+            -42.35844025608063,
+            206.42685500755798,
+            -98.4511054750824,
+            37.95893271534814
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa beta",
+          "wavelength_um": 4.4693533279999995,
+          "xy_pix": [
+            717.0478836559687,
+            1404.9693870233339
+          ],
+          "aperture_mdn_s": [
+            -21.402727029129643,
+            -26.405428031529006,
+            102.80658455327323,
+            -172.58869879366168,
+            97.2285492206066,
+            93.42368464478754,
+            59.83502252583985,
+            80.59915891979978,
+            -93.04672241629756
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw01895001008_03103_00003_nrcalong_rate.fits",
+      "filter": "F444W",
+      "group": "jw01895001008_03103",
+      "flat": "jwst_nircam_flat_0761.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00003_nrcalong_rate.fits/516c425128ba74a621e5a8d5bb801be5-2-0-23039.bytes",
+          "sha256": "4ba3b71386eeb09287ea7ffb758814fa676ee4721deeda156185a50a63130cc0",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00003_nrcalong_rate.fits/516c425128ba74a621e5a8d5bb801be5-2-20160-43199.bytes",
+          "sha256": "4e28841747651476c9e7a122cc8332561175d2573262b46f1a30cdd65da18471",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00003_nrcalong_rate.fits/516c425128ba74a621e5a8d5bb801be5-2-11158848-11994431.bytes",
+          "sha256": "9efda657fe821dc317130fa3a23d4bce45d4f61e3dc4845b843e088173650321",
+          "first_byte": 11158848,
+          "last_byte": 11994431
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00003_nrcalong_rate.fits/516c425128ba74a621e5a8d5bb801be5-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00003_nrcalong_rate.fits/516c425128ba74a621e5a8d5bb801be5-2-33586560-33609599.bytes",
+          "sha256": "ec81e9311b744687479b74c29895c99846e7f5253c17e6377697ee7859715cb0",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00003_nrcalong_rate.fits/516c425128ba74a621e5a8d5bb801be5-2-44722368-45557951.bytes",
+          "sha256": "2385c21ae684f2411360a1908459b390fcdf04a3ff7e58364c57d549dd5dc5d8",
+          "first_byte": 44722368,
+          "last_byte": 45557951
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "Pa beta",
+          "wavelength_um": 4.161763144,
+          "xy_pix": [
+            496.86616256032437,
+            1410.0366363099517
+          ],
+          "aperture_mdn_s": [
+            22.745304451540285,
+            1.6634399779251186,
+            185.31776984422726,
+            -37.497239489731356,
+            1.7987590818417025,
+            6.544636441074337,
+            45.66070135666589,
+            -124.54063205048551,
+            -164.0947006055585
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa beta",
+          "wavelength_um": 4.18368808,
+          "xy_pix": [
+            519.3930541179801,
+            1409.9732152810063
+          ],
+          "aperture_mdn_s": [
+            -143.3662678054702,
+            169.29661037046657,
+            -15.943803305070462,
+            94.83969473868423,
+            -96.87720126806293,
+            149.44553987658244,
+            -198.08313723606278,
+            330.66266185389503,
+            -148.37239821972085
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa beta",
+          "wavelength_um": 4.4490952,
+          "xy_pix": [
+            791.7476783171338,
+            1409.24070913571
+          ],
+          "aperture_mdn_s": [
+            -194.57410830931198,
+            -275.996782076305,
+            98.83744151797308,
+            53.151671180073315,
+            -241.7093635325276,
+            54.386212174518796,
+            -14.118856586266777,
+            -51.14674007789905,
+            45.596200755546185
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa beta",
+          "wavelength_um": 4.4693533279999995,
+          "xy_pix": [
+            812.5147273007314,
+            1409.1874527735486
+          ],
+          "aperture_mdn_s": [
+            -98.42018340883656,
+            -30.95216509438417,
+            -49.68978787315295,
+            null,
+            -37.678506188252854,
+            -41.45514436573773,
+            40.85759340677492,
+            102.06181748844674,
+            24.211535072206946
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw01895001008_03103_00004_nrcalong_rate.fits",
+      "filter": "F444W",
+      "group": "jw01895001008_03103",
+      "flat": "jwst_nircam_flat_0761.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00004_nrcalong_rate.fits/9c9fae1b9cceb4c19924ed39a9684ea4-2-0-23039.bytes",
+          "sha256": "fa370b0ce6606e8bc2eb2d69666a354164bbd618a17fa133f7e9c0ece049b1cf",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00004_nrcalong_rate.fits/9c9fae1b9cceb4c19924ed39a9684ea4-2-20160-43199.bytes",
+          "sha256": "6e5998582e9fb2a569100443985479b220a63ada5058185caa76cc39b1f103b9",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00004_nrcalong_rate.fits/9c9fae1b9cceb4c19924ed39a9684ea4-2-10380608-11207999.bytes",
+          "sha256": "1268bb690cb951ac946744718d76f20b951de8efaa77bf8a162c07ca54ae1e35",
+          "first_byte": 10380608,
+          "last_byte": 11207999
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00004_nrcalong_rate.fits/9c9fae1b9cceb4c19924ed39a9684ea4-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00004_nrcalong_rate.fits/9c9fae1b9cceb4c19924ed39a9684ea4-2-33586560-33609599.bytes",
+          "sha256": "9ff1ca169412e66661afc4ca958f1b1bb77fd871d9e0abb382dd7db1461f7052",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw01895/jw01895001008/jw01895001008_03103_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw01895001008_03103_00004_nrcalong_rate.fits/9c9fae1b9cceb4c19924ed39a9684ea4-2-43944128-44771519.bytes",
+          "sha256": "5a5187db6b13697fcf1136f3ecf47a9725a74ba121a3f96e9f8877ac1f211ea5",
+          "first_byte": 43944128,
+          "last_byte": 44771519
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "Pa beta",
+          "wavelength_um": 4.161763144,
+          "xy_pix": [
+            500.9755645216649,
+            1314.4469210949653
+          ],
+          "aperture_mdn_s": [
+            -78.17614949006511,
+            220.1908163357505,
+            -217.61010833931132,
+            52.56693188463738,
+            82.00746223760036,
+            105.85874037879996,
+            77.67643440792466,
+            -53.74222519538486,
+            -17.50607544340928
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa beta",
+          "wavelength_um": 4.18368808,
+          "xy_pix": [
+            523.5006482421044,
+            1314.3861265365358
+          ],
+          "aperture_mdn_s": [
+            82.50926156707408,
+            -26.76776075509246,
+            43.28838227593776,
+            -33.46546361716404,
+            149.01653039601536,
+            -7.281737513902445,
+            -213.4804614286756,
+            280.3522848946834,
+            -23.76101427206592
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa beta",
+          "wavelength_um": 4.4490952,
+          "xy_pix": [
+            795.8261079413411,
+            1313.6774229990142
+          ],
+          "aperture_mdn_s": [
+            -109.01225159967848,
+            57.00968261128694,
+            -173.24135817726716,
+            213.91077701484247,
+            152.94166850695996,
+            66.61561088834534,
+            13.916288210233004,
+            56.64134588177425,
+            96.35674147078227
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa beta",
+          "wavelength_um": 4.4693533279999995,
+          "xy_pix": [
+            816.5905634755105,
+            1313.6253782861204
+          ],
+          "aperture_mdn_s": [
+            -13.545482429405416,
+            116.21465158866388,
+            -250.098858387628,
+            25.551151802792933,
+            54.161632274813314,
+            12.128744560330386,
+            244.031889461361,
+            -143.284094604405,
+            120.33209000951854
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw04549003001_02101_00001_nrcalong_rate.fits",
+      "filter": "F356W",
+      "group": "jw04549003001",
+      "flat": "jwst_nircam_flat_0762.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00001_nrcalong_rate.fits/8b8685ce1e6dc2d41fec970b7e245017-2-0-23039.bytes",
+          "sha256": "008e68b28d3db3ee56ce6f779b679ae974e09a517bdfa43a3559b046639c8bc8",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00001_nrcalong_rate.fits/8b8685ce1e6dc2d41fec970b7e245017-2-20160-43199.bytes",
+          "sha256": "f65bcf579eff323a2918e38f9b4be7e845e3adf8141f680e214037f3bbfbdfbb",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00001_nrcalong_rate.fits/8b8685ce1e6dc2d41fec970b7e245017-2-312640-1148223.bytes",
+          "sha256": "c144358c98a893ab60dce1bac6fe8951d22d8d94c149ac9405b767071c329ef0",
+          "first_byte": 312640,
+          "last_byte": 1148223
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00001_nrcalong_rate.fits/8b8685ce1e6dc2d41fec970b7e245017-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00001_nrcalong_rate.fits/8b8685ce1e6dc2d41fec970b7e245017-2-33586560-33609599.bytes",
+          "sha256": "0e551b72377b348aa457acbf12fb29a9549be879aa1d5ec81ca273997a0bdd0b",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00001_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00001_nrcalong_rate.fits/8b8685ce1e6dc2d41fec970b7e245017-2-33876160-34711743.bytes",
+          "sha256": "f56d8933e48684342d60fabebee1997ede7cf56ce3d532f50289fd38f3238d07",
+          "first_byte": 33876160,
+          "last_byte": 34711743
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "He I 10830",
+          "wavelength_um": 3.5163808469999993,
+          "xy_pix": [
+            1231.6864401996243,
+            85.64273263093364
+          ],
+          "aperture_mdn_s": [
+            -25.047712560053593,
+            -48.32535927139281,
+            13.431218094317869,
+            66.00641102786669,
+            -130.7411603676697,
+            -94.19716266566063,
+            97.73657844894491,
+            3.437328920081327,
+            104.79892189991853
+          ]
+        },
+        {
+          "z": 2.2459,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5513716489999996,
+          "xy_pix": [
+            1267.469383959516,
+            85.54430788938353
+          ],
+          "aperture_mdn_s": [
+            -60.21508072010477,
+            -27.843574530896557,
+            7.038969115191515,
+            21.952052425167665,
+            -26.02183419024016,
+            102.90641135088302,
+            -172.87030528211164,
+            75.7212544510438,
+            -121.91216122525996
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "He I 10830",
+          "wavelength_um": 3.5349057899999994,
+          "xy_pix": [
+            1250.6335112781994,
+            85.59098779357912
+          ],
+          "aperture_mdn_s": [
+            -16.26137231635293,
+            -3.209042930333021,
+            -9.237149902386527,
+            3.621698334689807,
+            -118.21238086133638,
+            -56.88261286338161,
+            -47.60684378666869,
+            -6.113183817933493,
+            -48.363659499300525
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5700809299999996,
+          "xy_pix": [
+            1286.5931647045652,
+            85.49048447348585
+          ],
+          "aperture_mdn_s": [
+            15.885233630227425,
+            -16.49046721684875,
+            -46.86372220249094,
+            1.5854435167644287,
+            9.999867180179214,
+            97.89816185989048,
+            38.05357059506855,
+            43.44645895446063,
+            50.30699847612881
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3080204,
+          "xy_pix": [
+            1018.1500685849733,
+            86.16815612940967
+          ],
+          "aperture_mdn_s": [
+            -54.145290372958335,
+            98.85442062899597,
+            -105.86505341901884,
+            104.50055719320179,
+            -86.34839631301574,
+            -63.73927227720222,
+            68.967344272479,
+            -39.673072550301775,
+            55.69864637197781
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "He I 10830",
+          "wavelength_um": 3.7591551,
+          "xy_pix": [
+            1479.5037870265596,
+            84.89996038773305
+          ],
+          "aperture_mdn_s": [
+            -44.45735756325417,
+            161.54065365401976,
+            53.47442116535304,
+            -140.34381277819497,
+            168.42993341430235,
+            -7.349954309082675,
+            -96.70285222513778,
+            5.393711046242169,
+            -36.1172653361552
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa gamma",
+          "wavelength_um": 3.7965617,
+          "xy_pix": [
+            1517.593718760547,
+            84.77312692298564
+          ],
+          "aperture_mdn_s": [
+            -62.43295848385614,
+            -76.19216936506513,
+            59.04152311063041,
+            -147.08764641290105,
+            3.314527855795377,
+            null,
+            -14.553294211236832,
+            -181.026983897648,
+            139.22771327001104
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3230828559999996,
+          "xy_pix": [
+            1033.6131539166254,
+            86.13367082880708
+          ],
+          "aperture_mdn_s": [
+            72.33208013334854,
+            -23.280352725576062,
+            -1.6897655027596665,
+            -91.89393923236113,
+            257.1212397907268,
+            10.033573179021621,
+            36.90622726769613,
+            -1.0158696258873863,
+            -20.62474880436299
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "He I 10830",
+          "wavelength_um": 3.7762717139999995,
+          "xy_pix": [
+            1496.9361728709623,
+            84.84233219612288
+          ],
+          "aperture_mdn_s": [
+            47.74606732380543,
+            -90.07432342774061,
+            283.04044151703886,
+            -215.60997378793195,
+            168.41453657667287,
+            41.701468311087716,
+            27.655240677084475,
+            -40.893153448395125,
+            -41.825100704484406
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa gamma",
+          "wavelength_um": 3.8138486379999996,
+          "xy_pix": [
+            1535.1880393466768,
+            84.7134009232253
+          ],
+          "aperture_mdn_s": [
+            -245.55278178489752,
+            -179.00754650853824,
+            207.14323756404835,
+            -90.17205554001126,
+            -33.619240942592505,
+            45.0127421846003,
+            -66.7812957211761,
+            -21.387440741764635,
+            75.11254512393677
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw04549003001_02101_00002_nrcalong_rate.fits",
+      "filter": "F356W",
+      "group": "jw04549003001",
+      "flat": "jwst_nircam_flat_0762.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00002_nrcalong_rate.fits/f65803c1b051a7b9d2f759a6102e7abd-2-0-23039.bytes",
+          "sha256": "73547d66f249be5a62989be9706b4f719ffa063c3d9c814459e5fd1f3c715b5b",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00002_nrcalong_rate.fits/f65803c1b051a7b9d2f759a6102e7abd-2-20160-43199.bytes",
+          "sha256": "bb0aa3864842725df7789723602bec72c2f236bc217eda8d778e555c111b32a1",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00002_nrcalong_rate.fits/f65803c1b051a7b9d2f759a6102e7abd-2-1074496-1910079.bytes",
+          "sha256": "a1fa44f61e4c6650c98486fcbcc7178ce11a2f76a341334b1dab0a57887955dd",
+          "first_byte": 1074496,
+          "last_byte": 1910079
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00002_nrcalong_rate.fits/f65803c1b051a7b9d2f759a6102e7abd-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00002_nrcalong_rate.fits/f65803c1b051a7b9d2f759a6102e7abd-2-33586560-33609599.bytes",
+          "sha256": "b26f8eded8df0f6eaf83f58a6b6faf6f75d61b710ccd90d0665bf9bb3450006c",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00002_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00002_nrcalong_rate.fits/f65803c1b051a7b9d2f759a6102e7abd-2-34638016-35473599.bytes",
+          "sha256": "8af49aef7aa733ef6cae4666c602df8cd9723c1409e20663fed20f55a3969b9d",
+          "first_byte": 34638016,
+          "last_byte": 35473599
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "He I 10830",
+          "wavelength_um": 3.5163808469999993,
+          "xy_pix": [
+            1229.3041376641731,
+            178.96489251556193
+          ],
+          "aperture_mdn_s": [
+            -17.662315316765056,
+            -15.42442024983152,
+            -0.15834128471699238,
+            71.59664567250911,
+            -61.22740902993873,
+            20.037500953971257,
+            133.15819171922183,
+            -101.49507419527639,
+            -59.853848657312305
+          ]
+        },
+        {
+          "z": 2.2459,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5513716489999996,
+          "xy_pix": [
+            1265.0819255633062,
+            178.86835382255782
+          ],
+          "aperture_mdn_s": [
+            -213.5522225065781,
+            -15.309631540461714,
+            18.488615510669277,
+            -94.57432863154094,
+            39.42272214511406,
+            -84.90654134032084,
+            -7.29169846870226,
+            -36.75743731315668,
+            116.02089792291575
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "He I 10830",
+          "wavelength_um": 3.5349057899999994,
+          "xy_pix": [
+            1248.24841882212,
+            178.9141111752636
+          ],
+          "aperture_mdn_s": [
+            -87.28656377704652,
+            -25.991082816982626,
+            63.45510187198511,
+            -92.0403409823811,
+            151.27827347759148,
+            -162.16814754561764,
+            121.16307714393228,
+            -30.388122119924077,
+            -82.12547345776586
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5700809299999996,
+          "xy_pix": [
+            1284.2031477965816,
+            178.81565411814063
+          ],
+          "aperture_mdn_s": [
+            -3.179050737063649,
+            -185.33762374547126,
+            21.57111675140909,
+            60.58953858182799,
+            -108.81402685565017,
+            -3.2910454231044812,
+            -89.54779726093362,
+            38.65408172171983,
+            -20.431118959585095
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3080204,
+          "xy_pix": [
+            1015.8085700393381,
+            179.48493494268268
+          ],
+          "aperture_mdn_s": [
+            -246.20643941858833,
+            -156.78894166691094,
+            23.86592496809413,
+            -210.50241795657143,
+            30.302863670926758,
+            -71.63988815997291,
+            113.43863969170312,
+            -266.7886444214356,
+            -1.2989055561647354
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "He I 10830",
+          "wavelength_um": 3.7591551,
+          "xy_pix": [
+            1477.0956059047433,
+            178.24097041003535
+          ],
+          "aperture_mdn_s": [
+            -62.31625303451642,
+            -162.38884661254258,
+            -9.362345823788226,
+            29.907486635869734,
+            -125.80504993239181,
+            185.88763523374283,
+            -151.35024608830767,
+            59.265407958194665,
+            -123.16684225484373
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa gamma",
+          "wavelength_um": 3.7965617,
+          "xy_pix": [
+            1515.1835884640948,
+            178.11823279762848
+          ],
+          "aperture_mdn_s": [
+            -38.221016433342506,
+            -54.687849305100585,
+            null,
+            89.16120520290845,
+            -199.31977815105745,
+            -37.156443350802256,
+            -3.1939344663056946,
+            -1.3298201329023998,
+            -25.545819406742023
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3230828559999996,
+          "xy_pix": [
+            1031.2681208810905,
+            179.4505010938206
+          ],
+          "aperture_mdn_s": [
+            -129.46072925898852,
+            68.88444747009696,
+            -39.08417138398551,
+            17.60963661107337,
+            10.504651686966495,
+            -32.297827477389546,
+            -30.571293671627952,
+            32.450958130447155,
+            41.29202299884892
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "He I 10830",
+          "wavelength_um": 3.7762717139999995,
+          "xy_pix": [
+            1494.527032892654,
+            178.18517714367076
+          ],
+          "aperture_mdn_s": [
+            null,
+            -75.76585064028443,
+            -29.955839564034374,
+            34.05293805160718,
+            -9.625894325897402,
+            -53.44178517016525,
+            72.02876759723456,
+            -49.61911989745127,
+            -154.47553642493125
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa gamma",
+          "wavelength_um": 3.8138486379999996,
+          "xy_pix": [
+            1532.7771903373775,
+            178.06050645914476
+          ],
+          "aperture_mdn_s": [
+            107.77384755784222,
+            -42.272121370103385,
+            37.52230681181071,
+            -35.76170289578125,
+            -21.78917423579097,
+            83.98865669380748,
+            4.318210817989658,
+            24.73652013384256,
+            55.879950341949126
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw04549003001_02101_00003_nrcalong_rate.fits",
+      "filter": "F356W",
+      "group": "jw04549003001",
+      "flat": "jwst_nircam_flat_0762.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00003_nrcalong_rate.fits/f77b5fdd30f4d15dad498d93f770592a-2-0-23039.bytes",
+          "sha256": "63de4568c54811024470ee076f5e3f5d06190dd8394c0d3f3e9ed02561dfb5bb",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00003_nrcalong_rate.fits/f77b5fdd30f4d15dad498d93f770592a-2-20160-43199.bytes",
+          "sha256": "22e79cf2f406d54be675b455fe9bd4ce950e4a8002ee61d331ac84de1a2ad0b2",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00003_nrcalong_rate.fits/f77b5fdd30f4d15dad498d93f770592a-2-1099072-1942847.bytes",
+          "sha256": "e8547a35d8e465339b1e3bbbf6d0d17ccbec20a4de0d75d287c4ae1af1035dfe",
+          "first_byte": 1099072,
+          "last_byte": 1942847
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00003_nrcalong_rate.fits/f77b5fdd30f4d15dad498d93f770592a-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00003_nrcalong_rate.fits/f77b5fdd30f4d15dad498d93f770592a-2-33586560-33609599.bytes",
+          "sha256": "12a4f4ad80323acfd8cc25052830eb22554bc1badbead5ab9fe49ab1c369a0c3",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00003_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00003_nrcalong_rate.fits/f77b5fdd30f4d15dad498d93f770592a-2-34662592-35506367.bytes",
+          "sha256": "6609a9d19756e3c9e1ba35447e1b68f20b131e8a4f7d465479f3c0dc62d5bd3e",
+          "first_byte": 34662592,
+          "last_byte": 35506367
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "He I 10830",
+          "wavelength_um": 3.5163808469999993,
+          "xy_pix": [
+            1323.1265396350852,
+            182.21905524938288
+          ],
+          "aperture_mdn_s": [
+            93.3871690201319,
+            -32.965875323950264,
+            212.40582966370607,
+            -207.80710429201966,
+            170.06861777668257,
+            -12.034216413627743,
+            106.40916360887238,
+            -40.61804512733437,
+            -64.10198108479202
+          ]
+        },
+        {
+          "z": 2.2459,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5513716489999996,
+          "xy_pix": [
+            1358.8869515451468,
+            182.11610500236876
+          ],
+          "aperture_mdn_s": [
+            -74.14780035652791,
+            130.0170366264985,
+            -92.92286314332308,
+            130.27605685909782,
+            -140.70429045670153,
+            -151.861596260078,
+            -25.590991035641053,
+            -11.39269014368855,
+            -132.14834492318784
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "He I 10830",
+          "wavelength_um": 3.5349057899999994,
+          "xy_pix": [
+            1342.0614457840545,
+            182.1648865426996
+          ],
+          "aperture_mdn_s": [
+            -123.49212320374475,
+            7.433227139301873,
+            9.267647559557934,
+            -25.109904058546373,
+            -43.36475179138515,
+            -83.41345426700433,
+            137.15905673300554,
+            -48.15937551093833,
+            -178.94147738693147
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5700809299999996,
+          "xy_pix": [
+            1377.9994612455826,
+            182.05995381920266
+          ],
+          "aperture_mdn_s": [
+            173.66023745808573,
+            118.04548901152701,
+            9.734648729893427,
+            -26.736123275843877,
+            79.46195717680746,
+            101.35757030672862,
+            -154.58862822445187,
+            80.77409075397942,
+            -95.14923388255711
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3080204,
+          "xy_pix": [
+            1109.7638808071754,
+            182.77611316343766
+          ],
+          "aperture_mdn_s": [
+            -114.67241755254845,
+            -59.2039639499676,
+            -25.9191451142418,
+            7.353967462144522,
+            30.16589599435862,
+            -57.28436362172826,
+            84.68895989976937,
+            -60.96776566502492,
+            106.72056292200577
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "He I 10830",
+          "wavelength_um": 3.7591551,
+          "xy_pix": [
+            1570.8263014879153,
+            181.44947178980314
+          ],
+          "aperture_mdn_s": [
+            -47.001055102781855,
+            60.94848891870683,
+            -61.95172166830941,
+            125.64179871170542,
+            -25.8936949414921,
+            -14.397375227904483,
+            123.98728690725093,
+            -79.90630418027777,
+            1.8465409575574436
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa gamma",
+          "wavelength_um": 3.7965617,
+          "xy_pix": [
+            1608.9060999543403,
+            181.31945216386035
+          ],
+          "aperture_mdn_s": [
+            -36.855277698885125,
+            -33.552690788623764,
+            -243.219900320879,
+            87.39192813762453,
+            32.08730131382402,
+            -82.04278662340353,
+            -69.68903289011033,
+            5.191569592783555,
+            -32.76627092092749
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3230828559999996,
+          "xy_pix": [
+            1125.2121203033387,
+            182.73906970427936
+          ],
+          "aperture_mdn_s": [
+            -0.09966250229554233,
+            -97.2439962887159,
+            91.10306507148675,
+            -47.71911396916692,
+            19.14861892624117,
+            155.92060165101785,
+            -229.38807065770715,
+            118.01506140045329,
+            -27.714212344010594
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "He I 10830",
+          "wavelength_um": 3.7762717139999995,
+          "xy_pix": [
+            1588.2537882564611,
+            181.39035464398336
+          ],
+          "aperture_mdn_s": [
+            23.12174889585884,
+            -71.48480940290712,
+            109.1471960497764,
+            -196.88576065735137,
+            260.3239238529992,
+            -109.84071389458332,
+            66.80841088098302,
+            53.95324122060763,
+            -72.51046377777797
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa gamma",
+          "wavelength_um": 3.8138486379999996,
+          "xy_pix": [
+            1626.4964507701088,
+            181.2583380757474
+          ],
+          "aperture_mdn_s": [
+            -93.14500674109011,
+            -302.2128486824328,
+            -84.40567317242004,
+            -51.22334565774982,
+            41.31442557243532,
+            -16.581373611088,
+            76.25827676733238,
+            -200.73003690943003,
+            58.23899921049291
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw04549003001_02101_00004_nrcalong_rate.fits",
+      "filter": "F356W",
+      "group": "jw04549003001",
+      "flat": "jwst_nircam_flat_0762.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00004_nrcalong_rate.fits/d2045a049fb5fccdb3ecc19ceb6fde9c-2-0-23039.bytes",
+          "sha256": "c2e990dd6a0f7b9ac3b07505bdeff4126ac8c7fbc4468d20c0aafb34de7ae4be",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00004_nrcalong_rate.fits/d2045a049fb5fccdb3ecc19ceb6fde9c-2-20160-43199.bytes",
+          "sha256": "9581be0bb49edfa6dbcadb04ebf2c19ad5573d94ae214734e656c4ead7d6d0a0",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00004_nrcalong_rate.fits/d2045a049fb5fccdb3ecc19ceb6fde9c-2-337216-1180991.bytes",
+          "sha256": "e548d32c564a8a41e9f9bd09721aec05c49ee4d2a5e272aab36ee9a6244c1cfa",
+          "first_byte": 337216,
+          "last_byte": 1180991
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00004_nrcalong_rate.fits/d2045a049fb5fccdb3ecc19ceb6fde9c-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00004_nrcalong_rate.fits/d2045a049fb5fccdb3ecc19ceb6fde9c-2-33586560-33609599.bytes",
+          "sha256": "f610f06ed4386f0489ee4d54c2287e0f73665baa0ec6884893a1bf9b19f44a34",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549003001/jw04549003001_02101_00004_nrcalong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549003001_02101_00004_nrcalong_rate.fits/d2045a049fb5fccdb3ecc19ceb6fde9c-2-33900736-34744511.bytes",
+          "sha256": "67ba0f0c9a9c678cc41a38fe012cbf3459563668730453acdf1c35639ed7478c",
+          "first_byte": 33900736,
+          "last_byte": 34744511
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "He I 10830",
+          "wavelength_um": 3.5163808469999993,
+          "xy_pix": [
+            1325.365443681804,
+            88.95224066651363
+          ],
+          "aperture_mdn_s": [
+            -167.89107361254852,
+            69.58891559676324,
+            -158.00578199113386,
+            193.15176810605678,
+            -159.15344377966983,
+            76.43800538639262,
+            97.36229730619183,
+            -93.74630826671026,
+            8.122259643275447
+          ]
+        },
+        {
+          "z": 2.2459,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5513716489999996,
+          "xy_pix": [
+            1361.1304909371106,
+            88.84676378943504
+          ],
+          "aperture_mdn_s": [
+            3.8349113714144027,
+            -29.969941892856358,
+            -51.146110144448606,
+            125.0231445997877,
+            -6.118860309765058,
+            -149.9665050162603,
+            -14.667091519651526,
+            124.17887796100727,
+            186.16777306680342
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "He I 10830",
+          "wavelength_um": 3.5349057899999994,
+          "xy_pix": [
+            1344.3028447342817,
+            88.8967697170714
+          ],
+          "aperture_mdn_s": [
+            165.56646642346485,
+            28.081920091632373,
+            -63.61459996801369,
+            79.17037820098241,
+            -77.26025367209003,
+            85.87344446159715,
+            -260.8913336922824,
+            222.45037810119518,
+            -93.75568579058819
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5700809299999996,
+          "xy_pix": [
+            1380.2453447163964,
+            88.78914506854862
+          ],
+          "aperture_mdn_s": [
+            -4.871299233597526,
+            -84.1679481467947,
+            -71.51260595395895,
+            -82.54535452837003,
+            129.64234884348983,
+            46.38603690261847,
+            31.68325311074853,
+            82.61946823388963,
+            -13.874951224322835
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3080204,
+          "xy_pix": [
+            1111.9683398549573,
+            89.51843140350987
+          ],
+          "aperture_mdn_s": [
+            14.065826973903405,
+            -84.0974698353196,
+            44.902469037359914,
+            20.04857303694636,
+            127.62197646565961,
+            -103.89238667587364,
+            -133.2157064958327,
+            152.92524099014187,
+            -83.32594041434163
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "He I 10830",
+          "wavelength_um": 3.7591551,
+          "xy_pix": [
+            1573.0906579428768,
+            88.15929451524248
+          ],
+          "aperture_mdn_s": [
+            135.8150071815779,
+            -33.02902460158075,
+            -50.7384143663223,
+            -66.24082341245439,
+            123.3862300017036,
+            -100.49248838676036,
+            115.13136205472662,
+            58.84189724964152,
+            94.97520818074545
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa gamma",
+          "wavelength_um": 3.7965617,
+          "xy_pix": [
+            1611.1729952366945,
+            88.0244689693185
+          ],
+          "aperture_mdn_s": [
+            -99.84940633452734,
+            -27.03013118088192,
+            -53.0315666285022,
+            -117.82915417741619,
+            158.00257747023525,
+            -131.46016703921634,
+            16.369997586979068,
+            -19.819968271592334,
+            83.031810053967
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3230828559999996,
+          "xy_pix": [
+            1127.4194651830153,
+            89.48106869816023
+          ],
+          "aperture_mdn_s": [
+            13.667890503355741,
+            -47.508929819213435,
+            52.89899515990892,
+            -8.89633233947595,
+            -5.908857715613728,
+            -72.49889253791063,
+            22.0310217446791,
+            24.49808162017602,
+            44.532004446032644
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "He I 10830",
+          "wavelength_um": 3.7762717139999995,
+          "xy_pix": [
+            1590.519351855551,
+            88.09801803615375
+          ],
+          "aperture_mdn_s": [
+            18.72913589649439,
+            null,
+            151.18584867940217,
+            -118.26401966408382,
+            54.85259687942118,
+            -75.49740816300309,
+            -15.690765421689443,
+            56.11559842773073,
+            -137.39781747115845
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa gamma",
+          "wavelength_um": 3.8138486379999996,
+          "xy_pix": [
+            1628.7643958127492,
+            87.96102568807927
+          ],
+          "aperture_mdn_s": [
+            -36.6379891423584,
+            -0.2305337109616435,
+            -168.34367178401766,
+            130.46483309636258,
+            -53.53391108550101,
+            -55.9535228061522,
+            10.662821850405395,
+            -15.594373267613967,
+            131.1228715481289
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw04549001001_02101_00001_nrcblong_rate.fits",
+      "filter": "F356W",
+      "group": "jw04549001001",
+      "flat": "jwst_nircam_flat_0743.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00001_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00001_nrcblong_rate.fits/ecbb796b9dd72504716637675829831a-2-0-23039.bytes",
+          "sha256": "9422cdd13b6ccf64582c707ce5e3373311c7c4d82a3f30df43a2cbffa0aea6a1",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00001_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00001_nrcblong_rate.fits/ecbb796b9dd72504716637675829831a-2-20160-43199.bytes",
+          "sha256": "83bd20301bfed6211859dd6d7df5f92133e9446e1aff1c09979e6af804045a24",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00001_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00001_nrcblong_rate.fits/ecbb796b9dd72504716637675829831a-2-58688-853311.bytes",
+          "sha256": "5705fd9a0216690da770c9a6c4665f60b4b13d264ee354a6906ae065503f9e7c",
+          "first_byte": 58688,
+          "last_byte": 853311
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00001_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00001_nrcblong_rate.fits/ecbb796b9dd72504716637675829831a-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00001_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00001_nrcblong_rate.fits/ecbb796b9dd72504716637675829831a-2-33586560-33609599.bytes",
+          "sha256": "d17ac0246e6d9c406aac20f9bb6523e5d59f93ddd58d527a22b294dbf7f44681",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00001_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00001_nrcblong_rate.fits/ecbb796b9dd72504716637675829831a-2-33622208-34416831.bytes",
+          "sha256": "d137d532f2cea109db0e0444b1723af6755cb6011b761ecf5a7ae134e30a66c2",
+          "first_byte": 33622208,
+          "last_byte": 34416831
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "He I 10830",
+          "wavelength_um": 3.5163808469999993,
+          "xy_pix": [
+            1269.419152514054,
+            50.108418118158
+          ],
+          "aperture_mdn_s": [
+            18.46678795323881,
+            35.44910727341763,
+            219.9255016497166,
+            -18.210857471175824,
+            -38.75861681311039,
+            -74.9732682468223,
+            91.65563823570363,
+            -140.02249817454873,
+            -62.62993789935437
+          ]
+        },
+        {
+          "z": 2.2459,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5513716489999996,
+          "xy_pix": [
+            1233.703894150289,
+            50.06872415045518
+          ],
+          "aperture_mdn_s": [
+            null,
+            -47.19288075947025,
+            -93.29518605752361,
+            41.52901416531947,
+            65.34627969949284,
+            69.919450807563,
+            -34.74580382332985,
+            19.689776936488045,
+            -66.36636409835029
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "He I 10830",
+          "wavelength_um": 3.5349057899999994,
+          "xy_pix": [
+            1250.5075070301705,
+            50.08779834949225
+          ],
+          "aperture_mdn_s": [
+            -84.21758711834428,
+            69.97471619526424,
+            -113.20201938805964,
+            -131.4745285785484,
+            77.6669111732522,
+            38.76839548392521,
+            -100.72699676730629,
+            133.2221280130811,
+            -36.93035512014524
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5700809299999996,
+          "xy_pix": [
+            1214.6176484012324,
+            50.04619955635605
+          ],
+          "aperture_mdn_s": [
+            74.00539759691692,
+            -155.3283985850889,
+            98.04554586031874,
+            16.90008552487649,
+            -42.765690002019255,
+            22.820911935973015,
+            -87.19204129785186,
+            -16.135838461277604,
+            -36.585163647241345
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3080204,
+          "xy_pix": [
+            1482.620993664234,
+            50.27879688672134
+          ],
+          "aperture_mdn_s": [
+            143.60702256324973,
+            -26.67601938225185,
+            -67.37546095111566,
+            186.83626910704757,
+            -55.50182402505877,
+            165.06964778709133,
+            -123.47341598841727,
+            102.43997771419369,
+            -28.0864820208599
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "He I 10830",
+          "wavelength_um": 3.7591551,
+          "xy_pix": [
+            1022.1384246168326,
+            49.76796135661212
+          ],
+          "aperture_mdn_s": [
+            null,
+            -93.25976183943114,
+            null,
+            -146.24882757948956,
+            101.01166325413503,
+            null,
+            -190.49955742398754,
+            11.603164874685636,
+            87.45431708797993
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa gamma",
+          "wavelength_um": 3.7965617,
+          "xy_pix": [
+            984.1449665171002,
+            49.70205526706003
+          ],
+          "aperture_mdn_s": [
+            -103.55094829871602,
+            null,
+            -36.27682365563524,
+            -61.72644263058213,
+            28.29733449382385,
+            62.942098268451794,
+            -33.709825485790645,
+            -0.30255334358811337,
+            -25.134835803339055
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3230828559999996,
+          "xy_pix": [
+            1467.178122751927,
+            50.270286919367706
+          ],
+          "aperture_mdn_s": [
+            -82.39751855439239,
+            -7.88680084571617,
+            28.241489859395465,
+            71.46351734388033,
+            -110.1184060602631,
+            -149.26843570678193,
+            104.52878408945718,
+            29.229384589433604,
+            -12.664834694287265
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "He I 10830",
+          "wavelength_um": 3.7762717139999995,
+          "xy_pix": [
+            1004.7497309206456,
+            49.73824718619727
+          ],
+          "aperture_mdn_s": [
+            -53.75865247338535,
+            null,
+            192.00258604027232,
+            -24.42047389950297,
+            67.69715643201008,
+            -7.039666490327699,
+            23.235793282334473,
+            -79.46595638904243,
+            13.056301990488329
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa gamma",
+          "wavelength_um": 3.8138486379999996,
+          "xy_pix": [
+            966.5964599937462,
+            49.670391706965745
+          ],
+          "aperture_mdn_s": [
+            -57.29694135667629,
+            -13.629514335256975,
+            -74.23407809272624,
+            -5.919231392283766,
+            83.8165686580593,
+            -22.948586805447427,
+            -73.86229889041836,
+            null,
+            -36.34133978504165
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw04549001001_02101_00002_nrcblong_rate.fits",
+      "filter": "F356W",
+      "group": "jw04549001001",
+      "flat": "jwst_nircam_flat_0743.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00002_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00002_nrcblong_rate.fits/e528432563e0ea275f3b439eebf3c4e4-2-0-23039.bytes",
+          "sha256": "42dc3d7a9843a04c999e092cd0cc3105e7072000d2a70ece4afe863d4f0f482f",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00002_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00002_nrcblong_rate.fits/e528432563e0ea275f3b439eebf3c4e4-2-20160-43199.bytes",
+          "sha256": "388d20877fa5ac0ba373e192b5116a7a6f930ffee9d70aa718553b5d5cae8369",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00002_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00002_nrcblong_rate.fits/e528432563e0ea275f3b439eebf3c4e4-2-787776-1623359.bytes",
+          "sha256": "623f604cb49959f51f4d86293e976974652bf6272f2551ce14c0420483db32a2",
+          "first_byte": 787776,
+          "last_byte": 1623359
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00002_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00002_nrcblong_rate.fits/e528432563e0ea275f3b439eebf3c4e4-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00002_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00002_nrcblong_rate.fits/e528432563e0ea275f3b439eebf3c4e4-2-33586560-33609599.bytes",
+          "sha256": "b87c10f89b51398dd557167ff3869773e49e09bf224933f2632c95a46670b822",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00002_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00002_nrcblong_rate.fits/e528432563e0ea275f3b439eebf3c4e4-2-34351296-35186879.bytes",
+          "sha256": "eeb2585c86037c20b039dbba245ded871aee3090b53ae3514432929f4a710e16",
+          "first_byte": 34351296,
+          "last_byte": 35186879
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "He I 10830",
+          "wavelength_um": 3.5163808469999993,
+          "xy_pix": [
+            1266.2602850154265,
+            143.3975523564623
+          ],
+          "aperture_mdn_s": [
+            5.623701375811266,
+            -8.973325037086234,
+            -30.562488352758525,
+            21.40550960193628,
+            47.96985418958811,
+            122.67460684409767,
+            -101.37606394247176,
+            90.92358671928588,
+            -121.3740304621935
+          ]
+        },
+        {
+          "z": 2.2459,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5513716489999996,
+          "xy_pix": [
+            1230.5310545198477,
+            143.35358895860884
+          ],
+          "aperture_mdn_s": [
+            -183.9539758259892,
+            113.0085901388315,
+            -46.02707253522616,
+            85.92168909136558,
+            -67.04361210553353,
+            62.237417759428965,
+            -117.16724502063141,
+            103.1331628147675,
+            -90.0834958237883
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "He I 10830",
+          "wavelength_um": 3.5349057899999994,
+          "xy_pix": [
+            1247.3414152791267,
+            143.37462989187452
+          ],
+          "aperture_mdn_s": [
+            31.96588435434849,
+            29.901797397630965,
+            64.87335444018322,
+            -113.88574311811308,
+            75.27672032937672,
+            18.74558039623842,
+            101.65937234019796,
+            -123.29626379005792,
+            -7.745314542518894
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5700809299999996,
+          "xy_pix": [
+            1211.4367691330035,
+            143.32892092896662
+          ],
+          "aperture_mdn_s": [
+            1.4612493807003648,
+            -76.41805058370083,
+            13.280877289428519,
+            23.923598267893926,
+            -18.771917206134713,
+            68.55541137394127,
+            -16.79961200770622,
+            -150.9436948990703,
+            13.267559589857465
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3080204,
+          "xy_pix": [
+            1479.5163219300512,
+            143.60044355895687
+          ],
+          "aperture_mdn_s": [
+            62.757031611878,
+            25.903615932632345,
+            -94.50148407904273,
+            25.198978832924006,
+            23.168779010542533,
+            72.79285018911976,
+            -247.66073582193272,
+            null,
+            -117.81432410352258
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "He I 10830",
+          "wavelength_um": 3.7591551,
+          "xy_pix": [
+            1018.8542697422096,
+            143.03443263053182
+          ],
+          "aperture_mdn_s": [
+            -85.44915989214404,
+            -61.91832247867412,
+            5.460188662114909,
+            -25.606779558553768,
+            24.201563454682372,
+            -74.83305763730178,
+            34.32092700402071,
+            -68.02182573135784,
+            -172.0719762797165
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa gamma",
+          "wavelength_um": 3.7965617,
+          "xy_pix": [
+            980.835674894745,
+            142.9664701392771
+          ],
+          "aperture_mdn_s": [
+            -37.69082255380407,
+            -16.462171359282372,
+            48.0240958337506,
+            26.40522636154864,
+            -130.786121932101,
+            55.941812054691354,
+            78.88621091572595,
+            -150.27713240050406,
+            176.21438462111644
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3230828559999996,
+          "xy_pix": [
+            1464.0712138751608,
+            143.58917340641455
+          ],
+          "aperture_mdn_s": [
+            -78.96497771746877,
+            171.32233307444648,
+            -73.54311068460933,
+            19.304738378787796,
+            31.08656154082997,
+            32.51658833593966,
+            103.45816421502951,
+            -69.89545379498615,
+            54.46918941021764
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "He I 10830",
+          "wavelength_um": 3.7762717139999995,
+          "xy_pix": [
+            1001.4542651972794,
+            143.0037302809844
+          ],
+          "aperture_mdn_s": [
+            -150.4114131927416,
+            66.54012330571376,
+            77.93290960904042,
+            -36.05483107895813,
+            3.140566125776373,
+            79.43736446949575,
+            -74.98451215093736,
+            43.838801165091624,
+            -21.670958385372828
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa gamma",
+          "wavelength_um": 3.8138486379999996,
+          "xy_pix": [
+            963.2750317854408,
+            142.93398461007547
+          ],
+          "aperture_mdn_s": [
+            45.375509880312606,
+            85.57429556031437,
+            16.922117279972568,
+            -34.99602716568381,
+            -68.71040152914712,
+            -64.27706134234204,
+            39.203815754349904,
+            -102.55359778747447,
+            -22.15941912830014
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw04549001001_02101_00003_nrcblong_rate.fits",
+      "filter": "F356W",
+      "group": "jw04549001001",
+      "flat": "jwst_nircam_flat_0743.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00003_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00003_nrcblong_rate.fits/c6a012b103b6933a02b440c6a0660fce-2-0-23039.bytes",
+          "sha256": "d949cd13bdc5aa6a72580f706df155d03bb5e1bad9beb838f53a8a8244b3ab45",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00003_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00003_nrcblong_rate.fits/c6a012b103b6933a02b440c6a0660fce-2-20160-43199.bytes",
+          "sha256": "b1999d8ef724d3afd3a0c2b6875d377d84f2d91da4f8454775a0b1dffea3436c",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00003_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00003_nrcblong_rate.fits/c6a012b103b6933a02b440c6a0660fce-2-812352-1639743.bytes",
+          "sha256": "03ce48303e1fa1c3b0a90e2aae8554d8b6c15897736fba3edab87ae5e2788ed8",
+          "first_byte": 812352,
+          "last_byte": 1639743
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00003_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00003_nrcblong_rate.fits/c6a012b103b6933a02b440c6a0660fce-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00003_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00003_nrcblong_rate.fits/c6a012b103b6933a02b440c6a0660fce-2-33586560-33609599.bytes",
+          "sha256": "7df6eb87b54097ba30be5bdd4a4f8eb83a66babffd47fdceedf5f449a36e3a88",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00003_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00003_nrcblong_rate.fits/c6a012b103b6933a02b440c6a0660fce-2-34375872-35203263.bytes",
+          "sha256": "ae5976622adaf0df74f0b3f21d978b46f0c74745572779d594575c7922aab9fd",
+          "first_byte": 34375872,
+          "last_byte": 35203263
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "He I 10830",
+          "wavelength_um": 3.5163808469999993,
+          "xy_pix": [
+            1360.66750046619,
+            146.06792675026696
+          ],
+          "aperture_mdn_s": [
+            48.89631826511921,
+            29.074908760851724,
+            21.367274586229403,
+            34.40643097733058,
+            5.283602858118935,
+            91.62248244512375,
+            -101.81640362126207,
+            17.041401375545107,
+            40.03168214356128
+          ]
+        },
+        {
+          "z": 2.2459,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5513716489999996,
+          "xy_pix": [
+            1324.9196426450028,
+            146.03098786811006
+          ],
+          "aperture_mdn_s": [
+            -125.60595182245387,
+            51.01235046384423,
+            140.9051564916439,
+            -40.577497527497506,
+            91.79625552192414,
+            -39.25723530921367,
+            33.732274491584405,
+            -55.60559778679294,
+            16.769330745427677
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "He I 10830",
+          "wavelength_um": 3.5349057899999994,
+          "xy_pix": [
+            1341.7388794411233,
+            146.04872982746173
+          ],
+          "aperture_mdn_s": [
+            142.69870419799636,
+            null,
+            -63.08899453008969,
+            45.815974695075006,
+            48.13085072402286,
+            -15.64621268972683,
+            66.79630451460676,
+            -211.23717356360171,
+            104.58512124198249
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5700809299999996,
+          "xy_pix": [
+            1305.8150341544292,
+            146.0100540229536
+          ],
+          "aperture_mdn_s": [
+            -175.15466999282435,
+            1.200046084602495,
+            -88.51456676178758,
+            -123.62160103025799,
+            107.1881053433236,
+            -143.2739430405593,
+            115.69206423557985,
+            56.24603271985866,
+            8.006021329146767
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3080204,
+          "xy_pix": [
+            1574.0159434203222,
+            146.22789627925863
+          ],
+          "aperture_mdn_s": [
+            -10.984072359093378,
+            -17.87674068182393,
+            null,
+            -234.52389579012495,
+            null,
+            5.113630654469146,
+            -33.904228657231066,
+            51.18316572214246,
+            77.63097310192607
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "He I 10830",
+          "wavelength_um": 3.7591551,
+          "xy_pix": [
+            1113.1141371747824,
+            145.75244787733834
+          ],
+          "aperture_mdn_s": [
+            -13.505993485294153,
+            21.06944861056185,
+            68.22342319090238,
+            86.90910187008166,
+            -6.544888505931212,
+            -7.900428342573693,
+            3.2766709786242467,
+            41.4076031244566,
+            -109.39410023131848
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa gamma",
+          "wavelength_um": 3.7965617,
+          "xy_pix": [
+            1075.0691115663083,
+            145.69159691345186
+          ],
+          "aperture_mdn_s": [
+            -35.61102115149203,
+            -130.94996659014797,
+            17.921920729569162,
+            80.34316356388435,
+            -55.01961343311806,
+            100.5903272063084,
+            5.636526133513214,
+            -243.08195431767638,
+            90.04903481294232
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3230828559999996,
+          "xy_pix": [
+            1558.5652276760372,
+            146.2197913971633
+          ],
+          "aperture_mdn_s": [
+            -2.6037972935078098,
+            -17.581752895435926,
+            null,
+            null,
+            57.14599491733372,
+            -26.053991289482212,
+            null,
+            -65.81963142984917,
+            100.30513899895308
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "He I 10830",
+          "wavelength_um": 3.7762717139999995,
+          "xy_pix": [
+            1095.7021606930994,
+            145.72500726241768
+          ],
+          "aperture_mdn_s": [
+            -36.965891232541914,
+            -118.85586387020861,
+            -141.7751832821468,
+            81.34831479187241,
+            -61.77429768923799,
+            -6.867465986647031,
+            -89.30404516315157,
+            153.25408474514893,
+            1.9239877304591813
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa gamma",
+          "wavelength_um": 3.8138486379999996,
+          "xy_pix": [
+            1057.495921292549,
+            145.66237711308017
+          ],
+          "aperture_mdn_s": [
+            114.80459211105185,
+            -53.03133557644854,
+            16.503626470788785,
+            37.74208834920677,
+            -30.366852225613453,
+            36.30547528611484,
+            -41.27179722540099,
+            75.8652760004169,
+            -33.227391180207384
+          ]
+        }
+      ]
+    },
+    {
+      "file": "jw04549001001_02101_00004_nrcblong_rate.fits",
+      "filter": "F356W",
+      "group": "jw04549001001",
+      "flat": "jwst_nircam_flat_0743.fits",
+      "data_ranges": [
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00004_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00004_nrcblong_rate.fits/46952b212fc6dbc6cb37014cb263eb95-2-0-23039.bytes",
+          "sha256": "ec7b811dd7c1ce70463947bd0dc0354d6f90b84fdac9ec455e9418a5cc12cd43",
+          "first_byte": 0,
+          "last_byte": 23039
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00004_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00004_nrcblong_rate.fits/46952b212fc6dbc6cb37014cb263eb95-2-20160-43199.bytes",
+          "sha256": "6c4a4f44025218b3de8116b0e8cb023e958b6df1c08c687a74cc5b2991805cba",
+          "first_byte": 20160,
+          "last_byte": 43199
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00004_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00004_nrcblong_rate.fits/46952b212fc6dbc6cb37014cb263eb95-2-58688-877887.bytes",
+          "sha256": "c3682e82095992607da10760310f5a5a39f1271a92098d55882c4cfbc44c2b9f",
+          "first_byte": 58688,
+          "last_byte": 877887
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00004_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00004_nrcblong_rate.fits/46952b212fc6dbc6cb37014cb263eb95-2-16804800-16827839.bytes",
+          "sha256": "dc6d897c88d6cc4719549c6b1542916cb61bb3e769bc24cf00cb7c72e9b88b27",
+          "first_byte": 16804800,
+          "last_byte": 16827839
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00004_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00004_nrcblong_rate.fits/46952b212fc6dbc6cb37014cb263eb95-2-33586560-33609599.bytes",
+          "sha256": "eb3b4394e4e1f8d4d849c031cd289c1254153cc528271a03af13817bf0955f84",
+          "first_byte": 33586560,
+          "last_byte": 33609599
+        },
+        {
+          "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw04549/jw04549001001/jw04549001001_02101_00004_nrcblong_rate.fits",
+          "path": "data/raw/cross_detector/mast_stripes/jw04549001001_02101_00004_nrcblong_rate.fits/46952b212fc6dbc6cb37014cb263eb95-2-33622208-34441407.bytes",
+          "sha256": "7f3f78b2f4333877c396ae80e8a1bab3ab21b01a27ac416838968f2f5a032fa4",
+          "first_byte": 33622208,
+          "last_byte": 34441407
+        }
+      ],
+      "apertures": [
+        {
+          "z": 2.2459,
+          "line": "He I 10830",
+          "wavelength_um": 3.5163808469999993,
+          "xy_pix": [
+            1363.683443785324,
+            52.703840295065206
+          ],
+          "aperture_mdn_s": [
+            -167.02730854473495,
+            -72.64580188908698,
+            -18.86920247825497,
+            0.21047227711925437,
+            -126.17820788584206,
+            27.214283258738362,
+            10.015477354334088,
+            -121.30735758780517,
+            90.1692108423825
+          ]
+        },
+        {
+          "z": 2.2459,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5513716489999996,
+          "xy_pix": [
+            1327.9513102534527,
+            52.671974931130904
+          ],
+          "aperture_mdn_s": [
+            -23.791662343853915,
+            -29.988878282437735,
+            121.96776906817416,
+            -98.14278033217501,
+            102.18299438745895,
+            -10.026390815316386,
+            -89.7861814659666,
+            103.90773526473164,
+            130.73065145923474
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "He I 10830",
+          "wavelength_um": 3.5349057899999994,
+          "xy_pix": [
+            1344.7629952522952,
+            52.68737294170205
+          ],
+          "aperture_mdn_s": [
+            97.84643521942643,
+            -20.15755279147155,
+            -120.03707464884081,
+            -80.21245012174688,
+            28.70666283620662,
+            -143.35930488912868,
+            null,
+            -148.5626046978659,
+            -32.117232727904415
+          ]
+        },
+        {
+          "z": 2.263,
+          "line": "Pa gamma",
+          "wavelength_um": 3.5700809299999996,
+          "xy_pix": [
+            1308.8556103706508,
+            52.65361061604043
+          ],
+          "aperture_mdn_s": [
+            146.2608044678216,
+            35.45018882700005,
+            49.571604916212905,
+            -132.78277961772955,
+            0.2586477053427641,
+            -38.15042943738454,
+            148.69319091246481,
+            46.864205689728166,
+            -76.51510026568059
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3080204,
+          "xy_pix": [
+            1576.9637924729898,
+            52.82631661060751
+          ],
+          "aperture_mdn_s": [
+            76.0542159663038,
+            54.276448722269514,
+            -56.081687786879705,
+            -71.83881103769917,
+            131.60180449182624,
+            -176.0348584337412,
+            143.72739757687785,
+            -9.281377689378742,
+            -95.77881017518445
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "He I 10830",
+          "wavelength_um": 3.7591551,
+          "xy_pix": [
+            1116.2641547154838,
+            52.41640785336715
+          ],
+          "aperture_mdn_s": [
+            146.98807001359688,
+            -35.223860019699686,
+            -29.866764602617632,
+            162.6554751714935,
+            -66.86009173805996,
+            10.183787802875425,
+            90.46559341104461,
+            -91.03744215828684,
+            160.27437750876783
+          ]
+        },
+        {
+          "z": 2.47,
+          "line": "Pa gamma",
+          "wavelength_um": 3.7965617,
+          "xy_pix": [
+            1078.2449283016263,
+            52.358401715400674
+          ],
+          "aperture_mdn_s": [
+            166.25073281385593,
+            -51.18997146681126,
+            108.56366945830362,
+            -119.19656413794041,
+            130.85107379688873,
+            -4.614741042297428,
+            6.455494076711956,
+            7.078395778112554,
+            -90.30265270962603
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "[S III] 9531",
+          "wavelength_um": 3.3230828559999996,
+          "xy_pix": [
+            1561.5165199695573,
+            52.82134290931916
+          ],
+          "aperture_mdn_s": [
+            105.9725344000034,
+            323.290777734749,
+            -238.59310051736188,
+            111.62523808282829,
+            10.555864841604583,
+            45.024843871678236,
+            78.64501723081723,
+            -40.57164101883523,
+            45.989953342386855
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "He I 10830",
+          "wavelength_um": 3.7762717139999995,
+          "xy_pix": [
+            1098.8638148132543,
+            52.390317562865405
+          ],
+          "aperture_mdn_s": [
+            -2.6974258738284433,
+            16.968452253827092,
+            -55.81246217268773,
+            34.032845961817046,
+            -14.863722511339626,
+            -15.488829098148653,
+            52.575499949543286,
+            29.613481941234316,
+            -148.20395703259254
+          ]
+        },
+        {
+          "z": 2.4858,
+          "line": "Pa gamma",
+          "wavelength_um": 3.8138486379999996,
+          "xy_pix": [
+            1060.6841193382702,
+            52.33036449043021
+          ],
+          "aperture_mdn_s": [
+            -18.508159415750438,
+            -21.289751150021033,
+            -86.80236868698911,
+            79.32540231592259,
+            -35.28183904139686,
+            33.89398581317803,
+            10.268066224387637,
+            107.08827077277222,
+            -70.96033505201187
+          ]
+        }
+      ]
+    }
+  ],
+  "line_results": [
+    {
+      "z": 2.2459,
+      "line": "He I 10830",
+      "wavelength_um": 3.5163808469999993,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -23.510125237641414,
+            -4.273777722975964,
+            47.96527135123313,
+            9.45288884630257,
+            -27.92084191281135,
+            41.63452607528437,
+            -25.38033799342403,
+            -38.341216916880725,
+            -13.45076884390102
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -29.303483117308815,
+            -6.781684812102839,
+            16.918231120543275,
+            30.736930128603234,
+            -45.263348850148915,
+            -2.4389681847311238,
+            108.66655777080774,
+            -58.10552466730992,
+            -2.758662049727587
+          ]
+        }
+      },
+      "exposures": 8,
+      "aperture_mdn_s": -26.406804177475117,
+      "controls_mdn_s": [
+        -5.5277312675394015,
+        32.441751235888205,
+        20.094909487452902,
+        -36.592095381480135,
+        19.597778945276623,
+        41.64310988869185,
+        -48.223370792095324,
+        -8.104715446814303
+      ],
+      "control_median_mdn_s": 7.035023838868611,
+      "empirical_scatter_mdn_s": 30.057095751887367
+    },
+    {
+      "z": 2.2459,
+      "line": "Pa beta",
+      "wavelength_um": 4.161763144,
+      "filter": "F444W",
+      "groups": {
+        "jw01895001008_03101": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -10.097151428707733,
+            -18.512784663792363,
+            14.754747446855813,
+            -47.4220697750362,
+            72.07129575968534,
+            75.52985642335739,
+            -53.73954064596137,
+            20.557184445221992,
+            6.404160525666121
+          ]
+        },
+        "jw01895001008_03103": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            5.467258812724658,
+            -27.849325473490346,
+            2.418825222385287,
+            46.30352259106938,
+            -19.073878898107242,
+            22.22230159499492,
+            -2.2540450602834383,
+            -28.3674885435067,
+            9.618236622876532
+          ]
+        }
+      },
+      "exposures": 8,
+      "aperture_mdn_s": -2.314946307991537,
+      "controls_mdn_s": [
+        -23.181055068641356,
+        8.58678633462055,
+        -0.5592735919834091,
+        26.49870843078905,
+        48.87607900917615,
+        -27.996792853122404,
+        -3.9051520491423535,
+        8.011198574271326
+      ],
+      "control_median_mdn_s": 3.7259624911439584,
+      "empirical_scatter_mdn_s": 22.538381773773146
+    },
+    {
+      "z": 2.2459,
+      "line": "Pa gamma",
+      "wavelength_um": 3.5513716489999996,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 3,
+          "combined_mdn_s": [
+            -111.11719666409901,
+            44.677354106746,
+            72.28195100819731,
+            -17.599529589435644,
+            42.311879267949855,
+            4.317930544966303,
+            -57.74038399833787,
+            50.478433430902065,
+            19.138828793624707
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -86.0200480529491,
+            14.223472165570971,
+            -29.635347165477725,
+            45.669231313128066,
+            -33.355565702898176,
+            -70.95705781644403,
+            -55.105021576526624,
+            37.93750123880146,
+            12.032041210317843
+          ]
+        }
+      },
+      "exposures": 7,
+      "aperture_mdn_s": -98.56862235852405,
+      "controls_mdn_s": [
+        29.450413136158488,
+        21.323301921359793,
+        14.034850861846211,
+        4.47815678252584,
+        -33.31956363573887,
+        -56.42270278743224,
+        44.20796733485176,
+        15.585435001971275
+      ],
+      "control_median_mdn_s": 14.810142931908743,
+      "empirical_scatter_mdn_s": 18.51193363494788
+    },
+    {
+      "z": 2.263,
+      "line": "He I 10830",
+      "wavelength_um": 3.5349057899999994,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 2,
+          "combined_mdn_s": [
+            -26.125851381997897,
+            49.938256796447604,
+            -24.16433247393821,
+            -122.68013584833074,
+            76.47181575131447,
+            28.756987940081814,
+            0.46618778644583614,
+            4.962932111511584,
+            -22.337834831332067
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -15.368398218419841,
+            1.5787553709046502,
+            -0.032250109714293984,
+            -8.589542126313813,
+            -21.889778211805023,
+            -54.1476925536016,
+            -12.54401090050331,
+            34.447424163099825,
+            -100.79657403364651
+          ]
+        }
+      },
+      "exposures": 6,
+      "aperture_mdn_s": -20.74712480020887,
+      "controls_mdn_s": [
+        25.758506083676128,
+        -12.098291291826252,
+        -65.63483898732227,
+        27.29101876975472,
+        -12.695352306759894,
+        -6.038911557028737,
+        19.705178137305705,
+        -61.56720443248929
+      ],
+      "control_median_mdn_s": -9.068601424427495,
+      "empirical_scatter_mdn_s": 47.14733758487004
+    },
+    {
+      "z": 2.263,
+      "line": "Pa beta",
+      "wavelength_um": 4.18368808,
+      "filter": "F444W",
+      "groups": {
+        "jw01895001008_03101": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            48.054037860478374,
+            48.294860735307665,
+            15.137817428146107,
+            -51.02639607160078,
+            122.45764162062271,
+            36.90731643887865,
+            -39.18329606302285,
+            62.858621522700616,
+            -65.9009685983072
+          ]
+        },
+        "jw01895001008_03103": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -75.35166012929835,
+            -70.41287103529106,
+            74.49457662833456,
+            -23.13803767991348,
+            19.090437429390377,
+            -39.817055333732334,
+            -88.01583638871634,
+            115.20309779479848,
+            -63.46620794013675
+          ]
+        }
+      },
+      "exposures": 8,
+      "aperture_mdn_s": -13.64881113440999,
+      "controls_mdn_s": [
+        -11.059005149991698,
+        44.81619702824033,
+        -37.082216875757126,
+        70.77403952500654,
+        -1.4548694474268409,
+        -63.599566225869594,
+        89.03085965874955,
+        -64.68358826922197
+      ],
+      "control_median_mdn_s": -6.2569372987092695,
+      "empirical_scatter_mdn_s": 80.36860530027168
+    },
+    {
+      "z": 2.263,
+      "line": "Pa gamma",
+      "wavelength_um": 3.5700809299999996,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            11.643195363153634,
+            -48.77405356429681,
+            18.095865326043146,
+            -53.89517421380428,
+            11.477286460128099,
+            -22.512012292007384,
+            40.09840046062165,
+            -15.99232373769027,
+            -22.956670748479425
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            45.373780279413,
+            -41.98763752439692,
+            -21.767640668786843,
+            -11.776623926405371,
+            27.57253658620658,
+            60.58768091153327,
+            -43.5999004448921,
+            61.37352491601237,
+            -19.78707639758406
+          ]
+        }
+      },
+      "exposures": 8,
+      "aperture_mdn_s": 28.508487821283317,
+      "controls_mdn_s": [
+        -45.38084554434687,
+        -1.8358876713718484,
+        -32.83589907010483,
+        19.52491152316734,
+        19.037834309762943,
+        -1.7507499921352263,
+        22.69060058916105,
+        -21.371873573031742
+      ],
+      "control_median_mdn_s": -1.7933188317535373,
+      "empirical_scatter_mdn_s": 31.245337985909014
+    },
+    {
+      "z": 2.47,
+      "line": "He I 10830",
+      "wavelength_um": 3.7591551,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 3,
+          "combined_mdn_s": [
+            16.010972212052895,
+            -25.357577962603983,
+            14.605615750133216,
+            74.65259916100713,
+            -16.4011389297696,
+            -24.18323272566668,
+            42.687730464563195,
+            -39.21722158839602,
+            -40.397233000755726
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -4.489914629743637,
+            6.7678178396508155,
+            -17.144515173266726,
+            -12.758837710768553,
+            35.02935463553051,
+            15.911954327498826,
+            -2.2336123378669726,
+            10.898678018450145,
+            -15.61558961317401
+          ]
+        }
+      },
+      "exposures": 7,
+      "aperture_mdn_s": 5.760528791154629,
+      "controls_mdn_s": [
+        -9.294880061476583,
+        -1.2694497115667547,
+        30.94688072511929,
+        9.314107852880454,
+        -4.135639199083927,
+        20.22705906334811,
+        -14.159271784972939,
+        -28.006411306964868
+      ],
+      "control_median_mdn_s": -2.702544455325341,
+      "empirical_scatter_mdn_s": 17.400816325540717
+    },
+    {
+      "z": 2.47,
+      "line": "Pa beta",
+      "wavelength_um": 4.4490952,
+      "filter": "F444W",
+      "groups": {
+        "jw01895001008_03101": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -21.394285349277474,
+            78.18073612771994,
+            28.92042826092603,
+            6.338624951302535,
+            -48.89662853381422,
+            51.65553569702429,
+            -110.14088730197705,
+            135.42738412223702,
+            -35.577535160175835
+          ]
+        },
+        "jw01895001008_03103": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -103.36447875029882,
+            -75.04191178660389,
+            80.50844585822993,
+            26.240382275524773,
+            73.72099246016197,
+            20.138537997496407,
+            46.30379510802882,
+            -3.1990823551395433,
+            10.379528572165684
+          ]
+        }
+      },
+      "exposures": 8,
+      "aperture_mdn_s": -62.37938204978815,
+      "controls_mdn_s": [
+        1.5694121705580244,
+        54.71443705957798,
+        16.289503613413654,
+        12.412181963173872,
+        35.89703684726035,
+        -31.91854609697411,
+        66.11415088354873,
+        -12.599003294005076
+      ],
+      "control_median_mdn_s": 14.350842788293763,
+      "empirical_scatter_mdn_s": 35.95011455672006
+    },
+    {
+      "z": 2.47,
+      "line": "Pa gamma",
+      "wavelength_um": 3.7965617,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 3,
+          "combined_mdn_s": [
+            30.982963036186607,
+            -66.2007031387472,
+            58.16989534054113,
+            -4.149391404169141,
+            -18.318220522776773,
+            50.63913273956745,
+            30.32607704198371,
+            -128.76023031335595,
+            58.65358890814423
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 2,
+          "combined_mdn_s": [
+            -68.35234201670623,
+            -30.291410984752844,
+            -148.1257334746906,
+            -15.218613019895827,
+            95.04493939202963,
+            -106.75147683130993,
+            -26.65951765156563,
+            -7.314199339404389,
+            25.13276956651976
+          ]
+        }
+      },
+      "exposures": 5,
+      "aperture_mdn_s": -18.684689490259814,
+      "controls_mdn_s": [
+        -48.24605706175002,
+        -44.97791906707474,
+        -9.684002212032484,
+        38.36335943462643,
+        -28.05617204587124,
+        1.8332796952090398,
+        -68.03721482638016,
+        41.89317923733199
+      ],
+      "control_median_mdn_s": -18.870087128951862,
+      "empirical_scatter_mdn_s": 41.13014232691376
+    },
+    {
+      "z": 2.47,
+      "line": "[S III] 9531",
+      "wavelength_um": 3.3080204,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 2,
+          "combined_mdn_s": [
+            109.83061926477677,
+            13.800214670008831,
+            -61.728574368997684,
+            57.4987290346742,
+            38.04999023338374,
+            -5.4826053233249326,
+            10.126990794230288,
+            46.57930001240747,
+            -61.932646098022175
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -100.23958009254793,
+            -50.308988705800544,
+            -15.753951131951647,
+            -19.64983006606969,
+            25.435584954482312,
+            -74.13897768369426,
+            33.46980934202969,
+            -53.6260604116551,
+            19.448590830869307
+          ]
+        }
+      },
+      "exposures": 6,
+      "aperture_mdn_s": 4.795519586114423,
+      "controls_mdn_s": [
+        -18.25438701789586,
+        -38.74126275047467,
+        18.924449484302254,
+        31.742787593933024,
+        -39.8107915035096,
+        21.79840006812999,
+        -3.523380199623812,
+        -21.242027633576434
+      ],
+      "control_median_mdn_s": -10.888883608759835,
+      "empirical_scatter_mdn_s": 42.08677898013121
+    },
+    {
+      "z": 2.4858,
+      "line": "He I 10830",
+      "wavelength_um": 3.7762717139999995,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 3,
+          "combined_mdn_s": [
+            -63.35824343303732,
+            -11.78242943688925,
+            -39.88491194859804,
+            26.442109891577108,
+            -24.49915135826708,
+            19.027023128233353,
+            -37.237685788181885,
+            75.56878928382496,
+            -55.98364256250206
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 2,
+          "combined_mdn_s": [
+            35.43390810983213,
+            -80.77956641532387,
+            196.09381878340764,
+            -206.24786722264167,
+            214.36923021483602,
+            -34.069622791747804,
+            47.23182577903375,
+            6.530043886106252,
+            -57.16778224113119
+          ]
+        }
+      },
+      "exposures": 5,
+      "aperture_mdn_s": -13.962167661602596,
+      "controls_mdn_s": [
+        -46.28099792610656,
+        78.1044534174048,
+        -89.90287866553228,
+        94.93503942828447,
+        -7.521299831757226,
+        4.997069995425932,
+        41.049416584965606,
+        -56.57571240181663
+      ],
+      "control_median_mdn_s": -1.262114918165647,
+      "empirical_scatter_mdn_s": 74.37646778841707
+    },
+    {
+      "z": 2.4858,
+      "line": "Pa beta",
+      "wavelength_um": 4.4693533279999995,
+      "filter": "F444W",
+      "groups": {
+        "jw01895001008_03101": {
+          "exposures": 3,
+          "combined_mdn_s": [
+            -194.89153975399722,
+            -7.399868434561777,
+            -71.04592693114772,
+            51.614900997573784,
+            -193.99607932970267,
+            -98.72257441607171,
+            -17.465135998366833,
+            -32.64290094611846,
+            39.3199079046936
+          ]
+        },
+        "jw01895001008_03103": {
+          "exposures": 3,
+          "combined_mdn_s": [
+            -33.164800389717705,
+            75.15084780782242,
+            -90.72964758482463,
+            -76.32108639469611,
+            128.33260869697096,
+            31.06756254244932,
+            61.84805658930801,
+            -18.700069419261837,
+            5.557488374087986
+          ]
+        }
+      },
+      "exposures": 6,
+      "aperture_mdn_s": -114.02817007185746,
+      "controls_mdn_s": [
+        33.87548968663032,
+        -80.88778725798618,
+        -12.353092698561163,
+        -32.83173531636585,
+        -33.82750593681119,
+        22.191460295470588,
+        -25.671485182690148,
+        22.438698139390794
+      ],
+      "control_median_mdn_s": -19.012288940625655,
+      "empirical_scatter_mdn_s": 41.526859667990486
+    },
+    {
+      "z": 2.4858,
+      "line": "Pa gamma",
+      "wavelength_um": 3.8138486379999996,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 3,
+          "combined_mdn_s": [
+            47.223980858538,
+            3.7510696112815984,
+            -17.792208312075918,
+            27.35715449981518,
+            -44.78636426538581,
+            1.9741332523169437,
+            2.7333615844455177,
+            26.799982995238214,
+            -42.11571512017313
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -66.89048252762595,
+            -130.93076256800902,
+            -2.020950145144667,
+            -11.673067749294937,
+            -16.906975172862293,
+            14.116625615291893,
+            6.114503428637834,
+            -53.24383269624152,
+            80.08859155612693
+          ]
+        }
+      },
+      "exposures": 7,
+      "aperture_mdn_s": -9.833250834543975,
+      "controls_mdn_s": [
+        -63.58984647836371,
+        -9.906579228610292,
+        7.842043375260122,
+        -30.84666971912405,
+        8.045379433804419,
+        4.423932506541676,
+        -13.221924850501653,
+        18.9864382179769
+      ],
+      "control_median_mdn_s": -2.741323361034308,
+      "empirical_scatter_mdn_s": 15.841632543429007
+    },
+    {
+      "z": 2.4858,
+      "line": "[S III] 9531",
+      "wavelength_um": 3.3230828559999996,
+      "filter": "F356W",
+      "groups": {
+        "jw04549001001": {
+          "exposures": 3,
+          "combined_mdn_s": [
+            -18.463320623952594,
+            162.24210332115976,
+            -94.63157378085857,
+            67.46449793516547,
+            -22.825326559276178,
+            -23.90900116638801,
+            95.54398851176798,
+            -27.07923674146259,
+            29.264769352772408
+          ]
+        },
+        "jw04549003001": {
+          "exposures": 4,
+          "combined_mdn_s": [
+            -10.890105281144946,
+            -24.787207840852112,
+            25.807030836162625,
+            -32.72493723248266,
+            70.21641317208018,
+            15.289363703684824,
+            -50.25552882923997,
+            43.48705788129727,
+            9.371266574126995
+          ]
+        }
+      },
+      "exposures": 7,
+      "aperture_mdn_s": -14.676712952548769,
+      "controls_mdn_s": [
+        68.72744774015382,
+        -34.412271472347975,
+        17.369780351341404,
+        23.695543306402,
+        -4.3098187313515925,
+        22.644229841264004,
+        8.203910569917339,
+        19.3180179634497
+      ],
+      "control_median_mdn_s": 18.343899157395555,
+      "empirical_scatter_mdn_s": 11.48394734755608
+    }
+  ],
+  "scope": "Instrumental rates from flat-fielded native pixels with local background subtraction. Control scatter is descriptive. An absolute line flux, completeness, and global significance require contamination models and calibrated injection tests."
+}

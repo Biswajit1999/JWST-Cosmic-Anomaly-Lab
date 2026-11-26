@@ -24,6 +24,9 @@ commands:
   - python scripts/measure_jwst_brightening_native_fade.py
   - python scripts/audit_jades_103607_optical_host.py
   - python scripts/check_jades_103607_priority.py
+  - python scripts/check_jades_103607_followup.py
+  - python scripts/audit_jades_103607_grism_host_coverage.py
+  - python scripts/measure_jades_103607_grism_host_lines.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
   newer_visits: [jw12577001001, jw12577002001]
@@ -36,7 +39,7 @@ limitations:
   - Empirical residual scores do not calibrate the global false-alarm probability.
   - Public registry checks establish the archived public record at a specified date.
   - Light-curve aperture uncertainties exclude correlated calibration systematics.
-  - The slitless audit checks extraction positions without measuring wavelength coverage or sensitivity.
+  - The slitless line apertures use instrumental count rates and local controls. Source overlap limits the interpretation.
   - The held-out filters share the October 2026 visit and the reported aperture fluxes omit total-flux correction.
   - The two public APT snapshots carry identical embedded target catalogues.
   - The measured light-centroid offset uses Gaussian core matching and shares one bright epoch.
@@ -71,4 +74,7 @@ outputs:
   - results/jwst_cross_detector/module_b_001_native_november_fade.json
   - results/jwst_cross_detector/module_b_001_optical_host.json
   - results/jwst_cross_detector/module_b_001_priority_20261126.json
+  - results/jwst_cross_detector/module_b_001_followup_20261126.json
+  - results/jwst_cross_detector/module_b_001_grism_host_coverage.json
+  - results/jwst_cross_detector/module_b_001_grism_host_lines.json
   - figures/jwst_cross_detector/module_b_*

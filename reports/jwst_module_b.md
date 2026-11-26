@@ -315,12 +315,12 @@ redshift unmeasured.
 
 We located 18 archival NIRCam GRISMR exposures whose direct-image
 footprints contain the position. Eight are F444W observations from
-FRESCO (GO 1895), and ten are F356W observations from GO 4549.
+FRESCO (GO 1895), and ten are F356W exposures from GTO 4549.
 All precede the October 2026 brightening. No entry among the 1,800
 first-order positions in the corresponding public STScI X1D products
 lies within 0.20″. The nearest is 4.07″ away. The search concerns
-catalogued extraction centers. Dispersed-trace coverage, blending
-and sensitivity for an extraction at the target position are unmeasured.
+catalogued extraction centers. The detector geometry and targeted
+measurements are described below.
 [FRESCO archive](https://archive.stsci.edu/hlsp/fresco) ·
 [GO 4549 programme](https://www.stsci.edu/jwst-program-info/program/?program=4549) ·
 [Slitless extraction receipts](../results/jwst_cross_detector/module_b_001_archived_grism.json).
@@ -513,6 +513,96 @@ priority assessment.
 [JADES Transient Survey II](https://arxiv.org/abs/2607.12018) ·
 [Transient Name Server](https://www.wis-tns.org/) ·
 [Search terms, catalogue joins and receipts](../results/jwst_cross_detector/module_b_001_priority_20261126.json).
+
+#### Additional host spectra and planned coverage
+
+The 26 November position search found no published spectroscopic
+entry within 1 arcsec of the transient in these five additional
+catalogue checks. DAWN found four extractions of the same nearby
+galaxy, JADES 103483. Its spectrum belongs to a source 1.559 arcsec
+away. The closest ACES entry has no measured redshift.
+
+| Catalogue | Rows checked | Nearest entry (arcsec) |
+| --- | ---: | ---: |
+| ACES, 60 arcsec cone | 38 | 4.195 |
+| VUDS DR1, 60 arcsec cone | 9 | 9.454 |
+| VANDELS DR4, 60 arcsec cone | 6 | 44.066 |
+| SMILES DR2, full release | 166 | 38.196 |
+| DAWN NIRSpec, local extraction query | 4 | 1.559 |
+
+[ACES](https://doi.org/10.1111/j.1365-2966.2012.21524.x) ·
+[VUDS DR1](https://doi.org/10.1051/0004-6361/201527963) ·
+[VANDELS DR4](https://doi.org/10.1051/0004-6361/202040059) ·
+[SMILES DR2](https://arxiv.org/abs/2508.12599) ·
+[DAWN JWST Archive](https://dawn-cph.github.io/dja/) ·
+[Catalogue and observing-plan checks](../results/jwst_cross_detector/module_b_001_followup_20261126.json).
+
+The GO 12577 archive and DAWN inventory showed no later covering
+exposure than the 24 November visit already measured above. The
+current GO 12577 schedule lists 3 to 5 January 2027 for observations
+005 and 006. The transient lies outside all twelve corresponding MAST
+planning polygons. The nearest edges of the two pointings are 15.48
+and 1.31 arcsec away, respectively. Observation 010 has a nominal
+NIRSpec footprint encompassing the coordinates, with an inactive
+status and no target slit in the checked planning file. These are
+public planning snapshots and can change.
+[STScI visit status](https://www.stsci.edu/jwst-program-info/visits/?program=12577) ·
+[Previous slit-assignment check](../results/jwst_cross_detector/module_b_001_priority_20261126.json).
+
+![JWST programme footprints and nearest spectroscopic catalogue entries](../figures/jwst_cross_detector/module_b_001_followup_20261126.png)
+
+We propagated the transient and galaxy coordinates through the CRDS
+distortion and dispersion models for 18 archived NIRCam grism exposures.
+The generated dispersion agreed with the archived pipeline extractions
+in the wavelength-coordinate check, whose per-exposure 95th-percentile
+absolute residual was at most 0.00000023 microns. This comparison checks
+the reconstruction of the same calibration model. At the catalogue
+photometric estimate of z = 2.47, the 3.308 micron [S III] line, He I
+at 3.759 microns and Paschen gamma at 3.797 microns fall on the science
+detector in eight GTO 4549 F356W exposures. Paschen beta at 4.449 microns
+falls on the science detector in eight FRESCO F444W exposures. All
+exposures predate the event.
+[GTO 4549](https://www.stsci.edu/jwst-program-info/program/?program=4549) ·
+[FRESCO survey](https://doi.org/10.1093/mnras/stad2411) ·
+[Per-exposure geometry and calibration receipts](../results/jwst_cross_detector/module_b_001_grism_host_coverage.json).
+
+![First-order grism wavelength coverage at the transient position](../figures/jwst_cross_detector/module_b_001_grism_host_coverage.png)
+
+#### Line measurements on the archived detector pixels
+
+We measured 14 line and redshift combinations at the JADES 103607
+catalogue position, using 16 pre-event grism exposures with trace
+coverage. Each combined result uses five to eight exposures split
+between two visits for F356W or two exposure sequences for F444W.
+We divided each detector count-rate cutout by its pipeline flat,
+masked flagged pixels except those carrying only the jump-detection
+flag, and removed a local sky and continuum estimate. The uncertainty
+shown is the scaled median absolute deviation of eight apertures
+offset across the trace. It measures local scatter in instrumental
+count rate.
+[JWST ramp fitting](https://jwst-pipeline.readthedocs.io/en/1.20.2/jwst/ramp_fitting/description.html) ·
+[Detector ranges, individual apertures and split measurements](../results/jwst_cross_detector/module_b_001_grism_host_lines.json).
+
+| Line at trial z = 2.47 | Observed wavelength (microns) | Signed rate excess (mDN/s) | Exposures used |
+| --- | ---: | ---: | ---: |
+| [S III] 9531 | 3.3080 | +15.7 ± 42.1 | 6 |
+| He I 10830 | 3.7592 | +8.5 ± 17.4 | 7 |
+| Paschen gamma | 3.7966 | +0.2 ± 41.1 | 5 |
+| Paschen beta | 4.4491 | −76.7 ± 35.9 | 8 |
+
+No positive residual exceeds the local control scatter in the
+combined apertures at any of the four trial redshifts. At the
+Paschen beta wavelength for z = 2.47, the stacked detector image
+shows a bright band parallel to the expected trace, displaced by
+several cross-dispersion pixels. The line measurement is affected
+by the structured local background. The Paschen gamma aperture at
+z = 2.2459 also has a large negative residual. Neither supports
+a secure host redshift. These tests cover fixed emission-line
+hypotheses. They leave flux calibration, source overlap and
+completeness to a contamination model and injection-recovery
+analysis.
+
+![Measured spectral apertures with empirical error bars and native FRESCO detector pixels around the predicted Paschen beta wavelength](../figures/jwst_cross_detector/module_b_001_grism_host_lines.png)
 
 ### Fading at 53.147252°, −27.790612°
 
