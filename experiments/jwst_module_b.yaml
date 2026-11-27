@@ -65,6 +65,8 @@ commands:
   - python scripts/audit_jades_103607_kmos_2026.py
   - python scripts/download_jades_103607_alma.py
   - python scripts/measure_jades_103607_alma.py
+  - python scripts/download_jades_103607_vla.py
+  - python scripts/measure_jades_103607_vla.py
   - python scripts/plot_jades_103607_cross_survey_timeline.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
@@ -105,6 +107,7 @@ limitations:
   - TESS gives limits on excursions from a sector reference, conditional on sampled hours and days and a matched optical point-source profile. The archive cutouts end before both JWST visits. The TESS-point footprint predictions are separate from measured pixels.
   - Las Cumbres r-prime fixed-aperture fluxes use a stellar calibration against PS1 r, evaluated at a fixed color. Some archive geometry hits are shallow focus frames. The ESO KMOS audit tests nominal IFU geometry rather than calibrated spectra.
   - ALMA limits apply to compact continuum sources in sampled historical datasets. The beam-fit errors use nearby residuals. Large published primary-beam files were omitted from the bounded download and these cutouts are qualified by local scatter in the delivered corrected pixels.
+  - The NVSS and W-CDFS mosaics combine observations and their beams blend nearby galaxies. VLASS epoch 1.1 Quick Look photometry has documented pointing and flux-scale limitations. The 2026 NRAO search constrains scan centers within 24 arcmin, not every possible primary beam.
   - Chandra event counts use fixed windows and a local background. Count bounds omit effective area and point-spread corrections.
   - Spitzer matching uses a local linear image model and fixed artificial point sources to test sensitivity.
   - RapidXMM limits use wide apertures at nearby sky cells and can include unrelated emission.
@@ -176,5 +179,7 @@ outputs:
   - results/jwst_cross_detector/module_b_001_kmos_2026.json
   - results/jwst_cross_detector/module_b_001_alma_inventory.json
   - results/jwst_cross_detector/module_b_001_alma_continuum.json
+  - results/jwst_cross_detector/module_b_001_vla_inventory.json
+  - results/jwst_cross_detector/module_b_001_vla_radio_history.json
   - results/jwst_cross_detector/module_b_001_cross_survey_timeline.json
   - figures/jwst_cross_detector/module_b_*

@@ -1,0 +1,157 @@
+{
+  "executed_utc": "2026-11-27T09:04:12.613128+00:00",
+  "script_sha256": "30ffdfdce728f07e7042332e7ed350f6797b7a963a15119c0eb147e0fe343e87",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "position_source_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "vlass": {
+    "listing": {
+      "path": "data/raw/metadata/module_b_001_vla_inventory_cadc.vot",
+      "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/sia/v2query?POS=CIRCLE+53.18866983298658+-27.812539402767552+0.01&COLLECTION=VLASS&MAXREC=100",
+      "sha256": "052ba4dd0065eba80b923c4fd6da52f4bbea6ddb8fa178747967798da0fcbaf6"
+    },
+    "products": [
+      {
+        "observation_id": "VLASS1.1.T04t06.J033113-273000",
+        "archive_mjd_range": [
+          "58159.02483796296",
+          "58159.04310185185"
+        ],
+        "region": "Polygon ICRS 53.38562 -26.981970000000004 53.391089999999984 -28.015584000000004 52.22026299999999 -28.015582000000023 52.22573700000001 -26.981969000000007",
+        "datalink": {
+          "path": "data/raw/metadata/vla/VLASS1.1.T04t06.J033113-273000.vot",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/datalink?ID=ivo%3A%2F%2Fcadc.nrc.ca%2FVLASS%3FVLASS1.1.T04t06.J033113-273000%2FVLASS1.1.T04t06.J033113-273000.quicklook",
+          "sha256": "fcee82cd6e995e4dc268cb2b17b3a5a10a48a94d27016f5b0f62a2695c26caed"
+        },
+        "science": {
+          "path": "data/raw/cross_detector/vla/VLASS1.1.T04t06.J033113-273000.science.fits",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS1.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+          "sha256": "b3a3d5e0aa4e29464336e2b5d0999c6b0e36e0b4496f8069d3b760ef82c6c84b"
+        },
+        "rms": {
+          "path": "data/raw/cross_detector/vla/VLASS1.1.T04t06.J033113-273000.rms.fits",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS1.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.rms.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+          "sha256": "5d53072f35da9a40398639b273802ee8f810347338aa0c14df5c2b0be9a75fd3"
+        }
+      },
+      {
+        "observation_id": "VLASS2.1.T04t06.J033113-273000",
+        "archive_mjd_range": [
+          "59153.34924768518",
+          "59153.37231481481"
+        ],
+        "region": "Polygon ICRS 53.38557899999998 -26.981971 53.391050000000014 -28.015584999999987 52.22022299999999 -28.015583000000007 52.22569600000001 -26.981968999999978",
+        "datalink": {
+          "path": "data/raw/metadata/vla/VLASS2.1.T04t06.J033113-273000.vot",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/datalink?ID=ivo%3A%2F%2Fcadc.nrc.ca%2FVLASS%3FVLASS2.1.T04t06.J033113-273000%2FVLASS2.1.T04t06.J033113-273000.quicklook",
+          "sha256": "f4133e2cf4f03760afacb7ad7721c72584d6d880bc091a723a125aca2c087bfd"
+        },
+        "science": {
+          "path": "data/raw/cross_detector/vla/VLASS2.1.T04t06.J033113-273000.science.fits",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS2.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+          "sha256": "622082284ffe855fec92ea055a8b40ef9643443ae591c04d20bd444ebc5587a8"
+        },
+        "rms": {
+          "path": "data/raw/cross_detector/vla/VLASS2.1.T04t06.J033113-273000.rms.fits",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS2.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.rms.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+          "sha256": "777771ee23905662b2b18f5e50b1e7b3bbb41867b88a7848977b67766126a44a"
+        }
+      },
+      {
+        "observation_id": "VLASS3.1.T04t06.J033113-273000",
+        "archive_mjd_range": [
+          "60099.75572916667",
+          "60099.7787962963"
+        ],
+        "region": "Polygon ICRS 53.385581 -26.981970000000004 53.39105199999999 -28.015584000000004 52.220225000000006 -28.015583000000007 52.225697999999994 -26.981969000000007",
+        "datalink": {
+          "path": "data/raw/metadata/vla/VLASS3.1.T04t06.J033113-273000.vot",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/datalink?ID=ivo%3A%2F%2Fcadc.nrc.ca%2FVLASS%3FVLASS3.1.T04t06.J033113-273000%2FVLASS3.1.T04t06.J033113-273000.quicklook",
+          "sha256": "dc465f80499541a96d18d6f9cca31eed2b603ec911412ada11e7f45380a7f95a"
+        },
+        "science": {
+          "path": "data/raw/cross_detector/vla/VLASS3.1.T04t06.J033113-273000.science.fits",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS3.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+          "sha256": "86002ff5be653312e62914bbc34d5d161d814d7e3af2ee5cbfcffcf8884a0df8"
+        },
+        "rms": {
+          "path": "data/raw/cross_detector/vla/VLASS3.1.T04t06.J033113-273000.rms.fits",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS3.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.rms.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+          "sha256": "976511e290661e1badde33bb6947329695ddfec66f777e2e06302d2bf68be275"
+        }
+      },
+      {
+        "observation_id": "VLASS4.1.T04t06.J033113-273000",
+        "archive_mjd_range": [
+          null,
+          null
+        ],
+        "region": "Polygon ICRS 53.38559199999998 -26.981969000000007 53.39106199999999 -28.015583000000007 52.22023500000001 -28.015581999999995 52.225709 -26.981967999999995",
+        "datalink": {
+          "path": "data/raw/metadata/vla/VLASS4.1.T04t06.J033113-273000.vot",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/datalink?ID=ivo%3A%2F%2Fcadc.nrc.ca%2FVLASS%3FVLASS4.1.T04t06.J033113-273000%2FVLASS4.1.T04t06.J033113-273000.quicklook",
+          "sha256": "b49269602e84e0dd8ec67d20505cb01a09f467a250c9121f737cd81d3695264c"
+        },
+        "science": {
+          "path": "data/raw/cross_detector/vla/VLASS4.1.T04t06.J033113-273000.science.fits",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS4.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+          "sha256": "13e15f332a2e317781c76941aa6ce69b05ed9c4a65929b8cd2ff0cc89ce6fe5f"
+        },
+        "rms": {
+          "path": "data/raw/cross_detector/vla/VLASS4.1.T04t06.J033113-273000.rms.fits",
+          "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS4.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.rms.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+          "sha256": "b578536ed7e1671b32d3ad416ed70a2b159dfcd555b19df6c60d84cfbb9d621e"
+        }
+      }
+    ]
+  },
+  "w_cdfs": {
+    "products": {
+      "single_pass_rp5_p3mJy.image.pbcor.tt0.fits": {
+        "path": "data/raw/cross_detector/vla/single_pass_rp5_p3mJy.image.pbcor.tt0.fits",
+        "url": "https://zenodo.org/records/18202043/files/single_pass_rp5_p3mJy.image.pbcor.tt0.fits",
+        "sha256": "9614df041b858649f3d8f27a986287759afc6a94b7eb4aa07d5bdbcfcb950c56"
+      },
+      "Adams_CDFS_StokesI.fits": {
+        "path": "data/raw/cross_detector/vla/Adams_CDFS_StokesI.fits",
+        "url": "https://zenodo.org/records/18202043/files/Adams_CDFS_StokesI.fits",
+        "sha256": "ac9f282b3ca21dc180f353a6aba692038c754af2623049f0281c7cee2b7a53bc"
+      }
+    },
+    "doi": "10.5281/zenodo.18202043",
+    "observing_interval_utc": [
+      "2021-07-24",
+      "2021-09-09"
+    ]
+  },
+  "nvss": {
+    "request": {
+      "path": "data/raw/metadata/module_b_001_vla_inventory_nvss.html",
+      "url": "https://skyview.gsfc.nasa.gov/current/cgi/runquery.pl?survey=NVSS&position=53.18866983298658%2C-27.812539402767552&size=0.55&pixels=132&projection=Tan",
+      "sha256": "bd1cf748a257bf9df3ef3b8727f1beec099cf0958e315014f6a035c254940bd2"
+    },
+    "science": {
+      "path": "data/raw/cross_detector/vla/nvss_jades103607_skyview.fits",
+      "url": "https://skyview.gsfc.nasa.gov/tempspace/fits/skv4558429778558.fits",
+      "sha256": "9c45dfac863211f3ab77001ed5eb0bf8c298c6930cdd04488da2a6635ecb8d96"
+    },
+    "survey_observing_decade": "1990s"
+  },
+  "event_vla_pointing_search": {
+    "query": {
+      "path": "data/raw/metadata/module_b_001_vla_inventory_event_nrao.csv",
+      "url": "https://data-query.nrao.edu/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+400+project_code%2Cobs_publisher_did%2Ctarget_name%2Ct_min%2Ct_max%2Cs_ra%2Cs_dec%2Cs_fov%2Cfreq_min%2Cfreq_max%2Cproprietary_status+FROM+tap_schema.obscore+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cs_ra%2Cs_dec%29%2CCIRCLE%28%27ICRS%27%2C53.18866983298658%2C-27.812539402767552%2C0.40%29%29+AND+t_min+%3E%3D+61314.0+AND+t_min+%3C+61371.0+AND+instrument_name%3D%27EVLA%27",
+      "sha256": "18916ab5bd11b38968b772e8c6830c9b5e23ccdc084d66bd803eacee45f4bbc1"
+    },
+    "radius_deg": 0.4,
+    "window_utc": [
+      "2026-10-01",
+      "2026-11-27"
+    ],
+    "rows": []
+  },
+  "raw_cache_budget_bytes": 35861299200,
+  "scope": "The 2026 NRAO query selects scan pointing centers within 24 arcmin and scans starting in the date window; it is not an exact coverage test for wide beams beyond the cone. CADC SIA finds public VLASS footprint products, with FITS dates checked in the photometry."
+}

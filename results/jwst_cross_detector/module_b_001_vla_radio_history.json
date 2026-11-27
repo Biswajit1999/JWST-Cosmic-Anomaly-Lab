@@ -1,0 +1,319 @@
+{
+  "executed_utc": "2026-11-27T09:06:59.896959+00:00",
+  "script_sha256": "a105866023ea6d54e1fdc3e2b0bcac7225c178b6b4b2dd80d7ee40646bc0a5fa",
+  "inventory_sha256": "20b3b7070abb8163a01090ebc057ef9e16b170ccd5a94444093562af52cb3893",
+  "context_sha256": "0e13157a30a11e8af842752a039923b5bd0c419b24da51a156aae04e82462814",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "neighbor_icrs_deg": [
+    53.18825,
+    -27.81275
+  ],
+  "neighbor_separation_arcsec": 1.536822372003027,
+  "w_cdfs_catalogue_rows": 1924,
+  "nearest_w_cdfs_catalogue_components": [
+    {
+      "id": "WCDFSi J033243.38-274916.5",
+      "position_icrs_deg": [
+        53.180740904070284,
+        -27.821262033003826
+      ],
+      "separation_arcsec": 40.29139541821488,
+      "peak_ujy_beam": 283.73488130099366,
+      "island_rms_ujy_beam": 48.52866550209001
+    },
+    {
+      "id": "WCDFSi J033308.17-275033.2",
+      "position_icrs_deg": [
+        53.28404178854698,
+        -27.842547169339277
+      ],
+      "separation_arcsec": 322.2789801686668,
+      "peak_ujy_beam": 860.4593638689503,
+      "island_rms_ujy_beam": 61.75687303766608
+    },
+    {
+      "id": "WCDFSi J033310.21-274841.5",
+      "position_icrs_deg": [
+        53.29255948726672,
+        -27.811541484755484
+      ],
+      "separation_arcsec": 330.8185561723374,
+      "peak_ujy_beam": 13512.150827853096,
+      "island_rms_ujy_beam": 77.0710248616524
+    },
+    {
+      "id": "WCDFSi J033310.31-274832.9",
+      "position_icrs_deg": [
+        53.2929735170786,
+        -27.809151607717006
+      ],
+      "separation_arcsec": 332.34488600385595,
+      "peak_ujy_beam": 707.7375081509925,
+      "island_rms_ujy_beam": 77.0710248616524
+    },
+    {
+      "id": "WCDFSi J033228.76-274403.7",
+      "position_icrs_deg": [
+        53.11982240011306,
+        -27.734350551585486
+      ],
+      "separation_arcsec": 356.8225662231058,
+      "peak_ujy_beam": 1380.144393619237,
+      "island_rms_ujy_beam": 98.04496949072927
+    },
+    {
+      "id": "WCDFSi J033218.05-274718.3",
+      "position_icrs_deg": [
+        53.0752258054511,
+        -27.78841571617798
+      ],
+      "separation_arcsec": 371.55193920759183,
+      "peak_ujy_beam": 510.1204452192429,
+      "island_rms_ujy_beam": 60.21976514603011
+    },
+    {
+      "id": "WCDFSi J033249.39-274235.2",
+      "position_icrs_deg": [
+        53.205803392933554,
+        -27.709771499524834
+      ],
+      "separation_arcsec": 373.96897972936847,
+      "peak_ujy_beam": 1532.6863842260711,
+      "island_rms_ujy_beam": 76.53325155843049
+    },
+    {
+      "id": "WCDFSi J033229.51-274331.7",
+      "position_icrs_deg": [
+        53.12296346017048,
+        -27.725478170969588
+      ],
+      "separation_arcsec": 376.8809793488765,
+      "peak_ujy_beam": 632.926011806819,
+      "island_rms_ujy_beam": 98.04496949072927
+    }
+  ],
+  "w_cdfs_catalogue_units": {
+    "catalogue_fits_peak_unit": "Jy / beam",
+    "catalogue_fits_rms_unit": "Jy / beam",
+    "publication_peak_and_rms_unit": "mJy/beam",
+    "publication_table": "https://www.mdpi.com/2218-1997/12/2/38",
+    "finite_matched_image_samples": 1395,
+    "median_image_jy_per_beam_to_catalogue_numeric_peak": 0.001005669630615936
+  },
+  "measurements": [
+    {
+      "name": "NVSS",
+      "target_signed_flux_ujy": 113.93395717681986,
+      "local_error_ujy": 537.5692228140525,
+      "residual_score": 0.21194285748057065,
+      "neighbor_signed_flux_ujy": 49.273856621872696,
+      "neighbor_beam_fwhm_ratio": 0.03415160826671586,
+      "frequency_ghz": 1.4,
+      "restoring_beam_arcsec": [
+        45.0,
+        45.0
+      ],
+      "restoring_beam_pa_deg": 0.0,
+      "control_count": 173,
+      "beam_fit_scatter_ujy": 537.5692228140525,
+      "published_rms_ujy_beam": null,
+      "inner_control_count": 70,
+      "inner_beam_fit_scatter_ujy": 442.85989505188456,
+      "five_scatter_depth_ujy": 2687.8461140702625,
+      "recovery_90pct_5scatter_ujy": 3344.937516123034,
+      "flux_increment_to_cross_5scatter_on_target_ujy": 2573.9121568934424,
+      "fits_start_utc": null,
+      "fits_end_utc": null,
+      "science": {
+        "path": "data/raw/cross_detector/vla/nvss_jades103607_skyview.fits",
+        "url": "https://skyview.gsfc.nasa.gov/tempspace/fits/skv4558429778558.fits",
+        "sha256": "9c45dfac863211f3ab77001ed5eb0bf8c298c6930cdd04488da2a6635ecb8d96"
+      },
+      "rms": null
+    },
+    {
+      "name": "VLASS1.1",
+      "target_signed_flux_ujy": 186.10581838612512,
+      "local_error_ujy": 116.31664602678102,
+      "residual_score": 1.59999299105715,
+      "neighbor_signed_flux_ujy": 12.67376373257451,
+      "neighbor_beam_fwhm_ratio": 0.5369073029417912,
+      "frequency_ghz": 3.0,
+      "restoring_beam_arcsec": [
+        2.8623607158661204,
+        1.7458240985870401
+      ],
+      "restoring_beam_pa_deg": 47.20604705811,
+      "control_count": 251,
+      "beam_fit_scatter_ujy": 112.30280921681663,
+      "published_rms_ujy_beam": 116.31664602678102,
+      "inner_control_count": 87,
+      "inner_beam_fit_scatter_ujy": 103.73686284790007,
+      "five_scatter_depth_ujy": 581.5832301339051,
+      "recovery_90pct_5scatter_ujy": 736.7676585471527,
+      "flux_increment_to_cross_5scatter_on_target_ujy": 395.47741174777997,
+      "fits_start_utc": "2018-02-10T00:35:46.275000",
+      "fits_end_utc": null,
+      "science": {
+        "path": "data/raw/cross_detector/vla/VLASS1.1.T04t06.J033113-273000.science.fits",
+        "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS1.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+        "sha256": "b3a3d5e0aa4e29464336e2b5d0999c6b0e36e0b4496f8069d3b760ef82c6c84b"
+      },
+      "rms": {
+        "path": "data/raw/cross_detector/vla/VLASS1.1.T04t06.J033113-273000.rms.fits",
+        "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS1.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.rms.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+        "sha256": "5d53072f35da9a40398639b273802ee8f810347338aa0c14df5c2b0be9a75fd3"
+      }
+    },
+    {
+      "name": "VLASS2.1",
+      "target_signed_flux_ujy": -57.29202284443033,
+      "local_error_ujy": 147.9824808863027,
+      "residual_score": -0.387154090817336,
+      "neighbor_signed_flux_ujy": -73.62770602441358,
+      "neighbor_beam_fwhm_ratio": 0.5809596078271471,
+      "frequency_ghz": 3.0,
+      "restoring_beam_arcsec": [
+        2.6453170776365997,
+        1.7591962814330402
+      ],
+      "restoring_beam_pa_deg": 42.10550689697,
+      "control_count": 251,
+      "beam_fit_scatter_ujy": 147.9824808863027,
+      "published_rms_ujy_beam": 130.98119386496865,
+      "inner_control_count": 87,
+      "inner_beam_fit_scatter_ujy": 131.6602392368244,
+      "five_scatter_depth_ujy": 739.9124044315136,
+      "recovery_90pct_5scatter_ujy": 940.6185017725056,
+      "flux_increment_to_cross_5scatter_on_target_ujy": 797.2044272759439,
+      "fits_start_utc": "2020-10-31T08:22:55.200000",
+      "fits_end_utc": "2020-10-31T08:56:08.249999",
+      "science": {
+        "path": "data/raw/cross_detector/vla/VLASS2.1.T04t06.J033113-273000.science.fits",
+        "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS2.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+        "sha256": "622082284ffe855fec92ea055a8b40ef9643443ae591c04d20bd444ebc5587a8"
+      },
+      "rms": {
+        "path": "data/raw/cross_detector/vla/VLASS2.1.T04t06.J033113-273000.rms.fits",
+        "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS2.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.rms.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+        "sha256": "777771ee23905662b2b18f5e50b1e7b3bbb41867b88a7848977b67766126a44a"
+      }
+    },
+    {
+      "name": "W-CDFS",
+      "target_signed_flux_ujy": -167.8549024304081,
+      "local_error_ujy": 58.28309335101777,
+      "residual_score": -2.879993026785304,
+      "neighbor_signed_flux_ujy": -182.05531362834395,
+      "neighbor_beam_fwhm_ratio": 0.09293253458046395,
+      "frequency_ghz": 2.998992170726,
+      "restoring_beam_arcsec": [
+        16.536968231202,
+        11.0165166854856
+      ],
+      "restoring_beam_pa_deg": 8.336730957031,
+      "control_count": 238,
+      "beam_fit_scatter_ujy": 58.28309335101777,
+      "published_rms_ujy_beam": null,
+      "inner_control_count": 74,
+      "inner_beam_fit_scatter_ujy": 52.56338286139259,
+      "five_scatter_depth_ujy": 291.41546675508886,
+      "recovery_90pct_5scatter_ujy": 367.8717959674673,
+      "flux_increment_to_cross_5scatter_on_target_ujy": 459.270369185497,
+      "fits_start_utc": "2021-07-24T14:44:05.000000",
+      "fits_end_utc": null,
+      "science": {
+        "path": "data/raw/cross_detector/vla/single_pass_rp5_p3mJy.image.pbcor.tt0.fits",
+        "url": "https://zenodo.org/records/18202043/files/single_pass_rp5_p3mJy.image.pbcor.tt0.fits",
+        "sha256": "9614df041b858649f3d8f27a986287759afc6a94b7eb4aa07d5bdbcfcb950c56"
+      },
+      "rms": null
+    },
+    {
+      "name": "VLASS3.1",
+      "target_signed_flux_ujy": 10.648422652974762,
+      "local_error_ujy": 205.84397401777633,
+      "residual_score": 0.05173055322015491,
+      "neighbor_signed_flux_ujy": -106.31182736715631,
+      "neighbor_beam_fwhm_ratio": 0.5581910366240914,
+      "frequency_ghz": 3.0,
+      "restoring_beam_arcsec": [
+        2.75321936607372,
+        1.83893764019004
+      ],
+      "restoring_beam_pa_deg": 26.762281417850005,
+      "control_count": 251,
+      "beam_fit_scatter_ujy": 150.3996388519309,
+      "published_rms_ujy_beam": 130.5186765132638,
+      "inner_control_count": 87,
+      "inner_beam_fit_scatter_ujy": 205.84397401777633,
+      "five_scatter_depth_ujy": 1029.2198700888816,
+      "recovery_90pct_5scatter_ujy": 1216.9304417469643,
+      "flux_increment_to_cross_5scatter_on_target_ujy": 1018.5714474359069,
+      "fits_start_utc": "2023-06-04T18:08:15.900000",
+      "fits_end_utc": "2023-06-04T18:41:28.500000",
+      "science": {
+        "path": "data/raw/cross_detector/vla/VLASS3.1.T04t06.J033113-273000.science.fits",
+        "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS3.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+        "sha256": "86002ff5be653312e62914bbc34d5d161d814d7e3af2ee5cbfcffcf8884a0df8"
+      },
+      "rms": {
+        "path": "data/raw/cross_detector/vla/VLASS3.1.T04t06.J033113-273000.rms.fits",
+        "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS3.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.rms.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+        "sha256": "976511e290661e1badde33bb6947329695ddfec66f777e2e06302d2bf68be275"
+      }
+    },
+    {
+      "name": "VLASS4.1",
+      "target_signed_flux_ujy": -64.29391192684616,
+      "local_error_ujy": 157.95781085739998,
+      "residual_score": -0.4070321788954708,
+      "neighbor_signed_flux_ujy": -63.104072516589284,
+      "neighbor_beam_fwhm_ratio": 0.7410532157308038,
+      "frequency_ghz": 3.0,
+      "restoring_beam_arcsec": [
+        2.0738353729248,
+        1.76983082294472
+      ],
+      "restoring_beam_pa_deg": 36.25410079956,
+      "control_count": 252,
+      "beam_fit_scatter_ujy": 157.95781085739998,
+      "published_rms_ujy_beam": 137.44538109722885,
+      "inner_control_count": 88,
+      "inner_beam_fit_scatter_ujy": 118.81405892411586,
+      "five_scatter_depth_ujy": 789.7890542869999,
+      "recovery_90pct_5scatter_ujy": 991.7093610423309,
+      "flux_increment_to_cross_5scatter_on_target_ujy": 854.082966213846,
+      "fits_start_utc": "2026-01-31T02:04:52.050000",
+      "fits_end_utc": "2026-01-31T02:31:37.199999",
+      "science": {
+        "path": "data/raw/cross_detector/vla/VLASS4.1.T04t06.J033113-273000.science.fits",
+        "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS4.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+        "sha256": "13e15f332a2e317781c76941aa6ce69b05ed9c4a65929b8cd2ff0cc89ce6fe5f"
+      },
+      "rms": {
+        "path": "data/raw/cross_detector/vla/VLASS4.1.T04t06.J033113-273000.rms.fits",
+        "url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=nrao%3AVLASS%2FVLASS4.1.ql.T04t06.J033113-273000.10.2048.v1.I.iter1.image.pbcor.tt0.rms.subim.fits&CIRCLE=53.18866983298658+-27.812539402767552+0.035",
+        "sha256": "b578536ed7e1671b32d3ad416ed70a2b159dfcd555b19df6c60d84cfbb9d621e"
+      }
+    }
+  ],
+  "event_archive": {
+    "query": {
+      "path": "data/raw/metadata/module_b_001_vla_inventory_event_nrao.csv",
+      "url": "https://data-query.nrao.edu/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+400+project_code%2Cobs_publisher_did%2Ctarget_name%2Ct_min%2Ct_max%2Cs_ra%2Cs_dec%2Cs_fov%2Cfreq_min%2Cfreq_max%2Cproprietary_status+FROM+tap_schema.obscore+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cs_ra%2Cs_dec%29%2CCIRCLE%28%27ICRS%27%2C53.18866983298658%2C-27.812539402767552%2C0.40%29%29+AND+t_min+%3E%3D+61314.0+AND+t_min+%3C+61371.0+AND+instrument_name%3D%27EVLA%27",
+      "sha256": "18916ab5bd11b38968b772e8c6830c9b5e23ccdc084d66bd803eacee45f4bbc1"
+    },
+    "radius_deg": 0.4,
+    "window_utc": [
+      "2026-10-01",
+      "2026-11-27"
+    ],
+    "rows": []
+  },
+  "methodology": "Fixed-position unit-peak restoring-beam fits with a local planar background on science images in Jy per beam. Control positions exclude nearby W-CDFS catalogue components and are separated by at least one restoring-beam major FWHM. Use the larger of the local and inner scaled MAD of controls and the supplied VLASS RMS map value when available. The 90 percent recovery amplitude adds a matching compact-source contribution to the measured control residuals. NVSS uses the survey beam; the map is reprojected by SkyView.",
+  "limitation": "The W-CDFS and NVSS mosaics combine exposures from their survey intervals. The VLASS Quick Look epoch 1.1 has documented pointing and flux-scale issues. The broad NVSS and W-CDFS beams blend the transient coordinate and nearby galaxy. An independent counterpart during the 2026 JWST visits requires contemporaneous target data."
+}

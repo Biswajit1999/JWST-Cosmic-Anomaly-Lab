@@ -35,6 +35,7 @@ KEYS = (
     "tess_history",
     "lco_r_history",
     "alma_continuum",
+    "vla_radio_history",
 )
 
 
@@ -107,6 +108,10 @@ def collect(data, hashes):
             if row["first_utc"] < "2026-10-01"
         ),
         "MeerKAT MIGHTEE coadd": radio,
+        "VLA dated continuum images": day_list(
+            row["fits_start_utc"] for row in data["vla_radio_history"]["measurements"]
+            if row["fits_start_utc"] is not None
+        ),
         "ALMA continuum measured": day_list(
             row["start_utc"] for row in data["alma_continuum"]["datasets"]
         ),
@@ -151,7 +156,7 @@ def collect(data, hashes):
 
 
 def write_timeline(history, recent):
-    fig = Figure(figsize=(10.8, 7.9), layout="constrained")
+    fig = Figure(figsize=(10.8, 8.2), layout="constrained")
     axes = fig.subplots(2, 1, gridspec_kw={"height_ratios": (1.65, 1)})
     for y, (name, values) in enumerate(history.items()):
         times = [
@@ -216,6 +221,7 @@ def main():
             "TESS dates contain usable optical cadences. Las Cumbres dates come from "
             "calibrated r-prime flux measurements. ALMA marks record the start dates of "
             "historical datasets that yielded continuum measurements, some spanning multiple dates. "
+            "The VLA row uses the dated FITS headers; the 1990s NVSS mosaic has no local observing date. "
             "The 2026 lower panel includes "
             "public metadata for unreleased DECam images, nearby Rubin alerts, and HST products "
             "whose footprints miss the position.",

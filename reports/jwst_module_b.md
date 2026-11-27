@@ -1164,6 +1164,51 @@ or resolved emission unconstrained.
 
 ![Actual ALMA Band 3 and Band 6 images and historical continuum measurements. The cross marks the JWST transient position, the green circle marks JADES 103483, and the black ellipse in each lower-left corner shows the restoring beam.](../figures/jwst_cross_detector/module_b_001_alma_continuum.png)
 
+**VLA centimeter continuum, 1990s to January 2026.** At the fixed
+JWST position we measured an NVSS 1.4 GHz mosaic, the deeper
+W-CDFS 2–4 GHz mosaic, and four 3 GHz VLASS Quick Look images.
+Each signed fit uses the restoring beam and local control
+positions. We used the larger of the inner and outer control
+scatter estimates and the published VLASS RMS when available.
+The NVSS image comes from NASA SkyView and uses the survey's
+45″ beam. The exact observing date at this position is absent
+from that reprojected mosaic.
+[NVSS survey data](https://www.cv.nrao.edu/nvss/) ·
+[W-CDFS survey and observing dates](https://www.mdpi.com/2218-1997/12/2/38) ·
+[VLASS Quick Look calibration](https://science.nrao.edu/vlass/data-access/vlass-epoch-1-quick-look-users-guide).
+
+| Image | UTC epoch | Signed flux (µJy) | Five times local noise (µJy) |
+| --- | --- | ---: | ---: |
+| NVSS 1.4 GHz | 1990s mosaic | 114 ± 538 | 2,688 |
+| VLASS 1.1 | 10 February 2018 | 186 ± 116 | 582 |
+| VLASS 2.1 | 31 October 2020 | −57 ± 148 | 740 |
+| W-CDFS ≈3 GHz | 24 July–9 September 2021 | −168 ± 58 | 291 |
+| VLASS 3.1 | 4 June 2023 | 11 ± 206 | 1,029 |
+| VLASS 4.1 | 31 January 2026 | −64 ± 158 | 790 |
+
+None of the six images shows a significant positive source at
+the transient position. W-CDFS gives the strongest local
+sensitivity. The blank-position recovery trials reach 90% at
+368 µJy, and 459 µJy of added matching-profile flux would be
+needed to cross the same threshold on the measured negative
+target residual. W-CDFS and NVSS blend the transient position
+and nearby JADES 103483 within their restoring beams. VLASS 1.1
+has documented pointing and flux-scale limitations.
+[VLA measurements, depth estimates and cutout receipts](../results/jwst_cross_detector/module_b_001_vla_radio_history.json).
+
+The nearest W-CDFS catalogue component is **40.29″** away.
+Its peak is **284 µJy/beam**. We used the mJy/beam convention
+specified in the publication for the catalogue's numeric peak
+and island RMS values. The FITS column metadata instead label
+these values as Jy/beam. At 1,395 catalogue positions,
+the median ratio of the mosaic pixel in Jy/beam to the numeric
+catalogue peak was **0.001006**, consistent with the publication's
+convention.
+[Released W-CDFS image and table](https://doi.org/10.5281/zenodo.18202043) ·
+[Catalogue column definitions](https://www.mdpi.com/2218-1997/12/2/38).
+
+![Observed VLA continuum images at the transient position across six historical products. The black cross marks the JWST position, and the green circle marks JADES 103483 on the finer-scale panels.](../figures/jwst_cross_detector/module_b_001_vla_radio_history.png)
+
 The historical record samples distinct optical, infrared, X-ray
 and radio observing windows. The measured flux and count-rate sensitivities
 apply to those windows. Gaps in cadence and sensitivity leave the
@@ -1244,6 +1289,16 @@ records from seven observing datasets. The nearest center was
 122.04″ away. These records establish nearby activity in the
 field and give no contemporaneous flux constraint at the target.
 [Time-window and pointing-center queries](../results/jwst_cross_detector/module_b_001_alma_inventory.json).
+
+**NRAO VLA.** The archive query returned no EVLA scans starting
+from 1 October through 26 November 2026 with pointing centers
+within 24′ of the transient. The nearest-in-time VLASS image
+we measured was taken on 31 January 2026. The center search
+does not test wider primary beams from pointings outside the
+search radius. The checked VLA data provide no flux measurement
+during the October or November JWST visits.
+[NRAO scripted archive access](https://science.nrao.edu/facilities/vla/archive/scripted-access-to-the-nrao-archive) ·
+[NRAO query and CADC image inventory](../results/jwst_cross_detector/module_b_001_vla_inventory.json).
 
 **Vera C. Rubin Observatory.** The public Fink difference-alert
 search returns zero objects within 5 arcsec for the same
@@ -1335,8 +1390,9 @@ The timeline summarizes the dates behind the historical comparison
 and the search for independent evidence during the 2026 event.
 The DES z-band measurements, Swift XRT visits, Swift UVOT snapshot,
 Euclid H-band visits, ZTF public image dates, TESS cadence days,
-Las Cumbres r′ measurements and ALMA datasets extend the earlier
-baseline.
+Las Cumbres r′ measurements, dated VLA images and ALMA datasets
+extend the earlier baseline. The 1990s NVSS mosaic provides an
+earlier radio measurement with an undetermined local observation date.
 The October–November 2026 records keep unreleased DECam footprints,
 nearby Rubin alerts and off-target HST footprints distinct from the
 two measured JWST visits and the 11 November Las Cumbres measurement.
