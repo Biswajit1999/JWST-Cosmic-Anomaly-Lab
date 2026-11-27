@@ -1,7 +1,7 @@
 experiment: goods-s-nircam-module-b-epoch-search
 status: executed
 date: 2026-11-23
-last_execution: 2026-11-26
+last_execution: 2026-11-27
 prior_snapshot: 2c83389
 commands:
   - python scripts/search_jwst_module_b.py
@@ -50,6 +50,7 @@ commands:
   - python scripts/check_jades_103607_rubin_alerts.py
   - python scripts/measure_jades_103607_meerkat.py
   - python scripts/measure_jades_103607_euclid_history.py
+  - python scripts/measure_jades_103607_euclid_3025.py
   - python scripts/plot_jades_103607_cross_survey_timeline.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
@@ -82,6 +83,7 @@ limitations:
   - The Fink result covers public alert objects and cannot qualify sensitivity at the transient position.
   - The MeerKAT coadd measures persistent radio emission on a 5.5-arcsec beam. Single-epoch variability remains unresolved.
   - Euclid H-band measurements combine calibrated public visit stacks and use spatial control scatter. They omit PSF matching and an aperture correction.
+  - The Euclid Q1 detector exposures overlap the DR1 H visit stack. Two exposures are near detector edges, and the Y and J images bracket H within the visit.
   - Chandra event counts use fixed windows and a local background. Count bounds omit effective area and point-spread corrections.
   - Spitzer matching uses a local linear image model and fixed artificial point sources to test sensitivity.
   - RapidXMM limits use wide apertures at nearby sky cells and can include unrelated emission.
@@ -138,5 +140,6 @@ outputs:
   - results/jwst_cross_detector/module_b_001_rubin_2026_alerts.json
   - results/jwst_cross_detector/module_b_001_meerkat.json
   - results/jwst_cross_detector/module_b_001_euclid_dr1_h_history.json
+  - results/jwst_cross_detector/module_b_001_euclid_3025.json
   - results/jwst_cross_detector/module_b_001_cross_survey_timeline.json
   - figures/jwst_cross_detector/module_b_*

@@ -822,6 +822,38 @@ Euclid mission of the European Space Agency (ESA).
 
 ![Observed Euclid visit photometry, H-band campaign cutouts and signed image differences](../figures/jwst_cross_detector/module_b_001_euclid_dr1_h_history.png)
 
+**Euclid 6 August 2024 exposure check.** We repeated the aperture
+measurement with a reference made from the same eight other visits in
+Y, J and H, five from August 2024 and three from January 2025. The
+0.75-arcsec aperture gives −86 ± 107 nJy in Y, −41 ± 117 nJy in J and
++351 ± 132 nJy in H. The uncertainties are robust scatter among nearby
+control apertures. The images in the three filters were taken in
+sequence during the visit, which limits an interpretation as a
+simultaneous color.
+
+The Euclid Q1 archive returns three calibrated H exposures for
+observation 3025, with dither indices 0, 2 and 3. The exposure
+start times were 09:27:39, 10:03:11 and 10:20:57 UTC. We masked pixels
+marked invalid by the Q1 quality flags, required finite positive RMS
+and used the detector AB zero points to calibrate the images. Against
+the same H reference, dithers 0 and 2 give +376 ± 283 nJy and
++286 ± 278 nJy on DET34. Each excess is within 1.4 times the local
+control scatter. Dither 3 places the target on DET44, where masked
+pixels prevent an aperture measurement. No calibrated H file for
+dither 1 is listed in the public Q1 inventory.
+
+The positive H residual persists under a different choice of visit
+reference. The two usable individual exposures share a detector and
+reference, and their photons contribute to the same visit stack.
+Residual structure and unmatched PSFs limit the interpretation.
+These measurements leave both the existence of a distinct 2024
+transient and its possible association with the 2026 event unresolved.
+[Euclid Q1 calibrated frame documentation](https://euclid.esac.esa.int/dr/q1/dpdd/nirdpd/dpcards/nir_calibratedframe.html) ·
+[Exposure and filter photometry with byte-range receipts](../results/jwst_cross_detector/module_b_001_euclid_3025.json) ·
+[Vector figure](../figures/jwst_cross_detector/module_b_001_euclid_3025.pdf).
+
+![Observed Euclid H visit and reference, Y, J and H subtraction images, and three native H exposure residuals at the JWST position](../figures/jwst_cross_detector/module_b_001_euclid_3025.png)
+
 **Chandra 7 Ms Deep Field South, 1999 to 2016.** At the transient
 position, a 1.5-arcsec radius gives 13 counts in 0.5–2 keV and 30
 in 2–7 keV. The 8–20 arcsec annulus predicts 11.6 and 25.2 counts

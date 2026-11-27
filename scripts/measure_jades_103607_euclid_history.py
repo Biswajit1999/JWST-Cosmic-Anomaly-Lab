@@ -40,6 +40,7 @@ class EuclidSections(MastImageSections):
 
     range_survey = "NASA IRSA Euclid DR1"
     range_cache_prefix = "cross_detector/euclid_dr1_stripes"
+    rejected_quality_bits = 0xFFFFFFFF
 
     def __init__(self, cache, cloud):
         self.cache = cache
@@ -53,10 +54,10 @@ class EuclidSections(MastImageSections):
             self.size = int(response.headers["Content-Length"])
         self.ranges = []
 
-    def planes(self):
+    def planes(self, band="H"):
         primary, offset = self.header(0)
-        if primary["NAXIS"] != 0 or primary["FILTER"] != "H":
-            raise ValueError(f"Expected H-band NISP image in {self.filename}")
+        if primary["NAXIS"] != 0 or primary["FILTER"] != band:
+            raise ValueError(f"Expected {band}-band NISP image in {self.filename}")
         planes = {}
         for name in ("SCI", "RMS", "DQ"):
             header, start = self.header(offset)
@@ -69,15 +70,17 @@ class EuclidSections(MastImageSections):
     def quality_stripe(self, entry, bounds):
         header, offset = entry
         x0, x1, y0, y1 = bounds
-        if header["BITPIX"] != 32 or header["BZERO"] != 2**31 or header["BSCALE"] != 1:
+        zero = header.get("BZERO", 0)
+        if header["BITPIX"] != 32 or zero not in (0, 2**31) or header.get("BSCALE", 1) != 1:
             raise ValueError("Unexpected Euclid DQ encoding")
         width = header["NAXIS1"]
         path = self.read(offset + 4 * width * y0, offset + 4 * width * y1)
         dq = np.memmap(path, dtype=">i4", mode="r", shape=(y1 - y0, width))
-        return (dq[:, x0:x1] == -(2**31)).copy()
+        flags = dq[:, x0:x1].astype(np.int64) + zero
+        return (flags & self.rejected_quality_bits) == 0
 
 
-def archive_rows(cache, sky):
+def archive_rows(cache, sky, band="H"):
     query = dict(
         POS=f"CIRCLE {sky.ra.deg:.10f} {sky.dec.deg:.10f} 0.0001",
         COLLECTION=COLLECTION,
@@ -101,7 +104,7 @@ def archive_rows(cache, sky):
     table = Table.read(path, format="votable", use_names_over_ids=True)
     visits = []
     for row in table:
-        if row["dataproduct_subtype"] != "science" or row["energy_bandpassname"] != "H":
+        if row["dataproduct_subtype"] != "science" or row["energy_bandpassname"] != band:
             continue
         polygon = str(row["s_region"]).replace("POLYGON ICRS ", "POLYGON ")
         inside, edge = signed_margin_arcsec(polygon, sky)
@@ -124,12 +127,12 @@ def archive_rows(cache, sky):
     return sorted(visits, key=lambda row: row["start_date_utc"]), len(table), receipt(path, url)
 
 
-def read_cutout(cache, row, grid):
+def read_cutout(cache, row, grid, band="H"):
     if not row["polygon_contains"]:
         row["status"] = "outside footprint"
         return None
     remote = EuclidSections(cache, row["cloud"])
-    primary, planes = remote.planes()
+    primary, planes = remote.planes(band)
     header, _ = planes["SCI"]
     wcs = WCS(header, fix=False).celestial
     x, y = wcs.world_to_pixel(grid)
@@ -148,18 +151,10 @@ def read_cutout(cache, row, grid):
         row["status"] = "cutout crosses image edge"
         return None
     bounds = (x0, x1, y0, y1)
-    data = remote.stripe(planes["SCI"], bounds)
-    rms = remote.stripe(planes["RMS"], bounds)
-    quality = remote.quality_stripe(planes["DQ"], bounds)
-    valid = np.isfinite(data) & np.isfinite(rms) & (rms > 0) & quality
     # DR1 stacked SCI pixels already include PHOTFNU calibration (Polenta et al., C.3).
-    # Preserve flux when resampling each visit onto the fixed angular grid.
     native_area = float(abs(np.linalg.det(wcs.pixel_scale_matrix)) * 3600**2)
     calibration = 1000 * SCALE**2 / native_area
-    cut = (
-        map_coordinates(np.where(valid, data, np.nan), [y - y0, x - x0], order=1, prefilter=False)
-        * calibration
-    )
+    cut = reproject_cutout(remote, planes, bounds, x, y) * calibration
     row.update(
         resampled_njy_per_input_microjy=calibration,
         native_pixel_area_arcsec2=native_area,
@@ -173,6 +168,17 @@ def read_cutout(cache, row, grid):
         return None
     row["status"] = "measured"
     return cut
+
+
+def reproject_cutout(remote, planes, bounds, x, y):
+    x0, _, y0, _ = bounds
+    data = remote.stripe(planes["SCI"], bounds)
+    rms = remote.stripe(planes["RMS"], bounds)
+    quality = remote.quality_stripe(planes["DQ"], bounds)
+    valid = np.isfinite(data) & np.isfinite(rms) & (rms > 0) & quality
+    return map_coordinates(
+        np.where(valid, data, np.nan), [y - y0, x - x0], order=1, cval=np.nan, prefilter=False
+    )
 
 
 def aperture(image, x, y, radius=RADIUS):
