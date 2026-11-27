@@ -1,0 +1,3174 @@
+{
+  "executed_utc": "2026-11-27T08:38:58.570020+00:00",
+  "script_sha256": "8c27dbe5abdb3aa76e9139a1b28a4a7bb3e5055395319d350950fa888b4d3113",
+  "inventory_sha256": "bb78bbad31f6b864edbeb1a161a2ed70d4f4de4202d1dc1029e63aafe9fa1b23",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "patrol_radius_arcsec": 216.0,
+  "ifu_side_arcsec": 2.8,
+  "first_pointing_utc": "2026-11-14T05:53:43.098900+00:00",
+  "last_pointing_utc": "2026-11-14T07:02:48.835600+00:00",
+  "mode_counts": {
+    "object": 6,
+    "sky only": 3
+  },
+  "closest_frame": "KMOS.2026-11-14T06:02:20.164",
+  "closest_arm": {
+    "arm": 22,
+    "target_name": "ARM22_SKY",
+    "type": "S",
+    "vignetted": false,
+    "locked": false,
+    "icrs_deg": [
+      53.183500621528516,
+      -27.82121181169177
+    ],
+    "separation_arcsec": 35.29335514709182,
+    "inside_nominal_ifu_circumscribed_circle": false
+  },
+  "checked_programme_nights": [
+    [
+      "116.29EG.004",
+      "2026-11-14"
+    ]
+  ],
+  "checked_headers": [
+    {
+      "dp_id": "KMOS.2026-11-14T05:53:43.099",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 262.96330413784545,
+      "date_obs_utc": "2026-11-14T05:53:43.0989",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 1,
+      "telescope_pointing_icrs_deg": [
+        53.11428145946533,
+        -27.844287095918315
+      ],
+      "nearest_arm": {
+        "arm": 21,
+        "target_name": "7781",
+        "type": "O",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.17774645716597,
+          -27.839263201116577
+        ],
+        "separation_arcsec": 102.2984778824238,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "13510",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13771311927365,
+            -27.79197820484595
+          ],
+          "separation_arcsec": 178.35319074913573,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "13822",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13059228591059,
+            -27.790129872176124
+          ],
+          "separation_arcsec": 201.77478539634458,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "13966",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10960061957999,
+            -27.78824237413234
+          ],
+          "separation_arcsec": 266.55442456717606,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "10308",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10745478973789,
+            -27.81707098544344
+          ],
+          "separation_arcsec": 259.10744151235417,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "10372",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08933812356395,
+            -27.817142098243192
+          ],
+          "separation_arcsec": 316.7115110609283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "8765",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08781729190422,
+            -27.83084348727385
+          ],
+          "separation_arcsec": 327.7915048556161,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "9020",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.05950479245124,
+            -27.829085434357896
+          ],
+          "separation_arcsec": 415.53756808493387,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "7401",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.056058960840936,
+            -27.842762934679204
+          ],
+          "separation_arcsec": 435.9855771577805,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "6482",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.060492295057834,
+            -27.85116487871027
+          ],
+          "separation_arcsec": 431.101830021351,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "5556",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.086258962297066,
+            -27.861744598530237
+          ],
+          "separation_arcsec": 371.0308513196718,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "4112",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.07054646434465,
+            -27.875382933328396
+          ],
+          "separation_arcsec": 438.8245329552466,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "5889",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09517146146634,
+            -27.856779597699443
+          ],
+          "separation_arcsec": 337.58052155851533,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "4348",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10732146298637,
+            -27.872254041011423
+          ],
+          "separation_arcsec": 336.5552177585902,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "recenter1",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10289229976822,
+            -27.90016459697979
+          ],
+          "separation_arcsec": 417.189256403167,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "2046",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11268813266835,
+            -27.89873654051126
+          ],
+          "separation_arcsec": 393.4186419364194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "2909",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13894646388621,
+            -27.886910982508816
+          ],
+          "separation_arcsec": 311.01963576478335,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "6467",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13390062646578,
+            -27.851496260756743
+          ],
+          "separation_arcsec": 223.76373573214028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "6773",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.135742292702744,
+            -27.84830514947403
+          ],
+          "separation_arcsec": 212.0626427305525,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "7725",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.137442291862996,
+            -27.84164098264896
+          ],
+          "separation_arcsec": 193.84315695243083,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "7781",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17774645716597,
+            -27.839263201116577
+          ],
+          "separation_arcsec": 102.2984778824238,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "8264",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.15209229069117,
+            -27.835100703506278
+          ],
+          "separation_arcsec": 141.98113599120506,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "7945",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.113958958690375,
+            -27.837712929281704
+          ],
+          "separation_arcsec": 254.54025416241228,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "10368",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13626728890193,
+            -27.81652320498067
+          ],
+          "separation_arcsec": 167.4683640011367,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T05-53-43.099.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T05:53:43.099",
+        "sha256": "eefd69ef1e11acd41cb3dec472eed4ada6392cdcc3ee8d2094f5bfdcc2e8bac8"
+      }
+    },
+    {
+      "dp_id": "KMOS.2026-11-14T06:02:20.164",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 151.17762696535803,
+      "date_obs_utc": "2026-11-14T06:02:20.1641",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 2,
+      "telescope_pointing_icrs_deg": [
+        53.14569445696891,
+        -27.83039709299121
+      ],
+      "nearest_arm": {
+        "arm": 22,
+        "target_name": "ARM22_SKY",
+        "type": "S",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.183500621528516,
+          -27.82121181169177
+        ],
+        "separation_arcsec": 35.29335514709182,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "ARM1_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16912145011397,
+            -27.778089313031042
+          ],
+          "separation_arcsec": 138.7683089189392,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "ARM2_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16200478341771,
+            -27.7762412581384
+          ],
+          "separation_arcsec": 155.8420803252194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "ARM3_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14101311708747,
+            -27.774353760094037
+          ],
+          "separation_arcsec": 204.77339010667137,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "ARM4_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.138871453910035,
+            -27.80318209362692
+          ],
+          "separation_arcsec": 162.10966304796509,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "ARM5_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.1207547877363,
+            -27.803253206426167
+          ],
+          "separation_arcsec": 218.82781303106134,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "ARM6_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.119233956075675,
+            -27.816954595456785
+          ],
+          "separation_arcsec": 221.65856669603065,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "ARM7_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.090925623289664,
+            -27.81519654253965
+          ],
+          "separation_arcsec": 311.37283567429034,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "ARM8_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08747979167853,
+            -27.828874320638636
+          ],
+          "separation_arcsec": 327.50020467241694,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "ARM9_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09191312589485,
+            -27.83727626466982
+          ],
+          "separation_arcsec": 320.663904126772,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "ARM10_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11767562646651,
+            -27.847855706713123
+          ],
+          "separation_arcsec": 259.32257064847283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "ARM11_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10196312851337,
+            -27.86149404151084
+          ],
+          "separation_arcsec": 327.4872019540028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "ARM12_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.126588125636026,
+            -27.84289098366035
+          ],
+          "separation_arcsec": 225.84023146855293,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "ARM13_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13873396048834,
+            -27.85836542697305
+          ],
+          "separation_arcsec": 229.10103409767726,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "ARM14_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13430479726836,
+            -27.88627570516353
+          ],
+          "separation_arcsec": 316.8738768364979,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "ARM15_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14410063016847,
+            -27.88484764869526
+          ],
+          "separation_arcsec": 296.45785446147875,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "ARM16_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17035479472031,
+            -27.873022368471723
+          ],
+          "separation_arcsec": 225.40885020563482,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "ARM18_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16531312396882,
+            -27.837607646719114
+          ],
+          "separation_arcsec": 116.93588058671563,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "ARM19_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16715479020598,
+            -27.834416257658674
+          ],
+          "separation_arcsec": 104.37824486785831,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "ARM20_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.168854789366605,
+            -27.82775209083366
+          ],
+          "separation_arcsec": 83.54351245129503,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "ARM21_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.209150621336214,
+            -27.825374587080947
+          ],
+          "separation_arcsec": 79.9208148611292,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "ARM22_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.183500621528516,
+            -27.82121181169177
+          ],
+          "separation_arcsec": 35.29335514709182,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "ARM23_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14537145619455,
+            -27.82382431524353
+          ],
+          "separation_arcsec": 143.72157427502037,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "ARM24_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16767978640722,
+            -27.80263431316533
+          ],
+          "separation_arcsec": 75.75505633176073,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T06-02-20.164.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T06:02:20.164",
+        "sha256": "79368383cfcd8e2ad514c6f986c4fe636ae45e043e60df0ea9c4fae4b8e27481"
+      }
+    },
+    {
+      "dp_id": "KMOS.2026-11-14T06:11:15.022",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 262.55344665102757,
+      "date_obs_utc": "2026-11-14T06:11:15.0212",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 3,
+      "telescope_pointing_icrs_deg": [
+        53.114375459452084,
+        -27.844197095909553
+      ],
+      "nearest_arm": {
+        "arm": 21,
+        "target_name": "7781",
+        "type": "O",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.17774645716597,
+          -27.839263201116577
+        ],
+        "separation_arcsec": 102.2984778824238,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "13510",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13771311927365,
+            -27.79197820484595
+          ],
+          "separation_arcsec": 178.35319074913573,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "13822",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13059228591059,
+            -27.790129872176124
+          ],
+          "separation_arcsec": 201.77478539634458,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "13966",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10960061957999,
+            -27.78824237413234
+          ],
+          "separation_arcsec": 266.55442456717606,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "10308",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10745478973789,
+            -27.81707098544344
+          ],
+          "separation_arcsec": 259.10744151235417,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "10372",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08933812356395,
+            -27.817142098243192
+          ],
+          "separation_arcsec": 316.7115110609283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "8765",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08781729190422,
+            -27.83084348727385
+          ],
+          "separation_arcsec": 327.7915048556161,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "9020",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.05950479245124,
+            -27.829085434357896
+          ],
+          "separation_arcsec": 415.53756808493387,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "7401",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.056058960840936,
+            -27.842762934679204
+          ],
+          "separation_arcsec": 435.9855771577805,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "6482",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.060492295057834,
+            -27.85116487871027
+          ],
+          "separation_arcsec": 431.101830021351,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "5556",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.086258962297066,
+            -27.861744598530237
+          ],
+          "separation_arcsec": 371.0308513196718,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "4112",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.07054646434465,
+            -27.875382933328396
+          ],
+          "separation_arcsec": 438.8245329552466,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "5889",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09517146146634,
+            -27.856779597699443
+          ],
+          "separation_arcsec": 337.58052155851533,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "4348",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10732146298637,
+            -27.872254041011423
+          ],
+          "separation_arcsec": 336.5552177585902,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "recenter1",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10289229976822,
+            -27.90016459697979
+          ],
+          "separation_arcsec": 417.189256403167,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "2046",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11268813266835,
+            -27.89873654051126
+          ],
+          "separation_arcsec": 393.4186419364194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "2909",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13894646388621,
+            -27.886910982508816
+          ],
+          "separation_arcsec": 311.01963576478335,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "6467",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13390062646578,
+            -27.851496260756743
+          ],
+          "separation_arcsec": 223.76373573214028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "6773",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.135742292702744,
+            -27.84830514947403
+          ],
+          "separation_arcsec": 212.0626427305525,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "7725",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.137442291862996,
+            -27.84164098264896
+          ],
+          "separation_arcsec": 193.84315695243083,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "7781",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17774645716597,
+            -27.839263201116577
+          ],
+          "separation_arcsec": 102.2984778824238,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "8264",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.15209229069117,
+            -27.835100703506278
+          ],
+          "separation_arcsec": 141.98113599120506,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "7945",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.113958958690375,
+            -27.837712929281704
+          ],
+          "separation_arcsec": 254.54025416241228,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "10368",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13626728890193,
+            -27.81652320498067
+          ],
+          "separation_arcsec": 167.4683640011367,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T06-11-15.022.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T06:11:15.022",
+        "sha256": "f96bbde614829b1d73e7ab07b35a5fd4060be92a8fbdc0317f2a3285da2e9ffc"
+      }
+    },
+    {
+      "dp_id": "KMOS.2026-11-14T06:19:47.624",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 263.0921151368511,
+      "date_obs_utc": "2026-11-14T06:19:47.6244",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 4,
+      "telescope_pointing_icrs_deg": [
+        53.11418745945711,
+        -27.844197095927075
+      ],
+      "nearest_arm": {
+        "arm": 21,
+        "target_name": "7781",
+        "type": "O",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.17774645716597,
+          -27.839263201116577
+        ],
+        "separation_arcsec": 102.2984778824238,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "13510",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13771311927365,
+            -27.79197820484595
+          ],
+          "separation_arcsec": 178.35319074913573,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "13822",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13059228591059,
+            -27.790129872176124
+          ],
+          "separation_arcsec": 201.77478539634458,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "13966",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10960061957999,
+            -27.78824237413234
+          ],
+          "separation_arcsec": 266.55442456717606,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "10308",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10745478973789,
+            -27.81707098544344
+          ],
+          "separation_arcsec": 259.10744151235417,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "10372",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08933812356395,
+            -27.817142098243192
+          ],
+          "separation_arcsec": 316.7115110609283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "8765",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08781729190422,
+            -27.83084348727385
+          ],
+          "separation_arcsec": 327.7915048556161,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "9020",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.05950479245124,
+            -27.829085434357896
+          ],
+          "separation_arcsec": 415.53756808493387,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "7401",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.056058960840936,
+            -27.842762934679204
+          ],
+          "separation_arcsec": 435.9855771577805,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "6482",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.060492295057834,
+            -27.85116487871027
+          ],
+          "separation_arcsec": 431.101830021351,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "5556",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.086258962297066,
+            -27.861744598530237
+          ],
+          "separation_arcsec": 371.0308513196718,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "4112",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.07054646434465,
+            -27.875382933328396
+          ],
+          "separation_arcsec": 438.8245329552466,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "5889",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09517146146634,
+            -27.856779597699443
+          ],
+          "separation_arcsec": 337.58052155851533,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "4348",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10732146298637,
+            -27.872254041011423
+          ],
+          "separation_arcsec": 336.5552177585902,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "recenter1",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10289229976822,
+            -27.90016459697979
+          ],
+          "separation_arcsec": 417.189256403167,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "2046",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11268813266835,
+            -27.89873654051126
+          ],
+          "separation_arcsec": 393.4186419364194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "2909",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13894646388621,
+            -27.886910982508816
+          ],
+          "separation_arcsec": 311.01963576478335,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "6467",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13390062646578,
+            -27.851496260756743
+          ],
+          "separation_arcsec": 223.76373573214028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "6773",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.135742292702744,
+            -27.84830514947403
+          ],
+          "separation_arcsec": 212.0626427305525,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "7725",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.137442291862996,
+            -27.84164098264896
+          ],
+          "separation_arcsec": 193.84315695243083,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "7781",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17774645716597,
+            -27.839263201116577
+          ],
+          "separation_arcsec": 102.2984778824238,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "8264",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.15209229069117,
+            -27.835100703506278
+          ],
+          "separation_arcsec": 141.98113599120506,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "7945",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.113958958690375,
+            -27.837712929281704
+          ],
+          "separation_arcsec": 254.54025416241228,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "10368",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13626728890193,
+            -27.81652320498067
+          ],
+          "separation_arcsec": 167.4683640011367,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T06-19-47.624.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T06:19:47.624",
+        "sha256": "952ed96646a5f93abc1a77f2e5f1d59831655ea1f46b30723d5eb74abf18caeb"
+      }
+    },
+    {
+      "dp_id": "KMOS.2026-11-14T06:28:23.984",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 150.76943259975562,
+      "date_obs_utc": "2026-11-14T06:28:23.9843",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 5,
+      "telescope_pointing_icrs_deg": [
+        53.145788456955664,
+        -27.83030709298246
+      ],
+      "nearest_arm": {
+        "arm": 22,
+        "target_name": "ARM22_SKY",
+        "type": "S",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.183500621528516,
+          -27.82121181169177
+        ],
+        "separation_arcsec": 35.29335514709182,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "ARM1_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16912145011397,
+            -27.778089313031042
+          ],
+          "separation_arcsec": 138.7683089189392,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "ARM2_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16200478341771,
+            -27.7762412581384
+          ],
+          "separation_arcsec": 155.8420803252194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "ARM3_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14101311708747,
+            -27.774353760094037
+          ],
+          "separation_arcsec": 204.77339010667137,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "ARM4_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.138871453910035,
+            -27.80318209362692
+          ],
+          "separation_arcsec": 162.10966304796509,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "ARM5_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.1207547877363,
+            -27.803253206426167
+          ],
+          "separation_arcsec": 218.82781303106134,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "ARM6_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.119233956075675,
+            -27.816954595456785
+          ],
+          "separation_arcsec": 221.65856669603065,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "ARM7_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.090925623289664,
+            -27.81519654253965
+          ],
+          "separation_arcsec": 311.37283567429034,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "ARM8_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08747979167853,
+            -27.828874320638636
+          ],
+          "separation_arcsec": 327.50020467241694,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "ARM9_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09191312589485,
+            -27.83727626466982
+          ],
+          "separation_arcsec": 320.663904126772,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "ARM10_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11767562646651,
+            -27.847855706713123
+          ],
+          "separation_arcsec": 259.32257064847283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "ARM11_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10196312851337,
+            -27.86149404151084
+          ],
+          "separation_arcsec": 327.4872019540028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "ARM12_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.126588125636026,
+            -27.84289098366035
+          ],
+          "separation_arcsec": 225.84023146855293,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "ARM13_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13873396048834,
+            -27.85836542697305
+          ],
+          "separation_arcsec": 229.10103409767726,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "ARM14_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13430479726836,
+            -27.88627570516353
+          ],
+          "separation_arcsec": 316.8738768364979,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "ARM15_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14410063016847,
+            -27.88484764869526
+          ],
+          "separation_arcsec": 296.45785446147875,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "ARM16_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17035479472031,
+            -27.873022368471723
+          ],
+          "separation_arcsec": 225.40885020563482,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "ARM18_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16531312396882,
+            -27.837607646719114
+          ],
+          "separation_arcsec": 116.93588058671563,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "ARM19_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16715479020598,
+            -27.834416257658674
+          ],
+          "separation_arcsec": 104.37824486785831,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "ARM20_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.168854789366605,
+            -27.82775209083366
+          ],
+          "separation_arcsec": 83.54351245129503,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "ARM21_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.209150621336214,
+            -27.825374587080947
+          ],
+          "separation_arcsec": 79.9208148611292,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "ARM22_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.183500621528516,
+            -27.82121181169177
+          ],
+          "separation_arcsec": 35.29335514709182,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "ARM23_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14537145619455,
+            -27.82382431524353
+          ],
+          "separation_arcsec": 143.72157427502037,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "ARM24_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16767978640722,
+            -27.80263431316533
+          ],
+          "separation_arcsec": 75.75505633176073,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T06-28-23.984.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T06:28:23.984",
+        "sha256": "7ba28b4fe1790469f74f3dc8e762e0fca93db25fd6ab3a8579194513416ccf26"
+      }
+    },
+    {
+      "dp_id": "KMOS.2026-11-14T06:37:01.038",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 263.3576350212799,
+      "date_obs_utc": "2026-11-14T06:37:01.0383",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 6,
+      "telescope_pointing_icrs_deg": [
+        53.114187459477385,
+        -27.844367095927076
+      ],
+      "nearest_arm": {
+        "arm": 21,
+        "target_name": "7781",
+        "type": "O",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.17774645716597,
+          -27.839263201116577
+        ],
+        "separation_arcsec": 102.2984778824238,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "13510",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13771311927365,
+            -27.79197820484595
+          ],
+          "separation_arcsec": 178.35319074913573,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "13822",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13059228591059,
+            -27.790129872176124
+          ],
+          "separation_arcsec": 201.77478539634458,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "13966",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10960061957999,
+            -27.78824237413234
+          ],
+          "separation_arcsec": 266.55442456717606,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "10308",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10745478973789,
+            -27.81707098544344
+          ],
+          "separation_arcsec": 259.10744151235417,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "10372",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08933812356395,
+            -27.817142098243192
+          ],
+          "separation_arcsec": 316.7115110609283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "8765",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08781729190422,
+            -27.83084348727385
+          ],
+          "separation_arcsec": 327.7915048556161,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "9020",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.05950479245124,
+            -27.829085434357896
+          ],
+          "separation_arcsec": 415.53756808493387,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "7401",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.056058960840936,
+            -27.842762934679204
+          ],
+          "separation_arcsec": 435.9855771577805,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "6482",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.060492295057834,
+            -27.85116487871027
+          ],
+          "separation_arcsec": 431.101830021351,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "5556",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.086258962297066,
+            -27.861744598530237
+          ],
+          "separation_arcsec": 371.0308513196718,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "4112",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.07054646434465,
+            -27.875382933328396
+          ],
+          "separation_arcsec": 438.8245329552466,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "5889",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09517146146634,
+            -27.856779597699443
+          ],
+          "separation_arcsec": 337.58052155851533,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "4348",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10732146298637,
+            -27.872254041011423
+          ],
+          "separation_arcsec": 336.5552177585902,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "recenter1",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10289229976822,
+            -27.90016459697979
+          ],
+          "separation_arcsec": 417.189256403167,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "2046",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11268813266835,
+            -27.89873654051126
+          ],
+          "separation_arcsec": 393.4186419364194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "2909",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13894646388621,
+            -27.886910982508816
+          ],
+          "separation_arcsec": 311.01963576478335,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "6467",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13390062646578,
+            -27.851496260756743
+          ],
+          "separation_arcsec": 223.76373573214028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "6773",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.135742292702744,
+            -27.84830514947403
+          ],
+          "separation_arcsec": 212.0626427305525,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "7725",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.137442291862996,
+            -27.84164098264896
+          ],
+          "separation_arcsec": 193.84315695243083,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "7781",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17774645716597,
+            -27.839263201116577
+          ],
+          "separation_arcsec": 102.2984778824238,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "8264",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.15209229069117,
+            -27.835100703506278
+          ],
+          "separation_arcsec": 141.98113599120506,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "7945",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.113958958690375,
+            -27.837712929281704
+          ],
+          "separation_arcsec": 254.54025416241228,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "10368",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13626728890193,
+            -27.81652320498067
+          ],
+          "separation_arcsec": 167.4683640011367,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T06-37-01.038.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T06:37:01.038",
+        "sha256": "79eaed50a9612eb872372b4745e43c40a418384be2abbda35c5d0ee2257e8644"
+      }
+    },
+    {
+      "dp_id": "KMOS.2026-11-14T06:45:34.715",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 262.8163025882548,
+      "date_obs_utc": "2026-11-14T06:45:34.7144",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 7,
+      "telescope_pointing_icrs_deg": [
+        53.11437645947232,
+        -27.844367095909465
+      ],
+      "nearest_arm": {
+        "arm": 21,
+        "target_name": "7781",
+        "type": "O",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.17774645716597,
+          -27.839263201116577
+        ],
+        "separation_arcsec": 102.2984778824238,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "13510",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13771311927365,
+            -27.79197820484595
+          ],
+          "separation_arcsec": 178.35319074913573,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "13822",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13059228591059,
+            -27.790129872176124
+          ],
+          "separation_arcsec": 201.77478539634458,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "13966",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10960061957999,
+            -27.78824237413234
+          ],
+          "separation_arcsec": 266.55442456717606,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "10308",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10745478973789,
+            -27.81707098544344
+          ],
+          "separation_arcsec": 259.10744151235417,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "10372",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08933812356395,
+            -27.817142098243192
+          ],
+          "separation_arcsec": 316.7115110609283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "8765",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08781729190422,
+            -27.83084348727385
+          ],
+          "separation_arcsec": 327.7915048556161,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "9020",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.05950479245124,
+            -27.829085434357896
+          ],
+          "separation_arcsec": 415.53756808493387,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "7401",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.056058960840936,
+            -27.842762934679204
+          ],
+          "separation_arcsec": 435.9855771577805,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "6482",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.060492295057834,
+            -27.85116487871027
+          ],
+          "separation_arcsec": 431.101830021351,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "5556",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.086258962297066,
+            -27.861744598530237
+          ],
+          "separation_arcsec": 371.0308513196718,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "4112",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.07054646434465,
+            -27.875382933328396
+          ],
+          "separation_arcsec": 438.8245329552466,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "5889",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09517146146634,
+            -27.856779597699443
+          ],
+          "separation_arcsec": 337.58052155851533,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "4348",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10732146298637,
+            -27.872254041011423
+          ],
+          "separation_arcsec": 336.5552177585902,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "recenter1",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10289229976822,
+            -27.90016459697979
+          ],
+          "separation_arcsec": 417.189256403167,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "2046",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11268813266835,
+            -27.89873654051126
+          ],
+          "separation_arcsec": 393.4186419364194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "2909",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13894646388621,
+            -27.886910982508816
+          ],
+          "separation_arcsec": 311.01963576478335,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "6467",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13390062646578,
+            -27.851496260756743
+          ],
+          "separation_arcsec": 223.76373573214028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "6773",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.135742292702744,
+            -27.84830514947403
+          ],
+          "separation_arcsec": 212.0626427305525,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "7725",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.137442291862996,
+            -27.84164098264896
+          ],
+          "separation_arcsec": 193.84315695243083,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "7781",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17774645716597,
+            -27.839263201116577
+          ],
+          "separation_arcsec": 102.2984778824238,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "8264",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.15209229069117,
+            -27.835100703506278
+          ],
+          "separation_arcsec": 141.98113599120506,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "7945",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.113958958690375,
+            -27.837712929281704
+          ],
+          "separation_arcsec": 254.54025416241228,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "10368",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13626728890193,
+            -27.81652320498067
+          ],
+          "separation_arcsec": 167.4683640011367,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T06-45-34.715.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T06:45:34.715",
+        "sha256": "b0d9f9e548f6fc4b32e8ef60d79c67a8ca8769dec3a4be77201d5e07e0d1160e"
+      }
+    },
+    {
+      "dp_id": "KMOS.2026-11-14T06:54:11.751",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 151.3118480907007,
+      "date_obs_utc": "2026-11-14T06:54:11.7517",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 8,
+      "telescope_pointing_icrs_deg": [
+        53.145600456960686,
+        -27.830307092999973
+      ],
+      "nearest_arm": {
+        "arm": 22,
+        "target_name": "ARM22_SKY",
+        "type": "S",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.183500621528516,
+          -27.82121181169177
+        ],
+        "separation_arcsec": 35.29335514709182,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "ARM1_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16912145011397,
+            -27.778089313031042
+          ],
+          "separation_arcsec": 138.7683089189392,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "ARM2_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16200478341771,
+            -27.7762412581384
+          ],
+          "separation_arcsec": 155.8420803252194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "ARM3_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14101311708747,
+            -27.774353760094037
+          ],
+          "separation_arcsec": 204.77339010667137,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "ARM4_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.138871453910035,
+            -27.80318209362692
+          ],
+          "separation_arcsec": 162.10966304796509,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "ARM5_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.1207547877363,
+            -27.803253206426167
+          ],
+          "separation_arcsec": 218.82781303106134,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "ARM6_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.119233956075675,
+            -27.816954595456785
+          ],
+          "separation_arcsec": 221.65856669603065,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "ARM7_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.090925623289664,
+            -27.81519654253965
+          ],
+          "separation_arcsec": 311.37283567429034,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "ARM8_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08747979167853,
+            -27.828874320638636
+          ],
+          "separation_arcsec": 327.50020467241694,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "ARM9_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09191312589485,
+            -27.83727626466982
+          ],
+          "separation_arcsec": 320.663904126772,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "ARM10_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11767562646651,
+            -27.847855706713123
+          ],
+          "separation_arcsec": 259.32257064847283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "ARM11_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10196312851337,
+            -27.86149404151084
+          ],
+          "separation_arcsec": 327.4872019540028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "ARM12_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.126588125636026,
+            -27.84289098366035
+          ],
+          "separation_arcsec": 225.84023146855293,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "ARM13_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13873396048834,
+            -27.85836542697305
+          ],
+          "separation_arcsec": 229.10103409767726,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "ARM14_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13430479726836,
+            -27.88627570516353
+          ],
+          "separation_arcsec": 316.8738768364979,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "ARM15_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14410063016847,
+            -27.88484764869526
+          ],
+          "separation_arcsec": 296.45785446147875,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "ARM16_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17035479472031,
+            -27.873022368471723
+          ],
+          "separation_arcsec": 225.40885020563482,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "ARM18_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16531312396882,
+            -27.837607646719114
+          ],
+          "separation_arcsec": 116.93588058671563,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "ARM19_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16715479020598,
+            -27.834416257658674
+          ],
+          "separation_arcsec": 104.37824486785831,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "ARM20_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.168854789366605,
+            -27.82775209083366
+          ],
+          "separation_arcsec": 83.54351245129503,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "ARM21_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.209150621336214,
+            -27.825374587080947
+          ],
+          "separation_arcsec": 79.9208148611292,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "ARM22_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.183500621528516,
+            -27.82121181169177
+          ],
+          "separation_arcsec": 35.29335514709182,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "ARM23_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.14537145619455,
+            -27.82382431524353
+          ],
+          "separation_arcsec": 143.72157427502037,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "ARM24_SKY",
+          "type": "S",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.16767978640722,
+            -27.80263431316533
+          ],
+          "separation_arcsec": 75.75505633176073,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T06-54-11.751.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T06:54:11.751",
+        "sha256": "6f30a156c674b76a5bfefae64befb78f1b9bde32b2ab4d6ae0024ddf4c3e7cb0"
+      }
+    },
+    {
+      "dp_id": "KMOS.2026-11-14T07:02:48.835",
+      "programme": "116.29EG.004",
+      "center_separation_arcsec": 262.96330413784545,
+      "date_obs_utc": "2026-11-14T07:02:48.8356",
+      "exposure_seconds": 500.0,
+      "target": "CDFS_EMPOWER_IZ.cat",
+      "observation_block_id": 5135638,
+      "exposure_sequence_number": 9,
+      "telescope_pointing_icrs_deg": [
+        53.11428145946533,
+        -27.844287095918315
+      ],
+      "nearest_arm": {
+        "arm": 21,
+        "target_name": "7781",
+        "type": "O",
+        "vignetted": false,
+        "locked": false,
+        "icrs_deg": [
+          53.17774645716597,
+          -27.839263201116577
+        ],
+        "separation_arcsec": 102.2984778824238,
+        "inside_nominal_ifu_circumscribed_circle": false
+      },
+      "arms": [
+        {
+          "arm": 1,
+          "target_name": "13510",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13771311927365,
+            -27.79197820484595
+          ],
+          "separation_arcsec": 178.35319074913573,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 2,
+          "target_name": "13822",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13059228591059,
+            -27.790129872176124
+          ],
+          "separation_arcsec": 201.77478539634458,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 3,
+          "target_name": "13966",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10960061957999,
+            -27.78824237413234
+          ],
+          "separation_arcsec": 266.55442456717606,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 4,
+          "target_name": "10308",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10745478973789,
+            -27.81707098544344
+          ],
+          "separation_arcsec": 259.10744151235417,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 5,
+          "target_name": "10372",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08933812356395,
+            -27.817142098243192
+          ],
+          "separation_arcsec": 316.7115110609283,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 6,
+          "target_name": "8765",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.08781729190422,
+            -27.83084348727385
+          ],
+          "separation_arcsec": 327.7915048556161,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 7,
+          "target_name": "9020",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.05950479245124,
+            -27.829085434357896
+          ],
+          "separation_arcsec": 415.53756808493387,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 8,
+          "target_name": "7401",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.056058960840936,
+            -27.842762934679204
+          ],
+          "separation_arcsec": 435.9855771577805,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 9,
+          "target_name": "6482",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.060492295057834,
+            -27.85116487871027
+          ],
+          "separation_arcsec": 431.101830021351,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 10,
+          "target_name": "5556",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.086258962297066,
+            -27.861744598530237
+          ],
+          "separation_arcsec": 371.0308513196718,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 11,
+          "target_name": "4112",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.07054646434465,
+            -27.875382933328396
+          ],
+          "separation_arcsec": 438.8245329552466,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 12,
+          "target_name": "5889",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.09517146146634,
+            -27.856779597699443
+          ],
+          "separation_arcsec": 337.58052155851533,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 13,
+          "target_name": "4348",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10732146298637,
+            -27.872254041011423
+          ],
+          "separation_arcsec": 336.5552177585902,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 14,
+          "target_name": "recenter1",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.10289229976822,
+            -27.90016459697979
+          ],
+          "separation_arcsec": 417.189256403167,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 15,
+          "target_name": "2046",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.11268813266835,
+            -27.89873654051126
+          ],
+          "separation_arcsec": 393.4186419364194,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 16,
+          "target_name": "2909",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13894646388621,
+            -27.886910982508816
+          ],
+          "separation_arcsec": 311.01963576478335,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 17,
+          "target_name": "",
+          "type": null,
+          "vignetted": null,
+          "locked": true
+        },
+        {
+          "arm": 18,
+          "target_name": "6467",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13390062646578,
+            -27.851496260756743
+          ],
+          "separation_arcsec": 223.76373573214028,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 19,
+          "target_name": "6773",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.135742292702744,
+            -27.84830514947403
+          ],
+          "separation_arcsec": 212.0626427305525,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 20,
+          "target_name": "7725",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.137442291862996,
+            -27.84164098264896
+          ],
+          "separation_arcsec": 193.84315695243083,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 21,
+          "target_name": "7781",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.17774645716597,
+            -27.839263201116577
+          ],
+          "separation_arcsec": 102.2984778824238,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 22,
+          "target_name": "8264",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.15209229069117,
+            -27.835100703506278
+          ],
+          "separation_arcsec": 141.98113599120506,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 23,
+          "target_name": "7945",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.113958958690375,
+            -27.837712929281704
+          ],
+          "separation_arcsec": 254.54025416241228,
+          "inside_nominal_ifu_circumscribed_circle": false
+        },
+        {
+          "arm": 24,
+          "target_name": "10368",
+          "type": "O",
+          "vignetted": false,
+          "locked": false,
+          "icrs_deg": [
+            53.13626728890193,
+            -27.81652320498067
+          ],
+          "separation_arcsec": 167.4683640011367,
+          "inside_nominal_ifu_circumscribed_circle": false
+        }
+      ],
+      "header_receipt": {
+        "path": "data/raw/metadata/module_b_001_kmos_2026_KMOS.2026-11-14T07-02-48.835.html",
+        "url": "https://archive.eso.org/hdr?DpId=KMOS.2026-11-14T07:02:48.835",
+        "sha256": "86af1d14c779f46269d9228ed516711033232a863c7e5b9c193b6cc7ae36f6ad"
+      }
+    }
+  ],
+  "other_pointing_rows": [
+    {
+      "dp_id": "KMOS.2026-11-22T00:33:28.070",
+      "separation_arcsec": 3579.845293388169
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T00:38:41.492",
+      "separation_arcsec": 3580.4514583064947
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T00:44:06.276",
+      "separation_arcsec": 3579.597880867628
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T00:49:19.688",
+      "separation_arcsec": 3579.7631585681233
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T00:54:33.851",
+      "separation_arcsec": 3580.219277427924
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T00:59:47.307",
+      "separation_arcsec": 3580.1240785870623
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T01:04:58.869",
+      "separation_arcsec": 3579.9588177214955
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T01:10:11.864",
+      "separation_arcsec": 3580.281124454077
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T01:15:26.775",
+      "separation_arcsec": 3580.0407225287963
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T02:39:01.449",
+      "separation_arcsec": 3579.857178861753
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T02:44:16.766",
+      "separation_arcsec": 3580.463098556121
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T02:49:41.438",
+      "separation_arcsec": 3579.6112099767147
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T02:55:06.200",
+      "separation_arcsec": 3579.776481686688
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T03:00:21.488",
+      "separation_arcsec": 3580.2640565534234
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T03:05:46.528",
+      "separation_arcsec": 3580.135949468391
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T03:11:10.396",
+      "separation_arcsec": 3579.9721494891023
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T03:16:26.584",
+      "separation_arcsec": 3580.3255152572992
+    },
+    {
+      "dp_id": "KMOS.2026-11-22T03:21:51.346",
+      "separation_arcsec": 3580.054051327534
+    }
+  ],
+  "scope": "Tests assigned object and sky arm centers in public FITS headers, converted from FK5 J2000 to ICRS. The circumscribed circle bounds a 2.8 by 2.8 arcsec square at any rotation about its nominal center. These are geometric checks; arm coordinates are nominal and do not certify calibrated IFU spaxel coverage or a spectral sensitivity."
+}

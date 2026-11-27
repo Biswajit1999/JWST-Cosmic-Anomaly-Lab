@@ -836,6 +836,37 @@ unresolved. This comparison uses observer-frame z-band fluxes.
 
 ![DES z-band aperture residuals with local error bars and observed images for the largest positive score](../figures/jwst_cross_detector/module_b_001_des_z_history.png)
 
+**Las Cumbres Observatory r′ band, 2017 to 2026.** The public
+archive returned 17 final reduced imaging exposures at the
+transient position. Fourteen provided calibrated measurements
+on five UTC dates. Ten 240-second images from 21 August 2017
+give the deepest Las Cumbres comparison. The weighted forced
+flux is **−0.59 ± 1.24 µJy**. Five times the measured local
+scatter corresponds to **r′ ≈ 21.92 AB**. The corresponding
+95% recovery amplitude on the sampled control apertures is
+**r′ ≈ 21.64 AB**, assuming a source present across the
+47-minute observing sequence. This constrains bright earlier optical
+activity on that night. The remaining calibrated exposures
+are short autofocus images. Two other focus images yielded
+signed counts with insufficient reference stars for calibrated
+fluxes, and the January 2017 position was too close to the
+detector edge for a complete sky annulus.
+[Las Cumbres Science Archive](https://lco.global/documentation/archive-documentation/) ·
+[BANZAI reduction](https://arxiv.org/abs/1811.04163) ·
+[Frame IDs, observing geometry and checksums](../results/jwst_cross_detector/module_b_001_lco_eso_inventory.json).
+
+Native source apertures use a radius of one image FWHM and
+a local background annulus. We fit each image's calibration
+against Pan-STARRS1 stellar r magnitudes at a fixed color
+of g−i = 0.7. Error bars come from the scatter in blank apertures.
+For the 2017 sequence, we applied the same weighted average
+to the target and common control positions. The conversion to
+AB is approximate for a transient of unknown optical color.
+[Pan-STARRS1 photometric system](https://arxiv.org/abs/1203.0297) ·
+[Calibrators, signed fluxes and sensitivity by epoch](../results/jwst_cross_detector/module_b_001_lco_r_history.json).
+
+![Observed Las Cumbres r-prime images, the source aperture, and historical measurements with local uncertainties](../figures/jwst_cross_detector/module_b_001_lco_r_history.png)
+
 **Euclid DR1 H band, August 2024 and January 2025.** The IRSA
 position query returned 34 H-band visit stacks. We inspected the
 science, noise and data-quality images in each stack. Thirty-three
@@ -1146,6 +1177,35 @@ independent observing opportunities during the interval.
 [NOIRLab Astro Data Archive](https://astroarchive.noirlab.edu/) ·
 [Detector corners, filters, depth metadata and release dates](../results/jwst_cross_detector/module_b_001_decam_2026_coverage.json).
 
+**Las Cumbres Observatory.** A public r′ exposure from the
+1-m telescope at Sutherland covers the source on **11 November
+2026 at 22:16:50 UTC**, 33.0 days after the first October JWST
+exposure and 12.8 days before the first November follow-up
+exposure. The 9.998-second image yields **10.66 ± 11.94 µJy**
+at the fixed position. The five-scatter point-source
+sensitivity is **59.72 µJy**, or **r′ ≈ 19.46 AB**. The
+95% recovery amplitude from local controls is **r′ ≈ 19.19 AB**.
+The image constrains a bright optical counterpart on
+11 November. A counterpart anywhere near the observed
+near-infrared flux would require much deeper optical data.
+[Public frame 99547796](https://archive-api.lco.global/frames/99547796/) ·
+[Observed pixels and uncertainties](../figures/jwst_cross_detector/module_b_001_lco_r_history.png).
+
+**ESO.** The 2026 date and position search returned 130 raw
+science-programme records with pointing centers in the search
+rectangle. The archive stores these regions as pointing centers.
+No raw or reduced entry intersected the target in the published
+geometry search. To test the closest relevant VLT programme
+directly, we examined the individual KMOS arm coordinates in all
+nine headers from 14 November, including six object exposures
+and three sky exposures. The closest sky arm was **35.29″**
+away. The closest object arm was **102.30″** away. Each nominal
+IFU spans only **2.8″ × 2.8″**. These observations provide no
+spectrum at the transient position.
+[ESO TAP access](https://www.eso.org/cms/eso-data/programmatic-access.html) ·
+[KMOS IFU geometry](https://www.eso.org/sci/facilities/paranal/instruments/kmos.html) ·
+[Archived headers and arm positions](../results/jwst_cross_detector/module_b_001_kmos_2026.json).
+
 **Vera C. Rubin Observatory.** The public Fink difference-alert
 search returns zero objects within 5 arcsec for the same
 October–November date window. Four objects appear within
@@ -1153,8 +1213,13 @@ October–November date window. Four objects appear within
 and first alerted on 30 October. These records demonstrate
 alert activity in the surrounding field. Target pixel coverage,
 local sensitivity and forced photometry remain unknown from
-this query.
+this query. The TAP Prompt Products Database is scheduled for
+30 November 2026 through the Rubin Science Platform. Rubin's
+access policy distinguishes the public database contents from
+the platform access and proprietary visit images.
 [Rubin public alert products](https://prompt-products.lsst.io/products/alerts/index.html) ·
+[Rubin prompt-product release and access](https://prompt-products.lsst.io/access/index.html) ·
+[Prompt Products Database release schedule](https://prompt-products.lsst.io/) ·
 [Fink position and time search](https://doc.lsst.fink-broker.org/services/api/conesearch/) ·
 [Target and surrounding-field alert receipts](../results/jwst_cross_detector/module_b_001_rubin_2026_alerts.json).
 
@@ -1230,11 +1295,11 @@ fainter transients and events in the gaps remain unconstrained.
 The timeline summarizes the dates behind the historical comparison
 and the search for independent evidence during the 2026 event.
 The DES z-band measurements, Swift XRT visits, Swift UVOT snapshot,
-Euclid H-band visits, ZTF public image dates and TESS cadence days extend
-the earlier baseline.
+Euclid H-band visits, ZTF public image dates, TESS cadence days and Las
+Cumbres r′ measurements extend the earlier baseline.
 The October–November 2026 records keep unreleased DECam footprints,
 nearby Rubin alerts and off-target HST footprints distinct from the
-two measured JWST visits.
+two measured JWST visits and the 11 November Las Cumbres measurement.
 [Timeline source and date ledger](../results/jwst_cross_detector/module_b_001_cross_survey_timeline.json).
 
 ![Historical and contemporaneous survey records near JADES 103607](../figures/jwst_cross_detector/module_b_001_cross_survey_timeline.png)

@@ -1,0 +1,3011 @@
+{
+  "executed_utc": "2026-11-27T08:31:19.419370+00:00",
+  "script_sha256": "121d509c20fc4ae732065f0a54f0da2246a29bffcc7c47f635308c460802ebf6",
+  "position_source_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "jwst_event_window_utc": [
+    "2026-10-01",
+    "2026-11-27"
+  ],
+  "lco_listing": {
+    "receipt": {
+      "path": "data/raw/metadata/module_b_001_lco_eso_inventory_lco.json",
+      "url": "https://archive-api.lco.global/frames/?covers=POINT%2853.188669832987+-27.812539402768%29&limit=100&reduction_level=91&configuration_type=EXPOSE&end=2026-11-27",
+      "sha256": "b3512d19984498bbf28525f59f7bae1c9e2122c495d22e58c8a6c7df903e6bdb"
+    },
+    "returned_rows": 17,
+    "archive_reported_count": 1,
+    "next_page_present": false
+  },
+  "lco_frames": [
+    {
+      "id": 5475771,
+      "basename": "coj0m403-kb98-20170107-0055-e91",
+      "observation_date": "2017-01-07T10:05:30.956000Z",
+      "public_date": "2018-01-07T10:05:30.956000Z",
+      "target_name": "auto_focus",
+      "proposal_id": "auto_focus",
+      "instrument_id": "kb98",
+      "site_id": "coj",
+      "telescope_id": "0m4a",
+      "exposure_time": 10.278,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.93526066527021,
+              -27.816171647972485
+            ],
+            [
+              53.30120973411884,
+              -27.807613536981595
+            ],
+            [
+              53.3165506657539,
+              -28.291043119245423
+            ],
+            [
+              52.94895351586828,
+              -28.299639799390523
+            ],
+            [
+              52.93526066527021,
+              -27.816171647972485
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 117260213,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj0m403-kb98-20170107-0055-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/5475771/",
+        "sha256": "794bdf996dd04c03939a5037dd1e53443a83cd213a995fe5040773eae8ddec4d"
+      },
+      "version_id": 5753237,
+      "published_md5": "cb17a5c4542262a236d64add2771e370"
+    },
+    {
+      "id": 6862384,
+      "basename": "coj1m003-fl11-20170821-0188-e91",
+      "observation_date": "2017-08-21T18:48:20.100000Z",
+      "public_date": "2018-08-21T18:48:20.100000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.8429289494781,
+              -27.475025425671546
+            ],
+            [
+              52.84645055027001,
+              -27.917728729137263
+            ],
+            [
+              53.347443814661844,
+              -27.91370472860449
+            ],
+            [
+              53.34189467673851,
+              -27.47101771164294
+            ],
+            [
+              52.8429289494781,
+              -27.475025425671546
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0188-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862384/",
+        "sha256": "26ef0faa7effbb10c397f484c8277ddcd63fb55d110cf6c4b29eb7cdcfb90a48"
+      },
+      "version_id": 7175561,
+      "published_md5": "c6083da231c64dddfdd6727ae54474d2"
+    },
+    {
+      "id": 6862407,
+      "basename": "coj1m003-fl11-20170821-0189-e91",
+      "observation_date": "2017-08-21T18:53:03.078000Z",
+      "public_date": "2018-08-21T18:53:03.078000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.84291299499546,
+              -27.475024207429072
+            ],
+            [
+              52.84643214161118,
+              -27.917728389028305
+            ],
+            [
+              53.34742640829316,
+              -27.913706562274125
+            ],
+            [
+              53.34187971624914,
+              -27.47101865841362
+            ],
+            [
+              52.84291299499546,
+              -27.475024207429072
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0189-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862407/",
+        "sha256": "94d38a310d902d1ba3504d3831826a27a9dc5cb4d307f6e7bc138951c5340f12"
+      },
+      "version_id": 7175584,
+      "published_md5": "a92b971ae0966a54b263768df31bccd9"
+    },
+    {
+      "id": 6862411,
+      "basename": "coj1m003-fl11-20170821-0190-e91",
+      "observation_date": "2017-08-21T18:57:47.164000Z",
+      "public_date": "2018-08-21T18:57:47.164000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.84292457870552,
+              -27.475003412808615
+            ],
+            [
+              52.84643757431649,
+              -27.91770730252496
+            ],
+            [
+              53.34743143837096,
+              -27.913690934368773
+            ],
+            [
+              53.34189090135711,
+              -27.471003300275477
+            ],
+            [
+              52.84292457870552,
+              -27.475003412808615
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0190-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862411/",
+        "sha256": "977675f19837da6ab09241b3b3821f1d184ef0319b5fe2c0abc1fd84a7a90662"
+      },
+      "version_id": 7175588,
+      "published_md5": "88df86e68dfc0c81ca4d7b68a48abcfb"
+    },
+    {
+      "id": 6862416,
+      "basename": "coj1m003-fl11-20170821-0191-e91",
+      "observation_date": "2017-08-21T19:02:30.386000Z",
+      "public_date": "2018-08-21T19:02:30.386000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.84292199550299,
+              -27.47502528910258
+            ],
+            [
+              52.846442763853084,
+              -27.917724860108038
+            ],
+            [
+              53.34743178989417,
+              -27.913701613378475
+            ],
+            [
+              53.341883518698424,
+              -27.4710183256882
+            ],
+            [
+              52.84292199550299,
+              -27.47502528910258
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0191-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862416/",
+        "sha256": "10600e0521e703272bdd14588a4df1a2d21491678fc12fbad6fef6305df33ec6"
+      },
+      "version_id": 7175593,
+      "published_md5": "a41019bdd5a53b65c64255746b3edcf3"
+    },
+    {
+      "id": 6862422,
+      "basename": "coj1m003-fl11-20170821-0192-e91",
+      "observation_date": "2017-08-21T19:07:13.780000Z",
+      "public_date": "2018-08-21T19:07:13.780000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.84292696903754,
+              -27.4750156530658
+            ],
+            [
+              52.84644578479371,
+              -27.917718061741287
+            ],
+            [
+              53.347437998659935,
+              -27.913696535858367
+            ],
+            [
+              53.34189165465783,
+              -27.47101040363245
+            ],
+            [
+              52.84292696903754,
+              -27.4750156530658
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0192-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862422/",
+        "sha256": "860b2a7c991724049f4804270f1c42aa54c053ee943a2a5f2eaf01653cbcad4f"
+      },
+      "version_id": 7175599,
+      "published_md5": "26e5c8a2647f68685ab9a5092283756e"
+    },
+    {
+      "id": 6862423,
+      "basename": "coj1m003-fl11-20170821-0193-e91",
+      "observation_date": "2017-08-21T19:11:57.010000Z",
+      "public_date": "2018-08-21T19:11:57.010000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.84293452480021,
+              -27.475026109868754
+            ],
+            [
+              52.84645698818485,
+              -27.917711903051778
+            ],
+            [
+              53.34743035546204,
+              -27.913687208785667
+            ],
+            [
+              53.341880516301345,
+              -27.47101770426573
+            ],
+            [
+              52.84293452480021,
+              -27.475026109868754
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0193-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862423/",
+        "sha256": "aa3323acd1dcdb7ac9c47110e8be819d0650aad4a4bb80c2d3561f296e28ce0a"
+      },
+      "version_id": 7175600,
+      "published_md5": "951445f5e299656da016667da5b84244"
+    },
+    {
+      "id": 6862426,
+      "basename": "coj1m003-fl11-20170821-0194-e91",
+      "observation_date": "2017-08-21T19:16:40.536000Z",
+      "public_date": "2018-08-21T19:16:40.536000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.842918504773436,
+              -27.47501517379213
+            ],
+            [
+              52.846433569521295,
+              -27.917714875982206
+            ],
+            [
+              53.347422721288254,
+              -27.913696689077543
+            ],
+            [
+              53.341880152766755,
+              -27.471013249723995
+            ],
+            [
+              52.842918504773436,
+              -27.47501517379213
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0194-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862426/",
+        "sha256": "617f1f380923095fcaf69263d43dd362de18d5bb4c74faffb6b42d59e88f29b2"
+      },
+      "version_id": 7175603,
+      "published_md5": "240bac31bd31c0f5d5c491cc26971cce"
+    },
+    {
+      "id": 6862427,
+      "basename": "coj1m003-fl11-20170821-0195-e91",
+      "observation_date": "2017-08-21T19:21:23.997000Z",
+      "public_date": "2018-08-21T19:21:23.997000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.84292271072087,
+              -27.47499852664675
+            ],
+            [
+              52.84644268369232,
+              -27.917690229267627
+            ],
+            [
+              53.34742264828857,
+              -27.913667720626318
+            ],
+            [
+              53.34187524764712,
+              -27.47099229802373
+            ],
+            [
+              52.84292271072087,
+              -27.47499852664675
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0195-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862427/",
+        "sha256": "0e0852eca50816d30831b45d5583ecf29e488adec072e4b4410487fd197db71d"
+      },
+      "version_id": 7175604,
+      "published_md5": "b9f3fb7da063e90eaf8af42e61923198"
+    },
+    {
+      "id": 6862429,
+      "basename": "coj1m003-fl11-20170821-0196-e91",
+      "observation_date": "2017-08-21T19:26:07.803000Z",
+      "public_date": "2018-08-21T19:26:07.803000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.842929673491234,
+              -27.475008270983356
+            ],
+            [
+              52.84644623123223,
+              -27.91770770882529
+            ],
+            [
+              53.347435044490105,
+              -27.913688198479395
+            ],
+            [
+              53.34189098633589,
+              -27.471005028815274
+            ],
+            [
+              52.842929673491234,
+              -27.475008270983356
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0196-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862429/",
+        "sha256": "5140a15bc0c2aff1d287add275baab0a920768bf87d0038b0953141df10d9c1a"
+      },
+      "version_id": 7175606,
+      "published_md5": "a62b4457761f9850a7146da7cc2f7800"
+    },
+    {
+      "id": 6862430,
+      "basename": "coj1m003-fl11-20170821-0197-e91",
+      "observation_date": "2017-08-21T19:30:50.853000Z",
+      "public_date": "2018-08-21T19:30:50.853000Z",
+      "target_name": "TDExray",
+      "proposal_id": "CON2017AB-002",
+      "instrument_id": "fl11",
+      "site_id": "coj",
+      "telescope_id": "1m0a",
+      "exposure_time": 240.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.84294338638781,
+              -27.47501838546988
+            ],
+            [
+              52.84647670140831,
+              -27.917718402593287
+            ],
+            [
+              53.347466150646454,
+              -27.913684022647214
+            ],
+            [
+              53.34190533110374,
+              -27.47100033390567
+            ],
+            [
+              52.84294338638781,
+              -27.47501838546988
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 172102732,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj1m003-fl11-20170821-0197-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/6862430/",
+        "sha256": "082105808740523f9d146852e402fd1aa34f94260e95bc6e25487c6b87b92b98"
+      },
+      "version_id": 7175607,
+      "published_md5": "9ce751037a7adc15dd76b45383ca82ec"
+    },
+    {
+      "id": 12882919,
+      "basename": "cpt1m013-fa14-20191003-0193-e91",
+      "observation_date": "2019-10-04T01:40:01.106000Z",
+      "public_date": "2020-10-03T01:40:01.106000Z",
+      "target_name": "auto_focus",
+      "proposal_id": "auto_focus",
+      "instrument_id": "fa14",
+      "site_id": "cpt",
+      "telescope_id": "1m0a",
+      "exposure_time": 10.124,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.773071913392386,
+              -27.78159311211083
+            ],
+            [
+              52.77711632767375,
+              -28.224811366149865
+            ],
+            [
+              53.28012564411728,
+              -28.220319671974565
+            ],
+            [
+              53.274016694638604,
+              -27.777119855264345
+            ],
+            [
+              52.773071913392386,
+              -27.78159311211083
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 28229369,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/cpt1m013-fa14-20191003-0193-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/12882919/",
+        "sha256": "cf796fce4bd3078f2f524a1b850140953a910f81279ee136b356ad8915968c3f"
+      },
+      "version_id": 13487400,
+      "published_md5": "7f597aa8b799eac9d82a763f32e4b08c"
+    },
+    {
+      "id": 13645010,
+      "basename": "lsc0m409-kb29-20200107-0094-e91",
+      "observation_date": "2020-01-08T01:10:19.563000Z",
+      "public_date": "2021-01-07T01:10:19.563000Z",
+      "target_name": "auto_focus",
+      "proposal_id": "auto_focus",
+      "instrument_id": "kb29",
+      "site_id": "lsc",
+      "telescope_id": "0m4a",
+      "exposure_time": 10.285,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.85350512938009,
+              -27.760179583186893
+            ],
+            [
+              53.21844820134148,
+              -27.760137765687507
+            ],
+            [
+              53.219339107961076,
+              -28.243202780930947
+            ],
+            [
+              52.852756231372325,
+              -28.243244786328948
+            ],
+            [
+              52.85350512938009,
+              -27.760179583186893
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 52119824,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/lsc0m409-kb29-20200107-0094-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/13645010/",
+        "sha256": "23780b61e233b81917517a0f25e2011f4e7cb6762d2b1ac264aa09ab69422b67"
+      },
+      "version_id": 14258513,
+      "published_md5": "990dfe1ac6b1f8fa63c3b02ca8b17534"
+    },
+    {
+      "id": 13701123,
+      "basename": "cpt1m012-fa06-20200114-0057-e91",
+      "observation_date": "2020-01-14T18:44:18.241000Z",
+      "public_date": "2021-01-13T18:44:18.241000Z",
+      "target_name": "auto_focus",
+      "proposal_id": "auto_focus",
+      "instrument_id": "fa06",
+      "site_id": "cpt",
+      "telescope_id": "1m0a",
+      "exposure_time": 9.984,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.00700217918515,
+              -27.774112780992912
+            ],
+            [
+              53.01162956334997,
+              -28.217160546635437
+            ],
+            [
+              53.514406928326245,
+              -28.21215379879102
+            ],
+            [
+              53.507717487250495,
+              -27.76912656995943
+            ],
+            [
+              53.00700217918515,
+              -27.774112780992912
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 53945946,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/cpt1m012-fa06-20200114-0057-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/13701123/",
+        "sha256": "579caad0b48ce4d07828cbf8ea162febad95561b8b68ba3c51cfc0aa593ed7a0"
+      },
+      "version_id": 14315185,
+      "published_md5": "840b78f0d1b3100a8b92a659f680ddcc"
+    },
+    {
+      "id": 88682026,
+      "basename": "lsc1m009-fa04-20251108-0201-e91",
+      "observation_date": "2025-11-09T05:15:00.750000Z",
+      "public_date": "2026-11-09T05:15:00.750000Z",
+      "target_name": "auto_focus",
+      "proposal_id": "auto_focus",
+      "instrument_id": "fa04",
+      "site_id": "lsc",
+      "telescope_id": "1m0a",
+      "exposure_time": 9.999,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.140204389742436,
+              -27.779302193282373
+            ],
+            [
+              53.140430006002155,
+              -28.222486846027675
+            ],
+            [
+              53.64340616523876,
+              -28.221373953713915
+            ],
+            [
+              53.64111612997438,
+              -27.77819386873139
+            ],
+            [
+              53.140204389742436,
+              -27.779302193282373
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 755534800,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/lsc1m009-fa04-20251108-0201-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/88682026/",
+        "sha256": "25b118bce49965a3c154126ee5986677b879a8845a38d6c8b27c86203bc0b104"
+      },
+      "version_id": 90382708,
+      "published_md5": "ffabde6ad6c16fd4a9bba1c6a8bf18a3"
+    },
+    {
+      "id": 98322064,
+      "basename": "coj0m416-sq36-20260926-0359-e91",
+      "observation_date": "2026-09-26T17:17:10.682000Z",
+      "public_date": "2026-09-26T17:17:10.682000Z",
+      "target_name": "auto_focus",
+      "proposal_id": "auto_focus",
+      "instrument_id": "sq36",
+      "site_id": "coj",
+      "telescope_id": "0m4a",
+      "exposure_time": 10.0,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.346885116380086,
+              -28.24687379161551
+            ],
+            [
+              53.34431185844184,
+              -27.751242452601414
+            ],
+            [
+              52.78425441583683,
+              -27.752372078407248
+            ],
+            [
+              52.784245756595794,
+              -28.248008625087422
+            ],
+            [
+              53.346885116380086,
+              -28.24687379161551
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 836694202,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/coj0m416-sq36-20260926-0359-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/98322064/",
+        "sha256": "96ed7575af6813d9ddff40c70a4a70faccd3f11c0cd82b59e509b3d575ea438c"
+      },
+      "version_id": 100656722,
+      "published_md5": "4cb28bb72eb18015c3069948da5fa875"
+    },
+    {
+      "id": 99547796,
+      "basename": "cpt1m012-fa06-20261111-0171-e91",
+      "observation_date": "2026-11-11T22:16:50.631000Z",
+      "public_date": "2026-11-11T22:16:50.631000Z",
+      "target_name": "auto_focus",
+      "proposal_id": "auto_focus",
+      "instrument_id": "fa06",
+      "site_id": "cpt",
+      "telescope_id": "1m0a",
+      "exposure_time": 9.998,
+      "primary_optical_element": "rp",
+      "area": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.14866721629501,
+              -27.78219529227437
+            ],
+            [
+              53.15418804051824,
+              -28.2248900532982
+            ],
+            [
+              53.6565974374738,
+              -28.21909431832499
+            ],
+            [
+              53.64901715085566,
+              -27.776423318910588
+            ],
+            [
+              53.14866721629501,
+              -27.78219529227437
+            ]
+          ]
+        ]
+      },
+      "configuration_type": "EXPOSE",
+      "observation_id": 847580688,
+      "reduction_level": 91,
+      "status": "downloaded",
+      "archive": {
+        "path": "data/raw/cross_detector/lco/cpt1m012-fa06-20261111-0171-e91.fits.fz",
+        "url": "https://archive-api.lco.global/frames/99547796/",
+        "sha256": "3b4b80070d0da6a7bf986272c94af38d6d24866b85dd9ab55898141de7f54934"
+      },
+      "version_id": 101884343,
+      "published_md5": "e56ac27204996013ca93b7f885b64d5c"
+    }
+  ],
+  "eso": {
+    "raw_within_center_rectangle": {
+      "receipt": {
+        "path": "data/raw/metadata/module_b_001_lco_eso_inventory_eso_raw_centers.csv",
+        "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&MAXREC=2500&QUERY=SELECT+dp_id%2Cinstrument%2Cdp_tech%2Cdp_type%2Cra%2Cdec%2Cmjd_obs%2Cdate_obs%2Crelease_date%2Cs_region%2Cexposure%2Cfilter_path%2Ctelescope%2Cprog_id+FROM+dbo.raw+WHERE+mjd_obs+%3E%3D+61314.0+AND+mjd_obs+%3C+61371.0+AND+dp_cat%3D%27SCIENCE%27+AND+ra+BETWEEN+51.988669833+AND+54.388669833+AND+dec+BETWEEN+-28.862539403+AND+-26.762539403+ORDER+BY+mjd_obs%2Cdp_id",
+        "sha256": "3c644f0843651dd485a3ec57fa86921a98e358632eb193a26897792bf86b9c61"
+      },
+      "returned_rows": 130,
+      "rows": [
+        {
+          "dp_id": "EFOSC.2026-11-13T01:47:59.184",
+          "instrument": "EFOSC",
+          "dp_tech": "SPECTRUM",
+          "dp_type": "OBJECT",
+          "ra": "53.25517194",
+          "dec": "-27.87345",
+          "mjd_obs": "61357.07499056",
+          "date_obs": "2026-11-13T01:47:59.184",
+          "release_date": "2027-11-13T03:06:04Z",
+          "s_region": "POSITION J2000 53.255172 -27.87345",
+          "exposure": "4000.031",
+          "filter_path": "FREE",
+          "telescope": "ESO-NTT",
+          "prog_id": "117.29T8.003"
+        },
+        {
+          "dp_id": "EFOSC.2026-11-13T03:05:09.372",
+          "instrument": "EFOSC",
+          "dp_tech": "SPECTRUM",
+          "dp_type": "OBJECT",
+          "ra": "53.25205111",
+          "dec": "-27.86751",
+          "mjd_obs": "61357.1285807",
+          "date_obs": "2026-11-13T03:05:09.372",
+          "release_date": "2027-11-13T04:21:14Z",
+          "s_region": "POSITION J2000 53.252050999999994 -27.86751",
+          "exposure": "4000.017",
+          "filter_path": "FREE",
+          "telescope": "ESO-NTT",
+          "prog_id": "117.29T8.003"
+        },
+        {
+          "dp_id": "ERIS.2026-11-13T03:46:04.785",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05357888",
+          "dec": "-27.70075",
+          "mjd_obs": "61357.15699983",
+          "date_obs": "2026-11-13T03:46:04.7852",
+          "release_date": "2027-11-13T04:01:31Z",
+          "s_region": "POSITION J2000 53.053579 -27.70075",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-13T03:56:34.458",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04416694",
+          "dec": "-27.70077",
+          "mjd_obs": "61357.16428771",
+          "date_obs": "2026-11-13T03:56:34.4578",
+          "release_date": "2027-11-13T04:15:52Z",
+          "s_region": "POSITION J2000 53.044167 -27.70077",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-13T04:07:03.670",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05345305",
+          "dec": "-27.70064",
+          "mjd_obs": "61357.17157025",
+          "date_obs": "2026-11-13T04:07:03.6693",
+          "release_date": "2027-11-13T04:26:23Z",
+          "s_region": "POSITION J2000 53.053453000000005 -27.70064",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-13T04:17:38.669",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05357805",
+          "dec": "-27.70064",
+          "mjd_obs": "61357.17891978",
+          "date_obs": "2026-11-13T04:17:38.6687",
+          "release_date": "2027-11-13T04:36:01Z",
+          "s_region": "POSITION J2000 53.053578 -27.70064",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-13T04:28:08.478",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04416611",
+          "dec": "-27.70066",
+          "mjd_obs": "61357.18620924",
+          "date_obs": "2026-11-13T04:28:08.4781",
+          "release_date": "2027-11-13T04:45:58Z",
+          "s_region": "POSITION J2000 53.044166000000004 -27.70066",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-13T04:38:37.989",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05345305",
+          "dec": "-27.70075",
+          "mjd_obs": "61357.19349524",
+          "date_obs": "2026-11-13T04:38:37.9884",
+          "release_date": "2027-11-13T04:56:04Z",
+          "s_region": "POSITION J2000 53.053453000000005 -27.70075",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-13T04:53:46.110",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.053635",
+          "dec": "-27.70075",
+          "mjd_obs": "61357.2040059",
+          "date_obs": "2026-11-13T04:53:46.1098",
+          "release_date": "2027-11-13T05:10:53Z",
+          "s_region": "POSITION J2000 53.053635 -27.70075",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-13T05:04:15.811",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04422305",
+          "dec": "-27.70077",
+          "mjd_obs": "61357.21129411",
+          "date_obs": "2026-11-13T05:04:15.8114",
+          "release_date": "2027-11-13T05:21:12Z",
+          "s_region": "POSITION J2000 53.044223 -27.70077",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T03:34:01.024",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12181611",
+          "dec": "-27.77535",
+          "mjd_obs": "61358.14862296",
+          "date_obs": "2026-11-14T03:34:01.0239",
+          "release_date": "2027-11-14T03:51:24Z",
+          "s_region": "POSITION J2000 53.121815999999995 -27.77535",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T03:44:33.086",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12652888",
+          "dec": "-27.77673",
+          "mjd_obs": "61358.1559385",
+          "date_obs": "2026-11-14T03:44:33.0863",
+          "release_date": "2027-11-14T04:01:02Z",
+          "s_region": "POSITION J2000 53.126529000000005 -27.77673",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T03:55:06.094",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.121785",
+          "dec": "-27.77532",
+          "mjd_obs": "61358.16326498",
+          "date_obs": "2026-11-14T03:55:06.0945",
+          "release_date": "2027-11-14T04:11:11Z",
+          "s_region": "POSITION J2000 53.121785 -27.77532",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T04:05:30.044",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12181611",
+          "dec": "-27.77532",
+          "mjd_obs": "61358.17048662",
+          "date_obs": "2026-11-14T04:05:30.0437",
+          "release_date": "2027-11-14T04:20:48Z",
+          "s_region": "POSITION J2000 53.121815999999995 -27.77532",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T04:16:01.855",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12652888",
+          "dec": "-27.7767",
+          "mjd_obs": "61358.17779925",
+          "date_obs": "2026-11-14T04:16:01.8556",
+          "release_date": "2027-11-14T04:30:55Z",
+          "s_region": "POSITION J2000 53.126529000000005 -27.7767",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T04:26:29.788",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.121785",
+          "dec": "-27.77535",
+          "mjd_obs": "61358.18506699",
+          "date_obs": "2026-11-14T04:26:29.7875",
+          "release_date": "2027-11-14T04:45:56Z",
+          "s_region": "POSITION J2000 53.121785 -27.77535",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T04:53:27.499",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12214305",
+          "dec": "-27.77542",
+          "mjd_obs": "61358.2037905",
+          "date_obs": "2026-11-14T04:53:27.4992",
+          "release_date": "2027-11-14T05:10:50Z",
+          "s_region": "POSITION J2000 53.122142999999994 -27.77542",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T05:03:59.326",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12685611",
+          "dec": "-27.7768",
+          "mjd_obs": "61358.21110331",
+          "date_obs": "2026-11-14T05:03:59.3260",
+          "release_date": "2027-11-14T05:20:52Z",
+          "s_region": "POSITION J2000 53.126856000000004 -27.7768",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T05:14:31.644",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12211111",
+          "dec": "-27.77539",
+          "mjd_obs": "61358.2184218",
+          "date_obs": "2026-11-14T05:14:31.6433",
+          "release_date": "2027-11-14T05:31:04Z",
+          "s_region": "POSITION J2000 53.122111000000004 -27.77539",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T05:24:55.404",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12214305",
+          "dec": "-27.77539",
+          "mjd_obs": "61358.22564125",
+          "date_obs": "2026-11-14T05:24:55.4039",
+          "release_date": "2027-11-14T05:41:24Z",
+          "s_region": "POSITION J2000 53.122142999999994 -27.77539",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T05:35:27.427",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.126855",
+          "dec": "-27.77677",
+          "mjd_obs": "61358.23295633",
+          "date_obs": "2026-11-14T05:35:27.4265",
+          "release_date": "2027-11-14T05:50:58Z",
+          "s_region": "POSITION J2000 53.126855000000006 -27.77677",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T05:45:59.522",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12211111",
+          "dec": "-27.77542",
+          "mjd_obs": "61358.24027225",
+          "date_obs": "2026-11-14T05:45:59.5224",
+          "release_date": "2027-11-14T06:01:07Z",
+          "s_region": "POSITION J2000 53.122111000000004 -27.77542",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T05:53:43.099",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.114285",
+          "dec": "-27.84429",
+          "mjd_obs": "61358.24563772",
+          "date_obs": "2026-11-14T05:53:43.0989",
+          "release_date": "2026-11-14T06:06:33Z",
+          "s_region": "POSITION J2000 53.114284999999995 -27.84429",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T06:01:46.933",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12219611",
+          "dec": "-27.7754",
+          "mjd_obs": "61358.25123765",
+          "date_obs": "2026-11-14T06:01:46.9334",
+          "release_date": "2027-11-14T06:16:16Z",
+          "s_region": "POSITION J2000 53.122196 -27.7754",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T06:02:20.164",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.14569805",
+          "dec": "-27.8304",
+          "mjd_obs": "61358.25162227",
+          "date_obs": "2026-11-14T06:02:20.1641",
+          "release_date": "2026-11-14T06:16:16Z",
+          "s_region": "POSITION J2000 53.145697999999996 -27.8304",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T06:11:15.022",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.11437888",
+          "dec": "-27.8442",
+          "mjd_obs": "61358.25781275",
+          "date_obs": "2026-11-14T06:11:15.0212",
+          "release_date": "2026-11-14T06:26:19Z",
+          "s_region": "POSITION J2000 53.114379 -27.8442",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T06:12:18.993",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12690888",
+          "dec": "-27.77678",
+          "mjd_obs": "61358.25855316",
+          "date_obs": "2026-11-14T06:12:18.9934",
+          "release_date": "2027-11-14T06:26:19Z",
+          "s_region": "POSITION J2000 53.126909 -27.77678",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T06:19:47.624",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.11419111",
+          "dec": "-27.8442",
+          "mjd_obs": "61358.26374565",
+          "date_obs": "2026-11-14T06:19:47.6244",
+          "release_date": "2026-11-14T06:36:07Z",
+          "s_region": "POSITION J2000 53.114191000000005 -27.8442",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T06:22:51.122",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.122165",
+          "dec": "-27.77537",
+          "mjd_obs": "61358.26586947",
+          "date_obs": "2026-11-14T06:22:51.1221",
+          "release_date": "2027-11-14T06:40:53Z",
+          "s_region": "POSITION J2000 53.122164999999995 -27.77537",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T06:28:23.984",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.14579194",
+          "dec": "-27.83031",
+          "mjd_obs": "61358.26972204",
+          "date_obs": "2026-11-14T06:28:23.9843",
+          "release_date": "2026-11-14T06:46:48Z",
+          "s_region": "POSITION J2000 53.145792 -27.83031",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T06:33:15.009",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12219611",
+          "dec": "-27.77537",
+          "mjd_obs": "61358.27309038",
+          "date_obs": "2026-11-14T06:33:15.0087",
+          "release_date": "2027-11-14T06:50:54Z",
+          "s_region": "POSITION J2000 53.122196 -27.77537",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T06:37:01.038",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.11419111",
+          "dec": "-27.84437",
+          "mjd_obs": "61358.27570646",
+          "date_obs": "2026-11-14T06:37:01.0383",
+          "release_date": "2026-11-14T06:50:54Z",
+          "s_region": "POSITION J2000 53.114191000000005 -27.84437",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T06:43:47.263",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12690888",
+          "dec": "-27.77675",
+          "mjd_obs": "61358.28040814",
+          "date_obs": "2026-11-14T06:43:47.2633",
+          "release_date": "2027-11-14T07:01:13Z",
+          "s_region": "POSITION J2000 53.126909 -27.77675",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T06:45:34.715",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.11438",
+          "dec": "-27.84437",
+          "mjd_obs": "61358.28165179",
+          "date_obs": "2026-11-14T06:45:34.7144",
+          "release_date": "2026-11-14T07:01:13Z",
+          "s_region": "POSITION J2000 53.11438 -27.84437",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T06:54:11.751",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.14560388",
+          "dec": "-27.83031",
+          "mjd_obs": "61358.28763601",
+          "date_obs": "2026-11-14T06:54:11.7517",
+          "release_date": "2026-11-14T07:05:55Z",
+          "s_region": "POSITION J2000 53.145604000000006 -27.83031",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T06:54:19.086",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.122165",
+          "dec": "-27.7754",
+          "mjd_obs": "61358.2877209",
+          "date_obs": "2026-11-14T06:54:19.0862",
+          "release_date": "2027-11-14T07:11:05Z",
+          "s_region": "POSITION J2000 53.122164999999995 -27.7754",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "KMOS.2026-11-14T07:02:48.835",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "53.114285",
+          "dec": "-27.84429",
+          "mjd_obs": "61358.29362078",
+          "date_obs": "2026-11-14T07:02:48.8356",
+          "release_date": "2026-11-14T07:16:17Z",
+          "s_region": "POSITION J2000 53.114284999999995 -27.84429",
+          "exposure": "500.0",
+          "filter_path": "IZ,IZ,IZ",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "116.29EG.004"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T07:10:07.274",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12221111",
+          "dec": "-27.77537",
+          "mjd_obs": "61358.2986953",
+          "date_obs": "2026-11-14T07:10:07.2738",
+          "release_date": "2027-11-14T07:26:24Z",
+          "s_region": "POSITION J2000 53.12221099999999 -27.77537",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T07:20:38.903",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12692388",
+          "dec": "-27.77675",
+          "mjd_obs": "61358.30600582",
+          "date_obs": "2026-11-14T07:20:38.9031",
+          "release_date": "2027-11-14T07:36:07Z",
+          "s_region": "POSITION J2000 53.126924 -27.77675",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T07:31:10.692",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12218",
+          "dec": "-27.77534",
+          "mjd_obs": "61358.31331819",
+          "date_obs": "2026-11-14T07:31:10.6919",
+          "release_date": "2027-11-14T07:46:00Z",
+          "s_region": "POSITION J2000 53.12218 -27.77534",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T07:41:34.926",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12221111",
+          "dec": "-27.77534",
+          "mjd_obs": "61358.32054313",
+          "date_obs": "2026-11-14T07:41:34.9267",
+          "release_date": "2027-11-14T08:00:48Z",
+          "s_region": "POSITION J2000 53.12221099999999 -27.77534",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T07:52:06.854",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12692388",
+          "dec": "-27.77672",
+          "mjd_obs": "61358.32785711",
+          "date_obs": "2026-11-14T07:52:06.8542",
+          "release_date": "2027-11-14T08:11:02Z",
+          "s_region": "POSITION J2000 53.126924 -27.77672",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-14T08:02:38.852",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12218",
+          "dec": "-27.77537",
+          "mjd_obs": "61358.3351719",
+          "date_obs": "2026-11-14T08:02:38.8518",
+          "release_date": "2027-11-14T08:15:58Z",
+          "s_region": "POSITION J2000 53.12218 -27.77537",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T03:29:36.770",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05406888",
+          "dec": "-27.70148",
+          "mjd_obs": "61359.14556447",
+          "date_obs": "2026-11-15T03:29:36.7705",
+          "release_date": "2027-11-15T03:46:39Z",
+          "s_region": "POSITION J2000 53.054069 -27.70148",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T03:40:08.811",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04465694",
+          "dec": "-27.7015",
+          "mjd_obs": "61359.15287976",
+          "date_obs": "2026-11-15T03:40:08.8113",
+          "release_date": "2027-11-15T03:56:42Z",
+          "s_region": "POSITION J2000 53.044657 -27.7015",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T03:50:40.801",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05394305",
+          "dec": "-27.70137",
+          "mjd_obs": "61359.16019446",
+          "date_obs": "2026-11-15T03:50:40.8016",
+          "release_date": "2027-11-15T04:06:38Z",
+          "s_region": "POSITION J2000 53.053943000000004 -27.70137",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T04:01:05.795",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05406805",
+          "dec": "-27.70137",
+          "mjd_obs": "61359.16742818",
+          "date_obs": "2026-11-15T04:01:05.7945",
+          "release_date": "2027-11-15T04:21:26Z",
+          "s_region": "POSITION J2000 53.054068 -27.70137",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T04:11:38.984",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04465611",
+          "dec": "-27.70139",
+          "mjd_obs": "61359.17475676",
+          "date_obs": "2026-11-15T04:11:38.9839",
+          "release_date": "2027-11-15T04:31:18Z",
+          "s_region": "POSITION J2000 53.044656 -27.70139",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T04:22:11.081",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05394305",
+          "dec": "-27.70148",
+          "mjd_obs": "61359.1820727",
+          "date_obs": "2026-11-15T04:22:11.0809",
+          "release_date": "2027-11-15T04:41:21Z",
+          "s_region": "POSITION J2000 53.053943000000004 -27.70148",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T04:37:58.050",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.054125",
+          "dec": "-27.70143",
+          "mjd_obs": "61359.19303299",
+          "date_obs": "2026-11-15T04:37:58.0506",
+          "release_date": "2027-11-15T04:56:17Z",
+          "s_region": "POSITION J2000 53.054125 -27.70143",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T04:48:33.887",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04471305",
+          "dec": "-27.70145",
+          "mjd_obs": "61359.20039221",
+          "date_obs": "2026-11-15T04:48:33.8869",
+          "release_date": "2027-11-15T05:06:26Z",
+          "s_region": "POSITION J2000 53.044713 -27.70145",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T04:59:05.787",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05399888",
+          "dec": "-27.70132",
+          "mjd_obs": "61359.20770587",
+          "date_obs": "2026-11-15T04:59:05.7871",
+          "release_date": "2027-11-15T05:16:25Z",
+          "s_region": "POSITION J2000 53.053999000000005 -27.70132",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T05:09:29.737",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.054125",
+          "dec": "-27.70132",
+          "mjd_obs": "61359.21492751",
+          "date_obs": "2026-11-15T05:09:29.7366",
+          "release_date": "2027-11-15T05:26:25Z",
+          "s_region": "POSITION J2000 53.054125 -27.70132",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T05:20:01.858",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04471305",
+          "dec": "-27.70134",
+          "mjd_obs": "61359.22224373",
+          "date_obs": "2026-11-15T05:20:01.8585",
+          "release_date": "2027-11-15T05:36:07Z",
+          "s_region": "POSITION J2000 53.044713 -27.70134",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T05:30:33.786",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05399888",
+          "dec": "-27.70143",
+          "mjd_obs": "61359.22955771",
+          "date_obs": "2026-11-15T05:30:33.7863",
+          "release_date": "2027-11-15T05:51:28Z",
+          "s_region": "POSITION J2000 53.053999000000005 -27.70143",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T05:46:02.680",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.054125",
+          "dec": "-27.70153",
+          "mjd_obs": "61359.2403088",
+          "date_obs": "2026-11-15T05:46:02.6801",
+          "release_date": "2027-11-15T06:01:15Z",
+          "s_region": "POSITION J2000 53.054125 -27.70153",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T05:56:35.010",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04471305",
+          "dec": "-27.70155",
+          "mjd_obs": "61359.24762743",
+          "date_obs": "2026-11-15T05:56:35.0095",
+          "release_date": "2027-11-15T06:11:14Z",
+          "s_region": "POSITION J2000 53.044713 -27.70155",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T06:07:07.410",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05399888",
+          "dec": "-27.70142",
+          "mjd_obs": "61359.25494687",
+          "date_obs": "2026-11-15T06:07:07.4095",
+          "release_date": "2027-11-15T06:21:11Z",
+          "s_region": "POSITION J2000 53.053999000000005 -27.70142",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T06:17:31.241",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.054125",
+          "dec": "-27.70142",
+          "mjd_obs": "61359.26216714",
+          "date_obs": "2026-11-15T06:17:31.2405",
+          "release_date": "2027-11-15T06:36:20Z",
+          "s_region": "POSITION J2000 53.054125 -27.70142",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T06:28:03.373",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04471305",
+          "dec": "-27.70144",
+          "mjd_obs": "61359.26948348",
+          "date_obs": "2026-11-15T06:28:03.3729",
+          "release_date": "2027-11-15T06:46:02Z",
+          "s_region": "POSITION J2000 53.044713 -27.70144",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T06:38:36.867",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.054",
+          "dec": "-27.70153",
+          "mjd_obs": "61359.27681559",
+          "date_obs": "2026-11-15T06:38:36.8666",
+          "release_date": "2027-11-15T06:56:15Z",
+          "s_region": "POSITION J2000 53.054 -27.70153",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T06:54:56.544",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05418805",
+          "dec": "-27.70142",
+          "mjd_obs": "61359.28815445",
+          "date_obs": "2026-11-15T06:54:56.5443",
+          "release_date": "2027-11-15T07:11:12Z",
+          "s_region": "POSITION J2000 53.054187999999996 -27.70142",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T07:05:29.480",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04477611",
+          "dec": "-27.70143",
+          "mjd_obs": "61359.29548009",
+          "date_obs": "2026-11-15T07:05:29.4795",
+          "release_date": "2027-11-15T07:21:00Z",
+          "s_region": "POSITION J2000 53.044776 -27.70143",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T07:16:01.867",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05406194",
+          "dec": "-27.7013",
+          "mjd_obs": "61359.30279939",
+          "date_obs": "2026-11-15T07:16:01.8677",
+          "release_date": "2027-11-15T07:31:11Z",
+          "s_region": "POSITION J2000 53.054062 -27.7013",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T07:26:25.795",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05418805",
+          "dec": "-27.7013",
+          "mjd_obs": "61359.31002078",
+          "date_obs": "2026-11-15T07:26:25.7957",
+          "release_date": "2027-11-15T07:46:19Z",
+          "s_region": "POSITION J2000 53.054187999999996 -27.7013",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T07:36:58.166",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04477611",
+          "dec": "-27.70132",
+          "mjd_obs": "61359.31733988",
+          "date_obs": "2026-11-15T07:36:58.1660",
+          "release_date": "2027-11-15T07:51:20Z",
+          "s_region": "POSITION J2000 53.044776 -27.70132",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T07:47:30.614",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05406305",
+          "dec": "-27.70142",
+          "mjd_obs": "61359.32465989",
+          "date_obs": "2026-11-15T07:47:30.6141",
+          "release_date": "2027-11-15T08:06:11Z",
+          "s_region": "POSITION J2000 53.054063 -27.70142",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T08:03:26.526",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05413194",
+          "dec": "-27.70142",
+          "mjd_obs": "61359.33572368",
+          "date_obs": "2026-11-15T08:03:26.5261",
+          "release_date": "2027-11-15T08:16:21Z",
+          "s_region": "POSITION J2000 53.054131999999996 -27.70142",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T08:13:58.897",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.04472",
+          "dec": "-27.70144",
+          "mjd_obs": "61359.34304279",
+          "date_obs": "2026-11-15T08:13:58.8969",
+          "release_date": "2027-11-15T08:31:22Z",
+          "s_region": "POSITION J2000 53.04472 -27.70144",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-15T08:24:31.191",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.05400611",
+          "dec": "-27.70131",
+          "mjd_obs": "61359.35036101",
+          "date_obs": "2026-11-15T08:24:31.1911",
+          "release_date": "2027-11-15T08:41:09Z",
+          "s_region": "POSITION J2000 53.054006 -27.70131",
+          "exposure": "600.0",
+          "filter_path": "J_LONG",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T04:22:58.152",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12161305",
+          "dec": "-27.77485",
+          "mjd_obs": "61360.1826175",
+          "date_obs": "2026-11-16T04:22:58.1521",
+          "release_date": "2027-11-16T04:41:05Z",
+          "s_region": "POSITION J2000 53.121612999999996 -27.77485",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T04:33:27.225",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12632611",
+          "dec": "-27.77623",
+          "mjd_obs": "61360.18989844",
+          "date_obs": "2026-11-16T04:33:27.2256",
+          "release_date": "2027-11-16T04:51:04Z",
+          "s_region": "POSITION J2000 53.126326000000006 -27.77623",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T04:43:52.492",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12158111",
+          "dec": "-27.77482",
+          "mjd_obs": "61360.19713532",
+          "date_obs": "2026-11-16T04:43:52.4919",
+          "release_date": "2027-11-16T05:01:19Z",
+          "s_region": "POSITION J2000 53.121581000000006 -27.77482",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T04:54:13.879",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12161305",
+          "dec": "-27.77482",
+          "mjd_obs": "61360.2043273",
+          "date_obs": "2026-11-16T04:54:13.8785",
+          "release_date": "2027-11-16T05:10:56Z",
+          "s_region": "POSITION J2000 53.121612999999996 -27.77482",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T05:04:43.087",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12632611",
+          "dec": "-27.7762",
+          "mjd_obs": "61360.2116098",
+          "date_obs": "2026-11-16T05:04:43.0868",
+          "release_date": "2027-11-16T05:21:04Z",
+          "s_region": "POSITION J2000 53.126326000000006 -27.7762",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T05:15:08.968",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12158194",
+          "dec": "-27.77485",
+          "mjd_obs": "61360.2188538",
+          "date_obs": "2026-11-16T05:15:08.9681",
+          "release_date": "2027-11-16T05:31:14Z",
+          "s_region": "POSITION J2000 53.121582000000004 -27.77485",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T05:30:43.062",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12165694",
+          "dec": "-27.7748",
+          "mjd_obs": "61360.22966507",
+          "date_obs": "2026-11-16T05:30:43.0624",
+          "release_date": "2027-11-16T05:46:05Z",
+          "s_region": "POSITION J2000 53.121657 -27.7748",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T05:41:11.662",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12637",
+          "dec": "-27.77618",
+          "mjd_obs": "61360.23694053",
+          "date_obs": "2026-11-16T05:41:11.6616",
+          "release_date": "2027-11-16T06:00:55Z",
+          "s_region": "POSITION J2000 53.126369999999994 -27.77618",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T05:51:36.333",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.121625",
+          "dec": "-27.77478",
+          "mjd_obs": "61360.24417052",
+          "date_obs": "2026-11-16T05:51:36.3331",
+          "release_date": "2027-11-16T06:10:53Z",
+          "s_region": "POSITION J2000 53.121624999999995 -27.77478",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T06:01:57.682",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12165694",
+          "dec": "-27.77478",
+          "mjd_obs": "61360.25136206",
+          "date_obs": "2026-11-16T06:01:57.6820",
+          "release_date": "2027-11-16T06:21:06Z",
+          "s_region": "POSITION J2000 53.121657 -27.77478",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T06:12:26.993",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12637",
+          "dec": "-27.77616",
+          "mjd_obs": "61360.25864575",
+          "date_obs": "2026-11-16T06:12:26.9929",
+          "release_date": "2027-11-16T06:30:50Z",
+          "s_region": "POSITION J2000 53.126369999999994 -27.77616",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T06:22:52.178",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12162611",
+          "dec": "-27.7748",
+          "mjd_obs": "61360.26588169",
+          "date_obs": "2026-11-16T06:22:52.1783",
+          "release_date": "2027-11-16T06:41:09Z",
+          "s_region": "POSITION J2000 53.121626000000006 -27.7748",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T06:39:56.280",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12165694",
+          "dec": "-27.77478",
+          "mjd_obs": "61360.27773472",
+          "date_obs": "2026-11-16T06:39:56.2800",
+          "release_date": "2027-11-16T06:55:49Z",
+          "s_region": "POSITION J2000 53.121657 -27.77478",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T06:50:25.528",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12637",
+          "dec": "-27.77616",
+          "mjd_obs": "61360.28501768",
+          "date_obs": "2026-11-16T06:50:25.5278",
+          "release_date": "2027-11-16T07:06:01Z",
+          "s_region": "POSITION J2000 53.126369999999994 -27.77616",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T07:00:50.824",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.121625",
+          "dec": "-27.77476",
+          "mjd_obs": "61360.29225491",
+          "date_obs": "2026-11-16T07:00:50.8238",
+          "release_date": "2027-11-16T07:16:32Z",
+          "s_region": "POSITION J2000 53.121624999999995 -27.77476",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T07:11:12.322",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12165694",
+          "dec": "-27.77476",
+          "mjd_obs": "61360.29944817",
+          "date_obs": "2026-11-16T07:11:12.3222",
+          "release_date": "2027-11-16T07:26:07Z",
+          "s_region": "POSITION J2000 53.121657 -27.77476",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T07:21:41.910",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12637",
+          "dec": "-27.77614",
+          "mjd_obs": "61360.30673507",
+          "date_obs": "2026-11-16T07:21:41.9099",
+          "release_date": "2027-11-16T07:40:58Z",
+          "s_region": "POSITION J2000 53.126369999999994 -27.77614",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T07:32:08.206",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12162611",
+          "dec": "-27.77478",
+          "mjd_obs": "61360.31398387",
+          "date_obs": "2026-11-16T07:32:08.2068",
+          "release_date": "2027-11-16T07:51:07Z",
+          "s_region": "POSITION J2000 53.121626000000006 -27.77478",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T08:43:51.194",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12195111",
+          "dec": "-27.7752",
+          "mjd_obs": "61360.36378697",
+          "date_obs": "2026-11-16T08:43:51.1939",
+          "release_date": "2027-11-16T09:01:47Z",
+          "s_region": "POSITION J2000 53.121950999999996 -27.7752",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-16T08:54:20.322",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12666388",
+          "dec": "-27.77658",
+          "mjd_obs": "61360.37106854",
+          "date_obs": "2026-11-16T08:54:20.3219",
+          "release_date": "2027-11-16T09:12:21Z",
+          "s_region": "POSITION J2000 53.126664000000005 -27.77658",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T03:42:56.038",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.121645",
+          "dec": "-27.77484",
+          "mjd_obs": "61361.15481525",
+          "date_obs": "2026-11-17T03:42:56.0374",
+          "release_date": "2027-11-17T04:00:55Z",
+          "s_region": "POSITION J2000 53.121645 -27.77484",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T03:53:25.571",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12635805",
+          "dec": "-27.77622",
+          "mjd_obs": "61361.16210152",
+          "date_obs": "2026-11-17T03:53:25.5713",
+          "release_date": "2027-11-17T04:10:57Z",
+          "s_region": "POSITION J2000 53.126357999999996 -27.77622",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T04:08:14.608",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.121645",
+          "dec": "-27.77486",
+          "mjd_obs": "61361.1723913",
+          "date_obs": "2026-11-17T04:08:14.6085",
+          "release_date": "2027-11-17T04:25:59Z",
+          "s_region": "POSITION J2000 53.121645 -27.77486",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T04:18:44.000",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12635805",
+          "dec": "-27.77624",
+          "mjd_obs": "61361.17967593",
+          "date_obs": "2026-11-17T04:18:44.0006",
+          "release_date": "2027-11-17T04:35:50Z",
+          "s_region": "POSITION J2000 53.126357999999996 -27.77624",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T04:52:34.126",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.121885",
+          "dec": "-27.77532",
+          "mjd_obs": "61361.20317275",
+          "date_obs": "2026-11-17T04:52:34.1260",
+          "release_date": "2027-11-17T05:10:54Z",
+          "s_region": "POSITION J2000 53.121885000000006 -27.77532",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T05:03:03.071",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12659805",
+          "dec": "-27.7767",
+          "mjd_obs": "61361.21045221",
+          "date_obs": "2026-11-17T05:03:03.0709",
+          "release_date": "2027-11-17T05:20:52Z",
+          "s_region": "POSITION J2000 53.126598 -27.7767",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T05:13:29.398",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12185388",
+          "dec": "-27.7753",
+          "mjd_obs": "61361.21770136",
+          "date_obs": "2026-11-17T05:13:29.3974",
+          "release_date": "2027-11-17T05:31:04Z",
+          "s_region": "POSITION J2000 53.121854 -27.7753",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T05:23:51.972",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.121885",
+          "dec": "-27.7753",
+          "mjd_obs": "61361.22490708",
+          "date_obs": "2026-11-17T05:23:51.9717",
+          "release_date": "2027-11-17T05:41:37Z",
+          "s_region": "POSITION J2000 53.121885000000006 -27.7753",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T05:34:20.942",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12659805",
+          "dec": "-27.77668",
+          "mjd_obs": "61361.23218683",
+          "date_obs": "2026-11-17T05:34:20.9420",
+          "release_date": "2027-11-17T05:51:03Z",
+          "s_region": "POSITION J2000 53.126598 -27.77668",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T05:44:46.047",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12185388",
+          "dec": "-27.77532",
+          "mjd_obs": "61361.23942184",
+          "date_obs": "2026-11-17T05:44:46.0471",
+          "release_date": "2027-11-17T06:01:06Z",
+          "s_region": "POSITION J2000 53.121854 -27.77532",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T06:01:17.030",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12189611",
+          "dec": "-27.77531",
+          "mjd_obs": "61361.25089155",
+          "date_obs": "2026-11-17T06:01:17.0302",
+          "release_date": "2027-11-17T06:15:51Z",
+          "s_region": "POSITION J2000 53.12189600000001 -27.77531",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T06:11:46.253",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12660888",
+          "dec": "-27.77669",
+          "mjd_obs": "61361.25817422",
+          "date_obs": "2026-11-17T06:11:46.2530",
+          "release_date": "2027-11-17T06:30:48Z",
+          "s_region": "POSITION J2000 53.126609 -27.77669",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T06:22:11.350",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12186388",
+          "dec": "-27.77528",
+          "mjd_obs": "61361.26540914",
+          "date_obs": "2026-11-17T06:22:11.3495",
+          "release_date": "2027-11-17T06:41:01Z",
+          "s_region": "POSITION J2000 53.121864 -27.77528",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T06:32:32.216",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12186388",
+          "dec": "-27.77528",
+          "mjd_obs": "61361.27259509",
+          "date_obs": "2026-11-17T06:32:32.2156",
+          "release_date": "2027-11-17T06:50:46Z",
+          "s_region": "POSITION J2000 53.121864 -27.77528",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T06:43:02.093",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12657694",
+          "dec": "-27.77666",
+          "mjd_obs": "61361.27988533",
+          "date_obs": "2026-11-17T06:43:02.0925",
+          "release_date": "2027-11-17T07:00:52Z",
+          "s_region": "POSITION J2000 53.126577 -27.77666",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T06:53:27.545",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12183305",
+          "dec": "-27.77531",
+          "mjd_obs": "61361.28712436",
+          "date_obs": "2026-11-17T06:53:27.5445",
+          "release_date": "2027-11-17T07:10:47Z",
+          "s_region": "POSITION J2000 53.121832999999995 -27.77531",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T07:09:21.904",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12185805",
+          "dec": "-27.77525",
+          "mjd_obs": "61361.29817018",
+          "date_obs": "2026-11-17T07:09:21.9037",
+          "release_date": "2027-11-17T07:26:12Z",
+          "s_region": "POSITION J2000 53.121858 -27.77525",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T07:19:51.101",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12657111",
+          "dec": "-27.77663",
+          "mjd_obs": "61361.30545256",
+          "date_obs": "2026-11-17T07:19:51.1009",
+          "release_date": "2027-11-17T07:35:52Z",
+          "s_region": "POSITION J2000 53.126571 -27.77663",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T07:30:16.213",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12182694",
+          "dec": "-27.77522",
+          "mjd_obs": "61361.31268765",
+          "date_obs": "2026-11-17T07:30:16.2130",
+          "release_date": "2027-11-17T07:45:55Z",
+          "s_region": "POSITION J2000 53.121826999999996 -27.77522",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T07:40:38.743",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12185805",
+          "dec": "-27.77522",
+          "mjd_obs": "61361.31989286",
+          "date_obs": "2026-11-17T07:40:38.7434",
+          "release_date": "2027-11-17T07:56:02Z",
+          "s_region": "POSITION J2000 53.121858 -27.77522",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T07:51:08.939",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "SKY",
+          "ra": "53.12657111",
+          "dec": "-27.7766",
+          "mjd_obs": "61361.32718679",
+          "date_obs": "2026-11-17T07:51:08.9389",
+          "release_date": "2027-11-17T08:06:24Z",
+          "s_region": "POSITION J2000 53.126571 -27.7766",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "ERIS.2026-11-17T08:01:34.074",
+          "instrument": "ERIS",
+          "dp_tech": "IFU,NODDING",
+          "dp_type": "OBJECT",
+          "ra": "53.12182694",
+          "dec": "-27.77525",
+          "mjd_obs": "61361.33442215",
+          "date_obs": "2026-11-17T08:01:34.0733",
+          "release_date": "2027-11-17T08:16:51Z",
+          "s_region": "POSITION J2000 53.121826999999996 -27.77525",
+          "exposure": "600.0",
+          "filter_path": "K_NEW",
+          "telescope": "ESO-VLT-U4",
+          "prog_id": "117.29QQ.002"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T00:33:28.070",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72611194",
+          "dec": "-28.71966",
+          "mjd_obs": "61366.02324155",
+          "date_obs": "2026-11-22T00:33:28.0697",
+          "release_date": "2027-11-22T00:46:05Z",
+          "s_region": "POSITION J2000 52.726112 -28.71966",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T00:38:41.492",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72215388",
+          "dec": "-28.71827",
+          "mjd_obs": "61366.02686912",
+          "date_obs": "2026-11-22T00:38:41.4924",
+          "release_date": "2027-11-22T00:50:51Z",
+          "s_region": "POSITION J2000 52.722154 -28.71827",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T00:44:06.276",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72617611",
+          "dec": "-28.71961",
+          "mjd_obs": "61366.03062819",
+          "date_obs": "2026-11-22T00:44:06.2759",
+          "release_date": "2027-11-22T00:56:06Z",
+          "s_region": "POSITION J2000 52.726175999999995 -28.71961",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T00:49:19.688",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72604888",
+          "dec": "-28.71961",
+          "mjd_obs": "61366.03425565",
+          "date_obs": "2026-11-22T00:49:19.6884",
+          "release_date": "2027-11-22T01:00:55Z",
+          "s_region": "POSITION J2000 52.726049 -28.71961",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T00:54:33.851",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72223111",
+          "dec": "-28.71823",
+          "mjd_obs": "61366.03789179",
+          "date_obs": "2026-11-22T00:54:33.8504",
+          "release_date": "2027-11-22T01:05:54Z",
+          "s_region": "POSITION J2000 52.722230999999994 -28.71823",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T00:59:47.307",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72604888",
+          "dec": "-28.71972",
+          "mjd_obs": "61366.04151976",
+          "date_obs": "2026-11-22T00:59:47.3069",
+          "release_date": "2027-11-22T01:11:01Z",
+          "s_region": "POSITION J2000 52.726049 -28.71972",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T01:04:58.869",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72617611",
+          "dec": "-28.71972",
+          "mjd_obs": "61366.0451258",
+          "date_obs": "2026-11-22T01:04:58.8690",
+          "release_date": "2027-11-22T01:16:05Z",
+          "s_region": "POSITION J2000 52.726175999999995 -28.71972",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T01:10:11.864",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72210888",
+          "dec": "-28.7182",
+          "mjd_obs": "61366.04874843",
+          "date_obs": "2026-11-22T01:10:11.8645",
+          "release_date": "2027-11-22T01:21:02Z",
+          "s_region": "POSITION J2000 52.722109 -28.7182",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T01:15:26.775",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72611305",
+          "dec": "-28.71972",
+          "mjd_obs": "61366.05239323",
+          "date_obs": "2026-11-22T01:15:26.7754",
+          "release_date": "2027-11-22T01:25:54Z",
+          "s_region": "POSITION J2000 52.726113 -28.71972",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T02:39:01.449",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72612805",
+          "dec": "-28.71967",
+          "mjd_obs": "61366.11043344",
+          "date_obs": "2026-11-22T02:39:01.4494",
+          "release_date": "2027-11-22T02:51:05Z",
+          "s_region": "POSITION J2000 52.726128 -28.71967",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T02:44:16.766",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72217",
+          "dec": "-28.71828",
+          "mjd_obs": "61366.11408294",
+          "date_obs": "2026-11-22T02:44:16.7656",
+          "release_date": "2027-11-22T02:56:11Z",
+          "s_region": "POSITION J2000 52.722170000000006 -28.71828",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T02:49:41.438",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72619111",
+          "dec": "-28.71962",
+          "mjd_obs": "61366.11784072",
+          "date_obs": "2026-11-22T02:49:41.4378",
+          "release_date": "2027-11-22T03:01:03Z",
+          "s_region": "POSITION J2000 52.726191 -28.71962",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T02:55:06.200",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72606388",
+          "dec": "-28.71962",
+          "mjd_obs": "61366.12159954",
+          "date_obs": "2026-11-22T02:55:06.2006",
+          "release_date": "2027-11-22T03:06:13Z",
+          "s_region": "POSITION J2000 52.726063999999994 -28.71962",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T03:00:21.488",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72224694",
+          "dec": "-28.71825",
+          "mjd_obs": "61366.1252487",
+          "date_obs": "2026-11-22T03:00:21.4879",
+          "release_date": "2027-11-22T03:10:51Z",
+          "s_region": "POSITION J2000 52.722246999999996 -28.71825",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T03:05:46.528",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.726065",
+          "dec": "-28.71973",
+          "mjd_obs": "61366.12901074",
+          "date_obs": "2026-11-22T03:05:46.5279",
+          "release_date": "2027-11-22T03:16:07Z",
+          "s_region": "POSITION J2000 52.726065000000006 -28.71973",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T03:11:10.396",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72619111",
+          "dec": "-28.71973",
+          "mjd_obs": "61366.13275921",
+          "date_obs": "2026-11-22T03:11:10.3961",
+          "release_date": "2027-11-22T03:20:57Z",
+          "s_region": "POSITION J2000 52.726191 -28.71973",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T03:16:26.584",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.722125",
+          "dec": "-28.71822",
+          "mjd_obs": "61366.1364188",
+          "date_obs": "2026-11-22T03:16:26.5844",
+          "release_date": "2027-11-22T03:25:59Z",
+          "s_region": "POSITION J2000 52.722125000000005 -28.71822",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        },
+        {
+          "dp_id": "KMOS.2026-11-22T03:21:51.346",
+          "instrument": "KMOS",
+          "dp_tech": "IFU",
+          "dp_type": "OBJECT,SKY",
+          "ra": "52.72612805",
+          "dec": "-28.71973",
+          "mjd_obs": "61366.14017761",
+          "date_obs": "2026-11-22T03:21:51.3458",
+          "release_date": "2027-11-22T03:31:04Z",
+          "s_region": "POSITION J2000 52.726128 -28.71973",
+          "exposure": "300.0",
+          "filter_path": "H,H,H",
+          "telescope": "ESO-VLT-U1",
+          "prog_id": "117.2A6N.001"
+        }
+      ]
+    },
+    "raw_regions_intersecting_target": {
+      "receipt": {
+        "path": "data/raw/metadata/module_b_001_lco_eso_inventory_eso_raw_intersects.csv",
+        "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&MAXREC=2500&QUERY=SELECT+dp_id%2Cinstrument%2Cdp_tech%2Cdp_type%2Cra%2Cdec%2Cmjd_obs%2Cdate_obs%2Crelease_date%2Cs_region%2Cexposure%2Cfilter_path%2Ctelescope%2Cprog_id+FROM+dbo.raw+WHERE+mjd_obs+%3E%3D+61314.0+AND+mjd_obs+%3C+61371.0+AND+dp_cat%3D%27SCIENCE%27+AND+1%3DINTERSECTS%28s_region%2CPOINT%28%27ICRS%27%2C53.188669832987%2C-27.812539402768%29%29+ORDER+BY+mjd_obs%2Cdp_id",
+        "sha256": "f6f54daaf495d041b739f2cf02b4034e523113082bed263449ad24b4c5950ed5"
+      },
+      "returned_rows": 0,
+      "rows": []
+    },
+    "reduced_regions_intersecting_target": {
+      "receipt": {
+        "path": "data/raw/metadata/module_b_001_lco_eso_inventory_eso_phase3_intersects.csv",
+        "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&MAXREC=2500&QUERY=SELECT+dp_id%2Cs_ra%2Cs_dec%2Cinstrument_name%2Cdataproduct_type%2Cobs_collection%2Ct_min%2Ct_max%2Cs_region+FROM+ivoa.ObsCore+WHERE+t_min+%3C+61371.0+AND+t_max+%3E%3D+61314.0+AND+1%3DINTERSECTS%28s_region%2CPOINT%28%27ICRS%27%2C53.188669832987%2C-27.812539402768%29%29+ORDER+BY+t_min%2Cdp_id",
+        "sha256": "270dd774204b84847e03199f94f322a9578df9cd6f2e85542125c3fa73644fc2"
+      },
+      "returned_rows": 0,
+      "rows": []
+    },
+    "center_rectangle_icrs_deg": [
+      51.988669832986574,
+      54.38866983298658,
+      -28.862539402767553,
+      -26.76253940276755
+    ],
+    "scope": "The rectangle uses ESO raw pointing centers and does not prove target coverage. Published raw regions can consist only of a pointing center; the separate target-intersection results are for the geometry actually stored in the archive."
+  },
+  "raw_cache_budget_bytes": 34340864000,
+  "scope": "LCO query selects publicly returned final reduced EXPOSE frames whose archived geometry covers the target. The exposure list alone supplies no photometric limit. Only stable frame URLs and published checksums are exposed in the results."
+}

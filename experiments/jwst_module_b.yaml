@@ -60,6 +60,9 @@ commands:
   - python scripts/check_jades_103607_lsxps_hard_stack.py
   - python scripts/download_jades_103607_tess_history.py
   - python scripts/measure_jades_103607_tess_history.py
+  - python scripts/download_jades_103607_lco_eso.py
+  - python scripts/measure_jades_103607_lco.py
+  - python scripts/audit_jades_103607_kmos_2026.py
   - python scripts/plot_jades_103607_cross_survey_timeline.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
@@ -98,6 +101,7 @@ limitations:
   - The assessed Swift snapshot predates the Euclid visit by more than two days. Its XRT count-rate bounds omit PSF and energy-response corrections, and UVOT contributes image coverage.
   - Historical Swift counts use a fixed aperture that includes a nearby catalogued Chandra AGN. LSXPS stacked datasets overlap in time and can reuse observations included in the aperture scan.
   - TESS gives limits on excursions from a sector reference, conditional on sampled hours and days and a matched optical point-source profile. The archive cutouts end before both JWST visits. The TESS-point footprint predictions are separate from measured pixels.
+  - Las Cumbres r-prime fixed-aperture fluxes use a stellar calibration against PS1 r, evaluated at a fixed color. Some archive geometry hits are shallow focus frames. The ESO KMOS audit tests nominal IFU geometry rather than calibrated spectra.
   - Chandra event counts use fixed windows and a local background. Count bounds omit effective area and point-spread corrections.
   - Spitzer matching uses a local linear image model and fixed artificial point sources to test sensitivity.
   - RapidXMM limits use wide apertures at nearby sky cells and can include unrelated emission.
@@ -164,5 +168,8 @@ outputs:
   - results/jwst_cross_detector/module_b_001_lsxps_hard_stack.json
   - results/jwst_cross_detector/module_b_001_tess_inventory.json
   - results/jwst_cross_detector/module_b_001_tess_history.json
+  - results/jwst_cross_detector/module_b_001_lco_eso_inventory.json
+  - results/jwst_cross_detector/module_b_001_lco_r_history.json
+  - results/jwst_cross_detector/module_b_001_kmos_2026.json
   - results/jwst_cross_detector/module_b_001_cross_survey_timeline.json
   - figures/jwst_cross_detector/module_b_*

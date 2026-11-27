@@ -5,6 +5,7 @@ import json
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -83,10 +84,15 @@ class DownloadCache:
         json_payload=None,
         form_payload=None,
         response=None,
+        signed_download_url=None,
     ):
-        """Store one response, using an optional already-open GET for the same URL."""
+        """Store one response. Use the stable archive URL as the cache key for a signed GET."""
         if json_payload is not None and form_payload is not None:
             raise ValueError("Specify only one POST request body")
+        if signed_download_url is not None and (
+            response is not None or json_payload is not None or form_payload is not None or not checksum
+        ):
+            raise ValueError("A signed URL requires a direct GET and a published checksum")
         path = (self.raw / filename).resolve()
         if not path.is_relative_to(self.raw) or path == self.raw:
             raise ValueError("Download path must remain inside data/raw")
@@ -115,7 +121,7 @@ class DownloadCache:
             elif form_payload is not None:
                 response = self.session.post(url, data=form_payload, stream=True, timeout=(20, 90))
             else:
-                response = self.session.get(url, stream=True, timeout=(20, 90))
+                response = self.session.get(signed_download_url or url, stream=True, timeout=(20, 90))
         else:
             original = response.history[0].request if response.history else response.request
             expected_url = requests.Request("GET", url).prepare().url
@@ -141,9 +147,13 @@ class DownloadCache:
                     algorithm, expected = checksum.split(":", 1)
                     if digest(part, algorithm) != expected:
                         raise ValueError("Published checksum mismatch")
+                final_url = response.url
+                if signed_download_url is not None:
+                    parts = urlsplit(final_url)
+                    final_url = urlunsplit((parts.scheme, parts.hostname, parts.path, "", ""))
                 record = dict(
                     url=url,
-                    final_url=response.url,
+                    final_url=final_url,
                     path=path.relative_to(self.root).as_posix(),
                     bytes=total,
                     sha256=digest(part),

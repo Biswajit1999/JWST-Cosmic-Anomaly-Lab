@@ -33,6 +33,7 @@ KEYS = (
     "swift_coverage",
     "swift_xrt_history",
     "tess_history",
+    "lco_r_history",
 )
 
 
@@ -100,6 +101,10 @@ def collect(data, hashes):
             day for sector in data["tess_history"]["sectors"] for day in sector["valid_midpoint_dates_utc"]
             if day < "2026-10-01"
         ),
+        "Las Cumbres r′ measured": day_list(
+            row["first_utc"] for row in data["lco_r_history"]["epochs"]
+            if row["first_utc"] < "2026-10-01"
+        ),
         "MeerKAT MIGHTEE coadd": radio,
         "Euclid DR1 H band": day_list(
             r["start_date_utc"]
@@ -122,6 +127,10 @@ def collect(data, hashes):
             day for sector in data["tess_history"]["sectors"] for day in sector["valid_midpoint_dates_utc"]
             if "2026-10-01" <= day < "2026-11-27"
         ),
+        "Las Cumbres r′ measured": day_list(
+            row["first_utc"] for row in data["lco_r_history"]["epochs"]
+            if "2026-10-01" <= row["first_utc"] < "2026-11-27"
+        ),
         "DECam covers target · unreleased": data["decam_2026_coverage"][
             "containing_observation_dates_utc"
         ],
@@ -138,7 +147,7 @@ def collect(data, hashes):
 
 
 def write_timeline(history, recent):
-    fig = Figure(figsize=(10.8, 7.1), layout="constrained")
+    fig = Figure(figsize=(10.8, 7.6), layout="constrained")
     axes = fig.subplots(2, 1, gridspec_kw={"height_ratios": (1.65, 1)})
     for y, (name, values) in enumerate(history.items()):
         times = [
@@ -156,7 +165,10 @@ def write_timeline(history, recent):
     axes[0].xaxis.set_major_locator(YearLocator(4))
     axes[0].xaxis.set_major_formatter(DateFormatter("%Y"))
     axes[0].invert_yaxis()
-    style = (("o", "#17687c"), ("|", "#317344"), ("D", "#9f522c"), ("^", "#6d597c"), ("x", "#585858"))
+    style = (
+        ("o", "#17687c"), ("|", "#317344"), ("s", "#365990"),
+        ("D", "#9f522c"), ("^", "#6d597c"), ("x", "#585858"),
+    )
     for y, ((_, values), (mark, color)) in enumerate(zip(recent.items(), style, strict=True)):
         axes[1].scatter(
             [datetime.fromisoformat(v) for v in values],
@@ -197,7 +209,8 @@ def main():
             "the contributing observations in a single published coadd. Marks do not imply "
             "continuous exposure, equal depth or common flux limits. The DES dates are from usable "
             "FITS exposure headers on measured nights. ZTF dates are public footprint metadata. "
-            "TESS dates contain usable optical cadences. The 2026 lower panel includes "
+            "TESS dates contain usable optical cadences. Las Cumbres dates come from "
+            "calibrated r-prime flux measurements. The 2026 lower panel includes "
             "public metadata for unreleased DECam images, nearby Rubin alerts, and HST products "
             "whose footprints miss the position.",
         ),

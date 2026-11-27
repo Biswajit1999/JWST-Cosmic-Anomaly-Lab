@@ -131,6 +131,27 @@ def test_download_path_traversal_refused(tmp_path):
         cache.fetch("https://example.org/x", "../../escape", survey="t", version="1", kind="test")
 
 
+def test_presigned_asset_uses_stable_identifier_and_scrubs_url(tmp_path):
+    cache = DownloadCache(tmp_path, budget_bytes=10)
+    stable = "https://example.org/archive/42"
+    signed = "https://files.example.org/exposure.fits?signature=test"
+    fetched = response(b"fits")
+    fetched.url = signed
+    cache.session.get = Mock(return_value=fetched)
+    metadata = dict(survey="test", version="42", kind="synthetic_test")
+    checksum = "md5:" + hashlib.md5(b"fits").hexdigest()
+    path = cache.fetch(stable, "asset", checksum=checksum, signed_download_url=signed, **metadata)
+    cache.session.get.assert_called_once_with(signed, stream=True, timeout=(20, 90))
+    assert path.read_bytes() == b"fits"
+    assert cache.records[0]["url"] == stable
+    assert cache.records[0]["final_url"] == "https://files.example.org/exposure.fits"
+    assert "signature" not in cache.manifest.read_text()
+    assert cache.fetch(stable, "asset", checksum=checksum, **metadata) == path
+    assert cache.session.get.call_count == 1
+    with pytest.raises(ValueError, match="published checksum"):
+        cache.fetch(stable, "unchecked", signed_download_url=signed, **metadata)
+
+
 def test_registry_multiple_observations_and_idempotency(tmp_path):
     r = Registry(tmp_path / "r.sqlite")
     sid = r.add_source("survey", "1", 359.9, 10, redshift=None)
