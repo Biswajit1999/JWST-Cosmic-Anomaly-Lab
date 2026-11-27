@@ -1,0 +1,101 @@
+{
+  "executed_utc": "2026-11-27T01:12:20.577244+00:00",
+  "script_sha256": "5993e53f8a6d7eb1ccb5d776d9668501c68a243ef2f0952d6373bc67b2364bf1",
+  "input_result_sha256": "2fdc1457c54a13817b87db2e398e7275ddbe8ebe66e5576817b739b80ecee319",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "instruments": [
+    "Swift XRT",
+    "Chandra catalogue"
+  ],
+  "obsid": "10000022643",
+  "energy_kev": [
+    2,
+    10
+  ],
+  "stack_time_span_utc": [
+    "2007-07-07T16:53:08.230",
+    "2020-11-25T04:23:08.230"
+  ],
+  "locator_request": {
+    "APIFunc": "getSXPSDatasetImages",
+    "APIVersion": "1.0.5",
+    "whichCat": "LSXPS",
+    "ObsID": "10000022643",
+    "bands": [
+      "hard"
+    ],
+    "types": "all",
+    "getRegions": true
+  },
+  "receipts": {
+    "locator": {
+      "path": "data/raw/metadata/module_b_001_lsxps_hard_stack_10000022643_products.json",
+      "url": "https://www.swift.ac.uk/API/main.php",
+      "sha256": "0002adeef05901c8c0520fa0136dd00c5e9a755cf84713a8135f2327a01860f9"
+    },
+    "counts": {
+      "path": "data/raw/cross_detector/lsxps/10000022643_band3.img.gz",
+      "url": "https://www.swift.ac.uk/LSXPS/obs/10000022643/DS215708/10000022643_band3.img.gz",
+      "sha256": "0f6194f2b9400b4f58cbf4d7e6bab50cbff65098e960a2729f6cebc7e2052f27"
+    },
+    "background": {
+      "path": "data/raw/cross_detector/lsxps/10000022643_band3_final_BGmap.img.gz",
+      "url": "https://www.swift.ac.uk/LSXPS/obs/10000022643/DS215708/10000022643_band3_final_BGmap.img.gz",
+      "sha256": "aba449a668668db9cf2fac91109cfca145b051243b4bc8ec052463000ebe60f3"
+    },
+    "background_with_catalogue_sources": {
+      "path": "data/raw/cross_detector/lsxps/10000022643_band3_final_BGmap_w_source.img.gz",
+      "url": "https://www.swift.ac.uk/LSXPS/obs/10000022643/DS215708/10000022643_band3_final_BGmap_w_source.img.gz",
+      "sha256": "cca9867ba020e7bc028bd2303a744dae88e17bc606f8499ed51bf5bcfdea179e"
+    }
+  },
+  "aperture_radius_pixels": 12,
+  "aperture_radius_arcsec": 28.287744479999994,
+  "fixed_aperture": {
+    "count_pixels": 454,
+    "observed_counts": 69,
+    "background_with_catalogue_sources_counts": 47.43972162902355,
+    "background_without_catalogue_sources_counts": 46.340111032128334,
+    "signed_excess_counts": 21.560278370976448,
+    "poisson_tail_at_fixed_map_background": 0.0019386527658804594
+  },
+  "paired_aperture_radius_arcsec": 6.0,
+  "local_apertures": {
+    "jwst_position": {
+      "count_pixels": 19,
+      "observed_counts": 3,
+      "background_with_catalogue_sources_counts": 1.9905245080590248,
+      "background_without_catalogue_sources_counts": 1.9491932690143585,
+      "signed_excess_counts": 1.0094754919409752,
+      "poisson_tail_at_fixed_map_background": 0.3207588662806809
+    },
+    "chandra_neighbor_1": {
+      "count_pixels": 20,
+      "observed_counts": 5,
+      "background_with_catalogue_sources_counts": 2.08847526460886,
+      "background_without_catalogue_sources_counts": 2.0377967953681946,
+      "signed_excess_counts": 2.91152473539114,
+      "poisson_tail_at_fixed_map_background": 0.06098846822362214
+    },
+    "chandra_neighbor_2": {
+      "count_pixels": 21,
+      "observed_counts": 4,
+      "background_with_catalogue_sources_counts": 2.2198977917432785,
+      "background_without_catalogue_sources_counts": 2.152899742126465,
+      "signed_excess_counts": 1.7801022082567215,
+      "poisson_tail_at_fixed_map_background": 0.18457428286327507
+    },
+    "chandra_neighbor_3": {
+      "count_pixels": 21,
+      "observed_counts": 1,
+      "background_with_catalogue_sources_counts": 2.1883591189980507,
+      "background_without_catalogue_sources_counts": 2.14397319406271,
+      "signed_excess_counts": -1.1883591189980507,
+      "poisson_tail_at_fixed_map_background": 0.887899458566233
+    }
+  },
+  "scope": "Direct reproduction of the pipeline aperture from its archived count and background maps. The conditional-on-model-background Poisson tail omits background-model uncertainty and survey trials. The small apertures sample blended flux in the Swift PSF. The coadd cannot date an excess."
+}

@@ -31,6 +31,7 @@ KEYS = (
     "des_z_history",
     "ztf_coverage",
     "swift_coverage",
+    "swift_xrt_history",
 )
 
 
@@ -81,9 +82,11 @@ def collect(data, hashes):
             for r in data["vista_video_coverage"]["h_band_pilot"]
             if r["status"] == "measured"
         ),
-        "Swift XRT and UVOT": day_list(
-            data["swift_coverage"][instrument]["date_obs_utc"] for instrument in ("xrt", "uvot")
+        "Swift XRT measured": day_list(
+            row["xrt"]["date_obs_utc"]
+            for row in data["swift_xrt_history"]["native_observations"] if row["status"] == "measured"
         ),
+        "Swift UVOT snapshot": day_list([data["swift_coverage"]["uvot"]["date_obs_utc"]]),
         "Blanco/DES z band": day_list(
             product["date_obs_utc"]
             for night in data["des_z_history"]["nightly_results"]

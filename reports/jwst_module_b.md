@@ -912,13 +912,76 @@ the aperture-mean exposure and has no PSF or spectral conversion.
 The UVOT UVW2 image from the same visit has 152.3 s of exposure at
 the exact position. The XRT integration started 60.8 hours before
 the first usable Euclid H exposure. It constrains activity at
-that earlier time. The other Swift pointing records and the
-UVW2 image do not yet have local photometric limits.
+that earlier time. The UVW2 image contributes coverage with
+unmeasured photometric sensitivity.
 [Swift observing log](https://heasarc.gsfc.nasa.gov/W3Browse/swift/swiftmastr.html) ·
 [Swift XRT exposure-map calibration](https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/help/xrtexpomap.html) ·
 [Pointing records, counts and exposure maps](../results/jwst_cross_detector/module_b_001_swift_coverage.json).
 
 ![Swift XRT events and an observed UVW2 image at the target position](../figures/jwst_cross_detector/module_b_001_swift_coverage.png)
+
+**Swift XRT, July 2007 to February 2026.** We inspected the public
+photon-counting products for all 153 Swift master-log entries with
+nominal XRT exposure in the half-degree cone. We matched the
+cleaned event file to the exposure map by spacecraft time bounds
+and usable on-time. This separates the archived photon-counting
+window variants when both exist for an observation. Two maps
+were unavailable, 13 positions fell outside the map arrays, 23
+apertures had zero target exposure and five were only partly
+exposed. The remaining 110 visits provide 565.7 ks of summed
+20-arcsec aperture exposure, of which 513.1 ks dates to 2007.
+
+In 0.3–10 keV the aperture contains 79 counts against 68.1
+expected from exposure-scaled background annuli. The conditional
+on/off probability of that many counts or more is 0.128. The
+conservative 95% bound on the gross aperture rate is
+1.68 × 10⁻⁴ counts s⁻¹. The strongest individual residual is
+three counts in 1–2 keV on 16 December 2007. Its local
+probability is 0.035, and it does not survive correction over
+the 660 visit and band tests. The 20-arcsec aperture includes
+a catalogued Chandra AGN 13.05 arcsec away. Two disjoint
+6-arcsec apertures at the JWST and AGN positions contain 10 and
+7 counts in the combined Swift images. They receive nearly
+equal exposure and sample overlapping point-spread functions.
+[Swift XRT calibration and angular resolution](https://swift.gsfc.nasa.gov/about_swift/xrt_desc.html) ·
+[Luo et al. 7 Ms Chandra catalog](https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/228/2) ·
+[Public product inventory](../results/jwst_cross_detector/module_b_001_swift_xrt_products.json) ·
+[Native event measurements and limits](../results/jwst_cross_detector/module_b_001_swift_xrt_history.json).
+
+![Swift count-rate bounds by observation and observed XRT events at the JWST position with Chandra source markers](../figures/jwst_cross_detector/module_b_001_swift_xrt_history.png)
+
+The Living Swift XRT Point Source Catalogue service supplies
+forced measurements for 114 individual visits and three
+overlapping stacks. Its deepest stack has 523.5 ks of exposure at
+the position and a 3-sigma 0.3–10 keV limit of
+7.57 × 10⁻⁵ counts s⁻¹ after the service's point-spread and
+exposure corrections. One stack spanning July 2007 to November
+2020 is flagged in 2–10 keV. The service gives a rate of
+4.93 × 10⁻⁵ counts s⁻¹ with lower and upper errors of
+1.82 × 10⁻⁵ and 1.98 × 10⁻⁵ counts s⁻¹. The other two
+overlapping stacks and all individual visits lack a hard-band
+flag. The native 2–10 keV comparison gives 37 counts against
+33.4 expected. The analyses use different apertures and background
+methods and reuse Swift observations.
+
+The archived hard-band image and model background reproduce the
+flagged stack's 69 counts and 47.44 expected within the service's
+28.3-arcsec aperture. The one-sided Poisson tail is 0.00194 with
+the background model held fixed. It omits background-model
+uncertainty and the search trials. Within 6 arcsec of the JWST
+position there are three counts against 1.99 expected. The same
+aperture at the nearest Chandra AGN has five against 2.09 expected.
+Two catalogued Chandra sources lie inside the large aperture and
+a third lies near its edge. The Swift image leaves the origin and
+timing of the hard-band excess unresolved. The long stack precedes
+the Euclid and JWST events.
+This work made use of data supplied by the UK Swift Science Data
+Centre at the University of Leicester.
+[Evans et al. LSXPS analysis](https://www.swift.ac.uk/LSXPS/paper.php) ·
+[Upper-limit service method](https://www.swift.ac.uk/LSXPS/uldocs.php) ·
+[Hard-band image measurements and archive checksums](../results/jwst_cross_detector/module_b_001_lsxps_hard_stack.json).
+
+![Observed hard-band Swift counts and the image after subtracting the archive background model](../figures/jwst_cross_detector/module_b_001_lsxps_hard_stack.png)
 
 **Chandra 7 Ms Deep Field South, 1999 to 2016.** At the transient
 position, a 1.5-arcsec radius gives 13 counts in 0.5–2 keV and 30
@@ -1114,8 +1177,8 @@ coverage from images pending release remain unmeasured.
 
 The timeline summarizes the dates behind the historical comparison
 and the search for independent evidence during the 2026 event.
-The DES z-band measurements, Swift snapshot, Euclid H-band visits
-and ZTF public image dates extend the earlier baseline.
+The DES z-band measurements, Swift XRT visits, Swift UVOT snapshot,
+Euclid H-band visits and ZTF public image dates extend the earlier baseline.
 The October–November 2026 records keep unreleased DECam footprints,
 nearby Rubin alerts and off-target HST footprints distinct from the
 two measured JWST visits.

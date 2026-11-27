@@ -3,6 +3,7 @@ import json
 from unittest.mock import Mock
 
 import pytest
+import requests
 
 from cosmic_anomaly_lab.literature import deduplicate
 from cosmic_anomaly_lab.provenance import DownloadCache, digest, text_digest
@@ -83,6 +84,27 @@ def test_failed_checksum_leaves_no_committed_file(tmp_path):
             checksum="sha256:wrong",
         )
     assert not (cache.raw / "x").exists() and not (cache.raw / "x.part").exists()
+
+
+def test_prepared_get_uses_the_same_budget_and_provenance(tmp_path):
+    cache = DownloadCache(tmp_path, budget_bytes=4)
+    cache.session.get = Mock(side_effect=AssertionError("Should reuse the prepared GET"))
+    url = "https://example.org/catalogue"
+    fetched = response(b"abc")
+    fetched.history = []
+    fetched.request = requests.Request("GET", url).prepare()
+    metadata = dict(survey="test", version="1", kind="synthetic_test")
+    path = cache.fetch(url, "file", response=fetched, **metadata)
+    assert path.read_bytes() == b"abc"
+    assert cache.records[0]["sha256"] == digest(path)
+    with pytest.raises(ValueError, match="does not match"):
+        cache.fetch("https://example.org/other", "wrong", response=fetched, **metadata)
+    too_large = response(b"123")
+    too_large.history = []
+    too_large.request = fetched.request
+    with pytest.raises(ValueError, match="budget"):
+        cache.fetch(url, "larger", response=too_large, **metadata)
+    assert not (cache.raw / "larger").exists()
 
 
 def test_download_path_traversal_refused(tmp_path):

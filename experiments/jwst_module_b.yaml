@@ -55,6 +55,9 @@ commands:
   - python scripts/measure_jades_103607_des_z.py --one-night-per-month --max-exposures-per-night 3
   - python scripts/check_jades_103607_ztf.py
   - python scripts/check_jades_103607_swift.py
+  - python scripts/download_jades_103607_swift_history.py
+  - python scripts/measure_jades_103607_swift_xrt_history.py
+  - python scripts/check_jades_103607_lsxps_hard_stack.py
   - python scripts/plot_jades_103607_cross_survey_timeline.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
@@ -91,6 +94,7 @@ limitations:
   - DES z-band pixel measurements use one night per available calendar month and up to three exposures per night. Seeing is approximately matched with Gaussian kernels. Injection trials use residual coadds and do not account for signals confined to individual exposures.
   - ZTF image footprint and alert records constrain the public archive state and provide no local photometry.
   - The assessed Swift snapshot predates the Euclid visit by more than two days. Its XRT count-rate bounds omit PSF and energy-response corrections, and UVOT contributes image coverage.
+  - Historical Swift counts use a fixed aperture that includes a nearby catalogued Chandra AGN. LSXPS stacked datasets overlap in time and can reuse observations included in the aperture scan.
   - Chandra event counts use fixed windows and a local background. Count bounds omit effective area and point-spread corrections.
   - Spitzer matching uses a local linear image model and fixed artificial point sources to test sensitivity.
   - RapidXMM limits use wide apertures at nearby sky cells and can include unrelated emission.
@@ -152,5 +156,8 @@ outputs:
   - results/jwst_cross_detector/module_b_001_des_z_history.json
   - results/jwst_cross_detector/module_b_001_ztf_coverage.json
   - results/jwst_cross_detector/module_b_001_swift_coverage.json
+  - results/jwst_cross_detector/module_b_001_swift_xrt_products.json
+  - results/jwst_cross_detector/module_b_001_swift_xrt_history.json
+  - results/jwst_cross_detector/module_b_001_lsxps_hard_stack.json
   - results/jwst_cross_detector/module_b_001_cross_survey_timeline.json
   - figures/jwst_cross_detector/module_b_*

@@ -81,7 +81,9 @@ class DownloadCache:
         checksum=None,
         refresh=False,
         json_payload=None,
+        response=None,
     ):
+        """Store one response, using an optional already-open GET for the same URL."""
         path = (self.raw / filename).resolve()
         if not path.is_relative_to(self.raw) or path == self.raw:
             raise ValueError("Download path must remain inside data/raw")
@@ -103,11 +105,17 @@ class DownloadCache:
         part.unlink(missing_ok=True)
         used = sum(p.stat().st_size for p in self.raw.rglob("*") if p.is_file())
         available = self.budget - used
-        response = (
-            self.session.get(url, stream=True, timeout=(20, 90))
-            if json_payload is None
-            else self.session.post(url, json=json_payload, stream=True, timeout=(20, 90))
-        )
+        if response is None:
+            response = (
+                self.session.get(url, stream=True, timeout=(20, 90))
+                if json_payload is None
+                else self.session.post(url, json=json_payload, stream=True, timeout=(20, 90))
+            )
+        else:
+            original = response.history[0].request if response.history else response.request
+            expected_url = requests.Request("GET", url).prepare().url
+            if json_payload is not None or original.method != "GET" or original.url != expected_url:
+                raise ValueError("Prepared response does not match the cache GET")
         with response:
             response.raise_for_status()
             length = int(response.headers.get("Content-Length", "0"))

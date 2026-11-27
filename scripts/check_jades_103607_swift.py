@@ -29,6 +29,7 @@ CONE = 0.5
 NARROW_CENTER_ARCMIN = 8.5
 XRT_SOURCE_ARCSEC = 20
 XRT_BACKGROUND_ARCSEC = (32, 60)
+XRT_BANDS = ((0.3, 10), (0.5, 2), (2, 7))
 
 
 def swift_log(cache, point, tag, window=None):
@@ -60,14 +61,19 @@ def swift_log(cache, point, tag, window=None):
     return rows, receipt(path, url)
 
 
-def product(cache, observation, subdir, suffix):
+def product_location(observation, subdir, suffix):
     obs_id = observation["obsid"]
     month = observation["start_utc"][:7].replace("-", "_")
     name = f"sw{obs_id}{suffix}"
     url = f"{SWIFT}/{month}/{obs_id}/{subdir}/{name}"
+    return url, f"cross_detector/swift_coverage/{name}"
+
+
+def product(cache, observation, subdir, suffix, response=None):
+    url, relative = product_location(observation, subdir, suffix)
     path = cache.fetch(
-        url, f"cross_detector/swift_coverage/{name}", survey="NASA HEASARC Swift",
-        version="Public pipeline FITS products", kind="observed_swift_fits",
+        url, relative, survey="NASA HEASARC Swift", version="Public pipeline FITS products",
+        kind="observed_swift_fits", response=response,
     )
     return path, receipt(path, url)
 
@@ -81,8 +87,18 @@ def position_on_image(hdu, point):
     return x, y, scale
 
 
-def measure_xrt(cache, observation, point):
-    events, event_receipt = product(cache, observation, "xrt/event", "xpcw3po_cl.evt.gz")
+def matching_xrt_timing(event_header, exposure_header):
+    keys = ("TSTART", "TSTOP", "ONTIME")
+    if not all(key in event_header and key in exposure_header for key in keys):
+        return False
+    delta = [abs(event_header[key] - exposure_header[key]) for key in keys]
+    # Legacy products can differ by at most one 2.5-s PC frame in usable on-time.
+    tolerance = min(2.51, max(0.05, 0.001 * event_header["ONTIME"]))
+    return max(delta[:2]) <= 0.05 and delta[2] <= tolerance
+
+
+def measure_xrt(cache, observation, point, event_suffix="xpcw3po_cl.evt.gz", bands=XRT_BANDS):
+    events, event_receipt = product(cache, observation, "xrt/event", event_suffix)
     expmap, exposure_receipt = product(cache, observation, "xrt/products", "xpc_ex.img.gz")
     with fits.open(events) as event_hdus, fits.open(expmap) as exposure_hdus:
         event = event_hdus["EVENTS"]
@@ -92,6 +108,8 @@ def measure_xrt(cache, observation, point):
             observation["obsid"], "PHOTON", observation["obsid"], "s"
         ):
             raise ValueError("Unexpected Swift XRT event or exposure map")
+        if not matching_xrt_timing(eh, exposure.header):
+            raise ValueError("Swift XRT event timing does not match exposure map")
         pairs = (("CRPIX", "TCRPX"), ("CRVAL", "TCRVL"), ("CDELT", "TCDLT"))
         for map_key, event_key in pairs:
             if not np.allclose(
@@ -115,7 +133,7 @@ def measure_xrt(cache, observation, point):
             raise ValueError("Swift position lacks full XRT aperture and usable annulus exposure")
         factor = float(weights[core].sum() / annulus_sum)
         results = []
-        for low, high in ((0.3, 10), (0.5, 2), (2, 7)):
+        for low, high in bands:
             band = (pi >= round(low*100)) & (pi < round(high*100))
             n = int(np.count_nonzero(band & (er <= XRT_SOURCE_ARCSEC)))
             bg = int(np.count_nonzero(band & (er >= XRT_BACKGROUND_ARCSEC[0]) & (er <= XRT_BACKGROUND_ARCSEC[1])))
@@ -137,6 +155,7 @@ def measure_xrt(cache, observation, point):
             events=event_receipt, exposure_map=exposure_receipt, target_image_pixel_xy=[x, y],
             point_exposure_s=float(weights[round(y), round(x)]),
             mean_source_aperture_exposure_s=mean_core, aperture_radius_arcsec=XRT_SOURCE_ARCSEC,
+            map_minus_event_ontime_s=float(exposure.header["ONTIME"] - eh["ONTIME"]),
             annulus_arcsec=XRT_BACKGROUND_ARCSEC, background_exposure_area_scale=factor,
             date_obs_utc=eh["DATE-OBS"], date_end_utc=eh["DATE-END"], bands=results,
         )

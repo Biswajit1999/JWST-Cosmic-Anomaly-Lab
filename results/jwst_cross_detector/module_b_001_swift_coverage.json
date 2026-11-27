@@ -1,6 +1,6 @@
 {
-  "executed_utc": "2026-11-27T00:47:08.883795+00:00",
-  "script_sha256": "6f7159f1981c735fe6794094913b91879f79593dd26ded57c0c8b0248e7e2c84",
+  "executed_utc": "2026-11-27T01:09:54.093489+00:00",
+  "script_sha256": "84815b27a06f258b3e3baade2f1c379bcc7ef03b83eb11ae2b4ba9dfb2896b1f",
   "position_source_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
   "position_icrs_deg": [
     53.18866983298658,
@@ -2087,6 +2087,7 @@
     "point_exposure_s": 443.7921142578125,
     "mean_source_aperture_exposure_s": 443.7921142578125,
     "aperture_radius_arcsec": 20,
+    "map_minus_event_ontime_s": 4.730219416160253e-08,
     "annulus_arcsec": [
       32,
       60
