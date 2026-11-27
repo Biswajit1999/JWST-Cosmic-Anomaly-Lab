@@ -70,7 +70,8 @@ remains open.
 [Observed TESS field images and optical light curves](figures/jwst_cross_detector/module_b_001_tess_history.png) ·
 [Observed Las Cumbres optical images and measurements](figures/jwst_cross_detector/module_b_001_lco_r_history.png) ·
 [Observed ALMA millimeter images and measurements](figures/jwst_cross_detector/module_b_001_alma_continuum.png) ·
-[Observed VLA radio images from six archival products](figures/jwst_cross_detector/module_b_001_vla_radio_history.png).
+[Observed VLA radio images from six archival products](figures/jwst_cross_detector/module_b_001_vla_radio_history.png) ·
+[Observed ROSAT and eROSITA X-ray counts](figures/jwst_cross_detector/module_b_001_xray_surveys.png).
 
 <img src="figures/jwst_cross_detector/module_b_001_november_photometry.png" width="810" alt="Observed JWST images of the October brightening and November fade near JADES 103607, with signed aperture photometry.">
 

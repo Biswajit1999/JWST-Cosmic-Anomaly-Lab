@@ -620,6 +620,62 @@ from years or decades before the JWST event. This requires three checks.
   2026 event. Use older surveys to test recurrence and persistent
   emission, and require additional evidence to identify the source class.
 
+**ROSAT PSPC, 1991 and 1997.** Photon events in the RASS field
+RS932209N00 and three February 1997 pointings have exposure across
+the 120-arcsec aperture. The selected events have PI channels 11–240
+and standard status zero. We estimate the background with a
+180–300-arcsec annulus weighted by the merged exposure map. Two
+additional 1997 pointings were screened out because part of the source
+aperture has zero exposure. The dates in the table describe the local
+events. The RASS date uses the nominal spacecraft clock at day precision.
+
+| Sequence | Local date | Mean exposure (s) | Counts | Expected background | 99.87% upper count rate (s⁻¹) |
+| --- | --- | ---: | ---: | ---: | ---: |
+| RS932209N00 | 1991-01-25 | 40.5 | 1 | 0.27 | 0.221 |
+| RP190075N00 | 1997-02-07 | 1,768 | 30 | 29.35 | 0.0285 |
+| RP190479N00 | 1997-02-07 | 2,321 | 33 | 38.47 | 0.0234 |
+| RP190477N00 | 1997-02-17 | 1,266 | 20 | 19.00 | 0.0296 |
+
+The conditional on/off probabilities range from 0.38 to 0.81. The
+one-sided Poisson bounds assign all aperture counts to the target and
+use the mean aperture exposure. They omit point-spread and
+spectral-response corrections.
+[NASA RASS products](https://heasarc.gsfc.nasa.gov/docs/rosat/rass.html) ·
+[NASA ROSAT archive schema](https://heasarc.gsfc.nasa.gov/W3Browse/rosat/rosmaster.html) ·
+[ROSAT spacecraft clock calibration](https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/help/abc.html).
+
+**SRG/eROSITA, 2020 and the three-scan coadd.** The DR1 event tables
+embedded in the two released count images reproduce the 40-arcsec
+aperture totals exactly. Events within 3 arcmin fall on 31 January
+and 1 February 2020. The soft image contains one aperture photon
+against 1.60 background counts over 217 s of corrected exposure.
+The hard image contains zero against 0.67 over 162 s. The separate
+eRODat point-source limits use the archive's 75% encircled-energy
+apertures and an absorbed power law with photon index 2 and
+hydrogen column 3 × 10²⁰ cm⁻².
+
+| Release | 0.2–2.3 keV upper flux (erg cm⁻² s⁻¹) | 2.3–5.0 keV upper flux (erg cm⁻² s⁻¹) |
+| --- | ---: | ---: |
+| DR1, first scan | 3.80 × 10⁻¹⁴ | 4.77 × 10⁻¹³ |
+| DR2, first three scans | 2.19 × 10⁻¹⁴ | 2.85 × 10⁻¹³ |
+
+The table uses the smooth-background 99.87% upper bounds. Both
+releases' main and hard catalogues return no match within 3 arcmin.
+DR2 includes the DR1 photons and its public products give
+an aggregate limit across the three scans. The individual visits
+have no sensitivity estimate in this analysis. The Chandra source
+about 13 arcsec away lies inside both missions' apertures. These
+observations constrain historical X-ray emission at the position and
+leave short flares between sampled times and the 2026 event untested.
+[DR1 product definitions](https://erosita.mpe.mpg.de/dr1/eSASS4DR1/eSASS4DR1_ProductsDescription/products_description_dr1.html) ·
+[Tubín-Arenas et al. 2024](https://www.aanda.org/articles/aa/pdf/2024/02/aa46773-23.pdf) ·
+[Ramos-Ceja et al. 2026](https://arxiv.org/abs/2607.27772) ·
+[DR2 flux-limit definitions](https://erosita.mpe.mpg.de/dr2/AllSkySurveyData_dr2/UpperLimitServer_dr2/) ·
+[Archive receipts](../results/jwst_cross_detector/module_b_001_xray_surveys_products.json) ·
+[Aperture measurements](../results/jwst_cross_detector/module_b_001_xray_surveys.json).
+
+![Observed soft and hard eROSITA count images and ROSAT event maps, with the JWST apertures and nearest Chandra source marked](../figures/jwst_cross_detector/module_b_001_xray_surveys.png)
+
 **HST F850LP, August 2002 to February 2003.** Five public GOODS-S
 ACS epoch tiles cover the transient position. We used the corrected
 science-image WCS and the paired weight arrays on their native pixel

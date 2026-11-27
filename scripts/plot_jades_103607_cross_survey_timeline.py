@@ -36,6 +36,7 @@ KEYS = (
     "lco_r_history",
     "alma_continuum",
     "vla_radio_history",
+    "xray_surveys",
 )
 
 
@@ -69,7 +70,13 @@ def collect(data, hashes):
     # Exact input exposures are reported in the linked mosaic measurement.
     irac_windows = ("2004-08", "2005-08", "2006-02", "2011-09", "2012-03")
     radio = data["meerkat"]["contributing_date_range_utc"]
+    xray = data["xray_surveys"]
     history = {
+        "ROSAT PSPC": day_list(
+            row["nominal_scc_dates_within_300_arcsec"][0]
+            for row in xray["rosat"]["observations"]
+            if row["status"] == "measured" and row["nominal_scc_dates_within_300_arcsec"]
+        ),
         "Chandra ACIS": day_list(r["start_utc"] for r in chandra if r["status"] == "measured"),
         "XMM-Newton EPIC": day_list(
             r["start_date"] for r in data["rapidxmm"]["observations"] if r["band6_flags"] == 0
@@ -91,6 +98,10 @@ def collect(data, hashes):
             for row in data["swift_xrt_history"]["native_observations"] if row["status"] == "measured"
         ),
         "Swift UVOT snapshot": day_list([data["swift_coverage"]["uvot"]["date_obs_utc"]]),
+        "eROSITA DR1": day_list(
+            day for band in xray["erosita"]["dr1_maps"].values()
+            for day in band["timing"]["local_photon_utc_dates"]
+        ),
         "Blanco/DES z band": day_list(
             product["date_obs_utc"]
             for night in data["des_z_history"]["nightly_results"]
@@ -156,8 +167,8 @@ def collect(data, hashes):
 
 
 def write_timeline(history, recent):
-    fig = Figure(figsize=(10.8, 8.2), layout="constrained")
-    axes = fig.subplots(2, 1, gridspec_kw={"height_ratios": (1.65, 1)})
+    fig = Figure(figsize=(10.8, 8.8), layout="constrained")
+    axes = fig.subplots(2, 1, gridspec_kw={"height_ratios": (1.9, 1)})
     for y, (name, values) in enumerate(history.items()):
         times = [
             datetime.fromisoformat(value if len(value) == 10 else f"{value}-15") for value in values
@@ -168,7 +179,7 @@ def write_timeline(history, recent):
             axes[0].scatter(times, [y] * len(times), marker="|", s=100, color="#226e7f")
     axes[0].set_yticks(range(len(history)), list(history), fontsize=9)
     axes[0].set(
-        xlim=(datetime(1999, 1, 1), datetime(2026, 10, 1)),
+        xlim=(datetime(1990, 1, 1), datetime(2026, 10, 1)),
         title="Earlier observations at the position",
     )
     axes[0].xaxis.set_major_locator(YearLocator(4))
@@ -221,6 +232,8 @@ def main():
             "TESS dates contain usable optical cadences. Las Cumbres dates come from "
             "calibrated r-prime flux measurements. ALMA marks record the start dates of "
             "historical datasets that yielded continuum measurements, some spanning multiple dates. "
+            "ROSAT start days use the nominal spacecraft clock for local events in products with "
+            "usable aperture coverage. The eROSITA dates come from local DR1 photons. "
             "The VLA row uses the dated FITS headers; the 1990s NVSS mosaic has no local observing date. "
             "The 2026 lower panel includes "
             "public metadata for unreleased DECam images, nearby Rubin alerts, and HST products "

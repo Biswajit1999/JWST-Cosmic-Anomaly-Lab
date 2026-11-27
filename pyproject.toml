@@ -16,6 +16,7 @@ dependencies = ["numpy>=2", "scipy>=1.14", "pandas>=2.2", "astropy>=7", "astroqu
 dev = ["pytest>=8", "ruff>=0.11", "build>=1"]
 posters = ["reportlab>=4", "pypdf>=5"]
 exoplanets = ["h5py>=3.12,<4"]
+rosat = ["unlzw3>=0.2.3,<1"]
 
 [project.scripts]
 cosmic-lab = "cosmic_anomaly_lab.cli:main"

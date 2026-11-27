@@ -1,0 +1,302 @@
+{
+  "executed_utc": "2026-11-27T09:18:57.306820+00:00",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "script_sha256": "933604e6a4e5acc2a0507ad77fd8e61136f2b82f1305b748f27156159d313b0b",
+  "inputs_sha256": "6bbf0d3f2a9c6c1839ac53cb758f1958dc387a3392263a87bb783cb492b25b7b",
+  "chandra_prior_sha256": "ffa92975dd68fcad7b32d97cdba83127ac4c35f647877f9e9951b8bbb19b7a11",
+  "upper_confidence": 0.9987,
+  "nearest_chandra_icrs_deg": [
+    53.185801453458595,
+    -27.80994308925526
+  ],
+  "nearest_chandra_separation_arcsec": 13.068284567201662,
+  "erosita": {
+    "tile_id": "052117",
+    "archive_limits": {
+      "DR1_eRASS1_024": {
+        "band_keV": [
+          0.2,
+          2.3
+        ],
+        "aperture_counts": 0,
+        "background_counts": 0.9506092071533203,
+        "source_map_background_counts": 0.9532275199890137,
+        "exposure_s": 217.0147247314453,
+        "smooth_background_upper_erg_cm2_s": 3.7987621810111824e-14,
+        "source_map_upper_erg_cm2_s": 3.7987621810111824e-14,
+        "catalog_position_flag": 0
+      },
+      "DR2_eRASSc3_024": {
+        "band_keV": [
+          0.2,
+          2.3
+        ],
+        "aperture_counts": null,
+        "background_counts": null,
+        "source_map_background_counts": null,
+        "exposure_s": 598.2222900390625,
+        "smooth_background_upper_erg_cm2_s": 2.1876924710261154e-14,
+        "source_map_upper_erg_cm2_s": 2.1871812019391527e-14,
+        "catalog_position_flag": 0
+      },
+      "DR1_eRASS1_023": {
+        "band_keV": [
+          2.3,
+          5.0
+        ],
+        "aperture_counts": 0,
+        "background_counts": 0.7009584903717041,
+        "source_map_background_counts": 0.7012560963630676,
+        "exposure_s": 162.00735473632812,
+        "smooth_background_upper_erg_cm2_s": 4.770039072933552e-13,
+        "source_map_upper_erg_cm2_s": 4.770039072933552e-13,
+        "catalog_position_flag": 0
+      },
+      "DR2_eRASSc3_023": {
+        "band_keV": [
+          2.3,
+          5.0
+        ],
+        "aperture_counts": null,
+        "background_counts": null,
+        "source_map_background_counts": null,
+        "exposure_s": 446.8460693359375,
+        "smooth_background_upper_erg_cm2_s": 2.847493291505132e-13,
+        "source_map_upper_erg_cm2_s": 2.8474068263818764e-13,
+        "catalog_position_flag": 0
+      }
+    },
+    "cone_radius_arcmin": 3,
+    "catalogue_matches": {
+      "DR1_Main": [],
+      "DR1_Hard": [],
+      "DR2_Main": [],
+      "DR2_Hard": []
+    },
+    "dr1_maps": {
+      "024": {
+        "radius_arcsec": 40.0,
+        "counts": 1,
+        "expected_model_background_counts": 1.5979291014373302,
+        "signed_net_counts": -0.5979291014373302,
+        "mean_corrected_exposure_s": 217.00169063457722,
+        "conservative_aperture_rate_upper_ct_s": 0.04120786802151588,
+        "timing": {
+          "tile_first_last_utc": [
+            "2020-01-23T11:58:32.534",
+            "2020-02-04T13:30:43.109"
+          ],
+          "local_check_radius_arcsec": 180,
+          "local_event_count": 20,
+          "local_first_last_event_utc": [
+            "2020-01-31T05:28:38.099",
+            "2020-02-01T21:28:48.340"
+          ],
+          "local_photon_utc_dates": [
+            "2020-01-31",
+            "2020-02-01"
+          ],
+          "in_aperture_event_utc": [
+            "2020-02-01T09:29:01.015"
+          ]
+        },
+        "energy_keV": [
+          0.2,
+          2.3
+        ]
+      },
+      "023": {
+        "radius_arcsec": 40.0,
+        "counts": 0,
+        "expected_model_background_counts": 0.6707693480420858,
+        "signed_net_counts": -0.6707693480420858,
+        "mean_corrected_exposure_s": 162.00862901693756,
+        "conservative_aperture_rate_upper_ct_s": 0.04101874730277431,
+        "timing": {
+          "tile_first_last_utc": [
+            "2020-01-23T11:58:32.534",
+            "2020-02-04T13:30:43.109"
+          ],
+          "local_check_radius_arcsec": 180,
+          "local_event_count": 11,
+          "local_first_last_event_utc": [
+            "2020-01-31T05:28:36.942",
+            "2020-02-01T17:28:44.749"
+          ],
+          "local_photon_utc_dates": [
+            "2020-01-31",
+            "2020-02-01"
+          ],
+          "in_aperture_event_utc": []
+        },
+        "energy_keV": [
+          2.3,
+          5.0
+        ]
+      }
+    },
+    "dr1_full_tile_event_rows": 225503
+  },
+  "rosat": {
+    "source_radius_arcsec": 120.0,
+    "background_annulus_arcsec": [
+      180.0,
+      300.0
+    ],
+    "pi_channels_inclusive": [
+      11,
+      240
+    ],
+    "observations": [
+      {
+        "status": "measured",
+        "sequence": "RP190479N00",
+        "center_offset_deg": 0.5104637592461443,
+        "archive_field_dates_utc": [
+          "1997-02-07",
+          "1997-02-07"
+        ],
+        "nominal_scc_dates_within_300_arcsec": [
+          "1997-02-07",
+          "1997-02-07"
+        ],
+        "events_within_300_arcsec": 231,
+        "positive_exposure_source_fraction": 1.0,
+        "positive_exposure_annulus_fraction": 1.0,
+        "mean_aperture_exposure_s": 2320.6294807699783,
+        "counts": 33,
+        "annulus_counts": 151,
+        "expected_annulus_background_counts": 38.47119982003624,
+        "signed_net_counts": -5.47119982003624,
+        "conditional_p": 0.8124939453005038,
+        "conservative_aperture_rate_upper_ct_s": 0.023385555025242446
+      },
+      {
+        "status": "no usable full source aperture",
+        "sequence": "RP190117N00",
+        "center_offset_deg": 1.0714638960032281,
+        "archive_field_dates_utc": [
+          "1997-02-09",
+          "1997-02-09"
+        ],
+        "nominal_scc_dates_within_300_arcsec": [
+          "1997-02-09",
+          "1997-02-09"
+        ],
+        "events_within_300_arcsec": 2,
+        "positive_exposure_source_fraction": 0.017391304347826087,
+        "positive_exposure_annulus_fraction": 0.5851318944844125,
+        "mean_aperture_exposure_s": 0.012333511269610862,
+        "counts": null,
+        "annulus_counts": null,
+        "expected_annulus_background_counts": null,
+        "signed_net_counts": null,
+        "conditional_p": null,
+        "conservative_aperture_rate_upper_ct_s": null
+      },
+      {
+        "status": "measured",
+        "sequence": "RP190477N00",
+        "center_offset_deg": 0.42749536528256626,
+        "archive_field_dates_utc": [
+          "1997-02-17",
+          "1997-02-17"
+        ],
+        "nominal_scc_dates_within_300_arcsec": [
+          "1997-02-17",
+          "1997-02-17"
+        ],
+        "events_within_300_arcsec": 118,
+        "positive_exposure_source_fraction": 1.0,
+        "positive_exposure_annulus_fraction": 1.0,
+        "mean_aperture_exposure_s": 1266.0755004882812,
+        "counts": 20,
+        "annulus_counts": 80,
+        "expected_annulus_background_counts": 18.995755366970098,
+        "signed_net_counts": 1.0042446330299022,
+        "conditional_p": 0.45814690859670265,
+        "conservative_aperture_rate_upper_ct_s": 0.02962873942561414
+      },
+      {
+        "status": "measured",
+        "sequence": "RP190075N00",
+        "center_offset_deg": 0.5589806458724181,
+        "archive_field_dates_utc": [
+          "1997-02-07",
+          "1997-02-07"
+        ],
+        "nominal_scc_dates_within_300_arcsec": [
+          "1997-02-07",
+          "1997-02-07"
+        ],
+        "events_within_300_arcsec": 181,
+        "positive_exposure_source_fraction": 1.0,
+        "positive_exposure_annulus_fraction": 1.0,
+        "mean_aperture_exposure_s": 1768.457286872486,
+        "counts": 30,
+        "annulus_counts": 121,
+        "expected_annulus_background_counts": 29.34743938690582,
+        "signed_net_counts": 0.652560613094181,
+        "conditional_p": 0.48957862194396695,
+        "conservative_aperture_rate_upper_ct_s": 0.028543034803199467
+      },
+      {
+        "status": "no usable full source aperture",
+        "sequence": "RP190475N00",
+        "center_offset_deg": 0.9961140329661785,
+        "archive_field_dates_utc": [
+          "1997-02-13",
+          "1997-02-14"
+        ],
+        "nominal_scc_dates_within_300_arcsec": [
+          "1997-02-13",
+          "1997-02-13"
+        ],
+        "events_within_300_arcsec": 10,
+        "positive_exposure_source_fraction": 0.9752475247524752,
+        "positive_exposure_annulus_fraction": 0.6195786864931846,
+        "mean_aperture_exposure_s": 59.386338254012685,
+        "counts": null,
+        "annulus_counts": null,
+        "expected_annulus_background_counts": null,
+        "signed_net_counts": null,
+        "conditional_p": null,
+        "conservative_aperture_rate_upper_ct_s": null
+      },
+      {
+        "status": "measured",
+        "sequence": "RS932209N00",
+        "center_offset_deg": 0.49202393208617395,
+        "archive_field_dates_utc": [
+          "1990-07-30",
+          "1991-08-13"
+        ],
+        "nominal_scc_dates_within_300_arcsec": [
+          "1991-01-25",
+          "1991-01-25"
+        ],
+        "events_within_300_arcsec": 3,
+        "positive_exposure_source_fraction": 1.0,
+        "positive_exposure_annulus_fraction": 1.0,
+        "mean_aperture_exposure_s": 40.528533437977664,
+        "counts": 1,
+        "annulus_counts": 1,
+        "expected_annulus_background_counts": 0.2678121118008942,
+        "signed_net_counts": 0.7321878881991057,
+        "conditional_p": 0.3778570169941052,
+        "conservative_aperture_rate_upper_ct_s": 0.22063904784020932
+      }
+    ]
+  },
+  "limitations": [
+    "eROSITA DR2 includes DR1 observations and yields an aggregate three-scan flux limit.",
+    "Local photon dates describe event sampling. Per-visit sensitivity was not estimated.",
+    "Measured count-rate limits conservatively assign every aperture count to the position. They omit encircled-energy and spectral-response corrections.",
+    "ROSAT annular diagnostics assume background proportional to the exposure map and have no multiple-epoch correction.",
+    "ROSAT local dates use the nominal spacecraft-clock reference without drift calibration and are reported at date precision.",
+    "Both instruments' apertures encompass the neighbouring Chandra source."
+  ]
+}

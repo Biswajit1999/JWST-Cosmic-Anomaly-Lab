@@ -1,6 +1,6 @@
 {
-  "executed_utc": "2026-11-27T09:07:05.235780+00:00",
-  "script_sha256": "63794e11db1c908f8f5895b52e334d6531f6bdc48e0b2818b9e12527f4d7801c",
+  "executed_utc": "2026-11-27T09:20:15.367219+00:00",
+  "script_sha256": "a23623a411d6a1e750de1abff51a8e0a23e513187c1570c3c86f092216d2f34c",
   "input_result_sha256": {
     "module_b_001_hst_acs_goods_epochs.json": "3a69bb4b342fb7649bdc217b565ea9df2b1b4f1f8bf6bb941eee537cf01cf3bc",
     "module_b_001_hst_f160w_history.json": "b4d261215bbfd509c83af9dc3054e8140e5e3001cdd139e22cbd67b58d98a218",
@@ -22,6 +22,7 @@
     "module_b_001_lco_r_history.json": "be18e679be4ca19c65f363107011c9f66d4dc1b70315b4f2809849a413f4c5b9",
     "module_b_001_alma_continuum.json": "ff1cc0a1f98efec6c63ed9e458f9df1e7a09366a5841343060ce3ca95f166d8c",
     "module_b_001_vla_radio_history.json": "bbe6029f4f02be13ff4c1e1eb31c0983262f7a8e842ea109c86653f2337c8fe5",
+    "module_b_001_xray_surveys.json": "9f801c91c28a27f0b3f1d4a2d8fec3450d84fd1cea95bf30afa0aaada830cefa",
     "module_b_001_chandra_1999_events.json": "8236028c76acfff7b14bda3b78a86eb6ba30c3884b14f22cc21309e50e6666bc",
     "module_b_001_chandra_2000_events.json": "9417f09cd6c11c177f976fee25e5380351c23f58e4a62c0f23cb4ef6116a4e6f",
     "module_b_001_chandra_2007_events.json": "992412adb9bdebfae0e5f04e68f68f9a80875008427dff6e1219acb6414ab261",
@@ -31,6 +32,11 @@
     "module_b_001_chandra_2016_events.json": "e81a4d953a73c8bd8fa0dbdbf069be3b9279d9ae9242fe7c4eded50fd93c6090"
   },
   "historical_records": {
+    "ROSAT PSPC": [
+      "1991-01-25",
+      "1997-02-07",
+      "1997-02-17"
+    ],
     "Chandra ACIS": [
       "1999-10-15",
       "1999-11-23",
@@ -311,6 +317,10 @@
     ],
     "Swift UVOT snapshot": [
       "2024-08-03"
+    ],
+    "eROSITA DR1": [
+      "2020-01-31",
+      "2020-02-01"
     ],
     "Blanco/DES z band": [
       "2014-08-16",
@@ -1033,5 +1043,5 @@
       "2026-10-26"
     ]
   },
-  "scope": "Observation-start days or published Spitzer months. MeerKAT endpoints enclose the contributing observations in a single published coadd. Marks do not imply continuous exposure, equal depth or common flux limits. The DES dates are from usable FITS exposure headers on measured nights. ZTF dates are public footprint metadata. TESS dates contain usable optical cadences. Las Cumbres dates come from calibrated r-prime flux measurements. ALMA marks record the start dates of historical datasets that yielded continuum measurements, some spanning multiple dates. The VLA row uses the dated FITS headers; the 1990s NVSS mosaic has no local observing date. The 2026 lower panel includes public metadata for unreleased DECam images, nearby Rubin alerts, and HST products whose footprints miss the position."
+  "scope": "Observation-start days or published Spitzer months. MeerKAT endpoints enclose the contributing observations in a single published coadd. Marks do not imply continuous exposure, equal depth or common flux limits. The DES dates are from usable FITS exposure headers on measured nights. ZTF dates are public footprint metadata. TESS dates contain usable optical cadences. Las Cumbres dates come from calibrated r-prime flux measurements. ALMA marks record the start dates of historical datasets that yielded continuum measurements, some spanning multiple dates. ROSAT start days use the nominal spacecraft clock for local events in products with usable aperture coverage. The eROSITA dates come from local DR1 photons. The VLA row uses the dated FITS headers; the 1990s NVSS mosaic has no local observing date. The 2026 lower panel includes public metadata for unreleased DECam images, nearby Rubin alerts, and HST products whose footprints miss the position."
 }
