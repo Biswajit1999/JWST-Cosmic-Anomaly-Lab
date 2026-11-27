@@ -70,6 +70,8 @@ commands:
   - python -m pip install -e ".[rosat]"
   - python scripts/download_jades_103607_xray_surveys.py
   - python scripts/measure_jades_103607_xray_surveys.py
+  - python scripts/check_jades_103607_einstein_probe.py
+  - python scripts/measure_jades_103607_maxi.py
   - python scripts/plot_jades_103607_cross_survey_timeline.py
 inputs:
   older_visits: [jw08060001001, jw08060002001]
@@ -112,6 +114,8 @@ limitations:
   - ALMA limits apply to compact continuum sources in sampled historical datasets. The beam-fit errors use nearby residuals. Large published primary-beam files were omitted from the bounded download and these cutouts are qualified by local scatter in the delivered corrected pixels.
   - The NVSS and W-CDFS mosaics combine observations and their beams blend nearby galaxies. VLASS epoch 1.1 Quick Look photometry has documented pointing and flux-scale limitations. The 2026 NRAO search constrains scan centers within 24 arcmin, not every possible primary beam.
   - The ROSAT and eROSITA apertures encompass the nearest catalogued Chandra source. The limits apply to short sampled exposures, and DR2 adds two scans to DR1 without releasing their event files or per-scan limits.
+  - The MAXI rate bounds use archive statistical errors within the sampled scans. The 1.5-degree aperture limits source attribution and the bounds omit systematic-background errors.
+  - The public Einstein Probe ESA archive search covers released FXT footprints and product metadata. The WXT product table returned no public rows.
   - Chandra event counts use fixed windows and a local background. Count bounds omit effective area and point-spread corrections.
   - Spitzer matching uses a local linear image model and fixed artificial point sources to test sensitivity.
   - RapidXMM limits use wide apertures at nearby sky cells and can include unrelated emission.
@@ -187,5 +191,7 @@ outputs:
   - results/jwst_cross_detector/module_b_001_vla_radio_history.json
   - results/jwst_cross_detector/module_b_001_xray_surveys_products.json
   - results/jwst_cross_detector/module_b_001_xray_surveys.json
+  - results/jwst_cross_detector/module_b_001_einstein_probe_coverage.json
+  - results/jwst_cross_detector/module_b_001_maxi_2026.json
   - results/jwst_cross_detector/module_b_001_cross_survey_timeline.json
   - figures/jwst_cross_detector/module_b_*

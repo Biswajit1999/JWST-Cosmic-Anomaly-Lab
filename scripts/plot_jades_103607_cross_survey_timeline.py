@@ -37,6 +37,7 @@ KEYS = (
     "alma_continuum",
     "vla_radio_history",
     "xray_surveys",
+    "maxi_2026",
 )
 
 
@@ -143,6 +144,10 @@ def collect(data, hashes):
         "JWST NIRCam measured": day_list(
             day for day in jwst_epochs if "2026-10-01" <= day < "2026-11-27"
         ),
+        "MAXI GSC measured": day_list(
+            scan["scan_utc"][0]
+            for window in data["maxi_2026"]["windows"].values() for scan in window["scans"]
+        ),
         "TESS optical pixels": day_list(
             day for sector in data["tess_history"]["sectors"] for day in sector["valid_midpoint_dates_utc"]
             if "2026-10-01" <= day < "2026-11-27"
@@ -186,7 +191,7 @@ def write_timeline(history, recent):
     axes[0].xaxis.set_major_formatter(DateFormatter("%Y"))
     axes[0].invert_yaxis()
     style = (
-        ("o", "#17687c"), ("|", "#317344"), ("s", "#365990"),
+        ("o", "#17687c"), ("d", "#ac593d"), ("|", "#317344"), ("s", "#365990"),
         ("D", "#9f522c"), ("^", "#6d597c"), ("x", "#585858"),
     )
     for y, ((_, values), (mark, color)) in enumerate(zip(recent.items(), style, strict=True)):
@@ -236,7 +241,8 @@ def main():
             "usable aperture coverage. The eROSITA dates come from local DR1 photons. "
             "The VLA row uses the dated FITS headers; the 1990s NVSS mosaic has no local observing date. "
             "The 2026 lower panel includes "
-            "public metadata for unreleased DECam images, nearby Rubin alerts, and HST products "
+            "MAXI scan days as well as public metadata for unreleased DECam images, nearby "
+            "Rubin alerts, and HST products "
             "whose footprints miss the position.",
         ),
     )

@@ -1,0 +1,1041 @@
+{
+  "executed_utc": "2026-11-27T09:31:07.211613+00:00",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "position_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "script_sha256": "322aa9f495f2ee7e7f3a5bf589e8940bc4d169e90060e261e8b69ee389260aa9",
+  "archive_query_icrs_deg": [
+    53.18866983,
+    -27.8125394
+  ],
+  "source_radius_deg": 1.5,
+  "background_radii_deg": [
+    1.6,
+    3.0
+  ],
+  "rate_unit": "ph cm^-2 s^-1",
+  "windows": {
+    "October": {
+      "queried_mjd": [
+        61322,
+        61324
+      ],
+      "work_id": "20261127092354_q0acckfu2rm08l1r",
+      "on_demand_version": "3.95",
+      "regions_ds9": {
+        "src": "global color=green dashlist=8 3 width=1 font=\"helvetica 10 normal\" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1\nfk5\ncircle(53.189,-27.813,5400.0\") # color=green width=2 \n",
+        "bgd": "global color=green dashlist=8 3 width=1 font=\"helvetica 10 normal\" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1\nfk5\ncircle(53.189,-27.813,10800.0\") # color=green width=2  \n-circle(53.189,-27.813,5760.0\") # color=green dash=1 width=2 \n"
+      },
+      "products": {
+        "result_page": {
+          "path": "data/raw/maxi_2026/October/index.html",
+          "url": "https://maxi.riken.jp/mxondem/api/results/20261127092354_q0acckfu2rm08l1r/index.html",
+          "sha256": "38c335f5fe602b5165755fbe853c9411d0f9d77e900bde0a0d836aa0efd80958"
+        },
+        "light_curve": {
+          "path": "data/raw/maxi_2026/October/JADES103607_2026Oct_lc.tgz",
+          "url": "https://maxi.riken.jp/mxondem/api/results/20261127092354_q0acckfu2rm08l1r/JADES103607_2026Oct_lc.tgz",
+          "sha256": "d5866d0f3e78ef293fd17a60205581ef22a89775d997015d183e6f00d6709892"
+        },
+        "images": {
+          "path": "data/raw/maxi_2026/October/JADES103607_2026Oct_img.tgz",
+          "url": "https://maxi.riken.jp/mxondem/api/results/20261127092354_q0acckfu2rm08l1r/JADES103607_2026Oct_img.tgz",
+          "sha256": "5e1e15a60fc4d43565e1e1a266d0afab30529eb3f4dac3d054ce3de517e41721"
+        }
+      },
+      "jwst_visit": "jw12577001001",
+      "jwst_integrations": [
+        {
+          "start_mjd": 61322.936545219905,
+          "stop_mjd": 61322.952451550926,
+          "products": [
+            {
+              "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00001_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00001_nrcb4_cal.fits",
+              "sha256": "532cf5dda4e0c8e7c87f84df9ed460218590bd93edfa6405a69614ed3d262ac8",
+              "file": "jw12577001001_02101_00001_nrcb4_cal.fits",
+              "expstart_mjd": 61322.938
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02101_00001_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00001_nrcblong_cal.fits",
+              "sha256": "6ae4d5a6e209fe5d8112354203baee04dc05478b27667215405e087999f33afd",
+              "file": "jw12577001001_02101_00001_nrcblong_cal.fits",
+              "expstart_mjd": 61322.938
+            }
+          ],
+          "utc": [
+            "2026-10-09T22:28:37.507",
+            "2026-10-09T22:51:31.814"
+          ]
+        },
+        {
+          "start_mjd": 61322.9534459375,
+          "stop_mjd": 61322.96935226852,
+          "products": [
+            {
+              "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00002_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00002_nrcb4_cal.fits",
+              "sha256": "65a2f1faba847f733c00ee76f3b50e92a80a4e600cb62e05c920507e098c3e9d",
+              "file": "jw12577001001_02101_00002_nrcb4_cal.fits",
+              "expstart_mjd": 61322.953
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02101_00002_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00002_nrcblong_cal.fits",
+              "sha256": "10fa8a45ce1c8af1f3318cea7a92110d822dfdbfabbb26bdac0e21f3c73c821e",
+              "file": "jw12577001001_02101_00002_nrcblong_cal.fits",
+              "expstart_mjd": 61322.953
+            }
+          ],
+          "utc": [
+            "2026-10-09T22:52:57.729",
+            "2026-10-09T23:15:52.036"
+          ]
+        },
+        {
+          "start_mjd": 61322.970345925925,
+          "stop_mjd": 61322.986252256946,
+          "products": [
+            {
+              "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3AJWST%2Fproduct%2Fjw12577001001_02101_00003_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00003_nrcb4_cal.fits",
+              "sha256": "bfc528d63cbb8ec43232c5fef9e16490faf635f7e3db0f20e449a333175a4c1c",
+              "file": "jw12577001001_02101_00003_nrcb4_cal.fits",
+              "expstart_mjd": 61322.97
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02101_00003_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02101_00003_nrcblong_cal.fits",
+              "sha256": "97553f7dc9bde9f63429d40bb4df292f879856e5977847db30fc7db58e0d72ae",
+              "file": "jw12577001001_02101_00003_nrcblong_cal.fits",
+              "expstart_mjd": 61322.97
+            }
+          ],
+          "utc": [
+            "2026-10-09T23:17:17.888",
+            "2026-10-09T23:40:12.195"
+          ]
+        },
+        {
+          "start_mjd": 61323.042421412036,
+          "stop_mjd": 61323.058327743056,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00001_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00001_nrcb4_cal.fits",
+              "sha256": "fdd3b54093760f00d9f70ad7ad0962c49cd9f1a3d91ea5d21050f1d69279439f",
+              "file": "jw12577001001_02105_00001_nrcb4_cal.fits",
+              "expstart_mjd": 61323.043
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00001_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00001_nrcblong_cal.fits",
+              "sha256": "7ce2577de6da7f29d2abe3fb76e368bbcf2505c93f80b9afca0019ef1ac7c8f2",
+              "file": "jw12577001001_02105_00001_nrcblong_cal.fits",
+              "expstart_mjd": 61323.043
+            }
+          ],
+          "utc": [
+            "2026-10-10T01:01:05.210",
+            "2026-10-10T01:23:59.517"
+          ]
+        },
+        {
+          "start_mjd": 61323.05932212963,
+          "stop_mjd": 61323.07522846065,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00002_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00002_nrcb4_cal.fits",
+              "sha256": "c134e4e70cb649d5e1648e62d9f9e2e18a15a011aa48e9494685ad7e155cb03b",
+              "file": "jw12577001001_02105_00002_nrcb4_cal.fits",
+              "expstart_mjd": 61323.06
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00002_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00002_nrcblong_cal.fits",
+              "sha256": "6fd9b2b14af13f5e84e9c8bbf5a32834c5af6cbf391c15c204befa9085c73d1e",
+              "file": "jw12577001001_02105_00002_nrcblong_cal.fits",
+              "expstart_mjd": 61323.06
+            }
+          ],
+          "utc": [
+            "2026-10-10T01:25:25.432",
+            "2026-10-10T01:48:19.739"
+          ]
+        },
+        {
+          "start_mjd": 61323.076222118056,
+          "stop_mjd": 61323.09212918981,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00003_nrcblong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00003_nrcblong_cal.fits",
+              "sha256": "cc7a2591dbce8b34cc324a83c243da6d852e166e2f800796cd85664e6b97cfcc",
+              "file": "jw12577001001_02105_00003_nrcblong_cal.fits",
+              "expstart_mjd": 61323.08
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577001001/jw12577001001_02105_00003_nrcb4_cal.fits",
+              "path": "data/raw/cross_detector/jw12577001001_02105_00003_nrcb4_cal.fits",
+              "sha256": "f0adbb714a1fd3e603fb049876a65650d8914e5eb0ad1b2a61a9c34b2667b716",
+              "file": "jw12577001001_02105_00003_nrcb4_cal.fits",
+              "expstart_mjd": 61323.08
+            }
+          ],
+          "utc": [
+            "2026-10-10T01:49:45.591",
+            "2026-10-10T02:12:39.962"
+          ]
+        }
+      ],
+      "raw_detector_scan_rows": 5,
+      "fractional_day_scan_bin_request": 5e-05,
+      "scans": [
+        {
+          "start_mjd": 61323.05369212963,
+          "stop_mjd": 61323.05583333333,
+          "scan_utc": [
+            "2026-10-10T01:17:19.000",
+            "2026-10-10T01:20:24.000"
+          ],
+          "scan_wall_span_s": 184.99999986961484,
+          "overlapping_jwst_windows": [
+            3
+          ],
+          "jwst_overlap_s": 184.99999986961484,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": -0.08415938261541525,
+              "statistical_error": 0.045224624457311416,
+              "nominal_upper_3sigma": 0.13567387337193426
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.0070450578553201,
+              "statistical_error": 0.0584472192909068,
+              "nominal_upper_3sigma": 0.1823867157280405
+            }
+          }
+        },
+        {
+          "start_mjd": 61323.11822916666,
+          "stop_mjd": 61323.12039351852,
+          "scan_utc": [
+            "2026-10-10T02:50:15.000",
+            "2026-10-10T02:53:22.000"
+          ],
+          "scan_wall_span_s": 187.00000033713877,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.015391953333835674,
+              "statistical_error": 0.03951148073586483,
+              "nominal_upper_3sigma": 0.13392639554143015
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.0118773455730506,
+              "statistical_error": 0.04720171619325733,
+              "nominal_upper_3sigma": 0.15348249415282259
+            }
+          }
+        },
+        {
+          "start_mjd": 61323.182812499996,
+          "stop_mjd": 61323.18497685185,
+          "scan_utc": [
+            "2026-10-10T04:23:15.000",
+            "2026-10-10T04:26:22.000"
+          ],
+          "scan_wall_span_s": 187.00000033713877,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.02665302379127877,
+              "statistical_error": 0.030659861388770738,
+              "nominal_upper_3sigma": 0.11863260795759098
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.01868470199835672,
+              "statistical_error": 0.046507796828534204,
+              "nominal_upper_3sigma": 0.15820809248395934
+            }
+          }
+        },
+        {
+          "start_mjd": 61323.24741898148,
+          "stop_mjd": 61323.2494675926,
+          "scan_utc": [
+            "2026-10-10T05:56:17.000",
+            "2026-10-10T05:59:14.000"
+          ],
+          "scan_wall_span_s": 177.00000051409006,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.0509563890161559,
+              "statistical_error": 0.03322070655539725,
+              "nominal_upper_3sigma": 0.15061850868234766
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.06971738877380775,
+              "statistical_error": 0.0566448265585397,
+              "nominal_upper_3sigma": 0.23965186844942687
+            }
+          }
+        }
+      ],
+      "bands": {
+        "2.0-6.0": {
+          "all_sampled_scans": {
+            "inverse_variance_mean": 0.013950025574221207,
+            "statistical_error": 0.017962279440941097,
+            "nominal_constant_rate_upper_3sigma": 0.06783686389704449,
+            "maximum_single_scan_z": 1.533874330191728
+          },
+          "overlapping_scans": {
+            "inverse_variance_mean": -0.08415938261541525,
+            "statistical_error": 0.04522462445731142,
+            "nominal_constant_rate_upper_3sigma": 0.13567387337193426,
+            "maximum_single_scan_z": -1.8609194354915046
+          }
+        },
+        "6.0-20.0": {
+          "all_sampled_scans": {
+            "inverse_variance_mean": 0.024914853833088075,
+            "statistical_error": 0.025687078442105372,
+            "nominal_constant_rate_upper_3sigma": 0.10197608915940419,
+            "maximum_single_scan_z": 1.230781220624944
+          },
+          "overlapping_scans": {
+            "inverse_variance_mean": 0.007045057855320099,
+            "statistical_error": 0.05844721929090681,
+            "nominal_constant_rate_upper_3sigma": 0.18238671572804052,
+            "maximum_single_scan_z": 0.12053709211134649
+          }
+        }
+      }
+    },
+    "November": {
+      "queried_mjd": [
+        61368,
+        61370
+      ],
+      "work_id": "20261127092373_g90xwlullvjbdll2",
+      "on_demand_version": "3.95",
+      "regions_ds9": {
+        "src": "global color=green dashlist=8 3 width=1 font=\"helvetica 10 normal\" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1\nfk5\ncircle(53.189,-27.813,5400.0\") # color=green width=2 \n",
+        "bgd": "global color=green dashlist=8 3 width=1 font=\"helvetica 10 normal\" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1\nfk5\ncircle(53.189,-27.813,10800.0\") # color=green width=2  \n-circle(53.189,-27.813,5760.0\") # color=green dash=1 width=2 \n"
+      },
+      "products": {
+        "result_page": {
+          "path": "data/raw/maxi_2026/November/index.html",
+          "url": "https://maxi.riken.jp/mxondem/api/results/20261127092373_g90xwlullvjbdll2/index.html",
+          "sha256": "96256d89dbc464e00753bcbb1b17276a5e5987ea38b83eeb6507b0b03817d3bc"
+        },
+        "light_curve": {
+          "path": "data/raw/maxi_2026/November/JADES103607_2026Nov_lc.tgz",
+          "url": "https://maxi.riken.jp/mxondem/api/results/20261127092373_g90xwlullvjbdll2/JADES103607_2026Nov_lc.tgz",
+          "sha256": "f0ec1921d07ae7a61cc05ca68ef17e1ea34f748f17041f0b473ba1bf25a5a3ca"
+        },
+        "images": {
+          "path": "data/raw/maxi_2026/November/JADES103607_2026Nov_img.tgz",
+          "url": "https://maxi.riken.jp/mxondem/api/results/20261127092373_g90xwlullvjbdll2/JADES103607_2026Nov_img.tgz",
+          "sha256": "4f00f88acbb6a1e1b8bb21b3e8e8d042d4e334d8183d1c3ca43c766d42f1e639"
+        }
+      },
+      "jwst_visit": "jw12577004001",
+      "jwst_integrations": [
+        {
+          "start_mjd": 61368.76403587963,
+          "stop_mjd": 61368.77994221065,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00001_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00001_nrca1_cal.fits",
+              "sha256": "6c82f2991700d99d1b5d7927c63e634e9a5d9bcc81b534f0e080c1ab8cb70107",
+              "bytes": 117573120,
+              "file": "jw12577004001_02101_00001_nrca1_cal.fits",
+              "expstart_mjd": 61368.76403587963
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00001_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00001_nrcalong_cal.fits",
+              "sha256": "beb36c4347f5986c11f0242d9f16e1a8b051fcfeec92d6ced6b7145ada04a5c5",
+              "bytes": 117576000,
+              "file": "jw12577004001_02101_00001_nrcalong_cal.fits",
+              "expstart_mjd": 61368.76403587963
+            }
+          ],
+          "utc": [
+            "2026-11-24T18:20:12.700",
+            "2026-11-24T18:43:07.007"
+          ]
+        },
+        {
+          "start_mjd": 61368.78106030093,
+          "stop_mjd": 61368.79696663195,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00002_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00002_nrca1_cal.fits",
+              "sha256": "4807a01557016bbe6c27bd176717086ec48983f54b373553d6cdfbb0cafaa0e6",
+              "bytes": 117573120,
+              "file": "jw12577004001_02101_00002_nrca1_cal.fits",
+              "expstart_mjd": 61368.78106030093
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00002_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00002_nrcalong_cal.fits",
+              "sha256": "332338bc87360a9d8efdbe0560a9ba11b6b0b8ad2b6ae9ff686717378d01eb5b",
+              "bytes": 117576000,
+              "file": "jw12577004001_02101_00002_nrcalong_cal.fits",
+              "expstart_mjd": 61368.78106030093
+            }
+          ],
+          "utc": [
+            "2026-11-24T18:44:43.610",
+            "2026-11-24T19:07:37.917"
+          ]
+        },
+        {
+          "start_mjd": 61368.79808547454,
+          "stop_mjd": 61368.81399180555,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00003_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00003_nrca1_cal.fits",
+              "sha256": "0d3f72c2c4c0b289fb2d6285b266f0989e4461ad560b431f43e1df337ed3ade3",
+              "bytes": 117573120,
+              "file": "jw12577004001_02101_00003_nrca1_cal.fits",
+              "expstart_mjd": 61368.79808547454
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_02101_00003_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_02101_00003_nrcalong_cal.fits",
+              "sha256": "a0a00be2712d64c2d9cb021b5af1983471edb72f760422ae41ee8789384c063b",
+              "bytes": 117576000,
+              "file": "jw12577004001_02101_00003_nrcalong_cal.fits",
+              "expstart_mjd": 61368.79808547454
+            }
+          ],
+          "utc": [
+            "2026-11-24T19:09:14.585",
+            "2026-11-24T19:32:08.892"
+          ]
+        },
+        {
+          "start_mjd": 61368.817470636575,
+          "stop_mjd": 61368.83337770833,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00001_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00001_nrcalong_cal.fits",
+              "sha256": "e2e2e367a62838f11c03db14f83ed5cd2bf2c839358d882dee1f48386fa2888f",
+              "bytes": 117576000,
+              "file": "jw12577004001_04101_00001_nrcalong_cal.fits",
+              "expstart_mjd": 61368.817470636575
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00001_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00001_nrca1_cal.fits",
+              "sha256": "aac9b486c6e9dea4fbcf2f59101458fef54d9485e2c021a6e0a014d28edce6bd",
+              "bytes": 117573120,
+              "file": "jw12577004001_04101_00001_nrca1_cal.fits",
+              "expstart_mjd": 61368.81747137731
+            }
+          ],
+          "utc": [
+            "2026-11-24T19:37:09.463",
+            "2026-11-24T20:00:03.834"
+          ]
+        },
+        {
+          "start_mjd": 61368.83437136574,
+          "stop_mjd": 61368.85027769676,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00002_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00002_nrca1_cal.fits",
+              "sha256": "1f52a3c21193147bd0379a3acb0f8fe84dfb1669b25feaa8aef32a60cca92db5",
+              "bytes": 117573120,
+              "file": "jw12577004001_04101_00002_nrca1_cal.fits",
+              "expstart_mjd": 61368.83437136574
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00002_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00002_nrcalong_cal.fits",
+              "sha256": "759ca7f2c995ffbe31b0d8a93ccf5ad58e35430e7e8d7c716ad1319f88a2d16d",
+              "bytes": 117576000,
+              "file": "jw12577004001_04101_00002_nrcalong_cal.fits",
+              "expstart_mjd": 61368.83437136574
+            }
+          ],
+          "utc": [
+            "2026-11-24T20:01:29.686",
+            "2026-11-24T20:24:23.993"
+          ]
+        },
+        {
+          "start_mjd": 61368.85127208333,
+          "stop_mjd": 61368.86717841435,
+          "products": [
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00003_nrca1_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00003_nrca1_cal.fits",
+              "sha256": "7fb8fe039577c2bf1ce7f6bd26ed83eac21c2ee0378a8814e66407ef4ce2a16b",
+              "bytes": 117573120,
+              "file": "jw12577004001_04101_00003_nrca1_cal.fits",
+              "expstart_mjd": 61368.85127208333
+            },
+            {
+              "url": "https://stpubdata.s3.us-east-1.amazonaws.com/jwst/public/jw12577/jw12577004001/jw12577004001_04101_00003_nrcalong_cal.fits",
+              "path": "data/raw/cross_detector/jw12577004001_04101_00003_nrcalong_cal.fits",
+              "sha256": "bf46c9d0bc70552b7d96126cf13b3dcaaad1689ab61eda89266bfd80b29afa83",
+              "bytes": 117576000,
+              "file": "jw12577004001_04101_00003_nrcalong_cal.fits",
+              "expstart_mjd": 61368.85127208333
+            }
+          ],
+          "utc": [
+            "2026-11-24T20:25:49.908",
+            "2026-11-24T20:48:44.215"
+          ]
+        }
+      ],
+      "raw_detector_scan_rows": 44,
+      "fractional_day_scan_bin_request": 5e-05,
+      "scans": [
+        {
+          "start_mjd": 61368.011192129634,
+          "stop_mjd": 61368.014074074075,
+          "scan_utc": [
+            "2026-11-24T00:16:07.000",
+            "2026-11-24T00:20:16.000"
+          ],
+          "scan_wall_span_s": 248.99999974295497,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": -0.020660554719134663,
+              "statistical_error": 0.021042923783871213,
+              "nominal_upper_3sigma": 0.06312877135161364
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.006918998487123847,
+              "statistical_error": 0.029298753225838615,
+              "nominal_upper_3sigma": 0.0948152581646397
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.269270833334,
+          "stop_mjd": 61368.272141203706,
+          "scan_utc": [
+            "2026-11-24T06:27:45.000",
+            "2026-11-24T06:31:53.000"
+          ],
+          "scan_wall_span_s": 248.00000013783574,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.018520181516735897,
+              "statistical_error": 0.022317702249972097,
+              "nominal_upper_3sigma": 0.0854732882666522
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.01668339368522109,
+              "statistical_error": 0.027358524243475096,
+              "nominal_upper_3sigma": 0.08207557273042529
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.33383101852,
+          "stop_mjd": 61368.33666666667,
+          "scan_utc": [
+            "2026-11-24T08:00:43.000",
+            "2026-11-24T08:04:48.000"
+          ],
+          "scan_wall_span_s": 245.00000006519258,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": -0.020716796676933366,
+              "statistical_error": 0.021100206622957703,
+              "nominal_upper_3sigma": 0.06330061986887311
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.03995122055946065,
+              "statistical_error": 0.024332928741046953,
+              "nominal_upper_3sigma": 0.07299878622314086
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.398298611115,
+          "stop_mjd": 61368.40118055556,
+          "scan_utc": [
+            "2026-11-24T09:33:33.000",
+            "2026-11-24T09:37:42.000"
+          ],
+          "scan_wall_span_s": 248.99999974295497,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.00022273788914046352,
+              "statistical_error": 0.021706531829570597,
+              "nominal_upper_3sigma": 0.06534233337785227
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.0040892815824547495,
+              "statistical_error": 0.023835114249889947,
+              "nominal_upper_3sigma": 0.07150534274966984
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.462870370364,
+          "stop_mjd": 61368.465729166666,
+          "scan_utc": [
+            "2026-11-24T11:06:32.000",
+            "2026-11-24T11:10:39.000"
+          ],
+          "scan_wall_span_s": 247.0000005327165,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.04920408025649254,
+              "statistical_error": 0.027149510155268737,
+              "nominal_upper_3sigma": 0.13065261072229875
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.039337024597943394,
+              "statistical_error": 0.02185408220513175,
+              "nominal_upper_3sigma": 0.06556224661539525
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.527407407404,
+          "stop_mjd": 61368.53024305555,
+          "scan_utc": [
+            "2026-11-24T12:39:28.000",
+            "2026-11-24T12:43:33.000"
+          ],
+          "scan_wall_span_s": 245.00000006519258,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.017353696652027188,
+              "statistical_error": 0.027221751583802273,
+              "nominal_upper_3sigma": 0.099018951403434
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.014433214171865053,
+              "statistical_error": 0.024739929993830408,
+              "nominal_upper_3sigma": 0.08865300415335628
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.59193287037,
+          "stop_mjd": 61368.59476851852,
+          "scan_utc": [
+            "2026-11-24T14:12:23.000",
+            "2026-11-24T14:16:28.000"
+          ],
+          "scan_wall_span_s": 245.00000006519258,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.0033479856826209155,
+              "statistical_error": 0.019819496256470174,
+              "nominal_upper_3sigma": 0.06280647445203144
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.05556569566822513,
+              "statistical_error": 0.02737811114887728,
+              "nominal_upper_3sigma": 0.13770002911485696
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.656435185185,
+          "stop_mjd": 61368.65932870371,
+          "scan_utc": [
+            "2026-11-24T15:45:16.000",
+            "2026-11-24T15:49:26.000"
+          ],
+          "scan_wall_span_s": 250.00000060535967,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": -0.02827852223417644,
+              "statistical_error": 0.01779637814670364,
+              "nominal_upper_3sigma": 0.053389134440110925
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.005671034491283728,
+              "statistical_error": 0.028321330559045187,
+              "nominal_upper_3sigma": 0.09063502616841929
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.72099537037,
+          "stop_mjd": 61368.72383101852,
+          "scan_utc": [
+            "2026-11-24T17:18:14.000",
+            "2026-11-24T17:22:19.000"
+          ],
+          "scan_wall_span_s": 245.00000006519258,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": -0.020157999035186613,
+              "statistical_error": 0.017161577485251225,
+              "nominal_upper_3sigma": 0.051484732455753676
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.05559999112976012,
+              "statistical_error": 0.031457209729695346,
+              "nominal_upper_3sigma": 0.14997162031884614
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.78549768518,
+          "stop_mjd": 61368.78832175926,
+          "scan_utc": [
+            "2026-11-24T18:51:07.000",
+            "2026-11-24T18:55:11.000"
+          ],
+          "scan_wall_span_s": 244.00000046007335,
+          "overlapping_jwst_windows": [
+            1
+          ],
+          "jwst_overlap_s": 244.00000046007335,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.0002250686434358416,
+              "statistical_error": 0.021933671417248148,
+              "nominal_upper_3sigma": 0.06602608289518029
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.006267593140398579,
+              "statistical_error": 0.026859911723197835,
+              "nominal_upper_3sigma": 0.08684732830999209
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.85008101852,
+          "stop_mjd": 61368.85289351852,
+          "scan_utc": [
+            "2026-11-24T20:24:07.000",
+            "2026-11-24T20:28:10.000"
+          ],
+          "scan_wall_span_s": 242.99999959766865,
+          "overlapping_jwst_windows": [
+            4,
+            5
+          ],
+          "jwst_overlap_s": 157.08499965257943,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.023542401837566698,
+              "statistical_error": 0.025889725254354817,
+              "nominal_upper_3sigma": 0.10121157760063115
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.031404612785989196,
+              "statistical_error": 0.031156416690227128,
+              "nominal_upper_3sigma": 0.12487386285667057
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.91457175926,
+          "stop_mjd": 61368.91741898148,
+          "scan_utc": [
+            "2026-11-24T21:56:59.000",
+            "2026-11-24T22:01:05.000"
+          ],
+          "scan_wall_span_s": 245.9999996703118,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": -0.002082010634546722,
+              "statistical_error": 0.0203063646450202,
+              "nominal_upper_3sigma": 0.060919093935060606
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.011438708792566315,
+              "statistical_error": 0.028346852900870672,
+              "nominal_upper_3sigma": 0.08504055870261201
+            }
+          }
+        },
+        {
+          "start_mjd": 61368.97908564815,
+          "stop_mjd": 61368.98196759259,
+          "scan_utc": [
+            "2026-11-24T23:29:53.000",
+            "2026-11-24T23:34:02.000"
+          ],
+          "scan_wall_span_s": 248.99999974295497,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": -0.012166791355042717,
+              "statistical_error": 0.01667099560260025,
+              "nominal_upper_3sigma": 0.050012986807800745
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.029970678325783158,
+              "statistical_error": 0.026797178349728487,
+              "nominal_upper_3sigma": 0.08039153504918546
+            }
+          }
+        },
+        {
+          "start_mjd": 61369.30186342593,
+          "stop_mjd": 61369.30459490741,
+          "scan_utc": [
+            "2026-11-25T07:14:41.000",
+            "2026-11-25T07:18:37.000"
+          ],
+          "scan_wall_span_s": 235.9999998472631,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.014089943525287786,
+              "statistical_error": 0.021585062991087436,
+              "nominal_upper_3sigma": 0.0788451324985501
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.032141506985189354,
+              "statistical_error": 0.030900819140034206,
+              "nominal_upper_3sigma": 0.12484396440529197
+            }
+          }
+        },
+        {
+          "start_mjd": 61369.36628472222,
+          "stop_mjd": 61369.36907407408,
+          "scan_utc": [
+            "2026-11-25T08:47:27.000",
+            "2026-11-25T08:51:28.000"
+          ],
+          "scan_wall_span_s": 241.0000003874302,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.018627187512432076,
+              "statistical_error": 0.024712801803269423,
+              "nominal_upper_3sigma": 0.09276559292224033
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.022331945991252614,
+              "statistical_error": 0.026661731336402976,
+              "nominal_upper_3sigma": 0.07998519400920892
+            }
+          }
+        },
+        {
+          "start_mjd": 61369.43078703704,
+          "stop_mjd": 61369.43363425926,
+          "scan_utc": [
+            "2026-11-25T10:20:20.000",
+            "2026-11-25T10:24:26.000"
+          ],
+          "scan_wall_span_s": 245.9999996703118,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.019657883146159454,
+              "statistical_error": 0.021252214778970508,
+              "nominal_upper_3sigma": 0.08341452748307099
+            },
+            "6.0-20.0": {
+              "signed_rate": 0.004122108531306786,
+              "statistical_error": 0.028220395473991612,
+              "nominal_upper_3sigma": 0.08878329495328163
+            }
+          }
+        },
+        {
+          "start_mjd": 61369.49527777778,
+          "stop_mjd": 61369.49811342593,
+          "scan_utc": [
+            "2026-11-25T11:53:12.000",
+            "2026-11-25T11:57:17.000"
+          ],
+          "scan_wall_span_s": 245.00000006519258,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.027229968418952238,
+              "statistical_error": 0.024572723585226712,
+              "nominal_upper_3sigma": 0.10094813917463237
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.016661371663394688,
+              "statistical_error": 0.02674062341694536,
+              "nominal_upper_3sigma": 0.08022187025083607
+            }
+          }
+        },
+        {
+          "start_mjd": 61369.56015046296,
+          "stop_mjd": 61369.562569444446,
+          "scan_utc": [
+            "2026-11-25T13:26:37.000",
+            "2026-11-25T13:30:06.000"
+          ],
+          "scan_wall_span_s": 209.00000045076013,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.005798011081800252,
+              "statistical_error": 0.022203579724405797,
+              "nominal_upper_3sigma": 0.07240875025501764
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.013310593160199296,
+              "statistical_error": 0.028156704686289186,
+              "nominal_upper_3sigma": 0.08447011405886756
+            }
+          }
+        },
+        {
+          "start_mjd": 61369.688888888886,
+          "stop_mjd": 61369.69167824074,
+          "scan_utc": [
+            "2026-11-25T16:32:00.000",
+            "2026-11-25T16:36:01.000"
+          ],
+          "scan_wall_span_s": 241.0000003874302,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.021366177195866063,
+              "statistical_error": 0.02672546462895499,
+              "nominal_upper_3sigma": 0.10154257108273103
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.04215563292780684,
+              "statistical_error": 0.026972528840701046,
+              "nominal_upper_3sigma": 0.08091758652210314
+            }
+          }
+        },
+        {
+          "start_mjd": 61369.7534375,
+          "stop_mjd": 61369.75627314815,
+          "scan_utc": [
+            "2026-11-25T18:04:57.000",
+            "2026-11-25T18:09:02.000"
+          ],
+          "scan_wall_span_s": 245.00000006519258,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": 0.03811309136150591,
+              "statistical_error": 0.025783997178248284,
+              "nominal_upper_3sigma": 0.11546508289625076
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.006506692900386121,
+              "statistical_error": 0.025586599761479836,
+              "nominal_upper_3sigma": 0.0767597992844395
+            }
+          }
+        },
+        {
+          "start_mjd": 61369.81803240741,
+          "stop_mjd": 61369.820810185185,
+          "scan_utc": [
+            "2026-11-25T19:37:58.000",
+            "2026-11-25T19:41:58.000"
+          ],
+          "scan_wall_span_s": 239.9999995250255,
+          "overlapping_jwst_windows": [],
+          "jwst_overlap_s": 0.0,
+          "bands": {
+            "2.0-6.0": {
+              "signed_rate": -0.01906911254868798,
+              "statistical_error": 0.022114414591631222,
+              "nominal_upper_3sigma": 0.06634324377489367
+            },
+            "6.0-20.0": {
+              "signed_rate": -0.0477774492407169,
+              "statistical_error": 0.02569280620002662,
+              "nominal_upper_3sigma": 0.07707841860007986
+            }
+          }
+        }
+      ],
+      "bands": {
+        "2.0-6.0": {
+          "all_sampled_scans": {
+            "inverse_variance_mean": 0.0018262270951923615,
+            "statistical_error": 0.004731723568220882,
+            "nominal_constant_rate_upper_3sigma": 0.01602139779985501,
+            "maximum_single_scan_z": 1.812337680315157
+          },
+          "overlapping_scans": {
+            "inverse_variance_mean": 0.009967984869428063,
+            "statistical_error": 0.016735260868252482,
+            "nominal_constant_rate_upper_3sigma": 0.060173767474185506,
+            "maximum_single_scan_z": 0.9093337842048639
+          }
+        },
+        "6.0-20.0": {
+          "all_sampled_scans": {
+            "inverse_variance_mean": -0.006807497351411559,
+            "statistical_error": 0.005861210454512845,
+            "nominal_constant_rate_upper_3sigma": 0.017583631363538535,
+            "maximum_single_scan_z": 2.029566443282694
+          },
+          "overlapping_scans": {
+            "inverse_variance_mean": 0.016984689065943172,
+            "statistical_error": 0.020343663807656877,
+            "nominal_constant_rate_upper_3sigma": 0.0780156804889138,
+            "maximum_single_scan_z": 1.0079661309652441
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "The scan interval is wall time. Effective detector area and usable exposure vary throughout the scan.",
+    "The 3-sigma levels use the supplied statistical uncertainties and a zero floor on the point estimate. They are nominal Gaussian rate bounds, without a calibration or systematic-background allowance.",
+    "Combined rates and upper levels assume constant intensity over the sampled scans.",
+    "The source aperture blends positions across 1.5 degrees of radius. A counterpart fainter than the limits, or active between scans, remains unconstrained."
+  ]
+}

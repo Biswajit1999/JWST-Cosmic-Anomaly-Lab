@@ -1289,6 +1289,56 @@ The Swift master log also returns zero pointing centers within
 [Swift log query](../results/jwst_cross_detector/module_b_001_swift_coverage.json) ·
 [Observation IDs, footprints and query receipts](../results/jwst_cross_detector/module_b_001_independent_2026_coverage.json).
 
+**MAXI/GSC.** We retrieved public per-scan light curves and count
+images from two 48-hour extractions bracketing the JWST visits.
+Each uses a 1.5° source aperture and a 1.6°–3.0° background annulus.
+The requests use MJD 61322–61324 and 61368–61370 at
+ICRS (53.18866983°, −27.81253940°), with the one-scan setting,
+GSC bands 2–6 and 6–20 keV, and the default detector screening.
+The archive returns four October scans and 21 November scans.
+The FITS and ASCII rates agree to the precision of the ASCII
+files. We reproduced the reported scan times from the raw
+detector time columns and compared them with the calibrated
+NIRCam FITS exposure starts and ends.
+
+On **10 October 2026 at 01:17:19–01:20:24 UTC**, one scan falls
+entirely within a NIRCam integration during the bright visit.
+Its signed photon rates are **−0.0842 ± 0.0452** in 2–6 keV
+and **+0.0070 ± 0.0584** in 6–20 keV, in photons cm⁻² s⁻¹.
+The nominal one-sided 3σ levels are **0.136** and **0.182**
+photons cm⁻² s⁻¹, respectively. Two scans overlap the November
+follow-up, by 244 and 157 seconds of wall time. Their
+inverse-variance means are **+0.0100 ± 0.0167** and
+**+0.0170 ± 0.0203** photons cm⁻² s⁻¹.
+
+The upper levels add three statistical standard errors to the
+greater of zero and the signed rate. The strongest positive
+single-scan value in either band or window is 2.03 times its
+reported error. The X-ray scans bound bright emission within
+their sampled intervals. Fainter emission and emission between
+scans remain unconstrained, and the aperture blends the target
+with other positions across the field.
+
+This research has made use of MAXI data provided by RIKEN,
+JAXA and the MAXI team.
+[MAXI mission paper](https://doi.org/10.1093/pasj/61.5.999) ·
+[MAXI on-demand method](https://maxi.riken.jp/mxondem/readme) ·
+[October extraction](https://maxi.riken.jp/mxondem/api/results/20261127092354_q0acckfu2rm08l1r/index.html) ·
+[November extraction](https://maxi.riken.jp/mxondem/api/results/20261127092373_g90xwlullvjbdll2/index.html) ·
+[Per-scan rates, integration overlaps and archive receipts](../results/jwst_cross_detector/module_b_001_maxi_2026.json).
+
+![Observed MAXI count images and per-scan photometry with uncertainties. The shaded intervals mark the individual JWST integrations.](../figures/jwst_cross_detector/module_b_001_maxi_2026.png)
+
+**Einstein Probe.** The public ESA archive returned 60,027 FXT
+product rows through 14 August 2026. Eleven FXT observation IDs
+have published centers within 3° of the target, including one
+1.48° away on 3 December 2024. No public footprint covers
+the target. The public WXT product table returned zero rows
+and this archive check leaves WXT survey exposure during the
+JWST event unknown.
+[Einstein Probe release description](https://ep.bao.ac.cn/ep/cms/article/view?id=196) ·
+[ESA archive queries and footprints](../results/jwst_cross_detector/module_b_001_einstein_probe_coverage.json).
+
 **Blanco/DECam.** The NOIRLab query screened 374 individual
 calibrated-detector footprints from 1 October through 26 November
 2026. The four corners in each public metadata record were ordered
@@ -1451,7 +1501,8 @@ extend the earlier baseline. The 1990s NVSS mosaic provides an
 earlier radio measurement with an undetermined local observation date.
 The October–November 2026 records keep unreleased DECam footprints,
 nearby Rubin alerts and off-target HST footprints distinct from the
-two measured JWST visits and the 11 November Las Cumbres measurement.
+two measured JWST visits, the overlapping MAXI scans and the 11
+November Las Cumbres measurement.
 [Timeline source and date ledger](../results/jwst_cross_detector/module_b_001_cross_survey_timeline.json).
 
 ![Historical and contemporaneous survey records near JADES 103607](../figures/jwst_cross_detector/module_b_001_cross_survey_timeline.png)

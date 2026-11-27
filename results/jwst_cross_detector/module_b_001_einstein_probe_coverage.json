@@ -1,0 +1,203 @@
+{
+  "executed_utc": "2026-11-27T09:26:33.635917+00:00",
+  "script_sha256": "71b3a837a0910c965a8840e3e8e8725debf5370adb5b59b3f50a9301c934ec0e",
+  "position_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "event_interval_utc_inclusive_start_exclusive_end": [
+    "2026-10-01",
+    "2026-11-27"
+  ],
+  "raw_storage_cap_mib": 34200,
+  "archive_queries": {
+    "obscore_epoch_range": {
+      "path": "data/raw/einstein_probe/obscore_epoch_range.vot",
+      "url": "https://emds.esac.esa.int/service/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+instrument_name%2C+COUNT%28%2A%29+AS+n%2C+MIN%28t_min%29+AS+lo%2C+MAX%28t_max%29+AS+hi+FROM+einsteinprobe.obscore+GROUP+BY+instrument_name",
+      "sha256": "a4af93a4980065e60c60416405110fec7859fa6c640c68c7dea3ce67aff47b63"
+    },
+    "wxt_product_size": {
+      "path": "data/raw/einstein_probe/wxt_product_size.vot",
+      "url": "https://emds.esac.esa.int/service/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+einsteinprobe.wxt_product",
+      "sha256": "3f2ade63847787a264224e9b2b5287d9d29b67bafa00f04d124be2afbd831ae5"
+    },
+    "geometry": {
+      "path": "data/raw/einstein_probe/geometry.vot",
+      "url": "https://emds.esac.esa.int/service/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+obs_id%2Cinstrument_name%2Ct_min%2Ct_max%2Cs_region+FROM+einsteinprobe.obscore+WHERE+CONTAINS%28POINT%28%27ICRS%27%2C53.18866983298658%2C-27.812539402767552%29%2Cs_region%29%3D1",
+      "sha256": "1b4869cb6dd18cc310526e84361f0ddbfb082e2c8e1d22712671e298aaddbc15"
+    },
+    "centers": {
+      "path": "data/raw/einstein_probe/centers.vot",
+      "url": "https://emds.esac.esa.int/service/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+obs_id%2Cinstrument_name%2Ct_min%2Ct_max%2Cs_ra%2Cs_dec%2Cs_fov%2Cs_region%2Ct_exptime+FROM+einsteinprobe.obscore+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cs_ra%2Cs_dec%29%2CCIRCLE%28%27ICRS%27%2C53.18866983298658%2C-27.812539402767552%2C3.0%29%29%3D1",
+      "sha256": "34ae2f052b98a31e5e24f0834735b03131e69c8a6f20f944fb2eeb6f52bd0b58"
+    },
+    "event_interval": {
+      "path": "data/raw/einstein_probe/event_interval.vot",
+      "url": "https://emds.esac.esa.int/service/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+obs_id%2Cinstrument_name%2Ct_min%2Ct_max%2Cs_ra%2Cs_dec%2Cs_region+FROM+einsteinprobe.obscore+WHERE+t_max+%3E%3D+61314.0+AND+t_min+%3C+61371.0+AND+%28CONTAINS%28POINT%28%27ICRS%27%2C53.18866983298658%2C-27.812539402767552%29%2Cs_region%29%3D1+OR+CONTAINS%28POINT%28%27ICRS%27%2Cs_ra%2Cs_dec%29%2CCIRCLE%28%27ICRS%27%2C53.18866983298658%2C-27.812539402767552%2C3.0%29%29%3D1%29",
+      "sha256": "b584afebe6394efa30b805902ea0bf6039db0ef23f4e7b16195de9df007a3680"
+    }
+  },
+  "public_obscore_date_ranges": [
+    {
+      "instrument": "FXT",
+      "product_rows": 60027,
+      "first_utc": "2024-07-12T19:27:11.147",
+      "last_utc": "2026-08-14T12:02:11.880"
+    }
+  ],
+  "public_wxt_product_table_rows": 0,
+  "footprint_match_observation_ids": [],
+  "event_interval_footprint_or_center_observation_ids": [],
+  "center_search_radius_deg": 3.0,
+  "nearest_public_observation_centers": [
+    {
+      "observation_id": "06800000274",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        54.0261592010371,
+        -26.5306358360855
+      ],
+      "center_distance_arcsec": 5337.6690467377175,
+      "start_utc": "2024-12-03T16:11:42.633",
+      "stop_utc": "2024-12-03T17:00:47.846",
+      "footprint_stcs": "Polygon 55.606184271021036 -26.521929857708244 55.13390089007265 -25.52672508587781 54.02616147770057 -25.11692275248844 52.9184220653285 -25.52672508587781 52.44613295480215 -26.521929857708244 52.89895295944996 -27.525837858446714 54.02616147770057 -27.944349150322072 55.15336426637325 -27.525837858446714",
+      "metadata_product_rows": 4
+    },
+    {
+      "observation_id": "11916650958",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        53.7155058496733,
+        -26.2914784083087
+      ],
+      "center_distance_arcsec": 5730.391561798284,
+      "start_utc": "2025-08-26T23:50:33.447",
+      "stop_utc": "2025-08-27T00:22:16.806",
+      "footprint_stcs": "Polygon 55.29226069506886 -26.282863217689904 54.821048745197366 -25.287612609235865 53.715503761180635 -24.87776443922288 52.60995877716391 -25.287612609235865 52.13875255687037 -26.282863217689904 52.59073604313728 -27.286725381804768 53.715503761180635 -27.705190837056517 54.84027720880196 -27.286725381804768",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11900010909",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.0570961334528,
+        -28.8449199186091
+      ],
+      "center_distance_arcsec": 10596.166585318131,
+      "start_utc": "2024-10-14T14:55:33.159",
+      "stop_utc": "2024-10-14T15:11:23.810",
+      "footprint_stcs": "Polygon 51.670955435457856 -28.83531571048436 51.187556673283936 -27.84056930489003 50.05709375475696 -27.43120814900291 48.92663656580795 -27.84056930489003 48.44323780363403 -28.83531571048436 48.90470374141034 -29.83966488872508 50.05709375475696 -30.258634546836543 51.209489497681545 -29.83966488872508",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11900008339",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.0523109977476,
+        -28.834393378547
+      ],
+      "center_distance_arcsec": 10597.618406054586,
+      "start_utc": "2024-09-30T20:27:53.402",
+      "stop_utc": "2024-09-30T20:57:19.810",
+      "footprint_stcs": "Polygon 51.66600508010792 -28.824790475787804 51.18266361371352 -27.830044070193473 50.052309557167625 -27.420682914306354 48.921961230199685 -27.830044070193473 48.43861403422732 -28.824790475787804 48.90003986495798 -29.82913965402853 50.052309557167625 -30.248103582562038 51.20458497895523 -29.82913965402853",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11900007650",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.0456724959551,
+        -28.8265471266096
+      ],
+      "center_distance_arcsec": 10607.943222895625,
+      "start_utc": "2024-09-17T00:39:23.196",
+      "stop_utc": "2024-09-17T00:50:41.846",
+      "footprint_stcs": "Polygon 51.659249907703334 -28.816946683572464 51.17594281877663 -27.82219454840018 50.045674705900005 -27.41283339251306 48.915406593023384 -27.82219454840018 48.43209950409668 -28.816946683572464 48.89349095735963 -29.821295861813187 50.045674705900005 -30.2402597903467 51.197858454440386 -29.821295861813187",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11916650925",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.033805395723,
+        -28.81928329269
+      ],
+      "center_distance_arcsec": 10634.642666229323,
+      "start_utc": "2025-08-25T04:43:32.906",
+      "stop_utc": "2025-08-25T05:08:06.808",
+      "footprint_stcs": "Polygon 51.647269360207154 -28.809687308308156 51.16399664874815 -27.814935173135872 50.033803020384894 -27.405568287670803 48.9036151215996 -27.814935173135872 48.4203424101406 -28.809687308308156 48.88170521551379 -29.814030756970926 50.033803020384894 -30.232994685504437 51.18590655483396 -29.814030756970926",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11916650908",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.0332400275091,
+        -28.8190523518977
+      ],
+      "center_distance_arcsec": 10636.054079331658,
+      "start_utc": "2025-08-24T04:45:23.899",
+      "stop_utc": "2025-08-24T05:08:07.805",
+      "footprint_stcs": "Polygon 51.64669640241202 -28.8094581251901 51.16342942053098 -27.81470599001782 50.03324152174567 -27.405339104552752 48.903047893382414 -27.81470599001782 48.41978091150137 -28.8094581251901 48.88114371687456 -29.813801573852874 50.03324152174567 -30.232765502386385 51.18533932661678 -29.813801573852874",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11916650901",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.0330188527545,
+        -28.8191341373113
+      ],
+      "center_distance_arcsec": 10636.809685064574,
+      "start_utc": "2025-08-23T19:05:18.181",
+      "stop_utc": "2025-08-23T19:32:11.784",
+      "footprint_stcs": "Polygon 51.64647867844987 -28.80953833928142 51.16321169656882 -27.81478620410914 50.033018068205564 -27.40541931864407 48.90283016942027 -27.81478620410914 48.419557457961275 -28.80953833928142 48.88092026333446 -29.81388178794419 50.033018068205564 -30.232845716477705 51.185115873076676 -29.81388178794419",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11916650859",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.0319856526273,
+        -28.8186789718507
+      ],
+      "center_distance_arcsec": 10639.350371300914,
+      "start_utc": "2025-08-21T19:07:30.919",
+      "stop_utc": "2025-08-21T19:32:54.776",
+      "footprint_stcs": "Polygon 51.64543589526273 -28.809085702623268 51.162174642959634 -27.814327837873034 50.03198674417434 -27.404966681985915 48.901798845389024 -27.814327837873034 48.41853186350798 -28.809085702623268 48.87989466888118 -29.81342915128604 50.03198674417434 -30.23239307981955 51.184078819467494 -29.81342915128604",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11916650833",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.0314692702236,
+        -28.8184850399613
+      ],
+      "center_distance_arcsec": 10640.6600452462,
+      "start_utc": "2025-08-20T19:07:55.902",
+      "stop_utc": "2025-08-20T19:33:30.809",
+      "footprint_stcs": "Polygon 51.64492023324711 -28.808890896972922 51.16165325136607 -27.814138761800642 50.03147108215872 -27.40477187633557 48.901283183373415 -27.814138761800642 48.41802193107032 -28.808890896972922 48.87937900686556 -29.813234345635696 50.03147108215872 -30.232198274169203 51.18355742787392 -29.813234345635696",
+      "metadata_product_rows": 12
+    },
+    {
+      "observation_id": "11916650757",
+      "instrument": "FXT",
+      "center_icrs_deg": [
+        50.02929001964,
+        -28.8176854154813
+      ],
+      "center_distance_arcsec": 10646.210903904057,
+      "start_utc": "2025-08-16T14:23:47.881",
+      "stop_utc": "2025-08-16T14:49:05.783",
+      "footprint_stcs": "Polygon 51.64272580489176 -28.808088756059743 51.159464552588666 -27.81333662088746 50.029288112959264 -27.403969735422386 48.89911167332987 -27.81333662088746 48.415850421026775 -28.808088756059743 48.87720749682202 -29.812437934300466 50.029288112959264 -30.231396133256023 51.18136872909652 -29.812437934300466",
+      "metadata_product_rows": 12
+    }
+  ],
+  "limitations": [
+    "The public ESA archive inventory does not test unpublished WXT survey exposure.",
+    "An observation center can lie in the cone while the published footprint misses.",
+    "The metadata search does not measure an X-ray flux or sensitivity."
+  ]
+}
