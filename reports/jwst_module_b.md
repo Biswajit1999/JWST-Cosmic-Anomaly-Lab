@@ -1133,6 +1133,37 @@ in the combined data.
 
 ![Observed MeerKAT intensity and local signal-to-noise maps with the JWST position marked](../figures/jwst_cross_detector/module_b_001_meerkat.png)
 
+**ALMA millimeter continuum, August 2016 to March 2025.** The
+ALMA Science Archive returned 52 spectral-window records with
+footprints covering the transient position, from 13 observing
+datasets. We measured all 48 public continuum maps from the 12
+datasets flagged as passing the archive's QA2 check. The four
+windows from a 2019 dataset did not pass that check. We fitted the restoring beam
+at the fixed JWST position in each primary-beam-corrected image
+and used nearby control positions to estimate the noise. Exact
+primary-beam maps were sampled in 36 windows. For the other 12,
+we estimated the uncertainty directly from the corrected pixels.
+[ALMA Science Archive documentation](https://almascience.eso.org/alma-data/archive/archive-notebooks) ·
+[Coverage queries and FITS product inventory](../results/jwst_cross_detector/module_b_001_alma_inventory.json).
+
+The deepest Band 3 dataset, taken on **17 March 2025**, yielded
+**−1.0 ± 9.8 µJy at 96.2 GHz** across four spectral windows.
+The point-source sensitivity was **48.9 µJy at five times the
+local scatter**, and the 90% recovery estimate was **63.1 µJy**
+for a matching compact source. The deepest Band 6 dataset,
+starting **12 September 2016**, yielded **27 ± 68 µJy at
+251.2 GHz**. Its five-scatter sensitivity was **342 µJy**.
+The largest positive dataset-level score at the target was 1.33.
+At the separate SIMBAD position of JADES 103483, 1.54″ away,
+the largest absolute dataset-level score was 1.35 on the
+target's noise scale. The data provide no significant compact
+continuum detection at either position. The sensitivities apply
+to the sampled intervals and frequencies. They leave fainter
+or resolved emission unconstrained.
+[Signed beam fits, noise controls and recovery depths](../results/jwst_cross_detector/module_b_001_alma_continuum.json).
+
+![Actual ALMA Band 3 and Band 6 images and historical continuum measurements. The cross marks the JWST transient position, the green circle marks JADES 103483, and the black ellipse in each lower-left corner shows the restoring beam.](../figures/jwst_cross_detector/module_b_001_alma_continuum.png)
+
 The historical record samples distinct optical, infrared, X-ray
 and radio observing windows. The measured flux and count-rate sensitivities
 apply to those windows. Gaps in cadence and sensitivity leave the
@@ -1205,6 +1236,14 @@ spectrum at the transient position.
 [ESO TAP access](https://www.eso.org/cms/eso-data/programmatic-access.html) ·
 [KMOS IFU geometry](https://www.eso.org/sci/facilities/paranal/instruments/kmos.html) ·
 [Archived headers and arm positions](../results/jwst_cross_detector/module_b_001_kmos_2026.json).
+
+**ALMA.** No published ALMA footprint intersects the transient
+position between 1 October and 26 November 2026. A wider
+pointing-center search found 64 proprietary spectral-window
+records from seven observing datasets. The nearest center was
+122.04″ away. These records establish nearby activity in the
+field and give no contemporaneous flux constraint at the target.
+[Time-window and pointing-center queries](../results/jwst_cross_detector/module_b_001_alma_inventory.json).
 
 **Vera C. Rubin Observatory.** The public Fink difference-alert
 search returns zero objects within 5 arcsec for the same
@@ -1295,8 +1334,9 @@ fainter transients and events in the gaps remain unconstrained.
 The timeline summarizes the dates behind the historical comparison
 and the search for independent evidence during the 2026 event.
 The DES z-band measurements, Swift XRT visits, Swift UVOT snapshot,
-Euclid H-band visits, ZTF public image dates, TESS cadence days and Las
-Cumbres r′ measurements extend the earlier baseline.
+Euclid H-band visits, ZTF public image dates, TESS cadence days,
+Las Cumbres r′ measurements and ALMA datasets extend the earlier
+baseline.
 The October–November 2026 records keep unreleased DECam footprints,
 nearby Rubin alerts and off-target HST footprints distinct from the
 two measured JWST visits and the 11 November Las Cumbres measurement.

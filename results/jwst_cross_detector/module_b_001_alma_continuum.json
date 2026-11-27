@@ -1,0 +1,2839 @@
+{
+  "executed_utc": "2026-11-27T08:51:59.180620+00:00",
+  "script_sha256": "96ea8c5f8570736242903770a86bbba0154f037e349e8a9d4496c05041c25046",
+  "inventory_sha256": "c9dd74e0fa3e1fc7d4af00ee89b000c442fbef9dd0021fec7d8644157ff04ab1",
+  "neighbor_context_sha256": "0e13157a30a11e8af842752a039923b5bd0c419b24da51a156aae04e82462814",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "neighbor_simbad_position_icrs_deg": [
+    53.18825,
+    -27.81275
+  ],
+  "neighbor_simbad_separation_arcsec": 1.536822372003027,
+  "control_offsets_east_north_arcsec": [
+    [
+      0,
+      -16
+    ],
+    [
+      -6,
+      -14
+    ],
+    [
+      -4,
+      -14
+    ],
+    [
+      -2,
+      -14
+    ],
+    [
+      0,
+      -14
+    ],
+    [
+      2,
+      -14
+    ],
+    [
+      4,
+      -14
+    ],
+    [
+      6,
+      -14
+    ],
+    [
+      -10,
+      -12
+    ],
+    [
+      -8,
+      -12
+    ],
+    [
+      -6,
+      -12
+    ],
+    [
+      -4,
+      -12
+    ],
+    [
+      -2,
+      -12
+    ],
+    [
+      0,
+      -12
+    ],
+    [
+      2,
+      -12
+    ],
+    [
+      4,
+      -12
+    ],
+    [
+      6,
+      -12
+    ],
+    [
+      8,
+      -12
+    ],
+    [
+      10,
+      -12
+    ],
+    [
+      -12,
+      -10
+    ],
+    [
+      -10,
+      -10
+    ],
+    [
+      -8,
+      -10
+    ],
+    [
+      -6,
+      -10
+    ],
+    [
+      -4,
+      -10
+    ],
+    [
+      -2,
+      -10
+    ],
+    [
+      0,
+      -10
+    ],
+    [
+      2,
+      -10
+    ],
+    [
+      4,
+      -10
+    ],
+    [
+      6,
+      -10
+    ],
+    [
+      8,
+      -10
+    ],
+    [
+      10,
+      -10
+    ],
+    [
+      12,
+      -10
+    ],
+    [
+      -12,
+      -8
+    ],
+    [
+      -10,
+      -8
+    ],
+    [
+      -8,
+      -8
+    ],
+    [
+      -6,
+      -8
+    ],
+    [
+      -4,
+      -8
+    ],
+    [
+      -2,
+      -8
+    ],
+    [
+      0,
+      -8
+    ],
+    [
+      2,
+      -8
+    ],
+    [
+      4,
+      -8
+    ],
+    [
+      6,
+      -8
+    ],
+    [
+      8,
+      -8
+    ],
+    [
+      10,
+      -8
+    ],
+    [
+      12,
+      -8
+    ],
+    [
+      -14,
+      -6
+    ],
+    [
+      -12,
+      -6
+    ],
+    [
+      -10,
+      -6
+    ],
+    [
+      -8,
+      -6
+    ],
+    [
+      -6,
+      -6
+    ],
+    [
+      -4,
+      -6
+    ],
+    [
+      -2,
+      -6
+    ],
+    [
+      0,
+      -6
+    ],
+    [
+      2,
+      -6
+    ],
+    [
+      4,
+      -6
+    ],
+    [
+      6,
+      -6
+    ],
+    [
+      8,
+      -6
+    ],
+    [
+      10,
+      -6
+    ],
+    [
+      12,
+      -6
+    ],
+    [
+      14,
+      -6
+    ],
+    [
+      -14,
+      -4
+    ],
+    [
+      -12,
+      -4
+    ],
+    [
+      -10,
+      -4
+    ],
+    [
+      -8,
+      -4
+    ],
+    [
+      -6,
+      -4
+    ],
+    [
+      -4,
+      -4
+    ],
+    [
+      -2,
+      -4
+    ],
+    [
+      0,
+      -4
+    ],
+    [
+      2,
+      -4
+    ],
+    [
+      4,
+      -4
+    ],
+    [
+      6,
+      -4
+    ],
+    [
+      8,
+      -4
+    ],
+    [
+      10,
+      -4
+    ],
+    [
+      12,
+      -4
+    ],
+    [
+      14,
+      -4
+    ],
+    [
+      -14,
+      -2
+    ],
+    [
+      -12,
+      -2
+    ],
+    [
+      -10,
+      -2
+    ],
+    [
+      -8,
+      -2
+    ],
+    [
+      -6,
+      -2
+    ],
+    [
+      -4,
+      -2
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      6,
+      -2
+    ],
+    [
+      8,
+      -2
+    ],
+    [
+      10,
+      -2
+    ],
+    [
+      12,
+      -2
+    ],
+    [
+      14,
+      -2
+    ],
+    [
+      -16,
+      0
+    ],
+    [
+      -14,
+      0
+    ],
+    [
+      -12,
+      0
+    ],
+    [
+      -10,
+      0
+    ],
+    [
+      -8,
+      0
+    ],
+    [
+      -6,
+      0
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      16,
+      0
+    ],
+    [
+      -14,
+      2
+    ],
+    [
+      -12,
+      2
+    ],
+    [
+      -10,
+      2
+    ],
+    [
+      -8,
+      2
+    ],
+    [
+      -6,
+      2
+    ],
+    [
+      -4,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      14,
+      2
+    ],
+    [
+      -14,
+      4
+    ],
+    [
+      -12,
+      4
+    ],
+    [
+      -10,
+      4
+    ],
+    [
+      -8,
+      4
+    ],
+    [
+      -6,
+      4
+    ],
+    [
+      -4,
+      4
+    ],
+    [
+      -2,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      14,
+      4
+    ],
+    [
+      -14,
+      6
+    ],
+    [
+      -12,
+      6
+    ],
+    [
+      -10,
+      6
+    ],
+    [
+      -8,
+      6
+    ],
+    [
+      -6,
+      6
+    ],
+    [
+      -4,
+      6
+    ],
+    [
+      -2,
+      6
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      12,
+      6
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      -12,
+      8
+    ],
+    [
+      -10,
+      8
+    ],
+    [
+      -8,
+      8
+    ],
+    [
+      -6,
+      8
+    ],
+    [
+      -4,
+      8
+    ],
+    [
+      -2,
+      8
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      -12,
+      10
+    ],
+    [
+      -10,
+      10
+    ],
+    [
+      -8,
+      10
+    ],
+    [
+      -6,
+      10
+    ],
+    [
+      -4,
+      10
+    ],
+    [
+      -2,
+      10
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      12,
+      10
+    ],
+    [
+      -10,
+      12
+    ],
+    [
+      -8,
+      12
+    ],
+    [
+      -6,
+      12
+    ],
+    [
+      -4,
+      12
+    ],
+    [
+      -2,
+      12
+    ],
+    [
+      0,
+      12
+    ],
+    [
+      2,
+      12
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      -6,
+      14
+    ],
+    [
+      -4,
+      14
+    ],
+    [
+      -2,
+      14
+    ],
+    [
+      0,
+      14
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      4,
+      14
+    ],
+    [
+      6,
+      14
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "windows": [
+    {
+      "obs_id": "uid://A001/X2fb/X21d.source.GOODS-S.spw.17",
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "band_list": 6,
+      "t_min": 57601.409463,
+      "t_max": 57602.400858,
+      "frequency_ghz": 255.89660321210002,
+      "restoring_beam_fwhm_arcsec": [
+        0.256577432155596,
+        0.223235040903084
+      ],
+      "restoring_beam_pa_deg": -85.02895355225,
+      "fits_date_obs_utc": "2016-08-01T11:42:47.088000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw0_255897MHz.12m.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw0_255897MHz.12m.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "45de79a14151d7a83196084b2f55c987e8dbf2218cf1fb04cab684399d9e33a2"
+      },
+      "wcs_pixel_scale_arcsec": 0.04400000006432401,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": 163.6622254048958,
+      "local_error_ujy": 345.67445760124673,
+      "score": 0.473457676163301,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 108.80201364986377,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": -6.113985634033598
+    },
+    {
+      "obs_id": "uid://A001/X2fb/X21d.source.GOODS-S.spw.19",
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "band_list": 6,
+      "t_min": 57601.409463,
+      "t_max": 57602.400858,
+      "frequency_ghz": 257.8575146507,
+      "restoring_beam_fwhm_arcsec": [
+        0.25246006250382,
+        0.22062647342681999
+      ],
+      "restoring_beam_pa_deg": -80.8355255127,
+      "fits_date_obs_utc": "2016-08-01T11:42:47.088000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw1_257858MHz.12m.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw1_257858MHz.12m.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "0e3185a669bec81272c342246aaaa7a9096fcc2e3aadeea8a58560d529d2ff97"
+      },
+      "wcs_pixel_scale_arcsec": 0.04400000006432401,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": -209.87847298258092,
+      "local_error_ujy": 333.85863281580185,
+      "score": -0.6286447386800871,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 95.55880532140247,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": 48.23700143629745
+    },
+    {
+      "obs_id": "uid://A001/X2fb/X21d.source.GOODS-S.spw.21",
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "band_list": 6,
+      "t_min": 57601.409463,
+      "t_max": 57602.400858,
+      "frequency_ghz": 271.82607916710003,
+      "restoring_beam_fwhm_arcsec": [
+        0.23872441053391202,
+        0.209342867136012
+      ],
+      "restoring_beam_pa_deg": -85.309715271,
+      "fits_date_obs_utc": "2016-08-01T11:42:47.088000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw2_271826MHz.12m.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw2_271826MHz.12m.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "3c7cea165aed3e16b681468a6a8b121218aee32c0bccbe0c7c0fa4a30f963801"
+      },
+      "wcs_pixel_scale_arcsec": 0.04400000006432401,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": -713.5256828917143,
+      "local_error_ujy": 394.6454845553643,
+      "score": -1.8080168424975724,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -437.7637286640406,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": 70.45547516727427
+    },
+    {
+      "obs_id": "uid://A001/X2fb/X21d.source.GOODS-S.spw.23",
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "band_list": 6,
+      "t_min": 57601.409463,
+      "t_max": 57602.400858,
+      "frequency_ghz": 273.990112931,
+      "restoring_beam_fwhm_arcsec": [
+        0.233595252037044,
+        0.20463798940182001
+      ],
+      "restoring_beam_pa_deg": -83.60550689697,
+      "fits_date_obs_utc": "2016-08-01T11:42:47.088000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw3_273990MHz.12m.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw3_273990MHz.12m.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "e922bebb90fb4a11cd26f07a66edf8674763b77990138d320ea42d84f88f5bb8"
+      },
+      "wcs_pixel_scale_arcsec": 0.04400000006432401,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": -389.7372319562872,
+      "local_error_ujy": 552.2115193766211,
+      "score": -0.7057752659637607,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 93.72890315398092,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": -8.83141455843817
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.17",
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band_list": 6,
+      "t_min": 57643.321601,
+      "t_max": 57645.225617,
+      "frequency_ghz": 245.12006607100002,
+      "restoring_beam_fwhm_arcsec": [
+        0.15086248517037598,
+        0.127796441316588
+      ],
+      "restoring_beam_pa_deg": -35.30505371094,
+      "fits_date_obs_utc": "2016-09-12T07:43:11.808000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "f886973b39f8f8e798b59b4c254da234193275ebd1c206324c66e4ac3866e768"
+      },
+      "wcs_pixel_scale_arcsec": 0.018000000000000002,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": -19.059657623498268,
+      "local_error_ujy": 118.41016459068867,
+      "score": -0.16096301942812305,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 160.1879164159086,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": 16.403539186597378
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.19",
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band_list": 6,
+      "t_min": 57643.321601,
+      "t_max": 57645.225617,
+      "frequency_ghz": 247.070379266,
+      "restoring_beam_fwhm_arcsec": [
+        0.148260787129404,
+        0.127357318997388
+      ],
+      "restoring_beam_pa_deg": -32.20889663696,
+      "fits_date_obs_utc": "2016-09-12T07:43:11.808000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "207270152176ade98fb9289234bf07e0ad8854d4a62a4129bd25273e8bf3f058"
+      },
+      "wcs_pixel_scale_arcsec": 0.018000000000000002,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": 26.95731630343583,
+      "local_error_ujy": 118.03049003003255,
+      "score": 0.2283928186401379,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -21.061262955417746,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": 2.5924782805514415
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.21",
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band_list": 6,
+      "t_min": 57643.321601,
+      "t_max": 57645.225617,
+      "frequency_ghz": 260.1356951634,
+      "restoring_beam_fwhm_arcsec": [
+        0.145610541105264,
+        0.13388219475746402
+      ],
+      "restoring_beam_pa_deg": -14.43458652496,
+      "fits_date_obs_utc": "2016-09-12T07:43:11.808000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "305781a02236f13ea0b3236ac6e817e0f71ecf296be473ce43bd0c54bdc27761"
+      },
+      "wcs_pixel_scale_arcsec": 0.018000000000000002,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": 2.0318079490671606,
+      "local_error_ujy": 161.6218661071104,
+      "score": 0.012571367959089374,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -123.7347281504941,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": 5.282609659462787
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.23",
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band_list": 6,
+      "t_min": 57643.321601,
+      "t_max": 57645.225617,
+      "frequency_ghz": 262.01569567120004,
+      "restoring_beam_fwhm_arcsec": [
+        0.143592029809956,
+        0.132877379655828
+      ],
+      "restoring_beam_pa_deg": -15.57775878906,
+      "fits_date_obs_utc": "2016-09-12T07:43:11.808000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "e830ceb6bee6d47af2d6776164f4eabceb5742b327d18b12af49d678de97220f"
+      },
+      "wcs_pixel_scale_arcsec": 0.018000000000000002,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": 164.39886573702526,
+      "local_error_ujy": 167.41902904285448,
+      "score": 0.9819604538200007,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 138.49198505787857,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": -7.469830232928617
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.17",
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band_list": 6,
+      "t_min": 57659.456803,
+      "t_max": 57660.371153,
+      "frequency_ghz": 254.120070306,
+      "restoring_beam_fwhm_arcsec": [
+        0.157484591007228,
+        0.131266951560972
+      ],
+      "restoring_beam_pa_deg": 38.61273193359,
+      "fits_date_obs_utc": "2016-09-28T10:57:53.184000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "f83b63070798a631e12681b2aae854a4e30e0808eb245d2eedcaeee2d9062302"
+      },
+      "wcs_pixel_scale_arcsec": 0.015000000000001196,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": 266.89223275044924,
+      "local_error_ujy": 206.71354288520973,
+      "score": 1.2911211768,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 276.07330547989454,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": -17.414986144136073
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.19",
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band_list": 6,
+      "t_min": 57659.456803,
+      "t_max": 57660.371153,
+      "frequency_ghz": 255.72660958300003,
+      "restoring_beam_fwhm_arcsec": [
+        0.16014960408211198,
+        0.13308237493038
+      ],
+      "restoring_beam_pa_deg": 38.29531478882,
+      "fits_date_obs_utc": "2016-09-28T10:57:53.184000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "18fc6f8da69c757bbb7fcc7b8f1c80b9e488df93112f59a57343756f934cc493"
+      },
+      "wcs_pixel_scale_arcsec": 0.015000000000001196,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": 285.3985915287428,
+      "local_error_ujy": 411.02907096911804,
+      "score": 0.6943513529489153,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -548.6430232172745,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": 49.8728875621444
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.21",
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band_list": 6,
+      "t_min": 57659.456803,
+      "t_max": 57660.371153,
+      "frequency_ghz": 269.5810198383,
+      "restoring_beam_fwhm_arcsec": [
+        0.163468107581148,
+        0.125772505998624
+      ],
+      "restoring_beam_pa_deg": 43.45329666138,
+      "fits_date_obs_utc": "2016-09-28T10:57:53.184000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "d729f646708e1a3dff455b0e9edb768ea45baee054b1aa790970bca21e65cf11"
+      },
+      "wcs_pixel_scale_arcsec": 0.015000000000001196,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": -411.0737947914213,
+      "local_error_ujy": 389.2439133283832,
+      "score": -1.0560827818124967,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -57.28435268035809,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": -36.17033794228346
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.23",
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band_list": 6,
+      "t_min": 57659.456803,
+      "t_max": 57660.371153,
+      "frequency_ghz": 271.0703886933,
+      "restoring_beam_fwhm_arcsec": [
+        0.1584397405386,
+        0.12415520101784398
+      ],
+      "restoring_beam_pa_deg": 47.10807037354,
+      "fits_date_obs_utc": "2016-09-28T10:57:53.184000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "39ee8749b69c4834e85a34b457939bbd52445f6f52906d08fd7aa4b75d00d359"
+      },
+      "wcs_pixel_scale_arcsec": 0.015000000000001196,
+      "primary_beam_at_position": null,
+      "status": "measured",
+      "signed_flux_ujy": 611.3792343654549,
+      "local_error_ujy": 469.3821496924447,
+      "score": 1.3025191408877639,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -251.84680647970345,
+      "noise_qualification": "local residuals in the primary-beam-corrected image",
+      "control_median_ujy": 19.48156582652006
+    },
+    {
+      "obs_id": "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.25",
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 58198.913781,
+      "t_max": 58207.882369,
+      "frequency_ghz": 92.63604806542,
+      "restoring_beam_fwhm_arcsec": [
+        1.31042277812952,
+        1.02835512161244
+      ],
+      "restoring_beam_pa_deg": -71.1669921875,
+      "fits_date_obs_utc": "2018-03-25T21:46:42.288000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "9978a0960c1be3eb4cd2d1e230a70942efa1ed2bdd0defc07d905406f2d38552"
+      },
+      "wcs_pixel_scale_arcsec": 0.320000000000004,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "31c02d8058db33d25f323552b298493baa25766347511add57d6d460cdf8eaaf"
+      },
+      "primary_beam_at_position": 0.9753375506276573,
+      "status": "measured",
+      "signed_flux_ujy": -76.35446330115494,
+      "local_error_ujy": 102.28867262550492,
+      "score": -0.7464605937423859,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 29.53807550284333,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 3.347878361881792
+    },
+    {
+      "obs_id": "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.27",
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 58198.913781,
+      "t_max": 58207.882369,
+      "frequency_ghz": 94.51397831666002,
+      "restoring_beam_fwhm_arcsec": [
+        1.2632641792297201,
+        0.9990296363829599
+      ],
+      "restoring_beam_pa_deg": -71.11340332031,
+      "fits_date_obs_utc": "2018-03-25T21:46:42.288000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "4c01c662d5d1c4a3529cd569cf6ff3a94e1b3130e725daa1db18e9b6a854c1b6"
+      },
+      "wcs_pixel_scale_arcsec": 0.320000000000004,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "34f831dcec17cf9c3897a3ad0da15c99ee63217221480dccd6e0d53c56b79eb4"
+      },
+      "primary_beam_at_position": 0.9772526092793014,
+      "status": "measured",
+      "signed_flux_ujy": 89.73246781642726,
+      "local_error_ujy": 87.43403976409104,
+      "score": 1.026287565558422,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -44.1408242011354,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -3.5934238738824256
+    },
+    {
+      "obs_id": "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.29",
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 58198.913781,
+      "t_max": 58207.882369,
+      "frequency_ghz": 104.6345847504,
+      "restoring_beam_fwhm_arcsec": [
+        1.15814375877384,
+        0.9063752293587599
+      ],
+      "restoring_beam_pa_deg": -70.89016723633,
+      "fits_date_obs_utc": "2018-03-25T21:46:42.288000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "a335d07dc784eb9c51ac95a1b33368af77510aa4233be236276093218ce3ddfa"
+      },
+      "wcs_pixel_scale_arcsec": 0.320000000000004,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "9b6dbf3b2e9e88ae7217e0759466d661f23d63437660fcf2279e875d7da0c83f"
+      },
+      "primary_beam_at_position": 0.9775100978136423,
+      "status": "measured",
+      "signed_flux_ujy": 108.18071481534855,
+      "local_error_ujy": 109.77061877362117,
+      "score": 0.9855161246603569,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -175.8056839422078,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 7.803706535222471
+    },
+    {
+      "obs_id": "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.31",
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 58198.913781,
+      "t_max": 58207.882369,
+      "frequency_ghz": 106.50860834980001,
+      "restoring_beam_fwhm_arcsec": [
+        1.13272738456716,
+        0.89320433139792
+      ],
+      "restoring_beam_pa_deg": -71.93017578125,
+      "fits_date_obs_utc": "2018-03-25T21:46:42.288000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "7819e51653119eaeda43eb9d094fb9f87454be31c61c5ed1aaafa3683db7acdc"
+      },
+      "wcs_pixel_scale_arcsec": 0.320000000000004,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "41f9d5b658e88c6710d71ac5be9c1497e6f4e867b6ada2f0f1f6c11a5c68c216"
+      },
+      "primary_beam_at_position": 0.974671427916463,
+      "status": "measured",
+      "signed_flux_ujy": -104.19294328890399,
+      "local_error_ujy": 116.09442885592429,
+      "score": -0.8974844384497528,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 18.312617015015793,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -3.6266709580336522
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.25",
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59559.193368,
+      "t_max": 59559.225811,
+      "frequency_ghz": 85.01408095212,
+      "restoring_beam_fwhm_arcsec": [
+        0.8571815490722401,
+        0.6696138381958799
+      ],
+      "restoring_beam_pa_deg": 88.36437225342,
+      "fits_date_obs_utc": "2021-12-11T04:38:30.000000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "e3213d4e8cd35bc100cf4ded10268c8cf2e82e4ac312865d73d35d6717da383f"
+      },
+      "wcs_pixel_scale_arcsec": 0.11999999993162398,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "0e5fb0c915ec3af6b92b6fa8932c9ba8c969526116876d8104aeec4291e0acf8"
+      },
+      "primary_beam_at_position": 0.7745238128071805,
+      "status": "measured",
+      "signed_flux_ujy": -135.1022813125718,
+      "local_error_ujy": 153.73039503302786,
+      "score": -0.8788260856517415,
+      "controls": 162,
+      "neighbor_signed_flux_ujy": -8.63621838511692,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -13.189924466959642
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.27",
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59559.193368,
+      "t_max": 59559.225811,
+      "frequency_ghz": 86.88517476468,
+      "restoring_beam_fwhm_arcsec": [
+        0.8383353948594,
+        0.65539747476576
+      ],
+      "restoring_beam_pa_deg": 87.70149993896,
+      "fits_date_obs_utc": "2021-12-11T04:38:30.000000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "85e8ee0a989e413c3580e3161e98e63cdead4f577a6a319ccc02a2e7a411220f"
+      },
+      "wcs_pixel_scale_arcsec": 0.11999999993162398,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "7e514c8bf0e96a33915d31c28b60db016a8e709da4fb3bc65140fae67b24ad71"
+      },
+      "primary_beam_at_position": 0.765133143084809,
+      "status": "measured",
+      "signed_flux_ujy": 91.43191709551728,
+      "local_error_ujy": 123.46156930947136,
+      "score": 0.7405698599726375,
+      "controls": 162,
+      "neighbor_signed_flux_ujy": -20.531441331023235,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -3.3085108039922666
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.29",
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59559.193368,
+      "t_max": 59559.225811,
+      "frequency_ghz": 97.16252376684,
+      "restoring_beam_fwhm_arcsec": [
+        0.759916126728,
+        0.59431087970748
+      ],
+      "restoring_beam_pa_deg": 86.067527771,
+      "fits_date_obs_utc": "2021-12-11T04:38:30.000000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "766e1671b2bf33d4232e090fdcbf235198196ad0e13a4099023dea4e2a9d6271"
+      },
+      "wcs_pixel_scale_arcsec": 0.11999999993162398,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "e254e14a652bd03829113a1414a83604a96b87dae18644bf9af57b99040b8104"
+      },
+      "primary_beam_at_position": 0.7125557761352193,
+      "status": "measured",
+      "signed_flux_ujy": 103.64122959761895,
+      "local_error_ujy": 149.46396827433554,
+      "score": 0.6934194963122439,
+      "controls": 142,
+      "neighbor_signed_flux_ujy": 74.47878216540352,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 22.690779756249846
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.31",
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59559.193368,
+      "t_max": 59559.225811,
+      "frequency_ghz": 99.03748422379,
+      "restoring_beam_fwhm_arcsec": [
+        0.75458312034624,
+        0.57909846305844
+      ],
+      "restoring_beam_pa_deg": 89.70555877686,
+      "fits_date_obs_utc": "2021-12-11T04:38:30.000000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "71ca647484544e81d1b99336aba34f451b5d1a71dc9690f62cefedfcabe0959b"
+      },
+      "wcs_pixel_scale_arcsec": 0.11999999993162398,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "569fd2867bf997f0648879cbce21bf511819a2cf923293ffd78becfecf3a491c"
+      },
+      "primary_beam_at_position": 0.7026104394096955,
+      "status": "measured",
+      "signed_flux_ujy": 215.97907862196823,
+      "local_error_ujy": 116.65440638124153,
+      "score": 1.8514438101559658,
+      "controls": 139,
+      "neighbor_signed_flux_ujy": -245.70719804911135,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -6.953444564226887
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.25",
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59559.241897,
+      "t_max": 59559.274349,
+      "frequency_ghz": 88.79337741973,
+      "restoring_beam_fwhm_arcsec": [
+        1.04097163677228,
+        0.63462531566628
+      ],
+      "restoring_beam_pa_deg": -85.79406738281,
+      "fits_date_obs_utc": "2021-12-11T05:48:22.896000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "82a7c6e2bd414f4f6cb42f349f6a3d902609e58f1816d920a8a8f65384ec9af3"
+      },
+      "wcs_pixel_scale_arcsec": 0.109999999954512,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "40870840a1bac36375fdd3509f0db47c4d6238bea83d2d4874b75546792f64d6"
+      },
+      "primary_beam_at_position": 0.7555609909176457,
+      "status": "measured",
+      "signed_flux_ujy": 237.68490406635294,
+      "local_error_ujy": 129.32058400124183,
+      "score": 1.83795105707279,
+      "controls": 160,
+      "neighbor_signed_flux_ujy": 137.9469675477223,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -30.77151622008427
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.27",
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59559.241897,
+      "t_max": 59559.274349,
+      "frequency_ghz": 90.66251781956001,
+      "restoring_beam_fwhm_arcsec": [
+        1.0233812332152,
+        0.62374448776248
+      ],
+      "restoring_beam_pa_deg": -85.85966491699,
+      "fits_date_obs_utc": "2021-12-11T05:48:22.896000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "f16e38d91ab53c4f57ddee469cad60743f2e4ea2539690e45902327315ac9b55"
+      },
+      "wcs_pixel_scale_arcsec": 0.109999999954512,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "637a01e3103036f588b74e8ebcec426e8f5c0dcbb070b766069e0eb5d98c6d58"
+      },
+      "primary_beam_at_position": 0.7461130440055677,
+      "status": "measured",
+      "signed_flux_ujy": -98.63667636090987,
+      "local_error_ujy": 125.29644554529473,
+      "score": -0.7872264526869812,
+      "controls": 157,
+      "neighbor_signed_flux_ujy": 94.93776148575044,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 20.87749039387498
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.29",
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59559.241897,
+      "t_max": 59559.274349,
+      "frequency_ghz": 100.90811317970001,
+      "restoring_beam_fwhm_arcsec": [
+        0.9199881553651199,
+        0.56074732542036
+      ],
+      "restoring_beam_pa_deg": -85.9828338623,
+      "fits_date_obs_utc": "2021-12-11T05:48:22.896000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "68e576b5d1fe7b912844869381a853ab143fc54700ee24b3e7b62068790c5398"
+      },
+      "wcs_pixel_scale_arcsec": 0.109999999954512,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "4f8d9f852fb54b2be36f843c5519952c7d844e217c39e0195dcba2f21ef1a23b"
+      },
+      "primary_beam_at_position": 0.6927421831549605,
+      "status": "measured",
+      "signed_flux_ujy": 132.40015963291668,
+      "local_error_ujy": 139.4078553284411,
+      "score": 0.9497324187434455,
+      "controls": 133,
+      "neighbor_signed_flux_ujy": -30.707800121866306,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 3.464379963139969
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.31",
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59559.241897,
+      "t_max": 59559.274349,
+      "frequency_ghz": 102.79678680280001,
+      "restoring_beam_fwhm_arcsec": [
+        0.90198945999144,
+        0.5505082607268
+      ],
+      "restoring_beam_pa_deg": -85.89613342285,
+      "fits_date_obs_utc": "2021-12-11T05:48:22.896000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "7dece912fdaf01efa509d927ace4367d2a073520a01ea2b16243ef0442897457"
+      },
+      "wcs_pixel_scale_arcsec": 0.109999999954512,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "604288e0348db8839498e5ed460b50ea16e68b08a10acc1a7ec6b81ef8a60dcd"
+      },
+      "primary_beam_at_position": 0.6826026429671869,
+      "status": "measured",
+      "signed_flux_ujy": -280.32637271752196,
+      "local_error_ujy": 145.26504923924955,
+      "score": -1.9297578749023674,
+      "controls": 131,
+      "neighbor_signed_flux_ujy": 145.08227897775888,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 21.931360590800914
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.25",
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59567.007789,
+      "t_max": 59567.040252,
+      "frequency_ghz": 92.55118785465,
+      "restoring_beam_fwhm_arcsec": [
+        0.8323981165886399,
+        0.7116447091104
+      ],
+      "restoring_beam_pa_deg": 82.65670776367,
+      "fits_date_obs_utc": "2021-12-19T00:11:15.984000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "2d6831eb3049a3b338ffd5140a8c3b56748bf8739e3846365a7232fd41932e8b"
+      },
+      "wcs_pixel_scale_arcsec": 0.12999999990873598,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "8cd02ebbf98bfb4bdd6583012421a9c74765ed69cffc7535e4440c71e5c2b3c6"
+      },
+      "primary_beam_at_position": 0.7364539025469762,
+      "status": "measured",
+      "signed_flux_ujy": 40.92231583958777,
+      "local_error_ujy": 125.41805729907976,
+      "score": 0.32628727250974593,
+      "controls": 155,
+      "neighbor_signed_flux_ujy": -49.15242701135238,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 1.3167386111658343
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.27",
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59567.007789,
+      "t_max": 59567.040252,
+      "frequency_ghz": 94.40860814926,
+      "restoring_beam_fwhm_arcsec": [
+        0.81643104553212,
+        0.70355677604688
+      ],
+      "restoring_beam_pa_deg": 80.84024047852,
+      "fits_date_obs_utc": "2021-12-19T00:11:15.984000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "68c51436e394bf6ae03fb4c4bba75f0f7a1fa49998a6e01f852bd1997284f85b"
+      },
+      "wcs_pixel_scale_arcsec": 0.12999999990873598,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "ce338f119e5bf2274259087ef8a36dc22d64c4c5366a74ab7589f08dc7029721"
+      },
+      "primary_beam_at_position": 0.7268431346477603,
+      "status": "measured",
+      "signed_flux_ujy": -74.58420072205826,
+      "local_error_ujy": 129.07759013668343,
+      "score": -0.5778245522176174,
+      "controls": 151,
+      "neighbor_signed_flux_ujy": 139.7454012332539,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 19.90927635684366
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.29",
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59567.007789,
+      "t_max": 59567.040252,
+      "frequency_ghz": 104.66201641210002,
+      "restoring_beam_fwhm_arcsec": [
+        0.73664057254788,
+        0.64059084653868
+      ],
+      "restoring_beam_pa_deg": 79.59717559814,
+      "fits_date_obs_utc": "2021-12-19T00:11:15.984000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "6827bc164728a289b0f38627d165ceee53dfa41cb54588e5690c9473a6d29a24"
+      },
+      "wcs_pixel_scale_arcsec": 0.12999999990873598,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "fa5fd4a4319adde8b51c33da6a1e13e227b55b0a23b375eea0b1441e6debbecc"
+      },
+      "primary_beam_at_position": 0.6725080456489165,
+      "status": "measured",
+      "signed_flux_ujy": -216.70964269665083,
+      "local_error_ujy": 133.51795768407987,
+      "score": -1.623074876635043,
+      "controls": 126,
+      "neighbor_signed_flux_ujy": -54.063327194084096,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -13.531460386678873
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.31",
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59567.007789,
+      "t_max": 59567.040252,
+      "frequency_ghz": 106.5483367029,
+      "restoring_beam_fwhm_arcsec": [
+        0.72188138961792,
+        0.62895363569244
+      ],
+      "restoring_beam_pa_deg": 81.06440734863,
+      "fits_date_obs_utc": "2021-12-19T00:11:15.984000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "b3857b6bed260d66b979b538693db5746d5c8426c596e7bbdd8e23297bb0f603"
+      },
+      "wcs_pixel_scale_arcsec": 0.12999999990873598,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "36347a2d9836553ab8ad2f694d96884a5cbba73a7056d769682d49647d2fbdcf"
+      },
+      "primary_beam_at_position": 0.6622932510250419,
+      "status": "measured",
+      "signed_flux_ujy": -155.93063753422766,
+      "local_error_ujy": 148.9951423738967,
+      "score": -1.0465484649353645,
+      "controls": 120,
+      "neighbor_signed_flux_ujy": -240.80604730627334,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -4.447349401259961
+    },
+    {
+      "obs_id": "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.25",
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59567.205463,
+      "t_max": 59579.005136,
+      "frequency_ghz": 92.73616074355,
+      "restoring_beam_fwhm_arcsec": [
+        1.02791774272932,
+        0.74859553575504
+      ],
+      "restoring_beam_pa_deg": -88.18466186523,
+      "fits_date_obs_utc": "2021-12-19T04:55:55.008000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "cd6bc67e08f918538d048cf9194a0887f5061b071c01f49ece6a0bf5c02a053b"
+      },
+      "wcs_pixel_scale_arcsec": 0.23000000071122,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "e27ffac9bc8f1594a6ef091135a0ff910c2d561a961d094b779966153c806044"
+      },
+      "primary_beam_at_position": 0.9726661410682911,
+      "status": "measured",
+      "signed_flux_ujy": -65.21913775542552,
+      "local_error_ujy": 112.54130705146984,
+      "score": -0.579512886993556,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 72.28797102940896,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -1.8812851146061955
+    },
+    {
+      "obs_id": "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.27",
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59567.205463,
+      "t_max": 59579.005136,
+      "frequency_ghz": 94.51251684710002,
+      "restoring_beam_fwhm_arcsec": [
+        1.01843643188484,
+        0.7275003194808
+      ],
+      "restoring_beam_pa_deg": -88.43313598633,
+      "fits_date_obs_utc": "2021-12-19T04:55:55.008000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "91fb2c672aa006a8dc74d99027b0bd471d9fb63614ed3a512ce27914cee2ab66"
+      },
+      "wcs_pixel_scale_arcsec": 0.23000000071122,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "4c94827e290512aae49fdb80e21c5ed2c6752a798800413750f744943b10a9db"
+      },
+      "primary_beam_at_position": 0.972131441632773,
+      "status": "measured",
+      "signed_flux_ujy": 134.57961670250788,
+      "local_error_ujy": 94.66721284287236,
+      "score": 1.421607467475373,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -87.28307979602681,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 1.861545675030054
+    },
+    {
+      "obs_id": "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.29",
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59567.205463,
+      "t_max": 59579.005136,
+      "frequency_ghz": 104.6375186358,
+      "restoring_beam_fwhm_arcsec": [
+        0.9387650489806799,
+        0.6684359908104001
+      ],
+      "restoring_beam_pa_deg": -88.77205657959,
+      "fits_date_obs_utc": "2021-12-19T04:55:55.008000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "23d77dc2e56eea5050fa09cfac1fc0167fca0b7d8f07294a6cc951c03ed21735"
+      },
+      "wcs_pixel_scale_arcsec": 0.23000000071122,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "fbdfef2fc27611e6a482ba5e2eaf06c97c1fd41f5adb64c45592779d01e1ed90"
+      },
+      "primary_beam_at_position": 0.974288705631081,
+      "status": "measured",
+      "signed_flux_ujy": 82.02890903959796,
+      "local_error_ujy": 145.4148025247234,
+      "score": 0.5641028809680598,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 93.30573157166165,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 9.858173288273209
+    },
+    {
+      "obs_id": "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.31",
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59567.205463,
+      "t_max": 59579.005136,
+      "frequency_ghz": 106.51398398100001,
+      "restoring_beam_fwhm_arcsec": [
+        0.92377287149436,
+        0.65754371881476
+      ],
+      "restoring_beam_pa_deg": -88.83832550049,
+      "fits_date_obs_utc": "2021-12-19T04:55:55.008000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "24d63036ac0933d676f878c835d5a243c29921127cbc4a8343354a773bc2a544"
+      },
+      "wcs_pixel_scale_arcsec": 0.23000000071122,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "910c3bdfd8002f75a1ea726c79b6f3d1ef2c5a7052c347e4f21c8619f7baef0c"
+      },
+      "primary_beam_at_position": 0.9747492238327545,
+      "status": "measured",
+      "signed_flux_ujy": -32.97377906511245,
+      "local_error_ujy": 152.86855514004264,
+      "score": -0.21570020750771945,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -384.88605452132657,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 10.064850733854371
+    },
+    {
+      "obs_id": "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.25",
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59579.989206,
+      "t_max": 59581.121851,
+      "frequency_ghz": 96.38996024026,
+      "restoring_beam_fwhm_arcsec": [
+        1.1718522310255202,
+        0.89155369997028
+      ],
+      "restoring_beam_pa_deg": -79.58196258545,
+      "fits_date_obs_utc": "2021-12-31T23:44:30.384000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "474fb07567122c975fd62e3b66b58569fec3d5356512cc69892a461f8111b4a0"
+      },
+      "wcs_pixel_scale_arcsec": 0.270000000207144,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "41c121dde38f8e379dead19cbad186ee504fd65bd889e39692bf703e023fc659"
+      },
+      "primary_beam_at_position": 0.9792881490425744,
+      "status": "measured",
+      "signed_flux_ujy": -24.532979779143492,
+      "local_error_ujy": 82.15385651564677,
+      "score": -0.29862237537772823,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -45.08832753882865,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -0.18675950248999298
+    },
+    {
+      "obs_id": "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.27",
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59579.989206,
+      "t_max": 59581.121851,
+      "frequency_ghz": 98.26154222354,
+      "restoring_beam_fwhm_arcsec": [
+        1.1521276235578801,
+        0.8751457333566001
+      ],
+      "restoring_beam_pa_deg": -79.50466156006,
+      "fits_date_obs_utc": "2021-12-31T23:44:30.384000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "2834357f0483384166ca96a860ebd90d1fd3e7b95a56f39957129ecd4491e5b5"
+      },
+      "wcs_pixel_scale_arcsec": 0.270000000207144,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "6a4d58536c3fa5bbdc02eb2308eb3441cba289ed57a44218c6360e3ff7cb3c8a"
+      },
+      "primary_beam_at_position": 0.9775893799658265,
+      "status": "measured",
+      "signed_flux_ujy": -14.993982990555207,
+      "local_error_ujy": 74.61456220565297,
+      "score": -0.2009525023979733,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -46.83693996852381,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 13.198245600532825
+    },
+    {
+      "obs_id": "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.29",
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59579.989206,
+      "t_max": 59581.121851,
+      "frequency_ghz": 108.3884974937,
+      "restoring_beam_fwhm_arcsec": [
+        1.04893016815188,
+        0.7924388051034
+      ],
+      "restoring_beam_pa_deg": -80.63681030273,
+      "fits_date_obs_utc": "2021-12-31T23:44:30.384000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "d26ecd9989ccc426c1f9db5503d79b598671c8cfafc481aaf8f683b06f0a81f8"
+      },
+      "wcs_pixel_scale_arcsec": 0.270000000207144,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "9cda75415413fd6e223a862655ceb0f3cbb5ee4c2a1ab58e751b8fa1c511a887"
+      },
+      "primary_beam_at_position": 0.9814827272569664,
+      "status": "measured",
+      "signed_flux_ujy": 128.0990929949945,
+      "local_error_ujy": 130.23832218754458,
+      "score": 0.9835745028297465,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 68.78756086815217,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 10.11815152768636
+    },
+    {
+      "obs_id": "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.31",
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59579.989206,
+      "t_max": 59581.121851,
+      "frequency_ghz": 110.2869381064,
+      "restoring_beam_fwhm_arcsec": [
+        1.03617382049568,
+        0.7812092900275199
+      ],
+      "restoring_beam_pa_deg": -80.89491271973,
+      "fits_date_obs_utc": "2021-12-31T23:44:30.384000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "45fb7d8579c2033fe69377b7cfe2b672bdb0db26d2f40378a17d9a6efd8f88b1"
+      },
+      "wcs_pixel_scale_arcsec": 0.270000000207144,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "4f02175266b8e202fb65510cb7fc92e5215408acd53cf6e73a35d2e5c9f87dde"
+      },
+      "primary_beam_at_position": 0.9793326739210768,
+      "status": "measured",
+      "signed_flux_ujy": -59.337625513944865,
+      "local_error_ujy": 113.21598115899715,
+      "score": -0.5241099790551024,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -8.46839975389105,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -0.5383493052835736
+    },
+    {
+      "obs_id": "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.25",
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59580.164656,
+      "t_max": 59584.003816,
+      "frequency_ghz": 100.1389830611,
+      "restoring_beam_fwhm_arcsec": [
+        1.19825053215012,
+        0.90966510772704
+      ],
+      "restoring_beam_pa_deg": -81.80920410156,
+      "fits_date_obs_utc": "2022-01-01T03:57:09.264000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "a64fffad11829beabbff6b5a540f9a4a600eccca9ff439971f427317e11ac374"
+      },
+      "wcs_pixel_scale_arcsec": 0.28000000059678,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "35f2c7ff400d26e2fd3b696a9e5bd3961d02723888d7b62d5d251767059bcc06"
+      },
+      "primary_beam_at_position": 0.986261908342204,
+      "status": "measured",
+      "signed_flux_ujy": 54.09596829644589,
+      "local_error_ujy": 97.28032651946289,
+      "score": 0.556083333926957,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 147.77193799610336,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -7.405644980916507
+    },
+    {
+      "obs_id": "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.27",
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59580.164656,
+      "t_max": 59584.003816,
+      "frequency_ghz": 102.0110533557,
+      "restoring_beam_fwhm_arcsec": [
+        1.1795868873597601,
+        0.89459580183012
+      ],
+      "restoring_beam_pa_deg": -81.72216033936,
+      "fits_date_obs_utc": "2022-01-01T03:57:09.264000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "18e4e01f5d770b64fe2ebd5ff3f1536a8a87a413e78c9b585eaa81c325b01e20"
+      },
+      "wcs_pixel_scale_arcsec": 0.28000000059678,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "3aa43121026ab74d8c00511e60199781577f42260dfa430f3c904c0005b3ab7a"
+      },
+      "primary_beam_at_position": 0.9863029001616087,
+      "status": "measured",
+      "signed_flux_ujy": 3.5613764311799274,
+      "local_error_ujy": 96.3464151661128,
+      "score": 0.036964285853704947,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": -23.23150527833338,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -2.740783948985726
+    },
+    {
+      "obs_id": "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.29",
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59580.164656,
+      "t_max": 59584.003816,
+      "frequency_ghz": 112.1170098765,
+      "restoring_beam_fwhm_arcsec": [
+        1.07669699192052,
+        0.81624686717988
+      ],
+      "restoring_beam_pa_deg": -82.21059417725,
+      "fits_date_obs_utc": "2022-01-01T03:57:09.264000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "e833bc686a1a709c6ed7f1911650fc5f1d5863e69d856c292952943886ba48d4"
+      },
+      "wcs_pixel_scale_arcsec": 0.28000000059678,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "7348ee7f99f887326339eab8b0bf38cababf9e1d8f5c5ea8099f0bd4423f3ddb"
+      },
+      "primary_beam_at_position": 0.9870700684619624,
+      "status": "measured",
+      "signed_flux_ujy": -139.22750649227132,
+      "local_error_ujy": 210.20682190379134,
+      "score": -0.6623358139917731,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 166.61998413057307,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -1.8969718357458984
+    },
+    {
+      "obs_id": "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.31",
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band_list": 3,
+      "t_min": 59580.164656,
+      "t_max": 59584.003816,
+      "frequency_ghz": 114.01935721210002,
+      "restoring_beam_fwhm_arcsec": [
+        1.0545411109924798,
+        0.8003677725792
+      ],
+      "restoring_beam_pa_deg": -82.68154144287,
+      "fits_date_obs_utc": "2022-01-01T03:57:09.264000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "3e6623b92d55203d1ed060272a9c7356f4ebca4e0ae5e2e064f087cd2dee29e0"
+      },
+      "wcs_pixel_scale_arcsec": 0.28000000059678,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "73d98199b03902fcf9c34209009af503038e614b799994f7cc45b5e62dced3d2"
+      },
+      "primary_beam_at_position": 0.9844617907693347,
+      "status": "measured",
+      "signed_flux_ujy": -152.41539024441343,
+      "local_error_ujy": 213.74634907048406,
+      "score": -0.7130666367272247,
+      "controls": 188,
+      "neighbor_signed_flux_ujy": 131.45863454989862,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -0.7288898478805387
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.25",
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59742.68986,
+      "t_max": 59742.722321,
+      "frequency_ghz": 96.29535884176,
+      "restoring_beam_fwhm_arcsec": [
+        1.1038361787795599,
+        0.69476407766352
+      ],
+      "restoring_beam_pa_deg": 80.48924255371,
+      "fits_date_obs_utc": "2022-06-12T16:33:26.928000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "d46e71e90463e407de9b622fabe4b9199071261c189616fabb70dac5c64ed818"
+      },
+      "wcs_pixel_scale_arcsec": 0.11999999993162398,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "b2b8e25e2ec5b9dfe146bab45485193b009d5310ae43a44d39d3825fe8509ed6"
+      },
+      "primary_beam_at_position": 0.7170152227248405,
+      "status": "measured",
+      "signed_flux_ujy": 37.509781043026294,
+      "local_error_ujy": 118.90627955968881,
+      "score": 0.3154566872491966,
+      "controls": 145,
+      "neighbor_signed_flux_ujy": 77.45167552047488,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 21.955740742753065
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.27",
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59742.68986,
+      "t_max": 59742.722321,
+      "frequency_ghz": 98.17426603925,
+      "restoring_beam_fwhm_arcsec": [
+        1.08970415592192,
+        0.68361389636976
+      ],
+      "restoring_beam_pa_deg": 80.3697052002,
+      "fits_date_obs_utc": "2022-06-12T16:33:26.928000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "c5b41f78821d5560a976f9ca5a8aef79798e3047cd8447511f56dc5540b4e859"
+      },
+      "wcs_pixel_scale_arcsec": 0.11999999993162398,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "ac32f4800656e85a19e049fb1b872386e1bf6a00f8f0233cb5f8fc92d82f6f25"
+      },
+      "primary_beam_at_position": 0.7072229877752547,
+      "status": "measured",
+      "signed_flux_ujy": -62.2698957337049,
+      "local_error_ujy": 118.90596467536567,
+      "score": -0.5236902614911938,
+      "controls": 142,
+      "neighbor_signed_flux_ujy": -62.54540419965245,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -2.0138298879605254
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.29",
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59742.68986,
+      "t_max": 59742.722321,
+      "frequency_ghz": 108.39838000930001,
+      "restoring_beam_fwhm_arcsec": [
+        0.9990658760072401,
+        0.6156745553016
+      ],
+      "restoring_beam_pa_deg": 79.608543396,
+      "fits_date_obs_utc": "2022-06-12T16:33:26.928000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "afe4808ab9605d8e741c07435744249bd41489dbd2543b74975b8b6509d7d04a"
+      },
+      "wcs_pixel_scale_arcsec": 0.11999999993162398,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "bd525a33faca5c31b25edab00ae77500b9e43ca0bb5d58a01142799ac6802fb8"
+      },
+      "primary_beam_at_position": 0.6521565363708668,
+      "status": "measured",
+      "signed_flux_ujy": 56.13409409487997,
+      "local_error_ujy": 142.5274569620552,
+      "score": 0.39384758060914843,
+      "controls": 113,
+      "neighbor_signed_flux_ujy": -100.80853697337469,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -25.003992538518272
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.31",
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band_list": 3,
+      "t_min": 59742.68986,
+      "t_max": 59742.722321,
+      "frequency_ghz": 110.3042312999,
+      "restoring_beam_fwhm_arcsec": [
+        0.9765538573266,
+        0.6103721261023201
+      ],
+      "restoring_beam_pa_deg": 79.69769287109,
+      "fits_date_obs_utc": "2022-06-12T16:33:26.928000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "078b9e4fd7bf543a9ea74b65f00a79e3c3ec30511d5a7510fdef78f577403eed"
+      },
+      "wcs_pixel_scale_arcsec": 0.11999999993162398,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "4ce28b9d9b4f86d95c82ceb3aa1c9907763aab551d64819383411c50ad6599c4"
+      },
+      "primary_beam_at_position": 0.641723609758474,
+      "status": "measured",
+      "signed_flux_ujy": -59.68934911207192,
+      "local_error_ujy": 149.57632639950327,
+      "score": -0.3990561243805901,
+      "controls": 110,
+      "neighbor_signed_flux_ujy": 353.3877109729603,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -13.229665472717954
+    },
+    {
+      "obs_id": "uid://A001/X37b0/X55e.source.GS-200733.spw.19",
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "band_list": 3,
+      "t_min": 60751.827884,
+      "t_max": 60751.930733,
+      "frequency_ghz": 103.2979868462,
+      "restoring_beam_fwhm_arcsec": [
+        0.86936265230184,
+        0.65836006402968
+      ],
+      "restoring_beam_pa_deg": 83.86744689941,
+      "fits_date_obs_utc": "2025-03-17T19:52:12.192000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "d3feec72679570966fe504412af7ec7e629b6f635d718536705e19281edde99e"
+      },
+      "wcs_pixel_scale_arcsec": 0.12999999990873598,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pb.fits.gz",
+        "sha256": "cebf38bf76467ca0d277cf78ae62c325e8e0aa6f13fb066d970f5a7b388db352"
+      },
+      "primary_beam_at_position": 0.67209838443495,
+      "status": "measured",
+      "signed_flux_ujy": 18.694139189244375,
+      "local_error_ujy": 20.97637536243727,
+      "score": 0.891199688518173,
+      "controls": 124,
+      "neighbor_signed_flux_ujy": 5.8510895221934325,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -2.4558904410024747
+    },
+    {
+      "obs_id": "uid://A001/X37b0/X55e.source.GS-200733.spw.21",
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "band_list": 3,
+      "t_min": 60751.827884,
+      "t_max": 60751.930733,
+      "frequency_ghz": 89.52138709928,
+      "restoring_beam_fwhm_arcsec": [
+        0.99480301141752,
+        0.75996845960616
+      ],
+      "restoring_beam_pa_deg": 86.14043426514,
+      "fits_date_obs_utc": "2025-03-17T19:52:12.192000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "415e56888d572f0add7e59c86dd4cad2edc3cc42f25c471bab834174fe84653a"
+      },
+      "wcs_pixel_scale_arcsec": 0.12999999990873598,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pb.fits.gz",
+        "sha256": "aa7c84aa283535c8e1a05f9c59eb70215e200fd6d3fc8e7df4c57d2c42c7c809"
+      },
+      "primary_beam_at_position": 0.7455433810660521,
+      "status": "measured",
+      "signed_flux_ujy": 3.474097962141422,
+      "local_error_ujy": 22.475666921053495,
+      "score": 0.15457151836002478,
+      "controls": 159,
+      "neighbor_signed_flux_ujy": 48.72672834994608,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -0.5515190303750903
+    },
+    {
+      "obs_id": "uid://A001/X37b0/X55e.source.GS-200733.spw.7",
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "band_list": 3,
+      "t_min": 60751.827884,
+      "t_max": 60751.930733,
+      "frequency_ghz": 91.37606781352001,
+      "restoring_beam_fwhm_arcsec": [
+        0.9769383668898,
+        0.74514114856728
+      ],
+      "restoring_beam_pa_deg": 86.01711273193,
+      "fits_date_obs_utc": "2025-03-17T19:52:12.192000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "511a48e7a9256ef5327f4fd8439bc616e15d22115cda17bbcb72942ac7d420c6"
+      },
+      "wcs_pixel_scale_arcsec": 0.12999999990873598,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pb.fits.gz",
+        "sha256": "4d853e644363e1e53ac38aaeb50d14b15993077006bbdfaf6b90cffadcdb9b1d"
+      },
+      "primary_beam_at_position": 0.735914284942562,
+      "status": "measured",
+      "signed_flux_ujy": -18.59185015792137,
+      "local_error_ujy": 16.74896320672258,
+      "score": -1.1100299122072885,
+      "controls": 156,
+      "neighbor_signed_flux_ujy": 11.55393355712793,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": 2.216424915195544
+    },
+    {
+      "obs_id": "uid://A001/X37b0/X55e.source.GS-200733.spw.9",
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "band_list": 3,
+      "t_min": 60751.827884,
+      "t_max": 60751.930733,
+      "frequency_ghz": 101.4191302002,
+      "restoring_beam_fwhm_arcsec": [
+        0.8892102241515601,
+        0.67050778865832
+      ],
+      "restoring_beam_pa_deg": 83.77592468262,
+      "fits_date_obs_utc": "2025-03-17T19:52:12.192000",
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "2beca1f063d6bde4dac9daad782ea88918bc76285fdc4d8322438cc6559b6239"
+      },
+      "wcs_pixel_scale_arcsec": 0.12999999990873598,
+      "primary_beam_product": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pb.fits.gz",
+        "sha256": "c6a190cce1787acc9e4c3f18e761fe7328bc9f8f50855659bc48e52a0f2b2ad5"
+      },
+      "primary_beam_at_position": 0.6823910274692017,
+      "status": "measured",
+      "signed_flux_ujy": 3.2664565194531305,
+      "local_error_ujy": 19.399572468652334,
+      "score": 0.16837775805272928,
+      "controls": 129,
+      "neighbor_signed_flux_ujy": -4.126761448987253,
+      "noise_qualification": "measured primary beam and local residuals",
+      "control_median_ujy": -2.5862119923033133
+    }
+  ],
+  "datasets": [
+    {
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "band": 6,
+      "start_utc": "2016-08-01T09:49:37.603",
+      "end_utc": "2016-08-02T09:37:14.131",
+      "image_ids": [
+        "uid://A001/X2fb/X21d.source.GOODS-S.spw.17",
+        "uid://A001/X2fb/X21d.source.GOODS-S.spw.19",
+        "uid://A001/X2fb/X21d.source.GOODS-S.spw.21",
+        "uid://A001/X2fb/X21d.source.GOODS-S.spw.23"
+      ],
+      "candidate_windows": 4,
+      "control_count": 188,
+      "effective_frequency_ghz": 262.5239214901367,
+      "signed_flux_ujy": -247.24222015359211,
+      "local_error_ujy": 192.3053701371264,
+      "score": -1.2856750696940606,
+      "five_scatter_depth_ujy": 961.526850685632,
+      "bright_compact_flux_90pct_recovery_ujy": 1180.2936231986396,
+      "controls_at_or_above_target": 172,
+      "largest_positive_control_score": 3.5837103508794392,
+      "neighbor_signed_flux_ujy": -38.76969537932298,
+      "neighbor_score": -0.20160485040889722
+    },
+    {
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band": 6,
+      "start_utc": "2016-09-12T07:43:06.326",
+      "end_utc": "2016-09-14T05:24:53.309",
+      "image_ids": [
+        "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.17",
+        "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.19",
+        "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.21",
+        "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.23"
+      ],
+      "candidate_windows": 4,
+      "control_count": 188,
+      "effective_frequency_ghz": 251.19029049518574,
+      "signed_flux_ujy": 27.12649805541574,
+      "local_error_ujy": 68.45875602180249,
+      "score": 0.39624585125059236,
+      "five_scatter_depth_ujy": 342.29378010901246,
+      "bright_compact_flux_90pct_recovery_ujy": 429.72484308865165,
+      "controls_at_or_above_target": 65,
+      "largest_positive_control_score": 2.4743054828277193,
+      "neighbor_signed_flux_ujy": 43.704554423676505,
+      "neighbor_score": 0.6384070784131345
+    },
+    {
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "band": 6,
+      "start_utc": "2016-09-28T10:57:47.779",
+      "end_utc": "2016-09-29T08:54:27.619",
+      "image_ids": [
+        "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.17",
+        "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.19",
+        "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.21",
+        "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.23"
+      ],
+      "candidate_windows": 4,
+      "control_count": 188,
+      "effective_frequency_ghz": 258.7786619712091,
+      "signed_flux_ujy": 162.2508359309562,
+      "local_error_ujy": 157.2112658746512,
+      "score": 1.0320560363677957,
+      "five_scatter_depth_ujy": 786.056329373256,
+      "bright_compact_flux_90pct_recovery_ujy": 1008.5007364575633,
+      "controls_at_or_above_target": 26,
+      "largest_positive_control_score": 2.431357523102961,
+      "neighbor_signed_flux_ujy": 6.422997955112486,
+      "neighbor_score": 0.040855837648643555
+    },
+    {
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band": 3,
+      "start_utc": "2018-03-21T21:55:50.678",
+      "end_utc": "2018-03-30T21:10:36.682",
+      "image_ids": [
+        "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.25",
+        "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.27",
+        "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.29",
+        "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.31"
+      ],
+      "candidate_windows": 4,
+      "control_count": 188,
+      "effective_frequency_ghz": 98.55593956771877,
+      "signed_flux_ujy": 13.246784749389603,
+      "local_error_ujy": 51.05960913051948,
+      "score": 0.25943764503813443,
+      "five_scatter_depth_ujy": 255.2980456525974,
+      "bright_compact_flux_90pct_recovery_ujy": 327.5162851339816,
+      "controls_at_or_above_target": 71,
+      "largest_positive_control_score": 2.7395538279424794,
+      "neighbor_signed_flux_ujy": -43.770071695095936,
+      "neighbor_score": -0.8572347583627227
+    },
+    {
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band": 3,
+      "start_utc": "2021-12-11T04:38:26.995",
+      "end_utc": "2021-12-11T05:25:10.070",
+      "image_ids": [
+        "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.25",
+        "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.27",
+        "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.29",
+        "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.31"
+      ],
+      "candidate_windows": 4,
+      "control_count": 139,
+      "effective_frequency_ghz": 92.51769260428078,
+      "signed_flux_ujy": 88.75811735108161,
+      "local_error_ujy": 66.4944167894137,
+      "score": 1.3348206005351777,
+      "five_scatter_depth_ujy": 332.47208394706854,
+      "bright_compact_flux_90pct_recovery_ujy": 417.949568969984,
+      "controls_at_or_above_target": 12,
+      "largest_positive_control_score": 2.9082953513878915,
+      "neighbor_signed_flux_ujy": -75.83898274034578,
+      "neighbor_score": -1.1405315874944224
+    },
+    {
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band": 3,
+      "start_utc": "2021-12-11T05:48:19.901",
+      "end_utc": "2021-12-11T06:35:03.754",
+      "image_ids": [
+        "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.25",
+        "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.27",
+        "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.29",
+        "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.31"
+      ],
+      "candidate_windows": 4,
+      "control_count": 131,
+      "effective_frequency_ghz": 95.11725895069067,
+      "signed_flux_ujy": 1.0309232901387295,
+      "local_error_ujy": 73.2610455483884,
+      "score": 0.014071916151644492,
+      "five_scatter_depth_ujy": 366.30522774194196,
+      "bright_compact_flux_90pct_recovery_ujy": 481.7857494876077,
+      "controls_at_or_above_target": 65,
+      "largest_positive_control_score": 1.9792555603093342,
+      "neighbor_signed_flux_ujy": 82.58938015960779,
+      "neighbor_score": 1.127330077552034
+    },
+    {
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band": 3,
+      "start_utc": "2021-12-19T00:11:12.970",
+      "end_utc": "2021-12-19T00:57:57.773",
+      "image_ids": [
+        "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.25",
+        "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.27",
+        "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.29",
+        "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.31"
+      ],
+      "candidate_windows": 4,
+      "control_count": 120,
+      "effective_frequency_ghz": 98.87574855394857,
+      "signed_flux_ujy": -96.11796738759911,
+      "local_error_ujy": 66.70598049653213,
+      "score": -1.4409197896820665,
+      "five_scatter_depth_ujy": 333.52990248266065,
+      "bright_compact_flux_90pct_recovery_ujy": 405.50589915726584,
+      "controls_at_or_above_target": 115,
+      "largest_positive_control_score": 3.2172004426882674,
+      "neighbor_signed_flux_ujy": -40.772782440352046,
+      "neighbor_score": -0.6112312889617403
+    },
+    {
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band": 3,
+      "start_utc": "2021-12-19T04:55:52.003",
+      "end_utc": "2021-12-31T00:07:23.750",
+      "image_ids": [
+        "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.25",
+        "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.27",
+        "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.29",
+        "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.31"
+      ],
+      "candidate_windows": 4,
+      "control_count": 188,
+      "effective_frequency_ghz": 97.54914359913415,
+      "signed_flux_ujy": 44.44813902737951,
+      "local_error_ujy": 67.33571035770481,
+      "score": 0.6600975736538522,
+      "five_scatter_depth_ujy": 336.67855178852403,
+      "bright_compact_flux_90pct_recovery_ujy": 416.0070578227578,
+      "controls_at_or_above_target": 52,
+      "largest_positive_control_score": 3.030084487462876,
+      "neighbor_signed_flux_ujy": -56.84572112020442,
+      "neighbor_score": -0.8442135802566746
+    },
+    {
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band": 3,
+      "start_utc": "2021-12-31T23:44:27.398",
+      "end_utc": "2022-01-02T02:55:27.926",
+      "image_ids": [
+        "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.25",
+        "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.27",
+        "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.29",
+        "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.31"
+      ],
+      "candidate_windows": 4,
+      "control_count": 188,
+      "effective_frequency_ghz": 100.96815107412169,
+      "signed_flux_ujy": -3.208004881067919,
+      "local_error_ujy": 46.386106648898405,
+      "score": -0.06915874413323075,
+      "five_scatter_depth_ujy": 231.93053324449204,
+      "bright_compact_flux_90pct_recovery_ujy": 295.0425265631179,
+      "controls_at_or_above_target": 100,
+      "largest_positive_control_score": 3.2362137016883703,
+      "neighbor_signed_flux_ujy": -21.052422244971652,
+      "neighbor_score": -0.4538518915657176
+    },
+    {
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "band": 3,
+      "start_utc": "2022-01-01T03:57:06.278",
+      "end_utc": "2022-01-05T00:05:29.702",
+      "image_ids": [
+        "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.25",
+        "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.27",
+        "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.29",
+        "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.31"
+      ],
+      "candidate_windows": 4,
+      "control_count": 188,
+      "effective_frequency_ghz": 103.14988682248661,
+      "signed_flux_ujy": -3.4995838866022293,
+      "local_error_ujy": 62.26734476023642,
+      "score": -0.056202555289254025,
+      "five_scatter_depth_ujy": 311.3367238011821,
+      "bright_compact_flux_90pct_recovery_ujy": 389.7735120590338,
+      "controls_at_or_above_target": 98,
+      "largest_positive_control_score": 2.3314818183920187,
+      "neighbor_signed_flux_ujy": 74.6164246387211,
+      "neighbor_score": 1.1983235342061789
+    },
+    {
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "band": 3,
+      "start_utc": "2022-06-12T16:33:23.904",
+      "end_utc": "2022-06-12T17:20:08.534",
+      "image_ids": [
+        "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.25",
+        "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.27",
+        "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.29",
+        "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.31"
+      ],
+      "candidate_windows": 4,
+      "control_count": 110,
+      "effective_frequency_ghz": 102.05131769459813,
+      "signed_flux_ujy": -11.671728643081385,
+      "local_error_ujy": 65.78723506248389,
+      "score": -0.17741631232861094,
+      "five_scatter_depth_ujy": 328.93617531241944,
+      "bright_compact_flux_90pct_recovery_ujy": 430.2037433783819,
+      "controls_at_or_above_target": 62,
+      "largest_positive_control_score": 2.7490400602005325,
+      "neighbor_signed_flux_ujy": 45.86444878796916,
+      "neighbor_score": 0.697163343989266
+    },
+    {
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "band": 3,
+      "start_utc": "2025-03-17T19:52:09.178",
+      "end_utc": "2025-03-17T22:20:15.331",
+      "image_ids": [
+        "uid://A001/X37b0/X55e.source.GS-200733.spw.19",
+        "uid://A001/X37b0/X55e.source.GS-200733.spw.21",
+        "uid://A001/X37b0/X55e.source.GS-200733.spw.7",
+        "uid://A001/X37b0/X55e.source.GS-200733.spw.9"
+      ],
+      "candidate_windows": 4,
+      "control_count": 124,
+      "effective_frequency_ghz": 96.16015547571058,
+      "signed_flux_ujy": -1.001893740953033,
+      "local_error_ujy": 9.771045406464713,
+      "score": -0.10253700594719994,
+      "five_scatter_depth_ujy": 48.85522703232357,
+      "bright_compact_flux_90pct_recovery_ujy": 63.05991946231392,
+      "controls_at_or_above_target": 69,
+      "largest_positive_control_score": 2.90129529039061,
+      "neighbor_signed_flux_ujy": 13.148156651562854,
+      "neighbor_score": 1.345624352831661
+    }
+  ],
+  "method": "Fit a fixed-position unit-peak restoring-beam profile plus a planar background on native primary-beam-corrected image pixels. Restrict measured primary beams to response of at least 0.20 at the target and compare controls at similar response. For larger beam maps, the depth comes from the finite, local corrected pixels without a separate beam gate. Use the robust local blank-position dispersion and require at least 25 controls. Combine only within each observation member, weighing spectral windows by inverse local variance and including the measured scatter of combination controls. The neighbor flux uses a separate fixed-position fit, with the target noise scale for comparison.",
+  "scope": "Point-source sensitivity and signed continuum measurements in sampled historical datasets. The recovery estimate transfers an added matching-profile flux onto measured control residuals. Neighbor flux estimates may covary with the target in broad beams. Absolute calibration and resolved-source sensitivity are not included. Different spectral windows and beams do not measure a common passband. No spectral lines are inferred."
+}

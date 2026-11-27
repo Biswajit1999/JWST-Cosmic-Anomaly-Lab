@@ -34,6 +34,7 @@ KEYS = (
     "swift_xrt_history",
     "tess_history",
     "lco_r_history",
+    "alma_continuum",
 )
 
 
@@ -106,6 +107,9 @@ def collect(data, hashes):
             if row["first_utc"] < "2026-10-01"
         ),
         "MeerKAT MIGHTEE coadd": radio,
+        "ALMA continuum measured": day_list(
+            row["start_utc"] for row in data["alma_continuum"]["datasets"]
+        ),
         "Euclid DR1 H band": day_list(
             r["start_date_utc"]
             for r in data["euclid_dr1_h_history"]["visit_inventory"]
@@ -147,7 +151,7 @@ def collect(data, hashes):
 
 
 def write_timeline(history, recent):
-    fig = Figure(figsize=(10.8, 7.6), layout="constrained")
+    fig = Figure(figsize=(10.8, 7.9), layout="constrained")
     axes = fig.subplots(2, 1, gridspec_kw={"height_ratios": (1.65, 1)})
     for y, (name, values) in enumerate(history.items()):
         times = [
@@ -210,7 +214,9 @@ def main():
             "continuous exposure, equal depth or common flux limits. The DES dates are from usable "
             "FITS exposure headers on measured nights. ZTF dates are public footprint metadata. "
             "TESS dates contain usable optical cadences. Las Cumbres dates come from "
-            "calibrated r-prime flux measurements. The 2026 lower panel includes "
+            "calibrated r-prime flux measurements. ALMA marks record the start dates of "
+            "historical datasets that yielded continuum measurements, some spanning multiple dates. "
+            "The 2026 lower panel includes "
             "public metadata for unreleased DECam images, nearby Rubin alerts, and HST products "
             "whose footprints miss the position.",
         ),

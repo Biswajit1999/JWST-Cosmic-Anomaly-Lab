@@ -68,7 +68,8 @@ remains open.
 [Host spectra and follow-up coverage](reports/jwst_module_b.md#additional-host-spectra-and-planned-coverage) ·
 [Historical cross-survey comparison](reports/jwst_module_b.md#historical-cross-survey-comparison) ·
 [Observed TESS field images and optical light curves](figures/jwst_cross_detector/module_b_001_tess_history.png) ·
-[Observed Las Cumbres optical images and measurements](figures/jwst_cross_detector/module_b_001_lco_r_history.png).
+[Observed Las Cumbres optical images and measurements](figures/jwst_cross_detector/module_b_001_lco_r_history.png) ·
+[Observed ALMA millimeter images and measurements](figures/jwst_cross_detector/module_b_001_alma_continuum.png).
 
 <img src="figures/jwst_cross_detector/module_b_001_november_photometry.png" width="810" alt="Observed JWST images of the October brightening and November fade near JADES 103607, with signed aperture photometry.">
 

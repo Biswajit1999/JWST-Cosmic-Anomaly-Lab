@@ -1,0 +1,3493 @@
+{
+  "executed_utc": "2026-11-27T08:51:33.924609+00:00",
+  "script_sha256": "d8f3f5faf5b431078545c197dd7c4e763d16e5965fc30fdd5c3a9c7fdd6fc8fb",
+  "position_source_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "archive_position_query": {
+    "path": "data/raw/metadata/module_b_001_alma_inventory_target_position.csv",
+    "url": "https://almascience.eso.org/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&MAXREC=2000&QUERY=SELECT+obs_id%2Cmember_ous_uid%2Cproposal_id%2Ctarget_name%2Ct_min%2Ct_max%2Cs_ra%2Cs_dec%2Cband_list%2Cis_mosaic%2Cs_resolution%2Cem_min%2Cem_max%2Cs_region%2Cdata_rights%2Cobs_release_date%2Cqa2_passed+FROM+ivoa.obscore+WHERE+1%3DINTERSECTS%28s_region%2CPOINT%28%27ICRS%27%2C53.188669832987%2C-27.812539402768%29%29+ORDER+BY+t_min%2Cmember_ous_uid%2Cobs_id",
+    "sha256": "b6932708f9c0864088ca09a24a31020e011c9759aea52803b76118d6eb383bbd"
+  },
+  "archive_event_center_query": {
+    "path": "data/raw/metadata/module_b_001_alma_inventory_event_pointing_centers.csv",
+    "url": "https://almascience.eso.org/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&MAXREC=2000&QUERY=SELECT+obs_id%2Cmember_ous_uid%2Cproposal_id%2Ctarget_name%2Ct_min%2Ct_max%2Cs_ra%2Cs_dec%2Cband_list%2Cis_mosaic%2Cs_resolution%2Cem_min%2Cem_max%2Cs_region%2Cdata_rights%2Cobs_release_date%2Cqa2_passed+FROM+ivoa.obscore+WHERE+t_min+%3C+61371.0+AND+t_max+%3E%3D+61314.0+AND+s_ra+BETWEEN+51.988669833+AND+54.388669833+AND+s_dec+BETWEEN+-28.812539403+AND+-26.812539403+ORDER+BY+t_min%2Cmember_ous_uid%2Cobs_id",
+    "sha256": "eca7406a1e8b83697dbd9c150ce8486192902496b18fe2177fd9a930df64dbb3"
+  },
+  "event_window_utc": [
+    "2026-10-01",
+    "2026-11-27"
+  ],
+  "covering_spectral_windows": 52,
+  "event_footprint_rows": [],
+  "event_center_rows": [
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_30557.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30557",
+      "t_min": 61316.149225,
+      "t_max": 61323.426743,
+      "s_ra": 53.1418,
+      "s_dec": -27.8413388889,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.550585154,
+      "em_min": 0.0030799904,
+      "em_max": 0.0031402349,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 181.7020565004
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_30557.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30557",
+      "t_min": 61316.149225,
+      "t_max": 61323.426743,
+      "s_ra": 53.1418,
+      "s_dec": -27.8413388889,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.550585154,
+      "em_min": 0.0030271785,
+      "em_max": 0.0030853516,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 181.7020565004
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_30557.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30557",
+      "t_min": 61316.149225,
+      "t_max": 61323.426743,
+      "s_ra": 53.1418,
+      "s_dec": -27.8413388889,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.550585154,
+      "em_min": 0.0027419436,
+      "em_max": 0.0027895843,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 181.7020565004
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_30557.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30557",
+      "t_min": 61316.149225,
+      "t_max": 61323.426743,
+      "s_ra": 53.1418,
+      "s_dec": -27.8413388889,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.550585154,
+      "em_min": 0.0026952166,
+      "em_max": 0.0027412338,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 181.7020565004
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_33246.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_33246",
+      "t_min": 61316.150299,
+      "t_max": 61323.427872,
+      "s_ra": 53.0824708333,
+      "s_dec": -27.8108669445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5520118652,
+      "em_min": 0.0030799904,
+      "em_max": 0.0031402349,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 338.2069710124
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_33246.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_33246",
+      "t_min": 61316.150299,
+      "t_max": 61323.427872,
+      "s_ra": 53.0824708333,
+      "s_dec": -27.8108669445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5520118652,
+      "em_min": 0.0030271784,
+      "em_max": 0.0030853515,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 338.2069710124
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_33246.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_33246",
+      "t_min": 61316.150299,
+      "t_max": 61323.427872,
+      "s_ra": 53.0824708333,
+      "s_dec": -27.8108669445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5520118652,
+      "em_min": 0.0027419436,
+      "em_max": 0.0027895842,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 338.2069710124
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_33246.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_33246",
+      "t_min": 61316.150299,
+      "t_max": 61323.427872,
+      "s_ra": 53.0824708333,
+      "s_dec": -27.8108669445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5520118652,
+      "em_min": 0.0026952166,
+      "em_max": 0.0027412338,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 338.2069710124
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_35213.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_35213",
+      "t_min": 61316.151374,
+      "t_max": 61323.430597,
+      "s_ra": 53.1042958333,
+      "s_dec": -27.7883827778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5550586548,
+      "em_min": 0.0030799905,
+      "em_max": 0.003140235,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 282.4101425038
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_35213.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_35213",
+      "t_min": 61316.151374,
+      "t_max": 61323.430597,
+      "s_ra": 53.1042958333,
+      "s_dec": -27.7883827778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5550586548,
+      "em_min": 0.0030271785,
+      "em_max": 0.0030853516,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 282.4101425038
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_35213.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_35213",
+      "t_min": 61316.151374,
+      "t_max": 61323.430597,
+      "s_ra": 53.1042958333,
+      "s_dec": -27.7883827778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5550586548,
+      "em_min": 0.0027419436,
+      "em_max": 0.0027895843,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 282.4101425038
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.cdfs_35213.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_35213",
+      "t_min": 61316.151374,
+      "t_max": 61323.430597,
+      "s_ra": 53.1042958333,
+      "s_dec": -27.7883827778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5550586548,
+      "em_min": 0.0026952167,
+      "em_max": 0.0027412339,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 282.4101425038
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.GS4_10784.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "GS4_10784",
+      "t_min": 61316.153022,
+      "t_max": 61323.429671,
+      "s_ra": 53.13097875,
+      "s_dec": -27.8604108333,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5540301428,
+      "em_min": 0.0030799903,
+      "em_max": 0.0031402348,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 251.8516848827
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.GS4_10784.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "GS4_10784",
+      "t_min": 61316.153022,
+      "t_max": 61323.429671,
+      "s_ra": 53.13097875,
+      "s_dec": -27.8604108333,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5540301428,
+      "em_min": 0.0030271783,
+      "em_max": 0.0030853514,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 251.8516848827
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.GS4_10784.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "GS4_10784",
+      "t_min": 61316.153022,
+      "t_max": 61323.429671,
+      "s_ra": 53.13097875,
+      "s_dec": -27.8604108333,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5540301428,
+      "em_min": 0.0027419434,
+      "em_max": 0.0027895841,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 251.8516848827
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f0a.source.GS4_10784.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f0a",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "GS4_10784",
+      "t_min": 61316.153022,
+      "t_max": 61323.429671,
+      "s_ra": 53.13097875,
+      "s_dec": -27.8604108333,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.5540301428,
+      "em_min": 0.0026952165,
+      "em_max": 0.0027412337,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-05T17:02:20.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 251.8516848827
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_30561.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30561",
+      "t_min": 61317.153459,
+      "t_max": 61320.332708,
+      "s_ra": 53.131425,
+      "s_dec": -27.8413,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7102748243,
+      "em_min": 0.003370968,
+      "em_max": 0.0034432621,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 209.6077143041
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_30561.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30561",
+      "t_min": 61317.153459,
+      "t_max": 61320.332708,
+      "s_ra": 53.131425,
+      "s_dec": -27.8413,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7102748243,
+      "em_min": 0.003304095,
+      "em_max": 0.0033735198,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 209.6077143041
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_30561.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30561",
+      "t_min": 61317.153459,
+      "t_max": 61320.332708,
+      "s_ra": 53.131425,
+      "s_dec": -27.8413,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7102748243,
+      "em_min": 0.0029701941,
+      "em_max": 0.0030261773,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 209.6077143041
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_30561.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30561",
+      "t_min": 61317.153459,
+      "t_max": 61320.332708,
+      "s_ra": 53.131425,
+      "s_dec": -27.8413,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7102748243,
+      "em_min": 0.0029124832,
+      "em_max": 0.0029662923,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 209.6077143041
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_31127.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_31127",
+      "t_min": 61317.154883,
+      "t_max": 61320.333824,
+      "s_ra": 53.0705829166,
+      "s_dec": -27.8344608333,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7108351353,
+      "em_min": 0.0033709678,
+      "em_max": 0.0034432619,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 384.158701273
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_31127.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_31127",
+      "t_min": 61317.154883,
+      "t_max": 61320.333824,
+      "s_ra": 53.0705829166,
+      "s_dec": -27.8344608333,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7108351353,
+      "em_min": 0.0033040949,
+      "em_max": 0.0033735196,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 384.158701273
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_31127.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_31127",
+      "t_min": 61317.154883,
+      "t_max": 61320.333824,
+      "s_ra": 53.0705829166,
+      "s_dec": -27.8344608333,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7108351353,
+      "em_min": 0.002970194,
+      "em_max": 0.0030261771,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 384.158701273
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_31127.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_31127",
+      "t_min": 61317.154883,
+      "t_max": 61320.333824,
+      "s_ra": 53.0705829166,
+      "s_dec": -27.8344608333,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7108351353,
+      "em_min": 0.0029124831,
+      "em_max": 0.0029662922,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 384.158701273
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_31671.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_31671",
+      "t_min": 61317.156308,
+      "t_max": 61320.342894,
+      "s_ra": 53.15457875,
+      "s_dec": -27.8280388889,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7154912022,
+      "em_min": 0.003370968,
+      "em_max": 0.0034432621,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 122.0446852693
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_31671.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_31671",
+      "t_min": 61317.156308,
+      "t_max": 61320.342894,
+      "s_ra": 53.15457875,
+      "s_dec": -27.8280388889,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7154912022,
+      "em_min": 0.003304095,
+      "em_max": 0.0033735198,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 122.0446852693
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_31671.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_31671",
+      "t_min": 61317.156308,
+      "t_max": 61320.342894,
+      "s_ra": 53.15457875,
+      "s_dec": -27.8280388889,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7154912022,
+      "em_min": 0.0029701941,
+      "em_max": 0.0030261773,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 122.0446852693
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f02.source.cdfs_31671.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f02",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_31671",
+      "t_min": 61317.156308,
+      "t_max": 61320.342894,
+      "s_ra": 53.15457875,
+      "s_dec": -27.8280388889,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.7154912022,
+      "em_min": 0.0029124833,
+      "em_max": 0.0029662924,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-10-20T19:29:50.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 122.0446852693
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_26954.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_26954",
+      "t_min": 61318.144821,
+      "t_max": 61323.202976,
+      "s_ra": 53.0920958333,
+      "s_dec": -27.8791527778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.653275798,
+      "em_min": 0.0032856811,
+      "em_max": 0.0033543263,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 389.8825012981
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_26954.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_26954",
+      "t_min": 61318.144821,
+      "t_max": 61323.202976,
+      "s_ra": 53.0920958333,
+      "s_dec": -27.8791527778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.653275798,
+      "em_min": 0.003229647,
+      "em_max": 0.0032959471,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 389.8825012981
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_26954.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_26954",
+      "t_min": 61318.144821,
+      "t_max": 61323.202976,
+      "s_ra": 53.0920958333,
+      "s_dec": -27.8791527778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.653275798,
+      "em_min": 0.0029068352,
+      "em_max": 0.002960434,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 389.8825012981
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_26954.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_26954",
+      "t_min": 61318.144821,
+      "t_max": 61323.202976,
+      "s_ra": 53.0920958333,
+      "s_dec": -27.8791527778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.653275798,
+      "em_min": 0.0028569722,
+      "em_max": 0.0029087316,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 389.8825012981
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_28138.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_28138",
+      "t_min": 61318.145896,
+      "t_max": 61323.208245,
+      "s_ra": 53.0574166667,
+      "s_dec": -27.867425,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6521675308,
+      "em_min": 0.003285681,
+      "em_max": 0.0033543262,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 462.1852254832
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_28138.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_28138",
+      "t_min": 61318.145896,
+      "t_max": 61323.208245,
+      "s_ra": 53.0574166667,
+      "s_dec": -27.867425,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6521675308,
+      "em_min": 0.003229647,
+      "em_max": 0.0032959471,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 462.1852254832
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_28138.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_28138",
+      "t_min": 61318.145896,
+      "t_max": 61323.208245,
+      "s_ra": 53.0574166667,
+      "s_dec": -27.867425,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6521675308,
+      "em_min": 0.0029068352,
+      "em_max": 0.002960434,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 462.1852254832
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_28138.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_28138",
+      "t_min": 61318.145896,
+      "t_max": 61323.208245,
+      "s_ra": 53.0574166667,
+      "s_dec": -27.867425,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6521675308,
+      "em_min": 0.0028569722,
+      "em_max": 0.0029087315,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 462.1852254832
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_29207.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_29207",
+      "t_min": 61318.14697,
+      "t_max": 61323.205024,
+      "s_ra": 53.0585416667,
+      "s_dec": -27.8567777778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6532979729,
+      "em_min": 0.0032856811,
+      "em_max": 0.0033543263,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 443.8178801933
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_29207.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_29207",
+      "t_min": 61318.14697,
+      "t_max": 61323.205024,
+      "s_ra": 53.0585416667,
+      "s_dec": -27.8567777778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6532979729,
+      "em_min": 0.0032296471,
+      "em_max": 0.0032959472,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 443.8178801933
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_29207.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_29207",
+      "t_min": 61318.14697,
+      "t_max": 61323.205024,
+      "s_ra": 53.0585416667,
+      "s_dec": -27.8567777778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6532979729,
+      "em_min": 0.0029068352,
+      "em_max": 0.002960434,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 443.8178801933
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_29207.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_29207",
+      "t_min": 61318.14697,
+      "t_max": 61323.205024,
+      "s_ra": 53.0585416667,
+      "s_dec": -27.8567777778,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6532979729,
+      "em_min": 0.0028569723,
+      "em_max": 0.0029087316,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 443.8178801933
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_29589.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_29589",
+      "t_min": 61318.148603,
+      "t_max": 61323.205862,
+      "s_ra": 53.0468,
+      "s_dec": -27.8519719445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6532393698,
+      "em_min": 0.003285681,
+      "em_max": 0.0033543262,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 473.4329021902
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_29589.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_29589",
+      "t_min": 61318.148603,
+      "t_max": 61323.205862,
+      "s_ra": 53.0468,
+      "s_dec": -27.8519719445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6532393698,
+      "em_min": 0.0032296469,
+      "em_max": 0.0032959471,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 473.4329021902
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_29589.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_29589",
+      "t_min": 61318.148603,
+      "t_max": 61323.205862,
+      "s_ra": 53.0468,
+      "s_dec": -27.8519719445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6532393698,
+      "em_min": 0.0029068351,
+      "em_max": 0.0029604339,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 473.4329021902
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_29589.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_29589",
+      "t_min": 61318.148603,
+      "t_max": 61323.205862,
+      "s_ra": 53.0468,
+      "s_dec": -27.8519719445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6532393698,
+      "em_min": 0.0028569722,
+      "em_max": 0.0029087315,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 473.4329021902
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_30267.spw.25",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30267",
+      "t_min": 61318.149678,
+      "t_max": 61323.206936,
+      "s_ra": 53.08967875,
+      "s_dec": -27.8445919445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6527744578,
+      "em_min": 0.0032856811,
+      "em_max": 0.0033543263,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 335.6132986604
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_30267.spw.27",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30267",
+      "t_min": 61318.149678,
+      "t_max": 61323.206936,
+      "s_ra": 53.08967875,
+      "s_dec": -27.8445919445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6527744578,
+      "em_min": 0.003229647,
+      "em_max": 0.0032959472,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 335.6132986604
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_30267.spw.29",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30267",
+      "t_min": 61318.149678,
+      "t_max": 61323.206936,
+      "s_ra": 53.08967875,
+      "s_dec": -27.8445919445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6527744578,
+      "em_min": 0.0029068352,
+      "em_max": 0.002960434,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 335.6132986604
+    },
+    {
+      "obs_id": "uid://A001/X3956/X5f06.source.cdfs_30267.spw.31",
+      "member_ous_uid": "uid://A001/X3956/X5f06",
+      "proposal_id": "2026.1.00363.S",
+      "target_name": "cdfs_30267",
+      "t_min": 61318.149678,
+      "t_max": 61323.206936,
+      "s_ra": 53.08967875,
+      "s_dec": -27.8445919445,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 1.6527744578,
+      "em_min": 0.0028569722,
+      "em_max": 0.0029087316,
+      "data_rights": "Proprietary",
+      "obs_release_date": "2027-11-02T18:20:56.000",
+      "qa2_passed": "T",
+      "center_separation_arcsec": 335.6132986604
+    },
+    {
+      "obs_id": "uid://A001/X3956/X3463.source.JADES_ID-1_Galaxy_Density.spw.10",
+      "member_ous_uid": "uid://A001/X3956/X3463",
+      "proposal_id": "2026.1.00655.S",
+      "target_name": "JADES_ID-1_Galaxy_Density",
+      "t_min": 61333.138234,
+      "t_max": 61370.245203,
+      "s_ra": 53.1375004301,
+      "s_dec": -27.7972216493,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 11.7166557613,
+      "em_min": 0.0028421723,
+      "em_max": 0.0028968038,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 172.0194420196
+    },
+    {
+      "obs_id": "uid://A001/X3956/X3463.source.JADES_ID-1_Galaxy_Density.spw.4",
+      "member_ous_uid": "uid://A001/X3956/X3463",
+      "proposal_id": "2026.1.00655.S",
+      "target_name": "JADES_ID-1_Galaxy_Density",
+      "t_min": 61333.138234,
+      "t_max": 61370.245203,
+      "s_ra": 53.1375004301,
+      "s_dec": -27.7972216493,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 11.7166557613,
+      "em_min": 0.0032756731,
+      "em_max": 0.0033484303,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 172.0194420196
+    },
+    {
+      "obs_id": "uid://A001/X3956/X3463.source.JADES_ID-1_Galaxy_Density.spw.6",
+      "member_ous_uid": "uid://A001/X3956/X3463",
+      "proposal_id": "2026.1.00655.S",
+      "target_name": "JADES_ID-1_Galaxy_Density",
+      "t_min": 61333.138234,
+      "t_max": 61370.245203,
+      "s_ra": 53.1375004301,
+      "s_dec": -27.7972216493,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 11.7166557613,
+      "em_min": 0.0032070555,
+      "em_max": 0.0032767673,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 172.0194420196
+    },
+    {
+      "obs_id": "uid://A001/X3956/X3463.source.JADES_ID-1_Galaxy_Density.spw.8",
+      "member_ous_uid": "uid://A001/X3956/X3463",
+      "proposal_id": "2026.1.00655.S",
+      "target_name": "JADES_ID-1_Galaxy_Density",
+      "t_min": 61333.138234,
+      "t_max": 61370.245203,
+      "s_ra": 53.1375004301,
+      "s_dec": -27.7972216493,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 11.7166557613,
+      "em_min": 0.0028959333,
+      "em_max": 0.0029526691,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 172.0194420196
+    },
+    {
+      "obs_id": "uid://A001/X3956/X345f.source.JADES_ID-1_X-ray_Peak.spw.11",
+      "member_ous_uid": "uid://A001/X3956/X345f",
+      "proposal_id": "2026.1.00655.S",
+      "target_name": "JADES_ID-1_X-ray_Peak",
+      "t_min": 61335.340909,
+      "t_max": 61357.247006,
+      "s_ra": 53.1322916667,
+      "s_dec": -27.7809722222,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 2.6227416706,
+      "em_min": 0.0028422164,
+      "em_max": 0.0028967918,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 212.484100697
+    },
+    {
+      "obs_id": "uid://A001/X3956/X345f.source.JADES_ID-1_X-ray_Peak.spw.5",
+      "member_ous_uid": "uid://A001/X3956/X345f",
+      "proposal_id": "2026.1.00655.S",
+      "target_name": "JADES_ID-1_X-ray_Peak",
+      "t_min": 61335.340909,
+      "t_max": 61357.247006,
+      "s_ra": 53.1322916667,
+      "s_dec": -27.7809722222,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 2.6227416706,
+      "em_min": 0.003275724,
+      "em_max": 0.0033484165,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 212.484100697
+    },
+    {
+      "obs_id": "uid://A001/X3956/X345f.source.JADES_ID-1_X-ray_Peak.spw.7",
+      "member_ous_uid": "uid://A001/X3956/X345f",
+      "proposal_id": "2026.1.00655.S",
+      "target_name": "JADES_ID-1_X-ray_Peak",
+      "t_min": 61335.340909,
+      "t_max": 61357.247006,
+      "s_ra": 53.1322916667,
+      "s_dec": -27.7809722222,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 2.6227416706,
+      "em_min": 0.0032071053,
+      "em_max": 0.0032767537,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 212.484100697
+    },
+    {
+      "obs_id": "uid://A001/X3956/X345f.source.JADES_ID-1_X-ray_Peak.spw.9",
+      "member_ous_uid": "uid://A001/X3956/X345f",
+      "proposal_id": "2026.1.00655.S",
+      "target_name": "JADES_ID-1_X-ray_Peak",
+      "t_min": 61335.340909,
+      "t_max": 61357.247006,
+      "s_ra": 53.1322916667,
+      "s_dec": -27.7809722222,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 2.6227416706,
+      "em_min": 0.0028959783,
+      "em_max": 0.0029526569,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 212.484100697
+    },
+    {
+      "obs_id": "uid://A001/X3873/X60e.source.JADES_20077159.spw.25",
+      "member_ous_uid": "uid://A001/X3873/X60e",
+      "proposal_id": "2025.1.01606.L",
+      "target_name": "JADES_20077159",
+      "t_min": 61349.283763,
+      "t_max": 61364.299979,
+      "s_ra": 53.133626,
+      "s_dec": -27.844987,
+      "band_list": 7,
+      "is_mosaic": "F",
+      "s_resolution": 0.7590108439,
+      "em_min": 0.0008877789,
+      "em_max": 0.0008927154,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 210.6039356851
+    },
+    {
+      "obs_id": "uid://A001/X3873/X60e.source.JADES_20077159.spw.27",
+      "member_ous_uid": "uid://A001/X3873/X60e",
+      "proposal_id": "2025.1.01606.L",
+      "target_name": "JADES_20077159",
+      "t_min": 61349.283763,
+      "t_max": 61364.299979,
+      "s_ra": 53.133626,
+      "s_dec": -27.844987,
+      "band_list": 7,
+      "is_mosaic": "F",
+      "s_resolution": 0.7590108439,
+      "em_min": 0.0008828767,
+      "em_max": 0.0008877587,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 210.6039356851
+    },
+    {
+      "obs_id": "uid://A001/X3873/X60e.source.JADES_20077159.spw.29",
+      "member_ous_uid": "uid://A001/X3873/X60e",
+      "proposal_id": "2025.1.01606.L",
+      "target_name": "JADES_20077159",
+      "t_min": 61349.283763,
+      "t_max": 61364.299979,
+      "s_ra": 53.133626,
+      "s_dec": -27.844987,
+      "band_list": 7,
+      "is_mosaic": "F",
+      "s_resolution": 0.7590108439,
+      "em_min": 0.0008573136,
+      "em_max": 0.0008619162,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 210.6039356851
+    },
+    {
+      "obs_id": "uid://A001/X3873/X60e.source.JADES_20077159.spw.31",
+      "member_ous_uid": "uid://A001/X3873/X60e",
+      "proposal_id": "2025.1.01606.L",
+      "target_name": "JADES_20077159",
+      "t_min": 61349.283763,
+      "t_max": 61364.299979,
+      "s_ra": 53.133626,
+      "s_dec": -27.844987,
+      "band_list": 7,
+      "is_mosaic": "F",
+      "s_resolution": 0.7590108439,
+      "em_min": 0.0008527413,
+      "em_max": 0.0008572948,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 210.6039356851
+    },
+    {
+      "obs_id": "uid://A001/X3873/X606.source.JADES_20006347.spw.25",
+      "member_ous_uid": "uid://A001/X3873/X606",
+      "proposal_id": "2025.1.01606.L",
+      "target_name": "JADES_20006347",
+      "t_min": 61349.343893,
+      "t_max": 61349.394117,
+      "s_ra": 53.1090000001,
+      "s_dec": -27.900842,
+      "band_list": 7,
+      "is_mosaic": "F",
+      "s_resolution": 0.8297995776,
+      "em_min": 0.0008912486,
+      "em_max": 0.0008962238,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 406.6375683801
+    },
+    {
+      "obs_id": "uid://A001/X3873/X606.source.JADES_20006347.spw.27",
+      "member_ous_uid": "uid://A001/X3873/X606",
+      "proposal_id": "2025.1.01606.L",
+      "target_name": "JADES_20006347",
+      "t_min": 61349.343893,
+      "t_max": 61349.394117,
+      "s_ra": 53.1090000001,
+      "s_dec": -27.900842,
+      "band_list": 7,
+      "is_mosaic": "F",
+      "s_resolution": 0.8297995776,
+      "em_min": 0.0008863082,
+      "em_max": 0.0008912282,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 406.6375683801
+    },
+    {
+      "obs_id": "uid://A001/X3873/X606.source.JADES_20006347.spw.29",
+      "member_ous_uid": "uid://A001/X3873/X606",
+      "proposal_id": "2025.1.01606.L",
+      "target_name": "JADES_20006347",
+      "t_min": 61349.343893,
+      "t_max": 61349.394117,
+      "s_ra": 53.1090000001,
+      "s_dec": -27.900842,
+      "band_list": 7,
+      "is_mosaic": "F",
+      "s_resolution": 0.8297995776,
+      "em_min": 0.0008605489,
+      "em_max": 0.0008651863,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 406.6375683801
+    },
+    {
+      "obs_id": "uid://A001/X3873/X606.source.JADES_20006347.spw.31",
+      "member_ous_uid": "uid://A001/X3873/X606",
+      "proposal_id": "2025.1.01606.L",
+      "target_name": "JADES_20006347",
+      "t_min": 61349.343893,
+      "t_max": 61349.394117,
+      "s_ra": 53.1090000001,
+      "s_dec": -27.900842,
+      "band_list": 7,
+      "is_mosaic": "F",
+      "s_resolution": 0.8297995776,
+      "em_min": 0.0008559421,
+      "em_max": 0.0008605298,
+      "data_rights": "Proprietary",
+      "obs_release_date": "3000-01-01T00:00:00.000",
+      "qa2_passed": "F",
+      "center_separation_arcsec": 406.6375683801
+    }
+  ],
+  "public_images": [
+    {
+      "obs_id": "uid://A001/X2fb/X21d.source.GOODS-S.spw.17",
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "t_min": 57601.409463,
+      "t_max": 57602.400858,
+      "s_ra": 53.1674313811,
+      "s_dec": -27.7906172799,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.2217830637,
+      "em_min": 0.0011670118,
+      "em_max": 0.0011760983,
+      "data_rights": "Public",
+      "obs_release_date": "2017-10-17T21:19:23.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fb_X21d.source.GOODS-S.spw.17.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fb%2FX21d.source.GOODS-S.spw.17",
+        "sha256": "11f1a383b6aa293fa7a7b231eff7e25dba2807141d355646b4f8bbac11dc1536"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw0_255897MHz.12m.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw0_255897MHz.12m.mfs.I.pbcor.fits",
+          "listed_bytes": 237093120
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw0_255897MHz.12m.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw0_255897MHz.12m.mfs.I.pb.fits.gz",
+          "listed_bytes": 85822727
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw0_255897MHz.12m.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw0_255897MHz.12m.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "45de79a14151d7a83196084b2f55c987e8dbf2218cf1fb04cab684399d9e33a2"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fb/X21d.source.GOODS-S.spw.19",
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "t_min": 57601.409463,
+      "t_max": 57602.400858,
+      "s_ra": 53.1674313811,
+      "s_dec": -27.7906172799,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.2217830637,
+      "em_min": 0.0011579964,
+      "em_max": 0.0011669425,
+      "data_rights": "Public",
+      "obs_release_date": "2017-10-17T21:19:23.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fb_X21d.source.GOODS-S.spw.19.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fb%2FX21d.source.GOODS-S.spw.19",
+        "sha256": "13d2922c134b1aaaa55436501dd3707fcad6cf0f45385cc9a8353118c0727437"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw1_257858MHz.12m.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw1_257858MHz.12m.mfs.I.pbcor.fits",
+          "listed_bytes": 237093120
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw1_257858MHz.12m.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw1_257858MHz.12m.mfs.I.pb.fits.gz",
+          "listed_bytes": 85608235
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw1_257858MHz.12m.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw1_257858MHz.12m.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "0e3185a669bec81272c342246aaaa7a9096fcc2e3aadeea8a58560d529d2ff97"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fb/X21d.source.GOODS-S.spw.21",
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "t_min": 57601.409463,
+      "t_max": 57602.400858,
+      "s_ra": 53.1674313811,
+      "s_dec": -27.7906172799,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.2217830637,
+      "em_min": 0.0010985885,
+      "em_max": 0.0011066371,
+      "data_rights": "Public",
+      "obs_release_date": "2017-10-17T21:19:23.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fb_X21d.source.GOODS-S.spw.21.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fb%2FX21d.source.GOODS-S.spw.21",
+        "sha256": "fdf0b6d11bd57a0158e3031db494950f69f7e22731fa6975d5495a7a72706f8f"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw2_271826MHz.12m.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw2_271826MHz.12m.mfs.I.pbcor.fits",
+          "listed_bytes": 237093120
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw2_271826MHz.12m.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw2_271826MHz.12m.mfs.I.pb.fits.gz",
+          "listed_bytes": 84641050
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw2_271826MHz.12m.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw2_271826MHz.12m.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "3c7cea165aed3e16b681468a6a8b121218aee32c0bccbe0c7c0fa4a30f963801"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fb/X21d.source.GOODS-S.spw.23",
+      "member_ous_uid": "uid://A001/X2fb/X21d",
+      "proposal_id": "2015.1.00543.S",
+      "target_name": "GOODS-S",
+      "t_min": 57601.409463,
+      "t_max": 57602.400858,
+      "s_ra": 53.1674313811,
+      "s_dec": -27.7906172799,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.2217830637,
+      "em_min": 0.0010905956,
+      "em_max": 0.0010985272,
+      "data_rights": "Public",
+      "obs_release_date": "2017-10-17T21:19:23.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fb_X21d.source.GOODS-S.spw.23.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fb%2FX21d.source.GOODS-S.spw.23",
+        "sha256": "bc06aa641ad47572b9d1b2264ecc450522348d1b78421bd52c69f42fce291353"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw3_273990MHz.12m.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw3_273990MHz.12m.mfs.I.pbcor.fits",
+          "listed_bytes": 237093120
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw3_273990MHz.12m.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw3_273990MHz.12m.mfs.I.pb.fits.gz",
+          "listed_bytes": 84491985
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw3_273990MHz.12m.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fb_X21d.ari_l.GOODS-S_sci.spw3_273990MHz.12m.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "e922bebb90fb4a11cd26f07a66edf8674763b77990138d320ea42d84f88f5bb8"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.17",
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "t_min": 57643.321601,
+      "t_max": 57645.225617,
+      "s_ra": 53.1909863579,
+      "s_dec": -27.8100295764,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.1339910627,
+      "em_min": 0.0012181125,
+      "em_max": 0.0012280142,
+      "data_rights": "Public",
+      "obs_release_date": "2018-01-20T23:45:01.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fe_Xaf2.source.HUDF-JVLA-ALMA.spw.17.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fe%2FXaf2.source.HUDF-JVLA-ALMA.spw.17",
+        "sha256": "06e3b4bbc62086f4e9be957cb49b0038978981bfc9c04a5eb4333c0aeac9e582"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits",
+          "listed_bytes": 203221440
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pb.fits.gz",
+          "listed_bytes": 135981695
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "f886973b39f8f8e798b59b4c254da234193275ebd1c206324c66e4ac3866e768"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.19",
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "t_min": 57643.321601,
+      "t_max": 57645.225617,
+      "s_ra": 53.1909863579,
+      "s_dec": -27.8100295764,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.1339910627,
+      "em_min": 0.0012088781,
+      "em_max": 0.0012186297,
+      "data_rights": "Public",
+      "obs_release_date": "2018-01-20T23:45:01.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fe_Xaf2.source.HUDF-JVLA-ALMA.spw.19.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fe%2FXaf2.source.HUDF-JVLA-ALMA.spw.19",
+        "sha256": "fb1b9dbad3e265deefffd0c9ce844b2d47eda9082d5f9bd6ca5d766b76f92b7b"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits",
+          "listed_bytes": 203221440
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pb.fits.gz",
+          "listed_bytes": 135725234
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "207270152176ade98fb9289234bf07e0ad8854d4a62a4129bd25273e8bf3f058"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.21",
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "t_min": 57643.321601,
+      "t_max": 57645.225617,
+      "s_ra": 53.1909863579,
+      "s_dec": -27.8100295764,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.1339910627,
+      "em_min": 0.0011481361,
+      "em_max": 0.0011569288,
+      "data_rights": "Public",
+      "obs_release_date": "2018-01-20T23:45:01.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fe_Xaf2.source.HUDF-JVLA-ALMA.spw.21.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fe%2FXaf2.source.HUDF-JVLA-ALMA.spw.21",
+        "sha256": "f96498584c9ff9279e4746ae98180fbf67efb71b878c248ac0d08529207224d9"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits",
+          "listed_bytes": 203221440
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pb.fits.gz",
+          "listed_bytes": 133420739
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "305781a02236f13ea0b3236ac6e817e0f71ecf296be473ce43bd0c54bdc27761"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xaf2.source.HUDF-JVLA-ALMA.spw.23",
+      "member_ous_uid": "uid://A001/X2fe/Xaf2",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "t_min": 57643.321601,
+      "t_max": 57645.225617,
+      "s_ra": 53.1909863579,
+      "s_dec": -27.8100295764,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.1339910627,
+      "em_min": 0.0011399286,
+      "em_max": 0.0011485956,
+      "data_rights": "Public",
+      "obs_release_date": "2018-01-20T23:45:01.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fe_Xaf2.source.HUDF-JVLA-ALMA.spw.23.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fe%2FXaf2.source.HUDF-JVLA-ALMA.spw.23",
+        "sha256": "63291b9e3b112aa5c53f403d732756fee5e52a4efcdd418a62b2407ce76a4e94"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits",
+          "listed_bytes": 203221440
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pb.fits.gz",
+          "listed_bytes": 133156148
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xaf2.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "e830ceb6bee6d47af2d6776164f4eabceb5742b327d18b12af49d678de97220f"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.17",
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "t_min": 57659.456803,
+      "t_max": 57660.371153,
+      "s_ra": 53.190986358,
+      "s_dec": -27.8099492534,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.1302551925,
+      "em_min": 0.0011751391,
+      "em_max": 0.001184352,
+      "data_rights": "Public",
+      "obs_release_date": "2018-01-28T04:03:04.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fe_Xb16.source.HUDF-JVLA-ALMA.spw.17.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fe%2FXb16.source.HUDF-JVLA-ALMA.spw.17",
+        "sha256": "2ee37af5b28cd0945b59869ff099730bd1ae4b39dc2d1db9b0879b2f54c31b98"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits",
+          "listed_bytes": 296360640
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pb.fits.gz",
+          "listed_bytes": 196681982
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw17.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "f83b63070798a631e12681b2aae854a4e30e0808eb245d2eedcaeee2d9062302"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.19",
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "t_min": 57659.456803,
+      "t_max": 57660.371153,
+      "s_ra": 53.190986358,
+      "s_dec": -27.8099492534,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.1302551925,
+      "em_min": 0.0011665425,
+      "em_max": 0.0011756206,
+      "data_rights": "Public",
+      "obs_release_date": "2018-01-28T04:03:04.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fe_Xb16.source.HUDF-JVLA-ALMA.spw.19.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fe%2FXb16.source.HUDF-JVLA-ALMA.spw.19",
+        "sha256": "58a6d6c285fb060b96a753e71ad9088c1c12b4b97a9551ea39d6fa8d8b8f50ba"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits",
+          "listed_bytes": 296360640
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pb.fits.gz",
+          "listed_bytes": 197905576
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw19.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "18fc6f8da69c757bbb7fcc7b8f1c80b9e488df93112f59a57343756f934cc493"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.21",
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "t_min": 57659.456803,
+      "t_max": 57660.371153,
+      "s_ra": 53.190986358,
+      "s_dec": -27.8099492534,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.1302551925,
+      "em_min": 0.0011098807,
+      "em_max": 0.0011180953,
+      "data_rights": "Public",
+      "obs_release_date": "2018-01-28T04:03:04.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fe_Xb16.source.HUDF-JVLA-ALMA.spw.21.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fe%2FXb16.source.HUDF-JVLA-ALMA.spw.21",
+        "sha256": "7cc702e94aef7f86068ccd38e28aebd0f47909389c09585b8b416d8a41627a26"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits",
+          "listed_bytes": 296360640
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pb.fits.gz",
+          "listed_bytes": 193769476
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw21.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "d729f646708e1a3dff455b0e9edb768ea45baee054b1aa790970bca21e65cf11"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X2fe/Xb16.source.HUDF-JVLA-ALMA.spw.23",
+      "member_ous_uid": "uid://A001/X2fe/Xb16",
+      "proposal_id": "2015.1.00098.S",
+      "target_name": "HUDF-JVLA-ALMA",
+      "t_min": 57659.456803,
+      "t_max": 57660.371153,
+      "s_ra": 53.190986358,
+      "s_dec": -27.8099492534,
+      "band_list": 6,
+      "is_mosaic": "T",
+      "s_resolution": 0.1302551925,
+      "em_min": 0.0011022092,
+      "em_max": 0.0011103102,
+      "data_rights": "Public",
+      "obs_release_date": "2018-01-28T04:03:04.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X2fe_Xb16.source.HUDF-JVLA-ALMA.spw.23.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX2fe%2FXb16.source.HUDF-JVLA-ALMA.spw.23",
+        "sha256": "a5273d94323941c84d9a0d3512fe24659d59f410704c4694536afe1297ebd909"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits",
+          "listed_bytes": 296360640
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pb.fits.gz",
+          "listed_bytes": 191018965
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X2fe_Xb16.HUDF-JVLA-ALMA_sci.spw23.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "39ee8749b69c4834e85a34b457939bbd52445f6f52906d08fd7aa4b75d00d359"
+      },
+      "primary_beam_image": null
+    },
+    {
+      "obs_id": "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.25",
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 58198.913781,
+      "t_max": 58207.882369,
+      "s_ra": 53.1198310898,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.9950415964,
+      "em_min": 0.0032037789,
+      "em_max": 0.0032692607,
+      "data_rights": "Public",
+      "obs_release_date": "2020-07-09T00:00:00.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1288_X64b.source.CANDELS_-_GOODS_South.spw.25.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1288%2FX64b.source.CANDELS_-_GOODS_South.spw.25",
+        "sha256": "b376660b83dbb47ed25517fb82cb78b91ec4ef2fefaf6b20f2eb2f2c4380adb8"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits",
+          "listed_bytes": 12104640
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_bytes": 5740400
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "9978a0960c1be3eb4cd2d1e230a70942efa1ed2bdd0defc07d905406f2d38552"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "31c02d8058db33d25f323552b298493baa25766347511add57d6d460cdf8eaaf"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.27",
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 58198.913781,
+      "t_max": 58207.882369,
+      "s_ra": 53.1198310898,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.9950415964,
+      "em_min": 0.0031408442,
+      "em_max": 0.0032037535,
+      "data_rights": "Public",
+      "obs_release_date": "2020-07-09T00:00:00.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1288_X64b.source.CANDELS_-_GOODS_South.spw.27.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1288%2FX64b.source.CANDELS_-_GOODS_South.spw.27",
+        "sha256": "33a1d8e24a36ed737e66c47bf8d3e48a0ce459275acddcae13e4b29f33fdb0ba"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits",
+          "listed_bytes": 12104640
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_bytes": 5689673
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "4c01c662d5d1c4a3529cd569cf6ff3a94e1b3130e725daa1db18e9b6a854c1b6"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "34f831dcec17cf9c3897a3ad0da15c99ee63217221480dccd6e0d53c56b79eb4"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.29",
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 58198.913781,
+      "t_max": 58207.882369,
+      "s_ra": 53.1198310898,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.9950415964,
+      "em_min": 0.0028396255,
+      "em_max": 0.0028909484,
+      "data_rights": "Public",
+      "obs_release_date": "2020-07-09T00:00:00.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1288_X64b.source.CANDELS_-_GOODS_South.spw.29.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1288%2FX64b.source.CANDELS_-_GOODS_South.spw.29",
+        "sha256": "5e81a532f18b230a614d79c0a62d8e932db71a1a9a0112f5aa25aabd01ec9f9f"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits",
+          "listed_bytes": 12104640
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_bytes": 5464843
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "a335d07dc784eb9c51ac95a1b33368af77510aa4233be236276093218ce3ddfa"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "9b6dbf3b2e9e88ae7217e0759466d661f23d63437660fcf2279e875d7da0c83f"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1288/X64b.source.CANDELS_-_GOODS_South.spw.31",
+      "member_ous_uid": "uid://A001/X1288/X64b",
+      "proposal_id": "2017.1.00138.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 58198.913781,
+      "t_max": 58207.882369,
+      "s_ra": 53.1198310898,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.9950415964,
+      "em_min": 0.0027900739,
+      "em_max": 0.0028396057,
+      "data_rights": "Public",
+      "obs_release_date": "2020-07-09T00:00:00.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1288_X64b.source.CANDELS_-_GOODS_South.spw.31.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1288%2FX64b.source.CANDELS_-_GOODS_South.spw.31",
+        "sha256": "6db1a77956c77ed1c00d10ed0cb39c358c02f71f2477dcb7ca201d95fa789a2d"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits",
+          "listed_bytes": 12104640
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_bytes": 5422189
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "7819e51653119eaeda43eb9d094fb9f87454be31c61c5ed1aaafa3683db7acdc"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1288_X64b.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "41f9d5b658e88c6710d71ac5be9c1497e6f4e867b6ada2f0f1f6c11a5c68c216"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.25",
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59559.193368,
+      "t_max": 59559.225811,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.6715648312,
+      "em_min": 0.0034870476,
+      "em_max": 0.003564635,
+      "data_rights": "Public",
+      "obs_release_date": "2022-12-22T15:35:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35c7.source.cdfs2Bz.spw.25.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35c7.source.cdfs2Bz.spw.25",
+        "sha256": "1563c27fd61a9c3c3c6667c35cf633c3d5dd75feeb1fa8dc22c58a852d28fa6e"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits",
+          "listed_bytes": 3712320
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_bytes": 1074248
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "e3213d4e8cd35bc100cf4ded10268c8cf2e82e4ac312865d73d35d6717da383f"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "0e5fb0c915ec3af6b92b6fa8932c9ba8c969526116876d8104aeec4291e0acf8"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.27",
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59559.193368,
+      "t_max": 59559.225811,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.6715648312,
+      "em_min": 0.0034126212,
+      "em_max": 0.0034868968,
+      "data_rights": "Public",
+      "obs_release_date": "2022-12-22T15:35:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35c7.source.cdfs2Bz.spw.27.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35c7.source.cdfs2Bz.spw.27",
+        "sha256": "4841a1e2decb6054b7cb060f89cb3615b4f03f82491a5e631985b278295778a8"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits",
+          "listed_bytes": 3712320
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_bytes": 1035826
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "85e8ee0a989e413c3580e3161e98e63cdead4f577a6a319ccc02a2e7a411220f"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "7e514c8bf0e96a33915d31c28b60db016a8e709da4fb3bc65140fae67b24ad71"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.29",
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59559.193368,
+      "t_max": 59559.225811,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.6715648312,
+      "em_min": 0.003056046,
+      "em_max": 0.0031154756,
+      "data_rights": "Public",
+      "obs_release_date": "2022-12-22T15:35:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35c7.source.cdfs2Bz.spw.29.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35c7.source.cdfs2Bz.spw.29",
+        "sha256": "4f8e16e79e33fc81ad5935b6d517e819758fd733c8c29e34b0df31f2584b7ffe"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits",
+          "listed_bytes": 3712320
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_bytes": 881720
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "766e1671b2bf33d4232e090fdcbf235198196ad0e13a4099023dea4e2a9d6271"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "e254e14a652bd03829113a1414a83604a96b87dae18644bf9af57b99040b8104"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35c7.source.cdfs2Bz.spw.31",
+      "member_ous_uid": "uid://A001/X1590/X35c7",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59559.193368,
+      "t_max": 59559.225811,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.6715648312,
+      "em_min": 0.002998731,
+      "em_max": 0.0030559314,
+      "data_rights": "Public",
+      "obs_release_date": "2022-12-22T15:35:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35c7.source.cdfs2Bz.spw.31.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35c7.source.cdfs2Bz.spw.31",
+        "sha256": "3574722d96dfb483cf466e158501b2b4f383fde01e8ff2fa908f8119c210c6b7"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits",
+          "listed_bytes": 3712320
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_bytes": 863009
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "71ca647484544e81d1b99336aba34f451b5d1a71dc9690f62cefedfcabe0959b"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35c7.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "569fd2867bf997f0648879cbce21bf511819a2cf923293ffd78becfecf3a491c"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.25",
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59559.241897,
+      "t_max": 59559.274349,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7012219269,
+      "em_min": 0.0033413056,
+      "em_max": 0.0034124769,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-05T21:35:59.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35cb.source.cdfs2Bz.spw.25.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35cb.source.cdfs2Bz.spw.25",
+        "sha256": "34a408998614e537d034bea6efcdb0e5fae824c80156944aa1689395aaad54be"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits",
+          "listed_bytes": 4026240
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_bytes": 1145092
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "82a7c6e2bd414f4f6cb42f349f6a3d902609e58f1816d920a8a8f65384ec9af3"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "40870840a1bac36375fdd3509f0db47c4d6238bea83d2d4874b75546792f64d6"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.27",
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59559.241897,
+      "t_max": 59559.274349,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7012219269,
+      "em_min": 0.0032729096,
+      "em_max": 0.0033411672,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-05T21:35:59.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35cb.source.cdfs2Bz.spw.27.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35cb.source.cdfs2Bz.spw.27",
+        "sha256": "4c2cdab97552dee99127963cb0d8356cae2a92adff79ceae92f5f8ce111a66a7"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits",
+          "listed_bytes": 4026240
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_bytes": 1111197
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "f16e38d91ab53c4f57ddee469cad60743f2e4ea2539690e45902327315ac9b55"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "637a01e3103036f588b74e8ebcec426e8f5c0dcbb070b766069e0eb5d98c6d58"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.29",
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59559.241897,
+      "t_max": 59559.274349,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7012219269,
+      "em_min": 0.0029435384,
+      "em_max": 0.0029986333,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-05T21:35:59.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35cb.source.cdfs2Bz.spw.29.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35cb.source.cdfs2Bz.spw.29",
+        "sha256": "a1db0bc0f26c7d31e70a174a4418e565684f44482341a0cf494d1367fe3c9379"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits",
+          "listed_bytes": 4026240
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_bytes": 959229
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "68e576b5d1fe7b912844869381a853ab143fc54700ee24b3e7b62068790c5398"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "4f8d9f852fb54b2be36f843c5519952c7d844e217c39e0195dcba2f21ef1a23b"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cb.source.cdfs2Bz.spw.31",
+      "member_ous_uid": "uid://A001/X1590/X35cb",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59559.241897,
+      "t_max": 59559.274349,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7012219269,
+      "em_min": 0.0028903278,
+      "em_max": 0.0029434309,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-05T21:35:59.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35cb.source.cdfs2Bz.spw.31.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35cb.source.cdfs2Bz.spw.31",
+        "sha256": "2092c392fc2b2f3348caf062a7b1a911f4d562f595001d979b9789b329012d24"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits",
+          "listed_bytes": 4026240
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_bytes": 936361
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "7dece912fdaf01efa509d927ace4367d2a073520a01ea2b16243ef0442897457"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cb.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "604288e0348db8839498e5ed460b50ea16e68b08a10acc1a7ec6b81ef8a60dcd"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.25",
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59567.007789,
+      "t_max": 59567.040252,
+      "s_ra": 53.1819958333,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.6058095641,
+      "em_min": 0.0032072576,
+      "em_max": 0.0032727772,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-06T19:08:02.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35cf.source.cdfs2Bz.spw.25.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35cf.source.cdfs2Bz.spw.25",
+        "sha256": "3a4fe31fd066cc993db33714783ceb5c7980ef05bd98a572f25ad71a7be6ea50"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits",
+          "listed_bytes": 2586240
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_bytes": 804528
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "2d6831eb3049a3b338ffd5140a8c3b56748bf8739e3846365a7232fd41932e8b"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "8cd02ebbf98bfb4bdd6583012421a9c74765ed69cffc7535e4440c71e5c2b3c6"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.27",
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59567.007789,
+      "t_max": 59567.040252,
+      "s_ra": 53.1819958333,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.6058095641,
+      "em_min": 0.0031441876,
+      "em_max": 0.0032071304,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-06T19:08:02.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35cf.source.cdfs2Bz.spw.27.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35cf.source.cdfs2Bz.spw.27",
+        "sha256": "e0972338723d3b9c84f58a58f04ca75f4eb340ab86dbd587e188586a00203e21"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits",
+          "listed_bytes": 2586240
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_bytes": 772610
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "68c51436e394bf6ae03fb4c4bba75f0f7a1fa49998a6e01f852bd1997284f85b"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "ce338f119e5bf2274259087ef8a36dc22d64c4c5366a74ab7589f08dc7029721"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.29",
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59567.007789,
+      "t_max": 59567.040252,
+      "s_ra": 53.1819958333,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.6058095641,
+      "em_min": 0.002839007,
+      "em_max": 0.0028902246,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-06T19:08:02.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35cf.source.cdfs2Bz.spw.29.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35cf.source.cdfs2Bz.spw.29",
+        "sha256": "ae97218ca35ab2899ebca01fe16f7ef760b6cb8b28203cdc418fb909c408da9c"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits",
+          "listed_bytes": 2586240
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_bytes": 664347
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "6827bc164728a289b0f38627d165ceee53dfa41cb54588e5690c9473a6d29a24"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "fa5fd4a4319adde8b51c33da6a1e13e227b55b0a23b375eea0b1441e6debbecc"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35cf.source.cdfs2Bz.spw.31",
+      "member_ous_uid": "uid://A001/X1590/X35cf",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59567.007789,
+      "t_max": 59567.040252,
+      "s_ra": 53.1819958333,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.6058095641,
+      "em_min": 0.0027894872,
+      "em_max": 0.0028389181,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-06T19:08:02.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35cf.source.cdfs2Bz.spw.31.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35cf.source.cdfs2Bz.spw.31",
+        "sha256": "f7740d45628fa2a65199a5868bce2b03b098362dcde8df62076e207bdd79d4ec"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits",
+          "listed_bytes": 2586240
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_bytes": 648572
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "b3857b6bed260d66b979b538693db5746d5c8426c596e7bbdd8e23297bb0f603"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35cf.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "36347a2d9836553ab8ad2f694d96884a5cbba73a7056d769682d49647d2fbdcf"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.25",
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59567.205463,
+      "t_max": 59579.005136,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.6013472432,
+      "em_min": 0.0032037786,
+      "em_max": 0.0032692609,
+      "data_rights": "Public",
+      "obs_release_date": "2023-02-10T19:05:03.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X745.source.CANDELS_-_GOODS_South.spw.25.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX745.source.CANDELS_-_GOODS_South.spw.25",
+        "sha256": "613b87944497996abc023b5c106743daf862c12fc88513761254e17fc78583d9"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits",
+          "listed_bytes": 23065920
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_bytes": 10997968
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "cd6bc67e08f918538d048cf9194a0887f5061b071c01f49ece6a0bf5c02a053b"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "e27ffac9bc8f1594a6ef091135a0ff910c2d561a961d094b779966153c806044"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.27",
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59567.205463,
+      "t_max": 59579.005136,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.6013472432,
+      "em_min": 0.003140844,
+      "em_max": 0.0032037536,
+      "data_rights": "Public",
+      "obs_release_date": "2023-02-10T19:05:03.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X745.source.CANDELS_-_GOODS_South.spw.27.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX745.source.CANDELS_-_GOODS_South.spw.27",
+        "sha256": "69cecf92aa7874acd9bdccb3b45c00f84976b68098921d7b091eb9b9228e98a9"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits",
+          "listed_bytes": 23065920
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_bytes": 10919562
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "91fb2c672aa006a8dc74d99027b0bd471d9fb63614ed3a512ce27914cee2ab66"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "4c94827e290512aae49fdb80e21c5ed2c6752a798800413750f744943b10a9db"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.29",
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59567.205463,
+      "t_max": 59579.005136,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.6013472432,
+      "em_min": 0.0028396254,
+      "em_max": 0.0028909485,
+      "data_rights": "Public",
+      "obs_release_date": "2023-02-10T19:05:03.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X745.source.CANDELS_-_GOODS_South.spw.29.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX745.source.CANDELS_-_GOODS_South.spw.29",
+        "sha256": "979d891bc6e02122b21ff98de5a8ba1b8ef234d48ece2831ce48160ad0cb6042"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits",
+          "listed_bytes": 23065920
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_bytes": 10449304
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "23d77dc2e56eea5050fa09cfac1fc0167fca0b7d8f07294a6cc951c03ed21735"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "fbdfef2fc27611e6a482ba5e2eaf06c97c1fd41f5adb64c45592779d01e1ed90"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X745.source.CANDELS_-_GOODS_South.spw.31",
+      "member_ous_uid": "uid://A001/X158f/X745",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59567.205463,
+      "t_max": 59579.005136,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.6013472432,
+      "em_min": 0.0027900738,
+      "em_max": 0.0028396058,
+      "data_rights": "Public",
+      "obs_release_date": "2023-02-10T19:05:03.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X745.source.CANDELS_-_GOODS_South.spw.31.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX745.source.CANDELS_-_GOODS_South.spw.31",
+        "sha256": "df7e4eaef2c3ee9a5643de6dc2837314cea163ddb2c295ac84b18fd97e775f49"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits",
+          "listed_bytes": 23065920
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_bytes": 10386786
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "24d63036ac0933d676f878c835d5a243c29921127cbc4a8343354a773bc2a544"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X745.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "910c3bdfd8002f75a1ea726c79b6f3d1ef2c5a7052c347e4f21c8619f7baef0c"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.25",
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59579.989206,
+      "t_max": 59581.121851,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.8744705598,
+      "em_min": 0.0030803342,
+      "em_max": 0.00314082,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-11T22:43:48.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X749.source.CANDELS_-_GOODS_South.spw.25.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX749.source.CANDELS_-_GOODS_South.spw.25",
+        "sha256": "9d8de79fa0580e1b9bac550d8936454b68653db843e6af5230251fcd5ae79941"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits",
+          "listed_bytes": 17308800
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_bytes": 7735740
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "474fb07567122c975fd62e3b66b58569fec3d5356512cc69892a461f8111b4a0"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "41c121dde38f8e379dead19cbad186ee504fd65bd889e39692bf703e023fc659"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.27",
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59579.989206,
+      "t_max": 59581.121851,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.8744705598,
+      "em_min": 0.0030221119,
+      "em_max": 0.0030803113,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-11T22:43:48.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X749.source.CANDELS_-_GOODS_South.spw.27.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX749.source.CANDELS_-_GOODS_South.spw.27",
+        "sha256": "c22341c2f93408a0bb8109337a4ad37f8ca0959c63bd666553c435b8713d4b70"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits",
+          "listed_bytes": 17308800
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_bytes": 7674703
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "2834357f0483384166ca96a860ebd90d1fd3e7b95a56f39957129ecd4491e5b5"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "6a4d58536c3fa5bbdc02eb2308eb3441cba289ed57a44218c6360e3ff7cb3c8a"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.29",
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59579.989206,
+      "t_max": 59581.121851,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.8744705598,
+      "em_min": 0.0027422218,
+      "em_max": 0.002790055,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-11T22:43:48.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X749.source.CANDELS_-_GOODS_South.spw.29.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX749.source.CANDELS_-_GOODS_South.spw.29",
+        "sha256": "608d996ba4749fec8eccd7511f9419b2eaf3750ed74c53ccdd139dec7fbe7a49"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits",
+          "listed_bytes": 17308800
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_bytes": 7376412
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "d26ecd9989ccc426c1f9db5503d79b598671c8cfafc481aaf8f683b06f0a81f8"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "9cda75415413fd6e223a862655ceb0f3cbb5ee4c2a1ab58e751b8fa1c511a887"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X749.source.CANDELS_-_GOODS_South.spw.31",
+      "member_ous_uid": "uid://A001/X158f/X749",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59579.989206,
+      "t_max": 59581.121851,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.8744705598,
+      "em_min": 0.0026959836,
+      "em_max": 0.0027422037,
+      "data_rights": "Public",
+      "obs_release_date": "2023-01-11T22:43:48.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X749.source.CANDELS_-_GOODS_South.spw.31.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX749.source.CANDELS_-_GOODS_South.spw.31",
+        "sha256": "379ac867a383e9132e28ba2c81b8b6a61b775d36415637fb3b7ca0db1650d1e4"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits",
+          "listed_bytes": 17308800
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_bytes": 7329097
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "45fb7d8579c2033fe69377b7cfe2b672bdb0db26d2f40378a17d9a6efd8f88b1"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X749.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "4f02175266b8e202fb65510cb7fc92e5215408acd53cf6e73a35d2e5c9f87dde"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.25",
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59580.164656,
+      "t_max": 59584.003816,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.9110376442,
+      "em_min": 0.0029660498,
+      "em_max": 0.0030220899,
+      "data_rights": "Public",
+      "obs_release_date": "2023-04-15T00:00:00.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X74d.source.CANDELS_-_GOODS_South.spw.25.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX74d.source.CANDELS_-_GOODS_South.spw.25",
+        "sha256": "1806497165f81b04a913781b12531bfada071323b175cea936c16d6033407fdd"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits",
+          "listed_bytes": 15580800
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_bytes": 7110387
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "a64fffad11829beabbff6b5a540f9a4a600eccca9ff439971f427317e11ac374"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "35f2c7ff400d26e2fd3b696a9e5bd3961d02723888d7b62d5d251767059bcc06"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.27",
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59580.164656,
+      "t_max": 59584.003816,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.9110376442,
+      "em_min": 0.0029120298,
+      "em_max": 0.0029660286,
+      "data_rights": "Public",
+      "obs_release_date": "2023-04-15T00:00:00.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X74d.source.CANDELS_-_GOODS_South.spw.27.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX74d.source.CANDELS_-_GOODS_South.spw.27",
+        "sha256": "34a72bc7676a4b39a1873d764b02a20c10438d98f03cba15135766cdd3110697"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits",
+          "listed_bytes": 15586560
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_bytes": 7054437
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "18e4e01f5d770b64fe2ebd5ff3f1536a8a87a413e78c9b585eaa81c325b01e20"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "3aa43121026ab74d8c00511e60199781577f42260dfa430f3c904c0005b3ab7a"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.29",
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59580.164656,
+      "t_max": 59584.003816,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.9110376442,
+      "em_min": 0.002651279,
+      "em_max": 0.0026959662,
+      "data_rights": "Public",
+      "obs_release_date": "2023-04-15T00:00:00.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X74d.source.CANDELS_-_GOODS_South.spw.29.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX74d.source.CANDELS_-_GOODS_South.spw.29",
+        "sha256": "788dcf889d7d8e6d068608df7df15bb65428bfbe015080ee6e74c2dcaad8a5eb"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits",
+          "listed_bytes": 15583680
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_bytes": 6785807
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "e833bc686a1a709c6ed7f1911650fc5f1d5863e69d856c292952943886ba48d4"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "7348ee7f99f887326339eab8b0bf38cababf9e1d8f5c5ea8099f0bd4423f3ddb"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X158f/X74d.source.CANDELS_-_GOODS_South.spw.31",
+      "member_ous_uid": "uid://A001/X158f/X74d",
+      "proposal_id": "2021.1.00547.S",
+      "target_name": "CANDELS_-_GOODS_South",
+      "t_min": 59580.164656,
+      "t_max": 59584.003816,
+      "s_ra": 53.1198310897,
+      "s_dec": -27.8071528633,
+      "band_list": 3,
+      "is_mosaic": "T",
+      "s_resolution": 0.9110376442,
+      "em_min": 0.0026080326,
+      "em_max": 0.0026512621,
+      "data_rights": "Public",
+      "obs_release_date": "2023-04-15T00:00:00.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X158f_X74d.source.CANDELS_-_GOODS_South.spw.31.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX158f%2FX74d.source.CANDELS_-_GOODS_South.spw.31",
+        "sha256": "bb221f69f42158d400ccee667accd73e180bc90dd70d7cbc0e026bff16ab5109"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits",
+          "listed_bytes": 15580800
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_bytes": 6749483
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "3e6623b92d55203d1ed060272a9c7356f4ebca4e0ae5e2e064f087cd2dee29e0"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X158f_X74d.CANDELS_-_GOODS_South_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "73d98199b03902fcf9c34209009af503038e614b799994f7cc45b5e62dced3d2"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.25",
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59742.68986,
+      "t_max": 59742.722321,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7836553357,
+      "em_min": 0.003083552,
+      "em_max": 0.0031440613,
+      "data_rights": "Public",
+      "obs_release_date": "2023-06-29T13:14:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35d3.source.cdfs2Bz.spw.25.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35d3.source.cdfs2Bz.spw.25",
+        "sha256": "98978a1152be84a3d1db91e6799daaaa0d1ffded17b950455c65c60e30e2f626"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits",
+          "listed_bytes": 3012480
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+          "listed_bytes": 863865
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "d46e71e90463e407de9b622fabe4b9199071261c189616fabb70dac5c64ed818"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw25.mfs.I.pb.fits.gz",
+        "sha256": "b2b8e25e2ec5b9dfe146bab45485193b009d5310ae43a44d39d3825fe8509ed6"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.27",
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59742.68986,
+      "t_max": 59742.722321,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7836553357,
+      "em_min": 0.0030252091,
+      "em_max": 0.0030834288,
+      "data_rights": "Public",
+      "obs_release_date": "2023-06-29T13:14:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35d3.source.cdfs2Bz.spw.27.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35d3.source.cdfs2Bz.spw.27",
+        "sha256": "3e9cda57e07209cbc12583816016a74362f8c816828b06729ef619c453e7146a"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits",
+          "listed_bytes": 3012480
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+          "listed_bytes": 844492
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "c5b41f78821d5560a976f9ca5a8aef79798e3047cd8447511f56dc5540b4e859"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw27.mfs.I.pb.fits.gz",
+        "sha256": "ac32f4800656e85a19e049fb1b872386e1bf6a00f8f0233cb5f8fc92d82f6f25"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.29",
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59742.68986,
+      "t_max": 59742.722321,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7836553357,
+      "em_min": 0.0027416465,
+      "em_max": 0.0027893773,
+      "data_rights": "Public",
+      "obs_release_date": "2023-06-29T13:14:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35d3.source.cdfs2Bz.spw.29.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35d3.source.cdfs2Bz.spw.29",
+        "sha256": "9fe3f97021a7c4ba152adb6212b99c6bec5a7b252f97b394c25b8616cb96833b"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits",
+          "listed_bytes": 3012480
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+          "listed_bytes": 727435
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "afe4808ab9605d8e741c07435744249bd41489dbd2543b74975b8b6509d7d04a"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw29.mfs.I.pb.fits.gz",
+        "sha256": "bd525a33faca5c31b25edab00ae77500b9e43ca0bb5d58a01142799ac6802fb8"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X1590/X35d3.source.cdfs2Bz.spw.31",
+      "member_ous_uid": "uid://A001/X1590/X35d3",
+      "proposal_id": "2021.1.00024.S",
+      "target_name": "cdfs2Bz",
+      "t_min": 59742.68986,
+      "t_max": 59742.722321,
+      "s_ra": 53.1819958334,
+      "s_dec": -27.8141666667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7836553357,
+      "em_min": 0.0026954373,
+      "em_max": 0.0027415592,
+      "data_rights": "Public",
+      "obs_release_date": "2023-06-29T13:14:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X1590_X35d3.source.cdfs2Bz.spw.31.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX1590%2FX35d3.source.cdfs2Bz.spw.31",
+        "sha256": "fc5a077b6f14cceca06ea3da47618a1bdc4d3919ee92ece96cd70603b558c350"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits",
+          "listed_bytes": 3012480
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+          "listed_bytes": 712365
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "078b9e4fd7bf543a9ea74b65f00a79e3c3ec30511d5a7510fdef78f577403eed"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X1590_X35d3.cdfs2Bz_sci.spw31.mfs.I.pb.fits.gz",
+        "sha256": "4ce28b9d9b4f86d95c82ceb3aa1c9907763aab551d64819383411c50ad6599c4"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X37b0/X55e.source.GS-200733.spw.19",
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "t_min": 60751.827884,
+      "t_max": 60751.930733,
+      "s_ra": 53.1828583333,
+      "s_dec": -27.8090566667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7901927245,
+      "em_min": 0.0028743814,
+      "em_max": 0.0029301361,
+      "data_rights": "Public",
+      "obs_release_date": "2026-03-24T15:02:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X37b0_X55e.source.GS-200733.spw.19.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX37b0%2FX55e.source.GS-200733.spw.19",
+        "sha256": "1e2e2074b0a38c58a729c8ba0b62919634da94413745209dae74a0c6a63413e6"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pbcor.fits",
+          "listed_bytes": 3015360
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pb.fits.gz",
+          "listed_bytes": 710824
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "d3feec72679570966fe504412af7ec7e629b6f635d718536705e19281edde99e"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw19.mfs.I.pb.fits.gz",
+        "sha256": "cebf38bf76467ca0d277cf78ae62c325e8e0aa6f13fb066d970f5a7b388db352"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X37b0/X55e.source.GS-200733.spw.21",
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "t_min": 60751.827884,
+      "t_max": 60751.930733,
+      "s_ra": 53.1828583333,
+      "s_dec": -27.8090566667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7901927245,
+      "em_min": 0.0033154148,
+      "em_max": 0.0033854763,
+      "data_rights": "Public",
+      "obs_release_date": "2026-03-24T15:02:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X37b0_X55e.source.GS-200733.spw.21.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX37b0%2FX55e.source.GS-200733.spw.21",
+        "sha256": "b03b4fd08f882b23afacc080927f63607a51f843998472457ad943842eff863b"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pbcor.fits",
+          "listed_bytes": 3015360
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pb.fits.gz",
+          "listed_bytes": 866497
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "415e56888d572f0add7e59c86dd4cad2edc3cc42f25c471bab834174fe84653a"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw21.mfs.I.pb.fits.gz",
+        "sha256": "aa7c84aa283535c8e1a05f9c59eb70215e200fd6d3fc8e7df4c57d2c42c7c809"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X37b0/X55e.source.GS-200733.spw.7",
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "t_min": 60751.827884,
+      "t_max": 60751.930733,
+      "s_ra": 53.1828583333,
+      "s_dec": -27.8090566667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7901927245,
+      "em_min": 0.0032453444,
+      "em_max": 0.0033165974,
+      "data_rights": "Public",
+      "obs_release_date": "2026-03-24T15:02:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X37b0_X55e.source.GS-200733.spw.7.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX37b0%2FX55e.source.GS-200733.spw.7",
+        "sha256": "cbb5b478bf888a2cac9fe24e982370954eed5926a8b8062a93925ae19060d423"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pbcor.fits",
+          "listed_bytes": 3015360
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pb.fits.gz",
+          "listed_bytes": 846502
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "511a48e7a9256ef5327f4fd8439bc616e15d22115cda17bbcb72942ac7d420c6"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw7.mfs.I.pb.fits.gz",
+        "sha256": "4d853e644363e1e53ac38aaeb50d14b15993077006bbdfaf6b90cffadcdb9b1d"
+      }
+    },
+    {
+      "obs_id": "uid://A001/X37b0/X55e.source.GS-200733.spw.9",
+      "member_ous_uid": "uid://A001/X37b0/X55e",
+      "proposal_id": "2024.1.01662.S",
+      "target_name": "GS-200733",
+      "t_min": 60751.827884,
+      "t_max": 60751.930733,
+      "s_ra": 53.1828583333,
+      "s_dec": -27.8090566667,
+      "band_list": 3,
+      "is_mosaic": "F",
+      "s_resolution": 0.7901927245,
+      "em_min": 0.0029271112,
+      "em_max": 0.0029849509,
+      "data_rights": "Public",
+      "obs_release_date": "2026-03-24T15:02:33.000",
+      "qa2_passed": "T",
+      "datalink": {
+        "status": "downloaded",
+        "path": "data/raw/metadata/alma/A001_X37b0_X55e.source.GS-200733.spw.9.vot",
+        "url": "https://almascience.eso.org/datalink/sync?ID=uid%3A%2F%2FA001%2FX37b0%2FX55e.source.GS-200733.spw.9",
+        "sha256": "73de50f7b83e4d49011691a44c6fb80d80e4b083ff58ef46ae6baf73b5a6a87f"
+      },
+      "assets": {
+        "science": {
+          "filename": "member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pbcor.fits",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pbcor.fits",
+          "listed_bytes": 3015360
+        },
+        "primary_beam": {
+          "filename": "member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pb.fits.gz",
+          "listed_url": "https://almascience.eso.org/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pb.fits.gz",
+          "listed_bytes": 729767
+        }
+      },
+      "science_cutout": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/stamps/member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pbcor.fits.almascience.eso.org.fits",
+        "url": "https://almascience.eso.org/soda/sync?ID=member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pbcor.fits&POS=CIRCLE+53.188669832987+-27.812539402768+0.005555556",
+        "sha256": "2beca1f063d6bde4dac9daad782ea88918bc76285fdc4d8322438cc6559b6239"
+      },
+      "primary_beam_image": {
+        "status": "downloaded",
+        "path": "data/raw/cross_detector/alma/pb/member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pb.fits.gz",
+        "url": "https://almascience.nrao.edu/dataPortal/member.uid___A001_X37b0_X55e.GS-200733_sci.spw9.mfs.I.pb.fits.gz",
+        "sha256": "c6a190cce1787acc9e4c3f18e761fe7328bc9f8f50855659bc48e52a0f2b2ad5"
+      }
+    }
+  ],
+  "cutout_query_radius_arcsec": 20.000001599999997,
+  "max_primary_beam_product_bytes": 12582912,
+  "raw_cache_budget_bytes": 34865152000,
+  "scope": "Archive footprints and pointing centers describe observation metadata. The completeness of the pixel assessment is recorded per spectral-window continuum cutout. Products are not concatenated with image cubes. Primary-beam files above the per-product allocation are omitted and qualified limits in those windows are measured directly from the delivered primary-beam-corrected images."
+}
