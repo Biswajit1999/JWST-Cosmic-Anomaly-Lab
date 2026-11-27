@@ -28,6 +28,9 @@ KEYS = (
     "independent_2026_coverage",
     "decam_2026_coverage",
     "rubin_2026_alerts",
+    "des_z_history",
+    "ztf_coverage",
+    "swift_coverage",
 )
 
 
@@ -78,6 +81,17 @@ def collect(data, hashes):
             for r in data["vista_video_coverage"]["h_band_pilot"]
             if r["status"] == "measured"
         ),
+        "Swift XRT and UVOT": day_list(
+            data["swift_coverage"][instrument]["date_obs_utc"] for instrument in ("xrt", "uvot")
+        ),
+        "Blanco/DES z band": day_list(
+            product["date_obs_utc"]
+            for night in data["des_z_history"]["nightly_results"]
+            if night["status"] == "measured"
+            for product in night["products"]
+            if product["status"] == "usable"
+        ),
+        "ZTF public image metadata": data["ztf_coverage"]["available_history"]["utc_days"],
         "MeerKAT MIGHTEE coadd": radio,
         "Euclid DR1 H band": day_list(
             r["start_date_utc"]
@@ -124,7 +138,7 @@ def write_timeline(history, recent):
             axes[0].scatter(times, [y] * len(times), marker="|", s=100, color="#226e7f")
     axes[0].set_yticks(range(len(history)), list(history), fontsize=9)
     axes[0].set(
-        xlim=(datetime(1999, 1, 1), datetime(2026, 7, 1)),
+        xlim=(datetime(1999, 1, 1), datetime(2026, 10, 1)),
         title="Earlier observations at the position",
     )
     axes[0].xaxis.set_major_locator(YearLocator(4))
@@ -169,7 +183,9 @@ def main():
             contemporaneous_records=recent,
             scope="Observation-start days or published Spitzer months. MeerKAT endpoints enclose "
             "the contributing observations in a single published coadd. Marks do not imply "
-            "continuous exposure, equal depth or common flux limits. The 2026 lower panel includes "
+            "continuous exposure, equal depth or common flux limits. The DES dates are from usable "
+            "FITS exposure headers on measured nights. ZTF dates are public footprint metadata. "
+            "The 2026 lower panel includes "
             "public metadata for unreleased DECam images, nearby Rubin alerts, and HST products "
             "whose footprints miss the position.",
         ),

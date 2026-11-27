@@ -792,6 +792,50 @@ apertures without PSF matching or confidence-map weighting.
 
 ![Three observed VISTA H-band cutouts centered on the transient position](../figures/jwst_cross_detector/module_b_001_vista_video_coverage.png)
 
+**Dark Energy Survey, DECam z band.** We screened 6,011 calibrated
+detector records from the DES proposal in 24 date ranges covering
+July 2013 through June 2019. Detector footprints contain the
+transient position in 1,459 distinct exposures between January
+2014 and December 2018. Of these, 1,140 have matching public DR2
+science and mask cutouts and an exact filename match to a Y6 Gold
+FGCM zeropoint. The matched products span August 2014 to September
+2018 and come predominantly from the DES supernova field C3. We
+matched the exposure and CCD numbers before checking the reduction
+filename for the zeropoint. The unmatched footprints remain
+coverage metadata.
+[DES DR2 processing and flux calibration](https://arxiv.org/abs/2101.05765) ·
+[NOIRLab single-epoch cutout documentation](https://datalab.noirlab.edu/docs/manual/UsingAstroDataLab/DataAccessInterfaces/SimpleImageAccessSIA/SimpleImageAccessSIA.html) ·
+[DES Y6 Gold zeropoint release](https://datalab.noirlab.edu/news/newsletters/2025-06) ·
+[Coverage and calibration inventory](../results/jwst_cross_detector/module_b_001_des_z_inventory.json).
+
+Of 107 nights with at least two eligible exposures, the first pixel
+analysis selects the longest eligible exposure sum in each available
+month and measures up to three exposures per night. All 84 selected
+exposures were usable across 28 nights from August 2014 to September
+2018. We excluded masked pixels, matched the reported seeing to
+1.5 arcsec FWHM with Gaussian kernels and subtracted a median
+reference drawn from other observing seasons. Forced photometry
+uses a 1.0-arcsec aperture. The median local control scatter is
+170 nJy, with a range of 87 to 854 nJy. The largest positive
+score occurs on the night beginning 20 August 2017 at
++257 ± 122 nJy. Of 41 control sites covering that night and at
+least 80% of the scan, 21 reach a score at least as high.
+
+We added Gaussian and Moffat point-source profiles to the residual
+coadds at nearby control positions and repeated the same aperture
+measurement. At a threshold of five times the local control scatter,
+no 350 nJy injection was recovered in either profile on the sampled
+nights. For 24 of the 28 nights the first tested flux with at least
+90% recovery is between 1.0 and 2.0 µJy for a Gaussian profile, and
+between 1.5 and 3.0 µJy for a Moffat profile. These trials constrain
+bright z-band events persisting through the sampled exposures.
+They leave fainter activity, shorter flares and unsampled nights
+unresolved. This comparison uses observer-frame z-band fluxes.
+[Nightly photometry, controls and recovery trials](../results/jwst_cross_detector/module_b_001_des_z_history.json) ·
+[Vector figure](../figures/jwst_cross_detector/module_b_001_des_z_history.pdf).
+
+![DES z-band aperture residuals with local error bars and observed images for the largest positive score](../figures/jwst_cross_detector/module_b_001_des_z_history.png)
+
 **Euclid DR1 H band, August 2024 and January 2025.** The IRSA
 position query returned 34 H-band visit stacks. We inspected the
 science, noise and data-quality images in each stack. Thirty-three
@@ -853,6 +897,28 @@ transient and its possible association with the 2026 event unresolved.
 [Vector figure](../figures/jwst_cross_detector/module_b_001_euclid_3025.pdf).
 
 ![Observed Euclid H visit and reference, Y, J and H subtraction images, and three native H exposure residuals at the JWST position](../figures/jwst_cross_detector/module_b_001_euclid_3025.png)
+
+**Swift, 3 August 2024.** The Swift master log returns 156
+pointings within 0.5 degrees of the target from July 2007 to
+February 2026, including 101 with centers within 8.5 arcmin.
+The closest of these inner-cone pointings to the Euclid H excess
+is observation 00080490003. Its calibrated XRT exposure map
+gives 443.8 s across a 20-arcsec aperture at the transient
+position. We counted zero cleaned photon-counting events
+in 0.3–10 keV in the aperture and zero in the 32–60 arcsec
+background annulus. The one-sided 95% upper bound on gross
+aperture rate is 0.00675 counts per second. The bound uses
+the aperture-mean exposure and has no PSF or spectral conversion.
+The UVOT UVW2 image from the same visit has 152.3 s of exposure at
+the exact position. The XRT integration started 60.8 hours before
+the first usable Euclid H exposure. It constrains activity at
+that earlier time. The other Swift pointing records and the
+UVW2 image do not yet have local photometric limits.
+[Swift observing log](https://heasarc.gsfc.nasa.gov/W3Browse/swift/swiftmastr.html) ·
+[Swift XRT exposure-map calibration](https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/help/xrtexpomap.html) ·
+[Pointing records, counts and exposure maps](../results/jwst_cross_detector/module_b_001_swift_coverage.json).
+
+![Swift XRT events and an observed UVW2 image at the target position](../figures/jwst_cross_detector/module_b_001_swift_coverage.png)
 
 **Chandra 7 Ms Deep Field South, 1999 to 2016.** At the transient
 position, a 1.5-arcsec radius gives 13 counts in 0.5–2 keV and 30
@@ -989,9 +1055,12 @@ aperture also missed the position. The Chandra and XMM-Newton
 pointing logs returned no pointing centers within 0.5 degrees in
 the tested date window. The separate RapidXMM positional query also
 returned zero pointed or slew observations overlapping this interval.
+The Swift master log also returns zero pointing centers within
+0.5 degrees for the same interval.
 [HST programme 18004](https://www.stsci.edu/hst-program-info/visits/?program=18004) ·
 [Chandra observation archive](https://heasarc.gsfc.nasa.gov/W3Browse/chandra/chanmaster.html) ·
 [XMM-Newton Science Archive](https://www.cosmos.esa.int/web/xmm-newton/xsa) ·
+[Swift log query](../results/jwst_cross_detector/module_b_001_swift_coverage.json) ·
 [Observation IDs, footprints and query receipts](../results/jwst_cross_detector/module_b_001_independent_2026_coverage.json).
 
 **Blanco/DECam.** The NOIRLab query screened 374 individual
@@ -1026,9 +1095,27 @@ this query.
 [Fink position and time search](https://doc.lsst.fink-broker.org/services/api/conesearch/) ·
 [Target and surrounding-field alert receipts](../results/jwst_cross_detector/module_b_001_rubin_2026_alerts.json).
 
+**Zwicky Transient Facility.** The IRSA archive returns 1,026 released
+quadrants from distinct exposures covering the position between
+2 September 2018 and 25 September 2026. The public search returns
+zero results during the October–November 2026 event window, even
+when expanded to a quarter-degree box. It also returns zero images
+covering the position from 5 through 7 August 2024. The deepest
+unflagged historical image metadata give limiting magnitudes of
+20.98 in g and 20.83 in r. The Fink ZTF broker returns zero objects
+within 5 arcsec in its full history and zero first detections within
+120 arcsec during the 2026 event window. These are public archive
+and alert results as of 27 November 2026. Target photometry and
+coverage from images pending release remain unmeasured.
+[IRSA ZTF image-search documentation](https://irsa.ipac.caltech.edu/docs/program_interface/ztf_api.html) ·
+[ZTF public release schedule](https://www.ztf.caltech.edu/ztf-public-releases.html) ·
+[Fink ZTF cone-search documentation](https://doc.ztf.fink-broker.org/services/search/conesearch/) ·
+[Footprint and broker query receipts](../results/jwst_cross_detector/module_b_001_ztf_coverage.json).
+
 The timeline summarizes the dates behind the historical comparison
 and the search for independent evidence during the 2026 event.
-The available Euclid H-band visits contribute to the earlier baseline.
+The DES z-band measurements, Swift snapshot, Euclid H-band visits
+and ZTF public image dates extend the earlier baseline.
 The October–November 2026 records keep unreleased DECam footprints,
 nearby Rubin alerts and off-target HST footprints distinct from the
 two measured JWST visits.
