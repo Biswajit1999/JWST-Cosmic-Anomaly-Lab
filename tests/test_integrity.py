@@ -86,6 +86,24 @@ def test_failed_checksum_leaves_no_committed_file(tmp_path):
     assert not (cache.raw / "x").exists() and not (cache.raw / "x.part").exists()
 
 
+def test_form_post_records_and_reuses_its_request_body(tmp_path):
+    cache = DownloadCache(tmp_path, budget_bytes=100)
+    cache.session.post = Mock(side_effect=[response(b"first"), response(b"second"), response(b"third")])
+    url = "https://example.org/position"
+    metadata = dict(survey="test", version="1", kind="synthetic_test")
+    first = {"ra": "53.19", "dec": "-27.81"}
+    second = {"ra": "53.20", "dec": "-27.81"}
+    path = cache.fetch(url, "first", form_payload=first, **metadata)
+    assert cache.fetch(url, "first", form_payload=first, **metadata) == path
+    cache.session.post.assert_called_once_with(url, data=first, stream=True, timeout=(20, 90))
+    assert cache.fetch(url, "second", form_payload=second, **metadata).read_bytes() == b"second"
+    assert cache.fetch(url, "json", json_payload=first, **metadata).read_bytes() == b"third"
+    assert [r.get("request_form") for r in cache.records] == [first, second, None]
+    assert [r.get("request_json") for r in cache.records] == [None, None, first]
+    with pytest.raises(ValueError, match="only one POST"):
+        cache.fetch(url, "invalid", form_payload=first, json_payload=first, **metadata)
+
+
 def test_prepared_get_uses_the_same_budget_and_provenance(tmp_path):
     cache = DownloadCache(tmp_path, budget_bytes=4)
     cache.session.get = Mock(side_effect=AssertionError("Should reuse the prepared GET"))

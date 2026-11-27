@@ -1,0 +1,1825 @@
+{
+  "executed_utc": "2026-11-27T08:24:13.562150+00:00",
+  "script_sha256": "97f1b92661cd3a0f168c498a8ead2e9a705bf216a08778d7a36cf54e0dc87938",
+  "tess_inventory_sha256": "09ea0f3f820c7a2cc889eb24d0e47eca711f82c54803b6b3fae4d038689f7115",
+  "jwst_native_fade_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "site_offsets_xy": [
+    [
+      0,
+      0
+    ],
+    [
+      -4,
+      -4
+    ],
+    [
+      0,
+      -4
+    ],
+    [
+      4,
+      -4
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      -4,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "tess_zeropoint": 20.44,
+  "first_jwst_october_exposure_start_utc": "2026-10-09T22:30:43.200",
+  "last_tess_fits_end_utc": "2026-10-04T20:23:31.316",
+  "hours_from_last_tess_fits_end_to_first_october_jwst": 122.11996777786408,
+  "sectors": [
+    {
+      "sector": 4,
+      "camera": 2,
+      "ccd": 2,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_4_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=4",
+        "sha256": "fd60ce0f9c1c1923423c3caea8871a47eaa4575ffcc044910a8f1f9d35b55b82"
+      },
+      "prf_receipts": [
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-2-row1536-col0045.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd2/tess2019107181901-prf-2-2-row1536-col0045.fits",
+          "sha256": "67e2f082da15bb29d510e56c9bd2ec2d69fb21995a59217abca7d250ed0e6cd0"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-2-row1536-col0557.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd2/tess2019107181901-prf-2-2-row1536-col0557.fits",
+          "sha256": "4eb725be3f911f6626e5fdc352135dde5e4f408766cb5878050b4132cd9fbc42"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-2-row2048-col0045.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd2/tess2019107181901-prf-2-2-row2048-col0045.fits",
+          "sha256": "164d14888c56dbf7a4beec21fd967c41d3c786f023246be608dd1dddc4555397"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-2-row2048-col0557.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd2/tess2019107181901-prf-2-2-row2048-col0557.fits",
+          "sha256": "a424696221c94490c4b11b328ef07f6bd1ff9f96e595ae4a7264742023b4a16c"
+        }
+      ],
+      "file_member": "tess-s0004-2-2_53.188670_-27.812539_13x13_astrocut.fits",
+      "cutout_target_xy": [
+        6.26400123454094,
+        6.2347285940344
+      ],
+      "ffi_target_column_row": [
+        313.26400123454096,
+        1545.2347285940343
+      ],
+      "target_profile_fraction_in_cutout": 1.0,
+      "cadence_seconds": 1800.0,
+      "fits_cadences": 1060,
+      "usable_cadences": 1027,
+      "fits_start_utc": "2018-10-19T10:04:49.900",
+      "fits_end_utc": "2018-11-14T08:05:10.316",
+      "first_valid_midpoint_utc": "2018-10-19T10:14:39.299",
+      "last_valid_midpoint_utc": "2018-11-14T07:44:38.392",
+      "valid_midpoint_dates_utc": [
+        "2018-10-19",
+        "2018-10-20",
+        "2018-10-21",
+        "2018-10-22",
+        "2018-10-23",
+        "2018-10-24",
+        "2018-10-25",
+        "2018-10-26",
+        "2018-10-29",
+        "2018-10-30",
+        "2018-10-31",
+        "2018-11-02",
+        "2018-11-03",
+        "2018-11-04",
+        "2018-11-05",
+        "2018-11-06",
+        "2018-11-07",
+        "2018-11-08",
+        "2018-11-09",
+        "2018-11-10",
+        "2018-11-11",
+        "2018-11-12",
+        "2018-11-13",
+        "2018-11-14"
+      ],
+      "matched_profile_injection_recovered_e_s": 9.999999999999787,
+      "windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 503,
+          "minimum_cadences": 2,
+          "control_windows": 4024,
+          "first_bin_utc": "2018-10-19T10:00:00.000",
+          "last_bin_end_utc": "2018-11-14T08:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.7185458651791068,
+          "target_median_empirical_uncertainty_e_s": 1.0377161370953005,
+          "error_inflation_by_site": [
+            1.4441891427997244,
+            1.0132101295725264,
+            1.3181054654692779,
+            1.7768483796849015,
+            1.0233749565721646,
+            3.4352244971210544,
+            1.0,
+            1.5207592458739874,
+            2.561258163725711
+          ],
+          "peak_target": {
+            "window_start_utc": "2018-10-29T18:00:00.000",
+            "window_end_utc": "2018-10-29T19:00:00.000",
+            "cadences": 2,
+            "delta_e_s": 4.2938937666940635,
+            "formal_uncertainty_e_s": 0.7151515620609731,
+            "empirical_uncertainty_e_s": 1.0328141213847206,
+            "residual_score": 4.157470040143457,
+            "same_window_control_scores": [
+              -0.07119120155675554,
+              -6.468046153857008,
+              -6.285334417676631,
+              -4.985648090567362,
+              1.9240981886575481,
+              -3.454701109609062,
+              -4.65095039713215,
+              0.17608648478091826
+            ],
+            "same_window_control_max_abs_score": 6.468046153857008,
+            "same_window_control_count_abs_above_five": 2,
+            "residual_image_rms_inside_target_profile_core_e_s_per_pixel": 6.860476466120415,
+            "residual_image_rms_outside_target_profile_core_e_s_per_pixel": 7.588071496920306,
+            "target_model_cross_correlation_with_residual_image": 0.011795583922226236,
+            "fraction_of_centered_image_variance_in_column_means": 0.09283370284509036
+          },
+          "max_control_score": 7.595284346096231,
+          "control_scores_at_or_above_target_peak": 30,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 19,
+          "windows_with_all_controls_below_abs_score_five": 480,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 7.220868720607883,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.293526376619297
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 21,
+          "minimum_cadences": 29,
+          "control_windows": 168,
+          "first_bin_utc": "2018-10-20T00:00:00.000",
+          "last_bin_end_utc": "2018-11-14T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.1493727904422921,
+          "target_median_empirical_uncertainty_e_s": 0.7246318738507316,
+          "error_inflation_by_site": [
+            4.851163801018245,
+            2.0965958445853157,
+            4.85406535809992,
+            5.114993419244411,
+            1.0,
+            12.655875927958885,
+            1.0,
+            4.65983811615866,
+            9.629769221191538
+          ],
+          "peak_target": {
+            "window_start_utc": "2018-10-30T00:00:00.000",
+            "window_end_utc": "2018-10-31T00:00:00.000",
+            "cadences": 48,
+            "delta_e_s": 2.6386477719306622,
+            "formal_uncertainty_e_s": 0.15035713221955052,
+            "empirical_uncertainty_e_s": 0.7294070770483976,
+            "residual_score": 3.6175242261264526,
+            "same_window_control_scores": [
+              -0.0729978319056352,
+              -0.6081543536767223,
+              -0.4590763144213448,
+              -8.520569154152554,
+              6.355820173578635,
+              -1.892016657172333,
+              -0.5419089897889171,
+              2.6785437368440244
+            ],
+            "same_window_control_max_abs_score": 8.520569154152554,
+            "same_window_control_count_abs_above_five": 2
+          },
+          "max_control_score": 12.272335953674105,
+          "control_scores_at_or_above_target_peak": 2,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 2,
+          "windows_with_all_controls_below_abs_score_five": 19,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 5.432365789426746,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.602527486094935
+        }
+      },
+      "column_adjusted_matched_profile_injection_recovered_e_s": 9.99999999999995,
+      "column_adjusted_windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 503,
+          "minimum_cadences": 2,
+          "control_windows": 4024,
+          "first_bin_utc": "2018-10-19T10:00:00.000",
+          "last_bin_end_utc": "2018-11-14T08:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.8143778083957633,
+          "target_median_empirical_uncertainty_e_s": 1.0769336769209688,
+          "error_inflation_by_site": [
+            1.3224005686530338,
+            1.0,
+            1.0,
+            1.3397143669523468,
+            1.2292910549136262,
+            3.0893901806168644,
+            1.0,
+            1.0071974324565773,
+            1.6844500635570847
+          ],
+          "peak_target": {
+            "window_start_utc": "2018-10-29T18:00:00.000",
+            "window_end_utc": "2018-10-29T19:00:00.000",
+            "cadences": 2,
+            "delta_e_s": 5.8129367599282205,
+            "formal_uncertainty_e_s": 0.8109603049048859,
+            "empirical_uncertainty_e_s": 1.0724143683612588,
+            "residual_score": 5.420420437681087,
+            "same_window_control_scores": [
+              0.3037041228727344,
+              -4.887923701648858,
+              -25.596561378946497,
+              -4.070439604967569,
+              -6.474410215751741,
+              -2.5049592449388576,
+              -4.040926834964843,
+              -14.183186892050328
+            ],
+            "same_window_control_max_abs_score": 25.596561378946497,
+            "same_window_control_count_abs_above_five": 3
+          },
+          "max_control_score": 3.2168622227110175,
+          "control_scores_at_or_above_target_peak": 0,
+          "target_windows_score_at_least_five": 4,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 467,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 7.519364121866791,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.24954721036957
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 21,
+          "minimum_cadences": 29,
+          "control_windows": 168,
+          "first_bin_utc": "2018-10-20T00:00:00.000",
+          "last_bin_end_utc": "2018-11-14T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.16929662619103983,
+          "target_median_empirical_uncertainty_e_s": 0.6631578803286198,
+          "error_inflation_by_site": [
+            3.9171358298675774,
+            1.0,
+            1.0,
+            4.356135360458031,
+            2.737848108710632,
+            10.791407167729368,
+            1.0,
+            1.0,
+            5.032061732974568
+          ],
+          "peak_target": {
+            "window_start_utc": "2018-10-30T00:00:00.000",
+            "window_end_utc": "2018-10-31T00:00:00.000",
+            "cadences": 48,
+            "delta_e_s": 3.5860557979121293,
+            "formal_uncertainty_e_s": 0.17046033510325534,
+            "empirical_uncertainty_e_s": 0.6677162862041954,
+            "residual_score": 5.370628022716031,
+            "same_window_control_scores": [
+              2.699611046907063,
+              -3.287256997480205,
+              -11.015510234895347,
+              0.22718961885888067,
+              3.1557513183957915,
+              -1.0341163104048323,
+              -6.001392456781621,
+              -4.910427375509052
+            ],
+            "same_window_control_max_abs_score": 11.015510234895347,
+            "same_window_control_count_abs_above_five": 2
+          },
+          "max_control_score": 3.1728800972864475,
+          "control_scores_at_or_above_target_peak": 0,
+          "target_windows_score_at_least_five": 1,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 19,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 4.881637219082823,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.71858624624047
+        }
+      }
+    },
+    {
+      "sector": 31,
+      "camera": 2,
+      "ccd": 1,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_31_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=31",
+        "sha256": "5c1d88a5424b1c687f1819fe6bc6812240eb3b760f63fe903fcad4ed3876a199"
+      },
+      "prf_receipts": [
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-1-row1536-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd1/tess2019107181901-prf-2-1-row1536-col1580.fits",
+          "sha256": "9053dc3496384945082ccf6e60b21274729b9d2f0cf2733c6c35cf53c8dfc117"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-1-row1536-col2092.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd1/tess2019107181901-prf-2-1-row1536-col2092.fits",
+          "sha256": "9227ba71eaab7ef1e1730939ee3379eed4df4a38956dfdfbff9660eb868b7a5b"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-1-row2048-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd1/tess2019107181901-prf-2-1-row2048-col1580.fits",
+          "sha256": "0f8b8f0c8cb0d8c4c209beb92dfe6c9cc9d9f84e428eafd029e4ae313d174b62"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-1-row2048-col2092.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd1/tess2019107181901-prf-2-1-row2048-col2092.fits",
+          "sha256": "37054c86968d2fe523bd6afff036ca290546d88f65f2dd44eed6d530add7d4ff"
+        }
+      ],
+      "file_member": "tess-s0031-2-1_53.188670_-27.812539_13x13_astrocut.fits",
+      "cutout_target_xy": [
+        6.76708974121492,
+        6.198809891640288
+      ],
+      "ffi_target_column_row": [
+        2011.767089741215,
+        1547.1988098916404
+      ],
+      "target_profile_fraction_in_cutout": 0.9986478959142391,
+      "cadence_seconds": 600.0,
+      "fits_cadences": 3459,
+      "usable_cadences": 3445,
+      "fits_start_utc": "2020-10-22T00:24:44.033",
+      "fits_end_utc": "2020-11-16T10:44:18.966",
+      "first_valid_midpoint_utc": "2020-10-22T00:24:11.984",
+      "last_valid_midpoint_utc": "2020-11-16T10:34:11.010",
+      "valid_midpoint_dates_utc": [
+        "2020-10-22",
+        "2020-10-23",
+        "2020-10-24",
+        "2020-10-25",
+        "2020-10-26",
+        "2020-10-27",
+        "2020-10-28",
+        "2020-10-29",
+        "2020-10-30",
+        "2020-10-31",
+        "2020-11-01",
+        "2020-11-02",
+        "2020-11-03",
+        "2020-11-05",
+        "2020-11-06",
+        "2020-11-07",
+        "2020-11-08",
+        "2020-11-09",
+        "2020-11-10",
+        "2020-11-11",
+        "2020-11-12",
+        "2020-11-13",
+        "2020-11-14",
+        "2020-11-15",
+        "2020-11-16"
+      ],
+      "matched_profile_injection_recovered_e_s": 10.000000000000018,
+      "windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 575,
+          "minimum_cadences": 4,
+          "control_windows": 4600,
+          "first_bin_utc": "2020-10-22T00:00:00.000",
+          "last_bin_end_utc": "2020-11-16T11:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.6618729693149583,
+          "target_median_empirical_uncertainty_e_s": 0.8279246465293348,
+          "error_inflation_by_site": [
+            1.2508814907281087,
+            1.0681202876850922,
+            1.180504900872712,
+            1.3916914395527533,
+            1.1219371004790084,
+            1.3774238465004691,
+            1.0328791731923572,
+            1.196951204088336,
+            1.0469903665900884
+          ],
+          "peak_target": {
+            "window_start_utc": "2020-11-03T21:00:00.000",
+            "window_end_utc": "2020-11-03T22:00:00.000",
+            "cadences": 6,
+            "delta_e_s": 118.58049145489828,
+            "formal_uncertainty_e_s": 2.326925499782156,
+            "empirical_uncertainty_e_s": 2.9107080379807524,
+            "residual_score": 40.7393973932065,
+            "same_window_control_scores": [
+              78.14088824328306,
+              62.83793570818817,
+              46.48311173611071,
+              65.44583608914665,
+              4.57473806072973,
+              91.12464320113341,
+              58.47941943583885,
+              72.68615884103582
+            ],
+            "same_window_control_max_abs_score": 91.12464320113341,
+            "same_window_control_count_abs_above_five": 7,
+            "residual_image_rms_inside_target_profile_core_e_s_per_pixel": 27.02112768989562,
+            "residual_image_rms_outside_target_profile_core_e_s_per_pixel": 29.73649425080367,
+            "target_model_cross_correlation_with_residual_image": 0.072004008658744,
+            "fraction_of_centered_image_variance_in_column_means": 0.9320700175500486
+          },
+          "max_control_score": 91.12464320113341,
+          "control_scores_at_or_above_target_peak": 38,
+          "target_windows_score_at_least_five": 22,
+          "control_windows_score_at_least_five": 182,
+          "windows_with_all_controls_below_abs_score_five": 545,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 5.056055953977637,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.68047032120438
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 24,
+          "minimum_cadences": 87,
+          "control_windows": 192,
+          "first_bin_utc": "2020-10-22T00:00:00.000",
+          "last_bin_end_utc": "2020-11-16T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.13519360884088763,
+          "target_median_empirical_uncertainty_e_s": 0.48528011872547705,
+          "error_inflation_by_site": [
+            3.5895196739411994,
+            1.157382720584157,
+            3.063745281841245,
+            4.778134897081348,
+            1.9758825536161664,
+            4.219308515027208,
+            1.2602818066314012,
+            3.3959937783677776,
+            2.0852294479541187
+          ],
+          "peak_target": {
+            "window_start_utc": "2020-11-03T00:00:00.000",
+            "window_end_utc": "2020-11-04T00:00:00.000",
+            "cadences": 135,
+            "delta_e_s": 20.1002157912257,
+            "formal_uncertainty_e_s": 0.24119738576935806,
+            "empirical_uncertainty_e_s": 0.8657827615222958,
+            "residual_score": 23.216234700589006,
+            "same_window_control_scores": [
+              117.36097888326128,
+              39.505829761614805,
+              21.620327963424234,
+              58.67980427454395,
+              2.262513943447847,
+              123.19054047513981,
+              34.164836040482605,
+              58.978780629855805
+            ],
+            "same_window_control_max_abs_score": 123.19054047513981,
+            "same_window_control_count_abs_above_five": 7
+          },
+          "max_control_score": 123.19054047513981,
+          "control_scores_at_or_above_target_peak": 6,
+          "target_windows_score_at_least_five": 1,
+          "control_windows_score_at_least_five": 13,
+          "windows_with_all_controls_below_abs_score_five": 21,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 3.074120714744339,
+          "approximate_incremental_tess_magnitude_at_recovery": 19.220697706503497
+        }
+      },
+      "column_adjusted_matched_profile_injection_recovered_e_s": 9.999999999999982,
+      "column_adjusted_windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 575,
+          "minimum_cadences": 4,
+          "control_windows": 4600,
+          "first_bin_utc": "2020-10-22T00:00:00.000",
+          "last_bin_end_utc": "2020-11-16T11:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.7437065542126046,
+          "target_median_empirical_uncertainty_e_s": 0.7604377842352482,
+          "error_inflation_by_site": [
+            1.0224970856151157,
+            1.0,
+            1.0,
+            2.1151776279287753,
+            1.0,
+            1.7069636117996647,
+            1.0,
+            1.0463045825831385,
+            1.6097828494019444
+          ],
+          "peak_target": {
+            "window_start_utc": "2020-10-30T04:00:00.000",
+            "window_end_utc": "2020-10-30T05:00:00.000",
+            "cadences": 6,
+            "delta_e_s": 2.1140976768192417,
+            "formal_uncertainty_e_s": 0.7446325526695515,
+            "empirical_uncertainty_e_s": 0.7613846149587605,
+            "residual_score": 2.776648799153565,
+            "same_window_control_scores": [
+              1.1714087973978684,
+              1.0140461870727635,
+              0.8149382155791653,
+              -0.7101061345245376,
+              0.7153023230387882,
+              -0.6187373436205449,
+              1.0865198466789254,
+              1.1785805748845546
+            ],
+            "same_window_control_max_abs_score": 1.1785805748845546,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 4.573791487119107,
+          "control_scores_at_or_above_target_peak": 35,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 572,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 4.848616237992688,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.725955470994784
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 24,
+          "minimum_cadences": 87,
+          "control_windows": 192,
+          "first_bin_utc": "2020-10-22T00:00:00.000",
+          "last_bin_end_utc": "2020-11-16T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.15190130162664567,
+          "target_median_empirical_uncertainty_e_s": 0.320525382510753,
+          "error_inflation_by_site": [
+            2.110089769333012,
+            1.0,
+            1.1572191807759398,
+            11.031805880854282,
+            1.7240837512304936,
+            6.935707059307064,
+            1.1346134677621769,
+            1.0,
+            7.307557563351407
+          ],
+          "peak_target": {
+            "window_start_utc": "2020-11-10T00:00:00.000",
+            "window_end_utc": "2020-11-11T00:00:00.000",
+            "cadences": 144,
+            "delta_e_s": 0.506384228180874,
+            "formal_uncertainty_e_s": 0.15142222134334654,
+            "empirical_uncertainty_e_s": 0.31951448010627437,
+            "residual_score": 1.584855334294848,
+            "same_window_control_scores": [
+              0.7691247922681397,
+              1.9752596787127088,
+              0.1034587183733474,
+              -0.22431679474825802,
+              2.78147138891611,
+              0.2948053829556656,
+              1.8128517857007855,
+              0.16537696867970206
+            ],
+            "same_window_control_max_abs_score": 2.78147138891611,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 4.211173193388227,
+          "control_scores_at_or_above_target_peak": 17,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 23,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 2.1588366188247483,
+          "approximate_incremental_tess_magnitude_at_recovery": 19.60445055978248
+        }
+      }
+    },
+    {
+      "sector": 105,
+      "camera": 4,
+      "ccd": 3,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_105_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=105",
+        "sha256": "d0ecdb0e6e26a3676d69a4a1741fdf014f849a0e24dbc22addcc1e93d2426164"
+      },
+      "prf_receipts": [
+        {
+          "path": "data/raw/calibration/tess/tess2019107181902-prf-4-3-row0513-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam4_ccd3/tess2019107181902-prf-4-3-row0513-col1580.fits",
+          "sha256": "95c2c1531fb66e2d865d161b127c447217397523f465c444f9cea5a0461c01a5"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181902-prf-4-3-row0513-col2092.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam4_ccd3/tess2019107181902-prf-4-3-row0513-col2092.fits",
+          "sha256": "fe5ee3f655778bc3826949f13a06fce39e5227d072528f8e3157160e2f3640b4"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181902-prf-4-3-row1025-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam4_ccd3/tess2019107181902-prf-4-3-row1025-col1580.fits",
+          "sha256": "4397e7028ac60a6975998d94c23535b4ea507cd88d48549da9dfea31d11a52cc"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181902-prf-4-3-row1025-col2092.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam4_ccd3/tess2019107181902-prf-4-3-row1025-col2092.fits",
+          "sha256": "d5191466931da6a0cde3c31ae898120a75a41da5a082276bef0611c5fbd2b449"
+        }
+      ],
+      "file_member": "tess-s0105-4-3_53.188670_-27.812539_13x13_astrocut.fits",
+      "cutout_target_xy": [
+        6.496757975905299,
+        6.560297531741659
+      ],
+      "ffi_target_column_row": [
+        1979.4967579759052,
+        703.5602975317416
+      ],
+      "target_profile_fraction_in_cutout": 0.997761739767701,
+      "cadence_seconds": 199.99999999999872,
+      "fits_cadences": 11652,
+      "usable_cadences": 9497,
+      "fits_start_utc": "2026-06-13T21:48:23.612",
+      "fits_end_utc": "2026-07-11T12:20:19.845",
+      "first_valid_midpoint_utc": "2026-06-13T22:04:10.251",
+      "last_valid_midpoint_utc": "2026-07-11T12:00:49.111",
+      "valid_midpoint_dates_utc": [
+        "2026-06-13",
+        "2026-06-14",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-20",
+        "2026-06-21",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-27",
+        "2026-06-28",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-04",
+        "2026-07-05",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-11"
+      ],
+      "matched_profile_injection_recovered_e_s": 9.999999999579828,
+      "windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 520,
+          "minimum_cadences": 11,
+          "control_windows": 4160,
+          "first_bin_utc": "2026-06-13T22:00:00.000",
+          "last_bin_end_utc": "2026-07-10T06:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.9022817923571316,
+          "target_median_empirical_uncertainty_e_s": 0.932420191428226,
+          "error_inflation_by_site": [
+            1.0334024240834567,
+            1.336953187719598,
+            1.2804584596244437,
+            1.0521616838074657,
+            1.065405176986289,
+            1.1150448424658868,
+            1.0,
+            1.0287270984109387,
+            1.0271162200442665
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-06-28T00:00:00.000",
+            "window_end_utc": "2026-06-28T01:00:00.000",
+            "cadences": 18,
+            "delta_e_s": 60.58194285515068,
+            "formal_uncertainty_e_s": 5.240015563316796,
+            "empirical_uncertainty_e_s": 5.415044785366617,
+            "residual_score": 11.187708552081546,
+            "same_window_control_scores": [
+              -7.366307323192922,
+              3.650559797468293,
+              -9.42675514478643,
+              -1.7733235931465432,
+              6.665005634485152,
+              -0.22801031703125468,
+              1.8491266158933317,
+              -4.864965587938206
+            ],
+            "same_window_control_max_abs_score": 9.42675514478643,
+            "same_window_control_count_abs_above_five": 3,
+            "residual_image_rms_inside_target_profile_core_e_s_per_pixel": 9.103649219605039,
+            "residual_image_rms_outside_target_profile_core_e_s_per_pixel": 8.383878849091897,
+            "target_model_cross_correlation_with_residual_image": 0.18736726206252358,
+            "fraction_of_centered_image_variance_in_column_means": 0.09600514225226618
+          },
+          "max_control_score": 13.257920641323626,
+          "control_scores_at_or_above_target_peak": 6,
+          "target_windows_score_at_least_five": 23,
+          "control_windows_score_at_least_five": 30,
+          "windows_with_all_controls_below_abs_score_five": 492,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 6.419792097570757,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.421197590396325
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 21,
+          "minimum_cadences": 260,
+          "control_windows": 168,
+          "first_bin_utc": "2026-06-16T00:00:00.000",
+          "last_bin_end_utc": "2026-07-10T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.18428119642835813,
+          "target_median_empirical_uncertainty_e_s": 0.18428119642835813,
+          "error_inflation_by_site": [
+            1.0,
+            3.708857478907016,
+            3.1984409634924886,
+            1.3895192021456555,
+            1.878001681074519,
+            1.6011508455188284,
+            1.3884845125761867,
+            1.1049253001659092,
+            1.5214875596454327
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-06-27T00:00:00.000",
+            "window_end_utc": "2026-06-28T00:00:00.000",
+            "cadences": 318,
+            "delta_e_s": 0.9971147203389557,
+            "formal_uncertainty_e_s": 0.33554105837521586,
+            "empirical_uncertainty_e_s": 0.33554105837521586,
+            "residual_score": 2.9716623210502626,
+            "same_window_control_scores": [
+              -2.8592952741703916,
+              0.9361040756583467,
+              -5.569568019102906,
+              -1.1133821149940855,
+              2.652685857669352,
+              1.2428539524901772,
+              -2.856678006304018,
+              -1.5976730041331186
+            ],
+            "same_window_control_max_abs_score": 5.569568019102906,
+            "same_window_control_count_abs_above_five": 1
+          },
+          "max_control_score": 2.652685857669352,
+          "control_scores_at_or_above_target_peak": 0,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 20,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 1.2896883915358408,
+          "approximate_incremental_tess_magnitude_at_recovery": 20.163788023058203
+        }
+      },
+      "column_adjusted_matched_profile_injection_recovered_e_s": 9.999999999846473,
+      "column_adjusted_windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 520,
+          "minimum_cadences": 11,
+          "control_windows": 4160,
+          "first_bin_utc": "2026-06-13T22:00:00.000",
+          "last_bin_end_utc": "2026-07-10T06:00:00.000",
+          "target_median_formal_uncertainty_e_s": 1.0590918816610717,
+          "target_median_empirical_uncertainty_e_s": 1.0892547518434519,
+          "error_inflation_by_site": [
+            1.0284799371090194,
+            1.139433580558345,
+            1.0804922032289621,
+            1.0096765132384322,
+            1.0,
+            1.0,
+            1.0103656515663237,
+            1.0048109665974292,
+            1.0
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-06-14T05:00:00.000",
+            "window_end_utc": "2026-06-14T06:00:00.000",
+            "cadences": 18,
+            "delta_e_s": 48.5820992508022,
+            "formal_uncertainty_e_s": 6.534986698056455,
+            "empirical_uncertainty_e_s": 6.721102708225382,
+            "residual_score": 7.228292939393224,
+            "same_window_control_scores": [
+              -6.627811916112418,
+              2.2492670468225797,
+              -11.66336472739049,
+              0.3819404774884785,
+              4.895509637542565,
+              3.942517642824919,
+              -0.15362213387915138,
+              -11.185090193551732
+            ],
+            "same_window_control_max_abs_score": 11.66336472739049,
+            "same_window_control_count_abs_above_five": 3
+          },
+          "max_control_score": 6.591926280521344,
+          "control_scores_at_or_above_target_peak": 0,
+          "target_windows_score_at_least_five": 11,
+          "control_windows_score_at_least_five": 10,
+          "windows_with_all_controls_below_abs_score_five": 492,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 7.6454681387876615,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.23148979300401
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 21,
+          "minimum_cadences": 260,
+          "control_windows": 168,
+          "first_bin_utc": "2026-06-16T00:00:00.000",
+          "last_bin_end_utc": "2026-07-10T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.21630875762710436,
+          "target_median_empirical_uncertainty_e_s": 0.23226796024267246,
+          "error_inflation_by_site": [
+            1.073779734073829,
+            1.6852359475884902,
+            1.704517072874689,
+            1.0,
+            1.266394319979199,
+            1.488807648380286,
+            1.549404376124465,
+            2.2632540714850276,
+            1.206506981209922
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-07-07T00:00:00.000",
+            "window_end_utc": "2026-07-08T00:00:00.000",
+            "cadences": 432,
+            "delta_e_s": 0.4220776473092805,
+            "formal_uncertainty_e_s": 0.20711081185574887,
+            "empirical_uncertainty_e_s": 0.22239139247828088,
+            "residual_score": 1.8979046023577613,
+            "same_window_control_scores": [
+              -0.6653561969138174,
+              -0.8154473584272929,
+              -0.9156309920157042,
+              0.8782724829034135,
+              -1.4499609432159055,
+              1.4286125014606543,
+              0.6907297005943165,
+              0.9686194410306354
+            ],
+            "same_window_control_max_abs_score": 1.4499609432159055,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 4.578268817121772,
+          "control_scores_at_or_above_target_peak": 14,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 19,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 1.7360383771926768,
+          "approximate_incremental_tess_magnitude_at_recovery": 19.841101696143653
+        }
+      }
+    },
+    {
+      "sector": 106,
+      "camera": 4,
+      "ccd": 1,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_106_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=106",
+        "sha256": "a73cc43edde526f17e2a30adc6d676ba3d638e4e5f13d92e79ed31de4a56cbe3"
+      },
+      "prf_receipts": [
+        {
+          "path": "data/raw/calibration/tess/tess2019107181902-prf-4-1-row0001-col1069.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam4_ccd1/tess2019107181902-prf-4-1-row0001-col1069.fits",
+          "sha256": "9a36d9cf7ee8bb5bf7981ea5fb1819fd0df6d9b3e20c02a097dc211c5395a31e"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181902-prf-4-1-row0001-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam4_ccd1/tess2019107181902-prf-4-1-row0001-col1580.fits",
+          "sha256": "2312bc4159faedca92dd994ccacc1059aa552d86c1a0f98b23f3be22853cbad7"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181902-prf-4-1-row0513-col1069.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam4_ccd1/tess2019107181902-prf-4-1-row0513-col1069.fits",
+          "sha256": "b1857886049b09d3b969212202690c56f04d9b9dd719d922d0bad52390cb425f"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181902-prf-4-1-row0513-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam4_ccd1/tess2019107181902-prf-4-1-row0513-col1580.fits",
+          "sha256": "985af1a48e08cb5220f48116817c4fb222c8139db5a087eb254b09e4662fca66"
+        }
+      ],
+      "file_member": "tess-s0106-4-1_53.188670_-27.812539_13x13_astrocut.fits",
+      "cutout_target_xy": [
+        6.634783200701098,
+        6.626864675374741
+      ],
+      "ffi_target_column_row": [
+        1371.6347832007011,
+        341.62686467537475
+      ],
+      "target_profile_fraction_in_cutout": 0.9939169997084413,
+      "cadence_seconds": 199.99999999999872,
+      "fits_cadences": 10982,
+      "usable_cadences": 10834,
+      "fits_start_utc": "2026-07-11T22:09:38.868",
+      "fits_end_utc": "2026-08-09T08:59:08.039",
+      "first_valid_midpoint_utc": "2026-07-11T22:20:49.050",
+      "last_valid_midpoint_utc": "2026-08-09T08:50:47.876",
+      "valid_midpoint_dates_utc": [
+        "2026-07-11",
+        "2026-07-12",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-08-02",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-08",
+        "2026-08-09"
+      ],
+      "matched_profile_injection_recovered_e_s": 9.99999999993912,
+      "windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 605,
+          "minimum_cadences": 11,
+          "control_windows": 4840,
+          "first_bin_utc": "2026-07-11T22:00:00.000",
+          "last_bin_end_utc": "2026-08-09T09:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.6928991106016513,
+          "target_median_empirical_uncertainty_e_s": 1.4407570157630725,
+          "error_inflation_by_site": [
+            2.079317167129928,
+            2.423438853129437,
+            2.4490762008772764,
+            2.079884494225468,
+            2.286614597085246,
+            2.235155625768353,
+            2.1402091521710687,
+            2.1368415939825387,
+            2.376340003905708
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-07-12T05:00:00.000",
+            "window_end_utc": "2026-07-12T06:00:00.000",
+            "cadences": 18,
+            "delta_e_s": 218.37210569259156,
+            "formal_uncertainty_e_s": 2.323209851057545,
+            "empirical_uncertainty_e_s": 4.830690126149317,
+            "residual_score": 45.205157025185194,
+            "same_window_control_scores": [
+              48.32237776212036,
+              38.79344907096727,
+              38.218167070825814,
+              48.2577657066845,
+              36.04768887220624,
+              60.79621700343688,
+              28.980286478621636,
+              44.25590376302475
+            ],
+            "same_window_control_max_abs_score": 60.79621700343688,
+            "same_window_control_count_abs_above_five": 8,
+            "residual_image_rms_inside_target_profile_core_e_s_per_pixel": 27.249631051803043,
+            "residual_image_rms_outside_target_profile_core_e_s_per_pixel": 28.814274449119093,
+            "target_model_cross_correlation_with_residual_image": 0.1426760822724936,
+            "fraction_of_centered_image_variance_in_column_means": 0.9546492724112894
+          },
+          "max_control_score": 61.52707372788432,
+          "control_scores_at_or_above_target_peak": 57,
+          "target_windows_score_at_least_five": 140,
+          "control_windows_score_at_least_five": 1064,
+          "windows_with_all_controls_below_abs_score_five": 453,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 7.854849443080287,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.202155337083916
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 25,
+          "minimum_cadences": 260,
+          "control_windows": 200,
+          "first_bin_utc": "2026-07-12T00:00:00.000",
+          "last_bin_end_utc": "2026-08-09T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.14273092347343977,
+          "target_median_empirical_uncertainty_e_s": 0.7294584707142584,
+          "error_inflation_by_site": [
+            5.110724802743958,
+            9.351495876523128,
+            9.537241031327738,
+            3.8691725345346777,
+            9.204602619396736,
+            5.667500528971997,
+            8.504373820137877,
+            7.375422943492667,
+            5.795192371604794
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-07-12T00:00:00.000",
+            "window_end_utc": "2026-07-13T00:00:00.000",
+            "cadences": 432,
+            "delta_e_s": 153.44364219986798,
+            "formal_uncertainty_e_s": 0.4039024574820598,
+            "empirical_uncertainty_e_s": 2.0642343073427996,
+            "residual_score": 74.33441138636505,
+            "same_window_control_scores": [
+              51.33846013506639,
+              40.430138766025024,
+              82.40060469349834,
+              48.728435662956294,
+              59.79228936906253,
+              62.93737276588891,
+              34.17273704069141,
+              74.66289351112839
+            ],
+            "same_window_control_max_abs_score": 82.40060469349834,
+            "same_window_control_count_abs_above_five": 8
+          },
+          "max_control_score": 82.40060469349834,
+          "control_scores_at_or_above_target_peak": 2,
+          "target_windows_score_at_least_five": 7,
+          "control_windows_score_at_least_five": 52,
+          "windows_with_all_controls_below_abs_score_five": 18,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 3.8825164054446306,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.967216751246404
+        }
+      },
+      "column_adjusted_matched_profile_injection_recovered_e_s": 9.999999999952086,
+      "column_adjusted_windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 605,
+          "minimum_cadences": 11,
+          "control_windows": 4840,
+          "first_bin_utc": "2026-07-11T22:00:00.000",
+          "last_bin_end_utc": "2026-08-09T09:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.8144340805748408,
+          "target_median_empirical_uncertainty_e_s": 1.2743642722266186,
+          "error_inflation_by_site": [
+            1.5647236561210107,
+            1.1514422177904584,
+            1.1587862081301243,
+            1.1340426842409639,
+            1.237255548855661,
+            1.0561696672970673,
+            1.6546365950534074,
+            1.453752592552116,
+            1.023439970411517
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-07-27T02:00:00.000",
+            "window_end_utc": "2026-07-27T03:00:00.000",
+            "cadences": 18,
+            "delta_e_s": 11.272264794608372,
+            "formal_uncertainty_e_s": 2.2370225491083318,
+            "empirical_uncertainty_e_s": 3.5003221018659323,
+            "residual_score": 3.2203507181808826,
+            "same_window_control_scores": [
+              -3.053745103875988,
+              0.20147382214006357,
+              -2.8923127216259923,
+              -4.828770302807247,
+              2.2395177351508315,
+              -5.190753770624024,
+              -2.009216145756297,
+              -1.4676583771478162
+            ],
+            "same_window_control_max_abs_score": 5.190753770624024,
+            "same_window_control_count_abs_above_five": 1
+          },
+          "max_control_score": 3.441206686956673,
+          "control_scores_at_or_above_target_peak": 1,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 588,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 16.288546344068674,
+          "approximate_incremental_tess_magnitude_at_recovery": 17.410294180407252
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 25,
+          "minimum_cadences": 260,
+          "control_windows": 200,
+          "first_bin_utc": "2026-07-12T00:00:00.000",
+          "last_bin_end_utc": "2026-08-09T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.1677856104083583,
+          "target_median_empirical_uncertainty_e_s": 1.0949040687219898,
+          "error_inflation_by_site": [
+            6.525613645039055,
+            3.4705700932129306,
+            1.6089547918584242,
+            1.9245496211190183,
+            4.413056253536697,
+            2.5928911512018584,
+            5.687969630988899,
+            3.5961183706864643,
+            1.7817895921460898
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-08-08T00:00:00.000",
+            "window_end_utc": "2026-08-09T00:00:00.000",
+            "cadences": 396,
+            "delta_e_s": 2.5088561589726885,
+            "formal_uncertainty_e_s": 0.16805299239408236,
+            "empirical_uncertainty_e_s": 1.0966489002564683,
+            "residual_score": 2.2877478456285814,
+            "same_window_control_scores": [
+              -0.9829711890375722,
+              3.282168162798137,
+              -1.8049148742551175,
+              -1.3020291830746222,
+              -1.3251120196890225,
+              1.8790369226150776,
+              3.7186114721947297,
+              2.308788117764726
+            ],
+            "same_window_control_max_abs_score": 3.7186114721947297,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 3.7186114721947297,
+          "control_scores_at_or_above_target_peak": 11,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 23,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 17.714136031217322,
+          "approximate_incremental_tess_magnitude_at_recovery": 17.319200061477577
+        }
+      }
+    },
+    {
+      "sector": 107,
+      "camera": 3,
+      "ccd": 1,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_107_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=107",
+        "sha256": "856b3c30a19ab3765368e0a9178ffd0eadccd0f984e378c645527398b5198550"
+      },
+      "prf_receipts": [
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-3-1-row1025-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam3_ccd1/tess2019107181901-prf-3-1-row1025-col1580.fits",
+          "sha256": "7aab44332b08b4e0b9e1c4f23c5c2e1c59b2e61f106e1f6df9cd4f9a1303b68e"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-3-1-row1025-col2092.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam3_ccd1/tess2019107181901-prf-3-1-row1025-col2092.fits",
+          "sha256": "e21d03101b5af2b9a59966cae26db14524aaebef6feb9cd412e1ff98efee6c61"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-3-1-row1536-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam3_ccd1/tess2019107181901-prf-3-1-row1536-col1580.fits",
+          "sha256": "b19318a82f7ef1f96b176a9325b520b9ab6c851d01467933f52d1b3a4e90f57d"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-3-1-row1536-col2092.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam3_ccd1/tess2019107181901-prf-3-1-row1536-col2092.fits",
+          "sha256": "5dccfb5b813a5ea0d091240048a5290e53da03928107e5c315f41fcec38fc8ef"
+        }
+      ],
+      "file_member": "tess-s0107-3-1_53.188670_-27.812539_13x13_astrocut.fits",
+      "cutout_target_xy": [
+        6.289974071606467,
+        6.057752005287379
+      ],
+      "ffi_target_column_row": [
+        1627.2899740716064,
+        1164.0577520052873
+      ],
+      "target_profile_fraction_in_cutout": 1.0,
+      "cadence_seconds": 199.99999999999872,
+      "fits_cadences": 12123,
+      "usable_cadences": 11944,
+      "fits_start_utc": "2026-08-09T14:03:00.960",
+      "fits_end_utc": "2026-09-07T06:35:48.634",
+      "first_valid_midpoint_utc": "2026-08-09T14:10:47.364",
+      "last_valid_midpoint_utc": "2026-09-07T06:30:46.172",
+      "valid_midpoint_dates_utc": [
+        "2026-08-09",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-15",
+        "2026-08-16",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-22",
+        "2026-08-23",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-29",
+        "2026-08-30",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07"
+      ],
+      "matched_profile_injection_recovered_e_s": 10.000000000000785,
+      "windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 667,
+          "minimum_cadences": 11,
+          "control_windows": 5336,
+          "first_bin_utc": "2026-08-09T14:00:00.000",
+          "last_bin_end_utc": "2026-09-07T05:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.7652371741943973,
+          "target_median_empirical_uncertainty_e_s": 2.417766118486066,
+          "error_inflation_by_site": [
+            3.1594990416289788,
+            3.06388968921931,
+            2.7082848774199815,
+            3.0287306981506754,
+            2.702596504082407,
+            2.561781010927034,
+            2.824080760417775,
+            11.758792745478353,
+            2.2897580015405703
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-08-25T07:00:00.000",
+            "window_end_utc": "2026-08-25T08:00:00.000",
+            "cadences": 18,
+            "delta_e_s": 94.82353054955638,
+            "formal_uncertainty_e_s": 1.6819230752994223,
+            "empirical_uncertainty_e_s": 5.31403434450219,
+            "residual_score": 17.843981502991074,
+            "same_window_control_scores": [
+              28.282706609254138,
+              24.234102223341274,
+              17.757225711127983,
+              26.95016852045147,
+              18.96556068098343,
+              29.624994888053365,
+              1.9561689829923892,
+              24.243139636516467
+            ],
+            "same_window_control_max_abs_score": 29.624994888053365,
+            "same_window_control_count_abs_above_five": 7,
+            "residual_image_rms_inside_target_profile_core_e_s_per_pixel": 13.045514862210046,
+            "residual_image_rms_outside_target_profile_core_e_s_per_pixel": 14.719362221890416,
+            "target_model_cross_correlation_with_residual_image": 0.11612697897106107,
+            "fraction_of_centered_image_variance_in_column_means": 0.9691909067143081
+          },
+          "max_control_score": 30.506794268564594,
+          "control_scores_at_or_above_target_peak": 345,
+          "target_windows_score_at_least_five": 119,
+          "control_windows_score_at_least_five": 991,
+          "windows_with_all_controls_below_abs_score_five": 510,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 13.694825650319801,
+          "approximate_incremental_tess_magnitude_at_recovery": 17.598608731012458
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 28,
+          "minimum_cadences": 260,
+          "control_windows": 224,
+          "first_bin_utc": "2026-08-10T00:00:00.000",
+          "last_bin_end_utc": "2026-09-07T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.16119503313955807,
+          "target_median_empirical_uncertainty_e_s": 2.1535710825007355,
+          "error_inflation_by_site": [
+            13.36003374642589,
+            6.652711454290174,
+            8.620806788483241,
+            7.101887066871493,
+            4.837056960561222,
+            7.824046685174361,
+            3.289248701681989,
+            54.98102518102395,
+            4.6371179002468095
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-08-25T00:00:00.000",
+            "window_end_utc": "2026-08-26T00:00:00.000",
+            "cadences": 432,
+            "delta_e_s": 77.35201079507335,
+            "formal_uncertainty_e_s": 0.32067089438960134,
+            "empirical_uncertainty_e_s": 4.284173970541646,
+            "residual_score": 18.05529171479789,
+            "same_window_control_scores": [
+              55.24675971985739,
+              32.355897319127514,
+              32.794962819530696,
+              64.43356147883802,
+              26.48000121737187,
+              108.30218575470057,
+              1.927558689297587,
+              54.29330284414311
+            ],
+            "same_window_control_max_abs_score": 108.30218575470057,
+            "same_window_control_count_abs_above_five": 7
+          },
+          "max_control_score": 112.66361832328126,
+          "control_scores_at_or_above_target_peak": 32,
+          "target_windows_score_at_least_five": 5,
+          "control_windows_score_at_least_five": 53,
+          "windows_with_all_controls_below_abs_score_five": 19,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 12.898439038358623,
+          "approximate_incremental_tess_magnitude_at_recovery": 17.663657111470137
+        }
+      },
+      "column_adjusted_matched_profile_injection_recovered_e_s": 10.000000000001943,
+      "column_adjusted_windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 667,
+          "minimum_cadences": 11,
+          "control_windows": 5336,
+          "first_bin_utc": "2026-08-09T14:00:00.000",
+          "last_bin_end_utc": "2026-09-07T05:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.8784305232355535,
+          "target_median_empirical_uncertainty_e_s": 2.2538324914318806,
+          "error_inflation_by_site": [
+            2.565749290143359,
+            1.1255563576981769,
+            2.2923237776157754,
+            1.0,
+            1.0209617894692316,
+            1.0,
+            1.0,
+            10.56926456317188,
+            1.1496273674096984
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-09-06T12:00:00.000",
+            "window_end_utc": "2026-09-06T13:00:00.000",
+            "cadences": 17,
+            "delta_e_s": 4.1212868743567075,
+            "formal_uncertainty_e_s": 0.880329915751641,
+            "empirical_uncertainty_e_s": 2.2587058564317357,
+            "residual_score": 1.824623096726479,
+            "same_window_control_scores": [
+              -0.4784753587576926,
+              1.0551752919574424,
+              0.7660623970629588,
+              0.22020906141894578,
+              1.2140838909443985,
+              -1.919099348511723,
+              0.9192676907224674,
+              -0.49888286748274224
+            ],
+            "same_window_control_max_abs_score": 1.919099348511723,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 4.0116641269724385,
+          "control_scores_at_or_above_target_peak": 177,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 667,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 19.08496082136288,
+          "approximate_incremental_tess_magnitude_at_recovery": 17.23827181814277
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 28,
+          "minimum_cadences": 260,
+          "control_windows": 224,
+          "first_bin_utc": "2026-08-10T00:00:00.000",
+          "last_bin_end_utc": "2026-09-07T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.1850248278596734,
+          "target_median_empirical_uncertainty_e_s": 2.2737211288710473,
+          "error_inflation_by_site": [
+            12.288735275005816,
+            2.6596302879868943,
+            10.874996057092039,
+            1.5878434993713002,
+            2.457292369793521,
+            1.9617979988492076,
+            2.082043965261488,
+            48.16785138059454,
+            2.823695689507031
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-09-06T00:00:00.000",
+            "window_end_utc": "2026-09-07T00:00:00.000",
+            "cadences": 365,
+            "delta_e_s": 2.285814531623865,
+            "formal_uncertainty_e_s": 0.18996961871697154,
+            "empirical_uncertainty_e_s": 2.3344863547066534,
+            "residual_score": 0.9791509498504204,
+            "same_window_control_scores": [
+              -0.49680982162185944,
+              0.9944629122332207,
+              1.776362700747218,
+              -0.5152685697930154,
+              0.8377956803734127,
+              -1.6801082298363463,
+              0.9798376654730376,
+              -1.6958123266862508
+            ],
+            "same_window_control_max_abs_score": 1.776362700747218,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 4.563814917868766,
+          "control_scores_at_or_above_target_peak": 46,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 28,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 17.50654545607296,
+          "approximate_incremental_tess_magnitude_at_recovery": 17.331998860573847
+        }
+      }
+    },
+    {
+      "sector": 108,
+      "camera": 2,
+      "ccd": 1,
+      "size_pixels": 15,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_108_15x15.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=15&y=15&sector=108",
+        "sha256": "d95cb2ab6d3aef8bbd1eac0b0fe48eb2eab0054ee6beb6da6d0874044a1eceab"
+      },
+      "prf_receipts": [
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-1-row1536-col1069.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd1/tess2019107181901-prf-2-1-row1536-col1069.fits",
+          "sha256": "be7a2332aafc7d48dfc3d2b774d88f9de779473ed6f38c93e3223c49be1c7008"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-1-row1536-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd1/tess2019107181901-prf-2-1-row1536-col1580.fits",
+          "sha256": "9053dc3496384945082ccf6e60b21274729b9d2f0cf2733c6c35cf53c8dfc117"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-1-row2048-col1069.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd1/tess2019107181901-prf-2-1-row2048-col1069.fits",
+          "sha256": "62eb44f500cc2e67a328a94b2acc7c84c9fc807683206443ebf8684b14dbe491"
+        },
+        {
+          "path": "data/raw/calibration/tess/tess2019107181901-prf-2-1-row2048-col1580.fits",
+          "url": "https://archive.stsci.edu/missions/tess/models/prf_fitsfiles/start_s0004/cam2_ccd1/tess2019107181901-prf-2-1-row2048-col1580.fits",
+          "sha256": "0f8b8f0c8cb0d8c4c209beb92dfe6c9cc9d9f84e428eafd029e4ae313d174b62"
+        }
+      ],
+      "file_member": "tess-s0108-2-1_53.188670_-27.812539_15x15_astrocut.fits",
+      "cutout_target_xy": [
+        7.048935993827211,
+        7.193842753557572
+      ],
+      "ffi_target_column_row": [
+        1310.0489359938272,
+        1914.1938427535576
+      ],
+      "target_profile_fraction_in_cutout": 1.0,
+      "cadence_seconds": 199.99999999999872,
+      "fits_cadences": 11084,
+      "usable_cadences": 9870,
+      "fits_start_utc": "2026-09-07T11:38:19.865",
+      "fits_end_utc": "2026-10-04T20:23:31.316",
+      "first_valid_midpoint_utc": "2026-09-07T11:47:27.155",
+      "last_valid_midpoint_utc": "2026-10-04T20:17:26.016",
+      "valid_midpoint_dates_utc": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04"
+      ],
+      "matched_profile_injection_recovered_e_s": 10.00000000000037,
+      "windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 551,
+          "minimum_cadences": 11,
+          "control_windows": 4408,
+          "first_bin_utc": "2026-09-07T12:00:00.000",
+          "last_bin_end_utc": "2026-10-04T19:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.6292306690783813,
+          "target_median_empirical_uncertainty_e_s": 0.8863817806832215,
+          "error_inflation_by_site": [
+            1.4086754257885794,
+            1.160462680166947,
+            2.0600051868352582,
+            1.988161409805215,
+            1.0,
+            1.5969415833292524,
+            1.2512871673635324,
+            1.0,
+            1.6052870830419887
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-10-02T18:00:00.000",
+            "window_end_utc": "2026-10-02T19:00:00.000",
+            "cadences": 18,
+            "delta_e_s": 2.6044692496449176,
+            "formal_uncertainty_e_s": 0.6027609111303907,
+            "empirical_uncertainty_e_s": 0.8490944831353151,
+            "residual_score": 3.067349160046137,
+            "same_window_control_scores": [
+              1.2150908974236612,
+              -0.05259277185131368,
+              -0.9298224936098577,
+              -2.0066412010194354,
+              0.40146673757470647,
+              -0.4862733729505826,
+              0.1591938829518637,
+              -0.13079624266213813
+            ],
+            "same_window_control_max_abs_score": 2.0066412010194354,
+            "same_window_control_count_abs_above_five": 0,
+            "residual_image_rms_inside_target_profile_core_e_s_per_pixel": 0.3201043549018568,
+            "residual_image_rms_outside_target_profile_core_e_s_per_pixel": 0.4095166204838192,
+            "target_model_cross_correlation_with_residual_image": 0.16130040838822846,
+            "fraction_of_centered_image_variance_in_column_means": 0.08576492118157432
+          },
+          "max_control_score": 4.701576785552435,
+          "control_scores_at_or_above_target_peak": 55,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 551,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 7.660353813316471,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.229377927216685
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 23,
+          "minimum_cadences": 260,
+          "control_windows": 184,
+          "first_bin_utc": "2026-09-08T00:00:00.000",
+          "last_bin_end_utc": "2026-10-05T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.1410782836018292,
+          "target_median_empirical_uncertainty_e_s": 0.8237358304925259,
+          "error_inflation_by_site": [
+            5.838856338920227,
+            3.032813630208097,
+            8.647490476487299,
+            8.697521503101544,
+            1.436568749573284,
+            7.108637715697244,
+            5.728579943993435,
+            1.029364583814067,
+            3.8663337145705543
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-09-30T00:00:00.000",
+            "window_end_utc": "2026-10-01T00:00:00.000",
+            "cadences": 432,
+            "delta_e_s": 1.0792815486317053,
+            "formal_uncertainty_e_s": 0.12307452523933086,
+            "empirical_uncertainty_e_s": 0.7186144718532644,
+            "residual_score": 1.5018923093050183,
+            "same_window_control_scores": [
+              1.6153318077927223,
+              -0.8944029993639022,
+              -0.5457127477021504,
+              0.27063211312440844,
+              0.7661016971699146,
+              -0.6904775432193637,
+              -1.4967264083013527,
+              0.34132537537736707
+            ],
+            "same_window_control_max_abs_score": 1.6153318077927223,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 5.111483285503051,
+          "control_scores_at_or_above_target_peak": 27,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 1,
+          "windows_with_all_controls_below_abs_score_five": 21,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 8.044820230240985,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.17620914053036
+        }
+      },
+      "column_adjusted_matched_profile_injection_recovered_e_s": 10.000000000000796,
+      "column_adjusted_windows": {
+        "1": {
+          "duration_hours": 1,
+          "windows": 551,
+          "minimum_cadences": 11,
+          "control_windows": 4408,
+          "first_bin_utc": "2026-09-07T12:00:00.000",
+          "last_bin_end_utc": "2026-10-04T19:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.6914280070849045,
+          "target_median_empirical_uncertainty_e_s": 0.9875331751761277,
+          "error_inflation_by_site": [
+            1.428251625703763,
+            1.09521093685111,
+            1.5596931199196666,
+            1.2114214272216335,
+            1.0,
+            2.1003667041981173,
+            1.0752153645934097,
+            1.0725318476596826,
+            1.1756966765547756
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-10-02T18:00:00.000",
+            "window_end_utc": "2026-10-02T19:00:00.000",
+            "cadences": 18,
+            "delta_e_s": 2.89014019340523,
+            "formal_uncertainty_e_s": 0.6623501659122502,
+            "empirical_uncertainty_e_s": 0.9460027012493284,
+            "residual_score": 3.0551077598281666,
+            "same_window_control_scores": [
+              1.8137785582661294,
+              0.5457091723121258,
+              -0.723343126628809,
+              -1.272077315921963,
+              0.5864529722257674,
+              0.20819671403636317,
+              0.7920943734880166,
+              0.6119406154346824
+            ],
+            "same_window_control_max_abs_score": 1.8137785582661294,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 4.684627349088592,
+          "control_scores_at_or_above_target_peak": 46,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 551,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 8.518236855984306,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.11412572052394
+        },
+        "24": {
+          "duration_hours": 24,
+          "windows": 23,
+          "minimum_cadences": 260,
+          "control_windows": 184,
+          "first_bin_utc": "2026-09-08T00:00:00.000",
+          "last_bin_end_utc": "2026-10-05T00:00:00.000",
+          "target_median_formal_uncertainty_e_s": 0.155043724832438,
+          "target_median_empirical_uncertainty_e_s": 0.9348639461022769,
+          "error_inflation_by_site": [
+            6.0296793508581015,
+            3.163180767837375,
+            6.9699592993575745,
+            4.707066799979487,
+            1.0,
+            10.112299204091821,
+            3.9123527638858424,
+            2.755461749513619,
+            2.6649947122739173
+          ],
+          "peak_target": {
+            "window_start_utc": "2026-09-30T00:00:00.000",
+            "window_end_utc": "2026-10-01T00:00:00.000",
+            "cadences": 432,
+            "delta_e_s": 1.3652292406881912,
+            "formal_uncertainty_e_s": 0.135257185471715,
+            "empirical_uncertainty_e_s": 0.8155574582939843,
+            "residual_score": 1.673982901884108,
+            "same_window_control_scores": [
+              1.9354100891265273,
+              -0.49303963979683263,
+              -0.7217759464455338,
+              0.9451341239146804,
+              0.487569086670831,
+              -0.42115642855980673,
+              0.7889519391637776,
+              0.9698267669758376
+            ],
+            "same_window_control_max_abs_score": 1.9354100891265273,
+            "same_window_control_count_abs_above_five": 0
+          },
+          "max_control_score": 4.286939080146002,
+          "control_scores_at_or_above_target_peak": 30,
+          "target_windows_score_at_least_five": 0,
+          "control_windows_score_at_least_five": 0,
+          "windows_with_all_controls_below_abs_score_five": 23,
+          "target_excursions_in_those_windows": [],
+          "control_recovery_90pct_5sigma_e_s": 7.4662679219891155,
+          "approximate_incremental_tess_magnitude_at_recovery": 18.25724107441374
+        }
+      }
+    }
+  ],
+  "nearest_sectors_planned_coverage": [
+    {
+      "sector": 108,
+      "planned_start_utc": "2026-09-07",
+      "planned_end_utc": "2026-10-05",
+      "predicted_detectors": [
+        {
+          "sector": 108,
+          "camera": 2,
+          "ccd": 1,
+          "column": 1309.449,
+          "row": 1914.1395,
+          "sector_midpoint": "September 2026"
+        }
+      ]
+    },
+    {
+      "sector": 109,
+      "planned_start_utc": "2026-10-05",
+      "planned_end_utc": "2026-10-31",
+      "predicted_detectors": []
+    },
+    {
+      "sector": 110,
+      "planned_start_utc": "2026-10-31",
+      "planned_end_utc": "2026-11-26",
+      "predicted_detectors": []
+    },
+    {
+      "sector": 111,
+      "planned_start_utc": "2026-11-26",
+      "planned_end_utc": "2026-12-22",
+      "predicted_detectors": []
+    }
+  ],
+  "method": "Fit the MAST calibrated pixel response of a source at the fixed JWST position and eight spatial controls jointly, using QUALITY=0 and finite flux/errors at all pixels. Subtract a median reference excluding the UTC day under measurement. Use a local quadratic radial background, reference scene, and its two gradients as nuisance terms. Bin in fixed UTC hours and days, retaining windows with at least 60% cadence completeness. Subtract TIMECORR from BTJD to reconstruct cadence midpoint UTC. Use the larger of formal errors and formal errors scaled by the MAD of flux/formal error. A second fit uses one nuisance offset per detector column and quadratic row terms to test the effect of stripes in the residual images. Both fits list excursions that exceed score five while all eight same-window control scores have magnitude below five.",
+  "recovery_scope": "Analytic matched-profile recovery on measured control residuals. Controls are rescaled to target uncertainty within corresponding windows. We quote the increment needed to exceed residual score 5 in at least 90% of such trials, conditional on observed windows and a fixed difference-image reference. Controls share images and are not independent global false-alarm trials. Magnitudes approximate the incremental TESS-band source flux using the instrument zeropoint, on the TESS Vega-based scale. Bright sources can saturate. Brief flares and signals in gaps or spanning much of a sector may be missed."
+}

@@ -1175,10 +1175,63 @@ coverage from images pending release remain unmeasured.
 [Fink ZTF cone-search documentation](https://doc.ztf.fink-broker.org/services/search/conesearch/) ·
 [Footprint and broker query receipts](../results/jwst_cross_detector/module_b_001_ztf_coverage.json).
 
+**TESS.** We extracted full-frame pixels at the fixed JWST position
+from all six sectors returned by the public MAST TESSCut service
+on 27 November 2026. The six sectors span October–November 2018,
+October–November 2020, and June–October 2026. In total 46,617 of
+50,360 cadences passed the quality and finite-pixel checks. Sector
+108 ended on 4 October at 20:23 UTC, 122.12 hours before the first
+October JWST exposure. TESS-point predicts that sectors 109–111
+miss the position. The public TESS images therefore test for a
+precursor and earlier optical activity. The JWST bright and fading
+visits have no contemporaneous TESS measurement in these data.
+[MAST TESSCut](https://mast.stsci.edu/tesscut/docs/getting_started.html) ·
+[NASA TESS-point](https://heasarc.gsfc.nasa.gov/wsgi-scripts/TESS/TESS-point_Web_Tool/TESS-point_Web_Tool/wtv_v2.0.py/) ·
+[TESS Year 9 observing calendar](https://tess.mit.edu/tess-year-9-observations/) ·
+[Cutout and geometry receipts](../results/jwst_cross_detector/module_b_001_tess_inventory.json).
+
+We fitted the calibrated TESS point response at the target and
+eight control positions four pixels apart, with a local background
+and reference scene model. Each difference used a reference that
+excluded the same UTC day. Hourly and daily means used a minimum
+cadence completeness of 60%. Error bars include inflation from
+the measured residual scatter at each position and timescale.
+Matched-profile trials on local control residuals give the
+incremental signal needed to cross a score of five in 90% of trials
+at the target noise scale. In sector 108, these amplitudes are
+**7.66 e⁻/s** for one hour and **8.04 e⁻/s** for one day, equivalent
+to approximately **T = 18.23** and **T = 18.18**, respectively. The
+brightest standardized positive hour in that sector, on 2 October
+at 18:00 UTC, was **2.60 ± 0.85 e⁻/s**. These are TESS-band
+measurements of extra light within sampled intervals. TESS's
+roughly 21″ pixels blend many sources, and its passband differs
+from JWST's near-infrared filters.
+[TESS FFI and point-response calibration](https://outerspace.stsci.edu/spaces/TESS/pages/14563420/2.0%2B-%2BData%2BProduct%2BOverview) ·
+[TESS magnitude calibration](https://tess.mit.edu/public/tesstransients/pages/readme.html) ·
+[Per-sector photometry, cadence counts and sensitivity trials](../results/jwst_cross_detector/module_b_001_tess_history.json).
+
+![Actual TESS field pixels and signed daily photometry with error bars for the six covering sectors](../figures/jwst_cross_detector/module_b_001_tess_history.png)
+
+The strongest hourly residuals in sectors 31, 106 and 107 show
+stripes that extend across the cutout. Column means explain
+93–97% of the image variance in those three peak-hour residuals.
+Allowing an independent background offset per column reduced the
+largest hourly target scores in these sectors from 40.74, 45.20
+and 17.84 to 2.78, 3.22 and 1.83, respectively. Across 3,421
+hourly and 142 daily windows, all target scores of five or greater
+coincided with at least one control whose absolute score also
+reached five, in both fits. The TESS search yielded no credible
+evidence of earlier optical activity at the JWST position.
+Day-scale signals that persist into the sector reference,
+fainter transients and events in the gaps remain unconstrained.
+
+![TESS difference images during the highest-scoring hour of each sector. The circle marks the transient position. Crosses mark the positions used for control measurements.](../figures/jwst_cross_detector/module_b_001_tess_history_peaks.png)
+
 The timeline summarizes the dates behind the historical comparison
 and the search for independent evidence during the 2026 event.
 The DES z-band measurements, Swift XRT visits, Swift UVOT snapshot,
-Euclid H-band visits and ZTF public image dates extend the earlier baseline.
+Euclid H-band visits, ZTF public image dates and TESS cadence days extend
+the earlier baseline.
 The October–November 2026 records keep unreleased DECam footprints,
 nearby Rubin alerts and off-target HST footprints distinct from the
 two measured JWST visits.

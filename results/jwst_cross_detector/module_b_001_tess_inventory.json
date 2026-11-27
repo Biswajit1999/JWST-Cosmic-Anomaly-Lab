@@ -1,0 +1,182 @@
+{
+  "executed_utc": "2026-11-27T01:18:45.606763+00:00",
+  "script_sha256": "7ced91bdea20a6c5a6b52269aef2457ebe3e49e6d510fce0e15e5bca7d4c5bd6",
+  "position_source_sha256": "9cabdb606464e935e467d912db508a7a1f4f10a8b57f59c28bb9ae417f3f245c",
+  "position_icrs_deg": [
+    53.18866983298658,
+    -27.812539402767552
+  ],
+  "archive_sector_receipt": {
+    "path": "data/raw/metadata/module_b_001_tess_sectors.json",
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=53.18866983298658&dec=-27.812539402767552",
+    "sha256": "058fd387ad5df96bed1e43fdcd378d1efbe5a2447a703c0ac8a9cdde6bab73df"
+  },
+  "tesscut_products": [
+    {
+      "sector": 4,
+      "camera": 2,
+      "ccd": 2,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_4_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=4",
+        "sha256": "fd60ce0f9c1c1923423c3caea8871a47eaa4575ffcc044910a8f1f9d35b55b82"
+      }
+    },
+    {
+      "sector": 31,
+      "camera": 2,
+      "ccd": 1,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_31_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=31",
+        "sha256": "5c1d88a5424b1c687f1819fe6bc6812240eb3b760f63fe903fcad4ed3876a199"
+      }
+    },
+    {
+      "sector": 105,
+      "camera": 4,
+      "ccd": 3,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_105_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=105",
+        "sha256": "d0ecdb0e6e26a3676d69a4a1741fdf014f849a0e24dbc22addcc1e93d2426164"
+      }
+    },
+    {
+      "sector": 106,
+      "camera": 4,
+      "ccd": 1,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_106_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=106",
+        "sha256": "a73cc43edde526f17e2a30adc6d676ba3d638e4e5f13d92e79ed31de4a56cbe3"
+      }
+    },
+    {
+      "sector": 107,
+      "camera": 3,
+      "ccd": 1,
+      "size_pixels": 13,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_107_13x13.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=13&y=13&sector=107",
+        "sha256": "856b3c30a19ab3765368e0a9178ffd0eadccd0f984e378c645527398b5198550"
+      }
+    },
+    {
+      "sector": 108,
+      "camera": 2,
+      "ccd": 1,
+      "size_pixels": 15,
+      "cutout": {
+        "path": "data/raw/cross_detector/tess_ffi/module_b_001_tess_108_15x15.zip",
+        "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=53.18866983298658&dec=-27.812539402767552&x=15&y=15&sector=108",
+        "sha256": "d95cb2ab6d3aef8bbd1eac0b0fe48eb2eab0054ee6beb6da6d0874044a1eceab"
+      }
+    }
+  ],
+  "event_window_utc": [
+    "2026-10-01",
+    "2026-11-27"
+  ],
+  "predicted_covering_detectors": [
+    {
+      "sector": 4,
+      "camera": 2,
+      "ccd": 2,
+      "column": 312.1745,
+      "row": 1545.2378,
+      "sector_midpoint": "November 2018"
+    },
+    {
+      "sector": 31,
+      "camera": 2,
+      "ccd": 1,
+      "column": 2010.7264,
+      "row": 1547.0586,
+      "sector_midpoint": "November 2020"
+    },
+    {
+      "sector": 105,
+      "camera": 4,
+      "ccd": 3,
+      "column": 1978.5854,
+      "row": 703.3557,
+      "sector_midpoint": "June 2026"
+    },
+    {
+      "sector": 106,
+      "camera": 4,
+      "ccd": 1,
+      "column": 1372.5379,
+      "row": 341.8764,
+      "sector_midpoint": "July 2026"
+    },
+    {
+      "sector": 107,
+      "camera": 3,
+      "ccd": 1,
+      "column": 1627.9987,
+      "row": 1164.0994,
+      "sector_midpoint": "August 2026"
+    },
+    {
+      "sector": 108,
+      "camera": 2,
+      "ccd": 1,
+      "column": 1309.449,
+      "row": 1914.1395,
+      "sector_midpoint": "September 2026"
+    }
+  ],
+  "sectors_during_2026_window": [
+    {
+      "sector": 108,
+      "planned_start_utc": "2026-09-07",
+      "planned_end_utc": "2026-10-05",
+      "predicted_detectors": [
+        {
+          "sector": 108,
+          "camera": 2,
+          "ccd": 1,
+          "column": 1309.449,
+          "row": 1914.1395,
+          "sector_midpoint": "September 2026"
+        }
+      ]
+    },
+    {
+      "sector": 109,
+      "planned_start_utc": "2026-10-05",
+      "planned_end_utc": "2026-10-31",
+      "predicted_detectors": []
+    },
+    {
+      "sector": 110,
+      "planned_start_utc": "2026-10-31",
+      "planned_end_utc": "2026-11-26",
+      "predicted_detectors": []
+    },
+    {
+      "sector": 111,
+      "planned_start_utc": "2026-11-26",
+      "planned_end_utc": "2026-12-22",
+      "predicted_detectors": []
+    }
+  ],
+  "pointing_receipt": {
+    "path": "data/raw/metadata/module_b_001_tess_point.html",
+    "url": "https://heasarc.gsfc.nasa.gov/wsgi-scripts/TESS/TESS-point_Web_Tool/TESS-point_Web_Tool/wtv_v2.0.py/RADec_result",
+    "sha256": "693b230e7c40823f1768e9b1c0271971d4d8ff280531af8d36de6825eac80070"
+  },
+  "schedule_receipt": {
+    "path": "data/raw/metadata/module_b_001_tess_year9.html",
+    "url": "https://tess.mit.edu/tess-year-9-observations/",
+    "sha256": "6b27336ef4a1c4d1c575ff6d6c3c507f9539d0f39bd0103c27a9bf90af4476a2"
+  },
+  "scope": "TESSCut identifies public SPOC FFI products at the position. NASA TESS-point and the TESS Science Office calendar give predicted footprints and planned dates. Neither alone establishes usable pixel data."
+}

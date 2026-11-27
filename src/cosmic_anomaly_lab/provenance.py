@@ -81,9 +81,12 @@ class DownloadCache:
         checksum=None,
         refresh=False,
         json_payload=None,
+        form_payload=None,
         response=None,
     ):
         """Store one response, using an optional already-open GET for the same URL."""
+        if json_payload is not None and form_payload is not None:
+            raise ValueError("Specify only one POST request body")
         path = (self.raw / filename).resolve()
         if not path.is_relative_to(self.raw) or path == self.raw:
             raise ValueError("Download path must remain inside data/raw")
@@ -93,6 +96,7 @@ class DownloadCache:
             if r["url"] == url
             and r["path"] == path.relative_to(self.root).as_posix()
             and r.get("request_json") == json_payload
+            and r.get("request_form") == form_payload
         ]
         if path.exists() and not refresh and records:
             if digest(path) != records[-1]["sha256"]:
@@ -106,15 +110,19 @@ class DownloadCache:
         used = sum(p.stat().st_size for p in self.raw.rglob("*") if p.is_file())
         available = self.budget - used
         if response is None:
-            response = (
-                self.session.get(url, stream=True, timeout=(20, 90))
-                if json_payload is None
-                else self.session.post(url, json=json_payload, stream=True, timeout=(20, 90))
-            )
+            if json_payload is not None:
+                response = self.session.post(url, json=json_payload, stream=True, timeout=(20, 90))
+            elif form_payload is not None:
+                response = self.session.post(url, data=form_payload, stream=True, timeout=(20, 90))
+            else:
+                response = self.session.get(url, stream=True, timeout=(20, 90))
         else:
             original = response.history[0].request if response.history else response.request
             expected_url = requests.Request("GET", url).prepare().url
-            if json_payload is not None or original.method != "GET" or original.url != expected_url:
+            if (
+                json_payload is not None or form_payload is not None
+                or original.method != "GET" or original.url != expected_url
+            ):
                 raise ValueError("Prepared response does not match the cache GET")
         with response:
             response.raise_for_status()
@@ -150,6 +158,8 @@ class DownloadCache:
                 )
                 if json_payload is not None:
                     record["request_json"] = json_payload
+                if form_payload is not None:
+                    record["request_form"] = form_payload
                 part.replace(path)
                 self.records.append(record)
                 write_json(self.manifest, self.records)
